@@ -757,3 +757,712 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.07.29-07.30.39:220][380]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player1D9A25FC42B530D3DA4C4987CE69E37B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
 [2022.07.29-07.30.39:231][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
 [2022.07.29-07.30.39:324][380]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player45032A884D96C57A38AD6BA36C2A3FC9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.07.29-07.32.02:666][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.32.02:821][773]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Player/ABP_Player.ABP_Player
+[2022.07.29-07.32.02:829][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.32.03:023][773]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-07.32.48:012][573]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Enemy/ABP_Enemy.ABP_Enemy
+[2022.07.29-07.32.48:019][573]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.32.48:196][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-07.32.54:678][124]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2022.07.29-07.32.54:801][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.32.54:806][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.32.58:599][492]LogUObjectHash: Warning: Ambiguous search, could be K2Node_Event /Game/Enemy/ABP_Enemy.ABP_Enemy:EventGraph.K2Node_Event_0 or K2Node_Event /Game/Enemy/ABP_Enemy.ABP_Enemy:EventGraph.K2Node_Event_0
+[2022.07.29-07.32.58:599][492]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemy/ABP_Enemy.ABP_Enemy:EventGraph.K2Node_CallFunction_0 or K2Node_CallFunction /Game/Enemy/ABP_Enemy.ABP_Enemy:EventGraph.K2Node_CallFunction_0
+[2022.07.29-07.36.49:593][830]BlueprintLog: New page: ABP_Enemy 컴파일
+[2022.07.29-07.36.49:727][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.07.29-07.37.17:397][149]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.07.29-07.37.24:567][761]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.29-07.40.37:724][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.07.29-07.40.37:866][117]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto22BAC210645BD1BDADE9C62AC8FE61CE7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto2.umap'
+[2022.07.29-07.40.37:869][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.179
+[2022.07.29-07.40.37:869][117]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
+[2022.07.29-07.40.37:870][117]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/BP_Enemy] ([1] browsable assets)...
+[2022.07.29-07.40.37:880][117]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/BP_Enemy.BP_Enemy]
+[2022.07.29-07.40.37:880][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BP_Enemy]
+[2022.07.29-07.40.37:912][117]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto211C43EA64B9A4E473CDB52A4AC44D251.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BP_Enemy_Auto2.uasset'
+[2022.07.29-07.40.37:914][117]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/ABP_Enemy] ([1] browsable assets)...
+[2022.07.29-07.40.37:923][117]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemy/ABP_Enemy.ABP_Enemy]
+[2022.07.29-07.40.37:923][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/ABP_Enemy]
+[2022.07.29-07.40.37:972][117]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Enemy_Auto260995A2645C8D3645EC9398DD110E3A6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/ABP_Enemy_Auto2.uasset'
+[2022.07.29-07.40.37:974][117]LogFileHelpers: Auto-saving content packages took 0.104
+[2022.07.29-07.41.34:992][438]LogSlate: Window 'BP_Enemy' being destroyed
+[2022.07.29-07.41.34:998][438]LogSlate: Window 'BP_Enemy' being destroyed
+[2022.07.29-07.41.44:809][977]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Run_F.fbx)
+[2022.07.29-07.41.44:984][977]LogFbx: Loading FBX Scene from C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Run_F.fbx
+[2022.07.29-07.41.45:033][977]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.29-07.41.49:224][977]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.07.29-07.41.49:250][977]LogFbx: =================================================
+[2022.07.29-07.41.49:250][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:250][977]LogFbx: 	Total Deformer Count -46280384.
+[2022.07.29-07.41.49:250][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:250][977]LogFbx: =================================================
+[2022.07.29-07.41.49:250][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:250][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:250][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:251][977]LogFbx: =================================================
+[2022.07.29-07.41.49:251][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:251][977]LogFbx: 	Total Deformer Count -46280384.
+[2022.07.29-07.41.49:251][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:251][977]LogFbx: =================================================
+[2022.07.29-07.41.49:251][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:251][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:251][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:251][977]LogFbx: SortedLinks :(0) root
+[2022.07.29-07.41.49:251][977]LogFbx: SortedLinks :(1) Pelvis
+[2022.07.29-07.41.49:251][977]LogFbx: SortedLinks :(2) spine_01
+[2022.07.29-07.41.49:251][977]LogFbx: SortedLinks :(3) spine_02
+[2022.07.29-07.41.49:251][977]LogFbx: SortedLinks :(4) spine_03
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(5) neck_01
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(6) head
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(7) End
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(8) LeftEye
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(9) RightEye
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(10) clavicle_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(11) upperarm_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(12) lowerarm_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(13) hand_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(14) middle_01_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(15) middle_02_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(16) middle_03_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(17) thumb_01_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(18) thumb_02_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(19) thumb_03_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(20) index_01_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(21) index_02_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(22) index_03_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(23) ring_01_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(24) ring_02_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(25) ring_03_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(26) pinky_01_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(27) pinky_02_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(28) pinky_03_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(29) clavicle_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(30) upperarm_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(31) lowerarm_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(32) hand_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(33) middle_01_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(34) middle_02_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(35) middle_03_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(36) thumb_01_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(37) thumb_02_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(38) thumb_03_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(39) index_01_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(40) index_02_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(41) index_03_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(42) ring_01_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(43) ring_02_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(44) ring_03_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(45) pinky_01_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(46) pinky_02_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(47) pinky_03_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(48) thigh_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(49) calf_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(50) foot_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(51) ball_r
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(52) thigh_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(53) calf_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(54) foot_l
+[2022.07.29-07.41.49:252][977]LogFbx: SortedLinks :(55) ball_l
+[2022.07.29-07.41.49:253][977]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.07.29-07.41.49:254][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Run_F' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:255][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Run_F' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:347][977]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Mixamo/Great_Sword_Run_F.Great_Sword_Run_F
+[2022.07.29-07.41.49:347][977]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_F) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.41.49:375][977]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Strafe_L.fbx)
+[2022.07.29-07.41.49:385][977]LogFbx: Loading FBX Scene from C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Strafe_L.fbx
+[2022.07.29-07.41.49:409][977]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.29-07.41.49:416][977]LogFbx: =================================================
+[2022.07.29-07.41.49:416][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:416][977]LogFbx: 	Total Deformer Count 1311867840.
+[2022.07.29-07.41.49:416][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:416][977]LogFbx: =================================================
+[2022.07.29-07.41.49:416][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:416][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:416][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:416][977]LogFbx: =================================================
+[2022.07.29-07.41.49:416][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:416][977]LogFbx: 	Total Deformer Count 1311867840.
+[2022.07.29-07.41.49:416][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:416][977]LogFbx: =================================================
+[2022.07.29-07.41.49:416][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:416][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:416][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(0) root
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(1) Pelvis
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(2) spine_01
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(3) spine_02
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(4) spine_03
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(5) neck_01
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(6) head
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(7) End
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(8) LeftEye
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(9) RightEye
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(10) clavicle_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(11) upperarm_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(12) lowerarm_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(13) hand_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(14) middle_01_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(15) middle_02_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(16) middle_03_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(17) thumb_01_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(18) thumb_02_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(19) thumb_03_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(20) index_01_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(21) index_02_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(22) index_03_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(23) ring_01_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(24) ring_02_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(25) ring_03_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(26) pinky_01_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(27) pinky_02_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(28) pinky_03_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(29) clavicle_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(30) upperarm_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(31) lowerarm_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(32) hand_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(33) middle_01_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(34) middle_02_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(35) middle_03_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(36) thumb_01_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(37) thumb_02_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(38) thumb_03_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(39) index_01_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(40) index_02_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(41) index_03_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(42) ring_01_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(43) ring_02_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(44) ring_03_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(45) pinky_01_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(46) pinky_02_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(47) pinky_03_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(48) thigh_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(49) calf_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(50) foot_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(51) ball_r
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(52) thigh_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(53) calf_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(54) foot_l
+[2022.07.29-07.41.49:417][977]LogFbx: SortedLinks :(55) ball_l
+[2022.07.29-07.41.49:418][977]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.07.29-07.41.49:419][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Strafe_L' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:419][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Strafe_L' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:514][977]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Mixamo/Great_Sword_Strafe_L.Great_Sword_Strafe_L
+[2022.07.29-07.41.49:514][977]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_L) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.41.49:528][977]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Strafe_R.fbx)
+[2022.07.29-07.41.49:538][977]LogFbx: Loading FBX Scene from C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Strafe_R.fbx
+[2022.07.29-07.41.49:562][977]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.29-07.41.49:569][977]LogFbx: =================================================
+[2022.07.29-07.41.49:569][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:569][977]LogFbx: 	Total Deformer Count -2082644864.
+[2022.07.29-07.41.49:569][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:570][977]LogFbx: =================================================
+[2022.07.29-07.41.49:570][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:570][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:570][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:570][977]LogFbx: =================================================
+[2022.07.29-07.41.49:570][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:570][977]LogFbx: 	Total Deformer Count -2082644864.
+[2022.07.29-07.41.49:570][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:570][977]LogFbx: =================================================
+[2022.07.29-07.41.49:570][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:570][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:570][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(0) root
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(1) Pelvis
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(2) spine_01
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(3) spine_02
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(4) spine_03
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(5) neck_01
+[2022.07.29-07.41.49:570][977]LogFbx: SortedLinks :(6) head
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(7) End
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(8) LeftEye
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(9) RightEye
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(10) clavicle_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(11) upperarm_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(12) lowerarm_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(13) hand_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(14) middle_01_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(15) middle_02_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(16) middle_03_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(17) thumb_01_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(18) thumb_02_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(19) thumb_03_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(20) index_01_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(21) index_02_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(22) index_03_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(23) ring_01_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(24) ring_02_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(25) ring_03_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(26) pinky_01_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(27) pinky_02_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(28) pinky_03_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(29) clavicle_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(30) upperarm_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(31) lowerarm_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(32) hand_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(33) middle_01_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(34) middle_02_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(35) middle_03_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(36) thumb_01_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(37) thumb_02_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(38) thumb_03_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(39) index_01_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(40) index_02_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(41) index_03_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(42) ring_01_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(43) ring_02_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(44) ring_03_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(45) pinky_01_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(46) pinky_02_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(47) pinky_03_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(48) thigh_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(49) calf_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(50) foot_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(51) ball_r
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(52) thigh_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(53) calf_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(54) foot_l
+[2022.07.29-07.41.49:571][977]LogFbx: SortedLinks :(55) ball_l
+[2022.07.29-07.41.49:572][977]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.07.29-07.41.49:572][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Strafe_R' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:572][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Strafe_R' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:669][977]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Mixamo/Great_Sword_Strafe_R.Great_Sword_Strafe_R
+[2022.07.29-07.41.49:670][977]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_R) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.41.49:682][977]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Idle.fbx)
+[2022.07.29-07.41.49:693][977]LogFbx: Loading FBX Scene from C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Idle.fbx
+[2022.07.29-07.41.49:716][977]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.29-07.41.49:725][977]LogFbx: =================================================
+[2022.07.29-07.41.49:725][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:725][977]LogFbx: 	Total Deformer Count 1311508288.
+[2022.07.29-07.41.49:725][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:725][977]LogFbx: =================================================
+[2022.07.29-07.41.49:725][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:725][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:725][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:725][977]LogFbx: =================================================
+[2022.07.29-07.41.49:725][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.49:726][977]LogFbx: 	Total Deformer Count 1311508288.
+[2022.07.29-07.41.49:726][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.49:726][977]LogFbx: =================================================
+[2022.07.29-07.41.49:726][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.49:726][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.49:726][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(0) root
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(1) Pelvis
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(2) spine_01
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(3) spine_02
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(4) spine_03
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(5) neck_01
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(6) head
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(7) End
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(8) LeftEye
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(9) RightEye
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(10) clavicle_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(11) upperarm_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(12) lowerarm_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(13) hand_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(14) middle_01_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(15) middle_02_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(16) middle_03_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(17) thumb_01_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(18) thumb_02_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(19) thumb_03_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(20) index_01_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(21) index_02_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(22) index_03_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(23) ring_01_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(24) ring_02_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(25) ring_03_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(26) pinky_01_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(27) pinky_02_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(28) pinky_03_l
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(29) clavicle_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(30) upperarm_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(31) lowerarm_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(32) hand_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(33) middle_01_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(34) middle_02_r
+[2022.07.29-07.41.49:726][977]LogFbx: SortedLinks :(35) middle_03_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(36) thumb_01_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(37) thumb_02_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(38) thumb_03_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(39) index_01_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(40) index_02_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(41) index_03_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(42) ring_01_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(43) ring_02_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(44) ring_03_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(45) pinky_01_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(46) pinky_02_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(47) pinky_03_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(48) thigh_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(49) calf_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(50) foot_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(51) ball_r
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(52) thigh_l
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(53) calf_l
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(54) foot_l
+[2022.07.29-07.41.49:727][977]LogFbx: SortedLinks :(55) ball_l
+[2022.07.29-07.41.49:728][977]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.07.29-07.41.49:729][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Idle' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:729][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Idle' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.49:960][977]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Mixamo/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.41.49:960][977]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.41.49:974][977]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Run_B.fbx)
+[2022.07.29-07.41.49:985][977]LogFbx: Loading FBX Scene from C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Mixamo_Result\Great Sword Run_B.fbx
+[2022.07.29-07.41.50:009][977]LogFbx: FBX Scene Loaded Succesfully
+[2022.07.29-07.41.50:015][977]LogFbx: =================================================
+[2022.07.29-07.41.50:015][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.50:015][977]LogFbx: 	Total Deformer Count -46752064.
+[2022.07.29-07.41.50:015][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.50:015][977]LogFbx: =================================================
+[2022.07.29-07.41.50:015][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.50:015][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.50:015][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.50:016][977]LogFbx: =================================================
+[2022.07.29-07.41.50:016][977]LogFbx: Dumping Node START [binddummy] 
+[2022.07.29-07.41.50:016][977]LogFbx: 	Total Deformer Count -46752064.
+[2022.07.29-07.41.50:016][977]LogFbx: 		[Node 1] root (Type Skin).
+[2022.07.29-07.41.50:016][977]LogFbx: =================================================
+[2022.07.29-07.41.50:016][977]LogFbx: 	Attribute (Plane) Type (4).
+[2022.07.29-07.41.50:016][977]LogFbx: 		[Node Attribute Child 1] binddummy (Type Mesh).
+[2022.07.29-07.41.50:016][977]LogFbx: Dumping Node END [binddummy]
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(0) root
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(1) Pelvis
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(2) spine_01
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(3) spine_02
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(4) spine_03
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(5) neck_01
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(6) head
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(7) End
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(8) LeftEye
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(9) RightEye
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(10) clavicle_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(11) upperarm_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(12) lowerarm_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(13) hand_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(14) middle_01_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(15) middle_02_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(16) middle_03_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(17) thumb_01_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(18) thumb_02_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(19) thumb_03_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(20) index_01_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(21) index_02_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(22) index_03_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(23) ring_01_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(24) ring_02_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(25) ring_03_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(26) pinky_01_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(27) pinky_02_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(28) pinky_03_l
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(29) clavicle_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(30) upperarm_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(31) lowerarm_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(32) hand_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(33) middle_01_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(34) middle_02_r
+[2022.07.29-07.41.50:016][977]LogFbx: SortedLinks :(35) middle_03_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(36) thumb_01_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(37) thumb_02_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(38) thumb_03_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(39) index_01_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(40) index_02_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(41) index_03_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(42) ring_01_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(43) ring_02_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(44) ring_03_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(45) pinky_01_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(46) pinky_02_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(47) pinky_03_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(48) thigh_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(49) calf_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(50) foot_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(51) ball_r
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(52) thigh_l
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(53) calf_l
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(54) foot_l
+[2022.07.29-07.41.50:017][977]LogFbx: SortedLinks :(55) ball_l
+[2022.07.29-07.41.50:017][977]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.07.29-07.41.50:018][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Run_B' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.50:018][977]LogLinker: '/Game/Character/Mixamo/Great_Sword_Run_B' 파일을 찾을 수 없습니다.
+[2022.07.29-07.41.50:119][977]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Mixamo/Great_Sword_Run_B.Great_Sword_Run_B
+[2022.07.29-07.41.50:120][977]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_B) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.41.54:915][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.07.29-07.41.54:988][407]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.07.29-07.41.55:679][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.41.57:369][638]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.07.29-07.42.01:464][741]LogSlate: Window '새 애니메이션 오브젝트 생성' being destroyed
+[2022.07.29-07.42.04:182][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.42.04:182][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:183][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.42.04:183][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:187][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.42.04:187][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:189][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.42.04:189][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:193][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_B.Great_Sword_Run_B
+[2022.07.29-07.42.04:194][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_B) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:194][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_B.Great_Sword_Run_B
+[2022.07.29-07.42.04:195][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_B) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:198][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_B.Great_Sword_Run_B
+[2022.07.29-07.42.04:198][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_B) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:199][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_B.Great_Sword_Run_B
+[2022.07.29-07.42.04:199][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_B) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:203][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_F.Great_Sword_Run_F
+[2022.07.29-07.42.04:203][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_F) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:204][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_F.Great_Sword_Run_F
+[2022.07.29-07.42.04:204][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_F) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:207][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_F.Great_Sword_Run_F
+[2022.07.29-07.42.04:207][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_F) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:207][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Run_F.Great_Sword_Run_F
+[2022.07.29-07.42.04:208][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Run_F) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:212][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_L.Great_Sword_Strafe_L
+[2022.07.29-07.42.04:212][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_L) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:213][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_L.Great_Sword_Strafe_L
+[2022.07.29-07.42.04:213][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_L) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:215][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_L.Great_Sword_Strafe_L
+[2022.07.29-07.42.04:216][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_L) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:216][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_L.Great_Sword_Strafe_L
+[2022.07.29-07.42.04:217][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_L) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:220][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_R.Great_Sword_Strafe_R
+[2022.07.29-07.42.04:220][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_R) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:221][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_R.Great_Sword_Strafe_R
+[2022.07.29-07.42.04:221][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_R) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:224][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_R.Great_Sword_Strafe_R
+[2022.07.29-07.42.04:224][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_R) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:225][ 53]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Great_Sword_Strafe_R.Great_Sword_Strafe_R
+[2022.07.29-07.42.04:225][ 53]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Strafe_R) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.07.29-07.42.04:229][ 53]LogSlate: Window '스켈레톤 선택' being destroyed
+[2022.07.29-07.42.12:957][972]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/Great_Sword_Idle.Great_Sword_Idle
+[2022.07.29-07.42.12:962][972]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.42.12:981][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_42:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-07.42.13:182][972]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.07.29-07.42.14:826][ 83]LogSlate: Window 'Great_Sword_Idle' being destroyed
+[2022.07.29-07.42.26:514][119]LogSlate: Window '스켈레톤 선택' being destroyed
+[2022.07.29-07.42.26:574][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.42.33:511][881]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_GreatSwordACAD1DF145A88592A6F444A4814121EA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_GreatSword.uasset'
+[2022.07.29-07.42.33:626][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.07.29-07.42.33:650][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.07.29-07.42.33:674][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.07.29-07.42.33:775][886]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/Character/BlendSpaces/BS_GreatSword.BS_GreatSword
+[2022.07.29-07.42.33:780][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.42.33:804][886]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-07.42.34:005][886]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.07.29-07.43.46:250][678]LogSlate: Window 'BS_GreatSword' being destroyed
+[2022.07.29-07.43.46:256][678]LogSlate: Window 'BS_GreatSword' being destroyed
+[2022.07.29-07.43.47:511][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.07.29-07.43.48:617][803]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.07.29-07.43.48:675][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Idle07AB33884CF82CF32400FCB8CF4B57E6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Great_Sword_Idle.uasset'
+[2022.07.29-07.43.48:699][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_B5A9B26AF468ECD4CBF0FCC97FDCD17B2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Great_Sword_Run_B.uasset'
+[2022.07.29-07.43.48:721][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_FB5E30FEB4CEAB768856454AE1D073521.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Great_Sword_Run_F.uasset'
+[2022.07.29-07.43.48:745][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_L0836A6764E2466534BDA27B7E2BA8C7B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Great_Sword_Strafe_L.uasset'
+[2022.07.29-07.43.48:767][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_RD92DAC1641B8CC9C3921F1BFB63AD45C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Great_Sword_Strafe_R.uasset'
+[2022.07.29-07.43.48:807][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_GreatSwordC7DA838F4B2881AA1003F1AE39680FEB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_GreatSword.uasset'
+[2022.07.29-07.43.48:834][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Skel_Mannequin6FA6C8234D0A3DD70AE8D3A99F3CABA5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mesh/Skel_Mannequin.uasset'
+[2022.07.29-07.43.48:858][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_IdleF42E5B7045010A95C1EDC8ABB8757CD2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/Great_Sword_Idle.uasset'
+[2022.07.29-07.43.48:886][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_B5B9C1F324E0B4FCA03345AAF9DB31D25.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/Great_Sword_Run_B.uasset'
+[2022.07.29-07.43.48:909][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_F21EBD19D4A46CA45827274AF00C919BD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/Great_Sword_Run_F.uasset'
+[2022.07.29-07.43.48:934][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_L2087538A4B0FBEA57935F88A463B4FA6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/Great_Sword_Strafe_L.uasset'
+[2022.07.29-07.43.48:956][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_RC62C901046E6F75F0216A5844C8ED919.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/Great_Sword_Strafe_R.uasset'
+[2022.07.29-07.43.48:984][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ybot_Skeleton0796EA1F4AE4201AB69495BE30591238.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mixamo/ybot_Skeleton.uasset'
+[2022.07.29-07.43.48:997][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/ABP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/ABP_Enemy.uasset" SILENT=true
+[2022.07.29-07.43.49:045][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Enemy0BC533474E95F6E4ACC12BBEBFC31125.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/ABP_Enemy.uasset'
+[2022.07.29-07.43.49:057][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.07.29-07.43.49:088][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy8218CC354207DEF87BC109B9D0E215C0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.07.29-07.43.49:116][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.07.29-07.43.49:266][803]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat018A941D4F132A9CC89753BE176206F2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.07.29-07.43.49:280][803]LogFileHelpers: Saving map 'Combat' took 0.188
+[2022.07.29-07.43.55:045][440]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.07.29-07.44.02:888][899]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Enemy/ABP_Enemy.ABP_Enemy
+[2022.07.29-07.44.02:897][899]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.44.03:072][899]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-07.44.07:230][240]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.07.29-07.44.29:297][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.44.29:363][974]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.07.29-07.44.29:511][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.07.29-07.44.33:097][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.45.03:134][909]BlueprintLog: New page: ABP_Enemy 컴파일
+[2022.07.29-07.45.03:267][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.07.29-07.45.32:598][ 45]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/BP_Sword.BP_Sword
+[2022.07.29-07.49.23:268][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.49.38:214][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.49.47:647][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.50.03:307][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.50.09:441][968]LogEditorTransaction: Undo Capsule Radius 편집
+[2022.07.29-07.50.09:513][968]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-07.53.40:825][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.53.47:214][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.53.47:284][439]Cmd: MODE GRID=0
+[2022.07.29-07.54.05:446][210]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.54.11:347][843]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.54.14:306][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.54.20:434][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.54.20:501][744]Cmd: MODE GRID=1
+[2022.07.29-07.54.32:732][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-07.55.53:602][655]BlueprintLog: New page: BP_Sword 컴파일
+[2022.07.29-07.55.53:871][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.07.29-07.55.56:210][919]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-07.55.56:220][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.55.56:220][919]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.07.29-07.55.56:220][919]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2022.07.29-07.55.56:368][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.07.29-07.55.56:368][919]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2022.07.29-07.55.56:368][919]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 1:55:56)
+[2022.07.29-07.55.56:368][919]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-07.55.56:371][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002852s)
+[2022.07.29-07.55.56:371][919]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-07.55.56:372][919]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2022.07.29-07.55.56:372][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003533s)
+[2022.07.29-07.55.56:402][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.07.29-07.55.56:578][919]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-07.55.56:633][919]LogInit: FAudioDevice initialized.
+[2022.07.29-07.55.56:658][919]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-07.55.56:660][919]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-16.55.56
+[2022.07.29-07.55.57:060][919]LogWorld: Bringing up level for play took: 0.401849
+[2022.07.29-07.55.57:073][919]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Player
+[2022.07.29-07.55.57:073][919]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.442
+[2022.07.29-07.55.57:073][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.56.04:901][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.56.04:901][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-07.56.04:931][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-07.56.04:931][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.56.04:963][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-07.56.04:966][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.07.29-07.56.05:005][845]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.07.29-07.56.07:414][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.56.27:933][285]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.07.29-07.57.22:936][598]BlueprintLog: New page: BP_Sword 컴파일
+[2022.07.29-07.57.23:081][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.07.29-07.57.24:900][806]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-07.57.24:909][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.57.24:909][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-07.57.24:910][806]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 1:57:24)
+[2022.07.29-07.57.24:910][806]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-07.57.24:912][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002185s)
+[2022.07.29-07.57.24:912][806]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-07.57.24:912][806]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2022.07.29-07.57.24:912][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002697s)
+[2022.07.29-07.57.24:946][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.07.29-07.57.25:118][806]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-07.57.25:168][806]LogInit: FAudioDevice initialized.
+[2022.07.29-07.57.25:198][806]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-07.57.25:199][806]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-16.57.25
+[2022.07.29-07.57.25:200][806]LogWorld: Bringing up level for play took: 0.001687
+[2022.07.29-07.57.25:212][806]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.419
+[2022.07.29-07.57.25:212][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.57.28:316][176]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.28:341][179]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.28:399][186]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.28:691][220]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.33:701][815]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.34:173][871]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.34:903][958]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.35:390][ 16]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.37:153][226]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.40:892][671]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.41:037][688]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.42:306][839]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.43:095][933]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.43:568][989]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.48:458][573]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.48:458][573]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-07.57.50:224][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.57.50:224][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-07.57.50:258][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-07.57.50:259][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-07.57.50:290][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-07.57.50:293][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.07.29-07.57.50:332][786]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.07.29-07.57.52:725][972]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-07.58.23:595][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.07.29-07.58.23:766][445]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto3D6F645F841F44483379487927566DC60.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto3.umap'
+[2022.07.29-07.58.23:768][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.204
+[2022.07.29-07.58.23:768][445]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2022.07.29-07.58.23:769][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weapons/BP_Sword] ([1] browsable assets)...
+[2022.07.29-07.58.23:778][445]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Weapons/BP_Sword.BP_Sword]
+[2022.07.29-07.58.23:778][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Sword]
+[2022.07.29-07.58.23:814][445]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Sword_Auto393ED1E824785DE4FE6133F997CE8460E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Sword_Auto3.uasset'
+[2022.07.29-07.58.23:815][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/BP_Enemy] ([1] browsable assets)...
+[2022.07.29-07.58.23:823][445]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/BP_Enemy.BP_Enemy]
+[2022.07.29-07.58.23:823][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BP_Enemy]
+[2022.07.29-07.58.23:856][445]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto39F8EF5CB4CAB41018A6414A3CD7FA24C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BP_Enemy_Auto3.uasset'
+[2022.07.29-07.58.23:857][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/ABP_Enemy] ([1] browsable assets)...
+[2022.07.29-07.58.23:869][445]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemy/ABP_Enemy.ABP_Enemy]
+[2022.07.29-07.58.23:869][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/ABP_Enemy]
+[2022.07.29-07.58.23:916][445]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Enemy_Auto31FBF319342D5DC4C3F3E5E9349583C4A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/ABP_Enemy_Auto3.uasset'
+[2022.07.29-07.58.23:917][445]LogFileHelpers: Auto-saving content packages took 0.148
+[2022.07.29-07.59.15:947][228]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.07.29-07.59.30:202][923]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/ANS_CollisionSword.ANS_CollisionSword
+[2022.07.29-08.00.25:989][ 86]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Standing_Melee_Attack_1_Montage.Standing_Melee_Attack_1_Montage
+[2022.07.29-08.00.25:996][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.07.29-08.00.26:016][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.07.29-08.00.26:232][ 86]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.07.29-08.01.16:444][501]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.29-08.03.40:821][369]BlueprintLog: New page: ANS_CollisionSword 컴파일
+[2022.07.29-08.03.40:823][369]LogBlueprint: Error: [Compiler ANS_CollisionSword] 이 블루프린트(셀프)는 ActorComponent 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.07.29-08.03.40:971][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.07.29-08.03.40:981][369]LogBlueprint: Warning: [Compiler ANS_CollisionSword] [3287.71] ANS_CollisionSword 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 160 ms] (/Game/Notifies/ANS_CollisionSword.ANS_CollisionSword)
+[2022.07.29-08.03.46:417][979]BlueprintLog: New page: ANS_CollisionSword 컴파일
+[2022.07.29-08.03.46:550][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.07.29-08.03.55:144][879]BlueprintLog: New page: ANS_CollisionSword 컴파일
+[2022.07.29-08.03.55:285][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.07.29-08.03.56:929][ 72]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-08.03.56:942][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-08.03.56:942][ 72]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.07.29-08.03.56:947][ 72]LogPlayLevel: [PlayLevel] Compiling BP_Sword before play...
+[2022.07.29-08.03.57:116][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.07.29-08.03.57:116][ 72]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2022.07.29-08.03.57:117][ 72]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 2:03:57)
+[2022.07.29-08.03.57:117][ 72]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-08.03.57:119][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002354s)
+[2022.07.29-08.03.57:119][ 72]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-08.03.57:119][ 72]LogPlayLevel: PIE: World Init took: (0.000430s)
+[2022.07.29-08.03.57:120][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002887s)
+[2022.07.29-08.03.57:150][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.07.29-08.03.57:321][ 72]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-08.03.57:370][ 72]LogInit: FAudioDevice initialized.
+[2022.07.29-08.03.57:398][ 72]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-08.03.57:399][ 72]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-17.03.57
+[2022.07.29-08.03.57:400][ 72]LogWorld: Bringing up level for play took: 0.001441
+[2022.07.29-08.03.57:836][ 72]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.205
+[2022.07.29-08.03.57:836][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-08.03.59:911][317]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.01:751][535]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.02:977][681]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.04:026][804]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.05:232][948]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.06:541][105]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.09:159][419]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.10:460][575]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.10:469][576]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.10:527][583]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.12:613][833]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.14:424][ 50]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.16:676][320]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.18:122][493]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.19:198][622]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.20:323][757]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.21:490][897]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.23:184][100]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.26:361][481]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.27:728][645]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.28:779][771]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.28:838][778]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.28:846][779]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.29:912][907]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.30:963][ 33]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.33:322][316]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.34:433][449]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.35:917][627]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.41:459][288]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.42:509][414]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.43:712][558]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.44:888][699]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.45:982][830]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.46:057][839]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.46:182][854]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.47:299][988]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.49:241][221]LogBlueprintUserMessages: [BP_Sword_C_0] BP_Enemy
+[2022.07.29-08.04.55:220][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
