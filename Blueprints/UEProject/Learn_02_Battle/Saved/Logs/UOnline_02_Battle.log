@@ -1847,3 +1847,283 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.07.29-08.42.56:806][232]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_CollisionSword3F6B8BB449AC38C3D585E48FB8A9FB0E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/ANS_CollisionSword.uasset'
 [2022.07.29-08.42.56:810][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Sword" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Sword.uasset" SILENT=true
 [2022.07.29-08.42.56:851][232]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_SwordCF285EE4438EA5C327C211B9E438689E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Sword.uasset'
+[2022.07.29-09.53.42:640][800]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-09.53.54:585][183]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Enemy/WB_HealthBar.WB_HealthBar
+[2022.07.29-09.56.49:003][197]BlueprintLog: New page: WB_HealthBar 컴파일
+[2022.07.29-09.56.49:140][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.07.29-09.56.53:753][737]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.07.29-09.57.06:077][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.57.29:779][613]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.29-09.57.37:497][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.57.49:873][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-09.58.08:043][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.58.08:106][498]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-09.58.08:118][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.58.08:119][498]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.07.29-09.58.08:120][498]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.07.29-09.58.08:272][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.07.29-09.58.08:272][498]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (1 blueprints)
+[2022.07.29-09.58.08:272][498]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 3:58:08)
+[2022.07.29-09.58.08:272][498]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-09.58.08:275][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2022.07.29-09.58.08:275][498]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-09.58.08:275][498]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2022.07.29-09.58.08:275][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003339s)
+[2022.07.29-09.58.08:306][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.07.29-09.58.08:478][498]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-09.58.08:529][498]LogInit: FAudioDevice initialized.
+[2022.07.29-09.58.08:557][498]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-09.58.08:559][498]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-18.58.08
+[2022.07.29-09.58.08:559][498]LogWorld: Bringing up level for play took: 0.002295
+[2022.07.29-09.58.08:572][498]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.942
+[2022.07.29-09.58.08:572][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.58.09:031][538]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:7133).
+[2022.07.29-09.58.19:012][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.58.19:013][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.58.19:041][678]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-09.58.19:041][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.58.19:074][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.58.19:077][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.07.29-09.58.19:116][680]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2022.07.29-09.58.20:348][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.58.23:769][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-09.58.32:159][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-09.58.35:017][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-09.58.35:024][374]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.29-09.58.58:595][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.59.04:777][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.59.04:832][397]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.07.29-09.59.04:981][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.07.29-09.59.06:336][542]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-09.59.06:353][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.06:353][542]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.07.29-09.59.06:353][542]LogPlayLevel: [PlayLevel] Compiling WB_HealthBar before play...
+[2022.07.29-09.59.06:528][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.07.29-09.59.06:528][542]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2022.07.29-09.59.06:528][542]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 3:59:06)
+[2022.07.29-09.59.06:528][542]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-09.59.06:531][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2022.07.29-09.59.06:532][542]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-09.59.06:532][542]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2022.07.29-09.59.06:532][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003910s)
+[2022.07.29-09.59.06:559][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.07.29-09.59.06:734][542]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-09.59.06:783][542]LogInit: FAudioDevice initialized.
+[2022.07.29-09.59.06:811][542]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-09.59.06:813][542]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-18.59.06
+[2022.07.29-09.59.06:813][542]LogWorld: Bringing up level for play took: 0.001422
+[2022.07.29-09.59.06:827][542]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.195
+[2022.07.29-09.59.06:827][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.13:381][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.13:381][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.59.13:416][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-09.59.13:416][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.13:447][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.59.13:450][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.07.29-09.59.13:502][308]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2022.07.29-09.59.15:240][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.59.25:519][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-09.59.29:682][231]BlueprintLog: New page: WB_HealthBar 컴파일
+[2022.07.29-09.59.29:820][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.07.29-09.59.30:504][298]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-09.59.30:514][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.30:514][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-09.59.30:514][298]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 3:59:30)
+[2022.07.29-09.59.30:514][298]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-09.59.30:516][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002116s)
+[2022.07.29-09.59.30:516][298]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-09.59.30:516][298]LogPlayLevel: PIE: World Init took: (0.000411s)
+[2022.07.29-09.59.30:516][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002610s)
+[2022.07.29-09.59.30:545][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.07.29-09.59.30:709][298]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-09.59.30:757][298]LogInit: FAudioDevice initialized.
+[2022.07.29-09.59.30:793][298]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-09.59.30:796][298]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-18.59.30
+[2022.07.29-09.59.30:797][298]LogWorld: Bringing up level for play took: 0.003086
+[2022.07.29-09.59.30:810][298]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.179
+[2022.07.29-09.59.30:810][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.37:670][928]LogBlueprintUserMessages: [BP_Enemy_2] 70.0
+[2022.07.29-09.59.38:607][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.38:607][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.59.38:640][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-09.59.38:640][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-09.59.38:672][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-09.59.38:676][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.07.29-09.59.38:716][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2022.07.29-09.59.46:972][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-10.00.03:489][500]BlueprintLog: New page: WB_HealthBar 컴파일
+[2022.07.29-10.00.03:635][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.07.29-10.03.01:486][902]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.07.29-10.03.01:634][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.07.29-10.03.06:400][453]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-10.03.06:416][453]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.03.06:416][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-10.03.06:416][453]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 4:03:06)
+[2022.07.29-10.03.06:416][453]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-10.03.06:419][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002146s)
+[2022.07.29-10.03.06:419][453]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-10.03.06:419][453]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2022.07.29-10.03.06:419][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002674s)
+[2022.07.29-10.03.06:447][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.07.29-10.03.06:602][453]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-10.03.06:649][453]LogInit: FAudioDevice initialized.
+[2022.07.29-10.03.06:678][453]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-10.03.06:679][453]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-19.03.06
+[2022.07.29-10.03.06:680][453]LogWorld: Bringing up level for play took: 0.001464
+[2022.07.29-10.03.06:694][453]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.062
+[2022.07.29-10.03.06:694][453]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.03.16:040][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.03.16:041][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.03.16:072][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-10.03.16:072][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.03.16:104][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.03.16:108][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.07.29-10.03.16:146][573]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2022.07.29-10.03.18:232][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-10.04.04:688][548]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.07.29-10.04.09:184][ 50]LogEditorTransaction: Undo 핀 링크 생성
+[2022.07.29-10.04.10:368][167]LogEditorTransaction: Undo 핀 링크 생성
+[2022.07.29-10.04.10:791][211]LogEditorTransaction: Undo 핀 링크 생성
+[2022.07.29-10.04.11:822][330]LogEditorTransaction: Undo 핀 링크 생성
+[2022.07.29-10.04.12:278][383]LogEditorTransaction: Undo 노드 이동
+[2022.07.29-10.06.24:700][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.07.29-10.06.24:858][672]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto734FCE2944F12C9DDEB5492AFE889B0F4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto7.umap'
+[2022.07.29-10.06.24:861][672]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.190
+[2022.07.29-10.06.24:861][672]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2022.07.29-10.06.24:862][672]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/BP_Enemy] ([1] browsable assets)...
+[2022.07.29-10.06.24:871][672]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/BP_Enemy.BP_Enemy]
+[2022.07.29-10.06.24:871][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BP_Enemy]
+[2022.07.29-10.06.24:928][672]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto7B9ACBACE4AB1D923842D6AA15179E01D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BP_Enemy_Auto7.uasset'
+[2022.07.29-10.06.24:929][672]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/WB_HealthBar] ([1] browsable assets)...
+[2022.07.29-10.06.24:929][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/WB_HealthBar]
+[2022.07.29-10.06.24:961][672]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/WB_HealthBar_Auto7597274004E37F70AB6B94E9A443831D2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/WB_HealthBar_Auto7.uasset'
+[2022.07.29-10.06.24:962][672]LogFileHelpers: Auto-saving content packages took 0.100
+[2022.07.29-10.11.38:654][139]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.07.29-10.11.38:808][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.07.29-10.11.40:672][342]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-10.11.40:689][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.11.40:689][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-10.11.40:689][342]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 4:11:40)
+[2022.07.29-10.11.40:689][342]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-10.11.40:691][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002146s)
+[2022.07.29-10.11.40:692][342]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-10.11.40:692][342]LogPlayLevel: PIE: World Init took: (0.000446s)
+[2022.07.29-10.11.40:692][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002675s)
+[2022.07.29-10.11.40:722][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.07.29-10.11.40:892][342]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-10.11.40:943][342]LogInit: FAudioDevice initialized.
+[2022.07.29-10.11.40:969][342]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-10.11.40:970][342]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-19.11.40
+[2022.07.29-10.11.40:971][342]LogWorld: Bringing up level for play took: 0.001392
+[2022.07.29-10.11.40:983][342]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.648
+[2022.07.29-10.11.40:983][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.11.53:900][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.11.53:901][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.11.53:933][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-10.11.53:933][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.11.53:965][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.11.53:969][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.07.29-10.11.54:008][864]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2022.07.29-10.11.57:516][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.29-10.13.44:604][818]LogEditorTransaction: Undo 선택된 노드를 하나의 노드로 접습니다.
+[2022.07.29-10.18.20:443][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.07.29-10.18.20:596][235]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto8D37D9DE147AEA7E05E820EBFA7E8C6AE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto8.umap'
+[2022.07.29-10.18.20:598][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.186
+[2022.07.29-10.18.20:599][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2022.07.29-10.18.20:600][235]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/BP_Enemy] ([1] browsable assets)...
+[2022.07.29-10.18.20:607][235]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/BP_Enemy.BP_Enemy]
+[2022.07.29-10.18.20:607][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BP_Enemy]
+[2022.07.29-10.18.20:669][235]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto89F2761E743F2656AB9C1AB933F4B98AA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BP_Enemy_Auto8.uasset'
+[2022.07.29-10.18.20:670][235]LogFileHelpers: Auto-saving content packages took 0.070
+[2022.07.29-10.24.24:973][638]LogSlate: Window '색 선택 툴' being destroyed
+[2022.07.29-10.24.44:347][874]LogEditorTransaction: Undo 핀 링크 생성
+[2022.07.29-10.25.18:547][227]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.532 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.07.29-10.25.23:731][383]LogSlate: Window '색 선택 툴' being destroyed
+[2022.07.29-10.25.28:013][853]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.07.29-10.25.28:175][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.07.29-10.25.29:728][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.07.29-10.25.31:030][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-10.25.31:113][181]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-10.25.31:129][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.31:129][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-10.25.31:129][181]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 4:25:31)
+[2022.07.29-10.25.31:129][181]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-10.25.31:131][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002312s)
+[2022.07.29-10.25.31:132][181]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-10.25.31:132][181]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2022.07.29-10.25.31:132][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002846s)
+[2022.07.29-10.25.31:161][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.07.29-10.25.31:333][181]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-10.25.31:389][181]LogInit: FAudioDevice initialized.
+[2022.07.29-10.25.31:414][181]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-10.25.31:416][181]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-19.25.31
+[2022.07.29-10.25.31:416][181]LogWorld: Bringing up level for play took: 0.002146
+[2022.07.29-10.25.31:429][181]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.201
+[2022.07.29-10.25.31:429][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.37:902][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.37:903][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.37:936][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-10.25.37:936][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.37:965][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.37:968][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.07.29-10.25.38:009][951]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2022.07.29-10.25.38:874][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-10.25.38:950][ 63]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-10.25.38:960][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.38:960][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-10.25.38:960][ 63]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 4:25:38)
+[2022.07.29-10.25.38:960][ 63]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-10.25.38:962][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002290s)
+[2022.07.29-10.25.38:963][ 63]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-10.25.38:963][ 63]LogPlayLevel: PIE: World Init took: (0.000386s)
+[2022.07.29-10.25.38:963][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002764s)
+[2022.07.29-10.25.38:990][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.07.29-10.25.39:152][ 63]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-10.25.39:199][ 63]LogInit: FAudioDevice initialized.
+[2022.07.29-10.25.39:229][ 63]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-10.25.39:230][ 63]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-19.25.39
+[2022.07.29-10.25.39:231][ 63]LogWorld: Bringing up level for play took: 0.001598
+[2022.07.29-10.25.39:245][ 63]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.386
+[2022.07.29-10.25.39:245][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.44:173][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.44:173][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.44:209][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-10.25.44:209][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.44:240][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.44:243][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.07.29-10.25.44:281][651]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2022.07.29-10.25.44:988][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-10.25.45:072][745]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.29-10.25.45:082][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.45:082][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.29-10.25.45:082][745]PIE: New page: PIE 세션: Combat (2022. 7. 30. 오전 4:25:45)
+[2022.07.29-10.25.45:082][745]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.07.29-10.25.45:084][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002539s)
+[2022.07.29-10.25.45:085][745]LogAIModule: Creating AISystem for world Combat
+[2022.07.29-10.25.45:085][745]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2022.07.29-10.25.45:085][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003054s)
+[2022.07.29-10.25.45:117][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.07.29-10.25.45:280][745]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.07.29-10.25.45:327][745]LogInit: FAudioDevice initialized.
+[2022.07.29-10.25.45:358][745]LogLoad: Game class is 'GameModeBase'
+[2022.07.29-10.25.45:359][745]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.07.29-19.25.45
+[2022.07.29-10.25.45:360][745]LogWorld: Bringing up level for play took: 0.001486
+[2022.07.29-10.25.45:373][745]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.258
+[2022.07.29-10.25.45:373][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.52:387][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.52:387][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.52:417][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.29-10.25.52:418][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.07.29-10.25.52:451][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.29-10.25.52:454][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.07.29-10.25.52:492][581]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2022.07.29-10.25.55:871][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.29-10.25.55:972][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.07.29-10.25.57:518][993]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.07.29-10.25.57:563][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.07.29-10.25.57:632][993]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy226C8A0D45D1D7ACD2C6C985B6EC4A4F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.07.29-10.25.57:636][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/WB_HealthBar" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/WB_HealthBar.uasset" SILENT=true
+[2022.07.29-10.25.57:663][993]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/WB_HealthBarBA21410B4D7314CD5ADC389C0F7323B0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/WB_HealthBar.uasset'
+[2022.07.29-10.25.57:694][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.07.29-10.25.57:852][993]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat7DA3295C4FA6630B9199BBBD53DF9961.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.07.29-10.25.57:873][993]LogFileHelpers: Saving map 'Combat' took 0.206
