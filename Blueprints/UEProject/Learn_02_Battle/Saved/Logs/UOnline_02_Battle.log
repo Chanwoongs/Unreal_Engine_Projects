@@ -3393,3 +3393,696 @@ Script call stack:
 [2022.08.11-09.20.29:380][920]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat6438E0C74872F162F1DA41AAC817CC72.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
 [2022.08.11-09.20.29:395][920]LogFileHelpers: Saving map 'Combat' took 0.200
 [2022.08.11-09.20.29:429][920]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_Combo_Table147BB6CB4B682D8FCFDFB7A46E708788.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/Player_Combo_Table.uasset'
+[2022.08.11-09.48.42:696][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Genno_Weapon_Lightning_01A0D5509A49976F66324081A872984F70.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Monsters/FX_Monster_Genno/P_Genno_Weapon_Lightning_01.uasset'
+[2022.08.11-09.48.42:723][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Flare_03_INSTF381D60342E379380179719B74D5B8BE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Materials/Gradient/M_Flare_03_INST.uasset'
+[2022.08.11-09.48.42:747][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Flare_04_INSTAAD744AC4BE4B5AE18F096999C9D6F41.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Materials/Gradient/M_Flare_04_INST.uasset'
+[2022.08.11-09.48.42:778][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Lightning_Arc_01_Trans_4X1_INS1E641B66453471FB18F6A487C0D45D09.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Materials/Lightning/M_Lightning_Arc_01_Trans_4X1_INST.uasset'
+[2022.08.11-09.48.42:809][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Add_Sprite_Master_DepthFadeC91ADDA344911EC8E0853F82B0A3114E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/Masters/M_Add_Sprite_Master_DepthFade.uasset'
+[2022.08.11-09.48.42:834][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Add_Sprite_Master409B9248407820958EEEB3838EBEFEEF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/Masters/M_Add_Sprite_Master.uasset'
+[2022.08.11-09.48.42:863][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Trans_Sprite_SubUV_Master81E7A8BD42ADFA9E5E445E8BF2B2E077.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset'
+[2022.08.11-09.48.42:879][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/T_SoftFallOff22ABB4A0422DB5D2BEEAD480531CF093.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Textures/Gradient/T_SoftFallOff.uasset'
+[2022.08.11-09.48.42:896][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/T_starFlare_03B96408EF44C157C74BD8AC98A010FE97.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Textures/Gradient/T_starFlare_03.uasset'
+[2022.08.11-09.48.42:920][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/T_Lightning_Arc_4x1DCE8925D4998090BABB01998DC28427E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/FX_Textures/Lightning/T_Lightning_Arc_4x1.uasset'
+[2022.08.11-09.48.43:699][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.08.11-09.48.43:730][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.08.11-09.48.43:763][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.11-09.48.43:799][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.08.11-09.48.43:834][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.11-09.48.43:866][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.08.11-09.48.43:899][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.08.11-09.48.43:934][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.08.11-09.48.43:966][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.11-09.48.44:002][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.11-09.48.44:034][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.08.11-09.48.44:067][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.11-09.49.07:632][821]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Genno_Weapon_Lightning_01AFAE69FA4B88E600E00A05A14EFA48DD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_Genno_Weapon_Lightning_01.uasset'
+[2022.08.11-09.49.07:763][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.11-09.49.07:797][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.08.11-09.49.07:828][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.08.11-09.49.23:819][700]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01
+[2022.08.11-09.49.24:241][700]LogBlueprintActionDatabase: Requesting refresh due to module change: Cascade (loaded)
+[2022.08.11-09.49.24:241][700]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.08.11-09.49.24:467][700]LogBlueprintActionDatabase: Requesting refresh due to module change: DistCurveEditor (loaded)
+[2022.08.11-09.52.08:758][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.52.53:187][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.53.26:864][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.54.14:241][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.54.30:062][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.54.30:827][921]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.11-09.54.44:651][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.55.01:356][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.55.20:916][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.55.37:744][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.55.43:580][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.56.01:130][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.56.07:790][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.56.20:036][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.56.28:243][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.56.43:944][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.57.46:169][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.57.54:265][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.58.07:542][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.58.21:629][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.58.40:235][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.59.23:254][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-09.59.40:462][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.00.16:810][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.00.19:362][125]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:362][125]LogParticles: Warning: MaxCount =  511 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:363][125]LogParticles: Warning: MaxCount =  521 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:363][125]LogParticles: Warning: MaxCount =  536 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:364][125]LogParticles: Warning: MaxCount =  546 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:364][125]LogParticles: Warning: MaxCount =  556 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:365][125]LogParticles: Warning: MaxCount =  561 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:366][125]LogParticles: Warning: MaxCount =  572 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:366][125]LogParticles: Warning: MaxCount =  583 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:367][125]LogParticles: Warning: MaxCount =  588 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:368][125]LogParticles: Warning: MaxCount =  600 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:369][125]LogParticles: Warning: MaxCount =  605 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:370][125]LogParticles: Warning: MaxCount =  623 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:370][125]LogParticles: Warning: MaxCount =  629 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:371][125]LogParticles: Warning: MaxCount =  635 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:371][125]LogParticles: Warning: MaxCount =  647 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:372][125]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:372][125]LogParticles: Warning: MaxCount =  665 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:373][125]LogParticles: Warning: MaxCount =  678 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:383][126]LogParticles: Warning: MaxCount =  691 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:384][126]LogParticles: Warning: MaxCount =  704 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:384][126]LogParticles: Warning: MaxCount =  710 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:385][126]LogParticles: Warning: MaxCount =  724 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:385][126]LogParticles: Warning: MaxCount =  731 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:386][126]LogParticles: Warning: MaxCount =  745 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:387][126]LogParticles: Warning: MaxCount =  752 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:388][126]LogParticles: Warning: MaxCount =  766 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:389][126]LogParticles: Warning: MaxCount =  773 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:389][126]LogParticles: Warning: MaxCount =  788 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:390][126]LogParticles: Warning: MaxCount =  796 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:391][126]LogParticles: Warning: MaxCount =  803 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:391][126]LogParticles: Warning: MaxCount =  818 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:392][126]LogParticles: Warning: MaxCount =  826 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:392][126]LogParticles: Warning: MaxCount =  842 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:393][126]LogParticles: Warning: MaxCount =  850 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:393][126]LogParticles: Warning: MaxCount =  866 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:394][126]LogParticles: Warning: MaxCount =  874 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:394][126]LogParticles: Warning: MaxCount =  891 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:395][126]LogParticles: Warning: MaxCount =  899 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:395][126]LogParticles: Warning: MaxCount =  916 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:395][126]LogParticles: Warning: MaxCount =  925 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:396][126]LogParticles: Warning: MaxCount =  943 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:396][126]LogParticles: Warning: MaxCount =  952 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:397][126]LogParticles: Warning: MaxCount =  961 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:410][127]LogParticles: Warning: MaxCount =  979 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:411][127]LogParticles: Warning: MaxCount =  988 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:412][127]LogParticles: Warning: MaxCount = 1007 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:412][127]LogParticles: Warning: MaxCount = 1017 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:413][127]LogParticles: Warning: MaxCount = 1026 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:413][127]LogParticles: Warning: MaxCount = 1046 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:414][127]LogParticles: Warning: MaxCount = 1056 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:414][127]LogParticles: Warning: MaxCount = 1076 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:415][127]LogParticles: Warning: MaxCount = 1086 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:415][127]LogParticles: Warning: MaxCount = 1107 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:416][127]LogParticles: Warning: MaxCount = 1117 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:416][127]LogParticles: Warning: MaxCount = 1139 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:417][127]LogParticles: Warning: MaxCount = 1150 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:418][127]LogParticles: Warning: MaxCount = 1171 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:418][127]LogParticles: Warning: MaxCount = 1183 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:419][127]LogParticles: Warning: MaxCount = 1205 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:419][127]LogParticles: Warning: MaxCount = 1216 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:420][127]LogParticles: Warning: MaxCount = 1240 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:420][127]LogParticles: Warning: MaxCount = 1251 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:420][127]LogParticles: Warning: MaxCount = 1275 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:421][127]LogParticles: Warning: MaxCount = 1299 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:422][127]LogParticles: Warning: MaxCount = 1324 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:422][127]LogParticles: Warning: MaxCount = 1349 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:423][127]LogParticles: Warning: MaxCount = 1362 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:423][127]LogParticles: Warning: MaxCount = 1388 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:424][127]LogParticles: Warning: MaxCount = 1401 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:424][127]LogParticles: Warning: MaxCount = 1428 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:425][127]LogParticles: Warning: MaxCount = 1455 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:439][128]LogParticles: Warning: MaxCount = 1469 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:440][128]LogParticles: Warning: MaxCount = 1497 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:440][128]LogParticles: Warning: MaxCount = 1525 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:442][128]LogParticles: Warning: MaxCount = 1540 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:442][128]LogParticles: Warning: MaxCount = 1569 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:442][128]LogParticles: Warning: MaxCount = 1599 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:443][128]LogParticles: Warning: MaxCount = 1614 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:443][128]LogParticles: Warning: MaxCount = 1645 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:444][128]LogParticles: Warning: MaxCount = 1661 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:444][128]LogParticles: Warning: MaxCount = 1708 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:445][128]LogParticles: Warning: MaxCount = 1724 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:445][128]LogParticles: Warning: MaxCount = 1757 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:446][128]LogParticles: Warning: MaxCount = 1774 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:446][128]LogParticles: Warning: MaxCount = 1808 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:447][128]LogParticles: Warning: MaxCount = 1842 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:447][128]LogParticles: Warning: MaxCount = 1895 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:448][128]LogParticles: Warning: MaxCount = 1913 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:449][128]LogParticles: Warning: MaxCount = 1949 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:449][128]LogParticles: Warning: MaxCount = 1986 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:450][128]LogParticles: Warning: MaxCount = 2005 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:450][128]LogParticles: Warning: MaxCount = 2043 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:451][128]LogParticles: Warning: MaxCount = 2082 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:451][128]LogParticles: Warning: MaxCount = 2122 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:452][128]LogParticles: Warning: MaxCount = 2142 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:452][128]LogParticles: Warning: MaxCount = 2203 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:453][128]LogParticles: Warning: MaxCount = 2224 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:453][128]LogParticles: Warning: MaxCount = 2266 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:454][128]LogParticles: Warning: MaxCount = 2288 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:454][128]LogParticles: Warning: MaxCount = 2332 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:455][128]LogParticles: Warning: MaxCount = 2376 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:466][129]LogParticles: Warning: MaxCount = 2399 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:466][129]LogParticles: Warning: MaxCount = 2444 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:467][129]LogParticles: Warning: MaxCount = 2491 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:467][129]LogParticles: Warning: MaxCount = 2515 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:468][129]LogParticles: Warning: MaxCount = 2562 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:468][129]LogParticles: Warning: MaxCount = 2636 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:469][129]LogParticles: Warning: MaxCount = 2686 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:469][129]LogParticles: Warning: MaxCount = 2711 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:471][129]LogParticles: Warning: MaxCount = 2763 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:473][129]LogParticles: Warning: MaxCount = 2815 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:473][129]LogParticles: Warning: MaxCount = 2842 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:475][129]LogParticles: Warning: MaxCount = 2896 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:475][129]LogParticles: Warning: MaxCount = 2952 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:476][129]LogParticles: Warning: MaxCount = 2980 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:476][129]LogParticles: Warning: MaxCount = 3036 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:477][129]LogParticles: Warning: MaxCount = 3065 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:477][129]LogParticles: Warning: MaxCount = 3094 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:478][129]LogParticles: Warning: MaxCount = 3153 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:479][129]LogParticles: Warning: MaxCount = 3183 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:479][129]LogParticles: Warning: MaxCount = 3244 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:480][129]LogParticles: Warning: MaxCount = 3306 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:480][129]LogParticles: Warning: MaxCount = 3337 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:481][129]LogParticles: Warning: MaxCount = 3401 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:482][129]LogParticles: Warning: MaxCount = 3433 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:482][129]LogParticles: Warning: MaxCount = 3498 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:483][129]LogParticles: Warning: MaxCount = 3532 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:483][129]LogParticles: Warning: MaxCount = 3633 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:484][129]LogParticles: Warning: MaxCount = 3667 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:484][129]LogParticles: Warning: MaxCount = 3702 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:494][130]LogParticles: Warning: MaxCount = 3773 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:495][130]LogParticles: Warning: MaxCount = 3809 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:495][130]LogParticles: Warning: MaxCount = 3881 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:496][130]LogParticles: Warning: MaxCount = 3918 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:496][130]LogParticles: Warning: MaxCount = 3993 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:497][130]LogParticles: Warning: MaxCount = 4031 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:497][130]LogParticles: Warning: MaxCount = 4069 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:498][130]LogParticles: Warning: MaxCount = 4108 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:498][130]LogParticles: Warning: MaxCount = 4147 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:499][130]LogParticles: Warning: MaxCount = 4226 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.19:500][130]LogParticles: Warning: MaxCount = 4226 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:177][318]LogParticles: Warning: MaxCount = 4266 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:177][318]LogParticles: Warning: MaxCount = 4307 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:187][319]LogParticles: Warning: MaxCount = 4348 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:188][319]LogParticles: Warning: MaxCount = 4389 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:189][319]LogParticles: Warning: MaxCount = 4431 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:189][319]LogParticles: Warning: MaxCount = 4473 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:190][319]LogParticles: Warning: MaxCount = 4516 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:190][319]LogParticles: Warning: MaxCount = 4559 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:191][319]LogParticles: Warning: MaxCount = 4602 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:191][319]LogParticles: Warning: MaxCount = 4690 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:192][319]LogParticles: Warning: MaxCount = 4734 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:192][319]LogParticles: Warning: MaxCount = 4779 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:193][319]LogParticles: Warning: MaxCount = 4825 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:193][319]LogParticles: Warning: MaxCount = 4871 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:194][319]LogParticles: Warning: MaxCount = 4917 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:195][319]LogParticles: Warning: MaxCount = 4964 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:195][319]LogParticles: Warning: MaxCount = 5059 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:196][319]LogParticles: Warning: MaxCount = 5107 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:209][320]LogParticles: Warning: MaxCount = 5204 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:209][320]LogParticles: Warning: MaxCount = 5253 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:210][320]LogParticles: Warning: MaxCount = 5354 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:211][320]LogParticles: Warning: MaxCount = 5455 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:211][320]LogParticles: Warning: MaxCount = 5507 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:212][320]LogParticles: Warning: MaxCount = 5612 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:212][320]LogParticles: Warning: MaxCount = 5719 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:213][320]LogParticles: Warning: MaxCount = 5882 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:213][320]LogParticles: Warning: MaxCount = 5995 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:214][320]LogParticles: Warning: MaxCount = 6166 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:214][320]LogParticles: Warning: MaxCount = 6283 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:215][320]LogParticles: Warning: MaxCount = 6522 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:215][320]LogParticles: Warning: MaxCount = 6647 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:216][320]LogParticles: Warning: MaxCount = 6837 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:216][320]LogParticles: Warning: MaxCount = 7032 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:217][320]LogParticles: Warning: MaxCount = 7233 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:217][320]LogParticles: Warning: MaxCount = 7508 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:218][320]LogParticles: Warning: MaxCount = 7723 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:218][320]LogParticles: Warning: MaxCount = 7943 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:219][320]LogParticles: Warning: MaxCount = 8397 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:219][320]LogParticles: Warning: MaxCount = 8637 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:219][320]LogParticles: Warning: MaxCount = 8966 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:220][320]LogParticles: Warning: MaxCount = 9222 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:220][320]LogParticles: Warning: MaxCount = 9485 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:221][320]LogParticles: Warning: MaxCount = 9847 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:232][321]LogParticles: Warning: MaxCount = 10222 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:232][321]LogParticles: Warning: MaxCount = 10806 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:233][321]LogParticles: Warning: MaxCount = 11217 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:233][321]LogParticles: Warning: MaxCount = 11752 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:234][321]LogParticles: Warning: MaxCount = 12199 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:235][321]LogParticles: Warning: MaxCount = 12548 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:235][321]LogParticles: Warning: MaxCount = 13145 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:236][321]LogParticles: Warning: MaxCount = 13395 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:238][321]LogParticles: Warning: MaxCount = 14033 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:240][321]LogParticles: Warning: MaxCount = 14568 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:241][321]LogParticles: Warning: MaxCount = 15678 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:241][321]LogParticles: Warning: MaxCount = 16573 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:242][321]LogParticles: Warning: MaxCount = 17362 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:242][321]LogParticles: Warning: MaxCount = 18189 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:243][321]LogParticles: Warning: MaxCount = 19055 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:243][321]LogParticles: Warning: MaxCount = 19418 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:244][321]LogParticles: Warning: MaxCount = 20343 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:244][321]LogParticles: Warning: MaxCount = 22086 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:245][321]LogParticles: Warning: MaxCount = 23138 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:245][321]LogParticles: Warning: MaxCount = 24240 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:246][321]LogParticles: Warning: MaxCount = 25394 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:247][321]LogParticles: Warning: MaxCount = 27570 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:247][321]LogParticles: Warning: MaxCount = 28883 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:248][321]LogParticles: Warning: MaxCount = 30259 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:248][321]LogParticles: Warning: MaxCount = 31699 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:249][321]LogParticles: Warning: MaxCount = 34416 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:249][321]LogParticles: Warning: MaxCount = 36383 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:250][321]LogParticles: Warning: MaxCount = 37769 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:250][321]LogParticles: Warning: MaxCount = 39927 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:261][322]LogParticles: Warning: MaxCount = 43349 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:262][322]LogParticles: Warning: MaxCount = 45826 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:262][322]LogParticles: Warning: MaxCount = 47572 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:263][322]LogParticles: Warning: MaxCount = 51649 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:263][322]LogParticles: Warning: MaxCount = 54601 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:264][322]LogParticles: Warning: MaxCount = 56161 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:265][322]LogParticles: Warning: MaxCount = 60974 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:265][322]LogParticles: Warning: MaxCount = 64459 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:266][322]LogParticles: Warning: MaxCount = 70597 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:266][322]LogParticles: Warning: MaxCount = 72614 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:267][322]LogParticles: Warning: MaxCount = 78838 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:267][322]LogParticles: Warning: MaxCount = 84094 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:268][322]LogParticles: Warning: MaxCount = 86497 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:268][322]LogParticles: Warning: MaxCount = 93911 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:269][322]LogParticles: Warning: MaxCount = 99277 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:270][322]LogParticles: Warning: MaxCount = 102113 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:270][322]LogParticles: Warning: MaxCount = 111838 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:271][322]LogParticles: Warning: MaxCount = 121424 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:272][322]LogParticles: Warning: MaxCount = 128363 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:272][322]LogParticles: Warning: MaxCount = 132030 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:273][322]LogParticles: Warning: MaxCount = 144604 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:273][322]LogParticles: Warning: MaxCount = 152867 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:274][322]LogParticles: Warning: MaxCount = 157235 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:275][322]LogParticles: Warning: MaxCount = 170712 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:275][322]LogParticles: Warning: MaxCount = 180467 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:286][323]LogParticles: Warning: MaxCount = 185623 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:287][323]LogParticles: Warning: MaxCount = 203301 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:287][323]LogParticles: Warning: MaxCount = 214918 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:287][323]LogParticles: Warning: MaxCount = 221059 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:288][323]LogParticles: Warning: MaxCount = 240007 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:289][323]LogParticles: Warning: MaxCount = 253721 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:289][323]LogParticles: Warning: MaxCount = 260970 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:290][323]LogParticles: Warning: MaxCount = 275883 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:290][323]LogParticles: Warning: MaxCount = 286393 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:291][323]LogParticles: Warning: MaxCount = 310940 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:292][323]LogParticles: Warning: MaxCount = 328708 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:292][323]LogParticles: Warning: MaxCount = 338100 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:293][323]LogParticles: Warning: MaxCount = 354200 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:293][323]LogParticles: Warning: MaxCount = 371066 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:294][323]LogParticles: Warning: MaxCount = 399338 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:294][323]LogParticles: Warning: MaxCount = 422157 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:295][323]LogParticles: Warning: MaxCount = 438239 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:295][323]LogParticles: Warning: MaxCount = 459108 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:296][323]LogParticles: Warning: MaxCount = 476598 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:296][323]LogParticles: Warning: MaxCount = 499293 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:297][323]LogParticles: Warning: MaxCount = 532579 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:311][324]LogParticles: Warning: MaxCount = 552867 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:311][324]LogParticles: Warning: MaxCount = 579194 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:312][324]LogParticles: Warning: MaxCount = 595743 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:312][324]LogParticles: Warning: MaxCount = 618438 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:313][324]LogParticles: Warning: MaxCount = 641997 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:314][324]LogParticles: Warning: MaxCount = 660340 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:314][324]LogParticles: Warning: MaxCount = 704362 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:315][324]LogParticles: Warning: MaxCount = 731195 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:315][324]LogParticles: Warning: MaxCount = 766014 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:316][324]LogParticles: Warning: MaxCount = 780605 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:316][324]LogParticles: Warning: MaxCount = 810342 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:317][324]LogParticles: Warning: MaxCount = 841212 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:317][324]LogParticles: Warning: MaxCount = 873258 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:318][324]LogParticles: Warning: MaxCount = 906525 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:318][324]LogParticles: Warning: MaxCount = 958326 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:319][324]LogParticles: Warning: MaxCount = 994834 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:320][324]LogParticles: Warning: MaxCount = 1032732 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:320][324]LogParticles: Warning: MaxCount = 1072074 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:321][324]LogParticles: Warning: MaxCount = 1112915 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:321][324]LogParticles: Warning: MaxCount = 1155312 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:322][324]LogParticles: Warning: MaxCount = 1188321 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:323][324]LogParticles: Warning: MaxCount = 1222273 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:324][324]LogParticles: Warning: MaxCount = 1303758 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:325][324]LogParticles: Warning: MaxCount = 1341008 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:325][324]LogParticles: Warning: MaxCount = 1379322 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:326][324]LogParticles: Warning: MaxCount = 1418731 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:326][324]LogParticles: Warning: MaxCount = 1459267 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:327][324]LogParticles: Warning: MaxCount = 1500960 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:328][324]LogParticles: Warning: MaxCount = 1529550 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:328][324]LogParticles: Warning: MaxCount = 1573251 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:329][324]LogParticles: Warning: MaxCount = 1618201 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:340][325]LogParticles: Warning: MaxCount = 1633612 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:341][325]LogParticles: Warning: MaxCount = 1680287 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:342][325]LogParticles: Warning: MaxCount = 1712292 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:342][325]LogParticles: Warning: MaxCount = 1761215 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:343][325]LogParticles: Warning: MaxCount = 1794762 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:344][325]LogParticles: Warning: MaxCount = 1828948 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:345][325]LogParticles: Warning: MaxCount = 1863785 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:345][325]LogParticles: Warning: MaxCount = 1917036 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:346][325]LogParticles: Warning: MaxCount = 1953551 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:347][325]LogParticles: Warning: MaxCount = 1990761 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:347][325]LogParticles: Warning: MaxCount = 2028680 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:348][325]LogParticles: Warning: MaxCount = 2067322 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:349][325]LogParticles: Warning: MaxCount = 2087011 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:349][325]LogParticles: Warning: MaxCount = 2126763 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:350][325]LogParticles: Warning: MaxCount = 2167273 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:351][325]LogParticles: Warning: MaxCount = 2208554 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:351][325]LogParticles: Warning: MaxCount = 2229588 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:352][325]LogParticles: Warning: MaxCount = 2272057 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:352][325]LogParticles: Warning: MaxCount = 2315334 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:353][325]LogParticles: Warning: MaxCount = 2359435 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:354][325]LogParticles: Warning: MaxCount = 2381906 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:354][325]LogParticles: Warning: MaxCount = 2427276 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:355][325]LogParticles: Warning: MaxCount = 2450393 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:355][325]LogParticles: Warning: MaxCount = 2473730 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:356][325]LogParticles: Warning: MaxCount = 2520848 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:356][325]LogParticles: Warning: MaxCount = 2544856 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:357][325]LogParticles: Warning: MaxCount = 2593330 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:357][325]LogParticles: Warning: MaxCount = 2618028 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:358][325]LogParticles: Warning: MaxCount = 2642962 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:371][326]LogParticles: Warning: MaxCount = 2668133 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:372][326]LogParticles: Warning: MaxCount = 2693544 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:372][326]LogParticles: Warning: MaxCount = 2744849 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:373][326]LogParticles: Warning: MaxCount = 2770990 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:373][326]LogParticles: Warning: MaxCount = 2797381 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:374][326]LogParticles: Warning: MaxCount = 2824023 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:375][326]LogParticles: Warning: MaxCount = 2877814 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:376][326]LogParticles: Warning: MaxCount = 2905221 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:377][326]LogParticles: Warning: MaxCount = 2932890 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:377][326]LogParticles: Warning: MaxCount = 2960822 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:378][326]LogParticles: Warning: MaxCount = 3017219 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:378][326]LogParticles: Warning: MaxCount = 3045954 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:379][326]LogParticles: Warning: MaxCount = 3074963 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:380][326]LogParticles: Warning: MaxCount = 3104249 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.21:380][326]LogParticles: Warning: MaxCount = 3104249 for Emitter ParticleSpriteEmitter_9 (/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.32:787][617]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Genno_Weapon_Lightning_01C283F13C4B432CB0EA90219CCE3A0265.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_Genno_Weapon_Lightning_01.uasset'
+[2022.08.11-10.00.44:113][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.00.44:219][ 29]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.00.44:238][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.00.44:238][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.11-10.00.44:238][ 29]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:00:44)
+[2022.08.11-10.00.44:239][ 29]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.00.44:242][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003800s)
+[2022.08.11-10.00.44:243][ 29]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.00.44:243][ 29]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2022.08.11-10.00.44:243][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.004514s)
+[2022.08.11-10.00.44:297][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.08.11-10.00.44:471][ 29]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.00.44:528][ 29]LogInit: FAudioDevice initialized.
+[2022.08.11-10.00.44:554][ 29]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.00.44:556][ 29]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.00.44
+[2022.08.11-10.00.44:557][ 29]LogWorld: Bringing up level for play took: 0.002358
+[2022.08.11-10.00.44:572][ 29]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.06
+[2022.08.11-10.00.44:572][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.00.49:259][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.00.49:259][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.00.49:294][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.00.49:295][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.00.49:339][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.00.49:345][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.08.11-10.00.49:366][584]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2022.08.11-10.00.55:161][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.08.11-10.00.55:430][241]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Genno_Weapon_Lightning_01)
+[2022.08.11-10.00.56:867][405]Cmd: DELETE
+[2022.08.11-10.00.56:867][405]Cmd: ACTOR DELETE
+[2022.08.11-10.00.57:361][405]LogEditorActor: Deleted Actor: Emitter
+[2022.08.11-10.00.57:395][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.08.11-10.00.57:395][405]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2022.08.11-10.01.13:195][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.06.15:365][316]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.11-10.06.15:570][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.08.11-10.06.20:762][876]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.08.11-10.08.52:046][472]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.11-10.08.52:258][472]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.08.11-10.08.56:721][894]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.08.56:749][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.08.56:749][894]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.11-10.08.56:752][894]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.08.11-10.08.56:972][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.08.11-10.08.56:972][894]LogPlayLevel: PlayLevel: Blueprint regeneration took 224 ms (1 blueprints)
+[2022.08.11-10.08.56:972][894]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:08:56)
+[2022.08.11-10.08.56:973][894]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.08.56:976][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002782s)
+[2022.08.11-10.08.56:976][894]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.08.56:976][894]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2022.08.11-10.08.56:976][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003625s)
+[2022.08.11-10.08.57:014][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.08.11-10.08.57:180][894]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.08.57:229][894]LogInit: FAudioDevice initialized.
+[2022.08.11-10.08.57:268][894]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.08.57:275][894]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.08.57
+[2022.08.11-10.08.57:275][894]LogWorld: Bringing up level for play took: 0.005341
+[2022.08.11-10.08.57:289][894]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.222
+[2022.08.11-10.08.57:289][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.09:206][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.09:206][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.09.09:243][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.09.09:244][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.09:284][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.09.09:288][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.08.11-10.09.09:310][232]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2022.08.11-10.09.13:126][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.09.24:542][539]LogEditorTransaction: Undo 구조체 핀 분할
+[2022.08.11-10.09.24:689][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.11-10.09.24:689][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.11-10.09.30:560][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.08.11-10.09.31:261][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.09.31:355][177]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.09.31:380][177]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.31:380][177]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.11-10.09.31:389][177]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.08.11-10.09.31:638][177]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2022.08.11-10.09.31:639][177]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (1 blueprints)
+[2022.08.11-10.09.31:639][177]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:09:31)
+[2022.08.11-10.09.31:639][177]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.09.31:642][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002574s)
+[2022.08.11-10.09.31:642][177]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.09.31:642][177]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2022.08.11-10.09.31:642][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003759s)
+[2022.08.11-10.09.31:680][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.08.11-10.09.31:846][177]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.09.31:898][177]LogInit: FAudioDevice initialized.
+[2022.08.11-10.09.31:926][177]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.09.31:929][177]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.09.31
+[2022.08.11-10.09.31:929][177]LogWorld: Bringing up level for play took: 0.002217
+[2022.08.11-10.09.31:943][177]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.432
+[2022.08.11-10.09.31:943][177]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.41:403][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.41:403][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.09.41:437][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.09.41:437][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.09.41:480][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.09.41:484][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.08.11-10.09.41:506][292]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2022.08.11-10.09.50:757][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.10.43:855][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.11.12:212][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.12.54:523][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.13.00:116][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.13.07:944][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.13.08:953][912]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.13.08:978][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.08:978][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.11-10.13.08:978][912]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:13:08)
+[2022.08.11-10.13.08:978][912]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.13.08:981][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002615s)
+[2022.08.11-10.13.08:981][912]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.13.08:981][912]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2022.08.11-10.13.08:981][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003173s)
+[2022.08.11-10.13.09:019][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.08.11-10.13.09:189][912]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.13.09:238][912]LogInit: FAudioDevice initialized.
+[2022.08.11-10.13.09:265][912]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.13.09:268][912]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.13.09
+[2022.08.11-10.13.09:269][912]LogWorld: Bringing up level for play took: 0.003251
+[2022.08.11-10.13.09:283][912]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.228
+[2022.08.11-10.13.09:283][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.26:163][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.26:163][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.26:203][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.13.26:204][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.26:244][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.26:248][915]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.08.11-10.13.26:269][916]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2022.08.11-10.13.26:887][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.13.26:961][995]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.13.26:981][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.26:981][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.11-10.13.26:981][995]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:13:26)
+[2022.08.11-10.13.26:981][995]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.13.26:983][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002436s)
+[2022.08.11-10.13.26:984][995]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.13.26:984][995]LogPlayLevel: PIE: World Init took: (0.000393s)
+[2022.08.11-10.13.26:984][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002914s)
+[2022.08.11-10.13.27:021][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.08.11-10.13.27:189][995]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.13.27:243][995]LogInit: FAudioDevice initialized.
+[2022.08.11-10.13.27:274][995]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.13.27:277][995]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.13.27
+[2022.08.11-10.13.27:277][995]LogWorld: Bringing up level for play took: 0.002593
+[2022.08.11-10.13.27:291][995]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.22
+[2022.08.11-10.13.27:291][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.39:825][485]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.39:825][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.39:859][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.13.39:859][485]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.39:897][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.39:902][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.08.11-10.13.39:957][487]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2022.08.11-10.13.41:056][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.13.41:150][628]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.13.41:167][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.41:167][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.11-10.13.41:167][628]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:13:41)
+[2022.08.11-10.13.41:167][628]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.13.41:171][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004057s)
+[2022.08.11-10.13.41:172][628]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.13.41:173][628]LogPlayLevel: PIE: World Init took: (0.001992s)
+[2022.08.11-10.13.41:173][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.006170s)
+[2022.08.11-10.13.41:209][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.08.11-10.13.41:375][628]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.13.41:425][628]LogInit: FAudioDevice initialized.
+[2022.08.11-10.13.41:453][628]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.13.41:455][628]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.13.41
+[2022.08.11-10.13.41:455][628]LogWorld: Bringing up level for play took: 0.002207
+[2022.08.11-10.13.41:470][628]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.042
+[2022.08.11-10.13.41:470][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.56:834][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.56:834][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.56:870][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.13.56:870][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.13.56:907][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.13.56:911][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.08.11-10.13.56:964][451]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2022.08.11-10.14.01:612][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.14.41:424][899]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.14.41:444][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.14.41:444][899]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.11-10.14.41:454][899]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.08.11-10.14.41:465][899]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 GameplayTaskOwnerInterface 이지 않으므로, ' Task Owner ' 에 연결이 있어야 합니다.
+[2022.08.11-10.14.41:471][899]LogBlueprint: Warning: [Compiler BP_Player] [3281.69] BP_Player 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 26 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.08.11-10.14.41:684][899]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.08.11-10.14.41:684][899]LogPlayLevel: PlayLevel: Blueprint regeneration took 239 ms (1 blueprints)
+[2022.08.11-10.14.41:684][899]BlueprintLog: BP_Player 블루프린트 컴파일에 실패했습니다.
+[2022.08.11-10.14.45:108][899]LogSlate: Window '메시지' being destroyed
+[2022.08.11-10.14.45:119][899]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:14:45)
+[2022.08.11-10.14.45:119][899]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.14.45:122][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002631s)
+[2022.08.11-10.14.45:122][899]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.14.45:122][899]LogPlayLevel: PIE: World Init took: (0.000398s)
+[2022.08.11-10.14.45:122][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003124s)
+[2022.08.11-10.14.45:156][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.08.11-10.14.45:316][899]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.14.45:365][899]LogInit: FAudioDevice initialized.
+[2022.08.11-10.14.45:394][899]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.14.45:396][899]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.14.45
+[2022.08.11-10.14.45:397][899]LogWorld: Bringing up level for play took: 0.002363
+[2022.08.11-10.14.45:411][899]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 3.9
+[2022.08.11-10.14.45:411][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.14.50:398][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.14.50:398][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.14.50:430][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.14.50:430][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.14.50:466][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.14.50:470][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.08.11-10.14.50:520][472]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2022.08.11-10.14.52:968][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.14.59:145][287]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.14.59:168][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.14.59:168][287]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_CheckNextCombo as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_EndAttacking as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_Equipped as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_GrabSword as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_UnEquipped as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling AN_UnGrabSword as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling ANS_CollisionSword as a dependent...
+[2022.08.11-10.14.59:171][287]LogPlayLevel: [PlayLevel]   Compiling ANS_EnableNextCombo as a dependent...
+[2022.08.11-10.14.59:172][287]LogPlayLevel: [PlayLevel]   Compiling BP_Enemy as a dependent...
+[2022.08.11-10.14.59:178][287]LogPlayLevel: [PlayLevel]   Compiling BP_Player as a dependent...
+[2022.08.11-10.14.59:215][287]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 GameplayTaskOwnerInterface 이지 않으므로, ' Task Owner ' 에 연결이 있어야 합니다.
+[2022.08.11-10.14.59:225][287]LogBlueprint: Warning: [Compiler BP_Player] [3299.44] BP_Player 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 56 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.08.11-10.14.59:453][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.08.11-10.14.59:453][287]LogPlayLevel: PlayLevel: Blueprint regeneration took 285 ms (11 blueprints)
+[2022.08.11-10.14.59:453][287]BlueprintLog: BP_Player 블루프린트 컴파일에 실패했습니다.
+[2022.08.11-10.15.01:212][287]LogSlate: Window '메시지' being destroyed
+[2022.08.11-10.15.05:012][644]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.11-10.15.05:058][644]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 GameplayTaskOwnerInterface 이지 않으므로, ' Task Owner ' 에 연결이 있어야 합니다.
+[2022.08.11-10.15.05:259][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.08.11-10.15.05:298][644]LogBlueprint: Warning: [Compiler BP_Player] [3305.51] BP_Player 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 286 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.08.11-10.15.41:401][ 47]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.11-10.15.41:653][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.08.11-10.15.42:045][ 77]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.15.42:072][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.15.42:073][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.11-10.15.42:073][ 77]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:15:42)
+[2022.08.11-10.15.42:073][ 77]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.15.42:076][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002615s)
+[2022.08.11-10.15.42:076][ 77]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.15.42:076][ 77]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2022.08.11-10.15.42:076][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003135s)
+[2022.08.11-10.15.42:115][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.08.11-10.15.42:281][ 77]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.15.42:330][ 77]LogInit: FAudioDevice initialized.
+[2022.08.11-10.15.42:366][ 77]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.15.42:370][ 77]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.15.42
+[2022.08.11-10.15.42:371][ 77]LogWorld: Bringing up level for play took: 0.004035
+[2022.08.11-10.15.42:385][ 77]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.874
+[2022.08.11-10.15.42:385][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.15.50:261][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.15.50:261][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.15.50:304][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.15.50:304][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.15.50:346][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.15.50:350][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.08.11-10.15.50:373][991]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2022.08.11-10.15.51:818][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.11-10.15.56:397][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.15.56:481][551]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.11-10.15.56:494][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.15.56:494][551]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.11-10.15.56:504][551]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.08.11-10.15.56:749][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.08.11-10.15.56:749][551]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2022.08.11-10.15.56:749][551]PIE: New page: PIE 세션: Combat (2022. 8. 12. 오전 4:15:56)
+[2022.08.11-10.15.56:749][551]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.11-10.15.56:753][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003064s)
+[2022.08.11-10.15.56:753][551]LogAIModule: Creating AISystem for world Combat
+[2022.08.11-10.15.56:753][551]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2022.08.11-10.15.56:753][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003707s)
+[2022.08.11-10.15.56:789][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.08.11-10.15.56:959][551]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.11-10.15.57:009][551]LogInit: FAudioDevice initialized.
+[2022.08.11-10.15.57:037][551]LogLoad: Game class is 'GameModeBase'
+[2022.08.11-10.15.57:039][551]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.11-19.15.57
+[2022.08.11-10.15.57:040][551]LogWorld: Bringing up level for play took: 0.002886
+[2022.08.11-10.15.57:054][551]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.543
+[2022.08.11-10.15.57:054][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.16.11:227][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.16.11:227][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.16.11:256][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.11-10.16.11:256][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.11-10.16.11:294][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.11-10.16.11:298][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.08.11-10.16.11:354][232]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2022.08.11-10.16.13:196][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.11-10.16.19:691][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.08.11-10.16.20:592][787]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.08.11-10.16.20:690][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_3_Montage2655B64242841C889691AC9EDE8EF502.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_3_Montage.uasset'
+[2022.08.11-10.16.20:759][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Genno_Weapon_Lightning_0153E387BA4DA38B17148F0EBBE3250B97.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_Genno_Weapon_Lightning_01.uasset'
+[2022.08.11-10.16.20:777][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.08.11-10.16.20:875][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyE11C2CAD4B704E8E07ECF4A01D8AA4E1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.08.11-10.16.20:915][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.11-10.16.21:115][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat9BA558CA4E95198605BD639EF7FD5062.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.08.11-10.16.21:134][787]LogFileHelpers: Saving map 'Combat' took 0.254
+[2022.08.11-10.16.21:147][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.11-10.16.21:286][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player337402504C7233473C704FBFF6F6CA75.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.11-10.16.21:323][787]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_Combo_Table3308CD454E099D1937F178B4E65E32BC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/Player_Combo_Table.uasset'
