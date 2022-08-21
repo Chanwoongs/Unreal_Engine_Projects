@@ -946,3 +946,410 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.08.21-05.10.39:313][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2022.08.21-05.10.39:867][341]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/CombatE0F54DBA41D5654B428B408D233A6B86.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
 [2022.08.21-05.10.39:924][341]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_BuiltData34C606BD48B270F7DF47628ADF50417E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat_BuiltData.uasset'
+[2022.08.21-05.11.09:123][950]LogSlate: Window 'M_Trail' being destroyed
+[2022.08.21-05.11.09:137][950]LogSlate: Window 'M_Trail' being destroyed
+[2022.08.21-05.11.40:992][517]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Weapons/P_Trail.P_Trail
+[2022.08.21-05.11.41:421][517]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.08.21-05.11.57:319][344]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoTiny.RobotoTiny', Character: '완 (U+c644)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2022.08.21-05.11.57:331][344]LogSlate: Took 0.012322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.08.21-05.12.12:864][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.21-05.12.30:442][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.14.12:869][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.14.53:134][193]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.21-05.15.15:529][807]LogSlate: Window '색 선택 툴' being destroyed
+[2022.08.21-05.15.27:448][228]LogSlate: Window '색 선택 툴' being destroyed
+[2022.08.21-05.15.50:923][829]LogSlate: Window '색 선택 툴' being destroyed
+[2022.08.21-05.16.20:669][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/P_Trail" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/P_Trail.uasset" SILENT=true
+[2022.08.21-05.16.20:680][390]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Trail77648F3B41B1365A3CD2B9A0373934C6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/P_Trail.uasset'
+[2022.08.21-05.16.21:580][494]LogSlate: Window 'P_Trail' being destroyed
+[2022.08.21-05.16.21:592][494]LogSlate: Window 'P_Trail' being destroyed
+[2022.08.21-05.16.21:592][494]LogCascade: Quitting Cascade. FXSystem=0x0000019B04C03F40
+[2022.08.21-05.16.38:447][422]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Standing_Melee_Attack_1_Montage.Standing_Melee_Attack_1_Montage
+[2022.08.21-05.16.38:540][422]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2022.08.21-05.16.38:558][422]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.21-05.16.38:561][422]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2022.08.21-05.16.38:713][422]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.08.21-05.16.39:170][422]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.21-05.16.57:494][535]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.21-05.18.23:003][447]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.21-05.19.08:172][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.19.42:401][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.19.47:333][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.20.22:808][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.20.39:305][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.21.16:648][842]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.21-05.21.16:712][842]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_1_MontageF6E1314340D8B6D27094BC9E513A781A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_1_Montage.uasset'
+[2022.08.21-05.21.18:501][ 37]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Standing_Melee_Attack_2_Montage.Standing_Melee_Attack_2_Montage
+[2022.08.21-05.22.05:423][210]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_2_Montage038504EA43A6D2B05F32178B9F78D89A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_2_Montage.uasset'
+[2022.08.21-05.22.08:646][493]LogParticles: Warning: Trail Notify: Null PSTemplate for trail notify in anim: /Game/Character/Montages/Standing_Melee_Attack_2_Montage.Standing_Melee_Attack_2_Montage
+[2022.08.21-05.22.10:732][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.22.14:879][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.22.17:961][471]LogSlate: Window 'Standing_Melee_Attack_2_Montage' being destroyed
+[2022.08.21-05.22.17:969][471]LogSlate: Window 'Standing_Melee_Attack_2_Montage' being destroyed
+[2022.08.21-05.22.18:833][508]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage
+[2022.08.21-05.22.18:839][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.21-05.22.18:870][508]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.08.21-05.22.19:085][508]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.21-05.22.19:519][542]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.22.19:519][542]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.22.54:064][439]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.22.54:064][439]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.22.56:921][618]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.22.56:921][618]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.22.58:424][787]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.22.58:424][787]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Standing_Melee_Attack_3_Montage.Standing_Melee_Attack_3_Montage:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.22.58:557][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.22.58:658][815]LogSlate: Window 'Standing_Melee_Attack_3_Montage' being destroyed
+[2022.08.21-05.22.58:674][815]LogSlate: Window 'Standing_Melee_Attack_3_Montage' being destroyed
+[2022.08.21-05.23.00:104][964]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.21-05.23.00:492][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.23.00:499][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.21-05.23.00:512][964]PIE: New page: PIE 세션: Combat (2022. 8. 21. 오후 11:23:00)
+[2022.08.21-05.23.00:539][964]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.21-05.23.00:542][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003207s)
+[2022.08.21-05.23.00:543][964]LogAIModule: Creating AISystem for world Combat
+[2022.08.21-05.23.00:543][964]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2022.08.21-05.23.00:543][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.004132s)
+[2022.08.21-05.23.00:568][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.08.21-05.23.00:738][964]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.21-05.23.00:790][964]LogInit: FAudioDevice initialized.
+[2022.08.21-05.23.00:839][964]LogLoad: Game class is 'GameModeBase'
+[2022.08.21-05.23.00:841][964]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.21-14.23.00
+[2022.08.21-05.23.00:901][964]LogWorld: Bringing up level for play took: 0.062164
+[2022.08.21-05.23.00:967][964]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.08.21-05.23.00:984][964]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.282
+[2022.08.21-05.23.00:984][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.23.21:857][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.23.21:857][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.23.21:885][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.21-05.23.21:885][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.23.21:920][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.23.21:923][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.08.21-05.23.21:962][413]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.08.21-05.23.28:361][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.23.47:406][935]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFallFE867DA247CDAB23F22A21874F7E0257.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/DeadFall.uasset'
+[2022.08.21-05.23.47:500][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.23.47:525][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.08.21-05.23.47:545][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.23.47:604][935]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/GetHitBackFall_MontageBF8A1CA34F1D587CB89738B81E563879.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/GetHitBackFall_Montage.uasset'
+[2022.08.21-05.23.51:309][334]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall54AE499144A8F25830B8B8B8BED1F2C2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Common/DeadFall.uasset'
+[2022.08.21-05.23.51:413][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.08.21-05.23.51:440][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.08.21-05.23.51:459][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.21-05.23.51:501][334]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/GetHitBackFall_Montage69C0DEE14368C1093C6B3380EE064411.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/GetHitBackFall_Montage.uasset'
+[2022.08.21-05.24.07:607][712]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/HitReactionA29C548D437437C81BD553B301FD99B7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/HitReaction.uasset'
+[2022.08.21-05.24.07:697][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.24.07:723][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.08.21-05.24.07:743][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.21-05.24.07:799][712]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Hit_Reaction_Montage83E7802F436C7601D0CCB9BE15ED63B9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Hit_Reaction_Montage.uasset'
+[2022.08.21-05.24.11:515][ 85]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/HitReactionD7A664B84B94B64949F66BBC36B8DB67.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Common/HitReaction.uasset'
+[2022.08.21-05.24.11:614][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.08.21-05.24.11:641][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.08.21-05.24.11:661][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.24.11:701][ 85]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Hit_Reaction_Montage6EB10DAF4624E43752382CB97E49A412.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Hit_Reaction_Montage.uasset'
+[2022.08.21-05.24.36:203][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_Idle46ED52C44F48302117C1C1A24C4FF16E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_Idle.uasset'
+[2022.08.21-05.24.36:228][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_JumpEnd25666F424516C5E82813D780EE269FDB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_JumpEnd.uasset'
+[2022.08.21-05.24.36:254][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_JumpLoop09D8D33A4C9C23F72F2E33B1C152AF45.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_JumpLoop.uasset'
+[2022.08.21-05.24.36:279][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_JumpStartF40E7B68471E12D73319FB8A9AD3C12E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_JumpStart.uasset'
+[2022.08.21-05.24.36:304][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_Run2065BC544963DE0AFA34E6AC7BE86A43.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_Run.uasset'
+[2022.08.21-05.24.36:330][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Unarmed_WalkEE912B2F4247C03A5E7602BEEB0B6BA2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Unarmed/Unarmed_Walk.uasset'
+[2022.08.21-05.24.36:586][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.24.36:606][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.24.36:626][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.24.36:646][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.24.36:666][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.08.21-05.24.36:686][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.24.36:710][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.08.21-05.24.36:729][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.08.21-05.24.36:790][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_UnarmedE8F3296342DBDD730D5B96BABF50688D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Unarmed.uasset'
+[2022.08.21-05.24.36:802][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.24.36:958][878]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player74AACC1E4413AACFCA8C2381F973BDC5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.25.09:194][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Draw_Sword_1960F02FD4BB6F95AEF27D28823B6B85B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Draw_Sword_1.uasset'
+[2022.08.21-05.25.09:218][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Draw_Sword_2AADAE227496141F76745B1A28F1D26B0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Draw_Sword_2.uasset'
+[2022.08.21-05.25.09:241][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sheath_Sword_15E1C0C5C418767E2402497A489F9DE09.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sheath_Sword_1.uasset'
+[2022.08.21-05.25.09:266][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sheath_Sword_285954D954C0F030F9A1AAAB9B61FAD37.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sheath_Sword_2.uasset'
+[2022.08.21-05.25.09:292][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_1F65F122B40C11AC06F5FF68C25DB80E3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Standing_Melee_Attack_1.uasset'
+[2022.08.21-05.25.09:316][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_2945E8AAB4B708D900D6EBFA0D118BD8A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Standing_Melee_Attack_2.uasset'
+[2022.08.21-05.25.09:341][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_3A5D2DC284437781A5B03C38D698000FE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Standing_Melee_Attack_3.uasset'
+[2022.08.21-05.25.09:367][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_IdleE5AB971F4A56B189C52BD2AB2C8BB89E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Idle.uasset'
+[2022.08.21-05.25.09:392][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Run_B07C222FF40E95DC46988A18EC2EE32F3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Run_B.uasset'
+[2022.08.21-05.25.09:417][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Run_F4D3DBFE7431D758BB76C5FB9A02B86B0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Run_F.uasset'
+[2022.08.21-05.25.09:442][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Strafe_LB26291F740EDACF27BF65FAFB443A215.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Strafe_L.uasset'
+[2022.08.21-05.25.09:465][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Strafe_RFE8D6E234442196967D1ADA71B7488A7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Strafe_R.uasset'
+[2022.08.21-05.25.09:490][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Walk_B9690940D40C34E4F34DF718212EA6D39.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Walk_B.uasset'
+[2022.08.21-05.25.09:513][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Walk_FB58CF4AE45D8918C1B767B873A2C381F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Walk_F.uasset'
+[2022.08.21-05.25.09:538][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Walk_L129A9246420796D86D32E0A906145AEB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Walk_L.uasset'
+[2022.08.21-05.25.09:562][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_And_Shield_Walk_R073BA397495A928757F572BDD0810FB5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_And_Shield_Walk_R.uasset'
+[2022.08.21-05.25.10:121][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.08.21-05.25.10:141][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.10:161][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.21-05.25.10:182][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.25.10:202][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.25.10:224][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.10:243][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.21-05.25.10:263][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.10:283][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.10:303][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.25.10:324][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.25.10:345][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.25.10:363][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.08.21-05.25.10:384][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.21-05.25.10:405][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.25.10:427][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.25.10:451][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.08.21-05.25.10:470][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.10:493][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.25.10:615][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player5F6F93994A1459EED37BCA9FA5C05377.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.25.10:655][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_1_Montage7DC2FA684E942BD7BF91EAB84D616573.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_1_Montage.uasset'
+[2022.08.21-05.25.10:695][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_2_MontageCFE0643342CA916E25666CAA85FAF055.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_2_Montage.uasset'
+[2022.08.21-05.25.10:750][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_3_Montage678070914CB119C26B52E7968094C476.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_3_Montage.uasset'
+[2022.08.21-05.25.10:806][516]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword97842EC44468485CE99C508839D07E2F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.25.42:249][658]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Draw_1DAAD7A45499FC8011F7D8BAE24DC3EF5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Draw_1.uasset'
+[2022.08.21-05.25.42:359][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.21-05.25.42:386][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.08.21-05.25.42:406][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.25.42:424][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.25.42:543][658]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_PlayerC157A0E640FA4E0C36B234AF2E7D56FA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.25.49:880][490]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Draw_2F40FABF147F14E9DCC498DAAAB6F9049.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Draw_2.uasset'
+[2022.08.21-05.25.49:987][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.08.21-05.25.50:017][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.08.21-05.25.50:038][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.25.50:054][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.25.50:172][490]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_PlayerB2E9B39448B06A23B057BB8B3E6BD27B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.26.02:130][888]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Sheath_134A0025446CD207E17DE13BEB38EA1DF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Sheath_1.uasset'
+[2022.08.21-05.26.02:248][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.08.21-05.26.02:273][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.26.02:293][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.26.02:309][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.26.02:427][888]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player830373F14544D5404E1255A505C9B6EA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.26.06:371][337]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Sheath_2B1DF691D41B1263BB405578500C3C85C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Sheath_2.uasset'
+[2022.08.21-05.26.06:472][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.08.21-05.26.06:497][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.26.06:518][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.26.06:535][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.21-05.26.06:653][337]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player0D20A5E84AA90B50F5493499B8BFAAB4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.21-05.26.17:304][581]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_10CDCB60C4C6CF7A284722EA09D15DF59.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Attack_1.uasset'
+[2022.08.21-05.26.17:409][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.08.21-05.26.17:435][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.08.21-05.26.17:453][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.17:500][581]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_1_Montage3709E4D94ED84AC9D9EC4C98F0CF8663.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_1_Montage.uasset'
+[2022.08.21-05.26.20:890][959]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_264A8E7FD47D47B053A3E3FAC73B2FC37.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Attack_2.uasset'
+[2022.08.21-05.26.21:005][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.21:035][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.08.21-05.26.21:054][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.26.21:101][959]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_2_MontageBDA23C414EB0D2AEC5530EAB512AA784.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_2_Montage.uasset'
+[2022.08.21-05.26.24:151][299]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_37D92B88C42347BC0F237F38A37A4C8D0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Attack_3.uasset'
+[2022.08.21-05.26.24:254][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.24:280][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.08.21-05.26.24:300][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.24:346][299]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Standing_Melee_Attack_3_MontageD4374DB140CD439C38259DB3152CBEAE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Standing_Melee_Attack_3_Montage.uasset'
+[2022.08.21-05.26.42:173][394]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Idle255DEF78450D0A530E00E4AA0398FF85.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Idle.uasset'
+[2022.08.21-05.26.42:286][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.08.21-05.26.42:312][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.08.21-05.26.42:332][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.42:378][394]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_SwordBA52453E446DB43D028982BC2738FC62.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.26.49:836][262]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Run_BA156BCBC4E19F010119761B9744DB76D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Run_B.uasset'
+[2022.08.21-05.26.49:939][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.49:965][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.26.49:985][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.26.50:031][262]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword52E4D407414A67554D65D5B5CB0DBF5B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.26.56:270][988]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Run_F9987D6164212706832E715BECCE11FDA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Run_F.uasset'
+[2022.08.21-05.26.56:368][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.26.56:393][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.08.21-05.26.56:413][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.26.56:457][988]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword78C863BC444898E0262F339EC0150E03.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.05:721][ 72]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Run_L7ED87E3B485ADB2FB76E8785B39B90BD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Run_L.uasset'
+[2022.08.21-05.27.05:828][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.27.05:854][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.27.05:874][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.27.05:918][ 72]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword65CA1C5548D984EF477E36A0243DD17F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.17:298][412]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Run_R6E56363741C6316EC4665C9F443439DB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Run_R.uasset'
+[2022.08.21-05.27.17:399][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.27.17:426][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.08.21-05.27.17:445][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.27.17:491][412]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword2B0DEED64A1583150CC38C9F6F3F1108.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.22:548][990]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Walk_B673FA997426CCEB0265B249CFB127497.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Walk_B.uasset'
+[2022.08.21-05.27.22:659][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.27.22:687][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.27.22:708][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.21-05.27.22:752][990]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_SwordA16C1696404E3F9B2E57919EF276D07C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.32:940][987]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Walk_F036250AE49D5AB666595DD92467E6CBF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Walk_F.uasset'
+[2022.08.21-05.27.33:050][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.27.33:075][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.27.33:095][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.27.33:140][987]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_SwordD2CB723B43995947B619838D0C112A91.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.40:828][886]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Walk_L86830D8446DC65BFD53681AD5435CB5C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Walk_L.uasset'
+[2022.08.21-05.27.40:931][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.27.40:957][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.27.40:977][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.27.41:023][886]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_Sword3E5058EF4C122DED024ACEA3631CD787.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.27.45:744][428]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Walk_RFF3EB3054A551CFF211CE5A648D0E749.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/Sword/Sword_Walk_R.uasset'
+[2022.08.21-05.27.45:848][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.27.45:874][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.27.45:894][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.27.45:938][428]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_SwordB48E659F44ED69F8DAA11DAE9089460D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_Sword.uasset'
+[2022.08.21-05.28.13:797][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Idle09A1FC904331AB21D75523B5AB795152.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Idle.uasset'
+[2022.08.21-05.28.13:820][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_B6B647A0545A7884624DF438C863099C8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Run_B.uasset'
+[2022.08.21-05.28.13:843][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_FFE5A8E4D493466145590A0BCC2796654.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Run_F.uasset'
+[2022.08.21-05.28.13:868][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_LFD25904C44098F48538335BA4DB02DAF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Strafe_L.uasset'
+[2022.08.21-05.28.13:891][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Strafe_R9412AC5741BDB6A2B8C3849404CD27C8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Strafe_R.uasset'
+[2022.08.21-05.28.14:107][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.08.21-05.28.14:128][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.14:148][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.14:169][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.28.14:189][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.21-05.28.14:212][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.08.21-05.28.14:231][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.14:288][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_GreatSwordC926D293420129F441E3E0A168FC152B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_GreatSword.uasset'
+[2022.08.21-05.28.26:032][246]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_L741E195643FC21CC4267B2ABBF7D5755.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Run_L.uasset'
+[2022.08.21-05.28.26:139][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.08.21-05.28.26:167][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.08.21-05.28.26:187][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.26:232][246]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_GreatSwordBE00440F49D6FBFF821272A5A6BA588F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_GreatSword.uasset'
+[2022.08.21-05.28.30:815][781]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Run_R0A29E27A427BC60808763C9CFF4D59C8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Run_R.uasset'
+[2022.08.21-05.28.30:925][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.08.21-05.28.30:952][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.28.30:972][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.21-05.28.31:016][781]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BS_GreatSword8422C21E46402A44F26614B5603DDE26.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/BlendSpaces/BS_GreatSword.uasset'
+[2022.08.21-05.28.45:223][461]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall_Montage4241FFBE47D6533E93F3BF8419306DC4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/DeadFall_Montage.uasset'
+[2022.08.21-05.28.45:329][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.45:355][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.08.21-05.28.45:375][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.45:397][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.08.21-05.28.45:490][461]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy4FA278D6460AF0BB56702E9536366C10.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.08.21-05.28.48:117][758]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/HitReaction_Montage92F21348402A7EFEEB10759E27B8EAE2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/HitReaction_Montage.uasset'
+[2022.08.21-05.28.48:216][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.08.21-05.28.48:244][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.08.21-05.28.48:264][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.28.48:281][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.08.21-05.28.48:373][758]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyED2F02B5488B180F61232CA0366572DE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.08.21-05.29.03:348][136]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_10E4A68E142A67F690A608684A2E1ACD4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_1.uasset'
+[2022.08.21-05.29.03:477][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.08.21-05.29.03:503][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.08.21-05.29.03:521][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.29.03:565][136]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_Combo_Table94FFE27E47781D06540842A1C043DD3D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/Player_Combo_Table.uasset'
+[2022.08.21-05.29.06:296][447]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_22CF83CE949465BC6D42F3AAC0DE3C4ED.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_2.uasset'
+[2022.08.21-05.29.06:397][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.21-05.29.06:423][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.08.21-05.29.06:444][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.29.06:485][447]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_Combo_Table4760C7304C0FEF3AA459729F1E56A165.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/Player_Combo_Table.uasset'
+[2022.08.21-05.29.11:054][970]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_3FBC45DD94A30CA4F3A0715911B4AAD79.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_3.uasset'
+[2022.08.21-05.29.11:164][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.21-05.29.11:191][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.08.21-05.29.11:211][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.29.11:255][970]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_Combo_Table2113FBA24CC3DFB0BD622A90501A20C1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/Player_Combo_Table.uasset'
+[2022.08.21-05.29.13:743][144]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.21-05.29.13:750][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.29.13:750][144]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.08.21-05.29.14:187][144]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.08.21-05.29.14:309][144]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2022.08.21-05.29.14:399][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.08.21-05.29.14:399][144]LogPlayLevel: PlayLevel: Blueprint regeneration took 649 ms (2 blueprints)
+[2022.08.21-05.29.14:399][144]PIE: New page: PIE 세션: Combat (2022. 8. 21. 오후 11:29:14)
+[2022.08.21-05.29.14:399][144]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.21-05.29.14:402][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002516s)
+[2022.08.21-05.29.14:402][144]LogAIModule: Creating AISystem for world Combat
+[2022.08.21-05.29.14:402][144]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2022.08.21-05.29.14:402][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003015s)
+[2022.08.21-05.29.14:422][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.21-05.29.14:574][144]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.21-05.29.14:621][144]LogInit: FAudioDevice initialized.
+[2022.08.21-05.29.14:651][144]LogLoad: Game class is 'GameModeBase'
+[2022.08.21-05.29.14:653][144]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.21-14.29.14
+[2022.08.21-05.29.14:654][144]LogWorld: Bringing up level for play took: 0.002173
+[2022.08.21-05.29.14:667][144]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.966
+[2022.08.21-05.29.14:667][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.29.25:149][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.29.25:149][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.29.25:175][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.21-05.29.25:175][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.29.25:199][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.29.25:202][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.21-05.29.25:251][402]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.08.21-05.29.49:621][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.29.49:760][325]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3
+[2022.08.21-05.29.49:766][325]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.21-05.29.49:793][325]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.08.21-05.29.50:020][325]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.08.21-05.29.50:427][352]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.29.50:427][352]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.29.51:925][523]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.29.51:927][523]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.29.53:430][701]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.29.53:430][701]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.29.54:929][880]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.29.54:929][880]LogScript: Warning: None 에 접근
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:005D
+[2022.08.21-05.29.56:430][ 60]LogScript: Warning: CallFunc_GetPlayerController_ReturnValue 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	AN_CameraShake_C /Game/Character/Montages/Sword_Attack_3.Sword_Attack_3:AN_CameraShake_C_0
+	Function /Game/Notifies/Attacking/AN_CameraShake.AN_CameraShake_C:Received_Notify:0048
+[2022.08.21-05.30.06:910][300]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.21-05.30.48:819][706]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_35F5CE32F474BD4E4445909967DE9A288.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_3.uasset'
+[2022.08.21-05.30.50:775][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2022.08.21-05.30.52:143][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.30.52:486][ 44]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.21-05.30.52:494][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.30.52:494][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.21-05.30.52:494][ 44]PIE: New page: PIE 세션: Combat (2022. 8. 21. 오후 11:30:52)
+[2022.08.21-05.30.52:494][ 44]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.21-05.30.52:497][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002505s)
+[2022.08.21-05.30.52:497][ 44]LogAIModule: Creating AISystem for world Combat
+[2022.08.21-05.30.52:497][ 44]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2022.08.21-05.30.52:497][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003199s)
+[2022.08.21-05.30.52:518][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.08.21-05.30.52:669][ 44]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.21-05.30.52:716][ 44]LogInit: FAudioDevice initialized.
+[2022.08.21-05.30.52:742][ 44]LogLoad: Game class is 'GameModeBase'
+[2022.08.21-05.30.52:744][ 44]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.21-14.30.52
+[2022.08.21-05.30.52:744][ 44]LogWorld: Bringing up level for play took: 0.002189
+[2022.08.21-05.30.52:758][ 44]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.056
+[2022.08.21-05.30.52:758][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.31.05:818][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.31.05:819][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.31.05:849][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.21-05.31.05:849][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.21-05.31.05:874][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.21-05.31.05:876][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.21-05.31.05:923][611]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.08.21-05.31.16:192][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.21-05.31.16:936][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.21-05.31.17:948][180]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.08.21-05.31.18:029][180]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Skel_Mannequin874AD02849A6EBEDAA3D2F88F0F14624.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mesh/Skel_Mannequin.uasset'
+[2022.08.21-05.31.18:055][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.08.21-05.31.18:174][180]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat5498055A4620CAACF6DE7A81D2ACE5A6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.08.21-05.31.18:189][180]LogFileHelpers: Saving map 'Combat' took 0.155
+[2022.08.21-05.31.18:199][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/M_Trail_Inst" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/M_Trail_Inst.uasset" SILENT=true
+[2022.08.21-05.31.18:206][180]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Trail_InstDC66DD924DE5A4D3D2A21DBF6224AB9A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/M_Trail_Inst.uasset'
