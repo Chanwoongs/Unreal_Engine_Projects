@@ -794,3 +794,121 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.08.24-06.36.03:710][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
 [2022.08.24-06.36.03:908][671]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/CombatC4B2FF1147CE9EA2BEE97889BC26BB4B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
 [2022.08.24-06.36.03:925][671]LogFileHelpers: Saving map 'Combat' took 0.246
+[2022.08.24-06.53.07:027][105]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.08.24-06.53.07:035][105]LogBlueprint: Error: [Compiler BP_Combo] 사용 중인  <이름없음>  핀은 더 이상  Play Sword Combo Montage  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2022.08.24-06.53.07:035][105]LogBlueprint: Error: [Compiler BP_Combo] BP_Combo_C' 에서 "PlaySwordComboMontage" 라는 이름의 함수를 찾을 수 없습니다.
+ Play Sword Combo Montage  에 대해 'BP_Combo_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-06.53.07:035][105]LogBlueprint: Warning: [Compiler BP_Combo] 'BP_Combo_C' 에서 "State" 라는 이름의 변수를 찾을 수 없습니다.
+ State 설정  에 대해 'BP_Combo_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-06.53.07:036][105]LogBlueprint: Error: [Compiler BP_Combo] State  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.24-06.53.07:038][105]LogBlueprint: Warning: [Compiler BP_Combo] [3046.65] BP_Combo 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 1 회, [소요시간 10 ms] (/Game/Weapons/BP_Combo.BP_Combo)
+[2022.08.24-06.53.07:195][105]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.08.24-06.58.21:614][ 74]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.08.24-06.58.21:783][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.08.24-07.01.44:122][872]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.08.24-07.04.10:126][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Combo" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Combo.uasset" SILENT=true
+[2022.08.24-07.04.10:203][343]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ComboF057CD804FCF6B1F6A6EDB883844F43E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Combo.uasset'
+[2022.08.24-07.04.14:312][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Weapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset" SILENT=true
+[2022.08.24-07.04.14:389][773]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WeaponB1DD0B44497977EA9B4692858BBF51FC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset'
+[2022.08.24-07.04.15:774][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.24-07.04.15:945][918]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player6D78F859489C0390E114D48E9E473B1A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.24-07.04.33:116][933]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.24-07.04.39:708][703]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Weapons/BP_Sword.BP_Sword from Actor to BP_Combo_C...
+[2022.08.24-07.04.39:712][703]BlueprintLog: New page: BP_Sword 컴파일
+[2022.08.24-07.04.40:439][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.08.24-07.04.55:641][434]BlueprintLog: New page: BP_Sword 컴파일
+[2022.08.24-07.04.55:803][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.08.24-07.04.56:967][542]BlueprintLog: New page: BP_Combo 컴파일
+[2022.08.24-07.04.56:974][542]LogBlueprint: Warning: [Compiler BP_Combo] 'BP_Combo_C' 에서 "CanMove" 라는 이름의 변수를 찾을 수 없습니다.
+ CanMove 설정  에 대해 'BP_Combo_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-07.04.56:976][542]LogBlueprint: Error: [Compiler BP_Combo] Can Move  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.24-07.04.57:135][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.08.24-07.04.57:157][542]LogBlueprint: Warning: [Compiler BP_Combo] [3756.77] BP_Combo 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 189 ms] (/Game/Weapons/BP_Combo.BP_Combo)
+[2022.08.24-07.05.12:432][946]Cmd: TRANSACTION UNDO
+[2022.08.24-07.05.12:432][946]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.08.24-07.05.24:499][325]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.08.24-07.05.24:515][325]LogBlueprint: Warning: [Compiler BP_Combo] 'BP_Combo_C' 에서 "CanMove" 라는 이름의 변수를 찾을 수 없습니다.
+ CanMove 설정  에 대해 'BP_Combo_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-07.05.24:517][325]LogBlueprint: Error: [Compiler BP_Combo] Can Move  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.24-07.05.24:524][325]LogBlueprint: Warning: [Compiler BP_Combo] [3784.13] BP_Combo 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 24 ms] (/Game/Weapons/BP_Combo.BP_Combo)
+[2022.08.24-07.05.24:675][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.08.24-07.08.48:412][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.08.24-07.08.48:617][637]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto4A5375B9A4CAEA49597EB7E8544360499.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto4.umap'
+[2022.08.24-07.08.48:621][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.246
+[2022.08.24-07.08.48:621][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.246
+[2022.08.24-07.08.48:622][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weapons/BP_Sword] ([1] browsable assets)...
+[2022.08.24-07.08.48:630][637]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Weapons/BP_Sword.BP_Sword]
+[2022.08.24-07.08.48:631][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Sword]
+[2022.08.24-07.08.48:694][637]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Sword_Auto40C34FBF445C805A6BC58789804D30ED2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Sword_Auto4.uasset'
+[2022.08.24-07.08.48:698][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/BP_Combo] ([1] browsable assets)...
+[2022.08.24-07.08.48:698][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Combo]
+[2022.08.24-07.08.48:773][637]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo_Auto4AEC21FA34A20838F0699A9A9163DDF7B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Combo_Auto4.uasset'
+[2022.08.24-07.08.48:775][637]LogFileHelpers: Auto-saving content packages took 0.152
+[2022.08.24-07.09.07:344][792]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_HandFireBall.BP_HandFireBall
+[2022.08.24-07.09.23:238][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.08.24-07.09.23:284][576]LogBlueprint: Error: [Compiler AN_CheckNextCombo] 사용 중인  <이름없음>  핀은 더 이상  Check Sword Next Combo  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2022.08.24-07.09.23:284][576]LogBlueprint: Error: [Compiler AN_CheckNextCombo] 사용 중인  <이름없음>  핀은 더 이상  Check Sword Next Combo  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2022.08.24-07.09.23:284][576]LogBlueprint: Error: [Compiler AN_CheckNextCombo] 사용 중인  타깃  핀은 더 이상  Check Sword Next Combo  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2022.08.24-07.09.23:284][576]LogBlueprint: Error: [Compiler AN_CheckNextCombo] BP_Player_C' 에서 "CheckSwordNextCombo" 라는 이름의 함수를 찾을 수 없습니다.
+ Check Sword Next Combo  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-07.09.23:287][576]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] 'BP_Player_C' 에서 "EnableNextCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ EnableNextCombo 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-07.09.23:287][576]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] 'BP_Player_C' 에서 "EnableNextCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ EnableNextCombo 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.08.24-07.09.23:306][576]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] Enable Next Combo  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.24-07.09.23:306][576]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] Enable Next Combo  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.24-07.09.23:320][576]LogBlueprint: Warning: [Compiler AN_CheckNextCombo] [4022.93] AN_CheckNextCombo 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 0 회, [소요시간 60 ms] (/Game/Notifies/Attacking/AN_CheckNextCombo.AN_CheckNextCombo)
+[2022.08.24-07.09.23:320][576]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] [4022.93] ANS_EnableNextCombo 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 2 회, [소요시간 61 ms] (/Game/Notifies/Attacking/ANS_EnableNextCombo.ANS_EnableNextCombo)
+[2022.08.24-07.09.23:494][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.BP_Wizard:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.BP_Wizard_C' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.BP_Wizard:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.BP_Wizard:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.BP_Wizard:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:515][576]LogMetaData: Removing '/Game/Player/BP_Wizard.SKEL_BP_Wizard_C' ref from Metadata '/Game/Player/BP_HandFireBall.PackageMetaData'
+[2022.08.24-07.09.23:558][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Wizard" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset" SILENT=true
+[2022.08.24-07.09.23:565][576]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WizardF6596A404E9689A240E88A90D01FE244.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset'
+[2022.08.24-07.09.23:814][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.08.24-07.09.23:854][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.08.24-07.09.23:885][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.24-07.09.23:908][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.24-07.09.24:071][576]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerAE45267C4897C5DCBAAB99BD3F21F349.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.24-07.09.31:460][440]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.08.24-07.09.36:187][995]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Player/BP_Wizard.BP_Wizard from Actor to BP_Weapon_C...
+[2022.08.24-07.09.36:189][995]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.08.24-07.09.36:344][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.08.24-07.18.49:275][527]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.08.24-07.18.49:480][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto56905ED8747388FCEDBE613A9A726B449.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto5.umap'
+[2022.08.24-07.18.49:485][527]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.250
+[2022.08.24-07.18.49:485][527]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.250
+[2022.08.24-07.18.49:486][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.08.24-07.18.49:495][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.08.24-07.18.49:495][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.08.24-07.18.49:661][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto53E1691084A5C67DDD71188B1874C9DD1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto5.uasset'
+[2022.08.24-07.18.49:665][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Wizard] ([1] browsable assets)...
+[2022.08.24-07.18.49:665][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Wizard]
+[2022.08.24-07.18.49:724][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard_Auto510A6423741D2010AC1744E8906FA9681.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Wizard_Auto5.uasset'
+[2022.08.24-07.18.49:725][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weapons/BP_Sword] ([1] browsable assets)...
+[2022.08.24-07.18.49:733][527]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Weapons/BP_Sword.BP_Sword]
+[2022.08.24-07.18.49:733][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Sword]
+[2022.08.24-07.18.49:799][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Sword_Auto56BC08BFF4F86A22E71359EA185AAF259.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Sword_Auto5.uasset'
+[2022.08.24-07.18.49:803][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/BP_Combo] ([1] browsable assets)...
+[2022.08.24-07.18.49:803][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Combo]
+[2022.08.24-07.18.49:880][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo_Auto59D8C348E4DC64E25F6B0C3B19BA077E1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Combo_Auto5.uasset'
+[2022.08.24-07.18.49:881][527]LogFileHelpers: Auto-saving content packages took 0.396
+[2022.08.24-08.46.21:460][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Wizard" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset" SILENT=true
+[2022.08.24-08.46.21:539][503]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard35E9C42347CB6916DD286EBBBFFEB53A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset'
+[2022.08.24-08.46.52:786][923]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.08.24-08.47.39:461][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.08.24-08.47.40:400][ 44]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.08.24-08.47.40:477][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.08.24-08.47.40:682][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat4994CB8A4BBA475A0617799894BF9B04.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.08.24-08.47.40:698][ 44]LogFileHelpers: Saving map 'Combat' took 0.256
+[2022.08.24-08.47.40:710][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.24-08.47.40:869][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player062B57954012657BC58DCF9DF3897321.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.24-08.47.40:873][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Wizard" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset" SILENT=true
+[2022.08.24-08.47.40:930][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard83B1AAA942AAB791A457449519DA308F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Wizard.uasset'
+[2022.08.24-08.47.40:934][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Combo" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Combo.uasset" SILENT=true
+[2022.08.24-08.47.41:010][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo27E5D9A04B6AC2D268F0ACA8F27116DE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Combo.uasset'
+[2022.08.24-08.47.41:017][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Sword" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Sword.uasset" SILENT=true
+[2022.08.24-08.47.41:079][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Sword72980C34406C58BA838BFCA5D141533E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Sword.uasset'
