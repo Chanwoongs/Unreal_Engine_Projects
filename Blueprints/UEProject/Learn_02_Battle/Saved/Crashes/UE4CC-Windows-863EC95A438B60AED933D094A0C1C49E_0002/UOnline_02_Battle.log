@@ -1,0 +1,1325 @@
+﻿Log file open, 08/25/22 12:58:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: UOnline_02_Battle
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.405894
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.54:960][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.55:045][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.25-03.58.55:045][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.25-03.58.55:046][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.25-03.58.55:051][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.25-03.58.55:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.08.25-03.58.55:100][  0]LogHAL: Display: Platform has ~ 48 GB [51453980672 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2022.08.25-03.58.55:100][  0]LogInit: Going up to parent DeviceProfile []
+[2022.08.25-03.58.55:100][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.25-03.58.55:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Scalability.ini]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.25-03.58.55:101][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.08.25-03.58.55:103][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.08.25-03.58.55:103][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.08.25-03.58.55:103][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Config/Windows/Engine.ini]
+[2022.08.25-03.58.55:104][  0]LogInit: Computer: 찬웅
+[2022.08.25-03.58.55:104][  0]LogInit: User: 방찬웅
+[2022.08.25-03.58.55:104][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.08.25-03.58.55:104][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.25-03.58.55:119][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2022.08.25-03.58.55:119][  0]LogMemory: Platform Memory Stats for Windows
+[2022.08.25-03.58.55:119][  0]LogMemory: Process Physical Memory: 102.26 MB used, 102.26 MB peak
+[2022.08.25-03.58.55:119][  0]LogMemory: Process Virtual Memory: 89.06 MB used, 89.06 MB peak
+[2022.08.25-03.58.55:119][  0]LogMemory: Physical Memory: 7372.00 MB used,  41698.34 MB free, 49070.34 MB total
+[2022.08.25-03.58.55:119][  0]LogMemory: Virtual Memory: 4646.80 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2022.08.25-03.58.55:569][  0]LogInit: Using OS detected language (ko-KR).
+[2022.08.25-03.58.55:569][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.08.25-03.58.55:684][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.08.25-03.58.56:078][  0]LogInit: Setting process to per monitor DPI aware
+[2022.08.25-03.58.56:715][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.08.25-03.58.56:715][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.08.25-03.58.58:519][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.25-03.58.58:519][  0]LogD3D11RHI: D3D11 adapters:
+[2022.08.25-03.58.58:700][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2022.08.25-03.58.58:700][  0]LogD3D11RHI:       8010/0/24535 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.08.25-03.58.58:703][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.08.25-03.58.58:703][  0]LogD3D11RHI:       0/0/24535 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.08.25-03.58.58:703][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.08.25-03.58.58:709][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.08.25-03.58.58:709][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2022.08.25-03.58.58:709][  0]LogWindows: EnumDisplayDevices:
+[2022.08.25-03.58.58:710][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2022.08.25-03.58.58:710][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2022.08.25-03.58.58:711][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.08.25-03.58.58:712][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.08.25-03.58.58:713][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.08.25-03.58.58:713][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2022.08.25-03.58.58:713][  0]LogD3D11RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2022.08.25-03.58.58:713][  0]LogD3D11RHI:      Driver Date: 7-21-2022
+[2022.08.25-03.58.58:713][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2022.08.25-03.58.58:779][  0]LogD3D11RHI: Async texture creation enabled
+[2022.08.25-03.58.58:916][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.08.25-03.58.58:918][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.08.25-03.58.58:918][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2022.08.25-03.58.58:970][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.08.25-03.58.59:757][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2022.08.25-03.58.59:783][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2022.08.25-03.58.59:805][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2022.08.25-03.58.59:817][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2022.08.25-03.58.59:857][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2022.08.25-03.58.59:886][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2022.08.25-03.58.59:898][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2022.08.25-03.58.59:921][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2022.08.25-03.58.59:928][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2022.08.25-03.59.00:041][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2022.08.25-03.59.00:060][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2022.08.25-03.59.00:211][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2022.08.25-03.59.00:211][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2022.08.25-03.59.00:245][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2022.08.25-03.59.00:245][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2022.08.25-03.59.00:256][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2022.08.25-03.59.00:286][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2022.08.25-03.59.00:309][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2022.08.25-03.59.00:334][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2022.08.25-03.59.00:385][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2022.08.25-03.59.00:385][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2022.08.25-03.59.00:385][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.08.25-03.59.00:517][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.08.25-03.59.00:943][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Intermediate/Shaders/WorkingDirectory/2332/).
+[2022.08.25-03.59.00:944][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/방찬웅/AppData/Local/Temp/UnrealShaderWorkingDir/7DF5CAB34FABA765B1B42DA4FD1E27DA/'.
+[2022.08.25-03.59.00:966][  0]LogXGEController: Cleaning working directory: C:/Users/방찬웅/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.08.25-03.59.00:967][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.08.25-03.59.00:967][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.08.25-03.59.00:967][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.08.25-03.59.02:918][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.08.25-03.59.03:089][  0]LogDerivedDataCache: Loaded boot cache 0.17s 71MB C:/Users/방찬웅/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.08.25-03.59.03:089][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/방찬웅/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2022.08.25-03.59.03:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.08.25-03.59.03:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.08.25-03.59.03:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.25-03.59.03:090][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.08.25-03.59.03:285][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.08.25-03.59.03:285][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.08.25-03.59.03:285][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.08.25-03.59.03:298][  0]LogDerivedDataCache: Using Local data cache path C:/Users/방찬웅/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.08.25-03.59.03:298][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.08.25-03.59.03:298][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.08.25-03.59.03:331][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.08.25-03.59.03:383][  0]LogSlate: Using FreeType 2.6.0
+[2022.08.25-03.59.03:513][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.08.25-03.59.04:888][  0]LogAssetRegistry: FAssetRegistry took 0.0596 seconds to start up
+[2022.08.25-03.59.09:567][  0]LogInit: Selected Device Profile: [Windows]
+[2022.08.25-03.59.10:583][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.08.25-03.59.10:583][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.08.25-03.59.10:583][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.08.25-03.59.10:583][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.08.25-03.59.10:583][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.08.25-03.59.10:735][  0]LogNetVersion: UOnline_02_Battle 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 570277523)
+[2022.08.25-03.59.13:570][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.065119 seconds
+[2022.08.25-03.59.13:587][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2022.08.25-03.59.13:587][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2022.08.25-03.59.13:587][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.08.25-03.59.21:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.08.25-03.59.21:380][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.08.25-03.59.21:894][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2022.08.25-03.59.21:895][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2022.08.25-03.59.21:979][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2022.08.25-03.59.21:992][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2022.08.25-03.59.22:663][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.25-03.59.23:155][  0]LogOcInput: OculusInput pre-init called
+[2022.08.25-03.59.24:857][  0]LogEngine: Initializing Engine...
+[2022.08.25-03.59.24:911][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.08.25-03.59.24:913][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.08.25-03.59.25:568][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.08.25-03.59.25:880][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.08.25-03.59.26:087][  0]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-03.59.26:155][  0]LogInit: FAudioDevice initialized.
+[2022.08.25-03.59.26:155][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.08.25-03.59.26:230][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/방찬웅/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2022.08.25-03.59.26:230][  0]LogInit: Texture streaming: Enabled
+[2022.08.25-03.59.26:376][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.08.25-03.59.26:532][  0]LogInit: Transaction tracking system initialized
+[2022.08.25-03.59.26:820][  0]BlueprintLog: New page: 에디터 로드
+[2022.08.25-03.59.27:647][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.08.25-03.59.30:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/' took 0.08s
+[2022.08.25-03.59.30:359][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.08.25-03.59.30:359][  0]LogCook: Display: Mobile HDR setting 1
+[2022.08.25-03.59.34:372][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2022.08.25-03.59.34:386][  0]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.25-03.59.34:388][  0]LightingResults: New page: 라이팅 빌드
+[2022.08.25-03.59.34:526][  0]MapCheck: New page: 맵 체크
+[2022.08.25-03.59.34:526][  0]LightingResults: New page: 라이팅 빌드
+[2022.08.25-03.59.34:798][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.08.25-03.59.35:525][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:525][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:525][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:525][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:525][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:526][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:527][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/desert' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:527][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:527][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/desert' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:528][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:528][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:528][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:528][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/desert' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:528][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:529][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/desert' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:529][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:529][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:529][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:545][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:545][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:546][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:546][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:546][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:546][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:550][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:550][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:551][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:551][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:551][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:552][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:555][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:555][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:556][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:556][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:556][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:556][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:570][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:571][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:571][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:571][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:571][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:572][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:572][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:572][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:572][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:573][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:573][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:573][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:574][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:574][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:574][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:574][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:574][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:575][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:575][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:575][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:575][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:576][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:576][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:576][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:580][  0]LogLinker: Warning: '/Game/Explosion/Demo/Materials/BG_inst6' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:580][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:581][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Materials/BG_inst6' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:581][  0]LogLinker: Warning: '/Game/Explosion/Demo/Materials/BG_inst6' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.35:581][  0]LoadErrors: 로드에 실패했습니다. /Game/Effects/P_Explosion1 참조한 것: CharacterMesh0
+[2022.08.25-03.59.35:581][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Materials/BG_inst6' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:685][  0]LogLinker: Warning: '/Game/Explosion/Demo/Materials/BG_inst6' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:685][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Demo/Materials/BG_inst6.BG_inst6 참조한 것: b_debris_01
+[2022.08.25-03.59.36:685][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Materials/BG_inst6' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:686][  0]LogLinker: Warning: '/Game/Explosion/Demo/Materials/BG_inst6' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:686][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Demo/Materials/BG_inst6.BG_inst6 참조한 것: b_debris_01
+[2022.08.25-03.59.36:686][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Materials/BG_inst6' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:687][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:687][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/Flow/Circle_normal.Circle_normal 참조한 것: MaterialExpressionTextureSampleParameter2D_5
+[2022.08.25-03.59.36:687][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:687][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:687][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/smoke/0_6_smoke.0_6_smoke 참조한 것: MaterialExpressionTextureSampleParameterSubUV_2
+[2022.08.25-03.59.36:688][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:688][  0]LogLinker: Warning: '/Game/Explosion/Textures/Flow/Circle_normal' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:688][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/Flow/Circle_normal.Circle_normal 참조한 것: 4_6_smoke5_vg_Inst
+[2022.08.25-03.59.36:688][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Flow/Circle_normal' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:689][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:689][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/smoke/4_6_smoke5_vg.4_6_smoke5_vg 참조한 것: 4_6_smoke5_vg_Inst
+[2022.08.25-03.59.36:689][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/4_6_smoke5_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:689][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:689][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/Fire/blowingFire_fwd.blowingFire_fwd 참조한 것: blackbody_exp_Mat_Inst3
+[2022.08.25-03.59.36:690][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:690][  0]LogLinker: Warning: '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:690][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/Fire/blowingFire_fwd2.blowingFire_fwd2 참조한 것: blackbody_exp_Mat_Inst2
+[2022.08.25-03.59.36:690][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/Fire/blowingFire_fwd2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:691][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:691][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Demo/Textures/Grid_Tex.Grid_Tex 참조한 것: MaterialExpressionTextureSampleParameter2D_3
+[2022.08.25-03.59.36:691][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:692][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/Grid_Tex' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:692][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Demo/Textures/Grid_Tex.Grid_Tex 참조한 것: debris_bd
+[2022.08.25-03.59.36:692][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/Grid_Tex' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:692][  0]LogLinker: Warning: '/Game/Explosion/Demo/Textures/desert' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:692][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Demo/Textures/desert.desert 참조한 것: debris_bd
+[2022.08.25-03.59.36:693][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Demo/Textures/desert' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:715][  0]LogLinker: Warning: '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.36:715][  0]LoadErrors: 로드에 실패했습니다. /Game/Explosion/Textures/smoke/0_6_smoke_re_vg.0_6_smoke_re_vg 참조한 것: MaterialExpressionTextureSampleParameterSubUV_3
+[2022.08.25-03.59.36:715][  0]LogLinker: Warning: NULL 로드중 '/Game/Explosion/Textures/smoke/0_6_smoke_re_vg' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.08.25-03.59.37:135][  0]LogMaterial: Display: Missing cached shader map for material blackbody_exp_Mat, compiling. 
+[2022.08.25-03.59.37:141][  0]LogMaterial: Warning: C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Learn_02_Battle\Content\Effects\Materials\Master\blackbody_exp_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.08.25-03.59.37:141][  0]LogMaterial: 	(Node TextureSampleParameterSubUV) Parameter SubUV> Requires Texture2D
+[2022.08.25-03.59.37:144][  0]LogMaterial: Display: Missing cached shader map for material Smoke1_Mat, compiling. 
+[2022.08.25-03.59.37:144][  0]LogMaterial: Warning: C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Learn_02_Battle\Content\Effects\Materials\Master\Smoke1_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.08.25-03.59.37:144][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2022.08.25-03.59.37:144][  0]LogMaterial: 	(Node TextureSampleParameterSubUV) Parameter SubUV> Requires Texture2D
+[2022.08.25-03.59.37:214][  0]LogMaterial: Display: Missing cached shader map for material Debris_Mat, compiling. 
+[2022.08.25-03.59.37:215][  0]LogMaterial: Warning: C:\Users\방찬웅\Desktop\Project\Unreal_Engine_Tutorial\Blueprints\UEProject\Learn_02_Battle\Content\Effects\Materials\Master\Debris_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.08.25-03.59.37:215][  0]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2022.08.25-03.59.37:447][  0]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-03.59.37:745][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.25-03.59.37:841][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.08.25-03.59.37:841][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.25-03.59.37:860][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.281ms.
+[2022.08.25-03.59.37:860][  0]LogFileHelpers: Loading map 'Combat' took 3.474
+[2022.08.25-03.59.38:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-03.59.38:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-03.59.38:844][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-03.59.38:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-03.59.38:943][  0]LogCollectionManager: Loaded 0 collections in 0.000952 seconds
+[2022.08.25-03.59.39:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Collections/' took 0.01s
+[2022.08.25-03.59.39:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Developers/방찬웅/Collections/' took 0.01s
+[2022.08.25-03.59.39:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Collections/' took 0.01s
+[2022.08.25-03.59.39:043][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.08.25-03.59.39:051][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2732 classes and 659 folders.
+[2022.08.25-03.59.39:100][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.08.25-03.59.39:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:218][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:229][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:275][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:316][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:327][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:363][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:379][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:384][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:417][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:432][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:434][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:448][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.39:508][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2022.08.25-03.59.40:350][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.08.25-03.59.40:389][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.08.25-03.59.40:692][  0]LogSlate: Took 0.037492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.25-03.59.40:752][  0]LogSlate: Took 0.059909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.08.25-03.59.40:858][  0]LogSlate: Took 0.104883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.08.25-03.59.40:881][  0]LogSlate: Took 0.022501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.25-03.59.40:918][  0]LogSlate: Took 0.021168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.25-03.59.41:298][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2022.08.25-03.59.41:430][  0]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '라 (U+b77c)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2022.08.25-03.59.41:432][  0]LogSlate: Took 0.002141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.08.25-03.59.41:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.08.25-03.59.41:617][  0]LogLoad: (Engine Initialization) Total time: 80.87 seconds
+[2022.08.25-03.59.41:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.25-03.59.41:811][  0]LogAssetRegistry: Asset discovery search completed in 36.9457 seconds
+[2022.08.25-03.59.41:820][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.08.25-03.59.41:821][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2022.08.25-03.59.41:869][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.25-03.59.41:894][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.08.25-03.59.43:095][  4]LogSlate: Took 0.015349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.25-04.02.09:735][452]LogSlate: Window '메시지 로그' being destroyed
+[2022.08.25-04.02.09:745][452]LogSlate: Window '메시지 로그' being destroyed
+[2022.08.25-05.04.38:964][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.04.39:031][812]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.04.39:039][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.04.39:039][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.04.39:056][812]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:04:39)
+[2022.08.25-05.04.39:083][812]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.04.39:086][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003264s)
+[2022.08.25-05.04.39:086][812]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.04.39:087][812]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2022.08.25-05.04.39:087][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.004228s)
+[2022.08.25-05.04.39:108][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.08.25-05.04.39:266][812]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.04.39:318][812]LogInit: FAudioDevice initialized.
+[2022.08.25-05.04.39:372][812]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.04.39:375][812]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.04.39
+[2022.08.25-05.04.39:435][812]LogWorld: Bringing up level for play took: 0.061502
+[2022.08.25-05.04.39:534][812]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.08.25-05.04.39:551][812]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.199
+[2022.08.25-05.04.39:551][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.40:564][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.40:564][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.40:957][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.05.40:957][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.40:998][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.41:027][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.08.25-05.05.41:044][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.08.25-05.05.41:921][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.05.42:022][214]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.05.42:030][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.42:030][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.05.42:030][214]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:05:42)
+[2022.08.25-05.05.42:030][214]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.05.42:033][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002773s)
+[2022.08.25-05.05.42:033][214]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.05.42:034][214]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2022.08.25-05.05.42:034][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003879s)
+[2022.08.25-05.05.42:054][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.25-05.05.42:208][214]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.05.42:254][214]LogInit: FAudioDevice initialized.
+[2022.08.25-05.05.42:280][214]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.05.42:282][214]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.05.42
+[2022.08.25-05.05.42:282][214]LogWorld: Bringing up level for play took: 0.002178
+[2022.08.25-05.05.42:296][214]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.944
+[2022.08.25-05.05.42:296][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.53:068][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.53:068][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.53:101][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.05.53:101][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.53:125][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.53:128][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.08.25-05.05.53:172][508]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.08.25-05.05.54:297][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.05.54:397][655]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.05.54:404][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.54:404][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.05.54:404][655]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:05:54)
+[2022.08.25-05.05.54:404][655]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.05.54:407][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002393s)
+[2022.08.25-05.05.54:407][655]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.05.54:407][655]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2022.08.25-05.05.54:407][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002873s)
+[2022.08.25-05.05.54:427][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.08.25-05.05.54:578][655]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.05.54:623][655]LogInit: FAudioDevice initialized.
+[2022.08.25-05.05.54:648][655]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.05.54:651][655]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.05.54
+[2022.08.25-05.05.54:651][655]LogWorld: Bringing up level for play took: 0.002156
+[2022.08.25-05.05.54:665][655]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.687
+[2022.08.25-05.05.54:665][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.58:784][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.58:785][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.58:811][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.05.58:811][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.05.58:835][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.05.58:837][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.25-05.05.58:889][152]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.08.25-05.06.18:487][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.06.18:578][513]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.06.18:586][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.06.18:586][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.06.18:586][513]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:06:18)
+[2022.08.25-05.06.18:586][513]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.06.18:589][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2022.08.25-05.06.18:589][513]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.06.18:589][513]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2022.08.25-05.06.18:589][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003036s)
+[2022.08.25-05.06.18:610][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.25-05.06.18:763][513]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.06.18:808][513]LogInit: FAudioDevice initialized.
+[2022.08.25-05.06.18:840][513]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.06.18:842][513]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.06.18
+[2022.08.25-05.06.18:843][513]LogWorld: Bringing up level for play took: 0.002263
+[2022.08.25-05.06.18:856][513]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.496
+[2022.08.25-05.06.18:856][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.23:790][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.07.36:741][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.36:768][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.07.36:794][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.07.36:795][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.36:820][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.07.36:823][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.08.25-05.07.36:856][608]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.08.25-05.07.37:615][699]Cmd: SELECT NONE
+[2022.08.25-05.07.38:507][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.07.38:583][802]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.07.38:591][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.38:591][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.07.38:591][802]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:07:38)
+[2022.08.25-05.07.38:591][802]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.07.38:594][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002772s)
+[2022.08.25-05.07.38:594][802]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.07.38:594][802]LogPlayLevel: PIE: World Init took: (0.000447s)
+[2022.08.25-05.07.38:594][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003315s)
+[2022.08.25-05.07.38:614][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.25-05.07.38:769][802]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.07.38:814][802]LogInit: FAudioDevice initialized.
+[2022.08.25-05.07.38:842][802]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.07.38:844][802]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.07.38
+[2022.08.25-05.07.38:845][802]LogWorld: Bringing up level for play took: 0.002449
+[2022.08.25-05.07.38:858][802]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.494
+[2022.08.25-05.07.38:858][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.55:130][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.55:130][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.07.55:159][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.07.55:159][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.07.55:183][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.07.55:186][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.08.25-05.07.55:235][757]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.08.25-05.08.47:091][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.08.48:137][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.08.25-05.08.50:237][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.25-05.08.50:428][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.08.25-05.08.50:558][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.25-05.12.20:561][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.18.33:182][776]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.08.25-05.18.34:316][776]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2022.08.25-05.18.35:425][776]LogSlate: Took 0.021434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.25-05.18.35:526][777]LogSlate: Took 0.001876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.08.25-05.18.58:210][353]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.08.25-05.18.58:384][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.08.25-05.19.29:020][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.08.25-05.19.29:632][883]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto1189F5EBB443EF18B9F3AAA910AF03635.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto1.umap'
+[2022.08.25-05.19.29:638][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.646
+[2022.08.25-05.19.29:638][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.646
+[2022.08.25-05.25.05:973][541]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.08.25-05.29.09:993][794]LogEditorTransaction: Undo 노드 이동
+[2022.08.25-05.29.14:357][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.25-05.29.14:614][239]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player4A7D8F2F4DE4CF07E3CB28AE3527BF18.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.25-05.30.25:257][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.25-05.30.25:427][333]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player520CAD544B7CD080E19097BDCAF256C0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.25-05.30.26:699][481]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.25-05.30.26:867][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.08.25-05.31.10:296][828]BlueprintLog: New page: BP_Player 컴파일
+[2022.08.25-05.31.10:451][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.08.25-05.31.38:025][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.08.25-05.31.38:206][ 93]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto26345E8A94F463AC466FB7596C749CD5B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto2.umap'
+[2022.08.25-05.31.38:210][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.215
+[2022.08.25-05.31.38:210][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
+[2022.08.25-05.31.38:211][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.08.25-05.31.38:219][ 93]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.08.25-05.31.38:219][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.08.25-05.31.38:390][ 93]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto2615254254B9E5699C784949344D0C98D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto2.uasset'
+[2022.08.25-05.31.38:393][ 93]LogFileHelpers: Auto-saving content packages took 0.183
+[2022.08.25-05.32.41:493][401]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.32.41:506][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.32.41:506][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.32.41:506][401]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:32:41)
+[2022.08.25-05.32.41:506][401]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.32.41:509][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002552s)
+[2022.08.25-05.32.41:509][401]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.32.41:510][401]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2022.08.25-05.32.41:510][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003134s)
+[2022.08.25-05.32.41:537][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.08.25-05.32.41:696][401]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.32.41:743][401]LogInit: FAudioDevice initialized.
+[2022.08.25-05.32.41:775][401]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.32.41:779][401]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.32.41
+[2022.08.25-05.32.41:779][401]LogWorld: Bringing up level for play took: 0.003423
+[2022.08.25-05.32.41:793][401]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.441
+[2022.08.25-05.32.41:793][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.32.57:910][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.32.57:910][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.32.57:944][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.32.57:944][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.32.57:975][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.32.57:978][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.08.25-05.32.58:015][326]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.08.25-05.32.59:003][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.32.59:095][455]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.32.59:107][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.32.59:107][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.32.59:107][455]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:32:59)
+[2022.08.25-05.32.59:107][455]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.32.59:110][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002554s)
+[2022.08.25-05.32.59:110][455]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.32.59:110][455]LogPlayLevel: PIE: World Init took: (0.000373s)
+[2022.08.25-05.32.59:110][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003010s)
+[2022.08.25-05.32.59:137][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.08.25-05.32.59:296][455]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.32.59:341][455]LogInit: FAudioDevice initialized.
+[2022.08.25-05.32.59:372][455]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.32.59:374][455]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.32.59
+[2022.08.25-05.32.59:375][455]LogWorld: Bringing up level for play took: 0.002184
+[2022.08.25-05.32.59:388][455]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.036
+[2022.08.25-05.32.59:388][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.15:626][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.15:626][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.33.15:659][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.33.15:659][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.15:691][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.33.15:694][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.08.25-05.33.15:727][404]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.08.25-05.33.20:612][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.33.22:000][149]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Character/Mesh/Skel_Mannequin.Skel_Mannequin
+[2022.08.25-05.33.22:447][149]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2022.08.25-05.33.22:447][149]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.08.25-05.33.22:930][149]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.08.25-05.33.22:935][149]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2022.08.25-05.33.22:936][149]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2022.08.25-05.33.23:022][149]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.08.25-05.33.49:136][628]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Skel_MannequinF59D09CF4C60B84316BBBB877DE545E8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Mesh/Skel_Mannequin.uasset'
+[2022.08.25-05.33.50:239][744]LogSlate: Window 'Skel_Mannequin' being destroyed
+[2022.08.25-05.33.50:244][744]LogSlate: Window 'Skel_Mannequin' being destroyed
+[2022.08.25-05.33.50:323][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.08.25-05.33.51:199][829]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.08.25-05.33.51:208][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.51:208][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.25-05.33.51:208][829]PIE: New page: PIE 세션: Combat (2022. 8. 25. 오후 11:33:51)
+[2022.08.25-05.33.51:208][829]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.08.25-05.33.51:211][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002490s)
+[2022.08.25-05.33.51:211][829]LogAIModule: Creating AISystem for world Combat
+[2022.08.25-05.33.51:211][829]LogPlayLevel: PIE: World Init took: (0.000395s)
+[2022.08.25-05.33.51:211][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.002967s)
+[2022.08.25-05.33.51:270][829]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2022.08.25-05.33.51:425][829]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.08.25-05.33.51:468][829]LogInit: FAudioDevice initialized.
+[2022.08.25-05.33.51:497][829]LogLoad: Game class is 'GameModeBase'
+[2022.08.25-05.33.51:499][829]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.08.25-14.33.51
+[2022.08.25-05.33.51:500][829]LogWorld: Bringing up level for play took: 0.002168
+[2022.08.25-05.33.51:513][829]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.161
+[2022.08.25-05.33.51:513][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.58:034][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.58:034][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.33.58:066][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.25-05.33.58:066][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.08.25-05.33.58:094][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.25-05.33.58:133][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.08.25-05.33.58:150][610]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.08.25-05.43.48:805][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.08.25-05.43.50:030][410]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.08.25-05.45.02:942][994]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.08.25-05.45.03:155][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.08.25-05.46.10:570][817]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.08.25-05.46.10:583][817]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.08.25-05.52.31:179][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.08.25-05.52.31:371][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto361281588416FBFF8123B7585B5761857.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto3.umap'
+[2022.08.25-05.52.31:375][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.230
+[2022.08.25-05.52.31:375][  0]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2022.08.25-05.52.31:377][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_IWeapon] ([1] browsable assets)...
+[2022.08.25-05.52.31:377][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_IWeapon]
+[2022.08.25-05.52.31:443][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeapon_Auto35FB8228C4A77390AA5DDAAA564E72FA2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/BP_IWeapon_Auto3.uasset'
+[2022.08.25-05.52.31:447][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/BP_Weapon] ([1] browsable assets)...
+[2022.08.25-05.52.31:447][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Weapon]
+[2022.08.25-05.52.31:539][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Weapon_Auto35B9715D84BE56298503BFD949012BF53.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Weapon_Auto3.uasset'
+[2022.08.25-05.52.31:541][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.08.25-05.52.31:541][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.08.25-05.52.31:732][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto32CD5B4704B41861A1DD1409C8D2302AE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto3.uasset'
+[2022.08.25-05.52.31:738][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/AN_EndAttack] ([1] browsable assets)...
+[2022.08.25-05.52.31:738][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/AN_EndAttack]
+[2022.08.25-05.52.31:804][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_EndAttack_Auto36390712541DF43D399D1F8A91A6E7E5C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/AN_EndAttack_Auto3.uasset'
+[2022.08.25-05.52.31:806][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/AN_PlayNextCombo] ([1] browsable assets)...
+[2022.08.25-05.52.31:806][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/AN_PlayNextCombo]
+[2022.08.25-05.52.31:875][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_PlayNextCombo_Auto329371E5C4FD0F56A020E88A0D27300C5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/AN_PlayNextCombo_Auto3.uasset'
+[2022.08.25-05.52.31:877][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/ANS_EnableNextCombo] ([1] browsable assets)...
+[2022.08.25-05.52.31:877][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/ANS_EnableNextCombo]
+[2022.08.25-05.52.31:951][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_EnableNextCombo_Auto37B5664FE4D1B44E3C0735BAD400725B5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/ANS_EnableNextCombo_Auto3.uasset'
+[2022.08.25-05.52.31:952][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_InterfaceTest] ([1] browsable assets)...
+[2022.08.25-05.52.31:952][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_InterfaceTest]
+[2022.08.25-05.52.32:025][  0]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTest_Auto397103FC14486624DF3B998BF92BAC96F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/BP_InterfaceTest_Auto3.uasset'
+[2022.08.25-05.52.32:026][  0]LogFileHelpers: Auto-saving content packages took 0.650
+[2022.08.25-07.14.21:595][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.08.25-07.14.21:647][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.08.25-07.14.21:656][304]LogClass: UUserDefinedStruct.Serialize 'FComboMontage' validation: 'UserDefinedStruct /Game/Weapons/Combo/FComboMontage.FComboMontage' 구조체가 공백입니다.
+[2022.08.25-07.14.29:435][130]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_EnableNextCombo3075A4C044AF1631C846459D8F15EB41.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Attacking/ANS_EnableNextCombo.uasset'
+[2022.08.25-07.14.29:508][130]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_PlayNextComboE9585DD6497D5D8A873F19A030A76752.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Attacking/AN_PlayNextCombo.uasset'
+[2022.08.25-07.14.29:522][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.25-07.14.29:709][130]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player4B1C1F5C4F3D29B0D72AFE94A2F7B892.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.25-07.14.29:727][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.08.25-07.14.29:877][130]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyFA7FD01B4E0CB6A860D8F0B5B18B5A67.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.08.25-07.14.29:957][130]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_CollisionSwordF424FB5C497DE6BEB72B3FBF3946565E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Attacking/ANS_CollisionSword.uasset'
+[2022.08.25-07.14.31:308][268]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.08.25-07.14.32:457][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.08.25-07.14.33:149][399]LogSlate: Took 0.001174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.25-07.14.34:116][399]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.25-07.14.34:130][399]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Weapons/BP_Combo.BP_Combo
+	Asset Name: /Game/Weapons/BP_Sword.BP_Sword
+	Asset Name: /Game/Weapons/FComboMontage.FComboMontage
+	Asset Name: /Game/Weapons/Sword_Combo_Table.Sword_Combo_Table
+[2022.08.25-07.14.34:157][399]LogBlueprint: Warning: [Compiler BP_Sword] 'BP_Sword_C' 에서 "ComboTable" 라는 이름의 변수를 찾을 수 없습니다.
+ ComboTable 설정  에 대해 'BP_Sword_C' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.14.34:158][399]LogBlueprint: Error: [Compiler BP_Sword] 이 블루프린트(셀프)는 BP_Combo_C 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.08.25-07.14.34:159][399]LogBlueprint: Warning: [Compiler BP_Sword] [1773.41] BP_Sword 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 4 ms] (/Game/Weapons/Combo/BP_Sword.BP_Sword)
+[2022.08.25-07.14.35:560][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.08.25-07.14.37:765][399]LogSlate: Window '메시지' being destroyed
+[2022.08.25-07.14.38:190][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.08.25-07.14.38:216][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.25-07.14.38:236][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.08.25-07.14.38:259][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.08.25-07.14.38:285][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.08.25-07.14.51:821][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_TrailC281FB5A4BF9945914EABAA5798D3EFD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Trails/M_Trail.uasset'
+[2022.08.25-07.14.51:841][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/M_Trail_InstD160779B49686117BB906C9152143AEF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Trails/M_Trail_Inst.uasset'
+[2022.08.25-07.14.51:858][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_Trail6854198848DDB484644481A21A1ADB8A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Trails/P_Trail.uasset'
+[2022.08.25-07.14.52:100][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.08.25-07.14.52:119][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.25-07.14.52:143][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.25-07.14.52:170][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.08.25-07.14.52:191][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.25-07.14.52:279][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_12DC7302B475C6139E2F6D0819449B4F3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_1.uasset'
+[2022.08.25-07.14.52:357][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_29F1AB7644939072917B2E3A1BBEFE9B6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_2.uasset'
+[2022.08.25-07.14.52:436][607]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Attack_35A7CEC45405A3F54B96CB389A965C272.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Sword_Attack_3.uasset'
+[2022.08.25-07.14.57:213][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.08.25-07.14.58:659][157]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.25-07.14.58:671][157]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Weapons/FComboMontage.FComboMontage
+[2022.08.25-07.15.02:943][157]LogSlate: Window '메시지' being destroyed
+[2022.08.25-07.15.03:110][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.BP_Wizard_C' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.BP_Wizard:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.SKEL_BP_Wizard_C:ReceiveBeginPlay' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.SKEL_BP_Wizard_C:ParticleSystem' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.SKEL_BP_Wizard_C:UserConstructionScript' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.SKEL_BP_Wizard_C' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.BP_Wizard_C:ParticleSystem' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:543][845]LogMetaData: Removing '/Game/Weapons/Wizard/BP_Wizard.BP_Wizard_C:ReceiveBeginPlay' ref from Metadata '/Game/Weapons/BP_Wizard.PackageMetaData'
+[2022.08.25-07.15.09:596][845]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WizardA251FDCB41BBD9F9146328B852F77F43.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.08.25-07.15.09:736][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.08.25-07.15.09:766][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.08.25-07.15.09:787][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.08.25-07.15.09:809][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.25-07.15.09:988][845]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player4614F51A46143C7BE4FC02804B73AC9C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.25-07.15.17:645][531]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.08.25-07.15.19:415][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.08.25-07.15.20:414][725]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.25-07.15.20:527][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.08.25-07.15.22:721][984]LogMetaData: Removing '/Game/Weapons/Combo/FComboMontage.FComboMontage' ref from Metadata '/Game/Weapons/FComboMontage.PackageMetaData'
+[2022.08.25-07.15.22:721][984]LogMetaData: Removing '/Game/Weapons/Combo/FComboMontage.FComboMontage:Montage_2_977C38D14EE19A458B36DB8CF2F7E047' ref from Metadata '/Game/Weapons/FComboMontage.PackageMetaData'
+[2022.08.25-07.15.22:721][984]LogMetaData: Removing '/Game/Weapons/Combo/FComboMontage.FComboMontage:PlayRate_5_328C003A480F69FC6606A0A0CF0BF092' ref from Metadata '/Game/Weapons/FComboMontage.PackageMetaData'
+[2022.08.25-07.15.22:721][984]LogMetaData: Removing '/Game/Weapons/Combo/FComboMontage.FComboMontage:StartSectionName_13_AADABC684A1829B2F596F2B3C2B9287B' ref from Metadata '/Game/Weapons/FComboMontage.PackageMetaData'
+[2022.08.25-07.15.22:721][984]LogMetaData: Removing '/Game/Weapons/Combo/FComboMontage.FComboMontage:CanMove_12_C9DCB62342669372B8AE23A54794F89C' ref from Metadata '/Game/Weapons/FComboMontage.PackageMetaData'
+[2022.08.25-07.15.22:750][984]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/FComboMontage92FC0CDC4A7D47523E9904B3759A051D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Combo/FComboMontage.uasset'
+[2022.08.25-07.15.22:858][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.25-07.15.22:888][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.08.25-07.15.22:910][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.08.25-07.15.32:650][508]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_Wizard.BP_Wizard
+[2022.08.25-07.15.57:759][372]LogMetaData: Removing '/Game/Enums/EStateType.EStateType' ref from Metadata '/Game/Player/EStateType.PackageMetaData'
+[2022.08.25-07.15.57:778][372]LogMetaData: Removing '/Game/Enums/ECombatType.ECombatType' ref from Metadata '/Game/Player/ECombatType.PackageMetaData'
+[2022.08.25-07.15.57:810][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/EStateType" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset" SILENT=true
+[2022.08.25-07.15.57:813][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EStateTypeAFCB6BBA4255372EE452CDB4E67E8ED0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset'
+[2022.08.25-07.15.57:818][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/ECombatType" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/ECombatType.uasset" SILENT=true
+[2022.08.25-07.15.57:820][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ECombatType5F5DCFBD4887A8036FD6EBA79C6839FC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/ECombatType.uasset'
+[2022.08.25-07.15.58:014][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.08.25-07.15.58:039][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.08.25-07.15.58:067][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.08.25-07.15.58:092][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.25-07.15.58:105][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_InterfaceTest" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_InterfaceTest.uasset" SILENT=true
+[2022.08.25-07.15.58:171][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTest44E85A9B4493DF020761A7A166D46BB1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_InterfaceTest.uasset'
+[2022.08.25-07.15.58:176][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.08.25-07.15.58:242][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeaponDFFA4481477DF6352A86E1B943005B59.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.08.25-07.15.58:255][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.08.25-07.15.58:425][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_PlayerB63FC0F348E6356541B53A823200B66F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.08.25-07.15.58:429][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Weapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset" SILENT=true
+[2022.08.25-07.15.58:521][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WeaponEA70426C4636ECB5EDD8E48C23CCD9B6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset'
+[2022.08.25-07.15.58:535][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.08.25-07.15.58:679][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy653656EF44EA394FA4D30CAC8B0BE9ED.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.08.25-07.15.58:692][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.08.25-07.15.58:881][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerFD62E15848E908BE3685B0B0DC59ED3B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.08.25-07.15.58:961][372]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard3D394B5D426F2FFE2404958CE70AA62E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.08.25-07.16.00:821][571]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Enums/EStateType.EStateType
+[2022.08.25-07.16.37:222][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.08.25-07.16.37:422][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto4C38833DD4F4C383440E8C29CBFC98815.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto4.umap'
+[2022.08.25-07.16.37:425][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.235
+[2022.08.25-07.16.37:426][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.235
+[2022.08.25-07.16.37:428][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enums/EStateType] ([1] browsable assets)...
+[2022.08.25-07.16.37:428][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enums/EStateType]
+[2022.08.25-07.16.37:492][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EStateType_Auto4DCE1E0794741016336466E8B8F3363B5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enums/EStateType_Auto4.uasset'
+[2022.08.25-07.16.37:493][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/BP_Weapon] ([1] browsable assets)...
+[2022.08.25-07.16.37:493][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Weapon]
+[2022.08.25-07.16.37:586][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Weapon_Auto4E99ADEA44F73FC1F62555F9D77A50F24.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Weapon_Auto4.uasset'
+[2022.08.25-07.16.37:588][810]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.08.25-07.16.37:596][810]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.08.25-07.16.37:596][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.08.25-07.16.37:790][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto463BA0A2044CCDB82AB755BB02F9DCBF6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto4.uasset'
+[2022.08.25-07.16.37:793][810]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/ABP_Player] ([1] browsable assets)...
+[2022.08.25-07.16.37:801][810]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Player/ABP_Player.ABP_Player]
+[2022.08.25-07.16.37:801][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ABP_Player]
+[2022.08.25-07.16.38:014][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player_Auto48E86A55741DB5CE25C1A998477538ED9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/ABP_Player_Auto4.uasset'
+[2022.08.25-07.16.38:017][810]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weapons/Combo/BP_Sword] ([1] browsable assets)...
+[2022.08.25-07.16.38:025][810]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Weapons/Combo/BP_Sword.BP_Sword]
+[2022.08.25-07.16.38:025][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Combo/BP_Sword]
+[2022.08.25-07.16.38:055][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Sword_Auto4823B3A4B445AE52B5B0A25A464BBD62E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Combo/BP_Sword_Auto4.uasset'
+[2022.08.25-07.16.38:056][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Combo/Sword_Combo_Table] ([1] browsable assets)...
+[2022.08.25-07.16.38:056][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Combo/Sword_Combo_Table]
+[2022.08.25-07.16.38:059][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Sword_Combo_Table_Auto45BE6F6E64C5CB1A5F8B8BFB760C69C60.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Combo/Sword_Combo_Table_Auto4.uasset'
+[2022.08.25-07.16.38:061][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Combo/BP_Combo] ([1] browsable assets)...
+[2022.08.25-07.16.38:061][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Combo/BP_Combo]
+[2022.08.25-07.16.38:096][810]LogProperty: Error: UStructProperty::Serialize Saving: Property 'StructProperty /Game/Weapons/Combo/BP_Combo.BP_Combo_C:ComboMontages.ComboMontages'. FallbackStruct structure.
+[2022.08.25-07.16.38:109][810]LogProperty: Error: UStructProperty::Serialize Saving: Property 'StructProperty /Game/Weapons/Combo/BP_Combo.BP_Combo_C:ExecuteUbergraph_BP_Combo.CallFunc_GetDataTableRowFromName_OutRow'. FallbackStruct structure.
+[2022.08.25-07.16.38:110][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo_Auto48DA036C847573912BEB9E0ACF9E3FFA2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Combo/BP_Combo_Auto4.uasset'
+[2022.08.25-07.16.38:111][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/AN_EndAttack] ([1] browsable assets)...
+[2022.08.25-07.16.38:111][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/AN_EndAttack]
+[2022.08.25-07.16.38:187][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_EndAttack_Auto416FDC62D4732D419275BD0B2C27CB9E5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/AN_EndAttack_Auto4.uasset'
+[2022.08.25-07.16.38:188][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/AN_PlayNextCombo] ([1] browsable assets)...
+[2022.08.25-07.16.38:188][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/AN_PlayNextCombo]
+[2022.08.25-07.16.38:261][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_PlayNextCombo_Auto40C237FD040BE0A74F2F89FA16831A4A6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/AN_PlayNextCombo_Auto4.uasset'
+[2022.08.25-07.16.38:262][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/ANS_CollisionSword] ([1] browsable assets)...
+[2022.08.25-07.16.38:262][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/ANS_CollisionSword]
+[2022.08.25-07.16.38:346][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_CollisionSword_Auto4326C6C0C4E3B753C808A5D93B3A0C8AD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/ANS_CollisionSword_Auto4.uasset'
+[2022.08.25-07.16.38:348][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Notifies/Attacking/ANS_EnableNextCombo] ([1] browsable assets)...
+[2022.08.25-07.16.38:348][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Notifies/Attacking/ANS_EnableNextCombo]
+[2022.08.25-07.16.38:446][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_EnableNextCombo_Auto417D2831D403F8BBD109B4C8889AF29A2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Notifies/Attacking/ANS_EnableNextCombo_Auto4.uasset'
+[2022.08.25-07.16.38:447][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_InterfaceTest] ([1] browsable assets)...
+[2022.08.25-07.16.38:447][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_InterfaceTest]
+[2022.08.25-07.16.38:554][810]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTest_Auto4F854629E4E9E5529F5ED4CA1A49CE662.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/BP_InterfaceTest_Auto4.uasset'
+[2022.08.25-07.16.38:555][810]LogFileHelpers: Auto-saving content packages took 1.127
+[2022.08.25-07.26.29:422][725]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.08.25-07.26.29:557][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.08.25-07.26.33:030][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/EStateType" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset" SILENT=true
+[2022.08.25-07.26.33:094][ 86]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EStateType6D2EF4BE46ECA8CFA7676197B421A667.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset'
+[2022.08.25-07.27.44:284][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.08.25-07.27.44:284][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.030
+[2022.08.25-07.27.44:285][936]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.08.25-07.27.44:285][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.08.25-07.27.44:463][936]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto5B58D012E4871D528311F69882FC5CE2A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto5.uasset'
+[2022.08.25-07.27.44:466][936]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Wizard/BP_Wizard] ([1] browsable assets)...
+[2022.08.25-07.27.44:466][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Wizard/BP_Wizard]
+[2022.08.25-07.27.44:540][936]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard_Auto5DBCCCCC545C5F5E03515559A20CF2D20.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Wizard/BP_Wizard_Auto5.uasset'
+[2022.08.25-07.27.44:541][936]LogFileHelpers: Auto-saving content packages took 0.257
+[2022.08.25-07.28.11:821][645]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.08.25-07.28.19:146][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_WizardSkill.BP_WizardSkill
+[2022.08.25-07.29.41:664][818]BlueprintLog: New page: BP_WizardSkill 컴파일
+[2022.08.25-07.29.41:792][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.08.25-07.29.44:158][ 85]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.08.25-07.29.44:286][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.08.25-07.30.47:755][385]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.08.25-07.32.08:784][933]LogSlate: Took 0.001997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.08.25-07.32.25:837][891]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.08.25-07.32.25:861][891]LogBlueprint: Error: [Compiler AN_PlayNextCombo] 컴파일러 오류:  Get Weapon Current  에서 '이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).' 와의 연결 생성에 실패했습니다.
+[2022.08.25-07.32.26:293][891]LogBlueprint: Error: [Compiler AN_PlayNextCombo] AN_PlayNextCombo' 에서 "PlayNextCombo" 라는 이름의 함수를 찾을 수 없습니다.
+ Play Next Combo  에 대해 'AN_PlayNextCombo' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.32.26:294][891]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] 컴파일러 오류:  Get Weapon Current  에서 '이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).' 와의 연결 생성에 실패했습니다.
+[2022.08.25-07.32.26:294][891]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] 'ANS_EnableNextCombo' 에서 "EnableNextCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ EnableNextCombo 설정  에 대해 'ANS_EnableNextCombo' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.32.26:294][891]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] 컴파일러 오류:  Get Weapon Current  에서 '이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).' 와의 연결 생성에 실패했습니다.
+[2022.08.25-07.32.26:294][891]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] 'ANS_EnableNextCombo' 에서 "EnableNextCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ EnableNextCombo 설정  에 대해 'ANS_EnableNextCombo' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.32.26:298][891]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.08.25-07.32.27:989][891]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.691 s
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: === Handled ensure: ===
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: 
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: Ensure condition failed: ChildClass->ClassDefaultObject == nullptr [File:D:\Build\++UE4\Sync\Engine\Source\Editor\Kismet\Private\BlueprintCompilationManager.cpp] [Line: 999]
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: 
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: Stack: 
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba4094f19 UE4Editor-Kismet.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba3b1ee5f UE4Editor-Kismet.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba3ad20f6 UE4Editor-Kismet.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba69d5644 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba3bbdde6 UE4Editor-Kismet.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffba3bd9188 UE4Editor-Kismet.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7e9180a UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7f69122 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7f4aa84 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe8002a12 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7e54021 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7ed0301 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7ebaaca UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbe7eb0414 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbfe85b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbfe84ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbfe85d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbfe84c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffc25fce858 USER32.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffc25fce299 USER32.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffbfe85e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ff6ad115d3e UE4Editor.exe!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ff6ad12554c UE4Editor.exe!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ff6ad1255ca UE4Editor.exe!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ff6ad13316c UE4Editor.exe!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ff6ad135b8e UE4Editor.exe!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffc25037034 KERNEL32.DLL!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: [Callstack] 0x00007ffc26be2651 ntdll.dll!UnknownFunction []
+[2022.08.25-07.32.27:989][891]LogOutputDevice: Error: 
+[2022.08.25-07.32.27:993][891]LogStats:                SubmitErrorReport -  0.000 s
+[2022.08.25-07.32.31:043][891]LogStats:                    SendNewReport -  3.051 s
+[2022.08.25-07.32.31:043][891]LogStats:             FDebug::EnsureFailed -  4.746 s
+[2022.08.25-07.32.31:049][891]LogBlueprint: Error: [Compiler BP_Enemy] SpawnActor NONE  스폰 노드에는 반드시  Class  지정이 되어 있어야 합니다.
+[2022.08.25-07.32.31:049][891]LogBlueprint: Error: [Compiler BP_Enemy] Object  및  Causer  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:049][891]LogBlueprint: Error: [Compiler BP_Enemy] Causer  및  Object  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:058][891]LogBlueprint: Error: [Compiler BP_Player] SpawnActor NONE  스폰 노드에는 반드시  Class  지정이 되어 있어야 합니다.
+[2022.08.25-07.32.31:061][891]LogBlueprint: Error: [Compiler BP_Player] Weapon  및  Object  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:061][891]LogBlueprint: Error: [Compiler BP_Player] Object  및  Weapon  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:061][891]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player' 에서 "LastCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ LastCombo 구하기  에 대해 'BP_Player' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.32.31:062][891]LogBlueprint: Error: [Compiler BP_Player] Weapon  및  Object  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:062][891]LogBlueprint: Error: [Compiler BP_Player] Object  및  Weapon  핀을 연결할 수 없습니다: 이 형변환에 유효하지 않은 타깃 유형이 있습니다 (리디렉터 없이 삭제된 클래스였을 수 있습니다).
+[2022.08.25-07.32.31:062][891]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player' 에서 "LastCombo" 라는 이름의 변수를 찾을 수 없습니다.
+ LastCombo 설정  에 대해 'BP_Player' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.32.31:064][891]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] Enable Next Combo  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.25-07.32.31:064][891]LogBlueprint: Error: [Compiler ANS_EnableNextCombo] Enable Next Combo  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.25-07.32.31:083][891]LogBlueprint: Warning: [Compiler AN_PlayNextCombo] [2850.33] AN_PlayNextCombo 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 5,244 ms] (/Game/Notifies/Attacking/AN_PlayNextCombo.AN_PlayNextCombo)
+[2022.08.25-07.32.31:083][891]LogBlueprint: Warning: [Compiler ANS_EnableNextCombo] [2850.33] ANS_EnableNextCombo 컴파일에 실패했습니다. 치명적 오류 4 회, 경고 2 회, [소요시간 5,244 ms] (/Game/Notifies/Attacking/ANS_EnableNextCombo.ANS_EnableNextCombo)
+[2022.08.25-07.32.31:083][891]LogBlueprint: Warning: [Compiler BP_Enemy] [2850.33] BP_Enemy 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 5,244 ms] (/Game/Enemy/BP_Enemy.BP_Enemy)
+[2022.08.25-07.32.31:083][891]LogBlueprint: Warning: [Compiler BP_Player] [2850.33] BP_Player 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 2 회, [소요시간 5,244 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.08.25-07.32.31:226][891]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.08.25-07.32.38:826][791]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.08.25-07.32.39:128][792]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.08.25-07.32.39:136][792]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.007 s
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: === Handled ensure: ===
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: 
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: Ensure condition failed: Class != nullptr [File:D:\Build\++UE4\Sync\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor\SPropertyEditorAsset.cpp] [Line: 1272]
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: Property (ObjectProperty /Game/Player/BP_Player.BP_Player_C:Sword) is not an object or interface class
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: Stack: 
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2d238bc UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2bc15fd UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2ac11c4 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2abee2f UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba29cd78a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba29ba7ac UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba29ba66f UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2ab73fa UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba29a621e UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2c2415c UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2bf47b3 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2c057cf UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2c066fd UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2c3961a UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe80e1056 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffba2c4db2e UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5403e2b UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe80949c9 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe809479e UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe809479e UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:136][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe8099354 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe809479e UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe8099354 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5404bc5 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54026d4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5402571 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf5401c41 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540277a UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf540419f UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbf54050fe UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe7e8d714 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe7e8e211 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe7eb68d2 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: [Callstack] 0x00007ffbe7e8e2a2 UE4Editor-Slate.dll!UnknownFunction []
+[2022.08.25-07.32.39:137][792]LogOutputDevice: Error: 
+[2022.08.25-07.32.39:144][792]LogStats:                SubmitErrorReport -  0.000 s
+[2022.08.25-07.32.39:778][792]LogStats:                    SendNewReport -  0.633 s
+[2022.08.25-07.32.39:778][792]LogStats:             FDebug::EnsureFailed -  0.649 s
+[2022.08.25-07.33.35:795][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/BP_Weapon.BP_Weapon
+[2022.08.25-07.34.48:967][473]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.08.25-07.34.48:999][473]LogBlueprint: Warning: [Compiler BP_Sword] 'BP_Sword_C' 에서 "ComboTable" 라는 이름의 변수를 찾을 수 없습니다.
+ ComboTable 설정  에 대해 'BP_Sword_C' 컴파일이 되었는지 확인하세요.
+[2022.08.25-07.34.49:000][473]LogBlueprint: Error: [Compiler BP_Sword] 이 블루프린트(셀프)는 ' 타깃 ' 에 호환되지 않으므로, 그 핀은 반드시 연결되어 있어야 합니다.
+[2022.08.25-07.34.49:003][473]LogBlueprint: Error: [Compiler BP_Sword] Combo Table  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.08.25-07.34.49:006][473]LogClass: Warning: Property ComboMontages of ComboMontages has a struct type mismatch (tag FallbackStruct != prop FComboMontage) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2022.08.25-07.34.49:008][473]LogBlueprint: Warning: [Compiler BP_Sword] [2988.26] BP_Sword 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 1 회, [소요시간 41 ms] (/Game/Weapons/Combo/BP_Sword.BP_Sword)
+[2022.08.25-07.34.49:588][473]LogUObjectBase: Error: Virtual functions table is invalid.
+[2022.08.25-07.34.49:588][473]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
