@@ -1539,3 +1539,414 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.09.06-13.58.04:210][663]LogFileHelpers: Saving map 'Combat' took 0.310
 [2022.09.06-13.58.04:292][663]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ThrowItem_FireBall3BDB5B2E482409E5B71426924EAD1B4B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/ThrowItems/BP_ThrowItem_FireBall.uasset'
 [2022.09.06-13.58.04:380][663]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ThrowItem_IceBallB7F53B624FD0E9A41FB0BAB58FFEF79B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall.uasset'
+[2022.09.06-14.04.19:141][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.09.06-14.05.57:869][ 23]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2022.09.06-14.05.59:427][ 23]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.09.06-14.07.26:392][619]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.06-14.07.26:401][619]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.06-14.08.25:540][722]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.08.25:842][722]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2022.09.06-14.10.45:935][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2022.09.06-14.10.46:233][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto51E0D9C1E44E4554557C8FD88FBBC0019.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto5.umap'
+[2022.09.06-14.10.46:239][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.352
+[2022.09.06-14.10.46:239][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.352
+[2022.09.06-14.10.46:242][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.06-14.10.46:250][ 44]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.06-14.10.46:250][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.06-14.10.46:462][ 44]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto51B565E844C597227C2FD3692FDC25658.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto5.uasset'
+[2022.09.06-14.10.46:467][ 44]LogFileHelpers: Auto-saving content packages took 0.226
+[2022.09.06-14.16.26:481][961]LogEditorTransaction: Undo 핀 링크 생성
+[2022.09.06-14.16.26:931][995]LogEditorTransaction: Undo 노드 이동
+[2022.09.06-14.19.30:642][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.06-14.19.30:858][  9]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player471FC10F4BD9C9B16732BF8A4F955514.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.06-14.19.39:590][800]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/Weapons/Wizard/FWizardSkill.FWizardSkill
+[2022.09.06-14.21.11:207][368]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2022.09.06-14.21.11:502][368]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto69276113F4E96F6FEB9C4C79ECB3FD0BC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto6.umap'
+[2022.09.06-14.21.11:507][368]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.353
+[2022.09.06-14.21.11:507][368]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.353
+[2022.09.06-14.21.11:508][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Wizard/FWizardSkill] ([1] browsable assets)...
+[2022.09.06-14.21.11:508][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Wizard/FWizardSkill]
+[2022.09.06-14.21.11:512][368]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/FWizardSkill_Auto6214B62FD427B6B143BA63CAE68DF08DF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Wizard/FWizardSkill_Auto6.uasset'
+[2022.09.06-14.21.11:513][368]LogFileHelpers: Auto-saving content packages took 0.006
+[2022.09.06-14.21.26:693][323]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_Wizard.BP_Wizard
+[2022.09.06-14.23.42:962][489]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/FWizardSkillF32211014F6E9FC470E286A9AC3CDCBA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/FWizardSkill.uasset'
+[2022.09.06-14.23.57:462][923]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.23.57:725][923]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2022.09.06-14.26.59:353][507]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.26.59:626][507]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2022.09.06-14.26.59:847][520]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-14.26.59:884][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.26.59:884][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-14.26.59:884][520]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 8:26:59)
+[2022.09.06-14.26.59:884][520]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-14.26.59:887][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002989s)
+[2022.09.06-14.26.59:887][520]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-14.26.59:888][520]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2022.09.06-14.26.59:888][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003764s)
+[2022.09.06-14.26.59:937][520]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2022.09.06-14.27.00:100][520]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-14.27.00:155][520]LogInit: FAudioDevice initialized.
+[2022.09.06-14.27.00:191][520]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-14.27.00:194][520]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-23.27.00
+[2022.09.06-14.27.00:195][520]LogWorld: Bringing up level for play took: 0.002764
+[2022.09.06-14.27.00:207][520]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.00:207][520]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.00:208][520]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.00:208][520]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.639
+[2022.09.06-14.27.00:208][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.03:402][887]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.03:402][887]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:070][967]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:070][967]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:395][  6]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:395][  6]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:428][ 10]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:428][ 10]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:462][ 14]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:462][ 14]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:529][ 22]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:529][ 22]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:845][ 60]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:845][ 60]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:870][ 63]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:870][ 63]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:887][ 65]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:887][ 65]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:903][ 67]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:903][ 67]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.04:945][ 72]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.04:945][ 72]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:679][280]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:679][280]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:696][282]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:696][282]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:713][284]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:713][284]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:721][285]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:721][285]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:738][287]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:738][287]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:754][289]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:754][289]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:788][293]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:788][293]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.06:854][301]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.06:854][301]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:095][330]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.07:095][330]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:113][332]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.07:113][332]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:129][334]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.07:129][334]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:146][336]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.07:146][336]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:171][339]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.07:171][339]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.07:431][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.07:432][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.27.07:468][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-14.27.07:468][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.07:514][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.27.07:520][370]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2022.09.06-14.27.07:533][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-14.27.07:569][371]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.09.06-14.27.09:048][537]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.27.09:059][537]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.27.28:663][588]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.27.28:925][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2022.09.06-14.27.29:313][619]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-14.27.29:349][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.29:349][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-14.27.29:349][619]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 8:27:29)
+[2022.09.06-14.27.29:349][619]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-14.27.29:351][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002622s)
+[2022.09.06-14.27.29:352][619]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-14.27.29:352][619]LogPlayLevel: PIE: World Init took: (0.000416s)
+[2022.09.06-14.27.29:352][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003122s)
+[2022.09.06-14.27.29:402][619]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2022.09.06-14.27.29:560][619]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-14.27.29:607][619]LogInit: FAudioDevice initialized.
+[2022.09.06-14.27.29:645][619]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-14.27.29:649][619]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-23.27.29
+[2022.09.06-14.27.29:649][619]LogWorld: Bringing up level for play took: 0.002907
+[2022.09.06-14.27.29:662][619]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.29:662][619]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.29:663][619]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.29:663][619]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.816
+[2022.09.06-14.27.29:663][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.31:552][836]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.31:552][836]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.31:936][882]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.31:936][882]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.32:286][924]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.32:286][924]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:537][194]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:537][194]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:553][196]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:553][196]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:562][197]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:562][197]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:578][199]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:578][199]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:587][200]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:587][200]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:603][202]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:603][202]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:620][204]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:620][204]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:812][227]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:812][227]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:821][228]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:821][228]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:829][229]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:829][229]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:846][231]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:846][231]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:854][232]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:854][232]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:871][234]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:871][234]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.34:920][240]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.34:920][240]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:062][257]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:062][257]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:079][259]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:079][259]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:087][260]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:087][260]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:104][262]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:104][262]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:112][263]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:112][263]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:137][266]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:137][266]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:312][287]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:312][287]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:328][289]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:328][289]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:345][291]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:345][291]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:362][293]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:362][293]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.35:395][297]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.35:395][297]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:696][453]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:696][453]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:704][454]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:705][454]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:721][456]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:721][456]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:729][457]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:729][457]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:738][458]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:738][458]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:754][460]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:754][460]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:771][462]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:771][462]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:955][484]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:955][484]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:962][485]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:962][485]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:978][487]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:978][487]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:987][488]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:987][488]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.36:995][489]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.36:995][489]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:003][490]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:003][490]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:029][493]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:029][493]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:197][513]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:197][513]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:204][514]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:204][514]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:213][515]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:213][515]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:229][517]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:230][517]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:246][519]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:246][519]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:288][524]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:288][524]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:454][544]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:454][544]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:471][546]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:471][546]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:480][547]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:480][547]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:488][548]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:488][548]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:505][550]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:505][550]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.37:529][553]LogScript: Warning: Script Msg: Modulo by zero
+[2022.09.06-14.27.37:529][553]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.27.39:824][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.39:824][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.27.39:857][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-14.27.39:857][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.39:905][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.27.39:910][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.09.06-14.27.39:923][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-14.27.39:961][829]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.09.06-14.27.40:928][934]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.27.40:937][934]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.27.56:864][539]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.27.57:126][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2022.09.06-14.27.57:596][577]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-14.27.57:633][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.27.57:633][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-14.27.57:633][577]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 8:27:57)
+[2022.09.06-14.27.57:633][577]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-14.27.57:635][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002571s)
+[2022.09.06-14.27.57:636][577]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-14.27.57:636][577]LogPlayLevel: PIE: World Init took: (0.000392s)
+[2022.09.06-14.27.57:636][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003049s)
+[2022.09.06-14.27.57:685][577]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2022.09.06-14.27.57:844][577]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-14.27.57:890][577]LogInit: FAudioDevice initialized.
+[2022.09.06-14.27.57:928][577]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-14.27.57:932][577]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-23.27.57
+[2022.09.06-14.27.57:932][577]LogWorld: Bringing up level for play took: 0.002910
+[2022.09.06-14.27.57:945][577]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.57:945][577]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.57:946][577]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.27.57:946][577]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.098
+[2022.09.06-14.27.57:947][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.28.00:097][821]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.00:139][826]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.00:488][868]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.00:547][875]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.00:647][887]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.01:081][939]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.01:498][989]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.01:789][ 24]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.01:881][ 35]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.02:240][ 78]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.02:248][ 79]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.02:265][ 81]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.02:290][ 84]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.02:316][ 87]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.02:382][ 95]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.03:900][277]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.04:700][373]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.05:450][463]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.06:175][550]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.06:734][617]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.07:142][666]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.07:442][702]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.07:717][735]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.07:984][767]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.08:201][793]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.08:418][819]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.08:693][852]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.11:167][148]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.11:249][158]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.11:317][166]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.11:392][175]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.13:771][456]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.13:780][457]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.13:788][458]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.13:788][458]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.13:797][459]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.13:806][460]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.13:822][462]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:004][484]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:013][485]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:021][486]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:030][487]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:038][488]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:047][489]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:063][491]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:221][510]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:230][511]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:238][512]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:246][513]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:255][514]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:263][515]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:280][517]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:447][537]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:455][538]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:463][539]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:480][541]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.14:488][542]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.28.14:497][543]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.28.14:513][545]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.28.17:324][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.28.17:324][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.28.17:363][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-14.28.17:363][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.28.17:412][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.28.17:417][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.09.06-14.28.17:430][882]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-14.28.17:471][883]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.09.06-14.28.18:922][ 47]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.28.18:932][ 47]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.29.33:895][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.06-14.29.34:110][172]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player16E633CB4C4337AB17A35498A5A320D2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.06-14.29.35:462][313]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.06-14.29.35:726][313]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2022.09.06-14.29.50:997][ 99]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-14.29.51:033][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.29.51:033][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-14.29.51:033][ 99]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 8:29:51)
+[2022.09.06-14.29.51:033][ 99]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-14.29.51:035][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002562s)
+[2022.09.06-14.29.51:036][ 99]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-14.29.51:036][ 99]LogPlayLevel: PIE: World Init took: (0.000448s)
+[2022.09.06-14.29.51:036][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003094s)
+[2022.09.06-14.29.51:084][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2022.09.06-14.29.51:242][ 99]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-14.29.51:287][ 99]LogInit: FAudioDevice initialized.
+[2022.09.06-14.29.51:313][ 99]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-14.29.51:316][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-23.29.51
+[2022.09.06-14.29.51:316][ 99]LogWorld: Bringing up level for play took: 0.002358
+[2022.09.06-14.29.51:329][ 99]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.29.51:330][ 99]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.29.51:330][ 99]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-14.29.51:331][ 99]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 0.483
+[2022.09.06-14.29.51:331][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.29.52:075][187]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.29.52:084][188]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.29.52:099][190]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.29.52:116][192]LogBlueprintUserMessages: [BP_Player_2] 1
+[2022.09.06-14.29.52:133][194]LogBlueprintUserMessages: [BP_Player_2] 2
+[2022.09.06-14.29.52:183][200]LogBlueprintUserMessages: [BP_Player_2] 0
+[2022.09.06-14.29.57:328][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.29.57:328][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.29.57:364][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-14.29.57:365][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-14.29.57:412][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-14.29.57:417][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.09.06-14.29.57:430][817]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-14.29.57:466][818]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.09.06-14.29.58:920][986]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.29.58:929][986]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-14.31.55:672][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.06-14.31.55:958][818]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto7596CD38E44983E88AD8569BFCCB8C8AB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto7.umap'
+[2022.09.06-14.31.55:962][818]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.334
+[2022.09.06-14.31.55:962][818]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
+[2022.09.06-14.31.55:963][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.06-14.31.55:971][818]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.06-14.31.55:971][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.06-14.31.56:189][818]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto7F561B869454216033300478A06084EF1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto7.uasset'
+[2022.09.06-14.31.56:194][818]LogFileHelpers: Auto-saving content packages took 0.230
+[2022.09.06-14.33.24:293][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.06-14.33.24:510][  3]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player26AF68FF46512F1BDE915D8E3CCD8987.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.06-14.36.33:571][765]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.09.06-14.37.38:800][614]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.09.06-14.37.39:060][614]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2022.09.06-14.37.51:968][  1]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.09.06-14.37.52:311][  1]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2022.09.06-14.38.07:474][676]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard7FCAE29D4246F708D3B9968D554CBB07.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.09.06-14.38.10:696][ 37]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_Wizard.BP_Wizard
+[2022.09.06-14.39.03:784][595]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard47E7D7FB4F000E6F7B92DB95B35E51CC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.09.06-14.39.04:231][635]BlueprintLog: New page: BP_Wizard 컴파일
+[2022.09.06-14.39.04:577][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2022.09.06-14.39.05:362][701]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard5FDD45794C203A654BE227B71CB82A7A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.09.06-14.39.35:303][523]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2022.09.06-14.39.36:286][523]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.06-14.39.36:369][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.09.06-14.39.36:654][523]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat0CADA089461292ABF8B57D8C235E5FDE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.09.06-14.39.36:674][523]LogFileHelpers: Saving map 'Combat' took 0.350
