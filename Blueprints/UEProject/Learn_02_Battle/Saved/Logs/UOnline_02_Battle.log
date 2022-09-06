@@ -1038,3 +1038,125 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.09.06-12.26.30:450][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
 [2022.09.06-12.26.30:879][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
 [2022.09.06-12.26.32:477][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.09.06-12.27.51:235][560]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.06-12.30.17:894][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.06-12.30.18:054][816]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy2AB66FE147BD1A319F07F68CDCBF7DC0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.06-12.30.18:973][898]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.06-12.30.19:536][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.09.06-12.30.20:522][  8]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-12.30.20:550][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.30.20:550][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-12.30.20:550][  8]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 6:30:20)
+[2022.09.06-12.30.20:550][  8]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-12.30.20:553][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002672s)
+[2022.09.06-12.30.20:553][  8]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-12.30.20:554][  8]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2022.09.06-12.30.20:554][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003213s)
+[2022.09.06-12.30.20:587][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.09.06-12.30.20:745][  8]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-12.30.20:790][  8]LogInit: FAudioDevice initialized.
+[2022.09.06-12.30.20:827][  8]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-12.30.20:830][  8]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-21.30.20
+[2022.09.06-12.30.20:830][  8]LogWorld: Bringing up level for play took: 0.002635
+[2022.09.06-12.30.20:844][  8]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.30.20:844][  8]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.30.20:845][  8]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.30.20:845][  8]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.003
+[2022.09.06-12.30.20:845][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.30.38:216][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.30.38:216][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-12.30.38:248][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-12.30.38:249][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.30.38:286][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-12.30.38:289][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.09.06-12.30.38:301][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.30.38:349][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.09.06-12.30.39:759][240]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-12.30.39:769][240]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-12.30.52:615][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.09.06-12.31.15:728][484]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Effects/P_HandIceBall.P_HandIceBall
+[2022.09.06-12.31.16:145][484]LogBlueprintActionDatabase: Requesting refresh due to module change: Cascade (loaded)
+[2022.09.06-12.31.16:145][484]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.09.06-12.31.16:361][484]LogBlueprintActionDatabase: Requesting refresh due to module change: DistCurveEditor (loaded)
+[2022.09.06-12.31.22:477][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.06-12.32.31:762][280]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.06-12.32.34:001][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/P_HandIceBall" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_HandIceBall.uasset" SILENT=true
+[2022.09.06-12.32.34:018][527]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_HandIceBall18EC4DCA4EB9F7E3473C649D267E5E87.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_HandIceBall.uasset'
+[2022.09.06-12.32.34:518][582]LogCascade: Quitting Cascade. FXSystem=0x00000237A6B26EC0
+[2022.09.06-12.32.41:023][329]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Effects/P_IceBall.P_IceBall
+[2022.09.06-12.32.41:414][351]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2022.09.06-12.32.41:664][351]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto24104F843425FB2F05082F4BE1C890A07.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto2.umap'
+[2022.09.06-12.32.41:671][351]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.313
+[2022.09.06-12.32.41:671][351]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.313
+[2022.09.06-12.32.41:674][351]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall] ([1] browsable assets)...
+[2022.09.06-12.32.41:674][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall]
+[2022.09.06-12.32.41:688][351]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ThrowItem_IceBall_Auto2EC2D4F664140E3C8298C56BC7B64D5A3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall_Auto2.uasset'
+[2022.09.06-12.32.41:689][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Effects/P_IceBall] ([1] browsable assets)...
+[2022.09.06-12.32.41:693][351]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Effects/P_IceBall.P_IceBall]
+[2022.09.06-12.32.41:693][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Effects/P_IceBall]
+[2022.09.06-12.32.41:711][351]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_IceBall_Auto2FDA31E984DCE1188CE3710B9F2FEE25B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Effects/P_IceBall_Auto2.uasset'
+[2022.09.06-12.32.41:713][351]LogFileHelpers: Auto-saving content packages took 0.039
+[2022.09.06-12.32.42:069][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.32.44:963][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.32.47:588][ 28]LogParticles: Warning: MaxCount =  572 for Emitter ParticleSpriteEmitter_32 (/Game/Effects/P_IceBall.P_IceBall)
+[2022.09.06-12.32.48:880][182]LogParticles: Warning: MaxCount =  572 for Emitter ParticleSpriteEmitter_32 (/Game/Effects/P_IceBall.P_IceBall)
+[2022.09.06-12.32.50:271][348]LogParticles: Warning: MaxCount =  572 for Emitter ParticleSpriteEmitter_32 (/Game/Effects/P_IceBall.P_IceBall)
+[2022.09.06-12.32.53:661][745]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.06-12.32.55:436][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.32.55:678][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.32.55:689][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Effects/P_IceBall" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_IceBall.uasset" SILENT=true
+[2022.09.06-12.32.55:707][979]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/P_IceBall21C290DB4E91BA973B7D97B8D93B7364.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Effects/P_IceBall.uasset'
+[2022.09.06-12.32.56:605][ 83]LogCascade: Quitting Cascade. FXSystem=0x000002381EF5E380
+[2022.09.06-12.33.01:194][607]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Effects/P_HandIceBall.P_HandIceBall
+[2022.09.06-12.33.02:934][792]LogCascade: Quitting Cascade. FXSystem=0x00000237BB497940
+[2022.09.06-12.33.11:101][673]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall.BP_ThrowItem_IceBall
+[2022.09.06-12.33.15:243][  9]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.06-12.33.15:243][  9]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.06-12.33.15:338][  9]LogPackageName: SearchForPackageOnDisk took   0.094s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2022.09.06-12.33.15:338][  9]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2022.09.06-12.33.29:214][936]BlueprintLog: New page: BP_ThrowItem_IceBall 컴파일
+[2022.09.06-12.33.29:413][936]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2022.09.06-12.33.29:546][948]BlueprintLog: New page: BP_ThrowItem_IceBall 컴파일
+[2022.09.06-12.33.29:731][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.09.06-12.33.30:009][969]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ThrowItem_IceBallDDB1896B472649CE78D4F6BA75A29641.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall.uasset'
+[2022.09.06-12.33.31:072][ 79]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_ThrowItem_IceBallBE798BE04FCBBF379B9A73B910DCB931.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/ThrowItems/BP_ThrowItem_IceBall.uasset'
+[2022.09.06-12.34.26:935][214]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.06-12.34.29:242][460]BlueprintLog: New page: BP_WizardSkill_Throw 컴파일
+[2022.09.06-12.34.29:438][460]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.09.06-12.34.30:155][531]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.06-12.34.30:180][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.34.30:180][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.06-12.34.30:180][531]PIE: New page: PIE 세션: Combat (2022. 9. 7. 오전 6:34:30)
+[2022.09.06-12.34.30:180][531]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.06-12.34.30:183][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002712s)
+[2022.09.06-12.34.30:183][531]LogAIModule: Creating AISystem for world Combat
+[2022.09.06-12.34.30:183][531]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2022.09.06-12.34.30:183][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.003294s)
+[2022.09.06-12.34.30:221][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2022.09.06-12.34.30:377][531]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.06-12.34.30:422][531]LogInit: FAudioDevice initialized.
+[2022.09.06-12.34.30:460][531]LogLoad: Game class is 'GameModeBase'
+[2022.09.06-12.34.30:463][531]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.06-21.34.30
+[2022.09.06-12.34.30:463][531]LogWorld: Bringing up level for play took: 0.002527
+[2022.09.06-12.34.30:477][531]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.34.30:477][531]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy3.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.34.30:477][531]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_Enemy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.06-12.34.30:478][531]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: -0.37
+[2022.09.06-12.34.30:478][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.34.51:429][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.34.51:429][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-12.34.51:464][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.06-12.34.51:464][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.06-12.34.51:506][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.06-12.34.51:510][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.09.06-12.34.51:521][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.06-12.34.51:564][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.09.06-12.34.58:525][509]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-12.34.58:540][509]LogSlate: Window '메시지 로그' being destroyed
+[2022.09.06-12.34.59:215][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.06-12.34.59:352][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.09.06-12.35.00:500][596]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.06-12.35.00:578][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.09.06-12.35.00:827][596]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat51F4AC5D4D4AFDCB12786A91769CB34D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.09.06-12.35.00:846][596]LogFileHelpers: Saving map 'Combat' took 0.307
+[2022.09.06-12.35.00:942][596]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WizardSkill_Throw315D83094C07CB48D104478E4573CCCA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_WizardSkill_Throw.uasset'
