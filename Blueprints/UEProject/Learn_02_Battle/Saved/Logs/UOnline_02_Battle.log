@@ -3750,3 +3750,332 @@ Script call stack:
 [2022.09.21-17.31.33:879][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
 [2022.09.21-17.31.34:139][320]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Trace59426CF54258738CC825C19111C6013B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Trace.umap'
 [2022.09.21-17.31.34:164][320]LogFileHelpers: Saving map 'AI_Trace' took 0.313
+[2022.09.21-17.34.19:711][684]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.34.19:860][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.21-17.34.20:447][738]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace5A6FEC8F40EB7116EABFBDB2BE0E925A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.35.35:494][727]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.35.35:636][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.09.21-17.35.50:832][424]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace451AB88846A7BBCDF9C807828BA9D623.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.35.52:276][575]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.35.52:427][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.09.21-17.35.59:340][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.35.59:445][365]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_TraceFBB6A92C4B92EC4BFEDA128848EB79D3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.36.20:043][750]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.36.20:057][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.20:060][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.36.20:060][750]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:36:20)
+[2022.09.21-17.36.20:060][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.36.20:064][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003281s)
+[2022.09.21-17.36.20:064][750]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.36.20:065][750]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2022.09.21-17.36.20:065][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004519s)
+[2022.09.21-17.36.20:097][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.09.21-17.36.20:263][750]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.36.20:317][750]LogInit: FAudioDevice initialized.
+[2022.09.21-17.36.20:348][750]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.36.20:351][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.36.20
+[2022.09.21-17.36.20:352][750]LogWorld: Bringing up level for play took: 0.002676
+[2022.09.21-17.36.20:367][750]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.36.20:367][750]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 0.095
+[2022.09.21-17.36.20:368][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.27:155][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.27:158][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.36.27:191][482]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.36.27:192][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.27:227][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.36.27:230][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.09.21-17.36.27:259][483]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2022.09.21-17.36.28:816][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.36.34:432][986]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.21-17.36.34:987][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-17.36.35:576][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.36.35:645][104]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.36.35:659][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.35:662][104]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.21-17.36.35:662][104]LogPlayLevel: [PlayLevel] Compiling BTService_Trace before play...
+[2022.09.21-17.36.35:816][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.09.21-17.36.35:817][104]LogPlayLevel: PlayLevel: Blueprint regeneration took 154 ms (1 blueprints)
+[2022.09.21-17.36.35:817][104]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:36:35)
+[2022.09.21-17.36.35:817][104]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.36.35:820][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003099s)
+[2022.09.21-17.36.35:821][104]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.36.35:821][104]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2022.09.21-17.36.35:821][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004095s)
+[2022.09.21-17.36.35:855][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.09.21-17.36.36:021][104]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.36.36:069][104]LogInit: FAudioDevice initialized.
+[2022.09.21-17.36.36:096][104]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.36.36:097][104]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.36.36
+[2022.09.21-17.36.36:098][104]LogWorld: Bringing up level for play took: 0.001999
+[2022.09.21-17.36.36:113][104]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.36.36:114][104]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: -0.158
+[2022.09.21-17.36.36:114][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.44:671][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.44:675][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.36.44:705][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.36.44:705][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.36.44:739][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.36.44:743][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.09.21-17.36.44:776][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2022.09.21-17.36.48:421][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.36.48:845][416]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace6FEDDB8441627A03AC8950AFF671581A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.36.59:995][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.38.03:689][126]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.38.03:830][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.09.21-17.38.12:482][ 72]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.38.12:625][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.09.21-17.38.19:271][793]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace2F9B946941AF1BA22DDA45B44CC15D18.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.38.19:963][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.38.20:578][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.38.20:688][927]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace1C91C8FA44A105779F926CA0DF0D26B4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.38.21:118][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.42.49:596][362]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.42.49:598][362]LogBlueprint: Error: [Compiler BTService_Trace] ' Key ' 핀의 현재 값이 유효하지 않습니다: 'Set Blackboard Value as Vector' 액션의 'Key' 핀에는 입력이 연결되어 있어야 합니다. ("참조전달" 파라미터는 연산 대상 유효한 입력이 있어야 합니다).
+[2022.09.21-17.42.49:747][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.09.21-17.42.49:754][362]LogBlueprint: Warning: [Compiler BTService_Trace] [6708.72] BTService_Trace 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 157 ms] (/Game/d/Trace/BTService_Trace.BTService_Trace)
+[2022.09.21-17.43.23:446][ 70]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-17.44.08:073][949]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.44.08:075][949]LogBlueprint: Error: [Compiler BTService_Trace] ' Key ' 핀의 현재 값이 유효하지 않습니다: 'Set Blackboard Value as Vector' 액션의 'Key' 핀에는 입력이 연결되어 있어야 합니다. ("참조전달" 파라미터는 연산 대상 유효한 입력이 있어야 합니다).
+[2022.09.21-17.44.08:220][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.09.21-17.44.08:233][949]LogBlueprint: Warning: [Compiler BTService_Trace] [6787.20] BTService_Trace 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 159 ms] (/Game/d/Trace/BTService_Trace.BTService_Trace)
+[2022.09.21-17.44.15:002][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.44.15:107][696]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace20EE91AD48F305C31D5B21B0F9009E9C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.44.15:713][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.44.16:612][856]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.44.16:614][856]LogBlueprint: Error: [Compiler BTService_Trace] ' Key ' 핀의 현재 값이 유효하지 않습니다: 'Set Blackboard Value as Vector' 액션의 'Key' 핀에는 입력이 연결되어 있어야 합니다. ("참조전달" 파라미터는 연산 대상 유효한 입력이 있어야 합니다).
+[2022.09.21-17.44.16:757][856]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.09.21-17.44.16:771][856]LogBlueprint: Warning: [Compiler BTService_Trace] [6795.73] BTService_Trace 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 157 ms] (/Game/d/Trace/BTService_Trace.BTService_Trace)
+[2022.09.21-17.44.39:844][720]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace1C5F49464BE06A958A56968FB4E7E3FD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.44.42:444][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.45.11:031][  8]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.45.11:181][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.21-17.45.12:060][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_TraceE1205F5C44BAFC36960239BEC922B1BD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.45.13:187][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.45.31:748][218]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.45.31:898][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.09.21-17.45.34:723][389]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_TraceB0FB3CB841DD7218A812B1837E7CF3CA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.45.48:632][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.46.29:641][169]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.46.29:660][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.46.29:662][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.46.29:662][169]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:46:29)
+[2022.09.21-17.46.29:662][169]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.46.29:666][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003608s)
+[2022.09.21-17.46.29:667][169]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.46.29:667][169]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2022.09.21-17.46.29:667][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004543s)
+[2022.09.21-17.46.29:697][169]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.09.21-17.46.29:854][169]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.46.29:901][169]LogInit: FAudioDevice initialized.
+[2022.09.21-17.46.29:934][169]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.46.29:937][169]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.46.29
+[2022.09.21-17.46.29:938][169]LogWorld: Bringing up level for play took: 0.003216
+[2022.09.21-17.46.29:953][169]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.46.29:954][169]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: -0.319
+[2022.09.21-17.46.29:954][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.46.30:584][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.46.43:942][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.46.43:944][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.46.43:973][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.46.43:973][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.46.44:013][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.46.44:017][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.09.21-17.46.44:050][837]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2022.09.21-17.46.50:051][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.46.50:120][557]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.46.50:136][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.46.50:138][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.46.50:138][557]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:46:50)
+[2022.09.21-17.46.50:138][557]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.46.50:142][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003273s)
+[2022.09.21-17.46.50:142][557]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.46.50:142][557]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2022.09.21-17.46.50:142][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004060s)
+[2022.09.21-17.46.50:174][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.09.21-17.46.50:330][557]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.46.50:380][557]LogInit: FAudioDevice initialized.
+[2022.09.21-17.46.50:408][557]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.46.50:410][557]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.46.50
+[2022.09.21-17.46.50:411][557]LogWorld: Bringing up level for play took: 0.002144
+[2022.09.21-17.46.50:425][557]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.46.50:425][557]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 0.153
+[2022.09.21-17.46.50:426][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.00:299][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.47.00:407][583]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace260B8D274E793456E450A3B0E0EC2273.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.47.21:896][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.21:899][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.47.21:928][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.47.21:929][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.21:966][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.47.21:969][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.09.21-17.47.22:003][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2022.09.21-17.47.25:622][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.47.28:114][465]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Trace0BA43A09429FC6B3E291F1BD76F0B843.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTService_Trace.uasset'
+[2022.09.21-17.47.28:788][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.47.28:871][542]BlueprintLog: New page: BTService_Trace 컴파일
+[2022.09.21-17.47.29:018][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.09.21-17.47.34:446][134]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.47.34:463][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.34:466][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.47.34:466][134]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:47:34)
+[2022.09.21-17.47.34:466][134]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.47.34:469][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003363s)
+[2022.09.21-17.47.34:470][134]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.47.34:470][134]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2022.09.21-17.47.34:470][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004202s)
+[2022.09.21-17.47.34:507][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.09.21-17.47.34:671][134]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.47.34:723][134]LogInit: FAudioDevice initialized.
+[2022.09.21-17.47.34:751][134]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.47.34:753][134]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.47.34
+[2022.09.21-17.47.34:753][134]LogWorld: Bringing up level for play took: 0.002041
+[2022.09.21-17.47.34:769][134]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.47.34:770][134]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 0.497
+[2022.09.21-17.47.34:770][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.37:507][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.37:510][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.47.37:544][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.47.37:544][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.47.37:579][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.47.37:583][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.21-17.47.37:610][454]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2022.09.21-17.47.42:288][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.48.12:849][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.48.12:953][403]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace9FBB9C6849C111CB32095D9B98A2A989.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.48.13:896][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.48.21:592][401]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.48.21:609][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.48.21:611][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.48.21:611][401]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:48:21)
+[2022.09.21-17.48.21:612][401]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.48.21:615][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003212s)
+[2022.09.21-17.48.21:615][401]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.48.21:616][401]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2022.09.21-17.48.21:616][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004098s)
+[2022.09.21-17.48.21:645][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.09.21-17.48.21:806][401]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.48.21:853][401]LogInit: FAudioDevice initialized.
+[2022.09.21-17.48.21:878][401]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.48.21:880][401]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.48.21
+[2022.09.21-17.48.21:881][401]LogWorld: Bringing up level for play took: 0.002299
+[2022.09.21-17.48.21:897][401]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.48.21:897][401]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: -0.375
+[2022.09.21-17.48.21:897][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.48.25:543][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.48.25:545][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.48.25:579][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.48.25:579][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.48.25:614][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.48.25:618][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.21-17.48.25:644][611]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2022.09.21-17.48.53:545][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.48.53:652][744]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace6A2FB9E3427A2D091675818CA192EE58.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.48.55:111][867]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.48.55:127][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.48.55:130][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.48.55:130][867]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:48:55)
+[2022.09.21-17.48.55:130][867]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.48.55:134][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003388s)
+[2022.09.21-17.48.55:134][867]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.48.55:134][867]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2022.09.21-17.48.55:134][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004219s)
+[2022.09.21-17.48.55:168][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.09.21-17.48.55:328][867]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.48.55:375][867]LogInit: FAudioDevice initialized.
+[2022.09.21-17.48.55:407][867]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.48.55:407][867]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.48.55
+[2022.09.21-17.48.55:408][867]LogWorld: Bringing up level for play took: 0.002210
+[2022.09.21-17.48.55:424][867]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.48.55:424][867]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 1.153
+[2022.09.21-17.48.55:424][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.15:347][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.15:349][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.49.15:381][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.49.15:382][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.15:416][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.49.15:420][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.21-17.49.15:450][138]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2022.09.21-17.49.15:935][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.49.18:941][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-17.49.21:011][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.49.21:087][636]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.49.21:102][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.21:105][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.49.21:105][636]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:49:21)
+[2022.09.21-17.49.21:105][636]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.49.21:108][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003352s)
+[2022.09.21-17.49.21:109][636]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.49.21:109][636]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2022.09.21-17.49.21:109][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004426s)
+[2022.09.21-17.49.21:140][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.09.21-17.49.21:307][636]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.49.21:357][636]LogInit: FAudioDevice initialized.
+[2022.09.21-17.49.21:387][636]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.49.21:389][636]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.49.21
+[2022.09.21-17.49.21:390][636]LogWorld: Bringing up level for play took: 0.002409
+[2022.09.21-17.49.21:405][636]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.49.21:405][636]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 1.134
+[2022.09.21-17.49.21:405][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.38:089][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.38:092][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.49.38:121][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.49.38:122][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.49.38:155][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.49.38:159][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.09.21-17.49.38:189][524]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2022.09.21-17.49.45:146][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-17.49.45:152][217]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-17.49.46:071][316]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-17.49.46:071][316]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Trace/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2022.09.21-17.49.46:735][316]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/Trace/BTTask_BlueprintBase_New.
+[2022.09.21-17.49.50:287][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.49.58:750][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.09.21-17.49.58:762][724]LogMetaData: Removing '/Game/d/Trace/BTTask_Trace_Attack.SKEL_BTTask_Trace_Attack_C' ref from Metadata '/Game/d/Trace/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.21-17.49.58:762][724]LogMetaData: Removing '/Game/d/Trace/BTTask_Trace_Attack.BTTask_Trace_Attack_C' ref from Metadata '/Game/d/Trace/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.21-17.49.58:785][724]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Trace_Attack7D9438C54C456E9C0CAAE0A0B840387B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTTask_Trace_Attack.uasset'
+[2022.09.21-17.49.58:926][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.09.21-17.49.58:964][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.21-17.49.58:997][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.09.21-17.49.59:053][724]LogLinker: Warning: '/Game/d/Trace/BTTask_BlueprintBase_New' 파일을 찾을 수 없습니다.
+[2022.09.21-17.49.59:053][724]LogLinker: Warning: '/Game/d/Trace/BTTask_BlueprintBase_New' 파일을 찾을 수 없습니다.
+[2022.09.21-17.49.59:054][724]LogUObjectGlobals: Warning: 'Object /Game/d/Trace/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New' 오브젝트를 찾는 데 실패했습니다.
+[2022.09.21-17.49.59:071][725]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Trace/BTTask_Trace_Attack.
+[2022.09.21-17.50.34:880][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Trace/BT_AI_Trace" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset" SILENT=true
+[2022.09.21-17.50.34:990][855]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Trace27677A19408F625FD730128205C8C75F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BT_AI_Trace.uasset'
+[2022.09.21-17.51.31:498][806]BlueprintLog: New page: BTTask_Trace_Attack 컴파일
+[2022.09.21-17.51.31:647][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.09.21-17.51.34:563][133]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Trace_AttackF5E918D84AC2D3BF97FB769F2DC27085.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTTask_Trace_Attack.uasset'
+[2022.09.21-17.52.19:765][333]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Trace_AttackA2A15908409DB34C47BA80B4BD06B104.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Trace/BTTask_Trace_Attack.uasset'
+[2022.09.21-17.52.20:211][381]BlueprintLog: New page: BTTask_Trace_Attack 컴파일
+[2022.09.21-17.52.20:360][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.09.21-17.52.21:087][461]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.52.21:105][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.52.21:108][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.52.21:108][461]PIE: New page: PIE 세션: AI_Trace (2022. 9. 22. 오전 11:52:21)
+[2022.09.21-17.52.21:108][461]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Trace
+[2022.09.21-17.52.21:111][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003274s)
+[2022.09.21-17.52.21:112][461]LogAIModule: Creating AISystem for world AI_Trace
+[2022.09.21-17.52.21:112][461]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2022.09.21-17.52.21:112][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Trace.AI_Trace to /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace (0.004161s)
+[2022.09.21-17.52.21:145][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.21-17.52.21:304][461]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.52.21:350][461]LogInit: FAudioDevice initialized.
+[2022.09.21-17.52.21:385][461]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.52.21:387][461]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Trace.AI_Trace up for play (max tick rate 0) at 2022.09.22-02.52.21
+[2022.09.21-17.52.21:388][461]LogWorld: Bringing up level for play took: 0.002339
+[2022.09.21-17.52.21:403][461]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Trace.AI_Trace:PersistentLevel.BP_AI_Trace_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.52.21:403][461]PIE: /Game/Levels/UEDPIE_0_AI_Trace 에 대한 에디터에서 플레이 시작 시간: 1.131
+[2022.09.21-17.52.21:404][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.52.32:086][727]LogBlueprintUserMessages: [BTTask_Trace_Attack_C_0] Attack
+[2022.09.21-17.52.36:387][243]LogBlueprintUserMessages: [BTTask_Trace_Attack_C_0] Attack
+[2022.09.21-17.52.48:080][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.52.48:082][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.52.48:109][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.52.48:110][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace' with GeneratedClass '/Game/Levels/AI_Trace.AI_Trace_C' with ClassGeneratedBy '/Game/Levels/AI_Trace.AI_Trace:PersistentLevel.AI_Trace'
+[2022.09.21-17.52.48:143][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.52.48:147][645]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.09.21-17.52.48:198][647]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2022.09.21-17.53.12:181][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.53.13:274][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.53.13:410][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.09.21-17.53.13:900][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
