@@ -2469,3 +2469,748 @@ Script call stack:
 [2022.09.21-16.18.42:475][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
 [2022.09.21-16.18.42:717][741]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam5857D9314FC786A40E9FC39F5885EE06.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap'
 [2022.09.21-16.18.42:738][741]LogFileHelpers: Saving map 'AI_Exam' took 0.309
+[2022.09.21-16.19.17:241][ 22]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/d/Exam/BT_AI_Exam.BT_AI_Exam
+[2022.09.21-16.20.49:817][473]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.20.49:828][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.20.49:830][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.20.49:830][473]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:20:49)
+[2022.09.21-16.20.49:830][473]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.20.49:833][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002458s)
+[2022.09.21-16.20.49:833][473]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.20.49:833][473]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2022.09.21-16.20.49:833][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003065s)
+[2022.09.21-16.20.49:864][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.09.21-16.20.50:031][473]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.20.50:085][473]LogInit: FAudioDevice initialized.
+[2022.09.21-16.20.50:117][473]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.20.50:119][473]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.20.50
+[2022.09.21-16.20.50:120][473]LogWorld: Bringing up level for play took: 0.002301
+[2022.09.21-16.20.50:136][473]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.20.50:136][473]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.137
+[2022.09.21-16.20.50:136][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.21.08:853][570]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.21.08:855][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.21.08:883][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.21.08:883][570]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.21.08:916][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.21.08:921][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.09.21-16.21.08:961][573]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2022.09.21-16.21.25:275][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.21.25:375][458]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam5CC47C3B4AD8FA6BD1C940B94972C0D6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.21.27:440][691]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.21.27:450][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.21.27:452][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.21.27:452][691]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:21:27)
+[2022.09.21-16.21.27:452][691]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.21.27:455][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002451s)
+[2022.09.21-16.21.27:455][691]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.21.27:455][691]LogPlayLevel: PIE: World Init took: (0.000446s)
+[2022.09.21-16.21.27:456][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003039s)
+[2022.09.21-16.21.27:483][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.09.21-16.21.27:640][691]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.21.27:687][691]LogInit: FAudioDevice initialized.
+[2022.09.21-16.21.27:714][691]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.21.27:716][691]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.21.27
+[2022.09.21-16.21.27:716][691]LogWorld: Bringing up level for play took: 0.001673
+[2022.09.21-16.21.27:732][691]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.21.27:732][691]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.54
+[2022.09.21-16.21.27:732][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.22.44:144][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.22.44:146][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.22.44:174][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.22.44:174][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.22.44:207][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.22.44:211][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.21-16.22.44:243][849]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.09.21-16.23.25:176][578]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.23.25:185][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.23.25:187][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.23.25:187][578]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:23:25)
+[2022.09.21-16.23.25:187][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.23.25:191][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004061s)
+[2022.09.21-16.23.25:191][578]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.23.25:191][578]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2022.09.21-16.23.25:191][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.004682s)
+[2022.09.21-16.23.25:218][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.21-16.23.25:387][578]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.23.25:438][578]LogInit: FAudioDevice initialized.
+[2022.09.21-16.23.25:468][578]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.23.25:469][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.23.25
+[2022.09.21-16.23.25:470][578]LogWorld: Bringing up level for play took: 0.001770
+[2022.09.21-16.23.25:487][578]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.23.25:487][578]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 1.214
+[2022.09.21-16.23.25:487][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.15:561][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.15:563][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.24.15:592][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.24.15:592][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.15:628][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.24.15:632][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.21-16.24.15:662][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.09.21-16.24.31:408][822]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.24.31:418][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.31:421][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.24.31:421][822]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:24:31)
+[2022.09.21-16.24.31:421][822]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.24.31:424][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003059s)
+[2022.09.21-16.24.31:425][822]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.24.31:425][822]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2022.09.21-16.24.31:425][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003666s)
+[2022.09.21-16.24.31:451][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.09.21-16.24.31:618][822]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.24.31:670][822]LogInit: FAudioDevice initialized.
+[2022.09.21-16.24.31:696][822]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.24.31:698][822]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.24.31
+[2022.09.21-16.24.31:698][822]LogWorld: Bringing up level for play took: 0.001821
+[2022.09.21-16.24.31:713][822]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.24.31:713][822]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.558
+[2022.09.21-16.24.31:713][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.39:492][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.39:495][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.24.39:521][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.24.39:521][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.39:551][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.24.39:557][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.09.21-16.24.39:597][711]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.09.21-16.24.51:773][121]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.24.51:783][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.24.51:785][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.24.51:785][121]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:24:51)
+[2022.09.21-16.24.51:785][121]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.24.51:788][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002950s)
+[2022.09.21-16.24.51:789][121]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.24.51:789][121]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2022.09.21-16.24.51:789][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003618s)
+[2022.09.21-16.24.51:815][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.21-16.24.51:980][121]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.24.52:032][121]LogInit: FAudioDevice initialized.
+[2022.09.21-16.24.52:059][121]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.24.52:061][121]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.24.52
+[2022.09.21-16.24.52:061][121]LogWorld: Bringing up level for play took: 0.001758
+[2022.09.21-16.24.52:076][121]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.24.52:076][121]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.196
+[2022.09.21-16.24.52:076][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.04:683][592]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.04:686][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.25.04:714][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.25.04:714][592]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.04:748][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.25.04:752][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.09.21-16.25.04:783][594]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2022.09.21-16.25.08:283][994]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.25.08:294][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.08:296][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.25.08:296][994]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:25:08)
+[2022.09.21-16.25.08:297][994]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.25.08:299][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2022.09.21-16.25.08:299][994]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.25.08:299][994]LogPlayLevel: PIE: World Init took: (0.000392s)
+[2022.09.21-16.25.08:299][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.002820s)
+[2022.09.21-16.25.08:321][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.21-16.25.08:481][994]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.25.08:533][994]LogInit: FAudioDevice initialized.
+[2022.09.21-16.25.08:562][994]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.25.08:564][994]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.25.08
+[2022.09.21-16.25.08:564][994]LogWorld: Bringing up level for play took: 0.001726
+[2022.09.21-16.25.08:579][994]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.25.08:579][994]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.307
+[2022.09.21-16.25.08:579][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.16:429][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.16:431][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.25.16:457][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.25.16:457][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.25.16:492][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.25.16:497][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.21-16.25.16:535][907]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2022.09.21-16.25.51:983][765]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Exam/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2022.09.21-16.25.52:197][765]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/Exam/BTTask_BlueprintBase_New.
+[2022.09.21-16.26.26:178][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.09.21-16.26.26:188][396]LogMetaData: Removing '/Game/d/Exam/BTTask_Success.SKEL_BTTask_Success_C' ref from Metadata '/Game/d/Exam/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.21-16.26.26:188][396]LogMetaData: Removing '/Game/d/Exam/BTTask_Success.BTTask_Success_C' ref from Metadata '/Game/d/Exam/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.21-16.26.26:213][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BTTask_Success" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset" SILENT=true
+[2022.09.21-16.26.26:217][396]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_SuccessF493B8AF4E7F94C84D300BA1C73800D3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset'
+[2022.09.21-16.26.26:352][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.21-16.26.26:384][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.09.21-16.26.26:409][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.21-16.26.26:482][397]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Exam/BTTask_Success.
+[2022.09.21-16.27.15:843][134]BlueprintLog: New page: BTTask_Success 컴파일
+[2022.09.21-16.27.15:875][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.21-16.27.59:216][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BTTask_Success" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset" SILENT=true
+[2022.09.21-16.27.59:319][ 66]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Success84790E2A4FEE736D254847BF4FF84913.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset'
+[2022.09.21-16.28.00:382][174]BlueprintLog: New page: BTTask_Success 컴파일
+[2022.09.21-16.28.00:410][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.21-16.28.01:200][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BTTask_Success" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset" SILENT=true
+[2022.09.21-16.28.01:299][260]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Success89B11F4548246E86F85537B534192183.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset'
+[2022.09.21-16.28.23:321][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.28.23:428][830]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamEEE161444AB5C6D3E1E50195D3259EC3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.28.58:507][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.28.58:613][860]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamDE85A4AC4ED830B097B645B2660741D4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.29.09:940][187]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.29.09:952][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.09:954][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.29.09:955][187]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:29:09)
+[2022.09.21-16.29.09:955][187]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.29.09:957][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002523s)
+[2022.09.21-16.29.09:957][187]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.29.09:958][187]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2022.09.21-16.29.09:958][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003066s)
+[2022.09.21-16.29.09:992][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.21-16.29.10:160][187]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.29.10:207][187]LogInit: FAudioDevice initialized.
+[2022.09.21-16.29.10:237][187]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.29.10:238][187]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.29.10
+[2022.09.21-16.29.10:239][187]LogWorld: Bringing up level for play took: 0.001760
+[2022.09.21-16.29.10:254][187]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.29.10:254][187]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.018
+[2022.09.21-16.29.10:254][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.40:847][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.40:850][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.29.40:876][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.29.40:876][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.40:907][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.29.40:910][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.09.21-16.29.40:950][769]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2022.09.21-16.29.43:530][ 57]BlueprintLog: New page: BTTask_Success 컴파일
+[2022.09.21-16.29.43:670][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.09.21-16.29.46:885][422]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.29.46:896][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.46:898][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.29.46:898][422]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:29:46)
+[2022.09.21-16.29.46:899][422]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.29.46:901][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002523s)
+[2022.09.21-16.29.46:901][422]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.29.46:902][422]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2022.09.21-16.29.46:902][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003184s)
+[2022.09.21-16.29.46:932][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.09.21-16.29.47:102][422]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.29.47:151][422]LogInit: FAudioDevice initialized.
+[2022.09.21-16.29.47:178][422]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.29.47:180][422]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.29.47
+[2022.09.21-16.29.47:181][422]LogWorld: Bringing up level for play took: 0.002378
+[2022.09.21-16.29.47:196][422]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.29.47:196][422]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.924
+[2022.09.21-16.29.47:197][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.59:586][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.59:588][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.29.59:618][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.29.59:618][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.29.59:655][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.29.59:658][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.09.21-16.29.59:696][847]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2022.09.21-16.30.08:639][864]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.30.08:653][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.08:655][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.30.08:655][864]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:30:08)
+[2022.09.21-16.30.08:655][864]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.30.08:658][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002414s)
+[2022.09.21-16.30.08:658][864]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.30.08:658][864]LogPlayLevel: PIE: World Init took: (0.000418s)
+[2022.09.21-16.30.08:658][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.002945s)
+[2022.09.21-16.30.08:687][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.21-16.30.08:841][864]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.30.08:889][864]LogInit: FAudioDevice initialized.
+[2022.09.21-16.30.08:920][864]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.30.08:922][864]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.30.08
+[2022.09.21-16.30.08:922][864]LogWorld: Bringing up level for play took: 0.001882
+[2022.09.21-16.30.08:937][864]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.30.08:937][864]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.665
+[2022.09.21-16.30.08:937][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.37:385][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.37:387][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.30.37:415][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.30.37:416][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.37:445][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.30.37:450][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.21-16.30.37:492][175]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2022.09.21-16.30.41:509][620]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.30.41:522][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.41:524][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.30.41:524][620]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:30:41)
+[2022.09.21-16.30.41:524][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.30.41:526][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002360s)
+[2022.09.21-16.30.41:527][620]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.30.41:527][620]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2022.09.21-16.30.41:527][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.002931s)
+[2022.09.21-16.30.41:557][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.09.21-16.30.41:712][620]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.30.41:759][620]LogInit: FAudioDevice initialized.
+[2022.09.21-16.30.41:788][620]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.30.41:790][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.30.41
+[2022.09.21-16.30.41:790][620]LogWorld: Bringing up level for play took: 0.001983
+[2022.09.21-16.30.41:805][620]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.30.41:805][620]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.467
+[2022.09.21-16.30.41:805][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.47:255][252]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.47:258][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.30.47:284][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.30.47:284][252]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.30.47:316][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.30.47:320][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.09.21-16.30.47:354][254]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2022.09.21-16.31.03:120][ 62]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.31.03:131][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.31.03:133][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.31.03:133][ 62]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:31:03)
+[2022.09.21-16.31.03:134][ 62]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.31.03:135][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002615s)
+[2022.09.21-16.31.03:136][ 62]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.31.03:136][ 62]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2022.09.21-16.31.03:136][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003355s)
+[2022.09.21-16.31.03:166][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.21-16.31.03:323][ 62]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.31.03:368][ 62]LogInit: FAudioDevice initialized.
+[2022.09.21-16.31.03:398][ 62]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.31.03:399][ 62]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.31.03
+[2022.09.21-16.31.03:400][ 62]LogWorld: Bringing up level for play took: 0.001774
+[2022.09.21-16.31.03:416][ 62]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.31.03:416][ 62]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 1.143
+[2022.09.21-16.31.03:416][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.02:528][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.02:530][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.32.02:557][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.32.02:557][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.02:590][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.32.02:594][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.09.21-16.32.02:634][933]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2022.09.21-16.32.21:511][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.32.21:617][180]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam9158FFE844856379312E82AF06695E63.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.32.23:054][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BTTask_Success" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset" SILENT=true
+[2022.09.21-16.32.23:155][340]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_SuccessC17EB8914FCCED6B57228DAA53F40316.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BTTask_Success.uasset'
+[2022.09.21-16.32.31:735][320]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.32.31:747][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.31:749][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.32.31:749][320]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:32:31)
+[2022.09.21-16.32.31:749][320]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.32.31:752][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002519s)
+[2022.09.21-16.32.31:752][320]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.32.31:752][320]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2022.09.21-16.32.31:752][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003096s)
+[2022.09.21-16.32.31:785][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.09.21-16.32.31:948][320]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.32.31:999][320]LogInit: FAudioDevice initialized.
+[2022.09.21-16.32.32:030][320]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.32.32:032][320]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.32.32
+[2022.09.21-16.32.32:033][320]LogWorld: Bringing up level for play took: 0.002071
+[2022.09.21-16.32.32:047][320]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.32.32:047][320]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.225
+[2022.09.21-16.32.32:047][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.37:638][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.37:642][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.32.37:668][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.32.37:669][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.37:699][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.32.37:703][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.09.21-16.32.37:743][975]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2022.09.21-16.32.53:302][729]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.32.53:315][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.32.53:317][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.32.53:317][729]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:32:53)
+[2022.09.21-16.32.53:317][729]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.32.53:319][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002438s)
+[2022.09.21-16.32.53:320][729]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.32.53:320][729]LogPlayLevel: PIE: World Init took: (0.000446s)
+[2022.09.21-16.32.53:320][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003009s)
+[2022.09.21-16.32.53:350][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.09.21-16.32.53:514][729]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.32.53:563][729]LogInit: FAudioDevice initialized.
+[2022.09.21-16.32.53:592][729]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.32.53:594][729]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.32.53
+[2022.09.21-16.32.53:595][729]LogWorld: Bringing up level for play took: 0.002245
+[2022.09.21-16.32.53:610][729]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.32.53:610][729]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.662
+[2022.09.21-16.32.53:610][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.33.02:220][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.33.02:223][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.33.02:254][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.33.02:255][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.33.02:287][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.33.02:291][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.09.21-16.33.02:323][721]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2022.09.21-16.33.03:131][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.33.03:237][805]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamB16A7AFD4FE0E204526A22B7C01A9F43.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.33.37:444][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.33.37:549][405]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam5FFC97FA424963EE50B7FBBE61003A56.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.33.56:185][546]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/d/Exam/BB_AI_Exam.BB_AI_Exam
+[2022.09.21-16.34.16:405][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.34.16:514][874]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam321BD5CA48CCAFB9D99484A9DD8ADD5D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.34.19:284][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BB_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BB_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.34.19:286][187]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_ExamF2CBBC0B43B2BD6D989633B34E195F5F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BB_AI_Exam.uasset'
+[2022.09.21-16.34.46:143][342]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-16.36.04:132][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.36.04:238][390]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamB2141B294565EDD197847BA951317DB3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.37.06:609][536]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.37.06:625][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.37.06:627][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.37.06:628][536]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:37:06)
+[2022.09.21-16.37.06:628][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.37.06:630][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2022.09.21-16.37.06:631][536]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.37.06:631][536]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2022.09.21-16.37.06:631][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003347s)
+[2022.09.21-16.37.06:664][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.09.21-16.37.06:825][536]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.37.06:874][536]LogInit: FAudioDevice initialized.
+[2022.09.21-16.37.06:905][536]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.37.06:907][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.37.06
+[2022.09.21-16.37.06:908][536]LogWorld: Bringing up level for play took: 0.002136
+[2022.09.21-16.37.06:923][536]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.37.06:923][536]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.651
+[2022.09.21-16.37.06:923][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.37.22:162][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.37.22:165][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.37.22:195][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.37.22:195][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.37.22:233][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.37.22:236][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.21-16.37.22:265][291]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2022.09.21-16.38.00:675][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.21-16.38.00:675][167]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Exam' took 0.028
+[2022.09.21-16.38.00:676][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/d/Exam/BT_AI_Exam] ([1] browsable assets)...
+[2022.09.21-16.38.00:677][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/d/Exam/BT_AI_Exam]
+[2022.09.21-16.38.00:784][167]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam_Auto75E1C7DC245F8705A44E869BF7C4D950F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/d/Exam/BT_AI_Exam_Auto7.uasset'
+[2022.09.21-16.38.00:785][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/d/Exam/BB_AI_Exam] ([1] browsable assets)...
+[2022.09.21-16.38.00:785][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/d/Exam/BB_AI_Exam]
+[2022.09.21-16.38.00:889][167]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_Exam_Auto73C12F3E146CDE7998A6A7E8A0BE11439.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/d/Exam/BB_AI_Exam_Auto7.uasset'
+[2022.09.21-16.38.00:891][167]LogFileHelpers: Auto-saving content packages took 0.216
+[2022.09.21-16.38.16:630][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.38.18:993][322]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Dummy/BP_AI_Controller.BP_AI_Controller
+[2022.09.21-16.40.28:800][794]LogEditorTransaction: Undo Auto Success Range from Last Seen Location 편집
+[2022.09.21-16.40.33:353][294]LogEditorTransaction: Undo Auto Success Range from Last Seen Location 편집
+[2022.09.21-16.40.34:602][433]Cmd: TRANSACTION UNDO
+[2022.09.21-16.40.34:602][433]LogEditorTransaction: Undo Auto Success Range from Last Seen Location 편집
+[2022.09.21-16.40.35:809][571]Cmd: TRANSACTION UNDO
+[2022.09.21-16.40.35:809][571]LogEditorTransaction: Undo Detect Neutrals 편집
+[2022.09.21-16.40.36:775][678]LogEditorTransaction: Undo Detect Enemies 편집
+[2022.09.21-16.41.04:744][806]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.41.04:887][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.21-16.41.11:040][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.41.11:147][405]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam5A52CCFB4A14A2A29B06C9BC427B5EFF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.41.14:258][761]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.41.14:273][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.41.14:275][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.41.14:275][761]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:41:14)
+[2022.09.21-16.41.14:275][761]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.41.14:278][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002409s)
+[2022.09.21-16.41.14:278][761]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.41.14:278][761]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2022.09.21-16.41.14:278][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003033s)
+[2022.09.21-16.41.14:309][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.09.21-16.41.14:466][761]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.41.14:528][761]LogInit: FAudioDevice initialized.
+[2022.09.21-16.41.14:557][761]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.41.14:561][761]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.41.14
+[2022.09.21-16.41.14:563][761]LogWorld: Bringing up level for play took: 0.002825
+[2022.09.21-16.41.14:578][761]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.41.14:578][761]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.306
+[2022.09.21-16.41.14:578][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.41.29:163][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.41.29:166][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.41.29:196][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.41.29:196][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.41.29:230][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.41.29:234][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.09.21-16.41.29:262][454]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2022.09.21-16.41.37:878][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.41.38:011][467]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.41.38:025][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.41.38:028][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.41.38:028][467]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:41:38)
+[2022.09.21-16.41.38:028][467]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.41.38:031][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002947s)
+[2022.09.21-16.41.38:031][467]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.41.38:031][467]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2022.09.21-16.41.38:031][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003550s)
+[2022.09.21-16.41.38:059][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.09.21-16.41.38:217][467]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.41.38:265][467]LogInit: FAudioDevice initialized.
+[2022.09.21-16.41.38:292][467]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.41.38:294][467]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.41.38
+[2022.09.21-16.41.38:296][467]LogWorld: Bringing up level for play took: 0.002976
+[2022.09.21-16.41.38:311][467]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.41.38:311][467]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.039
+[2022.09.21-16.41.38:311][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.42.41:014][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.42.41:016][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.42.41:043][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.42.41:043][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.42.41:080][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.42.41:084][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.21-16.42.41:120][578]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2022.09.21-16.42.42:667][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.42.50:269][535]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.42.50:409][535]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.09.21-16.42.52:829][685]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.42.52:844][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.42.52:846][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.42.52:846][685]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:42:52)
+[2022.09.21-16.42.52:846][685]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.42.52:848][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002408s)
+[2022.09.21-16.42.52:849][685]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.42.52:849][685]LogPlayLevel: PIE: World Init took: (0.000391s)
+[2022.09.21-16.42.52:849][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.002901s)
+[2022.09.21-16.42.52:882][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.09.21-16.42.53:046][685]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.42.53:097][685]LogInit: FAudioDevice initialized.
+[2022.09.21-16.42.53:128][685]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.42.53:130][685]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.42.53
+[2022.09.21-16.42.53:131][685]LogWorld: Bringing up level for play took: 0.002873
+[2022.09.21-16.42.53:146][685]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.42.53:146][685]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.873
+[2022.09.21-16.42.53:146][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.43.30:730][884]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.43.30:733][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.43.30:762][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.43.30:762][884]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.43.30:800][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.43.30:803][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.09.21-16.43.30:831][885]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2022.09.21-16.45.08:513][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-16.45.09:540][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.45.09:918][468]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.45.09:933][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.45.09:935][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.45.09:935][468]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:45:09)
+[2022.09.21-16.45.09:935][468]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.45.09:938][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002721s)
+[2022.09.21-16.45.09:938][468]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.45.09:938][468]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2022.09.21-16.45.09:938][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003317s)
+[2022.09.21-16.45.09:968][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.21-16.45.10:126][468]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.45.10:174][468]LogInit: FAudioDevice initialized.
+[2022.09.21-16.45.10:205][468]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.45.10:206][468]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.45.10
+[2022.09.21-16.45.10:207][468]LogWorld: Bringing up level for play took: 0.001997
+[2022.09.21-16.45.10:222][468]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.45.10:223][468]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.05
+[2022.09.21-16.45.10:223][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.45.27:725][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.45.27:728][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.45.27:755][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.45.27:756][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.45.27:788][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.45.27:792][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.09.21-16.45.27:844][550]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2022.09.21-16.45.33:300][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.46.35:765][270]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.46.35:913][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.09.21-16.47.00:950][ 34]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-16.48.30:363][ 28]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Dummy/BP_AI.BP_AI
+[2022.09.21-16.49.13:973][711]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller996867F841260FA9F8DDA9A184E36B22.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.49.14:944][820]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.49.15:121][820]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2022.09.21-16.49.28:376][299]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller05730C484A76908F1E6412B129EFB330.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.50.10:569][900]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller9C0EB8EB4DA78B54A8B50F88C8BABB16.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.51.13:957][920]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.51.14:101][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.09.21-16.51.15:768][ 94]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_ControllerD609EC334871B5C521AE6CA686B7308E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.52.01:604][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.52.01:711][320]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam35D860C44446220485B833AB84C975A5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.52.03:591][526]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.52.03:609][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.52.03:611][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.52.03:611][526]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:52:03)
+[2022.09.21-16.52.03:611][526]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.52.03:613][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002746s)
+[2022.09.21-16.52.03:613][526]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.52.03:614][526]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2022.09.21-16.52.03:614][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003382s)
+[2022.09.21-16.52.03:643][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.09.21-16.52.03:811][526]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.52.03:860][526]LogInit: FAudioDevice initialized.
+[2022.09.21-16.52.03:886][526]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.52.03:888][526]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.52.03
+[2022.09.21-16.52.03:889][526]LogWorld: Bringing up level for play took: 0.002270
+[2022.09.21-16.52.03:905][526]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.52.03:906][526]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.367
+[2022.09.21-16.52.03:906][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.52.36:404][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.52.36:406][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.52.36:432][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.52.36:432][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.52.36:467][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.52.36:471][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.09.21-16.52.36:504][196]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2022.09.21-16.52.43:194][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.52.58:430][311]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.52.58:445][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.52.58:447][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.52.58:447][311]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:52:58)
+[2022.09.21-16.52.58:447][311]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.52.58:451][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003806s)
+[2022.09.21-16.52.58:451][311]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.52.58:452][311]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2022.09.21-16.52.58:452][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.004564s)
+[2022.09.21-16.52.58:486][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.09.21-16.52.58:650][311]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.52.58:698][311]LogInit: FAudioDevice initialized.
+[2022.09.21-16.52.58:726][311]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.52.58:728][311]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.52.58
+[2022.09.21-16.52.58:729][311]LogWorld: Bringing up level for play took: 0.002070
+[2022.09.21-16.52.58:743][311]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.52.58:743][311]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.471
+[2022.09.21-16.52.58:743][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.53.50:838][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.53.50:840][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.53.50:872][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.53.50:873][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.53.50:907][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.53.50:911][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.09.21-16.53.50:940][101]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2022.09.21-16.53.53:692][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-16.54.52:469][ 25]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.54.52:487][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.54.52:489][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.54.52:489][ 25]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:54:52)
+[2022.09.21-16.54.52:489][ 25]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.54.52:492][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
+[2022.09.21-16.54.52:492][ 25]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.54.52:492][ 25]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2022.09.21-16.54.52:492][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003053s)
+[2022.09.21-16.54.52:525][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.21-16.54.52:687][ 25]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.54.52:747][ 25]LogInit: FAudioDevice initialized.
+[2022.09.21-16.54.52:777][ 25]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.54.52:779][ 25]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.54.52
+[2022.09.21-16.54.52:780][ 25]LogWorld: Bringing up level for play took: 0.002885
+[2022.09.21-16.54.52:795][ 25]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.54.52:795][ 25]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.523
+[2022.09.21-16.54.52:795][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.55.36:431][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.55.36:434][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.55.36:464][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.55.36:464][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.55.36:500][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.55.36:503][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.21-16.55.36:536][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2022.09.21-16.55.40:876][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.55.47:239][263]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.55.47:254][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.55.47:256][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.55.47:257][263]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:55:47)
+[2022.09.21-16.55.47:257][263]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.55.47:260][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002807s)
+[2022.09.21-16.55.47:260][263]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.55.47:260][263]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2022.09.21-16.55.47:260][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003472s)
+[2022.09.21-16.55.47:291][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.09.21-16.55.47:458][263]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.55.47:511][263]LogInit: FAudioDevice initialized.
+[2022.09.21-16.55.47:539][263]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.55.47:541][263]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.55.47
+[2022.09.21-16.55.47:542][263]LogWorld: Bringing up level for play took: 0.002834
+[2022.09.21-16.55.47:557][263]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.55.47:557][263]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 1.285
+[2022.09.21-16.55.47:557][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.56.03:363][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.56.03:365][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.56.03:394][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.56.03:394][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.56.03:429][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.56.03:433][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.09.21-16.56.03:465][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2022.09.21-16.56.28:432][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.56.33:302][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.56.53:765][535]Cmd: TRANSACTION UNDO
+[2022.09.21-16.56.53:765][535]LogEditorTransaction: Undo 스케일 설정
+[2022.09.21-16.56.54:518][600]Cmd: TRANSACTION UNDO
+[2022.09.21-16.56.54:518][600]LogEditorTransaction: Undo 스케일 설정
+[2022.09.21-16.56.54:817][633]Cmd: TRANSACTION UNDO
+[2022.09.21-16.56.54:817][633]LogEditorTransaction: Undo 스케일 설정
+[2022.09.21-16.57.22:047][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2022.09.21-16.57.22:859][863]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.21-16.57.23:654][951]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2022.09.21-16.57.28:131][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.57.34:442][143]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.21-16.57.38:256][570]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.21-16.57.41:013][877]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2022.09.21-16.57.45:508][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-16.57.53:279][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-16.57.53:288][974]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-16.58.00:677][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.58.05:520][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.58.11:764][952]Cmd: POLY SELECT MEMORY UNION
+[2022.09.21-16.58.15:334][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.58.36:383][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-16.58.37:463][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-16.58.50:960][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.58.53:014][733]LogActorFactory: Actor Factory created Cube
+[2022.09.21-16.58.53:477][734]LogActorFactory: Actor Factory created Cube
+[2022.09.21-16.58.58:983][314]Cmd: DELETE
+[2022.09.21-16.58.58:983][314]Cmd: ACTOR DELETE
+[2022.09.21-16.58.58:985][314]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.21-16.58.59:014][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.09.21-16.58.59:014][314]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2022.09.21-16.59.02:411][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.59.02:489][697]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.59.02:504][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.59.02:506][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.59.02:506][697]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:59:02)
+[2022.09.21-16.59.02:506][697]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.59.02:509][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003075s)
+[2022.09.21-16.59.02:510][697]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.59.02:510][697]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2022.09.21-16.59.02:510][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003792s)
+[2022.09.21-16.59.02:539][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.09.21-16.59.02:714][697]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.59.02:764][697]LogInit: FAudioDevice initialized.
+[2022.09.21-16.59.02:789][697]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.59.02:790][697]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.59.02
+[2022.09.21-16.59.02:791][697]LogWorld: Bringing up level for play took: 0.002249
+[2022.09.21-16.59.02:806][697]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.59.02:806][697]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.534
+[2022.09.21-16.59.02:806][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.59.30:521][822]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.21-17.00.02:691][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.02:693][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.00.02:725][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.00.02:726][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.02:762][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.00.02:766][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.21-17.00.02:796][395]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2022.09.21-17.00.08:783][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.00.12:672][ 49]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-17.00.12:687][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.12:689][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-17.00.12:689][ 49]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 11:00:12)
+[2022.09.21-17.00.12:689][ 49]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-17.00.12:692][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003413s)
+[2022.09.21-17.00.12:692][ 49]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-17.00.12:692][ 49]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2022.09.21-17.00.12:693][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.004152s)
+[2022.09.21-17.00.12:724][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.09.21-17.00.12:890][ 49]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-17.00.12:938][ 49]LogInit: FAudioDevice initialized.
+[2022.09.21-17.00.12:970][ 49]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-17.00.12:972][ 49]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-02.00.12
+[2022.09.21-17.00.12:973][ 49]LogWorld: Bringing up level for play took: 0.002465
+[2022.09.21-17.00.12:988][ 49]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-17.00.12:988][ 49]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.716
+[2022.09.21-17.00.12:988][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.39:721][961]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.21-17.00.40:451][ 40]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.21-17.00.41:026][104]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.21-17.00.41:694][177]LogBlueprintUserMessages: [BP_Fist_C_0] 10.0
+[2022.09.21-17.00.42:015][213]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.21-17.00.42:742][295]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.21-17.00.43:296][356]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.21-17.00.45:214][568]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.21-17.00.47:739][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.47:743][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.00.47:777][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-17.00.47:778][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-17.00.47:818][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-17.00.47:822][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.09.21-17.00.47:852][858]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2022.09.21-17.01.28:476][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.01.29:256][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-17.01.29:361][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.09.21-17.01.30:306][612]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-17.01.30:330][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-17.01.30:348][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BB_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BB_AI_Exam.uasset" SILENT=true
+[2022.09.21-17.01.30:451][612]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_Exam50B8AC72463806D36A46B69667C4C0E5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BB_AI_Exam.uasset'
+[2022.09.21-17.01.30:456][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-17.01.30:573][612]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamEA52C2E245591DDA7B4C3DBD1378EE95.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-17.01.30:608][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.09.21-17.01.30:867][612]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam704EE4664D562E8402001D8FB7C7A063.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap'
+[2022.09.21-17.01.30:890][612]LogFileHelpers: Saving map 'AI_Exam' took 0.309
