@@ -1636,3 +1636,836 @@ Script call stack:
 [2022.09.21-15.14.48:615][951]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_BuiltData2A4D5FA54E15EEBB8A0D628D1FD8CA87.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat_BuiltData.uasset'
 [2022.09.21-15.15.37:072][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
 [2022.09.21-15.15.37:800][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.09.21-15.47.16:317][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2022.09.21-15.47.31:273][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.47.40:508][605]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Player/ABP_Player.ABP_Player
+[2022.09.21-15.47.40:992][605]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2022.09.21-15.47.40:992][605]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.09.21-15.47.41:481][605]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.21-15.47.41:509][605]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2022.09.21-15.47.41:509][605]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2022.09.21-15.47.41:764][605]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.21-15.48.24:151][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-15.48.25:359][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-15.48.25:739][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-15.48.26:000][251]LogSlate: Window 'ABP_Player' being destroyed
+[2022.09.21-15.50.12:235][  3]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.21-15.50.25:696][717]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-15.50.36:169][476]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.21-15.50.36:462][476]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2022.09.21-15.50.37:544][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.50.37:752][573]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy327174C747EEB0C07069B68BC5B2CC19.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:UpdateHealthBar.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:ChangeMaterial.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:State' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:580][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:State' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:581][257]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy_C' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.SKEL_ABP_Enemy_C' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy_C:Enemy' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy_C:Direction' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy_C:Speed' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.ABP_Enemy_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.SKEL_ABP_Enemy_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.SKEL_ABP_Enemy_C:Enemy' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.SKEL_ABP_Enemy_C:Direction' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:593][257]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Enemy.SKEL_ABP_Enemy_C:Speed' ref from Metadata '/Game/Enemy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.50.52:622][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.50.52:770][257]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyBA723FB842180B99ACC23F9536B3B88D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset'
+[2022.09.21-15.50.52:775][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.50.52:872][257]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy386CB5E446240E422900EBA93669A5F4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.21-15.50.52:883][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Enemy.uasset" SILENT=true
+[2022.09.21-15.50.52:924][257]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_EnemyB4D0B39A4406730C01D8EC8C1F65E63F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Enemy.uasset'
+[2022.09.21-15.50.53:080][257]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.09.21-15.50.53:112][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.09.21-15.50.53:136][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.21-15.51.00:957][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.09.21-15.51.00:958][158]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Dummy.ABP_Dummy_C' ref from Metadata '/Game/Enemy/Dummy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.51.00:958][158]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C' ref from Metadata '/Game/Enemy/Dummy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.51.00:958][158]LogMetaData: Removing '/Game/Enemy/Dummy/ABP_Dummy.ABP_Dummy:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Enemy/Dummy/ABP_Enemy.PackageMetaData'
+[2022.09.21-15.51.01:002][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.51.01:043][158]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_DummyA986A7C54A030B2BCA1651A2830DDF6D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.51.01:168][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.09.21-15.51.01:195][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.09.21-15.51.01:220][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.21-15.51.03:971][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.51.04:065][467]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy9D2566E544455FB7FE696AA457B44822.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.21-15.51.04:077][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.51.04:204][467]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy8DD7D8C240E4801EBF9CF792BA208FDC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.51.05:903][648]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.09.21-15.51.10:028][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.51.10:122][129]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyE6D2BA9A4425223F84A576BEA444E2C0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.21-15.51.10:134][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.51.10:259][129]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_DummyD9BBC86F48A4A3C2D03C5BB32E734DFD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.51.12:725][394]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.09.21-15.51.13:290][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-15.51.17:810][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.51.35:846][834]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.09.21-15.51.38:895][178]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1745)].
+[2022.09.21-15.51.39:312][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2022.09.21-15.51.39:592][178]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat_Auto50D92D66D4F87FA68CF53ADA277A78E0D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/Combat_Auto5.umap'
+[2022.09.21-15.51.39:596][178]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Combat' took 0.314
+[2022.09.21-15.51.39:596][178]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.314
+[2022.09.21-15.51.39:597][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.21-15.51.39:605][178]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.21-15.51.39:605][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.21-15.51.40:015][178]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto5996889CB4F77A0EE345529BCD197EC42.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto5.uasset'
+[2022.09.21-15.51.40:019][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Dummy/BP_Enemy] ([1] browsable assets)...
+[2022.09.21-15.51.40:026][178]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Dummy/BP_Enemy.BP_Enemy]
+[2022.09.21-15.51.40:026][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Dummy/BP_Enemy]
+[2022.09.21-15.51.40:251][178]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto524E7A75746F406A14FFF6EAE6380D31A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Dummy/BP_Enemy_Auto5.uasset'
+[2022.09.21-15.51.40:253][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Dummy/NewBlueprint] ([1] browsable assets)...
+[2022.09.21-15.51.40:264][178]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Dummy/NewBlueprint.NewBlueprint]
+[2022.09.21-15.51.40:264][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Dummy/NewBlueprint]
+[2022.09.21-15.51.40:282][178]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/NewBlueprint_Auto5731D1F424838619B9BE72E850502B4BB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Dummy/NewBlueprint_Auto5.uasset'
+[2022.09.21-15.51.40:284][178]LogFileHelpers: Auto-saving content packages took 0.687
+[2022.09.21-15.51.50:149][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.09.21-15.51.50:149][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:149][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:150][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy_C' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:150][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:150][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:150][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:150][254]LogMetaData: Removing '/Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemy/Dummy/NewBlueprint.PackageMetaData'
+[2022.09.21-15.51.50:211][254]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummyE5D67EB54531FA888502A0B5995581B0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.51.50:358][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.21-15.51.50:395][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.21-15.51.50:425][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.09.21-15.51.52:425][463]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Dummy/BP_EnemyDummy.BP_EnemyDummy
+[2022.09.21-15.51.57:167][844]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-15.52.02:032][272]BlueprintLog: New page: BP_EnemyDummy 컴파일
+[2022.09.21-15.52.02:195][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.09.21-15.52.02:886][339]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-15.52.03:014][339]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummy51CEB6774D75D60B720AA7929BF3F437.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.52.04:847][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.52.05:062][512]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy618112C64C746F5D277EA1BA535A9C98.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset'
+[2022.09.21-15.52.06:099][612]LogSlate: Window 'BP_EnemyDummy' being destroyed
+[2022.09.21-15.52.06:104][612]LogSlate: Window 'BP_EnemyDummy' being destroyed
+[2022.09.21-15.52.06:193][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-15.52.12:668][315]Cmd: TRANSACTION UNDO
+[2022.09.21-15.52.12:668][315]LogEditorTransaction: Undo 액터 이동
+[2022.09.21-15.52.13:483][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.21-15.52.14:119][474]LogEditorViewport: Clicking on Actor (LMB): BP_Enemy_C (BP_Enemy8)
+[2022.09.21-15.52.19:360][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.52.20:788][129]Cmd: DELETE
+[2022.09.21-15.52.20:788][129]Cmd: ACTOR DELETE
+[2022.09.21-15.52.21:229][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:230][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:232][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:233][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:233][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:233][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:234][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:235][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:235][129]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2022.09.21-15.52.21:267][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.09.21-15.52.21:267][129]LogEditorActor: Deleted 9 Actors (0.044 secs)
+[2022.09.21-15.52.34:355][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.52.34:614][304]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-15.52.34:626][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.21-15.52.34:626][304]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.21-15.52.34:632][304]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.09.21-15.52.34:633][304]LogPlayLevel: [PlayLevel]   Compiling BP_EnemyDummy as a dependent...
+[2022.09.21-15.52.34:847][304]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.09.21-15.52.35:032][304]LogPlayLevel: [PlayLevel] Compiling ABP_Dummy before play...
+[2022.09.21-15.52.35:200][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.21-15.52.35:200][304]LogPlayLevel: PlayLevel: Blueprint regeneration took 573 ms (4 blueprints)
+[2022.09.21-15.52.35:200][304]PIE: New page: PIE 세션: Combat (2022. 9. 22. 오전 9:52:35)
+[2022.09.21-15.52.35:200][304]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Combat
+[2022.09.21-15.52.35:204][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004329s)
+[2022.09.21-15.52.35:205][304]LogAIModule: Creating AISystem for world Combat
+[2022.09.21-15.52.35:205][304]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2022.09.21-15.52.35:205][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Combat.Combat to /Game/Levels/UEDPIE_0_Combat.Combat (0.004900s)
+[2022.09.21-15.52.35:230][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.09.21-15.52.35:400][304]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-15.52.35:456][304]LogInit: FAudioDevice initialized.
+[2022.09.21-15.52.35:489][304]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-15.52.35:490][304]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Combat.Combat up for play (max tick rate 0) at 2022.09.22-00.52.35
+[2022.09.21-15.52.35:491][304]LogWorld: Bringing up level for play took: 0.001721
+[2022.09.21-15.52.35:504][304]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Combat.Combat:PersistentLevel.BP_EnemyDummy_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-15.52.35:507][304]PIE: /Game/Levels/UEDPIE_0_Combat 에 대한 에디터에서 플레이 시작 시간: 1.234
+[2022.09.21-15.52.35:507][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.21-15.52.36:625][428]LogBlueprintUserMessages: [BP_Fist_C_0] 10.0
+[2022.09.21-15.52.36:925][464]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.21-15.52.37:497][532]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.21-15.52.37:809][569]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.21-15.52.38:534][655]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.21-15.52.42:163][ 87]LogBlueprintUserMessages: [BP_Sword_C_1] Sword
+[2022.09.21-15.52.42:699][151]LogBlueprintUserMessages: [BP_Sword_C_1] 15.428877
+[2022.09.21-15.52.43:720][273]LogBlueprintUserMessages: [BP_Sword_C_1] 17.0
+[2022.09.21-15.52.45:139][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.21-15.52.45:139][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-15.52.45:167][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-15.52.45:167][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Combat.Combat:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Combat.Combat:PersistentLevel.Combat' with GeneratedClass '/Game/Levels/Combat.Combat_C' with ClassGeneratedBy '/Game/Levels/Combat.Combat:PersistentLevel.Combat'
+[2022.09.21-15.52.45:196][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-15.52.45:200][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.09.21-15.52.45:247][443]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.09.21-15.52.47:392][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.53.13:211][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:211][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:211][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:ChangeMaterial.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:211][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:UpdateHealthBar.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:212][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:213][315]LogMetaData: Removing '/Game/BP_Enemy.SKEL_BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.13:248][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.53.13:397][315]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy9DF087464ECF6C787DD7A2AE061770F5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_Enemy.uasset'
+[2022.09.21-15.53.13:528][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.09.21-15.53.13:557][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.21-15.53.13:579][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.21-15.53.13:588][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.53.13:685][315]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyFFDA6CBA4A9C3B2537F48C913B7C9F9F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.21-15.53.13:696][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.53.13:825][315]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_DummyAC88231C4C84259DA347348FBBCB13C3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.53.13:955][315]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummy7A90272248F88E2DCD354FA9EEC3BAC9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.53.17:448][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.53.17:575][702]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy6DAD6AF6421976481FEEB38D83312B1F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.53.17:702][702]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummy3835A9434DE446414D326F88DEDA6991.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.53.22:193][224]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.09.21-15.53.28:282][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.09.21-15.53.42:881][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:StatusComponent' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Cursor' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:TextRender' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Fire' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Sword' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Attacker' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Damage' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Dead' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Materials' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Causer' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:State' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy_C:Combat' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Combat' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:State' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Causer' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Materials' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Dead' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Damage' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Attacker' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Sword' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Fire' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:TextRender' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Cursor' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:StatusComponent' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:ChangeMaterial.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:UpdateHealthBar.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:882][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:883][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:883][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:883][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:883][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:883][645]LogMetaData: Removing '/Game/Enemy/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/BP_Enemy.PackageMetaData'
+[2022.09.21-15.53.42:917][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.53.43:027][645]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyA75B367E4DCAE5F9B9EADA8363F65AE0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_Enemy.uasset'
+[2022.09.21-15.53.43:160][645]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.09.21-15.53.43:192][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.09.21-15.53.43:221][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.09.21-15.53.43:239][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.53.43:364][645]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy3BF436FE46A614E6CCC38FA7C3C84BA4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.53.43:498][645]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummy38F32DD24B04B72D5F4179A2572F4C0E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.53.49:052][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.09.21-15.53.50:159][166]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.21-15.53.50:170][166]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Enemy/BP_Enemy_2.BP_Enemy_2
+[2022.09.21-15.53.51:912][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.09.21-15.53.52:092][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.21-15.54.10:842][893]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.09.21-15.54.20:780][ 56]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Dummy/BP_AI.BP_AI
+[2022.09.21-15.54.41:864][179]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.09.21-15.54.53:196][427]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Dummy/BP_AI_Controller.BP_AI_Controller
+[2022.09.21-15.55.08:140][ 34]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-15.55.14:812][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-15.55.14:826][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_AI" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset" SILENT=true
+[2022.09.21-15.55.14:849][763]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI8A5D5CD4436C151088C9CB9C7F5C35E8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset'
+[2022.09.21-15.55.15:205][800]BlueprintLog: New page: BP_AI 컴파일
+[2022.09.21-15.55.15:361][800]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.09.21-15.55.15:471][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_AI" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset" SILENT=true
+[2022.09.21-15.55.15:585][805]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI0BB493C04517DD2B3CA02599E7B185B8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset'
+[2022.09.21-15.55.16:815][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-15.55.16:829][933]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller19C8C108416F337DEDC97FA86F5D92BD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-15.56.03:581][ 13]BlueprintLog: New page: BP_AI 컴파일
+[2022.09.21-15.56.03:726][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.09.21-15.56.04:556][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Dummy/BP_AI" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset" SILENT=true
+[2022.09.21-15.56.04:670][ 97]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AIE3DD55C04D753D3C5BD17F80F2F1DB3F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Dummy/BP_AI.uasset'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:544][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Causer' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Materials' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Dead' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Damage' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Attacker' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Sword' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:HealthBar' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Fire' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:TextRender' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Cursor' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:StatusComponent' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:ChangeMaterial' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_State' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_Combat' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:SetWeapon_CanMove' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_IncreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.SKEL_BP_Enemy_C:Weapon_DecreaseHealth' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:ChangeMaterial.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_Current.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:GetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_CanMove.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_Combat.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:SetWeapon_State.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:UpdateHealthBar.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_Change.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_DecreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:545][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:546][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0' ref from Metadata '/Game/Enemy/Dummy/BP_Enemy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy_C' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C:Speed' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C:Direction' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C:Enemy' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.SKEL_ABP_Dummy_C' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy_C:Enemy' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy_C:Direction' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy_C:Speed' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:558][ 98]LogMetaData: Removing '/Game/d/Dummy/ABP_Dummy.ABP_Dummy_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Enemy/Dummy/ABP_Dummy.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.BP_AI_Controller:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.SKEL_BP_AI_Controller_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.SKEL_BP_AI_Controller_C' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.BP_AI_Controller_C' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:585][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemy/Dummy/BP_AI_Controller.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy_C' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.BP_EnemyDummy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C:ReceiveTick' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:593][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_EnemyDummy.SKEL_BP_EnemyDummy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_EnemyDummy.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI_C' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C:ReceiveTick' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C:BehaviorTree' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.SKEL_BP_AI_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:603][ 98]LogMetaData: Removing '/Game/d/Dummy/BP_AI.BP_AI_C:BehaviorTree' ref from Metadata '/Game/Enemy/Dummy/BP_AI.PackageMetaData'
+[2022.09.21-15.56.41:641][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Dummy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.56.41:792][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyBD5CD37B4FCBD9BDA8A51581132627F3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_Enemy.uasset'
+[2022.09.21-15.56.41:804][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.56.41:845][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy9E9070AB4E262922F3580684F0F938BF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.56.41:850][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/BP_Enemy.uasset" SILENT=true
+[2022.09.21-15.56.41:852][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy474F44AB47062EB1107C4E9C0EC3A03C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/BP_Enemy.uasset'
+[2022.09.21-15.56.41:856][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/BP_Enemy_C" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/BP_Enemy_C.uasset" SILENT=true
+[2022.09.21-15.56.41:859][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_C400E34814717B836696D0AB728C2C8E4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/BP_Enemy_C.uasset'
+[2022.09.21-15.56.41:871][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller9CB5A2414C134F89A8E87AB0C9A480C9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-15.56.41:884][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Dummy/BP_EnemyDummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_EnemyDummy.uasset" SILENT=true
+[2022.09.21-15.56.41:909][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyDummyA29B584B401918E26B2215989C4BC1F0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_EnemyDummy.uasset'
+[2022.09.21-15.56.41:921][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Dummy/BP_AI" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI.uasset" SILENT=true
+[2022.09.21-15.56.41:944][ 98]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AIE633C0674DB1FF3630DF8EA762D332B5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI.uasset'
+[2022.09.21-15.56.42:562][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.21-15.56.42:587][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.21-15.56.42:613][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.21-15.56.42:639][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.21-15.56.42:664][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.21-15.56.42:694][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.09.21-15.56.42:718][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.09.21-15.57.31:879][697]LogBlueprintActionDatabase: Requesting refresh due to module change: NewLevelDialog (loaded)
+[2022.09.21-15.57.32:779][697]LogSlate: Window '새 레벨' being destroyed
+[2022.09.21-15.57.34:332][697]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-15.57.34:395][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.09.21-15.57.34:654][697]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Combat81950CAC4C498318537A948D84B0BE11.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap'
+[2022.09.21-15.57.34:674][697]LogFileHelpers: Saving map 'Combat' took 0.315
+[2022.09.21-15.57.34:679][697]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.21-15.57.34:710][697]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.57.34:710][697]LoadErrors: New page: 맵 로드중: Template_Default.umap
+[2022.09.21-15.57.34:712][697]MapCheck: New page: 맵 체크
+[2022.09.21-15.57.34:712][697]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.57.34:748][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.09.21-15.57.34:840][697]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2022.09.21-15.57.34:844][697]LogAIModule: Creating AISystem for world Untitled_1
+[2022.09.21-15.57.34:868][697]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.21-15.57.34:906][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.09.21-15.57.34:911][697]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.21-15.57.34:912][697]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.331ms.
+[2022.09.21-15.57.34:912][697]LogFileHelpers: Loading map 'Template_Default' took 0.235
+[2022.09.21-15.57.35:017][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:017][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:018][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:018][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:018][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:019][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:019][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:019][697]LoadErrors: 로드에 실패했습니다. /Game/BP_Enemy.BP_Enemy 참조한 것: BP_Enemy
+[2022.09.21-15.57.35:019][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:019][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:020][697]LoadErrors: 로드에 실패했습니다. /Game/BP_Enemy.BP_Enemy_C 참조한 것: BP_Enemy_C
+[2022.09.21-15.57.35:020][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:020][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:021][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:223][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:223][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:224][697]LogLinker: Warning: '/Game/BP_Enemy' 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:224][697]LogLinker: Warning: NULL 로드중 '/Game/BP_Enemy' 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.09.21-15.57.35:276][697]LogAIModule: Creating AISystem for world Combat
+[2022.09.21-15.57.37:521][920]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.21-15.57.37:731][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-15.57.37:772][938]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.21-15.57.46:469][938]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2022.09.21-15.57.46:572][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2022.09.21-15.57.46:613][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.09.21-15.57.46:752][938]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam2188EA6347EF18D385F269B768D59FCB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap'
+[2022.09.21-15.57.46:783][938]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam_BuiltData10E776E14D465B7BD6E7CB8D10DB714C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam_BuiltData.uasset'
+[2022.09.21-15.57.46:794][938]LogFileHelpers: Saving map 'AI_Exam' took 0.304
+[2022.09.21-15.57.51:800][441]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2022.09.21-15.57.53:337][441]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.09.21-15.57.58:921][ 22]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.21-15.57.58:928][ 22]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.21-15.58.06:510][739]LogSlate: Window 'Unable to delete level' being destroyed
+[2022.09.21-15.58.08:150][923]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Combat.Combat
+[2022.09.21-15.58.08:213][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2022.09.21-15.58.10:080][923]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-15.58.10:089][923]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/Combat.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.21-15.58.10:093][923]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.58.10:093][923]LoadErrors: New page: 맵 로드중: Combat.umap
+[2022.09.21-15.58.10:094][923]MapCheck: New page: 맵 체크
+[2022.09.21-15.58.10:094][923]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.58.10:144][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2022.09.21-15.58.10:148][923]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.21-15.58.10:183][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.09.21-15.58.10:201][923]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.21-15.58.10:202][923]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.206ms.
+[2022.09.21-15.58.10:204][923]LogFileHelpers: Loading map 'Combat' took 0.115
+[2022.09.21-15.58.11:575][ 77]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-15.58.12:826][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.21-15.58.14:177][213]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.21-15.58.14:284][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.09.21-15.58.14:314][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.09.21-15.58.14:349][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.09.21-15.58.14:379][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.09.21-15.58.18:565][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.09.21-15.58.18:693][693]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-15.58.20:188][863]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/AI_Exam.AI_Exam
+[2022.09.21-15.58.20:219][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.09.21-15.58.23:299][863]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-15.58.23:356][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.21-15.58.23:518][863]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam430E92324D262C0525F36FB3062017C1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap'
+[2022.09.21-15.58.23:525][863]LogFileHelpers: Saving map 'AI_Exam' took 0.206
+[2022.09.21-15.58.23:534][863]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam_BuiltData9B5458E64BC044FCEE1E42BC5A00E254.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam_BuiltData.uasset'
+[2022.09.21-15.58.23:551][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.21-15.58.23:981][863]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player0E51D1254052178F6D880094C4F7AAD6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.21-15.58.23:989][863]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.21-15.58.23:989][863]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.58.23:989][863]LoadErrors: New page: 맵 로드중: AI_Exam.umap
+[2022.09.21-15.58.23:991][863]MapCheck: New page: 맵 체크
+[2022.09.21-15.58.23:991][863]LightingResults: New page: 라이팅 빌드
+[2022.09.21-15.58.24:025][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.09.21-15.58.24:029][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.21-15.58.24:066][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.09.21-15.58.24:084][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.21-15.58.24:084][863]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.182ms.
+[2022.09.21-15.58.24:085][863]LogFileHelpers: Loading map 'AI_Exam' took 0.097
+[2022.09.21-15.58.30:082][473]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.09.21-15.58.34:871][996]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-15.58.44:314][648]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.21-15.58.44:320][648]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.21-15.58.45:438][777]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyDummy_C (BP_EnemyDummy)
+[2022.09.21-15.58.46:227][862]Cmd: DELETE
+[2022.09.21-15.58.46:227][862]Cmd: ACTOR DELETE
+[2022.09.21-15.58.46:228][862]LogEditorActor: Deleted Actor: BP_EnemyDummy_C
+[2022.09.21-15.58.46:263][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.09.21-15.58.46:263][862]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2022.09.21-15.58.58:976][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-15.59.07:492][609]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.09.21-15.59.15:711][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Dummy/ABP_Dummy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/ABP_Dummy.uasset" SILENT=true
+[2022.09.21-15.59.15:835][579]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy1FB9A92843411D804A3EA78A8C068534.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/ABP_Dummy.uasset'
+[2022.09.21-15.59.18:004][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.SKEL_ABP_Dummy1_C' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.ABP_Dummy1_C' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.SKEL_ABP_Dummy1_C:BlueprintUpdateAnimation' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.SKEL_ABP_Dummy1_C:Enemy' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.SKEL_ABP_Dummy1_C:Direction' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.SKEL_ABP_Dummy1_C:Speed' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.ABP_Dummy1_C:Enemy' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.ABP_Dummy1_C:Direction' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.ABP_Dummy1_C:Speed' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:206][552]LogMetaData: Removing '/Game/d/Exam/ABP_Dummy1.ABP_Dummy1_C:BlueprintUpdateAnimation' ref from Metadata '/Game/d/Dummy/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.24:238][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/ABP_Dummy1" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/ABP_Dummy1.uasset" SILENT=true
+[2022.09.21-15.59.24:279][552]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Dummy174141EC941384E5325B5D58013980587.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/ABP_Dummy1.uasset'
+[2022.09.21-15.59.24:430][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.09.21-15.59.24:467][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.21-15.59.24:499][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.09.21-15.59.30:704][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.21-15.59.30:705][243]LogMetaData: Removing '/Game/d/Exam/ABP_Exam.ABP_Exam_C' ref from Metadata '/Game/d/Exam/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.30:705][243]LogMetaData: Removing '/Game/d/Exam/ABP_Exam.SKEL_ABP_Exam_C' ref from Metadata '/Game/d/Exam/ABP_Dummy1.PackageMetaData'
+[2022.09.21-15.59.30:749][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/ABP_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/ABP_Exam.uasset" SILENT=true
+[2022.09.21-15.59.30:791][243]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Exam9662B4CB46974D6234EBF88B52753B33.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/ABP_Exam.uasset'
+[2022.09.21-15.59.30:941][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.09.21-15.59.30:980][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.09.21-15.59.31:012][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.09.21-15.59.32:063][357]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/d/Exam/ABP_Exam.ABP_Exam
+[2022.09.21-15.59.32:071][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.21-15.59.32:300][357]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.21-15.59.46:925][805]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Exam/BP_AI_Exam.BP_AI_Exam
+[2022.09.21-15.59.52:075][311]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-16.00.02:310][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.00.27:447][ 15]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/d/Exam/BT_AI_Exam.BT_AI_Exam
+[2022.09.21-16.00.39:877][655]BlueprintLog: New page: BP_AI_Exam 컴파일
+[2022.09.21-16.00.40:138][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.21-16.00.40:546][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-16.00.40:563][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BP_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BP_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.00.40:587][678]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Exam29D6456E4C59F43D731064B4A6AF13A7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BP_AI_Exam.uasset'
+[2022.09.21-16.00.40:637][681]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Exam/BP_AI_Exam.
+[2022.09.21-16.00.41:552][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.00.41:555][768]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamA8AE1E0D43A8CFC2EC0207B4FB2C8595.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.00.42:152][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.00.42:252][829]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_ExamCE0655044A4439557AE8A5B546BB960B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.09.45:770][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.09.21-16.09.46:057][979]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam_Auto67F2F6E6943CBB46867432596FA61D82A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Exam_Auto6.umap'
+[2022.09.21-16.09.46:060][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Exam' took 0.328
+[2022.09.21-16.09.46:060][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.328
+[2022.09.21-16.09.46:062][979]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/d/Exam/BT_AI_Exam] ([1] browsable assets)...
+[2022.09.21-16.09.46:062][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/d/Exam/BT_AI_Exam]
+[2022.09.21-16.09.46:171][979]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam_Auto627420D9D4B9F0AAC47F70F864581012A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/d/Exam/BT_AI_Exam_Auto6.uasset'
+[2022.09.21-16.09.46:172][979]LogFileHelpers: Auto-saving content packages took 0.111
+[2022.09.21-16.10.15:744][718]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.10.15:765][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.15:767][718]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.21-16.10.15:777][718]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.09.21-16.10.15:978][718]LogPlayLevel: [PlayLevel] Compiling BP_AI before play...
+[2022.09.21-16.10.15:978][718]LogPlayLevel: [PlayLevel]   Compiling BP_AI_Exam as a dependent...
+[2022.09.21-16.10.16:219][718]LogPlayLevel: [PlayLevel] Compiling ABP_Dummy before play...
+[2022.09.21-16.10.16:411][718]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.09.21-16.10.16:411][718]LogPlayLevel: PlayLevel: Blueprint regeneration took 644 ms (4 blueprints)
+[2022.09.21-16.10.16:411][718]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:10:16)
+[2022.09.21-16.10.16:411][718]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.10.16:414][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002398s)
+[2022.09.21-16.10.16:414][718]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.10.16:414][718]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2022.09.21-16.10.16:414][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003291s)
+[2022.09.21-16.10.16:450][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.09.21-16.10.16:611][718]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.10.16:661][718]LogInit: FAudioDevice initialized.
+[2022.09.21-16.10.16:689][718]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.10.16:691][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.10.16
+[2022.09.21-16.10.16:691][718]LogWorld: Bringing up level for play took: 0.002193
+[2022.09.21-16.10.16:706][718]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.10.16:707][718]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.435
+[2022.09.21-16.10.16:707][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.18:060][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.18:062][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.10.18:091][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.10.18:091][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.18:132][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.10.18:136][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.09.21-16.10.18:167][874]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2022.09.21-16.10.28:583][ 87]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.10.28:606][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.28:608][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.10.28:608][ 87]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:10:28)
+[2022.09.21-16.10.28:609][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.10.28:611][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002251s)
+[2022.09.21-16.10.28:611][ 87]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.10.28:611][ 87]LogPlayLevel: PIE: World Init took: (0.000414s)
+[2022.09.21-16.10.28:611][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.002768s)
+[2022.09.21-16.10.28:646][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.09.21-16.10.28:806][ 87]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.10.28:853][ 87]LogInit: FAudioDevice initialized.
+[2022.09.21-16.10.28:885][ 87]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.10.28:887][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.10.28
+[2022.09.21-16.10.28:888][ 87]LogWorld: Bringing up level for play took: 0.001756
+[2022.09.21-16.10.28:903][ 87]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.10.28:903][ 87]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: 0.63
+[2022.09.21-16.10.28:903][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.32:995][510]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Exam_C (BP_AI_Exam)
+[2022.09.21-16.10.33:942][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.21-16.10.37:978][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.37:981][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.10.38:014][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.10.38:014][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.10.38:059][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.10.38:063][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.21-16.10.38:093][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.09.21-16.10.46:217][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Exam/BT_AI_Exam" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset" SILENT=true
+[2022.09.21-16.10.46:314][844]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Exam235CAF0347795D863E1B508DA92E6D4B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Exam/BT_AI_Exam.uasset'
+[2022.09.21-16.11.49:221][895]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.21-16.12.55:774][508]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.12.55:949][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.09.21-16.12.57:233][637]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller9E4F45DD4607C3C6AB434481B0132044.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.13.58:668][ 46]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Controller0D37FFDA4792D05D71CEEB911A9386E0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Dummy/BP_AI_Controller.uasset'
+[2022.09.21-16.13.59:346][119]BlueprintLog: New page: BP_AI_Controller 컴파일
+[2022.09.21-16.13.59:535][119]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.09.21-16.14.03:840][506]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.14.03:852][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.14.03:855][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.14.03:855][506]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:14:03)
+[2022.09.21-16.14.03:855][506]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.14.03:858][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002950s)
+[2022.09.21-16.14.03:859][506]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.14.03:859][506]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2022.09.21-16.14.03:859][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.004077s)
+[2022.09.21-16.14.03:897][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.09.21-16.14.04:064][506]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.14.04:110][506]LogInit: FAudioDevice initialized.
+[2022.09.21-16.14.04:136][506]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.14.04:138][506]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.14.04
+[2022.09.21-16.14.04:138][506]LogWorld: Bringing up level for play took: 0.001893
+[2022.09.21-16.14.04:153][506]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.14.04:153][506]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.119
+[2022.09.21-16.14.04:153][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.14.09:172][ 98]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.21-16.14.09:697][160]LogBlueprintUserMessages: [BP_Sword_C_0] 17.0
+[2022.09.21-16.14.10:707][280]LogBlueprintUserMessages: [BP_Sword_C_0] 21.559649
+[2022.09.21-16.14.11:655][392]LogBlueprintUserMessages: [BP_Sword_C_0] 18.291664
+[2022.09.21-16.14.13:301][589]LogBlueprintUserMessages: [BP_Sword_C_0] !Sword
+[2022.09.21-16.14.22:195][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.14.22:197][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.14.22:227][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.14.22:227][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.14.22:268][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.14.22:272][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.09.21-16.14.22:304][637]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.09.21-16.15.13:592][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.15.13:686][509]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.21-16.15.13:700][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.15.13:702][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-16.15.13:702][509]PIE: New page: PIE 세션: AI_Exam (2022. 9. 22. 오전 10:15:13)
+[2022.09.21-16.15.13:702][509]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Exam
+[2022.09.21-16.15.13:705][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002615s)
+[2022.09.21-16.15.13:705][509]LogAIModule: Creating AISystem for world AI_Exam
+[2022.09.21-16.15.13:706][509]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2022.09.21-16.15.13:706][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Exam.AI_Exam to /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam (0.003295s)
+[2022.09.21-16.15.13:741][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.09.21-16.15.13:898][509]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.21-16.15.13:952][509]LogInit: FAudioDevice initialized.
+[2022.09.21-16.15.13:980][509]LogLoad: Game class is 'GameModeBase'
+[2022.09.21-16.15.13:981][509]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Exam.AI_Exam up for play (max tick rate 0) at 2022.09.22-01.15.13
+[2022.09.21-16.15.13:982][509]LogWorld: Bringing up level for play took: 0.001913
+[2022.09.21-16.15.13:996][509]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_Exam.AI_Exam:PersistentLevel.BP_AI_Exam_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.21-16.15.13:996][509]PIE: /Game/Levels/UEDPIE_0_AI_Exam 에 대한 에디터에서 플레이 시작 시간: -0.276
+[2022.09.21-16.15.13:996][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.18.38:861][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.18.38:863][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.18.38:895][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-16.18.38:895][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam' with GeneratedClass '/Game/Levels/AI_Exam.AI_Exam_C' with ClassGeneratedBy '/Game/Levels/AI_Exam.AI_Exam:PersistentLevel.AI_Exam'
+[2022.09.21-16.18.38:938][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-16.18.38:944][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.09.21-16.18.38:969][518]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.09.21-16.18.39:669][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.18.39:758][606]LogSlate: Window 'BT_AI_Exam' being destroyed
+[2022.09.21-16.18.39:767][606]LogSlate: Window 'BT_AI_Exam' being destroyed
+[2022.09.21-16.18.39:829][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-16.18.39:891][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-16.18.40:619][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.21-16.18.41:335][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.09.21-16.18.42:396][741]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-16.18.42:475][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.09.21-16.18.42:717][741]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Exam5857D9314FC786A40E9FC39F5885EE06.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Exam.umap'
+[2022.09.21-16.18.42:738][741]LogFileHelpers: Saving map 'AI_Exam' took 0.309
