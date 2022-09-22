@@ -1591,3 +1591,318 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.09.22-09.09.24:590][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
 [2022.09.22-09.09.24:853][915]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Trace5CB93F9F4011822E927C4893812F7B53.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Trace.umap'
 [2022.09.22-09.09.24:875][915]LogFileHelpers: Saving map 'AI_Trace' took 0.314
+[2022.09.22-09.11.16:481][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.09.22-09.11.17:124][801]Cmd: DELETE
+[2022.09.22-09.11.17:124][801]Cmd: ACTOR DELETE
+[2022.09.22-09.11.17:126][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.22-09.11.17:154][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.09.22-09.11.17:155][801]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.09.22-09.11.17:619][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.22-09.11.17:899][885]Cmd: DELETE
+[2022.09.22-09.11.17:899][885]Cmd: ACTOR DELETE
+[2022.09.22-09.11.17:901][885]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.09.22-09.11.17:923][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.22-09.11.17:923][885]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.09.22-09.11.19:054][ 19]Cmd: TRANSACTION UNDO
+[2022.09.22-09.11.19:054][ 19]LogEditorTransaction: Undo 액터 삭제
+[2022.09.22-09.11.19:484][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_AI_EQS_C (BP_AI_EQS)
+[2022.09.22-09.11.20:223][131]Cmd: DELETE
+[2022.09.22-09.11.20:223][131]Cmd: ACTOR DELETE
+[2022.09.22-09.11.20:224][131]LogEditorActor: Deleted Actor: BP_AI_EQS_C
+[2022.09.22-09.11.20:251][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.09.22-09.11.20:252][131]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.09.22-09.11.20:641][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.11.26:611][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.22-09.11.26:645][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.09.22-09.11.26:883][840]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Trace57ADF41A4AE7F4F3CF12A7AF822CC7A6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Trace.umap'
+[2022.09.22-09.11.27:022][840]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Trace_BuiltData564C8DFC4B81F1233CA3C4AD3BEF68A9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Trace_BuiltData.uasset'
+[2022.09.22-09.11.35:616][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.09.22-09.11.35:735][808]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Levels/AI_EQS.
+[2022.09.22-09.11.35:739][808]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Levels/AI_EQS.
+[2022.09.22-09.11.35:742][808]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-09.11.35:858][817]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/AI_EQS.AI_EQS
+[2022.09.22-09.11.35:886][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.09.22-09.11.38:333][817]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.22-09.11.38:386][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.09.22-09.11.38:537][817]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_EQS89BB0B2C4C2353F9005E13AA7FED46D8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_EQS.umap'
+[2022.09.22-09.11.38:541][817]LogFileHelpers: Saving map 'AI_EQS' took 0.192
+[2022.09.22-09.11.38:554][817]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_EQS_BuiltData239145684F8037BA41953CA7FEB09EEF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_EQS_BuiltData.uasset'
+[2022.09.22-09.11.38:559][817]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_EQS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.22-09.11.38:560][817]LightingResults: New page: 라이팅 빌드
+[2022.09.22-09.11.38:560][817]LoadErrors: New page: 맵 로드중: AI_EQS.umap
+[2022.09.22-09.11.38:561][817]MapCheck: New page: 맵 체크
+[2022.09.22-09.11.38:561][817]LightingResults: New page: 라이팅 빌드
+[2022.09.22-09.11.38:588][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.22-09.11.38:592][817]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.22-09.11.38:618][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.09.22-09.11.38:637][817]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.22-09.11.38:637][817]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.188ms.
+[2022.09.22-09.11.38:638][817]LogFileHelpers: Loading map 'AI_EQS' took 0.079
+[2022.09.22-09.11.38:713][818]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Levels/AI_EQS.
+[2022.09.22-09.11.38:718][818]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Levels/AI_EQS.
+[2022.09.22-09.11.40:340][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.22-09.11.40:718][ 39]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ABP_AI_Trace)
+[2022.09.22-09.11.41:493][127]Cmd: DELETE
+[2022.09.22-09.11.41:493][127]Cmd: ACTOR DELETE
+[2022.09.22-09.11.41:495][127]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2022.09.22-09.11.41:519][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.09.22-09.11.41:520][127]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2022.09.22-09.11.42:067][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.11.56:220][781]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2022.09.22-09.11.59:719][185]LogEditorViewport: Clicking on Actor (LMB): BP_AI_EQS_C (BP_AI_EQS)
+[2022.09.22-09.12.04:979][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.12.12:240][584]LogEditorViewport: Clicking on Actor (LMB): BP_AI_EQS_C (BP_AI_EQS)
+[2022.09.22-09.12.13:554][737]LogEditorViewport: Clicking on Actor (LMB): BP_AI_EQS_C (BP_AI_EQS)
+[2022.09.22-09.12.21:503][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.12.23:786][603]LogProperty: Warning: ObjectProperty /Script/AIModule.EnvQueryOption:Tests.Tests: unresolved reference to 'EnvQueryTest_Trace'"EnvironmentQueryGraphNode_Test_29.EnvQueryTest_Trace_0"''
+[2022.09.22-09.21.35:970][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.09.22-09.21.36:227][702]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_EQS_Auto314DE56C14F544EA3C34F1AA09B640E1F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_EQS_Auto3.umap'
+[2022.09.22-09.21.36:229][702]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_EQS' took 0.289
+[2022.09.22-09.21.36:229][702]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.289
+[2022.09.22-09.21.36:231][702]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/d/EQS_Exam/EnvQuery_AI_EQS] ([1] browsable assets)...
+[2022.09.22-09.21.36:231][702]OBJ SavePackage: Finished generating thumbnails for package [/Game/d/EQS_Exam/EnvQuery_AI_EQS]
+[2022.09.22-09.21.36:347][702]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EnvQuery_AI_EQS_Auto35637D66B40DF48AA7FCE6980F5041EA0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/d/EQS_Exam/EnvQuery_AI_EQS_Auto3.uasset'
+[2022.09.22-09.21.36:348][702]LogFileHelpers: Auto-saving content packages took 0.117
+[2022.09.22-09.45.24:944][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.22-09.45.26:467][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.45.26:536][ 66]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.22-09.45.26:550][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.45.26:550][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-09.45.26:551][ 66]PIE: New page: PIE 세션: AI_EQS (2022. 9. 23. 오전 3:45:26)
+[2022.09.22-09.45.26:551][ 66]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_EQS
+[2022.09.22-09.45.26:554][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003372s)
+[2022.09.22-09.45.26:555][ 66]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-09.45.26:555][ 66]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2022.09.22-09.45.26:555][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_EQS.AI_EQS to /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS (0.004346s)
+[2022.09.22-09.45.26:586][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.22-09.45.26:754][ 66]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.22-09.45.26:802][ 66]LogInit: FAudioDevice initialized.
+[2022.09.22-09.45.26:831][ 66]LogLoad: Game class is 'GameModeBase'
+[2022.09.22-09.45.26:833][ 66]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS up for play (max tick rate 0) at 2022.09.22-18.45.26
+[2022.09.22-09.45.26:833][ 66]LogWorld: Bringing up level for play took: 0.001952
+[2022.09.22-09.45.26:848][ 66]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_EQS.AI_EQS:PersistentLevel.BP_AI_EQS_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.22-09.45.26:848][ 66]PIE: /Game/Levels/UEDPIE_0_AI_EQS 에 대한 에디터에서 플레이 시작 시간: 0.898
+[2022.09.22-09.45.26:849][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.45.31:473][543]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.45.31:473][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.45.31:515][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-09.45.31:515][543]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.45.31:546][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.45.31:550][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.09.22-09.45.31:576][544]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.09.22-09.45.33:067][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.22-09.45.36:356][ 85]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.22-09.45.36:369][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.45.36:369][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-09.45.36:369][ 85]PIE: New page: PIE 세션: AI_EQS (2022. 9. 23. 오전 3:45:36)
+[2022.09.22-09.45.36:369][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_EQS
+[2022.09.22-09.45.36:374][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005011s)
+[2022.09.22-09.45.36:375][ 85]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-09.45.36:375][ 85]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2022.09.22-09.45.36:375][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_EQS.AI_EQS to /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS (0.005815s)
+[2022.09.22-09.45.36:401][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.09.22-09.45.36:562][ 85]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.22-09.45.36:614][ 85]LogInit: FAudioDevice initialized.
+[2022.09.22-09.45.36:642][ 85]LogLoad: Game class is 'GameModeBase'
+[2022.09.22-09.45.36:644][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS up for play (max tick rate 0) at 2022.09.22-18.45.36
+[2022.09.22-09.45.36:644][ 85]LogWorld: Bringing up level for play took: 0.001976
+[2022.09.22-09.45.36:659][ 85]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_EQS.AI_EQS:PersistentLevel.BP_AI_EQS_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.22-09.45.36:659][ 85]PIE: /Game/Levels/UEDPIE_0_AI_EQS 에 대한 에디터에서 플레이 시작 시간: 0.709
+[2022.09.22-09.45.36:659][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.46.04:641][668]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.22-09.46.04:942][699]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.22-09.46.05:676][773]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.22-09.46.06:222][829]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.22-09.46.07:071][910]LogBlueprintUserMessages: [BP_Fist_C_0] 10.0
+[2022.09.22-09.46.07:387][945]LogBlueprintUserMessages: [BP_Fist_C_0] 11.0
+[2022.09.22-09.46.08:120][ 23]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.22-09.46.08:679][ 77]LogBlueprintUserMessages: [BP_Fist_C_0] 12.0
+[2022.09.22-09.46.10:044][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.46.10:044][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.46.10:085][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-09.46.10:085][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.46.10:117][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.46.10:120][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.09.22-09.46.10:149][212]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.09.22-09.46.18:445][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.22-09.46.31:991][527]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.22-09.46.36:160][980]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EnvQuery_AI_EQS30A7DC3640DDCA0052A7EC89716DA8C0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/EnvQuery_AI_EQS.uasset'
+[2022.09.22-09.46.37:078][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.46.38:135][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.46.38:227][215]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.22-09.46.38:240][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.46.38:240][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-09.46.38:240][215]PIE: New page: PIE 세션: AI_EQS (2022. 9. 23. 오전 3:46:38)
+[2022.09.22-09.46.38:240][215]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_EQS
+[2022.09.22-09.46.38:243][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003369s)
+[2022.09.22-09.46.38:244][215]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-09.46.38:244][215]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2022.09.22-09.46.38:244][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_EQS.AI_EQS to /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS (0.003948s)
+[2022.09.22-09.46.38:268][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.09.22-09.46.38:427][215]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.22-09.46.38:476][215]LogInit: FAudioDevice initialized.
+[2022.09.22-09.46.38:508][215]LogLoad: Game class is 'GameModeBase'
+[2022.09.22-09.46.38:510][215]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS up for play (max tick rate 0) at 2022.09.22-18.46.38
+[2022.09.22-09.46.38:510][215]LogWorld: Bringing up level for play took: 0.001770
+[2022.09.22-09.46.38:525][215]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_EQS.AI_EQS:PersistentLevel.BP_AI_EQS_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.22-09.46.38:525][215]PIE: /Game/Levels/UEDPIE_0_AI_EQS 에 대한 에디터에서 플레이 시작 시간: 0.575
+[2022.09.22-09.46.38:525][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.47.37:735][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.47.37:736][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.47.37:782][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-09.47.37:782][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.47.37:815][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.47.37:819][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.09.22-09.47.37:844][899]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.09.22-09.55.41:094][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.55.41:316][947]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.22-09.55.41:334][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.55.41:334][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.22-09.55.41:334][947]PIE: New page: PIE 세션: AI_EQS (2022. 9. 23. 오전 3:55:41)
+[2022.09.22-09.55.41:334][947]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_EQS
+[2022.09.22-09.55.41:339][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004556s)
+[2022.09.22-09.55.41:340][947]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-09.55.41:340][947]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2022.09.22-09.55.41:340][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_EQS.AI_EQS to /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS (0.005282s)
+[2022.09.22-09.55.41:366][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.22-09.55.41:525][947]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.22-09.55.41:577][947]LogInit: FAudioDevice initialized.
+[2022.09.22-09.55.41:605][947]LogLoad: Game class is 'GameModeBase'
+[2022.09.22-09.55.41:607][947]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_EQS.AI_EQS up for play (max tick rate 0) at 2022.09.22-18.55.41
+[2022.09.22-09.55.41:608][947]LogWorld: Bringing up level for play took: 0.002021
+[2022.09.22-09.55.41:623][947]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_AI_EQS.AI_EQS:PersistentLevel.BP_AI_EQS_2.CollisionCylinder' 루트 컴포넌트는 동일 액터 내 다른 컴포넌트에 붙일 수 없습니다. 중단합니다.
+[2022.09.22-09.55.41:623][947]PIE: /Game/Levels/UEDPIE_0_AI_EQS 에 대한 에디터에서 플레이 시작 시간: -0.327
+[2022.09.22-09.55.41:624][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.56.26:937][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.56.26:937][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.56.26:974][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.22-09.56.26:974][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS' with GeneratedClass '/Game/Levels/AI_EQS.AI_EQS_C' with ClassGeneratedBy '/Game/Levels/AI_EQS.AI_EQS:PersistentLevel.AI_EQS'
+[2022.09.22-09.56.27:005][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.22-09.56.27:009][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.09.22-09.56.27:038][928]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.09.22-09.56.39:901][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.22-09.59.02:756][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.22-09.59.20:429][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/EQS_Exam/ABP_AI_EQS" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/ABP_AI_EQS.uasset" SILENT=true
+[2022.09.22-09.59.20:560][603]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_AI_EQS76C38FC44B051FBB080D6D85DCED1E33.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/ABP_AI_EQS.uasset'
+[2022.09.22-09.59.20:566][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/EQS_Exam/BB_AI_EQS" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BB_AI_EQS.uasset" SILENT=true
+[2022.09.22-09.59.20:670][603]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_EQS69C6A6CC4A7E5BCA8CFC62981AF6323B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BB_AI_EQS.uasset'
+[2022.09.22-09.59.20:676][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/EQS_Exam/BP_AI_EQS" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BP_AI_EQS.uasset" SILENT=true
+[2022.09.22-09.59.20:802][603]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_EQS252F1A2048D3726EDEA102BA04A12B61.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BP_AI_EQS.uasset'
+[2022.09.22-09.59.20:809][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/EQS_Exam/BT_AI_EQS" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BT_AI_EQS.uasset" SILENT=true
+[2022.09.22-09.59.20:916][603]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_EQS5294B520458F9392AA02A384AF871648.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/EQS_Exam/BT_AI_EQS.uasset'
+[2022.09.22-09.59.22:824][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.22-09.59.22:845][821]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/EQS_Exam/ABP_AI_EQS_2.
+[2022.09.22-09.59.22:850][821]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/EQS_Exam/ABP_AI_EQS_2.
+[2022.09.22-09.59.22:892][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.09.22-09.59.22:908][821]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/EQS_Exam/BP_AI_EQS_2.
+[2022.09.22-09.59.22:913][821]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/d/EQS_Exam/BP_AI_EQS_2.
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.SKEL_ABP_AI_EQS_2_C' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.ABP_AI_EQS_2_C' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.SKEL_ABP_AI_EQS_2_C:BlueprintUpdateAnimation' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.SKEL_ABP_AI_EQS_2_C:Enemy' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.SKEL_ABP_AI_EQS_2_C:Direction' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.SKEL_ABP_AI_EQS_2_C:Speed' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.ABP_AI_EQS_2_C:Enemy' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.ABP_AI_EQS_2_C:Direction' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.ABP_AI_EQS_2_C:Speed' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:949][ 34]LogMetaData: Removing '/Game/d/Around/ABP_AI_EQS_2.ABP_AI_EQS_2_C:BlueprintUpdateAnimation' ref from Metadata '/Game/d/EQS_Exam/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.SKEL_BP_AI_EQS_2_C' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.BP_AI_EQS_2_C' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.SKEL_BP_AI_EQS_2_C:ReceiveBeginPlay' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.SKEL_BP_AI_EQS_2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.SKEL_BP_AI_EQS_2_C:ReceiveTick' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.24:967][ 34]LogMetaData: Removing '/Game/d/Around/BP_AI_EQS_2.SKEL_BP_AI_EQS_2_C:UserConstructionScript' ref from Metadata '/Game/d/EQS_Exam/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.25:006][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/ABP_AI_EQS_2" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/ABP_AI_EQS_2.uasset" SILENT=true
+[2022.09.22-09.59.25:049][ 34]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_AI_EQS_2981034C34454289731597E8216214363.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/ABP_AI_EQS_2.uasset'
+[2022.09.22-09.59.25:053][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BB_AI_EQS_2" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BB_AI_EQS_2.uasset" SILENT=true
+[2022.09.22-09.59.25:056][ 34]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_EQS_2662CBFB245413A653CE709BA4C26DF49.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BB_AI_EQS_2.uasset'
+[2022.09.22-09.59.25:067][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BP_AI_EQS_2" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_EQS_2.uasset" SILENT=true
+[2022.09.22-09.59.25:087][ 34]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_EQS_22005862F4363F08F6C0D9AAE829A2650.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_EQS_2.uasset'
+[2022.09.22-09.59.25:091][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BT_AI_EQS_2" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_EQS_2.uasset" SILENT=true
+[2022.09.22-09.59.25:097][ 34]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_EQS_2D6D6496B4E5E1736805557B711D59763.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_EQS_2.uasset'
+[2022.09.22-09.59.25:468][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.09.22-09.59.25:489][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.22-09.59.25:514][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.09.22-09.59.25:538][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.22-09.59.25:566][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.22-09.59.25:589][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.09.22-09.59.25:749][ 43]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/ABP_AI_EQS_2.
+[2022.09.22-09.59.25:754][ 43]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/ABP_AI_EQS_2.
+[2022.09.22-09.59.25:763][ 43]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/BP_AI_EQS_2.
+[2022.09.22-09.59.25:767][ 43]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/BP_AI_EQS_2.
+[2022.09.22-09.59.43:385][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.09.22-09.59.43:391][122]LogMetaData: Removing '/Game/d/Around/ABP_AI_Around.ABP_AI_Around_C' ref from Metadata '/Game/d/Around/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.43:391][122]LogMetaData: Removing '/Game/d/Around/ABP_AI_Around.SKEL_ABP_AI_Around_C' ref from Metadata '/Game/d/Around/ABP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.43:481][122]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_AI_AroundC73E094F42214A3D5F8B559524B435A0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/ABP_AI_Around.uasset'
+[2022.09.22-09.59.43:626][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.09.22-09.59.43:658][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.09.22-09.59.43:681][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.09.22-09.59.43:751][123]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/ABP_AI_Around.
+[2022.09.22-09.59.43:756][123]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/ABP_AI_Around.
+[2022.09.22-09.59.47:804][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BB_AI_Around" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BB_AI_Around.uasset" SILENT=true
+[2022.09.22-09.59.47:807][601]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BB_AI_AroundF66F0D3D427054FDC04E92B97868EB04.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BB_AI_Around.uasset'
+[2022.09.22-09.59.47:942][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.22-09.59.47:975][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.22-09.59.47:999][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.09.22-09.59.51:686][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.09.22-09.59.51:692][ 14]LogMetaData: Removing '/Game/d/Around/BP_AI_Around.BP_AI_Around_C' ref from Metadata '/Game/d/Around/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.51:692][ 14]LogMetaData: Removing '/Game/d/Around/BP_AI_Around.SKEL_BP_AI_Around_C' ref from Metadata '/Game/d/Around/BP_AI_EQS_2.PackageMetaData'
+[2022.09.22-09.59.51:741][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BP_AI_Around" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_Around.uasset" SILENT=true
+[2022.09.22-09.59.51:761][ 14]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Around5430D23C461ABBE007F0DAB9DFD71A15.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_Around.uasset'
+[2022.09.22-09.59.51:901][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.09.22-09.59.51:936][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.22-09.59.51:963][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.22-09.59.52:100][ 23]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/BP_AI_Around.
+[2022.09.22-09.59.52:108][ 23]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/d/Around/BP_AI_Around.
+[2022.09.22-09.59.55:646][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BT_AI_Around" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_Around.uasset" SILENT=true
+[2022.09.22-09.59.55:652][440]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Around79635F834D005A441F8A408261FDB383.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_Around.uasset'
+[2022.09.22-09.59.55:790][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.09.22-09.59.55:822][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.22-09.59.55:848][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.22-09.59.57:912][675]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Around/BP_AI_Around.BP_AI_Around
+[2022.09.22-09.59.59:569][817]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Around/BP_AI_Around.BP_AI_Around
+[2022.09.22-10.00.04:332][214]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.22-10.00.07:432][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BP_AI_Around" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_Around.uasset" SILENT=true
+[2022.09.22-10.00.07:553][523]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_AroundF080230246F5551B92D027B530D9F70A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BP_AI_Around.uasset'
+[2022.09.22-10.00.11:215][903]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/d/Around/BT_AI_Around.BT_AI_Around
+[2022.09.22-10.00.13:948][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/d/Around/BT_AI_Around" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_Around.uasset" SILENT=true
+[2022.09.22-10.00.14:052][186]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Around4B3AE4C74BCEF7319BC69897FF53727D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/d/Around/BT_AI_Around.uasset'
+[2022.09.22-10.00.16:247][392]LogSlate: Window 'BT_AI_Around' being destroyed
+[2022.09.22-10.00.16:260][392]LogSlate: Window 'BT_AI_Around' being destroyed
+[2022.09.22-10.00.18:654][637]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/d/Around/ABP_AI_Around.ABP_AI_Around
+[2022.09.22-10.00.18:663][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.22-10.00.18:888][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.22-10.00.19:130][637]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.22-10.00.21:454][794]LogSlate: Window 'ABP_AI_Around' being destroyed
+[2022.09.22-10.00.21:465][794]LogSlate: Window 'ABP_AI_Around' being destroyed
+[2022.09.22-10.00.22:346][862]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/d/Around/BP_AI_Around.BP_AI_Around
+[2022.09.22-10.00.28:159][352]LogSlate: Window 'BP_AI_Around' being destroyed
+[2022.09.22-10.00.28:166][352]LogSlate: Window 'BP_AI_Around' being destroyed
+[2022.09.22-10.00.37:286][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.09.22-10.00.37:402][323]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Levels/AI_Around.
+[2022.09.22-10.00.37:405][323]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Levels/AI_Around.
+[2022.09.22-10.00.37:408][323]LogAIModule: Creating AISystem for world AI_Around
+[2022.09.22-10.00.41:516][792]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/AI_Around.AI_Around
+[2022.09.22-10.00.41:544][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.09.22-10.00.43:420][792]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.22-10.00.43:483][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.09.22-10.00.43:644][792]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Around5A06D4FD4DCBD78BD3D12E9C64164D38.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Around.umap'
+[2022.09.22-10.00.43:649][792]LogFileHelpers: Saving map 'AI_Around' took 0.203
+[2022.09.22-10.00.43:661][792]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Around_BuiltData61B10D4D424AD7A2310EFB999736BE20.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Around_BuiltData.uasset'
+[2022.09.22-10.00.43:690][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.09.22-10.00.43:953][792]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_EQS99BA69CF499A6139DD0F5DA77AEC4E1F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_EQS.umap'
+[2022.09.22-10.00.43:975][792]LogFileHelpers: Saving map 'AI_EQS' took 0.312
+[2022.09.22-10.00.43:978][792]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Around.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.22-10.00.43:979][792]LightingResults: New page: 라이팅 빌드
+[2022.09.22-10.00.43:979][792]LoadErrors: New page: 맵 로드중: AI_Around.umap
+[2022.09.22-10.00.43:980][792]MapCheck: New page: 맵 체크
+[2022.09.22-10.00.43:980][792]LightingResults: New page: 라이팅 빌드
+[2022.09.22-10.00.44:007][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.09.22-10.00.44:011][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.22-10.00.44:037][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.09.22-10.00.44:056][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.22-10.00.44:056][792]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.195ms.
+[2022.09.22-10.00.44:058][792]LogFileHelpers: Loading map 'AI_Around' took 0.080
+[2022.09.22-10.00.44:467][792]LogAIModule: Creating AISystem for world AI_EQS
+[2022.09.22-10.00.44:618][806]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Levels/AI_Around.
+[2022.09.22-10.00.44:622][806]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Levels/AI_Around.
