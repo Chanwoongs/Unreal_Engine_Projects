@@ -1955,3 +1955,252 @@ Script Stack (0 frames):
 [2022.09.23-15.37.44:696][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.09.23-15.37.44:700][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
 [2022.09.23-15.37.44:729][841]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.09.23-15.40.29:840][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.23-15.47.25:466][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.09.23-15.47.25:794][952]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto5D7DD6B0B4CD84A37E57FE5ADF290530A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto5.umap'
+[2022.09.23-15.47.25:797][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.373
+[2022.09.23-15.47.25:797][952]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.373
+[2022.09.23-15.48.55:510][887]LogSlate: Window 'EBehaviorType' being destroyed
+[2022.09.23-15.48.55:519][887]LogSlate: Window 'EBehaviorType' being destroyed
+[2022.09.23-15.48.55:602][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-15.48.55:667][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-15.48.55:765][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-15.49.31:047][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.23-15.50.07:665][186]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.09.23-15.52.07:043][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.52.07:219][530]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.52.07:219][530]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.52.07:219][530]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.52.07:267][530]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy3A4FF07E44590605BBDDECBF6E60FC8B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.53.24:363][543]Cmd: TRANSACTION UNDO
+[2022.09.23-15.53.24:363][543]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
+[2022.09.23-15.53.24:904][590]LogUObjectHash: Warning: Ambiguous search, could be K2Node_FunctionResult /Game/Enemy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0 or K2Node_FunctionResult /Game/Enemy/BP_Enemy.BP_Enemy:Weapon_IncreaseHealth.K2Node_FunctionResult_0
+[2022.09.23-15.53.31:217][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.53.31:398][262]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.31:398][262]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.31:398][262]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.31:450][262]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy0AAB59794EC15C4447496CB19E422559.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.53.33:687][510]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.23-15.53.33:971][510]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2022.09.23-15.53.34:183][525]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.23-15.53.34:437][525]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.09.23-15.53.44:271][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.53.44:448][573]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.44:448][573]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.44:448][573]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.53.44:499][573]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyC5DF1BD946C724EE7C2A8F9BFDEB5838.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.53.53:025][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.23-15.53.53:435][453]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerD1D54A544542F3279AF99E8611EA2555.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.23-15.54.04:710][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.54.04:891][616]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.54.04:891][616]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.54.04:892][616]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.54.04:942][616]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyFD0C999343C22C81E3753591B9514B37.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.54.05:931][723]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.23-15.54.06:170][723]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.09.23-15.54.31:473][563]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/Enemy/Sword/BT_AI_Sword.BT_AI_Sword
+[2022.09.23-15.54.37:133][209]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.23-15.54.39:914][522]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.23-15.54.39:914][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Sword/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2022.09.23-15.54.40:142][522]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemy/Sword/BTTask_BlueprintBase_New.
+[2022.09.23-15.54.47:558][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.09.23-15.54.47:566][369]LogMetaData: Removing '/Game/Enemy/Sword/BTTask_Attack.SKEL_BTTask_Attack_C' ref from Metadata '/Game/Enemy/Sword/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.23-15.54.47:566][369]LogMetaData: Removing '/Game/Enemy/Sword/BTTask_Attack.BTTask_Attack_C' ref from Metadata '/Game/Enemy/Sword/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.23-15.54.47:590][369]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Attack1D0442214D4934495576ECAABD274650.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BTTask_Attack.uasset'
+[2022.09.23-15.54.47:717][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.09.23-15.54.47:749][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.09.23-15.54.47:775][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.23-15.54.47:847][372]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/Sword/BTTask_Attack.
+[2022.09.23-15.54.53:853][ 63]LogMetaData: Removing '/Game/Enemy/BTTask_Attack.BTTask_Attack_C' ref from Metadata '/Game/Enemy/Sword/BTTask_Attack.PackageMetaData'
+[2022.09.23-15.54.53:853][ 63]LogMetaData: Removing '/Game/Enemy/BTTask_Attack.SKEL_BTTask_Attack_C' ref from Metadata '/Game/Enemy/Sword/BTTask_Attack.PackageMetaData'
+[2022.09.23-15.54.53:870][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_Attack" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Attack.uasset" SILENT=true
+[2022.09.23-15.54.53:874][ 63]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Attack0B3B420E4E0B7EE3EB8297B0537B7CA6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Attack.uasset'
+[2022.09.23-15.54.54:002][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.09.23-15.54.54:036][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.23-15.54.54:065][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.23-15.54.54:196][ 74]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/BTTask_Attack.
+[2022.09.23-15.55.00:837][815]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword2E08D3654DBF679FF14BA1A365CB50E9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.23-15.55.41:817][706]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.09.23-15.55.57:009][149]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Sword/BP_AI_Sword.BP_AI_Sword
+[2022.09.23-15.56.09:084][459]BlueprintLog: New page: BP_AI_Sword 컴파일
+[2022.09.23-15.56.09:248][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.09.23-15.56.16:071][196]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_SwordB2E7CB404AE55C2E125B6EB49AAF6ADF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BP_AI_Sword.uasset'
+[2022.09.23-15.56.49:270][589]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_SwordB92F42A0480FC71FE373A2AB2EC5381F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BP_AI_Sword.uasset'
+[2022.09.23-15.56.49:845][647]BlueprintLog: New page: BP_AI_Sword 컴파일
+[2022.09.23-15.56.50:006][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.09.23-15.57.57:879][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.57.58:063][726]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.58:063][726]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.58:063][726]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.58:112][726]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyEE80B8D243C69F832E8429858E27B5DF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.57.58:424][759]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.23-15.57.58:646][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.09.23-15.57.59:194][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-15.57.59:369][811]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.59:370][811]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.59:370][811]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-15.57.59:415][811]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy4E9CF7B9481B6A2674B5B19D684E3FBA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-15.58.48:142][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.23-15.58.48:416][976]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto69E4794DD49DCB6C2BFCDBF9128CFA2EC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto6.umap'
+[2022.09.23-15.58.48:420][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.310
+[2022.09.23-15.58.48:420][976]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.310
+[2022.09.23-15.58.48:422][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Sword/BT_AI_Sword] ([1] browsable assets)...
+[2022.09.23-15.58.48:423][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Sword/BT_AI_Sword]
+[2022.09.23-15.58.48:536][976]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword_Auto6D88BB303473016E43676F083FACE1C42.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Sword/BT_AI_Sword_Auto6.uasset'
+[2022.09.23-15.58.48:538][976]LogFileHelpers: Auto-saving content packages took 0.115
+[2022.09.23-15.59.54:913][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.23-15.59.57:953][413]LogSlate: Took 0.000917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.23-16.00.03:671][413]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.23-16.00.17:634][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.09.23-16.00.33:664][ 18]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.23-16.00.43:759][177]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Enums/EBehaviorType.EBehaviorType
+[2022.09.23-16.00.54:329][109]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.632 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.09.23-16.01.21:678][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/EBehaviorType" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EBehaviorType.uasset" SILENT=true
+[2022.09.23-16.01.21:781][325]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EBehaviorType31A14859439CD1752D729195CD5E1806.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EBehaviorType.uasset'
+[2022.09.23-16.01.26:361][835]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword923020F24ED467E96865F9B4F72C8329.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.23-16.01.35:041][831]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.23-16.01.36:133][951]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.23-16.01.36:134][951]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Sword/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2022.09.23-16.01.36:368][951]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemy/Sword/BTTask_BlueprintBase_New.
+[2022.09.23-16.01.46:543][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.09.23-16.01.46:554][127]LogMetaData: Removing '/Game/Enemy/Sword/BTTask_Equip.SKEL_BTTask_Equip_C' ref from Metadata '/Game/Enemy/Sword/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.23-16.01.46:554][127]LogMetaData: Removing '/Game/Enemy/Sword/BTTask_Equip.BTTask_Equip_C' ref from Metadata '/Game/Enemy/Sword/BTTask_BlueprintBase_New.PackageMetaData'
+[2022.09.23-16.01.46:575][127]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Equip436E0D9B49B3884E0ECD6FABB6324B9D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BTTask_Equip.uasset'
+[2022.09.23-16.01.46:704][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.23-16.01.46:739][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.23-16.01.46:770][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.09.23-16.01.46:874][134]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/Sword/BTTask_Equip.
+[2022.09.23-16.01.52:156][742]LogMetaData: Removing '/Game/Enemy/BTTask_Equip.BTTask_Equip_C' ref from Metadata '/Game/Enemy/Sword/BTTask_Equip.PackageMetaData'
+[2022.09.23-16.01.52:156][742]LogMetaData: Removing '/Game/Enemy/BTTask_Equip.SKEL_BTTask_Equip_C' ref from Metadata '/Game/Enemy/Sword/BTTask_Equip.PackageMetaData'
+[2022.09.23-16.01.52:170][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_Equip" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset" SILENT=true
+[2022.09.23-16.01.52:174][742]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_EquipCA503C9C431235985747D38A2DEF0D48.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset'
+[2022.09.23-16.01.52:316][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.23-16.01.52:357][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.23-16.01.52:389][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.09.23-16.01.52:524][753]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/BTTask_Equip.
+[2022.09.23-16.03.09:573][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_Equip" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset" SILENT=true
+[2022.09.23-16.03.09:677][440]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_EquipF8621AFC499AD5E94A85CFB7E24C213D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset'
+[2022.09.23-16.03.27:374][ 67]LogAssetTools: Warning: 'C:\Users\방찬웅\Downloads\089_Great_Sword\Great_Sword_Sheath_1.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2022.09.23-16.03.27:382][ 67]LogAssetTools: Warning: 'C:\Users\방찬웅\Downloads\089_Great_Sword\Great_Sword_Sheath_2.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2022.09.23-16.03.27:390][ 67]LogAssetTools: Warning: 'C:\Users\방찬웅\Downloads\089_Great_Sword\Great_Sword_Draw_1.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2022.09.23-16.03.27:400][ 67]LogAssetTools: Warning: 'C:\Users\방찬웅\Downloads\089_Great_Sword\Great_Sword_Draw_2.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2022.09.23-16.03.42:557][112]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_1.Great_Sword_Draw_1
+[2022.09.23-16.03.42:557][112]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_1.Great_Sword_Draw_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.09.23-16.03.42:953][112]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_1.Great_Sword_Draw_1
+[2022.09.23-16.03.42:979][112]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2022.09.23-16.03.43:042][112]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2022.09.23-16.03.43:043][112]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.09.23-16.03.43:461][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.23-16.03.43:465][112]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2022.09.23-16.03.43:466][112]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2022.09.23-16.03.43:584][112]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.23-16.03.44:133][112]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.23-16.04.32:908][270]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Animations/GreatSword/Great_Sword_Draw_Montage.Great_Sword_Draw_Montage
+[2022.09.23-16.04.32:914][270]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.23-16.04.32:935][270]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.23-16.04.33:185][270]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.23-16.04.34:424][392]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_2.Great_Sword_Draw_2
+[2022.09.23-16.04.34:424][392]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_2.Great_Sword_Draw_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.09.23-16.04.43:999][466]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Draw_Montage821BAB1542C18232719354B5BB264FC7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Draw_Montage.uasset'
+[2022.09.23-16.04.49:977][ 81]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Draw_Montage572D68104EA18800D5AEA6AFE32C145A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Great_Sword_Draw_Montage.uasset'
+[2022.09.23-16.04.50:259][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2022.09.23-16.04.50:299][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.09.23-16.04.50:330][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.09.23-16.04.53:998][419]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Sheath_1.Great_Sword_Sheath_1
+[2022.09.23-16.04.53:998][419]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Sheath_1.Great_Sword_Sheath_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.09.23-16.04.54:012][419]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Sheath_1.Great_Sword_Sheath_1
+[2022.09.23-16.04.55:207][522]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Sheath_2.Great_Sword_Sheath_2
+[2022.09.23-16.04.55:207][522]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Sheath_2.Great_Sword_Sheath_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2022.09.23-16.05.09:183][869]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Animations/GreatSword/Great_Sword_Sheath_Montage.Great_Sword_Sheath_Montage
+[2022.09.23-16.05.09:190][869]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.23-16.05.09:210][869]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.23-16.05.09:442][869]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.23-16.05.16:737][609]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Sheath_Montage0DE769FB43BFA1B3F5C576B7139882D9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Animations/GreatSword/Great_Sword_Sheath_Montage.uasset'
+[2022.09.23-16.05.36:477][844]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Sheath_Montage6FCFAAB449F6A8ABC2DD36948F770A96.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Great_Sword_Sheath_Montage.uasset'
+[2022.09.23-16.05.36:715][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.09.23-16.05.36:754][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.23-16.05.36:785][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.09.23-16.05.40:482][219]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Great_Sword_Draw_Montage.Great_Sword_Draw_Montage
+[2022.09.23-16.05.40:489][219]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.23-16.05.40:509][219]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.23-16.05.40:741][219]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.23-16.05.51:533][373]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.23-16.06.05:016][745]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Draw_Montage3BD81C9A4F568D18BC89A6ACC70EE474.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Great_Sword_Draw_Montage.uasset'
+[2022.09.23-16.06.20:478][321]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Sword/AN_GrabSword.AN_GrabSword
+[2022.09.23-16.06.36:133][ 97]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.09.23-16.07.25:068][680]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.23-16.07.25:144][680]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2022.09.23-16.07.51:693][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.09.23-16.07.51:803][417]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeapon50D1E2454B3A5CB38E37C49BC41FB181.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.09.23-16.07.54:049][664]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.23-16.07.54:499][664]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.09.23-16.07.57:237][960]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.09.23-16.07.57:244][960]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.09.23-16.07.57:359][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.23-16.07.58:115][  9]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.09.23-16.08.17:067][160]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.23-16.08.17:149][160]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2022.09.23-16.08.17:815][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.09.23-16.08.17:928][229]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeaponDC818AAF40F27EE0D00A29A2C73BEBFF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.09.23-16.08.19:260][380]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.09.23-16.08.19:267][380]LogSlate: Window 'BP_IWeapon' being destroyed
+[2022.09.23-16.08.28:587][703]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Sword/AN_GrabSword.AN_GrabSword
+[2022.09.23-16.08.56:994][883]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_GrabSword1836C2E24B4E78D580E281800CF53D69.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Sword/AN_GrabSword.uasset'
+[2022.09.23-16.09.06:073][932]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_GrabSword817B3B444596F034533A6B808D6C9710.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Sword/AN_GrabSword.uasset'
+[2022.09.23-16.09.06:509][981]BlueprintLog: New page: AN_GrabSword 컴파일
+[2022.09.23-16.09.06:695][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2022.09.23-16.09.07:292][ 34]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_GrabSwordCFB4149B4ED65FB387ECDBAFDBA2C6AE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Sword/AN_GrabSword.uasset'
+[2022.09.23-16.09.08:265][143]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Sword/AN_Equipped.AN_Equipped
+[2022.09.23-16.09.35:086][164]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_Equipped92A9B51944AE878AE964E9A745E88223.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Sword/AN_Equipped.uasset'
+[2022.09.23-16.09.35:414][200]BlueprintLog: New page: AN_Equipped 컴파일
+[2022.09.23-16.09.35:565][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.09.23-16.09.37:999][360]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Sword/AN_UnEquipped.AN_UnEquipped
+[2022.09.23-16.09.41:600][750]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Sword/AN_UnGrabSword.AN_UnGrabSword
+[2022.09.23-16.10.22:870][717]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.09.23-16.11.06:524][618]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.23-16.11.06:741][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.09.23-16.11.07:543][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.23-16.11.07:949][704]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerCAA727C243EB932C183F6797FE9D570A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.23-16.11.27:700][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.23-16.11.28:099][947]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player6CF4B401483919AB48C463A5CBA0618B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.23-16.11.28:409][979]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.23-16.11.28:643][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2022.09.23-16.11.41:438][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.23-16.11.41:831][475]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player7C8B863349C245BDFD9D4D9E2B49B2D1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.23-16.12.04:165][  8]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.23-16.12.34:595][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.09.23-16.12.34:880][355]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto7BE431D8D4D324A809FB7178AAE04A6B8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto7.umap'
+[2022.09.23-16.12.34:884][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.325
+[2022.09.23-16.12.34:884][355]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.325
+[2022.09.23-16.12.34:886][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/BP_Enemy] ([1] browsable assets)...
+[2022.09.23-16.12.34:894][355]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/BP_Enemy.BP_Enemy]
+[2022.09.23-16.12.34:895][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BP_Enemy]
+[2022.09.23-16.12.35:089][355]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.35:089][355]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.35:089][355]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.35:138][355]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy_Auto7F845C77D459C35676BB1B2B9CE034788.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BP_Enemy_Auto7.uasset'
+[2022.09.23-16.12.35:142][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Sword/BT_AI_Sword] ([1] browsable assets)...
+[2022.09.23-16.12.35:142][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Sword/BT_AI_Sword]
+[2022.09.23-16.12.35:256][355]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword_Auto79185AAA44EB75F4A9059E18B5281E3E0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Sword/BT_AI_Sword_Auto7.uasset'
+[2022.09.23-16.12.35:258][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Animations/GreatSword/Great_Sword_Draw_1] ([1] browsable assets)...
+[2022.09.23-16.12.35:266][355]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Draw_1.Great_Sword_Draw_1]
+[2022.09.23-16.12.35:266][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Animations/GreatSword/Great_Sword_Draw_1]
+[2022.09.23-16.12.35:379][355]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Draw_1_Auto783A222264A22CEBBB1A2E289204DA5A0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Character/Animations/GreatSword/Great_Sword_Draw_1_Auto7.uasset'
+[2022.09.23-16.12.35:381][355]LogFileHelpers: Auto-saving content packages took 0.496
+[2022.09.23-16.12.59:496][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-16.12.59:670][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.59:670][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.59:670][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.12.59:722][995]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy2206E91F41812B3AD899F6B020FC278B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-16.13.09:098][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-16.13.09:272][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.09:272][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.09:272][995]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.09:322][995]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy072EA60942E29871ABF156BC88E05BEF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-16.13.27:241][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.23-16.13.27:416][939]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator0' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.27:416][939]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator1' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.27:416][939]LogEnum: Warning: Enum name collision: 'ECombatType::NewEnumerator2' is in both '/Game/Player/ECombatType.ECombatType' and '/Game/Enums/ECombatType.ECombatType'
+[2022.09.23-16.13.27:465][939]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy7902A25E4D0941F54C7E9299AB8D91A2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.23-16.13.54:453][556]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.23-16.13.54:696][556]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
