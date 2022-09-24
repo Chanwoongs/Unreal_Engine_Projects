@@ -835,3 +835,1544 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.09.24-16.14.21:713][603]LogFileHelpers: Saving map 'AI_Sound' took 0.303
 [2022.09.24-16.14.21:718][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/S_BGM_Cue" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/S_BGM_Cue.uasset" SILENT=true
 [2022.09.24-16.14.21:722][603]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/S_BGM_Cue20EE8E064265A6CD865104997E3B6609.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/S_BGM_Cue.uasset'
+[2022.09.24-16.36.30:170][907]LogAssetEditorManager: Opening Asset editor for SoundAttenuation /Game/Sound/SA_StepDirt.SA_StepDirt
+[2022.09.24-16.37.27:988][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/SA_StepDirt" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/SA_StepDirt.uasset" SILENT=true
+[2022.09.24-16.37.27:991][170]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/SA_StepDirtBF6B4F324D5C1B6385038BA7625C786A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/SA_StepDirt.uasset'
+[2022.09.24-16.37.46:320][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sound/SA_StepDirt" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/SA_StepDirt.uasset" SILENT=true
+[2022.09.24-16.37.46:446][325]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/SA_StepDirt6E379CBF4EEA46ED4AA58781997264D1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Sound/SA_StepDirt.uasset'
+[2022.09.24-16.37.50:966][803]BlueprintLog: New page: BP_08_Sound3D 컴파일
+[2022.09.24-16.37.51:119][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.09.24-16.37.51:767][873]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.37.51:787][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.37.51:787][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-16.37.51:788][873]PIE: New page: PIE 세션: AI_Sound (2022. 9. 25. 오전 10:37:51)
+[2022.09.24-16.37.51:788][873]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sound
+[2022.09.24-16.37.51:791][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003281s)
+[2022.09.24-16.37.51:791][873]LogAIModule: Creating AISystem for world AI_Sound
+[2022.09.24-16.37.51:791][873]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2022.09.24-16.37.51:792][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sound.AI_Sound to /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound (0.003858s)
+[2022.09.24-16.37.51:821][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.24-16.37.51:985][873]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.37.52:035][873]LogInit: FAudioDevice initialized.
+[2022.09.24-16.37.52:068][873]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-16.37.52:070][873]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound up for play (max tick rate 0) at 2022.09.25-01.37.52
+[2022.09.24-16.37.52:070][873]LogWorld: Bringing up level for play took: 0.001694
+[2022.09.24-16.37.52:085][873]PIE: /Game/Levels/UEDPIE_0_AI_Sound 에 대한 에디터에서 플레이 시작 시간: -0.041
+[2022.09.24-16.37.52:085][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.38.15:050][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.38.15:051][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.38.15:084][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-16.38.15:084][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.38.15:118][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.38.15:121][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.24-16.38.15:165][611]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.09.24-16.38.17:812][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.38.30:692][273]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_08_Sound3D8E3F91D54151994AA1BEB08D86898BE4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Blueprints/BP_08_Sound3D.uasset'
+[2022.09.24-16.38.31:718][381]BlueprintLog: New page: BP_08_Sound3D 컴파일
+[2022.09.24-16.38.31:864][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.09.24-16.38.32:454][425]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_08_Sound3DBB86C0F94D7FB139BED3A6B572FA412D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Blueprints/BP_08_Sound3D.uasset'
+[2022.09.24-16.39.21:200][673]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetSystemLibrary::DrawDebugSphere' [요소가 없습니다.]
+[2022.09.24-16.39.22:212][673]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.24-16.39.26:434][152]BlueprintLog: New page: BP_08_Sound3D 컴파일
+[2022.09.24-16.39.26:579][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.09.24-16.39.34:494][ 18]BlueprintLog: New page: BP_08_Sound3D 컴파일
+[2022.09.24-16.39.34:631][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.09.24-16.39.35:021][ 58]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.39.35:037][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.39.35:037][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-16.39.35:037][ 58]PIE: New page: PIE 세션: AI_Sound (2022. 9. 25. 오전 10:39:35)
+[2022.09.24-16.39.35:037][ 58]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sound
+[2022.09.24-16.39.35:040][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003002s)
+[2022.09.24-16.39.35:041][ 58]LogAIModule: Creating AISystem for world AI_Sound
+[2022.09.24-16.39.35:041][ 58]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2022.09.24-16.39.35:041][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sound.AI_Sound to /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound (0.003694s)
+[2022.09.24-16.39.35:070][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.24-16.39.35:228][ 58]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.39.35:276][ 58]LogInit: FAudioDevice initialized.
+[2022.09.24-16.39.35:309][ 58]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-16.39.35:311][ 58]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound up for play (max tick rate 0) at 2022.09.25-01.39.35
+[2022.09.24-16.39.35:312][ 58]LogWorld: Bringing up level for play took: 0.001498
+[2022.09.24-16.39.35:326][ 58]PIE: /Game/Levels/UEDPIE_0_AI_Sound 에 대한 에디터에서 플레이 시작 시간: 1.2
+[2022.09.24-16.39.35:326][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.39.43:079][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.39.43:080][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.39.43:115][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-16.39.43:115][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.39.43:144][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.39.43:147][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.24-16.39.43:186][932]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.09.24-16.39.45:485][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.40.16:177][281]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.24-16.40.16:919][354]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.40.16:931][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.40.16:931][354]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-16.40.16:932][354]LogPlayLevel: [PlayLevel] Compiling BP_08_Sound3D before play...
+[2022.09.24-16.40.17:076][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.09.24-16.40.17:076][354]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2022.09.24-16.40.17:076][354]PIE: New page: PIE 세션: AI_Sound (2022. 9. 25. 오전 10:40:17)
+[2022.09.24-16.40.17:076][354]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sound
+[2022.09.24-16.40.17:079][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
+[2022.09.24-16.40.17:079][354]LogAIModule: Creating AISystem for world AI_Sound
+[2022.09.24-16.40.17:079][354]LogPlayLevel: PIE: World Init took: (0.000388s)
+[2022.09.24-16.40.17:079][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sound.AI_Sound to /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound (0.003390s)
+[2022.09.24-16.40.17:107][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.24-16.40.17:260][354]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.40.17:304][354]LogInit: FAudioDevice initialized.
+[2022.09.24-16.40.17:335][354]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-16.40.17:336][354]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sound.AI_Sound up for play (max tick rate 0) at 2022.09.25-01.40.17
+[2022.09.24-16.40.17:337][354]LogWorld: Bringing up level for play took: 0.001330
+[2022.09.24-16.40.17:352][354]PIE: /Game/Levels/UEDPIE_0_AI_Sound 에 대한 에디터에서 플레이 시작 시간: 1.226
+[2022.09.24-16.40.17:352][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.40.37:909][811]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.40.37:909][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.40.37:935][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-16.40.37:935][811]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound' with GeneratedClass '/Game/Levels/AI_Sound.AI_Sound_C' with ClassGeneratedBy '/Game/Levels/AI_Sound.AI_Sound:PersistentLevel.AI_Sound'
+[2022.09.24-16.40.37:972][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.40.37:975][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.09.24-16.40.38:018][813]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.09.24-16.40.48:758][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-16.41.51:106][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.09.24-16.41.51:417][570]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sound_Auto13CCD4D6B46CB468C888ED2B67C04064F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sound_Auto1.umap'
+[2022.09.24-16.41.51:420][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sound' took 0.345
+[2022.09.24-16.41.51:420][570]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.345
+[2022.09.24-16.41.51:422][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_08_Sound3D] ([1] browsable assets)...
+[2022.09.24-16.41.51:422][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_08_Sound3D]
+[2022.09.24-16.41.51:581][570]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_08_Sound3D_Auto156D873AE4428E02F54C72AA7195300E4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Blueprints/BP_08_Sound3D_Auto1.uasset'
+[2022.09.24-16.41.51:583][570]LogFileHelpers: Auto-saving content packages took 0.162
+[2022.09.24-16.42.58:101][770]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.58:101][770]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.58:305][770]LogPackageName: SearchForPackageOnDisk took   0.161s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.58:305][770]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.58:305][770]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.58:305][770]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.58:468][770]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.58:468][770]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.58:468][770]LogPackageName: SearchForPackageOnDisk took   0.163s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.58:468][770]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.58:817][771]LogPackageName: SearchForPackageOnDisk took   0.175s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.58:817][771]LogPackageName: SearchForPackageOnDisk took   0.162s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.58:817][771]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.59:475][772]LogPackageName: SearchForPackageOnDisk took   0.199s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.59:475][772]LogPackageName: SearchForPackageOnDisk took   0.209s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.09.24-16.42.59:475][772]LogPackageName: SearchForPackageOnDisk took   0.225s, but failed to resolve S_ClothTarps_03.
+[2022.09.24-16.42.59:475][772]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2022.09.24-16.43.02:168][780]LogDirectoryWatcher: A directory notification failed for 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-16.43.02:168][780]LogDirectoryWatcher: A directory notification failed for 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Developers/방찬웅/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-16.43.02:505][781]LogDirectoryWatcher: A directory notification failed for 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-16.44.29:939][114]LogSlate: Window 'SA_StepDirt' being destroyed
+[2022.09.24-16.44.29:950][114]LogSlate: Window 'SA_StepDirt' being destroyed
+[2022.09.24-16.44.30:027][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-16.44.34:915][282]LogTexture: Display: 텍스처 빌드: T_Pew_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_106 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: T_Env_Breakables_Breakables_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_107 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_111 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_116 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_118 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_119 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_121 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_122 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_124 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_125 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_126 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_127 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: T_Decos_Door_Frame_D_NRM (BC5, 2048X2048)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: T_Decos_Door_Frame_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_128 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_130 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_131 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_133 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_134 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_135 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_137 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_138 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_140 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_147 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_149 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_150 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_151 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_157 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_158 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_159 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_160 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_17 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_171 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_172 (AutoDXT, 128X128)
+[2022.09.24-16.44.34:916][282]LogTexture: Display: 텍스처 빌드: T_Env_Ice_Deco2_Flag_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:568][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_176 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_177 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_178 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_18 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_180 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_181 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_188 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_190 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_191 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_193 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_199 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_202 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_203 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_204 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_205 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_208 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_213 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_21 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_214 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_216 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_218 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_221 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_226 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_234 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_235 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_242 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_244 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_247 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_248 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_249 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_250 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_251 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_253 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_256 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_257 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_260 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_261 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_262 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_263 (AutoDXT, 64X64)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_27 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_29 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_30 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_31 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_32 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_34 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_33 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_35 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_36 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_37 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_38 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_39 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_40 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_41 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_42 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_43 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_44 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_45 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_46 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_47 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_48 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_49 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_50 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_52 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_53 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_54 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:569][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_56 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:577][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_57 (AutoDXT, 128X128)
+[2022.09.24-16.44.36:577][282]LogMaterial: Display: Missing cached shader map for material M_Env_Ice_Deco2_Flags, compiling. 
+[2022.09.24-16.44.36:783][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_60 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:783][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_61 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:783][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_62 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:783][282]LogStaticMesh: SM_Env_Breakables_GroupLg 스태틱 메시 빌드중...
+[2022.09.24-16.44.36:800][282]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2022.09.24-16.44.36:878][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_63 (AutoDXT, 512X512)
+[2022.09.24-16.44.36:878][282]LogStaticMesh: Built static mesh [0.10s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Objects/SM_Env_Breakables_GroupLg.SM_Env_Breakables_GroupLg
+[2022.09.24-16.44.36:880][282]LogSkeletalMesh: Building Skeletal Mesh SK_Env_Ice_Deco2_BlowingFlag...
+[2022.09.24-16.44.36:880][282]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/EX_EnvAssets/Meshes/SK_Env_Ice_Deco2_BlowingFlag.SK_Env_Ice_Deco2_BlowingFlag
+[2022.09.24-16.44.36:894][282]LogStaticMesh: SM_Exo_Pew 스태틱 메시 빌드중...
+[2022.09.24-16.44.36:952][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_64 (AutoDXT, 256X256)
+[2022.09.24-16.44.36:952][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Pew.SM_Exo_Pew
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_65 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_66 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_67 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_68 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_74 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_75 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_7 (AutoDXT, 512X512)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_76 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_77 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_78 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_81 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_83 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_84 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_85 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_91 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_92 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_93 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_98 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_99 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_100 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_101 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_102 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_103 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_104 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_105 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_108 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_109 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_110 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_112 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_113 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_114 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_115 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_117 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_120 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_123 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_129 (AutoDXT, 512X512)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_132 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_136 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_139 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_141 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_142 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_143 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_144 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_145 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_146 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_148 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_152 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_153 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_154 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_155 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_156 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_161 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_162 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_163 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:799][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_164 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_165 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_166 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_167 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_168 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_169 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_173 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_170 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_174 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_175 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_179 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_182 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_183 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_184 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_185 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_186 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_187 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_189 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_192 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_194 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_195 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_196 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_198 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_197 (AutoDXT, 512X512)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_200 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_201 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_206 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_207 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_209 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_210 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_211 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_212 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_215 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_217 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_219 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_22 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_220 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_222 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_223 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_224 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_225 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_227 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_228 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_229 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_230 (AutoDXT, 512X512)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_231 (AutoDXT, 512X512)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_232 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_233 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_236 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_237 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_238 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_239 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_240 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_241 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_243 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_245 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_246 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_252 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_254 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_255 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_258 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_259 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_51 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_55 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_58 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_59 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_69 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_70 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_71 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_72 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_73 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_79 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_80 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_82 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:800][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_86 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_87 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_88 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_89 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_90 (AutoDXT, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_94 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_95 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_96 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_97 (AutoDXT, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_106 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_107 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_111 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_116 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_118 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_119 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_121 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_122 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_125 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_124 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_126 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_127 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_128 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_130 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_131 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_134 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_133 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_135 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_137 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_138 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_140 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_147 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_149 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_150 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_151 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_157 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_158 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_159 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_160 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_171 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_172 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_176 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_177 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_178 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_17 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_18 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_180 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_181 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_188 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_190 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_191 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_193 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_199 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_202 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_203 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_204 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_205 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_208 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_213 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_21 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_214 (DXT1, 256X256)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_216 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_218 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_226 (DXT1, 128X128)
+[2022.09.24-16.44.40:801][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_221 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_234 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_235 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_242 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_244 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_247 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_248 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_249 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_250 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_251 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_253 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_256 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_257 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_260 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_261 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_262 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_263 (DXT1, 64X64)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_27 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_29 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_30 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_32 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_31 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_33 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_34 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_36 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_35 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_37 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_38 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_39 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_40 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_42 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_41 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_43 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_44 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_45 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_46 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_47 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_48 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_49 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_50 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_52 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_53 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_54 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_56 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_57 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_60 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_61 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_62 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_63 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_64 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_65 (DXT1, 256X256)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_66 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_67 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_68 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_74 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_7 (DXT1, 512X512)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_75 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_76 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_77 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_78 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_81 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_83 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_84 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_85 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_91 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_92 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_93 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_98 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_99 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_100 (DXT1, 128X128)
+[2022.09.24-16.44.40:802][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_101 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_102 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_103 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_104 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_105 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_108 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_109 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_110 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_112 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_113 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_114 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_115 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_120 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_117 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_123 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_129 (DXT1, 512X512)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_132 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_136 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_139 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_141 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_142 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_143 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_144 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_145 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_146 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_148 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_152 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_153 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_154 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_155 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_156 (DXT1, 256X256)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_161 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_162 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_163 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_164 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_165 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_166 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_167 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_168 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_169 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_170 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_173 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_174 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_175 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_179 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_182 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_183 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_184 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_185 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_186 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_187 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_189 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_192 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_194 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_195 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_196 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_198 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_197 (DXT1, 512X512)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_200 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_201 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_206 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_207 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_209 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_210 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_211 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_212 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_215 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_217 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_219 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_22 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_220 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_222 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_223 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_224 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_225 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_227 (DXT1, 128X128)
+[2022.09.24-16.44.40:803][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_228 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_229 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_230 (DXT1, 512X512)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_231 (DXT1, 512X512)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_232 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_233 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_236 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_237 (DXT1, 256X256)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_238 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_239 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_240 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_241 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_245 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_243 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_246 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_252 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_254 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_255 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_258 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_259 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_51 (DXT1, 256X256)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_55 (DXT1, 256X256)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_58 (DXT1, 1024X1024)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_59 (DXT1, 256X256)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_69 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_70 (DXT1, 128X128)
+[2022.09.24-16.44.40:804][282]LogTexture: Display: 텍스처 빌드: T_Pew_N (BC5, 1024X1024)
+[2022.09.24-16.44.41:417][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_71 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_72 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_73 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_79 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_80 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_82 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_86 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_87 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_88 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_94 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_90 (DXT1, 256X256)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_95 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_89 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_96 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_97 (DXT1, 128X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_106 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_107 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_11 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_111 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_116 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_118 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_119 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_12 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_121 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_122 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_124 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_125 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_126 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_127 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_128 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_13 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_130 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_131 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_134 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_133 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_135 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_137 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_138 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_14 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_140 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_147 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_149 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_15 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_151 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_157 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_158 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_159 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_160 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_171 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_17 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_150 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_172 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_176 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_177 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:418][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_178 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_180 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_181 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_18 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_188 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_190 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_191 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_193 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_199 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_20 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_202 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_203 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_204 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_205 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_208 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_213 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_21 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_214 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_216 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_218 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_221 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_226 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_234 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_235 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_242 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_244 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_247 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_248 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_249 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_250 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_251 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_253 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:419][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_256 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:420][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_257 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:420][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_260 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:420][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_262 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:427][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_263 (AutoDXT, 64X32)
+[2022.09.24-16.44.41:431][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_27 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:431][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_28 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:431][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_261 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_29 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_30 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_31 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_32 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_33 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_34 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_35 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_36 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:433][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_37 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_38 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_39 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_40 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_41 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_42 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_43 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_44 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_45 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_46 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_47 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_48 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_49 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:434][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_50 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:455][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_52 (AutoDXT, 1024X512)
+[2022.09.24-16.44.41:455][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_53 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:457][282]LogMaterial: Display: Missing cached shader map for material M_Pew, compiling. 
+[2022.09.24-16.44.41:487][282]LogTexture: Display: 텍스처 빌드: T_Env_Breakables_BreakablesSnow_M (AutoDXT, 1024X1024)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_54 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_56 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_57 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_60 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_61 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:637][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_62 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:640][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_63 (AutoDXT, 512X256)
+[2022.09.24-16.44.41:640][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_64 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:662][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_65 (AutoDXT, 256X128)
+[2022.09.24-16.44.41:662][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_66 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:662][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_67 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:662][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_68 (AutoDXT, 128X64)
+[2022.09.24-16.44.41:662][282]LogTexture: Display: 텍스처 빌드: T_Env_Breakables_Breakables_R (AutoDXT, 1024X1024)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_7 (AutoDXT, 512X256)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_74 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_75 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_76 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_77 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_78 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_81 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_83 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_84 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_85 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_91 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_92 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_9 (AutoDXT, 1024X512)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_93 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_98 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion0_99 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_100 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_101 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_102 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_103 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_104 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_105 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_108 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_109 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_110 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_112 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_113 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_114 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_115 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_117 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_120 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_123 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_129 (AutoDXT, 512X256)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_132 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_136 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_139 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_141 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_142 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_143 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_144 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_145 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_146 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_148 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_152 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_153 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_154 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_155 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_156 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_161 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_162 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_163 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:501][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_164 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_165 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_166 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_167 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_168 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_169 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_170 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_173 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_174 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_175 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_179 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_182 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_184 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_185 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_186 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_187 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_189 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_183 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_192 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_194 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_195 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_196 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_198 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_197 (AutoDXT, 512X256)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_200 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_201 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_206 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_207 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_209 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_210 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_211 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_212 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_215 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_217 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_219 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_22 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_220 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_222 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_223 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_224 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_225 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_227 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_228 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_229 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_23 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_230 (AutoDXT, 512X256)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_232 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_231 (AutoDXT, 512X256)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_233 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_236 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_237 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_238 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_239 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_240 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_241 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_243 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_245 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_246 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_252 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_254 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_255 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_258 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_259 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_51 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_55 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_58 (AutoDXT, 1024X512)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_59 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_69 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:502][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_70 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_71 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_72 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_73 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_79 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_80 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_82 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_86 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_87 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_88 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_89 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_90 (AutoDXT, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_94 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_95 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_96 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_97 (AutoDXT, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_463 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_462 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_464 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_465 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_466 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_467 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_468 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_469 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_470 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_471 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_472 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_473 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_474 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_475 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_476 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_477 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_478 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_480 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_479 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_481 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_482 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_484 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_485 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_483 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_487 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_486 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_488 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_489 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_490 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_491 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_492 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_493 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_494 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_495 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_496 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_498 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_497 (G8, 1024X512)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_499 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_500 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_502 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_501 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_503 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_504 (G8, 512X256)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_505 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_506 (G8, 256X128)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_507 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_508 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_509 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_510 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_511 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_512 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_513 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_514 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_516 (G8, 128X64)
+[2022.09.24-16.44.42:503][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_515 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_517 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_518 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_519 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_520 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_521 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_522 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_523 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_524 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_525 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_526 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_527 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_528 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_529 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_531 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_530 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_532 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_533 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_534 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_535 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_536 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_538 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_537 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_539 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_540 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_541 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_542 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_543 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_544 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_545 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_546 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_547 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_548 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_549 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_550 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_551 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_552 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_553 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_554 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_555 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_556 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_558 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_557 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_559 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_560 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_561 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_562 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_564 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_563 (G8, 512X256)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_565 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_566 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_567 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_568 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_569 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_570 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_571 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_572 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_573 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_574 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_575 (G8, 256X128)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_576 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_577 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_578 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_580 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_579 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_581 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_582 (G8, 128X64)
+[2022.09.24-16.44.42:504][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_583 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_584 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_585 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_586 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_588 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_587 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_589 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_591 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_590 (G8, 256X128)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_592 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_593 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_594 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_595 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_596 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_597 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_598 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_599 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_600 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_601 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_602 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_603 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_604 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_605 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_606 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_607 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_608 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_609 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_610 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_611 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_612 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_613 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_614 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_615 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_616 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_617 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_618 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_619 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_620 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_621 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_623 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_622 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_624 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_625 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_626 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_627 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_628 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_629 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_630 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_632 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_631 (G8, 512X256)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_633 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_634 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_635 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_636 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_637 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_638 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_639 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_640 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_641 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_642 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_643 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_644 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_645 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_646 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_647 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_648 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_649 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_650 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_651 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_652 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_653 (G8, 128X64)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_654 (G8, 256X128)
+[2022.09.24-16.44.42:505][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_655 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_656 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_657 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_659 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_658 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_660 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_661 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_662 (G8, 512X256)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_664 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_663 (G8, 512X256)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_665 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_666 (G8, 256X128)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_667 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_668 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_669 (G8, 256X128)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_670 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_671 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_672 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_673 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_674 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_675 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_676 (G8, 256X128)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_677 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_678 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_679 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_681 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_680 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_682 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_684 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_683 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_685 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_686 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_687 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_688 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_689 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_690 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_691 (G8, 128X64)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_692 (G8, 64X32)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Exo_Cart_N (AutoDXT, 512X512)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Plains_Cliff001 (BC5, 1024X1024)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Decos_Door_M (AutoDXT, 1024X1024)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Plains_Cliff01 (AutoDXT, 1024X1024)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_WoodenBarrel_01_N (BC5, 512X512)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Decos_Door_N (BC5, 1024X1024)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_WoodenBarrel_01_D (AutoDXT, 512X512)
+[2022.09.24-16.44.42:506][282]LogTexture: Display: 텍스처 빌드: T_Decos_Door_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.42:566][282]LogTexture: Display: 텍스처 빌드: T_Env_Breakables_Breakables_N (AutoDXT, 1024X1024)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Terrain_Floors01_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Rock01_N (BC5, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Rock01_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_02_N (BC5, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_02_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Snow_Ice_Generic_NRM (BC5, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Snow_Ice_Generic (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ground01_N (BC5, 1024X1024)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Ice_Ground_Rock01_N (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_GroundCover_Leaf01_D (AutoDXT, 256X256)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Env_Plains_Mountain01_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:632][282]LogTexture: Display: 텍스처 빌드: T_Plains_Angel_Statue_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.46:636][282]LogMaterial: Display: Missing cached shader map for material M_Breakables_Barrels, compiling. 
+[2022.09.24-16.44.46:651][282]LogBrush: Model_35 had invalid poly normals which have been fixed. Resave the level 'ElvenRuins' to remove this warning.
+[2022.09.24-16.44.46:651][282]LogBrush: Model_35 had invalid poly normals which have been fixed. Resave the level 'ElvenRuins' to remove this warning.
+[2022.09.24-16.44.46:651][282]LogBrush: Model_35 had invalid poly normals which have been fixed. Resave the level 'ElvenRuins' to remove this warning.
+[2022.09.24-16.44.46:851][282]LogStaticMesh: ElvenRuins_Terrain 스태틱 메시 빌드중...
+[2022.09.24-16.44.46:858][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/ElvenRuins_Terrain.ElvenRuins_Terrain
+[2022.09.24-16.44.46:888][282]LogStaticMesh: SM_Cherry_Tree 스태틱 메시 빌드중...
+[2022.09.24-16.44.46:894][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.SM_Cherry_Tree
+[2022.09.24-16.44.46:908][282]LogStaticMesh: SM_Env_Breakables_Box1 스태틱 메시 빌드중...
+[2022.09.24-16.44.46:909][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Box1.SM_Env_Breakables_Box1
+[2022.09.24-16.44.46:913][282]LogStaticMesh: SM_Env_Breakables_Box1_destroyed 스태틱 메시 빌드중...
+[2022.09.24-16.44.46:949][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Box1_destroyed.SM_Env_Breakables_Box1_destroyed
+[2022.09.24-16.44.46:972][282]LogStaticMesh: SM_Env_Breakables_Boxes 스태틱 메시 빌드중...
+[2022.09.24-16.44.46:980][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Boxes.SM_Env_Breakables_Boxes
+[2022.09.24-16.44.47:002][282]LogStaticMesh: SM_Env_Breakables_BoxesBITS 스태틱 메시 빌드중...
+[2022.09.24-16.44.47:174][282]LogStaticMesh: Built static mesh [0.17s] /Game/InfinityBladeGrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_BoxesBITS.SM_Env_Breakables_BoxesBITS
+[2022.09.24-16.44.47:180][282]LogStaticMesh: SM_Env_Plains_Floors_Rubble05 스태틱 메시 빌드중...
+[2022.09.24-16.44.47:181][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Env_Plains_Floors_Rubble05.SM_Env_Plains_Floors_Rubble05
+[2022.09.24-16.44.47:191][282]LogStaticMesh: SM_Env_Plains_Mountain_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.47:205][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Background/StaticMesh/SM_Env_Plains_Mountain_01.SM_Env_Plains_Mountain_01
+[2022.09.24-16.44.47:264][282]LogStaticMesh: SM_Exo_Cart_Damaged 스태틱 메시 빌드중...
+[2022.09.24-16.44.47:918][282]LogStaticMesh: Built static mesh [0.65s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Cart_Damaged.SM_Exo_Cart_Damaged
+[2022.09.24-16.44.47:974][282]LogStaticMesh: SM_Exo_Crate_Open_Damaged 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:451][282]LogStaticMesh: Built static mesh [0.48s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Damaged.SM_Exo_Crate_Open_Damaged
+[2022.09.24-16.44.48:459][282]LogStaticMesh: SM_Exo_Crate_Open_Destroyed 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:605][282]LogStaticMesh: Built static mesh [0.15s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Destroyed.SM_Exo_Crate_Open_Destroyed
+[2022.09.24-16.44.48:607][282]LogStaticMesh: SM_Exo_Crate_Open_Intact 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:649][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Intact.SM_Exo_Crate_Open_Intact
+[2022.09.24-16.44.48:657][282]LogStaticMesh: SM_Exo_Decos_Door02 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:676][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door02.SM_Exo_Decos_Door02
+[2022.09.24-16.44.48:683][282]LogStaticMesh: SM_Exo_Decos_Door04 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:686][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door04.SM_Exo_Decos_Door04
+[2022.09.24-16.44.48:690][282]LogStaticMesh: SM_Exo_Decos_Door_Frame02 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:692][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door_Frame02.SM_Exo_Decos_Door_Frame02
+[2022.09.24-16.44.48:694][282]LogStaticMesh: SM_Exo_ShantyBeams_Single_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:709][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_ShantyBeams_Single_01.SM_Exo_ShantyBeams_Single_01
+[2022.09.24-16.44.48:722][282]LogStaticMesh: SM_Plains_Floors_Rubble 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:725][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble.SM_Plains_Floors_Rubble
+[2022.09.24-16.44.48:739][282]LogStaticMesh: SM_Plains_Column_Small_Broken_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:743][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_Broken_01.SM_Plains_Column_Small_Broken_01
+[2022.09.24-16.44.48:764][282]LogStaticMesh: SM_GroundCover_Leafy01 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:765][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_GroundCover_Leafy01.SM_GroundCover_Leafy01
+[2022.09.24-16.44.48:781][282]LogStaticMesh: SM_GroundCover_Leafy03 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:783][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_GroundCover_Leafy03.SM_GroundCover_Leafy03
+[2022.09.24-16.44.48:784][282]LogStaticMesh: SM_LeavePiles_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:784][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_LeavePiles_01.SM_LeavePiles_01
+[2022.09.24-16.44.48:785][282]LogStaticMesh: SM_LeavePiles_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:786][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_LeavePiles_02.SM_LeavePiles_02
+[2022.09.24-16.44.48:789][282]LogStaticMesh: SM_Pine_Low_Cluster 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:791][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Pine_Low_Cluster.SM_Pine_Low_Cluster
+[2022.09.24-16.44.48:801][282]LogStaticMesh: SM_Plains_Angel_Statue_01_nobase 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:850][282]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase.SM_Plains_Angel_Statue_01_nobase
+[2022.09.24-16.44.48:903][282]LogStaticMesh: SM_Plains_Angel_Statue_01_nobase_torch 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:914][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase_torch.SM_Plains_Angel_Statue_01_nobase_torch
+[2022.09.24-16.44.48:921][282]LogStaticMesh: SM_Plains_Buttress_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.48:973][282]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Buttress_01.SM_Plains_Buttress_01
+[2022.09.24-16.44.48:977][282]LogStaticMesh: SM_Plains_Buttress_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:015][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Buttress_02.SM_Plains_Buttress_02
+[2022.09.24-16.44.49:023][282]LogStaticMesh: SM_Plains_Castle_Bridge_Wall_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:101][282]LogStaticMesh: Built static mesh [0.08s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Bridge_Wall_01.SM_Plains_Castle_Bridge_Wall_01
+[2022.09.24-16.44.49:110][282]LogStaticMesh: SM_Plains_Castle_Circle_Railing_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:141][282]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Circle_Railing_01.SM_Plains_Castle_Circle_Railing_01
+[2022.09.24-16.44.49:152][282]LogStaticMesh: SM_Plains_Castle_Fountain_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:193][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Fountain_01.SM_Plains_Castle_Fountain_01
+[2022.09.24-16.44.49:200][282]LogStaticMesh: SM_Plains_Castle_Railing_Curved_45 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:203][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Railing_Curved_45.SM_Plains_Castle_Railing_Curved_45
+[2022.09.24-16.44.49:213][282]LogStaticMesh: SM_Plains_Castle_Railing_Curved 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:306][282]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Railing_Curved.SM_Plains_Castle_Railing_Curved
+[2022.09.24-16.44.49:319][282]LogStaticMesh: SM_Plains_Castle_Stairs_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:383][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Stairs_01.SM_Plains_Castle_Stairs_01
+[2022.09.24-16.44.49:398][282]LogStaticMesh: SM_Plains_CastleArch_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:461][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_01.SM_Plains_CastleArch_01
+[2022.09.24-16.44.49:493][282]LogStaticMesh: SM_Plains_CastleArch_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:624][282]LogStaticMesh: Built static mesh [0.13s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_02.SM_Plains_CastleArch_02
+[2022.09.24-16.44.49:636][282]LogStaticMesh: SM_Plains_CastleArch_03 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:668][282]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_03.SM_Plains_CastleArch_03
+[2022.09.24-16.44.49:677][282]LogStaticMesh: SM_Plains_CastleArch_Ruin_03 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:683][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Ruin_03.SM_Plains_CastleArch_Ruin_03
+[2022.09.24-16.44.49:701][282]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:760][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_01.SM_Plains_CastleArch_Iron_Gate_01
+[2022.09.24-16.44.49:810][282]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_01_Broken 스태틱 메시 빌드중...
+[2022.09.24-16.44.49:922][282]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_01_Broken.SM_Plains_CastleArch_Iron_Gate_01_Broken
+[2022.09.24-16.44.49:942][282]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_02_Broken 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:008][282]LogStaticMesh: Built static mesh [0.07s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_02_Broken.SM_Plains_CastleArch_Iron_Gate_02_Broken
+[2022.09.24-16.44.50:023][282]LogStaticMesh: SM_Plains_CastleArch_Ruin_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:029][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Ruin_01.SM_Plains_CastleArch_Ruin_01
+[2022.09.24-16.44.50:036][282]LogStaticMesh: SM_Plains_CastleDoorArch_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:039][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleDoorArch_01.SM_Plains_CastleDoorArch_01
+[2022.09.24-16.44.50:079][282]LogStaticMesh: SM_Plains_CastleTower_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:196][282]LogStaticMesh: Built static mesh [0.12s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_01.SM_Plains_CastleTower_01
+[2022.09.24-16.44.50:208][282]LogStaticMesh: SM_Plains_CastleTower_Ruin_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:222][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_Ruin_01.SM_Plains_CastleTower_Ruin_01
+[2022.09.24-16.44.50:260][282]LogStaticMesh: SM_Plains_CastleTower_Ruin_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:353][282]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_Ruin_02.SM_Plains_CastleTower_Ruin_02
+[2022.09.24-16.44.50:377][282]LogStaticMesh: SM_Plains_CastleWall_Curved_Ruin_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:421][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Curved_Ruin_01.SM_Plains_CastleWall_Curved_Ruin_01
+[2022.09.24-16.44.50:434][282]LogStaticMesh: SM_Plains_CastleWall_Ruin_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:440][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_01.SM_Plains_CastleWall_Ruin_01
+[2022.09.24-16.44.50:452][282]LogStaticMesh: SM_Plains_CastleWall_Ruin_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:522][282]LogStaticMesh: Built static mesh [0.07s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_02.SM_Plains_CastleWall_Ruin_02
+[2022.09.24-16.44.50:563][282]LogStaticMesh: SM_Plains_CastleWall_Ruin_03 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:623][282]LogTexture: Display: 텍스처 빌드: T_Snowy_Pine_Low (AutoDXT, 512X512)
+[2022.09.24-16.44.50:623][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_03.SM_Plains_CastleWall_Ruin_03
+[2022.09.24-16.44.50:633][282]LogStaticMesh: SM_Plains_CastleWall_Ruin_04 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:640][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_04.SM_Plains_CastleWall_Ruin_04
+[2022.09.24-16.44.50:663][282]LogStaticMesh: SM_Plains_CastleWall_Support_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:664][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Support_01.SM_Plains_CastleWall_Support_01
+[2022.09.24-16.44.50:675][282]LogStaticMesh: SM_Plains_Column_Large_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:724][282]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_01.SM_Plains_Column_Large_01
+[2022.09.24-16.44.50:734][282]LogStaticMesh: SM_Plains_Column_Large_Broken_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:793][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_01.SM_Plains_Column_Large_Broken_01
+[2022.09.24-16.44.50:816][282]LogStaticMesh: SM_Plains_Column_Large_Broken_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:821][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_02.SM_Plains_Column_Large_Broken_02
+[2022.09.24-16.44.50:841][282]LogStaticMesh: SM_Plains_Column_Large_Broken_03 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:879][282]LogTexture: Display: 텍스처 빌드: T_Snowy_Pine_Low_N (BC5, 512X512)
+[2022.09.24-16.44.50:879][282]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_03.SM_Plains_Column_Large_Broken_03
+[2022.09.24-16.44.50:883][282]LogStaticMesh: SM_Plains_Column_Mid_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:889][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Mid_01.SM_Plains_Column_Mid_01
+[2022.09.24-16.44.50:906][282]LogStaticMesh: SM_Plains_Column_Small_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.50:918][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_01.SM_Plains_Column_Small_01
+[2022.09.24-16.44.50:932][282]LogStaticMesh: SM_Plains_Column_Small_Broken_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:017][282]LogTexture: Display: 텍스처 빌드: T_Dirt_N (BC5, 1024X1024)
+[2022.09.24-16.44.51:017][282]LogTexture: Display: 텍스처 빌드: T_Dirt_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.51:017][282]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_Broken_02.SM_Plains_Column_Small_Broken_02
+[2022.09.24-16.44.51:023][282]LogStaticMesh: SM_Plains_Fern01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:027][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern01.SM_Plains_Fern01
+[2022.09.24-16.44.51:043][282]LogStaticMesh: SM_Plains_Fern02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:154][282]LogTexture: Display: 텍스처 빌드: T_Exo_Cart_D (AutoDXT, 512X512)
+[2022.09.24-16.44.51:154][282]LogStaticMesh: Built static mesh [0.11s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern02.SM_Plains_Fern02
+[2022.09.24-16.44.51:200][282]LogStaticMesh: SM_Plains_Fern03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:203][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern03.SM_Plains_Fern03
+[2022.09.24-16.44.51:230][282]LogStaticMesh: SM_Plains_Fern04 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:301][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_N (BC5, 2048X2048)
+[2022.09.24-16.44.51:302][282]LogStaticMesh: Built static mesh [0.07s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern04.SM_Plains_Fern04
+[2022.09.24-16.44.51:304][282]LogStaticMesh: SM_Plains_Floors_Block01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:379][282]LogTexture: Display: 텍스처 빌드: T_Grass01_N (BC5, 2048X2048)
+[2022.09.24-16.44.51:379][282]LogStaticMesh: Built static mesh [0.08s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block01.SM_Plains_Floors_Block01
+[2022.09.24-16.44.51:386][282]LogStaticMesh: SM_Plains_Floors_Block02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:448][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block02.SM_Plains_Floors_Block02
+[2022.09.24-16.44.51:465][282]LogStaticMesh: SM_Plains_Floors_Block02_Broken 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:468][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block02_Broken.SM_Plains_Floors_Block02_Broken
+[2022.09.24-16.44.51:470][282]LogStaticMesh: SM_Plains_Floors_Block03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:471][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block03.SM_Plains_Floors_Block03
+[2022.09.24-16.44.51:474][282]LogStaticMesh: SM_Plains_Floors_Block04 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:476][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block04.SM_Plains_Floors_Block04
+[2022.09.24-16.44.51:478][282]LogStaticMesh: SM_Plains_Floors_Brick01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:479][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Brick01.SM_Plains_Floors_Brick01
+[2022.09.24-16.44.51:487][282]LogStaticMesh: SM_Plains_Floors_Flat01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:490][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat01.SM_Plains_Floors_Flat01
+[2022.09.24-16.44.51:492][282]LogStaticMesh: SM_Plains_Floors_Flat02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:492][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.SM_Plains_Floors_Flat02
+[2022.09.24-16.44.51:501][282]LogStaticMesh: SM_Plains_Floors_Rubble02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:503][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble02.SM_Plains_Floors_Rubble02
+[2022.09.24-16.44.51:520][282]LogStaticMesh: SM_Plains_Floors_Rubble03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:523][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble03.SM_Plains_Floors_Rubble03
+[2022.09.24-16.44.51:539][282]LogStaticMesh: SM_Plains_Floors_Rubble04 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:541][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble04.SM_Plains_Floors_Rubble04
+[2022.09.24-16.44.51:569][282]LogTexture: Display: 텍스처 빌드: T_Grass01_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.51:569][282]LogStaticMesh: SM_Plains_Floors_Rubble05 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:569][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble05.SM_Plains_Floors_Rubble05
+[2022.09.24-16.44.51:581][282]LogStaticMesh: SM_Plains_Floors_TrimBlock01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:582][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimBlock01.SM_Plains_Floors_TrimBlock01
+[2022.09.24-16.44.51:584][282]LogStaticMesh: SM_Plains_Floors_TrimDesign03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:584][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimDesign03.SM_Plains_Floors_TrimDesign03
+[2022.09.24-16.44.51:586][282]LogStaticMesh: SM_Plains_Floors_TrimDesignRubble01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:586][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimDesignRubble01.SM_Plains_Floors_TrimDesignRubble01
+[2022.09.24-16.44.51:588][282]LogStaticMesh: SM_Plains_Flowers01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:636][282]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Flowers01.SM_Plains_Flowers01
+[2022.09.24-16.44.51:637][282]LogStaticMesh: SM_Plains_Flowers03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:638][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Flowers03.SM_Plains_Flowers03
+[2022.09.24-16.44.51:646][282]LogStaticMesh: SM_Plains_Grass01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:649][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Grass01.SM_Plains_Grass01
+[2022.09.24-16.44.51:662][282]LogStaticMesh: SM_Plains_LargeRock02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:681][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock02.SM_Plains_LargeRock02
+[2022.09.24-16.44.51:688][282]LogStaticMesh: SM_Plains_LargeRock03 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:711][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock03.SM_Plains_LargeRock03
+[2022.09.24-16.44.51:723][282]LogStaticMesh: SM_Plains_LargeRock_SpireLOD 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:730][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD.SM_Plains_LargeRock_SpireLOD
+[2022.09.24-16.44.51:743][282]LogStaticMesh: SM_Plains_LargeRock01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:747][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock01.SM_Plains_LargeRock01
+[2022.09.24-16.44.51:753][282]LogStaticMesh: SM_Plains_LargeRock_Pile01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:756][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_Pile01.SM_Plains_LargeRock_Pile01
+[2022.09.24-16.44.51:773][282]LogStaticMesh: SM_Plains_LargeRock_SpireLOD5 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:774][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD5.SM_Plains_LargeRock_SpireLOD5
+[2022.09.24-16.44.51:778][282]LogStaticMesh: SM_Plains_LargeRock_SpireLOD4 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:780][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD4.SM_Plains_LargeRock_SpireLOD4
+[2022.09.24-16.44.51:783][282]LogStaticMesh: SM_Plains_LargeRock_SpireLOD2 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:785][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD2.SM_Plains_LargeRock_SpireLOD2
+[2022.09.24-16.44.51:812][282]LogStaticMesh: SM_Plains_Man_Statue_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:827][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01.SM_Plains_Man_Statue_01
+[2022.09.24-16.44.51:943][282]LogTexture: Display: 텍스처 빌드: T_Plains_Tree01_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.51:943][282]LogStaticMesh: SM_Plains_Man_Statue_01_torch 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:959][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01_torch.SM_Plains_Man_Statue_01_torch
+[2022.09.24-16.44.51:980][282]LogStaticMesh: SM_Plains_Ruin_BuildingLOD01 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:983][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD01.SM_Plains_Ruin_BuildingLOD01
+[2022.09.24-16.44.51:988][282]LogStaticMesh: SM_Plains_Ruin_BuildingLOD02 스태틱 메시 빌드중...
+[2022.09.24-16.44.51:989][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.SM_Plains_Ruin_BuildingLOD02
+[2022.09.24-16.44.52:032][282]LogStaticMesh: SM_Plains_Ruin_BuildingLOD03 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:033][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD03.SM_Plains_Ruin_BuildingLOD03
+[2022.09.24-16.44.52:050][282]LogStaticMesh: SM_Plains_Ruins_Brazier_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:386][282]LogTexture: Display: 텍스처 빌드: T_Plains_Tree01_N (BC5, 2048X2048)
+[2022.09.24-16.44.52:386][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ground01_D (AutoDXT, 1024X1024)
+[2022.09.24-16.44.52:386][282]LogTexture: Display: 텍스처 빌드: T_Plains_FloorsTrim_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.52:386][282]LogStaticMesh: Built static mesh [0.34s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruins_Brazier_01.SM_Plains_Ruins_Brazier_01
+[2022.09.24-16.44.52:402][282]LogStaticMesh: SM_Plains_Ruins_Cage_Broken_02 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:409][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruins_Cage_Broken_02.SM_Plains_Ruins_Cage_Broken_02
+[2022.09.24-16.44.52:445][282]LogStaticMesh: SM_Plains_Scrap_Bridge01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:451][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_Bridge01.SM_Plains_Scrap_Bridge01
+[2022.09.24-16.44.52:461][282]LogStaticMesh: SM_Plains_Scrap_Bridge02 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:469][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_Bridge02.SM_Plains_Scrap_Bridge02
+[2022.09.24-16.44.52:513][282]LogStaticMesh: SM_Plains_Scrap_BridgeRail03 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:515][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_BridgeRail03.SM_Plains_Scrap_BridgeRail03
+[2022.09.24-16.44.52:518][282]LogStaticMesh: SM_Plains_Scrap_BridgeRail04 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:520][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_BridgeRail04.SM_Plains_Scrap_BridgeRail04
+[2022.09.24-16.44.52:534][282]LogStaticMesh: SM_Plains_ShortColumn_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:541][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_ShortColumn_01.SM_Plains_ShortColumn_01
+[2022.09.24-16.44.52:548][282]LogStaticMesh: SM_Plains_ShortWall_Straight_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:558][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_ShortWall_Straight_01.SM_Plains_ShortWall_Straight_01
+[2022.09.24-16.44.52:566][282]LogStaticMesh: SM_Plains_SmallRock01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:599][282]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_SmallRock01.SM_Plains_SmallRock01
+[2022.09.24-16.44.52:612][282]LogStaticMesh: SM_Plains_Tree01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:749][282]LogStaticMesh: Built static mesh [0.14s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree01.SM_Plains_Tree01
+[2022.09.24-16.44.52:756][282]LogStaticMesh: SM_Plains_Tree_Branch01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:802][282]LogStaticMesh: Built static mesh [0.05s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Branch01.SM_Plains_Tree_Branch01
+[2022.09.24-16.44.52:806][282]LogStaticMesh: SM_Plains_Tree_Branch02 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:814][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Branch02.SM_Plains_Tree_Branch02
+[2022.09.24-16.44.52:818][282]LogStaticMesh: SM_Plains_Tree_Stump01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:820][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Stump01.SM_Plains_Tree_Stump01
+[2022.09.24-16.44.52:851][282]LogStaticMesh: SM_Plains_Vine02 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:856][282]LogTexture: Display: 텍스처 빌드: T_Plains_Rock02_N (BC5, 2048X2048)
+[2022.09.24-16.44.52:857][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Vine02.SM_Plains_Vine02
+[2022.09.24-16.44.52:859][282]LogStaticMesh: SM_Plains_Wall_Railing_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:861][282]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Wall_Railing_01.SM_Plains_Wall_Railing_01
+[2022.09.24-16.44.52:873][282]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2022.09.24-16.44.52:976][282]LogStaticMesh: Built static mesh [0.10s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2022.09.24-16.44.52:993][282]LogTexture: Display: 텍스처 빌드: T_Plains_Rock02_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.52:993][282]LogStaticMesh: SM_Rootcluster_A 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:016][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_Rootcluster_A.SM_Rootcluster_A
+[2022.09.24-16.44.53:055][282]LogStaticMesh: SM_SmallTree02 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:067][282]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeGrassLands/Environments/Earth/StaticMesh/SM_SmallTree02.SM_SmallTree02
+[2022.09.24-16.44.53:160][282]LogStaticMesh: SM_WaterPlain 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:211][282]LogStaticMesh: Built static mesh [0.06s] /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_WaterPlain.SM_WaterPlain
+[2022.09.24-16.44.53:253][282]LogStaticMesh: SM_WoodenBarrel_Damaged 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:372][282]LogStaticMesh: Built static mesh [0.12s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Damaged.SM_WoodenBarrel_Damaged
+[2022.09.24-16.44.53:388][282]LogStaticMesh: SM_WoodenBarrel_Destroyed 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:478][282]LogStaticMesh: Built static mesh [0.09s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Destroyed.SM_WoodenBarrel_Destroyed
+[2022.09.24-16.44.53:487][282]LogStaticMesh: SM_WoodenBarrel_Intact 스태틱 메시 빌드중...
+[2022.09.24-16.44.53:509][282]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeGrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Intact.SM_WoodenBarrel_Intact
+[2022.09.24-16.44.53:514][282]LogTexture: Display: 텍스처 빌드: T_Exo_Crate_Open_D (AutoDXT, 256X256)
+[2022.09.24-16.44.53:685][282]LogTexture: Display: 텍스처 빌드: T_Exo_Crate_Open_N (AutoDXT, 256X256)
+[2022.09.24-16.44.53:829][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Cage_N (BC5, 2048X2048)
+[2022.09.24-16.44.53:829][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Cage_D (AutoDXT, 2048X2048)
+[2022.09.24-16.44.53:829][282]LogMaterial: Display: Missing cached shader map for material M_Exo_Crate_Open, compiling. 
+[2022.09.24-16.44.53:870][282]LogMaterial: Display: Missing cached shader map for material M_WoodenBarrel_01, compiling. 
+[2022.09.24-16.44.53:888][282]LogMaterial: Display: Missing cached shader map for material M_Decos_Door, compiling. 
+[2022.09.24-16.44.54:017][282]LogTexture: Display: 텍스처 빌드: T_Plains_Terrain_Floors01_N (BC5, 1024X1024)
+[2022.09.24-16.44.54:204][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Floors_Block, compiling. 
+[2022.09.24-16.44.54:220][282]LogMaterial: Display: Missing cached shader map for material M_PostSharpen, compiling. 
+[2022.09.24-16.44.54:417][282]LogTexture: Display: 텍스처 빌드: T_Plains_Man_Statue_N (BC5, 2048X2048)
+[2022.09.24-16.44.54:417][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_03_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Man_Statue_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Grass02_D (AutoDXT, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Castle_Wroughtlron_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Castle_Wroughtlron_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_GroundCover_Leaf01_N (BC5, 256X256)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_BranchTrunk_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_TreeBase1_N (BC5, 512X512)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plants_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_ExtCastle_StoneWall_01_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plants_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_03_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_FloorsTrim_N (BC5, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Env_Plains_Mountain01_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Fern01_N (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Fern01_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_TreeBase1_D (AutoDXT, 512X512)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Angel_Statue_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_HardWood_Floor_D_NRM (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_HardWood_Floor_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_FloorsBeams_N (BC5, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_FloorsBeams_D (AutoDXT, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Cherry_Tree_Flowers_D (AutoDXT, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Cherry_Tree_Flowers_N (BC5, 1024X1024)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Env_Snow_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Env_Ice_Ground_Rock_4_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_D (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_Ruins_Pillars_M (AutoDXT, 2048X2048)
+[2022.09.24-16.45.07:446][282]LogTexture: Display: 텍스처 빌드: T_Plains_ExtCastle_StoneWall_01_N (BC5, 2048X2048)
+[2022.09.24-16.45.07:465][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Pillars03, compiling. 
+[2022.09.24-16.45.07:490][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Pillars02, compiling. 
+[2022.09.24-16.45.07:649][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Cliff1, compiling. 
+[2022.09.24-16.45.07:681][282]LogMaterial: Display: Missing cached shader map for material M_GroundCover_LEafy, compiling. 
+[2022.09.24-16.45.07:927][282]LogMaterial: Display: Missing cached shader map for material M_Env_Plains_Mountain01, compiling. 
+[2022.09.24-16.45.07:960][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Angel_Statue, compiling. 
+[2022.09.24-16.45.07:991][282]LogMaterial: Display: Missing cached shader map for material M_Exo_Cart, compiling. 
+[2022.09.24-16.45.08:024][282]LogMaterial: Display: Missing cached shader map for material M_Plains_StoneWall, compiling. 
+[2022.09.24-16.45.08:049][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Tree_Stump01, compiling. 
+[2022.09.24-16.45.08:104][282]LogMaterial: Display: Missing cached shader map for material M_Terrain_Blend_Mobile, compiling. 
+[2022.09.24-16.45.08:184][282]LogMaterial: Display: Missing cached shader map for material M_Plains_GroundBrick, compiling. 
+[2022.09.24-16.45.08:213][282]LogMaterial: Display: Missing cached shader map for material M_PLains_Castle_WroughtIron, compiling. 
+[2022.09.24-16.45.08:236][282]LogMaterial: Display: Missing cached shader map for material M_Plains_FloorTrims, compiling. 
+[2022.09.24-16.45.08:253][282]LogMaterial: Display: Missing cached shader map for material M_Plains_SmallRock, compiling. 
+[2022.09.24-16.45.08:280][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Man_Statue, compiling. 
+[2022.09.24-16.45.10:518][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Pillars, compiling. 
+[2022.09.24-16.45.10:538][282]LogMaterial: Display: Missing cached shader map for material M_Pine_Low, compiling. 
+[2022.09.24-16.45.10:563][282]LogMaterial: Display: Missing cached shader map for material M_Plains_LargeRock, compiling. 
+[2022.09.24-16.45.10:580][282]LogMaterial: Display: Missing cached shader map for material M_Decos_Door_Frame, compiling. 
+[2022.09.24-16.45.10:642][282]LogMaterial: Display: Missing cached shader map for material M_LeavesPile, compiling. 
+[2022.09.24-16.45.10:698][282]LogMaterial: Display: Missing cached shader map for material M_PLains_Fern01, compiling. 
+[2022.09.24-16.45.10:721][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Cage, compiling. 
+[2022.09.24-16.45.10:743][282]LogMaterial: Display: Missing cached shader map for material M_TreeBark, compiling. 
+[2022.09.24-16.45.10:763][282]LogSkeletalMesh: Building Skeletal Mesh SK_Env_Ice_Deco2_BlowingFlag3...
+[2022.09.24-16.45.10:763][282]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/InfinityBladeGrassLands/Environments/Earth/EX_EnvAssets/Meshes/SK_Env_Ice_Deco2_BlowingFlag3.SK_Env_Ice_Deco2_BlowingFlag3
+[2022.09.24-16.45.10:765][282]LogMaterial: Display: Missing cached shader map for material M_HardWood_Floor, compiling. 
+[2022.09.24-16.45.10:781][282]LogMaterial: Display: Missing cached shader map for material M_Plains_Ocean, compiling. 
+[2022.09.24-16.45.10:801][282]LogMaterial: Display: Missing cached shader map for material M_PLains_Scrap_Bridge, compiling. 
+[2022.09.24-16.45.10:818][282]LogMaterial: Display: Missing cached shader map for material M_Cherry_Tree, compiling. 
+[2022.09.24-16.45.10:844][282]LogMaterial: Display: Missing cached shader map for material M_Exo_Generic_Plants, compiling. 
+[2022.09.24-16.45.10:874][282]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-16.45.10:875][282]LogActorComponent: RegisterComponentWithWorld: (/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.24-16.45.10:940][282]LogAssetEditorManager: Opening Asset editor for World /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins
+[2022.09.24-16.45.11:011][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.24-16.45.13:719][282]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.24-16.45.13:939][282]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_08_Sound3D0A89C10D41CF697AFDCAA0B5964545BC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Blueprints/BP_08_Sound3D.uasset'
+[2022.09.24-16.45.13:976][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.09.24-16.45.14:330][282]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sound10DFF4B74C25800F9133CCA7612AE3A6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Sound.umap'
+[2022.09.24-16.45.14:355][282]LogFileHelpers: Saving map 'AI_Sound' took 0.414
+[2022.09.24-16.45.14:360][282]Cmd: MAP LOAD FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.24-16.45.14:360][282]LightingResults: New page: 라이팅 빌드
+[2022.09.24-16.45.14:360][282]LoadErrors: New page: 맵 로드중: ElvenRuins.umap
+[2022.09.24-16.45.14:362][282]MapCheck: New page: 맵 체크
+[2022.09.24-16.45.14:362][282]LightingResults: New page: 라이팅 빌드
+[2022.09.24-16.45.14:397][282]LogUObjectHash: Compacting FUObjectHashTables data took   7.31ms
+[2022.09.24-16.45.14:436][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.24-16.45.14:509][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.24-16.45.14:510][282]MapCheck: /Game/InfinityBladeGrassLands/Maps/ElvenRuins 레벨의 2 개 컴포넌트에 대해 페인트된 버텍스 컬러를 고치는 데 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2022.09.24-16.45.14:510][282]MapCheck: Warning: 스태틱 메시 리임포트로 인해 페인트된 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2022.09.24-16.45.14:532][282]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.24-16.45.14:533][282]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 0.393ms.
+[2022.09.24-16.45.14:537][282]LogFileHelpers: Loading map 'ElvenRuins' took 0.180
+[2022.09.24-16.45.14:650][282]LogAIModule: Creating AISystem for world AI_Sound
+[2022.09.24-16.45.43:437][122]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (28.007 sec). This should never happen. Something is wrong with the timer delegate!
+[2022.09.24-16.47.51:570][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.48.13:840][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-16.48.14:216][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
