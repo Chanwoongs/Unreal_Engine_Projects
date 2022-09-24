@@ -2376,3 +2376,943 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2022.09.24-16.47.51:570][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2022.09.24-16.48.13:840][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2022.09.24-16.48.14:216][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2022.09.24-16.52.24:238][ 62]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.09.24-16.52.47:246][653]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-16.52.47:554][653]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2022.09.24-16.53.11:940][790]LogSlate: Window '부모 클래스 선택' being destroyed
+[2022.09.24-16.53.29:390][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_GameMode.BP_GameMode
+[2022.09.24-16.54.33:298][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.09.24-16.54.33:298][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/ElvenRuins' took 0.031
+[2022.09.24-16.54.33:299][347]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.24-16.54.33:312][347]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.24-16.54.33:312][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.24-16.54.33:786][347]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto2BA18C46443F4AB22478C338533322458.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto2.uasset'
+[2022.09.24-16.54.33:788][347]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_GameMode] ([1] browsable assets)...
+[2022.09.24-16.54.33:789][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_GameMode]
+[2022.09.24-16.54.33:801][347]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_GameMode_Auto2D937C92B4BFC9FBE3D6E349AA15A7E11.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_GameMode_Auto2.uasset'
+[2022.09.24-16.54.33:803][347]LogFileHelpers: Auto-saving content packages took 0.505
+[2022.09.24-16.54.39:872][366]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-16.56.17:121][499]BlueprintLog: New page: BP_GameMode 컴파일
+[2022.09.24-16.56.17:282][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.09.24-16.56.21:252][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.56.21:256][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_GameMode" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_GameMode.uasset" SILENT=true
+[2022.09.24-16.56.21:263][953]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_GameMode4962A5A94E885943F4DEF4A865DBE5C0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_GameMode.uasset'
+[2022.09.24-16.56.23:056][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.56.23:063][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-16.56.23:503][149]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player1350C091444973DBBD8726BACB1276B0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-16.56.27:509][544]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2022.09.24-16.56.29:038][544]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.09.24-16.56.31:681][797]LogBlueprintActionDatabase: Requesting refresh due to module change: PortalProxies (loaded)
+[2022.09.24-16.56.35:076][118]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-16.57.11:259][249]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.24-16.57.11:263][249]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.24-16.57.22:599][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-16.57.22:700][525]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.57.22:719][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.57.22:719][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-16.57.22:719][525]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 10:57:22)
+[2022.09.24-16.57.22:719][525]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-16.57.22:796][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077607s)
+[2022.09.24-16.57.22:796][525]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-16.57.22:797][525]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2022.09.24-16.57.22:797][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078756s)
+[2022.09.24-16.57.22:873][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.09.24-16.57.23:046][525]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.57.23:100][525]LogInit: FAudioDevice initialized.
+[2022.09.24-16.57.23:129][525]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-16.57.23:146][525]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-01.57.23
+[2022.09.24-16.57.23:148][525]LogWorld: Bringing up level for play took: 0.018370
+[2022.09.24-16.57.23:528][525]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 1.403
+[2022.09.24-16.57.23:529][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.57.26:725][896]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-16.57.28:411][ 94]LogBlueprintUserMessages: [BP_Sword_C_0] !Sword
+[2022.09.24-16.57.39:732][420]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-16.57.50:534][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.57.50:534][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.57.50:564][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-16.57.50:565][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.57.50:605][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.57.50:613][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.24-16.57.50:640][709]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.09.24-16.58.12:380][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.58.18:725][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-16.58.18:727][978]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins
+[2022.09.24-16.59.11:056][759]BlueprintLog: New page: ElvenRuins 컴파일
+[2022.09.24-16.59.11:274][759]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.09.24-16.59.11:610][797]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.59.11:627][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.59.11:627][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-16.59.11:627][797]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 10:59:11)
+[2022.09.24-16.59.11:627][797]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-16.59.11:705][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077372s)
+[2022.09.24-16.59.11:706][797]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-16.59.11:706][797]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2022.09.24-16.59.11:706][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078480s)
+[2022.09.24-16.59.11:739][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.09.24-16.59.11:915][797]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.59.11:965][797]LogInit: FAudioDevice initialized.
+[2022.09.24-16.59.12:000][797]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-16.59.12:016][797]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-01.59.12
+[2022.09.24-16.59.12:018][797]LogWorld: Bringing up level for play took: 0.017562
+[2022.09.24-16.59.12:035][797]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.091
+[2022.09.24-16.59.12:035][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.59.12:352][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-16.59.18:874][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.59.18:874][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.59.18:910][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-16.59.18:911][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.59.18:952][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-16.59.18:963][605]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.09.24-16.59.18:993][606]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.09.24-16.59.24:374][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-16.59.24:458][220]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-16.59.24:476][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-16.59.24:476][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-16.59.24:476][220]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 10:59:24)
+[2022.09.24-16.59.24:476][220]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-16.59.24:551][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073649s)
+[2022.09.24-16.59.24:551][220]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-16.59.24:551][220]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2022.09.24-16.59.24:551][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.074423s)
+[2022.09.24-16.59.24:585][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.09.24-16.59.24:748][220]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-16.59.24:792][220]LogInit: FAudioDevice initialized.
+[2022.09.24-16.59.24:823][220]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-16.59.24:845][220]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-01.59.24
+[2022.09.24-16.59.24:847][220]LogWorld: Bringing up level for play took: 0.023323
+[2022.09.24-16.59.24:863][220]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.738
+[2022.09.24-16.59.24:864][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.31:966][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.31:966][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.00.32:002][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.00.32:003][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.32:042][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.00.32:052][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.09.24-17.00.32:077][239]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.09.24-17.00.33:440][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.00.33:497][407]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.00.33:515][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.33:515][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.00.33:515][407]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:00:33)
+[2022.09.24-17.00.33:516][407]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.00.33:591][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074828s)
+[2022.09.24-17.00.33:591][407]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.00.33:591][407]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2022.09.24-17.00.33:592][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.075590s)
+[2022.09.24-17.00.33:622][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.09.24-17.00.33:777][407]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.00.33:825][407]LogInit: FAudioDevice initialized.
+[2022.09.24-17.00.33:856][407]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.00.33:874][407]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.00.33
+[2022.09.24-17.00.33:876][407]LogWorld: Bringing up level for play took: 0.019620
+[2022.09.24-17.00.33:892][407]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.233
+[2022.09.24-17.00.33:892][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.40:458][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.40:458][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.00.40:496][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.00.40:497][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.00.40:529][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.00.40:539][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.09.24-17.00.40:566][184]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.09.24-17.00.42:741][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.00.51:007][415]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_WizardSkill_Throw.BP_WizardSkill_Throw
+[2022.09.24-17.01.26:467][274]BlueprintLog: New page: BP_WizardSkill_Throw 컴파일
+[2022.09.24-17.01.26:689][274]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2022.09.24-17.01.28:678][490]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.01.28:700][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.01.28:700][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.01.28:701][490]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:01:28)
+[2022.09.24-17.01.28:701][490]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.01.28:777][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076239s)
+[2022.09.24-17.01.28:777][490]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.01.28:778][490]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2022.09.24-17.01.28:778][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077017s)
+[2022.09.24-17.01.28:815][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.09.24-17.01.28:977][490]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.01.29:022][490]LogInit: FAudioDevice initialized.
+[2022.09.24-17.01.29:059][490]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.01.29:079][490]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.01.29
+[2022.09.24-17.01.29:081][490]LogWorld: Bringing up level for play took: 0.018365
+[2022.09.24-17.01.29:099][490]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.973
+[2022.09.24-17.01.29:099][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.01.29:737][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.01.55:711][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.01.55:712][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.01.55:746][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.01.55:747][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.01.55:787][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.01.55:795][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.09.24-17.01.55:821][644]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.09.24-17.02.07:446][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.02.17:087][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.02.20:117][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.02.20:878][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.02.21:423][562]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.02.26:913][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block25)
+[2022.09.24-17.02.30:907][604]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.02.42:382][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.02.42:516][885]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.42:516][885]LogEditorTransaction: Undo 액터 클릭
+[2022.09.24-17.02.42:973][927]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.42:973][927]LogEditorTransaction: Undo 액터 회전
+[2022.09.24-17.02.43:305][961]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.43:305][961]LogEditorTransaction: Undo 액터 클릭
+[2022.09.24-17.02.44:081][ 45]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.44:081][ 45]LogEditorTransaction: Undo 액터 클릭
+[2022.09.24-17.02.44:459][ 84]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.44:459][ 84]LogEditorTransaction: Undo 액터 회전
+[2022.09.24-17.02.45:237][171]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.02.45:797][234]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.02.53:987][193]Cmd: TRANSACTION UNDO
+[2022.09.24-17.02.53:987][193]LogEditorTransaction: Undo 액터 회전
+[2022.09.24-17.03.03:253][275]Cmd: TRANSACTION UNDO
+[2022.09.24-17.03.03:253][275]LogEditorTransaction: Undo 액터 회전
+[2022.09.24-17.03.13:619][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.03.14:078][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.03.14:411][506]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.03.25:840][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block25)
+[2022.09.24-17.03.26:473][913]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.03.39:351][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block25)
+[2022.09.24-17.03.40:423][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block25)
+[2022.09.24-17.03.40:702][568]LogEditorViewport: Clicking on Actor (double click): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.03.53:726][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.03.57:180][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.04.00:518][280]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.02:440][497]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.03:048][566]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCylinder)
+[2022.09.24-17.04.03:573][623]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.04:005][669]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.04:485][724]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.06:178][920]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2022.09.24-17.04.07:250][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.04.07:387][ 57]Cmd: DELETE
+[2022.09.24-17.04.07:387][ 57]Cmd: ACTOR DELETE
+[2022.09.24-17.04.12:355][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.04.12:469][506]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.12:469][506]LogEditorTransaction: Undo 액터 클릭
+[2022.09.24-17.04.12:834][535]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.12:834][535]LogEditorTransaction: Undo 액터 클릭 (컨텍스트 메뉴)
+[2022.09.24-17.04.13:170][565]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.13:170][565]LogEditorTransaction: Undo 컴포넌트 삭제
+[2022.09.24-17.04.13:455][593]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.13:455][593]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.13:741][622]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.13:742][622]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.14:030][651]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.14:030][651]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.14:299][678]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.14:299][678]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.14:718][722]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.14:718][722]LogEditorTransaction: Undo 컴포넌트 이동
+[2022.09.24-17.04.14:720][722]LogActorComponent: ~FComponentReregisterContext: (/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.BP_Enemy_2.CollisionCylinder) Component already registered.
+[2022.09.24-17.04.15:043][751]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.15:043][751]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.15:399][788]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.15:399][788]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2022.09.24-17.04.15:710][821]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.15:710][821]LogEditorTransaction: Undo 컴포넌트에 클릭 (트리 뷰)
+[2022.09.24-17.04.16:012][846]Cmd: TRANSACTION UNDO
+[2022.09.24-17.04.16:012][846]LogEditorTransaction: Undo 액터 생성
+[2022.09.24-17.04.24:480][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.04.29:316][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.04.31:724][561]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2022.09.24-17.04.36:996][950]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.04.37:017][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.04.37:017][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.04.37:017][950]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:04:37)
+[2022.09.24-17.04.37:018][950]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.04.37:099][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080931s)
+[2022.09.24-17.04.37:099][950]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.04.37:099][950]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2022.09.24-17.04.37:100][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.081907s)
+[2022.09.24-17.04.37:139][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.09.24-17.04.37:300][950]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.04.37:346][950]LogInit: FAudioDevice initialized.
+[2022.09.24-17.04.37:380][950]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.04.37:398][950]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.04.37
+[2022.09.24-17.04.37:401][950]LogWorld: Bringing up level for play took: 0.021901
+[2022.09.24-17.04.37:417][950]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 1.292
+[2022.09.24-17.04.37:418][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.04.48:136][221]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.04.51:303][598]LogBlueprintUserMessages: [BP_GreatSword_C_0] !Sword
+[2022.09.24-17.04.54:728][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.04.54:728][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.04.54:763][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.04.54:764][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.04.54:805][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.04.54:813][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.09.24-17.04.54:842][  2]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.09.24-17.04.58:046][357]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.04.59:195][474]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Sword_C (BP_AI_Sword)
+[2022.09.24-17.05.00:913][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.05.08:899][581]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.10:736][786]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.11:533][879]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.13:646][130]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.28:739][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.29:295][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.29:704][ 31]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.30:607][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.31:135][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.31:411][222]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.32:072][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.32:509][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.32:852][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.33:161][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.39:061][911]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.41:601][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block26)
+[2022.09.24-17.05.42:165][239]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.43:736][421]Cmd: DUPLICATE
+[2022.09.24-17.05.43:736][421]Cmd: ACTOR DUPLICATE
+[2022.09.24-17.05.46:976][801]Cmd: SELECT NONE
+[2022.09.24-17.05.47:481][861]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath2)
+[2022.09.24-17.05.48:360][963]Cmd: DELETE
+[2022.09.24-17.05.48:360][963]Cmd: ACTOR DELETE
+[2022.09.24-17.05.48:381][963]LogEditorActor: Deleted Actor: BP_PatrolPath_C
+[2022.09.24-17.05.48:416][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.09.24-17.05.48:417][963]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2022.09.24-17.05.48:809][  9]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.05.49:808][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.05.58:684][135]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.06.27:297][503]Cmd: DUPLICATE
+[2022.09.24-17.06.27:298][503]Cmd: ACTOR DUPLICATE
+[2022.09.24-17.06.28:631][653]Cmd: TRANSACTION UNDO
+[2022.09.24-17.06.28:631][653]LogEditorTransaction: Undo 액터 복제
+[2022.09.24-17.06.30:118][810]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.06.37:013][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.06.40:052][968]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.06.40:073][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.40:073][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.06.40:073][968]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:06:40)
+[2022.09.24-17.06.40:073][968]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.06.40:150][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076064s)
+[2022.09.24-17.06.40:150][968]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.06.40:150][968]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2022.09.24-17.06.40:151][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.076921s)
+[2022.09.24-17.06.40:188][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.09.24-17.06.40:343][968]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.06.40:392][968]LogInit: FAudioDevice initialized.
+[2022.09.24-17.06.40:422][968]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.06.40:439][968]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.06.40
+[2022.09.24-17.06.40:445][968]LogWorld: Bringing up level for play took: 0.022671
+[2022.09.24-17.06.40:461][968]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.336
+[2022.09.24-17.06.40:462][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.46:055][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.46:055][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.06.46:092][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.06.46:093][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.46:133][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.06.46:141][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.09.24-17.06.46:168][631]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.09.24-17.06.47:621][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.06.47:704][810]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.06.47:726][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.47:726][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.06.47:727][810]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:06:47)
+[2022.09.24-17.06.47:727][810]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.06.47:803][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076307s)
+[2022.09.24-17.06.47:804][810]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.06.47:804][810]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2022.09.24-17.06.47:804][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077090s)
+[2022.09.24-17.06.47:832][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.09.24-17.06.47:989][810]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.06.48:033][810]LogInit: FAudioDevice initialized.
+[2022.09.24-17.06.48:063][810]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.06.48:078][810]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.06.48
+[2022.09.24-17.06.48:084][810]LogWorld: Bringing up level for play took: 0.021774
+[2022.09.24-17.06.48:101][810]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.024
+[2022.09.24-17.06.48:102][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.53:514][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.53:514][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.06.53:547][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.06.53:548][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.06.53:585][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.06.53:595][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.24-17.06.53:622][450]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.09.24-17.06.56:330][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block25)
+[2022.09.24-17.06.58:278][949]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath)
+[2022.09.24-17.07.03:729][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.07.03:804][587]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.07.03:826][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.07.03:826][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.07.03:826][587]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:07:03)
+[2022.09.24-17.07.03:827][587]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.07.03:903][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076332s)
+[2022.09.24-17.07.03:905][587]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.07.03:909][587]LogPlayLevel: PIE: World Init took: (0.005621s)
+[2022.09.24-17.07.03:909][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.082311s)
+[2022.09.24-17.07.03:941][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.09.24-17.07.04:100][587]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.07.04:148][587]LogInit: FAudioDevice initialized.
+[2022.09.24-17.07.04:175][587]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.07.04:191][587]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.07.04
+[2022.09.24-17.07.04:193][587]LogWorld: Bringing up level for play took: 0.018080
+[2022.09.24-17.07.04:210][587]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.085
+[2022.09.24-17.07.04:211][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.07.07:267][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.07.07:267][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.07.07:301][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.07.07:302][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.07.07:338][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.07.07:348][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.24-17.07.07:374][949]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.09.24-17.07.32:117][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.09.24-17.07.36:207][157]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ElvenRuins_Auto3519EE4B34AD1966CF7A9198423BA1071.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/ElvenRuins_Auto3.umap'
+[2022.09.24-17.07.36:225][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/ElvenRuins' took 4.145
+[2022.09.24-17.07.36:225][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.145
+[2022.09.24-17.07.36:229][157]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Wizard/BP_WizardSkill_Throw] ([1] browsable assets)...
+[2022.09.24-17.07.36:229][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Wizard/BP_WizardSkill_Throw]
+[2022.09.24-17.07.36:333][157]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WizardSkill_Throw_Auto317F19ED642B03E5A1B15979D36D3A71E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/Wizard/BP_WizardSkill_Throw_Auto3.uasset'
+[2022.09.24-17.07.36:335][157]LogFileHelpers: Auto-saving content packages took 0.105
+[2022.09.24-17.07.39:399][376]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Sword_C (BP_AI_Sword)
+[2022.09.24-17.07.43:630][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.07.46:550][170]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.07.46:571][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.07.46:571][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.07.46:571][170]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:07:46)
+[2022.09.24-17.07.46:571][170]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.07.46:650][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077864s)
+[2022.09.24-17.07.46:650][170]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.07.46:650][170]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2022.09.24-17.07.46:650][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078660s)
+[2022.09.24-17.07.46:687][170]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.09.24-17.07.46:838][170]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.07.46:888][170]LogInit: FAudioDevice initialized.
+[2022.09.24-17.07.46:915][170]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.07.46:931][170]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.07.46
+[2022.09.24-17.07.46:933][170]LogWorld: Bringing up level for play took: 0.018923
+[2022.09.24-17.07.46:950][170]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.825
+[2022.09.24-17.07.46:950][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.08.02:625][908]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.08.08:696][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.08.08:696][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.08.08:727][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.08.08:728][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.08.08:767][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.08.08:787][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.09.24-17.08.08:811][630]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.09.24-17.08.16:109][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.08.18:587][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.08.25:374][466]LogMetaData: Removing '/Game/Enemy/BP_AI_Sword.BP_AI_Sword_C' ref from Metadata '/Game/Enemy/Sword/BP_AI_Sword.PackageMetaData'
+[2022.09.24-17.08.25:374][466]LogMetaData: Removing '/Game/Enemy/BP_AI_Sword.SKEL_BP_AI_Sword_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Sword/BP_AI_Sword.PackageMetaData'
+[2022.09.24-17.08.25:374][466]LogMetaData: Removing '/Game/Enemy/BP_AI_Sword.SKEL_BP_AI_Sword_C:UserConstructionScript' ref from Metadata '/Game/Enemy/Sword/BP_AI_Sword.PackageMetaData'
+[2022.09.24-17.08.25:374][466]LogMetaData: Removing '/Game/Enemy/BP_AI_Sword.SKEL_BP_AI_Sword_C' ref from Metadata '/Game/Enemy/Sword/BP_AI_Sword.PackageMetaData'
+[2022.09.24-17.08.25:374][466]LogMetaData: Removing '/Game/Enemy/BP_AI_Sword.BP_AI_Sword_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemy/Sword/BP_AI_Sword.PackageMetaData'
+[2022.09.24-17.08.25:421][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_AI_Sword" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_AI_Sword.uasset" SILENT=true
+[2022.09.24-17.08.25:459][466]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Sword799D8803436C12FE9B807480E84661E8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_AI_Sword.uasset'
+[2022.09.24-17.08.25:531][466]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_AI_Sword572F2652417736FF937E46B25E41B706.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BP_AI_Sword.uasset'
+[2022.09.24-17.08.31:862][179]Cmd: DELETE
+[2022.09.24-17.08.31:862][179]Cmd: ACTOR DELETE
+[2022.09.24-17.08.31:887][179]LogEditorActor: Deleted Actor: BP_PatrolPath_C
+[2022.09.24-17.08.31:931][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.09.24-17.08.31:932][179]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2022.09.24-17.08.33:499][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.08.51:452][432]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.08.59:479][318]Cmd: TRANSACTION UNDO
+[2022.09.24-17.08.59:479][318]LogEditorTransaction: Undo 액터 이동
+[2022.09.24-17.09.04:900][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.09.08:422][287]Cmd: TRANSACTION UNDO
+[2022.09.24-17.09.08:422][287]LogEditorTransaction: Undo 액터 이동
+[2022.09.24-17.09.08:748][318]Cmd: TRANSACTION UNDO
+[2022.09.24-17.09.08:748][318]LogEditorTransaction: Undo 스플라인 포인트 복제
+[2022.09.24-17.09.09:546][403]Cmd: TRANSACTION UNDO
+[2022.09.24-17.09.09:546][403]LogEditorTransaction: Undo 액터 이동
+[2022.09.24-17.09.46:762][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.09.52:533][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Crate_Open_Intact)
+[2022.09.24-17.09.54:129][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.09.24-17.09.54:703][214]LogEditorViewport: Clicking on Actor (LMB): BP_PatrolPath_C (BP_PatrolPath2)
+[2022.09.24-17.09.56:460][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.10.00:292][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.10.06:161][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.10.33:783][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.10.42:260][497]Cmd: DELETE
+[2022.09.24-17.10.42:260][497]Cmd: ACTOR DELETE
+[2022.09.24-17.10.42:285][497]LogEditorActor: Deleted Actor: BP_AI_Sword_C
+[2022.09.24-17.10.42:331][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.09.24-17.10.42:331][497]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2022.09.24-17.10.43:757][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.10.51:204][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.10.55:422][814]Cmd: DELETE
+[2022.09.24-17.10.55:422][814]Cmd: ACTOR DELETE
+[2022.09.24-17.10.55:451][814]LogEditorActor: Deleted Actor: BP_AI_Sword_C
+[2022.09.24-17.10.55:503][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.09.24-17.10.55:503][814]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2022.09.24-17.11.00:431][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.11.18:464][255]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Sword_C (BP_AI_Sword3)
+[2022.09.24-17.11.19:631][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.11.25:651][ 90]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Sword_C (BP_AI_Sword2)
+[2022.09.24-17.11.27:126][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.11.36:771][373]LogEditorViewport: Clicking on Actor (LMB): BP_AI_Sword_C (BP_AI_Sword3)
+[2022.09.24-17.11.38:407][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.11.47:711][646]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.11.47:732][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.11.47:732][646]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-17.11.47:741][646]LogPlayLevel: [PlayLevel] Compiling BP_WizardSkill_Throw before play...
+[2022.09.24-17.11.47:940][646]LogPlayLevel: [PlayLevel] Compiling ElvenRuins before play...
+[2022.09.24-17.11.48:168][646]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2022.09.24-17.11.48:168][646]LogPlayLevel: PlayLevel: Blueprint regeneration took 435 ms (2 blueprints)
+[2022.09.24-17.11.48:168][646]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:11:48)
+[2022.09.24-17.11.48:168][646]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.11.48:243][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074443s)
+[2022.09.24-17.11.48:244][646]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.11.48:244][646]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2022.09.24-17.11.48:244][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.075417s)
+[2022.09.24-17.11.48:276][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.09.24-17.11.48:430][646]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.11.48:477][646]LogInit: FAudioDevice initialized.
+[2022.09.24-17.11.48:508][646]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.11.48:525][646]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.11.48
+[2022.09.24-17.11.48:529][646]LogWorld: Bringing up level for play took: 0.020437
+[2022.09.24-17.11.48:547][646]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.421
+[2022.09.24-17.11.48:547][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.12.14:576][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.12.17:027][908]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.12.21:587][452]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.12.22:893][608]LogBlueprintUserMessages: [BP_GreatSword_C_0] !Sword
+[2022.09.24-17.12.28:730][298]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.12.35:030][ 47]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.12.41:993][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.12.41:993][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.12.42:026][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.12.42:027][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.12.42:064][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.12.42:078][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.09.24-17.12.42:108][879]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.09.24-17.12.46:971][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.12.57:368][635]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/DeadFall_Montage.DeadFall_Montage
+[2022.09.24-17.12.57:376][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.12.57:399][635]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.24-17.12.57:636][635]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.24-17.13.05:043][406]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall_MontageB1E95ADF4556B80F7A65908FAF62DE3E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/DeadFall_Montage.uasset'
+[2022.09.24-17.13.07:787][675]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WizardSkill_Throw00D0D23549BF116EB8C00BAD6CFAE988.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_WizardSkill_Throw.uasset'
+[2022.09.24-17.13.08:961][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.09.24-17.13.12:837][800]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ElvenRuins9FDC917745BEB172459398B38409F765.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap'
+[2022.09.24-17.13.12:876][800]LogFileHelpers: Saving map 'ElvenRuins' took 3.951
+[2022.09.24-17.13.16:604][226]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.13.16:625][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.16:625][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.13.16:625][226]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:13:16)
+[2022.09.24-17.13.16:625][226]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.13.16:702][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076813s)
+[2022.09.24-17.13.16:702][226]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.13.16:703][226]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2022.09.24-17.13.16:703][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077922s)
+[2022.09.24-17.13.16:738][226]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.09.24-17.13.16:910][226]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.13.16:956][226]LogInit: FAudioDevice initialized.
+[2022.09.24-17.13.16:987][226]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.13.17:009][226]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.13.17
+[2022.09.24-17.13.17:013][226]LogWorld: Bringing up level for play took: 0.025514
+[2022.09.24-17.13.17:030][226]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.904
+[2022.09.24-17.13.17:030][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.33:677][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.33:678][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.13.33:714][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.13.33:715][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.33:755][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.13.33:766][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.09.24-17.13.33:797][173]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.09.24-17.13.36:272][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.13.37:727][596]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.24-17.13.51:080][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.13.51:248][986]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy716684944E918255E84280A8BB5B81A3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.13.51:902][ 51]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.13.52:186][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.09.24-17.13.52:452][ 65]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.13.52:479][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.52:479][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.13.52:479][ 65]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:13:52)
+[2022.09.24-17.13.52:479][ 65]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.13.52:560][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080876s)
+[2022.09.24-17.13.52:561][ 65]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.13.52:561][ 65]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2022.09.24-17.13.52:561][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.081619s)
+[2022.09.24-17.13.52:598][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.09.24-17.13.52:756][ 65]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.13.52:803][ 65]LogInit: FAudioDevice initialized.
+[2022.09.24-17.13.52:838][ 65]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.13.52:858][ 65]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.13.52
+[2022.09.24-17.13.52:863][ 65]LogWorld: Bringing up level for play took: 0.022295
+[2022.09.24-17.13.52:880][ 65]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.755
+[2022.09.24-17.13.52:881][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.13.58:565][733]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.14.19:479][223]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.14.42:228][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.14.42:233][923]LogSlate: Took 0.001064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.24-17.14.42:243][923]LogSlate: Took 0.002103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.09.24-17.14.43:618][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.09.24-17.14.46:801][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.14.46:802][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.14.46:839][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.14.46:840][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.14.46:883][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.14.46:893][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.09.24-17.14.46:921][419]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.09.24-17.14.59:732][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.15.18:067][359]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall_MontageD99C3F9649CF501D03EBD1A0192EE076.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/DeadFall_Montage.uasset'
+[2022.09.24-17.15.25:667][169]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall_Montage175B17694D0095BC2EEEC3A5F8E8D73D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/DeadFall_Montage.uasset'
+[2022.09.24-17.15.53:492][190]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.15.53:520][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.15.53:520][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.15.53:520][190]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:15:53)
+[2022.09.24-17.15.53:520][190]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.15.53:600][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079159s)
+[2022.09.24-17.15.53:600][190]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.15.53:601][190]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2022.09.24-17.15.53:601][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.080491s)
+[2022.09.24-17.15.53:638][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.09.24-17.15.53:801][190]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.15.53:847][190]LogInit: FAudioDevice initialized.
+[2022.09.24-17.15.53:877][190]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.15.53:896][190]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.15.53
+[2022.09.24-17.15.53:900][190]LogWorld: Bringing up level for play took: 0.022133
+[2022.09.24-17.15.53:918][190]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.207
+[2022.09.24-17.15.53:919][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.15.57:402][481]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.15.59:818][768]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.16.12:716][302]LogBlueprintUserMessages: [BP_Sword_C_0] !Sword
+[2022.09.24-17.16.18:460][985]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.16.25:660][839]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.16.39:138][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.16.39:138][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.16.39:178][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.16.39:179][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.16.39:221][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.16.39:233][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.24-17.16.39:259][441]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.09.24-17.16.47:712][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.18.10:894][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.18.11:047][311]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyBC1650DD4B1FE7931F491D87328263BA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.18.11:789][380]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.18.12:055][380]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2022.09.24-17.18.12:889][463]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.18.12:919][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.12:919][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.18.12:919][463]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:18:12)
+[2022.09.24-17.18.12:919][463]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.18.12:997][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077426s)
+[2022.09.24-17.18.12:998][463]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.18.12:998][463]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2022.09.24-17.18.12:998][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078605s)
+[2022.09.24-17.18.13:040][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.09.24-17.18.13:194][463]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.18.13:240][463]LogInit: FAudioDevice initialized.
+[2022.09.24-17.18.13:277][463]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.18.13:295][463]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.18.13
+[2022.09.24-17.18.13:299][463]LogWorld: Bringing up level for play took: 0.021401
+[2022.09.24-17.18.13:316][463]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 1.191
+[2022.09.24-17.18.13:317][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.19:974][250]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.18.21:992][492]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.18.27:292][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.27:292][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.18.27:337][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.18.27:337][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.27:380][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.18.27:388][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.09.24-17.18.27:415][125]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.09.24-17.18.29:298][287]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.18.37:412][179]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.18.37:434][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.37:434][179]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-17.18.37:452][179]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.09.24-17.18.37:458][179]LogPlayLevel: [PlayLevel]   Compiling BP_AI as a dependent...
+[2022.09.24-17.18.37:458][179]LogPlayLevel: [PlayLevel]   Compiling BP_AI_Sword as a dependent...
+[2022.09.24-17.18.37:734][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.09.24-17.18.37:734][179]LogPlayLevel: PlayLevel: Blueprint regeneration took 300 ms (3 blueprints)
+[2022.09.24-17.18.37:735][179]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:18:37)
+[2022.09.24-17.18.37:735][179]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.18.37:811][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076019s)
+[2022.09.24-17.18.37:811][179]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.18.37:811][179]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2022.09.24-17.18.37:812][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077236s)
+[2022.09.24-17.18.37:846][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.24-17.18.37:998][179]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.18.38:041][179]LogInit: FAudioDevice initialized.
+[2022.09.24-17.18.38:073][179]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.18.38:092][179]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.18.38
+[2022.09.24-17.18.38:096][179]LogWorld: Bringing up level for play took: 0.021420
+[2022.09.24-17.18.38:113][179]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.012
+[2022.09.24-17.18.38:113][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.18.41:043][518]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.18.43:043][758]LogBlueprintUserMessages: [BP_GreatSword_C_0] !Sword
+[2022.09.24-17.18.44:045][878]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.18.49:798][568]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.19.07:676][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.07:677][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.19.07:711][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.19.07:712][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.07:752][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.19.07:762][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.09.24-17.19.07:791][709]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.09.24-17.19.09:690][872]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.19.13:532][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.19.13:688][252]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy56014B18403C340C4D24CF82C8DD7A6E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.19.14:470][331]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.19.14:759][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.24-17.19.15:395][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.19.15:552][390]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy7FF8DD21406150A6EFB2028CA80170AB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.19.19:673][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat3)
+[2022.09.24-17.19.20:030][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.19.27:624][526]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.19.27:654][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.27:655][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.19.27:655][526]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:19:27)
+[2022.09.24-17.19.27:655][526]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.19.27:734][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078345s)
+[2022.09.24-17.19.27:734][526]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.19.27:734][526]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2022.09.24-17.19.27:735][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.079411s)
+[2022.09.24-17.19.27:772][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.09.24-17.19.27:945][526]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.19.27:989][526]LogInit: FAudioDevice initialized.
+[2022.09.24-17.19.28:021][526]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.19.28:040][526]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.19.28
+[2022.09.24-17.19.28:046][526]LogWorld: Bringing up level for play took: 0.024618
+[2022.09.24-17.19.28:064][526]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.061
+[2022.09.24-17.19.28:065][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.34:528][281]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.19.37:802][671]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.19.47:781][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.47:781][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.19.47:822][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.19.47:823][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.19.47:871][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.19.47:881][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.09.24-17.19.47:906][858]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.09.24-17.20.05:500][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.20.39:784][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-17.20.40:170][992]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player7620F6A94FFDAAB0F28A738F46754FCE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-17.20.42:306][180]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Player_DeadFall_Montage.Player_DeadFall_Montage
+[2022.09.24-17.20.53:834][305]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_Montage35D92D2C4F1FE627E87DF2BD36ED4183.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Player_DeadFall_Montage.uasset'
+[2022.09.24-17.20.55:077][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Column_Large_7)
+[2022.09.24-17.20.56:121][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.20.56:190][554]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.20.56:211][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.20.56:212][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.20.56:212][554]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:20:56)
+[2022.09.24-17.20.56:212][554]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.20.56:290][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077952s)
+[2022.09.24-17.20.56:291][554]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.20.56:291][554]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2022.09.24-17.20.56:291][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.078999s)
+[2022.09.24-17.20.56:331][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.24-17.20.56:497][554]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.20.56:545][554]LogInit: FAudioDevice initialized.
+[2022.09.24-17.20.56:574][554]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.20.56:595][554]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.20.56
+[2022.09.24-17.20.56:600][554]LogWorld: Bringing up level for play took: 0.024681
+[2022.09.24-17.20.56:618][554]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.492
+[2022.09.24-17.20.56:618][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.20.59:936][943]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.21.01:711][152]LogBlueprintUserMessages: [BP_GreatSword_C_0] !Sword
+[2022.09.24-17.21.02:719][272]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.21.04:259][452]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.21.10:297][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.21.10:298][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.10:333][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.21.10:334][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.10:379][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.21.10:390][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.09.24-17.21.10:420][172]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.09.24-17.21.15:461][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.21.15:569][755]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.21.15:593][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.15:593][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.21.15:593][755]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:21:15)
+[2022.09.24-17.21.15:593][755]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.21.15:670][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076494s)
+[2022.09.24-17.21.15:670][755]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.21.15:671][755]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2022.09.24-17.21.15:671][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077526s)
+[2022.09.24-17.21.15:707][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.24-17.21.15:866][755]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.21.15:919][755]LogInit: FAudioDevice initialized.
+[2022.09.24-17.21.15:950][755]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.21.15:967][755]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.21.15
+[2022.09.24-17.21.15:971][755]LogWorld: Bringing up level for play took: 0.020739
+[2022.09.24-17.21.15:989][755]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.137
+[2022.09.24-17.21.15:989][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.22:248][490]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.21.27:593][116]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.21.32:823][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.32:823][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.21.32:858][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.21.32:859][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.21.32:900][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.21.32:916][734]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
+[2022.09.24-17.21.32:942][735]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.09.24-17.21.38:966][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.21.39:637][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.09.24-17.21.43:420][256]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ElvenRuinsA02557B74FF6B98FFC5C92B6C953EBD7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap'
+[2022.09.24-17.21.43:452][256]LogFileHelpers: Saving map 'ElvenRuins' took 3.850
+[2022.09.24-17.22.20:087][111]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.22.20:360][111]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.09.24-17.22.25:194][614]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.22.25:226][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.22.25:226][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.22.25:226][614]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:22:25)
+[2022.09.24-17.22.25:226][614]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.22.25:306][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079365s)
+[2022.09.24-17.22.25:307][614]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.22.25:307][614]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2022.09.24-17.22.25:307][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.080501s)
+[2022.09.24-17.22.25:345][614]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2022.09.24-17.22.25:505][614]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.22.25:550][614]LogInit: FAudioDevice initialized.
+[2022.09.24-17.22.25:585][614]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.22.25:604][614]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.22.25
+[2022.09.24-17.22.25:610][614]LogWorld: Bringing up level for play took: 0.023616
+[2022.09.24-17.22.25:627][614]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: -0.499
+[2022.09.24-17.22.25:628][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.22.37:607][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.22.37:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.22.37:651][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.22.37:652][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.22.37:695][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.22.37:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.09.24-17.22.37:729][  1]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.09.24-17.22.39:393][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.23.08:680][382]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.23.08:700][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.23.08:701][382]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-17.23.08:721][382]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2022.09.24-17.23.08:727][382]LogPlayLevel: [PlayLevel]   Compiling BP_AI as a dependent...
+[2022.09.24-17.23.08:727][382]LogPlayLevel: [PlayLevel]   Compiling BP_AI_Sword as a dependent...
+[2022.09.24-17.23.09:024][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.09.24-17.23.09:024][382]LogPlayLevel: PlayLevel: Blueprint regeneration took 323 ms (3 blueprints)
+[2022.09.24-17.23.09:024][382]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:23:09)
+[2022.09.24-17.23.09:024][382]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.23.09:102][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078351s)
+[2022.09.24-17.23.09:103][382]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.23.09:103][382]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2022.09.24-17.23.09:103][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.079328s)
+[2022.09.24-17.23.09:136][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.24-17.23.09:296][382]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.23.09:345][382]LogInit: FAudioDevice initialized.
+[2022.09.24-17.23.09:380][382]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.23.09:398][382]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.23.09
+[2022.09.24-17.23.09:403][382]LogWorld: Bringing up level for play took: 0.021894
+[2022.09.24-17.23.09:420][382]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 1.295
+[2022.09.24-17.23.09:421][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.23.12:295][715]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Composite', from offset 2942
+[2022.09.24-17.23.12:295][715]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy
+
+[2022.09.24-17.23.12:302][715]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.23.41:723][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.23.41:724][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.23.41:756][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.23.41:757][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.23.41:797][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.23.41:807][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.09.24-17.23.41:830][716]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.09.24-17.27.48:893][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.27.49:034][ 28]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyAD072E9844956D08B9F003859140EEB2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.27.49:389][ 62]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.27.49:680][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2022.09.24-17.28.28:029][ 87]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.28.28:314][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2022.09.24-17.28.47:952][157]LogEditorTransaction: Undo 핀 링크 생성
+[2022.09.24-17.28.47:952][157]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.48:275][169]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.09.24-17.28.48:290][169]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.48:705][188]LogEditorTransaction: Undo 노드 이동
+[2022.09.24-17.28.48:722][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.49:150][209]LogEditorTransaction: Undo 노드 이동
+[2022.09.24-17.28.49:163][209]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.49:570][228]LogEditorTransaction: Undo 노드 이동
+[2022.09.24-17.28.49:585][228]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.49:988][247]LogEditorTransaction: Undo 퓨어 변경
+[2022.09.24-17.28.50:005][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.28.50:424][266]LogEditorTransaction: Undo 인 파라미터 추가
+[2022.09.24-17.28.50:442][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-17.29.22:899][582]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-17.29.23:177][582]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.09.24-17.29.27:049][974]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.29.27:079][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.27:079][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.29.27:080][974]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:29:27)
+[2022.09.24-17.29.27:080][974]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.29.27:156][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076302s)
+[2022.09.24-17.29.27:157][974]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.29.27:157][974]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2022.09.24-17.29.27:157][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.077368s)
+[2022.09.24-17.29.27:193][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2022.09.24-17.29.27:349][974]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.29.27:397][974]LogInit: FAudioDevice initialized.
+[2022.09.24-17.29.27:435][974]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.29.27:455][974]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.29.27
+[2022.09.24-17.29.27:459][974]LogWorld: Bringing up level for play took: 0.022997
+[2022.09.24-17.29.27:477][974]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 1.352
+[2022.09.24-17.29.27:477][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.33:597][698]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.29.35:124][881]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.29.36:374][ 31]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.29.38:125][241]LogBlueprintUserMessages: [BP_GreatSword_C_1] !Sword
+[2022.09.24-17.29.40:142][483]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.29.44:594][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.29.44:594][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.44:637][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.29.44:638][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.44:680][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.29.44:689][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.24-17.29.44:721][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.09.24-17.29.44:860][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Column_Large_3)
+[2022.09.24-17.29.45:754][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.29.45:837][144]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-17.29.45:860][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.45:860][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-17.29.45:860][144]PIE: New page: PIE 세션: ElvenRuins (2022. 9. 25. 오전 11:29:45)
+[2022.09.24-17.29.45:861][144]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins
+[2022.09.24-17.29.45:937][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075955s)
+[2022.09.24-17.29.45:937][144]LogAIModule: Creating AISystem for world ElvenRuins
+[2022.09.24-17.29.45:938][144]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2022.09.24-17.29.45:938][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins (0.076974s)
+[2022.09.24-17.29.45:969][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.09.24-17.29.46:121][144]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-17.29.46:165][144]LogInit: FAudioDevice initialized.
+[2022.09.24-17.29.46:193][144]LogLoad: Game class is 'BP_GameMode_C'
+[2022.09.24-17.29.46:211][144]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins.ElvenRuins up for play (max tick rate 0) at 2022.09.25-02.29.46
+[2022.09.24-17.29.46:215][144]LogWorld: Bringing up level for play took: 0.021544
+[2022.09.24-17.29.46:233][144]PIE: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_ElvenRuins 에 대한 에디터에서 플레이 시작 시간: 0.107
+[2022.09.24-17.29.46:233][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.29.47:514][293]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-17.29.48:910][460]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-17.29.52:297][861]LogBlueprintUserMessages: [BP_GreatSword_C_0] !Sword
+[2022.09.24-17.29.52:372][870]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.29.53:489][  4]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Composite', from offset 2987
+[2022.09.24-17.29.53:489][  4]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ReceiveAnyDamage
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy
+
+[2022.09.24-17.29.53:496][  4]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.30.05:140][490]LogBlueprintUserMessages: [BP_GreatSword_C_2] Sword
+[2022.09.24-17.30.12:358][355]LogBlueprintUserMessages: [BP_GreatSword_C_1] !Sword
+[2022.09.24-17.30.13:574][501]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.30.13:625][507]LogBlueprintUserMessages: [BP_GreatSword_C_1] !Sword
+[2022.09.24-17.30.14:124][567]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-17.30.16:558][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.30.16:558][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.30.16:599][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-17.30.16:600][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2022.09.24-17.30.16:640][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.30.16:650][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.24-17.30.16:681][860]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.09.24-17.30.34:449][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD_68)
+[2022.09.24-17.30.34:657][123]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-17.30.34:700][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.09.24-17.30.38:419][123]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ElvenRuinsDFA3A1924CABF02A6F7255B83AE9BC44.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap'
+[2022.09.24-17.30.39:127][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Flat02)
+[2022.09.24-17.30.40:775][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-17.30.41:079][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.24-17.30.42:168][389]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.24-17.30.42:225][389]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_Montage0EDAA328496C169301AAE4BC3D29B01B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Player_DeadFall_Montage.uasset'
+[2022.09.24-17.30.42:242][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-17.30.42:391][389]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy5026C27B40816AF040E6E290D0B73B3F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-17.30.42:444][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.24-17.30.42:701][389]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_SoundE543EDF941A4AC0048BA60A84B70D30E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Sound.umap'
+[2022.09.24-17.30.42:709][389]LogFileHelpers: Saving map 'AI_Sound' took 0.311
