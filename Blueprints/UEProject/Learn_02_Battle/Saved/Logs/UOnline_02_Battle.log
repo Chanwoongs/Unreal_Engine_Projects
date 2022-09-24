@@ -3744,3 +3744,1164 @@ Script call stack:
 [2022.09.24-11.19.43:202][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
 [2022.09.24-11.19.43:511][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2022.09.24-11.19.43:609][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.24-11.29.05:253][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-11.29.44:967][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.29.49:234][187]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/Enemy/Sword/BT_AI_Sword.BT_AI_Sword
+[2022.09.24-11.30.22:124][942]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.24-11.30.30:954][789]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/BP_Weapon.BP_Weapon
+[2022.09.24-11.30.52:500][747]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.09.24-11.30.52:758][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.09.24-11.30.53:073][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Weapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset" SILENT=true
+[2022.09.24-11.30.53:211][771]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_WeaponACE21B7B42CAA055B91AFEAF07D048BD.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset'
+[2022.09.24-11.30.57:989][267]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword8075EFEA4FB17549F89ACD898071B533.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.24-11.31.00:065][503]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-11.31.25:403][439]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-11.31.25:403][439]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Sword/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
+[2022.09.24-11.31.25:629][439]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemy/Sword/BTDecorator_BlueprintBase_New.
+[2022.09.24-11.31.36:109][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.09.24-11.31.36:115][663]LogMetaData: Removing '/Game/Enemy/Sword/BTDecorator_B.SKEL_BTDecorator_B_C' ref from Metadata '/Game/Enemy/Sword/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2022.09.24-11.31.36:115][663]LogMetaData: Removing '/Game/Enemy/Sword/BTDecorator_B.BTDecorator_B_C' ref from Metadata '/Game/Enemy/Sword/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2022.09.24-11.31.36:136][663]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_B65634E0A488BFCE14EA916881F3F8319.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BTDecorator_B.uasset'
+[2022.09.24-11.31.36:269][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.09.24-11.31.36:305][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.09.24-11.31.36:334][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.09.24-11.31.36:509][677]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/Sword/BTDecorator_B.
+[2022.09.24-11.31.37:767][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.24-11.31.39:156][819]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.24-11.31.39:218][819]LogSlate: Window 'BP_Enemy' being destroyed
+[2022.09.24-11.31.39:223][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-11.31.39:280][819]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Enemy/Sword/BTDecorator_B.BTDecorator_B
+[2022.09.24-11.31.40:709][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.09.24-11.31.40:736][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.09.24-11.31.40:759][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.09.24-11.31.41:973][960]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/Enemy/Sword/BT_AI_Sword.BT_AI_Sword
+[2022.09.24-11.32.31:199][258]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword756AF90E406C560DFF62D3BC01DB6E94.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.24-11.32.48:010][205]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.09.24-11.32.48:032][205]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (한컴 입력기).
+[2022.09.24-11.32.52:159][670]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_Sword2E7C72B74D1DBC55EB62EC962BCCA2E3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.24-11.32.57:957][328]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Sword/BTService_Sword.BTService_Sword
+[2022.09.24-11.33.06:625][187]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.24-11.33.53:883][ 29]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Enums/EStateType.EStateType
+[2022.09.24-11.33.59:172][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/EStateType" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset" SILENT=true
+[2022.09.24-11.33.59:275][620]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/EStateType6520CD3C4128471E49A50286564A7100.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enums/EStateType.uasset'
+[2022.09.24-11.34.01:159][817]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.34.01:374][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.09.24-11.34.13:101][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-11.34.13:337][  3]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyFABD38204637CC5D12D18BB355745ED0.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-11.34.13:913][ 57]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.34.14:114][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.09.24-11.34.55:850][834]LogEditorTransaction: Undo 핀 링크 생성
+[2022.09.24-11.34.56:286][869]LogEditorTransaction: Undo 노드 이동
+[2022.09.24-11.34.56:654][908]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.09.24-11.35.42:218][842]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.09.24-11.36.09:449][968]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.24-11.36.09:511][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.24-11.36.10:267][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.09.24-11.36.10:384][ 41]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeaponBB52CFA74FB2F87BB2CF34BFF8A653F6.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.09.24-11.36.11:534][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-11.36.11:770][154]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy8FA96EF541A8F668A168F5ADF7B0C9D4.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-11.36.13:763][362]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.36.13:970][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.09.24-11.36.30:582][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-11.36.30:816][ 90]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyA2EC2E544DE03B01114AB7B11CCE0C6E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-11.36.31:577][168]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.36.31:793][168]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.24-11.36.55:817][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.09.24-11.36.55:829][808]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Notifies/Common/AN_.
+[2022.09.24-11.36.56:978][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.09.24-11.36.57:817][937]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.24-11.36.57:928][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.24-11.37.02:229][435]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.09.24-11.37.02:242][435]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Notifies/Attacking/AN_PlayNextCombo1.
+[2022.09.24-11.37.05:489][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.SKEL_AN_PlayNextCombo1_C' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:489][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.AN_PlayNextCombo1_C' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:489][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.SKEL_AN_PlayNextCombo1_C:GetNotifyName' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:489][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.SKEL_AN_PlayNextCombo1_C:Received_Notify' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:489][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.AN_PlayNextCombo1_C:GetNotifyName' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:490][811]LogMetaData: Removing '/Game/Notifies/Common/AN_PlayNextCombo1.AN_PlayNextCombo1_C:Received_Notify' ref from Metadata '/Game/Notifies/Attacking/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.05:534][811]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_PlayNextCombo18C0D997B4C1AC7A4267A048CC94BCABB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Common/AN_PlayNextCombo1.uasset'
+[2022.09.24-11.37.05:681][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.09.24-11.37.05:718][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.09.24-11.37.05:745][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.09.24-11.37.05:799][813]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Notifies/Common/AN_PlayNextCombo1.
+[2022.09.24-11.37.11:374][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.09.24-11.37.11:376][470]LogMetaData: Removing '/Game/Notifies/Common/AN_Hitted.AN_Hitted_C' ref from Metadata '/Game/Notifies/Common/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.11:377][470]LogMetaData: Removing '/Game/Notifies/Common/AN_Hitted.SKEL_AN_Hitted_C' ref from Metadata '/Game/Notifies/Common/AN_PlayNextCombo1.PackageMetaData'
+[2022.09.24-11.37.11:412][470]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_Hitted0376586A4B5A86DD4D40A68F8FFDD43A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Common/AN_Hitted.uasset'
+[2022.09.24-11.37.11:548][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.09.24-11.37.11:584][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.24-11.37.11:612][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.24-11.37.11:641][470]LogLinker: Warning: '/Game/Notifies/Common/AN_PlayNextCombo1' 파일을 찾을 수 없습니다.
+[2022.09.24-11.37.11:641][470]LogLinker: Warning: '/Game/Notifies/Common/AN_PlayNextCombo1' 파일을 찾을 수 없습니다.
+[2022.09.24-11.37.11:642][470]LogUObjectGlobals: Warning: 'Object /Game/Notifies/Common/AN_PlayNextCombo1.AN_PlayNextCombo1' 오브젝트를 찾는 데 실패했습니다.
+[2022.09.24-11.37.11:744][481]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Notifies/Common/AN_Hitted.
+[2022.09.24-11.37.12:081][520]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Common/AN_Hitted.AN_Hitted
+[2022.09.24-11.37.42:024][857]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_Hitted9EE177E3436E3E54081FE89E47201786.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Common/AN_Hitted.uasset'
+[2022.09.24-11.37.42:641][922]BlueprintLog: New page: AN_Hitted 컴파일
+[2022.09.24-11.37.42:674][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.09.24-11.37.51:356][900]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/HitReaction_Montage.HitReaction_Montage
+[2022.09.24-11.37.51:362][900]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-11.37.51:387][900]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.24-11.37.51:624][900]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.24-11.37.57:683][520]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-11.38.04:847][119]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/HitReaction_MontageF429B2174CFD9ADCDCD97E9E1702A955.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/HitReaction_Montage.uasset'
+[2022.09.24-11.38.05:149][137]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/HitReaction_Montage9706FCF5469F5B7887E5EE8D3E61A08E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/HitReaction_Montage.uasset'
+[2022.09.24-11.38.51:814][398]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.38.51:835][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.38.51:838][398]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-11.38.51:861][398]LogPlayLevel: [PlayLevel] Compiling BP_Weapon before play...
+[2022.09.24-11.38.51:869][398]LogPlayLevel: [PlayLevel]   Compiling BP_Combo as a dependent...
+[2022.09.24-11.38.51:874][398]LogPlayLevel: [PlayLevel]   Compiling BP_Wizard as a dependent...
+[2022.09.24-11.38.51:876][398]LogPlayLevel: [PlayLevel]   Compiling BP_Fist as a dependent...
+[2022.09.24-11.38.51:877][398]LogPlayLevel: [PlayLevel]   Compiling BP_GreatSword as a dependent...
+[2022.09.24-11.38.51:879][398]LogPlayLevel: [PlayLevel]   Compiling BP_Sword as a dependent...
+[2022.09.24-11.38.52:067][398]LogPlayLevel: [PlayLevel] Compiling BP_InterfaceTest before play...
+[2022.09.24-11.38.52:097][398]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2022.09.24-11.38.52:279][398]LogPlayLevel: [PlayLevel] Compiling BTDecorator_Equip before play...
+[2022.09.24-11.38.52:398][398]LogPlayLevel: [PlayLevel] Compiling BTDecorator_UnEquip before play...
+[2022.09.24-11.38.52:517][398]LogPlayLevel: [PlayLevel] Compiling BTTask_Equip before play...
+[2022.09.24-11.38.52:637][398]LogPlayLevel: [PlayLevel] Compiling BTTask_UnEquip before play...
+[2022.09.24-11.38.52:756][398]LogPlayLevel: [PlayLevel] Compiling BTTask_Sword_Attack before play...
+[2022.09.24-11.38.52:876][398]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2022.09.24-11.38.53:023][398]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2022.09.24-11.38.53:079][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.09.24-11.38.53:079][398]LogPlayLevel: PlayLevel: Blueprint regeneration took 1241 ms (15 blueprints)
+[2022.09.24-11.38.53:079][398]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:38:53)
+[2022.09.24-11.38.53:079][398]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.38.53:084][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004261s)
+[2022.09.24-11.38.53:084][398]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.38.53:084][398]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2022.09.24-11.38.53:084][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.005266s)
+[2022.09.24-11.38.53:113][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.09.24-11.38.53:284][398]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.38.53:329][398]LogInit: FAudioDevice initialized.
+[2022.09.24-11.38.53:358][398]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.38.53:360][398]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.38.53
+[2022.09.24-11.38.53:362][398]LogWorld: Bringing up level for play took: 0.003560
+[2022.09.24-11.38.53:378][398]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 1.252
+[2022.09.24-11.38.53:378][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.38.59:654][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.38.59:657][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.38.59:684][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.38.59:684][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.38.59:715][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.38.59:719][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.09.24-11.38.59:767][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2022.09.24-11.39.01:613][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.41.12:743][943]BlueprintLog: New page: BTService_Sword 컴파일
+[2022.09.24-11.41.12:891][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.09.24-11.41.13:297][981]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.41.13:316][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.41.13:318][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-11.41.13:318][981]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:41:13)
+[2022.09.24-11.41.13:318][981]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.41.13:322][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003849s)
+[2022.09.24-11.41.13:323][981]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.41.13:323][981]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2022.09.24-11.41.13:323][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004707s)
+[2022.09.24-11.41.13:354][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.09.24-11.41.13:506][981]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.41.13:551][981]LogInit: FAudioDevice initialized.
+[2022.09.24-11.41.13:585][981]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.41.13:588][981]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.41.13
+[2022.09.24-11.41.13:590][981]LogWorld: Bringing up level for play took: 0.004319
+[2022.09.24-11.41.13:605][981]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: -0.52
+[2022.09.24-11.41.13:606][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.41.22:500][984]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-11.41.23:626][119]LogBlueprintUserMessages: [BP_GreatSword_C_1] !Sword
+[2022.09.24-11.41.29:978][881]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-11.41.36:431][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.41.36:434][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.41.36:463][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.41.36:463][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.41.36:499][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.41.36:503][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.09.24-11.41.36:540][657]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2022.09.24-11.41.38:033][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-11.42.13:581][527]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.42.13:599][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.42.13:601][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-11.42.13:602][527]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:42:13)
+[2022.09.24-11.42.13:602][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.42.13:606][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003721s)
+[2022.09.24-11.42.13:606][527]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.42.13:606][527]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2022.09.24-11.42.13:606][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004457s)
+[2022.09.24-11.42.13:638][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.09.24-11.42.13:796][527]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.42.13:841][527]LogInit: FAudioDevice initialized.
+[2022.09.24-11.42.13:870][527]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.42.13:872][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.42.13
+[2022.09.24-11.42.13:874][527]LogWorld: Bringing up level for play took: 0.003698
+[2022.09.24-11.42.13:889][527]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: -0.236
+[2022.09.24-11.42.13:890][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.42.17:185][919]LogBlueprintUserMessages: [BP_GreatSword_C_0] Sword
+[2022.09.24-11.42.26:209][998]LogScript: Warning: Sword 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	BP_AI_Sword_C /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword:PersistentLevel.BP_AI_Sword2_5
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:05F7
+[2022.09.24-11.42.26:209][998]PIE: Error: 블루프린트 런타임 오류: "Sword 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트:  BP_Enemy 함수:  Execute Ubergraph BP Enemy 그래프: Die 노드: DestroyActor
+[2022.09.24-11.42.38:736][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-11.42.39:883][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2022.09.24-11.43.00:633][907]LogScript: Warning: Sword 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	BP_AI_Sword_C /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword:PersistentLevel.BP_AI_Sword_2
+	Function /Game/Enemy/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:05F7
+[2022.09.24-11.43.00:634][907]PIE: Error: 블루프린트 런타임 오류: "Sword 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트:  BP_Enemy 함수:  Execute Ubergraph BP Enemy 그래프: Die 노드: DestroyActor
+[2022.09.24-11.43.06:689][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.06:692][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.43.06:723][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.43.06:723][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.06:756][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.43.06:761][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.09.24-11.43.06:793][634]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2022.09.24-11.43.13:281][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.43.13:384][999]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.24-11.43.37:572][693]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.43.37:786][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.09.24-11.43.37:819][693]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-11.43.38:027][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.09.24-11.43.38:606][754]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.43.38:631][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.38:633][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-11.43.38:633][754]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:43:38)
+[2022.09.24-11.43.38:634][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.43.38:637][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003595s)
+[2022.09.24-11.43.38:638][754]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.43.38:638][754]LogPlayLevel: PIE: World Init took: (0.000441s)
+[2022.09.24-11.43.38:638][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004319s)
+[2022.09.24-11.43.38:668][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.09.24-11.43.38:824][754]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.43.38:869][754]LogInit: FAudioDevice initialized.
+[2022.09.24-11.43.38:902][754]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.43.38:904][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.43.38
+[2022.09.24-11.43.38:906][754]LogWorld: Bringing up level for play took: 0.003456
+[2022.09.24-11.43.38:922][754]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 0.796
+[2022.09.24-11.43.38:922][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.52:661][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.52:663][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.43.52:696][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.43.52:697][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.52:733][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.43.52:737][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.24-11.43.52:779][395]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2022.09.24-11.43.54:013][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-11.43.54:460][596]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.43.54:479][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.54:481][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-11.43.54:482][596]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:43:54)
+[2022.09.24-11.43.54:482][596]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.43.54:485][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
+[2022.09.24-11.43.54:486][596]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.43.54:486][596]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2022.09.24-11.43.54:486][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004451s)
+[2022.09.24-11.43.54:518][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.09.24-11.43.54:669][596]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.43.54:715][596]LogInit: FAudioDevice initialized.
+[2022.09.24-11.43.54:742][596]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.43.54:744][596]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.43.54
+[2022.09.24-11.43.54:746][596]LogWorld: Bringing up level for play took: 0.003740
+[2022.09.24-11.43.54:761][596]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 0.636
+[2022.09.24-11.43.54:762][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.43.57:942][976]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-11.43.59:069][111]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-11.44.05:527][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.05:530][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.44.05:562][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.44.05:562][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.05:593][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.44.05:597][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.09.24-11.44.05:638][887]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2022.09.24-11.44.07:324][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-11.44.35:887][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-11.44.36:127][813]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy397B7EF545F8D89C400513ACB0BB7447.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-11.44.37:096][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.44.37:825][994]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BT_AI_SwordDBD5129545F3ECBD27CF98994EE139DF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BT_AI_Sword.uasset'
+[2022.09.24-11.44.38:132][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.44.38:986][105]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTService_Sword1162D1BC4633FEFFE1DBCC895F067857.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BTService_Sword.uasset'
+[2022.09.24-11.44.42:700][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.44.42:759][510]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-11.44.42:785][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.42:787][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-11.44.42:787][510]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 5:44:42)
+[2022.09.24-11.44.42:787][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-11.44.42:791][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003718s)
+[2022.09.24-11.44.42:791][510]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-11.44.42:791][510]LogPlayLevel: PIE: World Init took: (0.000431s)
+[2022.09.24-11.44.42:791][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004432s)
+[2022.09.24-11.44.42:821][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.09.24-11.44.42:970][510]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-11.44.43:013][510]LogInit: FAudioDevice initialized.
+[2022.09.24-11.44.43:041][510]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-11.44.43:044][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-20.44.43
+[2022.09.24-11.44.43:046][510]LogWorld: Bringing up level for play took: 0.003515
+[2022.09.24-11.44.43:061][510]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 0.936
+[2022.09.24-11.44.43:062][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.46:636][934]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-11.44.58:275][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.58:278][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.44.58:310][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-11.44.58:310][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-11.44.58:344][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-11.44.58:348][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.09.24-11.44.58:393][319]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2022.09.24-11.45.43:172][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.09.24-11.45.43:448][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto61A0FAA7043E6A4BA24E43E9533935FD1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto6.umap'
+[2022.09.24-11.45.43:451][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.311
+[2022.09.24-11.45.43:451][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2022.09.24-11.45.43:452][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_InterfaceTest] ([1] browsable assets)...
+[2022.09.24-11.45.43:452][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_InterfaceTest]
+[2022.09.24-11.45.43:579][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTest_Auto6652E5CFA400DE27850922C86C69B5AB8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/BP_InterfaceTest_Auto6.uasset'
+[2022.09.24-11.45.43:581][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/BP_Weapon] ([1] browsable assets)...
+[2022.09.24-11.45.43:581][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/BP_Weapon]
+[2022.09.24-11.45.43:735][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Weapon_Auto60F191E6A4C712EA417BE5799BAEB7AED.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Weapons/BP_Weapon_Auto6.uasset'
+[2022.09.24-11.45.43:737][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.24-11.45.43:747][ 92]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.24-11.45.43:747][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.24-11.45.44:212][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto6F51F0F734CF2C7F8983E8DBE704794AA.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto6.uasset'
+[2022.09.24-11.45.44:215][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/ABP_Player] ([1] browsable assets)...
+[2022.09.24-11.45.44:223][ 92]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Player/ABP_Player.ABP_Player]
+[2022.09.24-11.45.44:223][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ABP_Player]
+[2022.09.24-11.45.44:535][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player_Auto6C5CDE78840C7FEC4D4B994B7F4A3E57D.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/ABP_Player_Auto6.uasset'
+[2022.09.24-11.45.44:537][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTDecorator_Equip] ([1] browsable assets)...
+[2022.09.24-11.45.44:537][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTDecorator_Equip]
+[2022.09.24-11.45.44:667][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_Equip_Auto6FE27B4984DD2533A6B78D8BA62337564.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTDecorator_Equip_Auto6.uasset'
+[2022.09.24-11.45.44:669][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTDecorator_UnEquip] ([1] browsable assets)...
+[2022.09.24-11.45.44:669][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTDecorator_UnEquip]
+[2022.09.24-11.45.44:788][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_UnEquip_Auto68A83F76148C65E29F2620DB011D979C1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTDecorator_UnEquip_Auto6.uasset'
+[2022.09.24-11.45.44:790][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTTask_Equip] ([1] browsable assets)...
+[2022.09.24-11.45.44:790][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTTask_Equip]
+[2022.09.24-11.45.44:925][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Equip_Auto6120129014A20044E4CAF318A4684C0F8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTTask_Equip_Auto6.uasset'
+[2022.09.24-11.45.44:926][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTTask_UnEquip] ([1] browsable assets)...
+[2022.09.24-11.45.44:927][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTTask_UnEquip]
+[2022.09.24-11.45.45:049][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_UnEquip_Auto6ACC13B5B485A19CF7B6F639F0E5A90BC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTTask_UnEquip_Auto6.uasset'
+[2022.09.24-11.45.45:050][ 92]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Sword/BTTask_Sword_Attack] ([1] browsable assets)...
+[2022.09.24-11.45.45:050][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Sword/BTTask_Sword_Attack]
+[2022.09.24-11.45.45:175][ 92]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Sword_Attack_Auto6237C8BA447CB308879CCC0AFCE2861E3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Sword/BTTask_Sword_Attack_Auto6.uasset'
+[2022.09.24-11.45.45:177][ 92]LogFileHelpers: Auto-saving content packages took 1.725
+[2022.09.24-11.58.01:004][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.58.01:244][643]LogSlate: Window 'BP_Enemy' being destroyed
+[2022.09.24-11.58.01:259][643]LogSlate: Window 'BP_Enemy' being destroyed
+[2022.09.24-11.58.05:953][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.58.07:164][324]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/BP_Player.BP_Player
+[2022.09.24-11.59.38:792][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.09.24-11.59.39:063][885]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto7838EB2F04E3C1A0BF32273A7A055B335.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto7.umap'
+[2022.09.24-11.59.39:066][885]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.312
+[2022.09.24-11.59.39:067][885]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2022.09.24-11.59.39:069][885]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.24-11.59.39:078][885]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.24-11.59.39:078][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.24-11.59.39:502][885]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto742E389174E9D4A14146BFFAD6C28596A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto7.uasset'
+[2022.09.24-11.59.39:505][885]LogFileHelpers: Auto-saving content packages took 0.436
+[2022.09.24-11.59.44:497][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-11.59.49:749][652]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Combo/BP_Combo.BP_Combo
+[2022.09.24-12.00.11:552][949]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Wizard/BP_Wizard.BP_Wizard
+[2022.09.24-12.00.38:949][977]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Wizard2CE817084ABB306E9A33939E0E1B9A9F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Wizard/BP_Wizard.uasset'
+[2022.09.24-12.00.42:083][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.00.43:503][476]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo0D0A7A7149E7F26681EF9CA4720D8394.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Combo/BP_Combo.uasset'
+[2022.09.24-12.00.43:966][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.00.44:615][601]BlueprintLog: New page: BP_Combo 컴파일
+[2022.09.24-12.00.44:809][601]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.09.24-12.01.03:108][585]BlueprintLog: New page: BP_Combo 컴파일
+[2022.09.24-12.01.03:298][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.09.24-12.01.04:084][650]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Combo733139C8416C604E7E19AE907272A789.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Combo/BP_Combo.uasset'
+[2022.09.24-12.01.06:666][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.01.07:419][  0]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/BP_Weapon.BP_Weapon
+[2022.09.24-12.01.16:367][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Weapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset" SILENT=true
+[2022.09.24-12.01.16:510][956]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Weapon1BAD404745F9F0565FA67CAF42DC34C5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/BP_Weapon.uasset'
+[2022.09.24-12.01.17:142][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.01.17:217][ 34]BlueprintLog: New page: BP_Weapon 컴파일
+[2022.09.24-12.01.17:462][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.24-12.01.32:895][823]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.01.33:112][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.09.24-12.01.34:633][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-12.01.35:045][956]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerCFFD88E3442EB657CFAC51A92A70CE2C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-12.09.40:017][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.09.24-12.09.40:297][ 99]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto81A05F1574A754F212BF9708F588CA976.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto8.umap'
+[2022.09.24-12.09.40:300][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.325
+[2022.09.24-12.09.40:300][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.325
+[2022.09.24-12.09.40:301][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/ABP_Player] ([1] browsable assets)...
+[2022.09.24-12.09.40:302][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ABP_Player]
+[2022.09.24-12.09.40:526][ 99]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player_Auto8CFC2E51040B19D018DBDFA8004A7E41A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/ABP_Player_Auto8.uasset'
+[2022.09.24-12.09.40:529][ 99]LogFileHelpers: Auto-saving content packages took 0.228
+[2022.09.24-12.16.02:745][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.16.14:684][552]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/BP_Enemy.BP_Enemy
+[2022.09.24-12.17.05:381][463]LogSlate: Took 0.000972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.09.24-12.17.08:737][551]LogSlate: Window '변수 유형 변경' being destroyed
+[2022.09.24-12.17.08:770][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.17.13:517][981]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.17.13:532][981]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.19.02:872][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.19.13:192][677]LogSlate: Window '변수 유형 변경' being destroyed
+[2022.09.24-12.19.13:224][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.19.16:466][964]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.19.16:475][964]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.19.16:837][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.19.17:507][ 67]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.19.17:962][ 67]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.19.17:978][ 67]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.19.17:981][ 67]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.19.18:162][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.09.24-12.19.18:204][ 67]LogBlueprint: Warning: [Compiler BP_Player] [9700.15] BP_Player 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 1 회, [소요시간 697 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.19.31:808][500]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.19.31:838][500]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.19.31:854][500]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.19.31:857][500]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.19.32:026][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.09.24-12.19.32:063][500]LogBlueprint: Warning: [Compiler BP_Player] [9714.01] BP_Player 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 1 회, [소요시간 255 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.20.56:016][732]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.20.56:045][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:045][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:046][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:046][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:046][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:047][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:047][732]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.20.56:063][732]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.20.56:067][732]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:067][732]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:068][732]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:068][732]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:068][732]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:068][732]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:068][732]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.20.56:256][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.24-12.20.56:293][732]LogBlueprint: Warning: [Compiler BP_Player] [9798.24] BP_Player 컴파일에 실패했습니다. 치명적 오류 8 회, 경고 7 회, [소요시간 277 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.21.08:976][123]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.21.09:005][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:005][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:006][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:006][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:006][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:007][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:007][123]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.21.09:023][123]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.21.09:026][123]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:027][123]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:027][123]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:027][123]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:028][123]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:028][123]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:028][123]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.21.09:198][123]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.09.24-12.21.09:236][123]LogBlueprint: Warning: [Compiler BP_Player] [9811.18] BP_Player 컴파일에 실패했습니다. 치명적 오류 8 회, 경고 7 회, [소요시간 260 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.21.41:772][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.09.24-12.21.41:784][931]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Notifies/Common/AN_Dead.
+[2022.09.24-12.21.41:887][941]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Common/AN_Dead.AN_Dead
+[2022.09.24-12.21.57:051][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_IWeapon.BP_IWeapon
+[2022.09.24-12.22.28:004][276]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.24-12.22.28:067][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.09.24-12.23.07:034][723]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-12.23.07:258][723]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.24-12.24.41:412][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-12.24.41:654][479]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy3B2959284FE46E4C46D07AAE183A1B5E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-12.25.28:465][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-12.25.28:696][732]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_EnemyE2A2FC3D4A831CE8D1DE809742461428.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-12.25.41:029][167]BlueprintLog: New page: BP_Enemy 컴파일
+[2022.09.24-12.25.41:259][167]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.09.24-12.25.43:430][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BP_Enemy" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset" SILENT=true
+[2022.09.24-12.25.43:665][411]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Enemy4A92EDCA4E2F5E60203570946A9C35CB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BP_Enemy.uasset'
+[2022.09.24-12.25.53:209][491]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AN_Dead2F6AD64D4FB300767F3C55B507623628.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Common/AN_Dead.uasset'
+[2022.09.24-12.25.53:300][497]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Notifies/Common/AN_Dead.
+[2022.09.24-12.25.53:584][530]BlueprintLog: New page: AN_Dead 컴파일
+[2022.09.24-12.25.53:619][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.09.24-12.26.21:276][678]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.26.21:305][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:306][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:306][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:307][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:307][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:307][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:308][678]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.26.21:324][678]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.26.21:327][678]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:328][678]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:328][678]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:328][678]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:328][678]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:329][678]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:329][678]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.26.21:505][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.09.24-12.26.21:544][678]LogBlueprint: Warning: [Compiler BP_Player] [0123.49] BP_Player 컴파일에 실패했습니다. 치명적 오류 8 회, 경고 7 회, [소요시간 266 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.26.40:273][785]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/DeadFall_Montage.DeadFall_Montage
+[2022.09.24-12.26.40:280][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.24-12.26.40:302][785]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_70:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.24-12.26.40:536][785]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.24-12.26.47:541][405]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-12.26.51:512][819]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.26.51:645][819]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/DeadFall_MontageF1A48F7A455B6954268417BFA49851EB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/DeadFall_Montage.uasset'
+[2022.09.24-12.27.02:401][846]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_Montage8DF2A12E458BB95F8B7151821E93F7B8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Player_DeadFall_Montage.uasset'
+[2022.09.24-12.27.02:571][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.24-12.27.02:611][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.09.24-12.27.02:644][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.09.24-12.27.02:824][854]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Player_DeadFall_Montage.Player_DeadFall_Montage
+[2022.09.24-12.27.36:426][745]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_Montage7E1645624A6430EA80AF0DB05D84C4E1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Player_DeadFall_Montage.uasset'
+[2022.09.24-12.27.37:687][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.09.24-12.27.37:808][877]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeapon5E30F96E478390A22506DCB45F623AB5.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.09.24-12.27.38:288][926]BlueprintLog: New page: BP_IWeapon 컴파일
+[2022.09.24-12.27.38:350][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.09.24-12.27.38:959][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_IWeapon" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset" SILENT=true
+[2022.09.24-12.27.39:077][987]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_IWeapon932DC41E4AFCA2C03F4313A06F8ECE1C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_IWeapon.uasset'
+[2022.09.24-12.28.11:766][604]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.28.11:796][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:797][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:797][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:797][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:798][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:798][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:799][604]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Causer" 라는 이름의 변수를 찾을 수 없습니다.
+ Causer 설정  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.11:815][604]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.28.11:819][604]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:819][604]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:819][604]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:820][604]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:820][604]LogBlueprint: Error: [Compiler BP_Player] Causer  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:820][604]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.11:820][604]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.12:001][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.09.24-12.28.12:039][604]LogBlueprint: Warning: [Compiler BP_Player] [0233.99] BP_Player 컴파일에 실패했습니다. 치명적 오류 8 회, 경고 7 회, [소요시간 272 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.28.32:356][741]LogSlate: Window '변수 유형 변경' being destroyed
+[2022.09.24-12.28.34:823][996]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.28.34:834][996]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2022.09.24-12.28.35:959][114]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.28.35:989][114]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.35:989][114]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.28.36:005][114]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.28.36:010][114]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.36:010][114]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.28.36:193][114]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.09.24-12.28.36:234][114]LogBlueprint: Warning: [Compiler BP_Player] [0258.18] BP_Player 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 2 회, [소요시간 274 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.29.57:934][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-12.29.58:389][626]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player4BFBE21F457252A8A5A82AA47A5662FF.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-12.30.06:434][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-12.30.06:905][421]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player9C87F93540C6E822161BA89076AD1FE3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-12.30.07:838][500]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.30.07:869][500]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.30.07:869][500]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.30.07:886][500]LogBlueprint: Error: [Compiler BP_Player] 이 블루프린트(셀프)는 Controller 이지 않으므로, ' 타깃 ' 에 연결이 있어야 합니다.
+[2022.09.24-12.30.07:890][500]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.30.07:890][500]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.30.08:076][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.09.24-12.30.08:116][500]LogBlueprint: Warning: [Compiler BP_Player] [0350.06] BP_Player 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 2 회, [소요시간 278 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.30.49:196][784]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.30.49:226][784]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.30.49:227][784]LogBlueprint: Warning: [Compiler BP_Player] 'BP_Player_C' 에서 "Fire" 라는 이름의 변수를 찾을 수 없습니다.
+ Fire 구하기  에 대해 'BP_Player_C' 컴파일이 되었는지 확인하세요.
+[2022.09.24-12.30.49:248][784]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.30.49:248][784]LogBlueprint: Error: [Compiler BP_Player] Fire  와 연관된 프로퍼티를 찾지 못했습니다.
+[2022.09.24-12.30.49:428][784]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.09.24-12.30.49:470][784]LogBlueprint: Warning: [Compiler BP_Player] [0391.42] BP_Player 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 2 회, [소요시간 273 ms] (/Game/Player/BP_Player.BP_Player)
+[2022.09.24-12.31.15:695][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.09.24-12.31.15:986][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_Sword_Auto9B014B4FB4B61DD5E827F539F5D384963.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Levels/AI_Sword_Auto9.umap'
+[2022.09.24-12.31.15:989][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/AI_Sword' took 0.335
+[2022.09.24-12.31.15:990][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.335
+[2022.09.24-12.31.15:991][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_InterfaceTest] ([1] browsable assets)...
+[2022.09.24-12.31.15:991][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_InterfaceTest]
+[2022.09.24-12.31.16:107][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTest_Auto9F0D06CAB4B6E80A136689383803CB44E.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/BP_InterfaceTest_Auto9.uasset'
+[2022.09.24-12.31.16:109][ 53]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/BP_Player] ([1] browsable assets)...
+[2022.09.24-12.31.16:117][ 53]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2022.09.24-12.31.16:117][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2022.09.24-12.31.16:596][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player_Auto9A3CC4D1D4CA80685E876FA86EDD106DE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/BP_Player_Auto9.uasset'
+[2022.09.24-12.31.16:599][ 53]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/ABP_Player] ([1] browsable assets)...
+[2022.09.24-12.31.16:607][ 53]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Player/ABP_Player.ABP_Player]
+[2022.09.24-12.31.16:608][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/ABP_Player]
+[2022.09.24-12.31.16:854][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player_Auto932CABD854E9B1610B3ACAFB88925747F.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Player/ABP_Player_Auto9.uasset'
+[2022.09.24-12.31.16:856][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTDecorator_Equip] ([1] browsable assets)...
+[2022.09.24-12.31.16:856][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTDecorator_Equip]
+[2022.09.24-12.31.17:023][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_Equip_Auto9D662229A4228A1926311068030BA3DCE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTDecorator_Equip_Auto9.uasset'
+[2022.09.24-12.31.17:026][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTDecorator_UnEquip] ([1] browsable assets)...
+[2022.09.24-12.31.17:026][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTDecorator_UnEquip]
+[2022.09.24-12.31.17:145][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_UnEquip_Auto9AABE41CE477C46E2FAD094ADDA2C2AAE.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTDecorator_UnEquip_Auto9.uasset'
+[2022.09.24-12.31.17:147][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTTask_Equip] ([1] browsable assets)...
+[2022.09.24-12.31.17:147][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTTask_Equip]
+[2022.09.24-12.31.17:269][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Equip_Auto9A533FCCF43F5BD03A1F44C926D48F61A.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTTask_Equip_Auto9.uasset'
+[2022.09.24-12.31.17:271][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/BTTask_UnEquip] ([1] browsable assets)...
+[2022.09.24-12.31.17:271][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/BTTask_UnEquip]
+[2022.09.24-12.31.17:395][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_UnEquip_Auto98A24E6FA484ABE72FBEA9DB04FD1BBB9.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/BTTask_UnEquip_Auto9.uasset'
+[2022.09.24-12.31.17:397][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Sword/BTTask_Sword_Attack] ([1] browsable assets)...
+[2022.09.24-12.31.17:397][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Sword/BTTask_Sword_Attack]
+[2022.09.24-12.31.17:529][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Sword_Attack_Auto99AEE7AF141F39FA28EECDBA95FB784E2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Enemy/Sword/BTTask_Sword_Attack_Auto9.uasset'
+[2022.09.24-12.31.17:531][ 53]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Montages/Player_DeadFall_Montage] ([1] browsable assets)...
+[2022.09.24-12.31.17:540][ 53]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Character/Montages/Player_DeadFall_Montage.Player_DeadFall_Montage]
+[2022.09.24-12.31.17:540][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Montages/Player_DeadFall_Montage]
+[2022.09.24-12.31.17:651][ 53]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_Montage_Auto90182F8DA462EBC6C19E925B64E7EC326.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Autosaves/Game/Character/Montages/Player_DeadFall_Montage_Auto9.uasset'
+[2022.09.24-12.31.17:652][ 53]LogFileHelpers: Auto-saving content packages took 1.662
+[2022.09.24-12.31.42:376][245]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.31.42:611][245]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.24-12.31.43:655][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-12.31.44:087][318]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_Player953653D148898B576554318FA632FC56.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-12.32.05:352][816]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Weapons/Combo/BP_GreatSword.BP_GreatSword
+[2022.09.24-12.32.36:475][899]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_GreatSword8F5849E342196B81B41087998954E9A3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Combo/BP_GreatSword.uasset'
+[2022.09.24-12.32.37:576][ 20]BlueprintLog: New page: BP_GreatSword 컴파일
+[2022.09.24-12.32.37:749][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.09.24-12.32.45:359][901]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_GreatSwordFA7F74734376358BD78FDC8213934AE3.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Weapons/Combo/BP_GreatSword.uasset'
+[2022.09.24-12.33.03:618][ 22]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Great_Sword_Slash_Montage.Great_Sword_Slash_Montage
+[2022.09.24-12.33.13:149][ 91]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.24-12.33.28:080][641]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Great_Sword_Slash_MontageEE9DA93E4598E0B707AD4E9864D5F0F2.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Great_Sword_Slash_Montage.uasset'
+[2022.09.24-12.33.29:898][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.33.29:972][855]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-12.33.30:000][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.33.30:000][855]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.09.24-12.33.30:005][855]LogPlayLevel: [PlayLevel] Compiling BP_InterfaceTest before play...
+[2022.09.24-12.33.30:046][855]LogPlayLevel: [PlayLevel] Compiling BTDecorator_Equip before play...
+[2022.09.24-12.33.30:173][855]LogPlayLevel: [PlayLevel] Compiling BTDecorator_UnEquip before play...
+[2022.09.24-12.33.30:301][855]LogPlayLevel: [PlayLevel] Compiling BTTask_Equip before play...
+[2022.09.24-12.33.30:427][855]LogPlayLevel: [PlayLevel] Compiling BTTask_UnEquip before play...
+[2022.09.24-12.33.30:554][855]LogPlayLevel: [PlayLevel] Compiling BTTask_Sword_Attack before play...
+[2022.09.24-12.33.30:682][855]LogPlayLevel: [PlayLevel] Compiling ABP_Player before play...
+[2022.09.24-12.33.30:873][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.09.24-12.33.30:873][855]LogPlayLevel: PlayLevel: Blueprint regeneration took 872 ms (7 blueprints)
+[2022.09.24-12.33.30:874][855]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 6:33:30)
+[2022.09.24-12.33.30:874][855]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-12.33.30:878][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004017s)
+[2022.09.24-12.33.30:878][855]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-12.33.30:879][855]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2022.09.24-12.33.30:879][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.005115s)
+[2022.09.24-12.33.30:916][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.09.24-12.33.31:069][855]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-12.33.31:112][855]LogInit: FAudioDevice initialized.
+[2022.09.24-12.33.31:144][855]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-12.33.31:146][855]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-21.33.31
+[2022.09.24-12.33.31:148][855]LogWorld: Bringing up level for play took: 0.003289
+[2022.09.24-12.33.31:164][855]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 1.038
+[2022.09.24-12.33.31:164][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.33.33:964][189]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-12.33.35:332][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.33.35:332][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.33.35:367][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-12.33.35:368][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.33.35:406][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.33.35:410][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.09.24-12.33.35:451][355]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2022.09.24-12.33.37:067][463]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.33.47:104][548]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Notifies/Attacking/ANS_Collision.ANS_Collision
+[2022.09.24-12.34.35:100][ 15]BlueprintLog: New page: ANS_Collision 컴파일
+[2022.09.24-12.34.35:265][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.09.24-12.34.58:824][755]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ANS_CollisionE4B3B34648D2D59732DD4DAC42EEBCD7.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Notifies/Attacking/ANS_Collision.uasset'
+[2022.09.24-12.35.00:595][961]BlueprintLog: New page: ANS_Collision 컴파일
+[2022.09.24-12.35.00:764][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.09.24-12.35.08:367][852]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-12.35.08:396][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.35.08:397][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-12.35.08:397][852]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 6:35:08)
+[2022.09.24-12.35.08:397][852]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-12.35.08:401][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004136s)
+[2022.09.24-12.35.08:402][852]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-12.35.08:402][852]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2022.09.24-12.35.08:402][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004911s)
+[2022.09.24-12.35.08:441][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.24-12.35.08:592][852]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-12.35.08:635][852]LogInit: FAudioDevice initialized.
+[2022.09.24-12.35.08:662][852]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-12.35.08:664][852]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-21.35.08
+[2022.09.24-12.35.08:666][852]LogWorld: Bringing up level for play took: 0.003494
+[2022.09.24-12.35.08:681][852]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 0.556
+[2022.09.24-12.35.08:682][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.35.11:213][154]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-12.35.31:967][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.35.31:968][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.35.32:006][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-12.35.32:006][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.35.32:046][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.35.32:050][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.09.24-12.35.32:072][640]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2022.09.24-12.35.53:329][946]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.36.09:014][638]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Character/Montages/Player_DeadFall_Montage.Player_DeadFall_Montage
+[2022.09.24-12.36.24:352][370]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/Player_DeadFall_MontageAA1162D049AFFE47C5592C8EC49048BC.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Character/Montages/Player_DeadFall_Montage.uasset'
+[2022.09.24-12.36.50:200][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset" SILENT=true
+[2022.09.24-12.36.50:648][239]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_PlayerC9BB05B34D295CAF4D66D6BB7F3AE33C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/BP_Player.uasset'
+[2022.09.24-12.36.51:276][311]BlueprintLog: New page: BP_Player 컴파일
+[2022.09.24-12.36.51:523][311]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.09.24-12.36.53:088][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.36.53:154][497]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-12.36.53:189][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.36.53:190][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-12.36.53:190][497]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 6:36:53)
+[2022.09.24-12.36.53:190][497]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-12.36.53:194][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003764s)
+[2022.09.24-12.36.53:194][497]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-12.36.53:195][497]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2022.09.24-12.36.53:195][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004592s)
+[2022.09.24-12.36.53:235][497]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.09.24-12.36.53:388][497]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-12.36.53:432][497]LogInit: FAudioDevice initialized.
+[2022.09.24-12.36.53:459][497]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-12.36.53:461][497]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-21.36.53
+[2022.09.24-12.36.53:463][497]LogWorld: Bringing up level for play took: 0.003473
+[2022.09.24-12.36.53:479][497]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: -0.647
+[2022.09.24-12.36.53:479][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.36.57:104][930]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-12.37.11:240][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.37.11:241][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.37.11:272][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-12.37.11:272][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.37.11:312][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.37.11:316][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.09.24-12.37.11:337][576]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2022.09.24-12.37.33:014][136]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.37.56:477][881]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-12.37.56:513][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.37.56:513][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-12.37.56:513][881]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 6:37:56)
+[2022.09.24-12.37.56:513][881]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-12.37.56:517][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003638s)
+[2022.09.24-12.37.56:517][881]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-12.37.56:518][881]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2022.09.24-12.37.56:518][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004440s)
+[2022.09.24-12.37.56:556][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.09.24-12.37.56:704][881]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-12.37.56:749][881]LogInit: FAudioDevice initialized.
+[2022.09.24-12.37.56:777][881]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-12.37.56:779][881]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-21.37.56
+[2022.09.24-12.37.56:781][881]LogWorld: Bringing up level for play took: 0.003182
+[2022.09.24-12.37.56:797][881]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 0.672
+[2022.09.24-12.37.56:797][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.04:478][773]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-12.38.19:720][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.19:721][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.38.19:755][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-12.38.19:756][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.19:798][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.38.19:802][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.24-12.38.19:821][601]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2022.09.24-12.38.20:630][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.38.21:038][728]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.24-12.38.21:069][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.21:069][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.24-12.38.21:069][728]PIE: New page: PIE 세션: AI_Sword (2022. 9. 25. 오전 6:38:21)
+[2022.09.24-12.38.21:070][728]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_AI_Sword
+[2022.09.24-12.38.21:073][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003650s)
+[2022.09.24-12.38.21:074][728]LogAIModule: Creating AISystem for world AI_Sword
+[2022.09.24-12.38.21:074][728]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2022.09.24-12.38.21:074][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/AI_Sword.AI_Sword to /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword (0.004457s)
+[2022.09.24-12.38.21:109][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.24-12.38.21:263][728]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2022.09.24-12.38.21:308][728]LogInit: FAudioDevice initialized.
+[2022.09.24-12.38.21:339][728]LogLoad: Game class is 'GameModeBase'
+[2022.09.24-12.38.21:341][728]LogWorld: Bringing World /Game/Levels/UEDPIE_0_AI_Sword.AI_Sword up for play (max tick rate 0) at 2022.09.24-21.38.21
+[2022.09.24-12.38.21:343][728]LogWorld: Bringing up level for play took: 0.003339
+[2022.09.24-12.38.21:357][728]PIE: /Game/Levels/UEDPIE_0_AI_Sword 에 대한 에디터에서 플레이 시작 시간: 1.232
+[2022.09.24-12.38.21:358][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.27:391][446]LogBlueprintUserMessages: [BP_GreatSword_C_1] Sword
+[2022.09.24-12.38.27:542][464]LogBlueprintUserMessages: [BP_Sword_C_0] Sword
+[2022.09.24-12.38.36:042][483]LogBlueprintUserMessages: [BP_Sword_C_0] !Sword
+[2022.09.24-12.38.51:306][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.51:307][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.38.51:339][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.24-12.38.51:340][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword' with GeneratedClass '/Game/Levels/AI_Sword.AI_Sword_C' with ClassGeneratedBy '/Game/Levels/AI_Sword.AI_Sword:PersistentLevel.AI_Sword'
+[2022.09.24-12.38.51:380][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-12.38.51:385][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.24-12.38.51:406][311]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2022.09.24-12.38.53:221][494]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall)
+[2022.09.24-12.38.53:259][494]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.38.53:873][543]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.24-12.38.55:740][750]LogSlate: FSceneViewport::OnFocusLost() reason 1
+[2022.09.24-12.38.59:189][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.09.24-12.39.00:619][ 89]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.24-12.39.00:645][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.09.24-12.39.00:659][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_InterfaceTest" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_InterfaceTest.uasset" SILENT=true
+[2022.09.24-12.39.00:772][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BP_InterfaceTestF5607DE24A3742E479A123B23E5B5BE1.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/BP_InterfaceTest.uasset'
+[2022.09.24-12.39.00:893][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_EquipDD0319CC46CB3F0B1D78BC96F4B47FAB.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTDecorator_Equip.uasset'
+[2022.09.24-12.39.01:013][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTDecorator_UnEquip9D1E36444FE675F330B58D943100746C.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTDecorator_UnEquip.uasset'
+[2022.09.24-12.39.01:018][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_Equip" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset" SILENT=true
+[2022.09.24-12.39.01:139][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Equip3C8B471841B4ADEB594D23A22B098A14.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_Equip.uasset'
+[2022.09.24-12.39.01:143][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/BTTask_UnEquip" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_UnEquip.uasset" SILENT=true
+[2022.09.24-12.39.01:267][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_UnEquip9BE69E674390849850A13AA2654D9728.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/BTTask_UnEquip.uasset'
+[2022.09.24-12.39.01:395][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/BTTask_Sword_AttackF757F50B43032CA600EFAB9A3C18C73B.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Enemy/Sword/BTTask_Sword_Attack.uasset'
+[2022.09.24-12.39.01:438][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.09.24-12.39.01:743][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/AI_SwordD393EFE743F283C29BDE248E162D87B8.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Levels/AI_Sword.umap'
+[2022.09.24-12.39.01:770][ 89]LogFileHelpers: Saving map 'AI_Sword' took 0.369
+[2022.09.24-12.39.01:771][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/ABP_Player" FILE="C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset" SILENT=true
+[2022.09.24-12.39.01:992][ 89]LogSavePackage: Moving 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Saved/ABP_Player86CDB5FD48DFEA8F23EC9F99CA97F990.tmp' to 'C:/Users/방찬웅/Desktop/Project/Unreal_Engine_Tutorial/Blueprints/UEProject/Learn_02_Battle/Content/Player/ABP_Player.uasset'
+[2022.09.24-12.39.09:106][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.09.24-12.39.10:850][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.09.24-12.39.11:086][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-12.39.11:158][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-12.39.11:210][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-12.39.11:285][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-12.39.11:339][976]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.24-12.39.11:387][976]LogSlate: Window 'ANS_Collision' being destroyed
+[2022.09.24-12.39.11:414][976]LogSlate: Window 'UOnline_02_Battle - 언리얼 에디터' being destroyed
+[2022.09.24-12.39.11:632][977]Cmd: QUIT_EDITOR
+[2022.09.24-12.39.11:785][977]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (한컴 입력기).
+[2022.09.24-12.39.11:794][977]LogExit: Preparing to exit.
+[2022.09.24-12.39.12:469][977]LogExit: Editor shut down
+[2022.09.24-12.39.12:470][977]LogExit: Transaction tracking system shut down
+[2022.09.24-12.39.12:613][977]LogExit: Object subsystem successfully closed.
+[2022.09.24-12.39.12:626][977]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.24-12.39.12:684][977]LogD3D11RHI: Shutdown
+[2022.09.24-12.39.12:684][977]LogD3D11RHI: CleanupD3DDevice
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2022.09.24-12.39.12:685][977]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2022.09.24-12.39.12:996][977]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module DataTableEditor (658)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module PinnedCommandList (656)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module SkeletonEditor (654)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module AnimationEditor (652)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module BlueprintGraph (650)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2022.09.24-12.39.13:006][977]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2022.09.24-12.39.13:007][977]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2022.09.24-12.39.13:008][977]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2022.09.24-12.39.13:792][977]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2022.09.24-12.39.13:835][977]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2022.09.24-12.39.13:840][977]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2022.09.24-12.39.13:840][977]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module OutputLog (446)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module GammaUI (444)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module Documentation (442)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module LiveCoding (440)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module LevelSequence (438)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module MovieScene (434)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module PortalServices (426)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module AIModule (420)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
+[2022.09.24-12.39.13:841][977]LogModuleManager: Shutting down and abandoning module DesktopPlatform (412)
+[2022.09.24-12.39.13:842][977]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2022.09.24-12.39.13:844][977]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2022.09.24-12.39.13:983][977]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2022.09.24-12.39.13:984][977]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2022.09.24-12.39.14:086][977]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (280)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (278)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (276)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (274)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapController (272)
+[2022.09.24-12.39.14:186][977]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module MagicLeapAR (270)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module AugmentedReality (269)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (264)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module FacialAnimation (262)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module DataValidation (260)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (258)
+[2022.09.24-12.39.14:186][977]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2022.09.24-12.39.14:187][977]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2022.09.24-12.39.14:187][977]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (254)
+[2022.09.24-12.39.14:187][977]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2022.09.24-12.39.14:187][977]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2022.09.24-12.39.14:187][977]LogModuleManager: Shutting down and abandoning module ContentBrowser (247)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module TreeMap (245)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module AnimationSharing (242)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module AISupportModule (238)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (232)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (218)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2022.09.24-12.39.14:188][977]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2022.09.24-12.39.14:189][977]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2022.09.24-12.39.14:189][977]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2022.09.24-12.39.14:189][977]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2022.09.24-12.39.14:189][977]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2022.09.24-12.39.14:189][977]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module Core (174)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2022.09.24-12.39.14:190][977]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2022.09.24-12.39.14:201][977]LogDerivedDataCache: Shutdown
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2022.09.24-12.39.14:201][977]LogXGEController: Cleaning working directory: C:/Users/방찬웅/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2022.09.24-12.39.14:201][977]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2022.09.24-12.39.14:202][977]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2022.09.24-12.39.14:203][977]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2022.09.24-12.39.14:203][977]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2022.09.24-12.39.14:203][977]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2022.09.24-12.39.14:203][977]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2022.09.24-12.39.14:208][977]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2022.09.24-12.39.14:208][977]LogHMD: Freeing OpenVRDLLHandle.
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2022.09.24-12.39.14:209][977]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2022.09.24-12.39.14:242][977]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2022.09.24-12.39.14:242][977]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2022.09.24-12.39.14:242][977]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3ADB418B-4D0E-9B94-49F2-2DB0C6603832%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=4898eb954e1ab3f481ac54985bef056f%7Cf1e2b938df414ec699d2f0e3b389ba7c%7C9c8c4f5c-d0e0-490c-bce2-6c79f8c40472&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.09.24-12.39.14:242][977]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3ADB418B-4D0E-9B94-49F2-2DB0C6603832%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=4898eb954e1ab3f481ac54985bef056f%7Cf1e2b938df414ec699d2f0e3b389ba7c%7C9c8c4f5c-d0e0-490c-bce2-6c79f8c40472&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.09.24-12.39.14:245][977]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2022.09.24-12.39.14:247][977]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2022.09.24-12.39.14:248][977]LogModuleManager: Shutting down and abandoning module Media (45)
+[2022.09.24-12.39.14:254][977]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2022.09.24-12.39.14:254][977]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.09.24-12.39.14:255][977]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.09.24-12.39.14:257][977]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.09.24-12.39.14:263][977]LogExit: Exiting.
+[2022.09.24-12.39.14:283][977]Log file closed, 09/24/22 21:39:14
