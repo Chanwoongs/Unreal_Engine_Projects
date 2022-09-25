@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C0F4C075-01E2-4B0C-B715-6C9A2E4CE185}</UniqueIdentifier>
+      <UniqueIdentifier>{067A07E3-514F-473F-B8E7-AF438367EFD3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{91F25C5D-AF36-43F4-AC2B-70FF11E47D9C}</UniqueIdentifier>
+      <UniqueIdentifier>{B6A52616-15DC-4404-99DE-109B1402FD61}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{D64878A0-A32E-4EA1-AB76-3E0A57510CB3}</UniqueIdentifier>
+      <UniqueIdentifier>{0B0FCB5C-AAC6-4818-AAD3-54E269D9C546}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project\Cpp_Project.Build.cs">
       <Filter>Source\Cpp_Project</Filter>
@@ -42,7 +42,7 @@
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{CF439304-C864-4224-9889-E438D229D72D}</UniqueIdentifier>
+      <UniqueIdentifier>{34EC014A-2406-496A-9618-1B4C3DA634E6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -56,5 +56,30 @@
     <ClInclude Include="..\..\Source\Cpp_Project\01_Actor\C02_SpawnActor.h">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C02_SpawnActor_Cone.cpp">
+      <Filter>Source\Cpp_Project\01_Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\01_Actor\C02_SpawnActor_Cone.h">
+      <Filter>Source\Cpp_Project\01_Actor</Filter>
+    </ClInclude>
+    <Filter Include="Source\Cpp_Project\Utilities">
+      <UniqueIdentifier>{F42D3D2E-7640-469D-AF74-322E499F2DDC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
+      <Filter>Source\Cpp_Project\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Cpp_Project\Global.h">
+      <Filter>Source\Cpp_Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Cpp_Project\01_Actor\C02_SpawnActor_Sphere.h">
+      <Filter>Source\Cpp_Project\01_Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C02_SpawnActor_Sphere.cpp">
+      <Filter>Source\Cpp_Project\01_Actor</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
