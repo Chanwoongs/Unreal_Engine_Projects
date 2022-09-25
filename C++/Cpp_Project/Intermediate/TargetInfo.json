@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Cpp_Project",
+			"Path": "C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\Cpp_Project\\Source\\Cpp_Project.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Cpp_ProjectEditor",
+			"Path": "C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\Cpp_Project\\Source\\Cpp_ProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
