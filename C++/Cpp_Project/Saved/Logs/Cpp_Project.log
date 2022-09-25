@@ -692,3 +692,507 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.25-17.46.16:741][517]LogD3D12RHI: Creating RTPSO with 135 shaders (134 cached, 1 new) took 12.01 ms. Compile time 5.59 ms, link time 6.25 ms.
 [2022.09.25-17.46.20:226][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
 [2022.09.25-17.46.28:933][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.09.25-17.50.01:124][774]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.25-17.50.01:125][774]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.25-17.50.01:163][774]LogSlate: Took 0.001251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.25-17.50.03:123][980]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.25-17.50.10:712][885]Running D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" -game -rocket -progress
+[2022.09.25-17.50.11:222][885]Discovering modules, targets and source code for project...
+[2022.09.25-17.50.12:732][885]Binding IntelliSense data...
+[2022.09.25-17.50.14:863][885]Binding IntelliSense data... 100%
+[2022.09.25-17.50.14:964][885]Writing project files...
+[2022.09.25-17.50.19:497][885]Writing project files... 100%
+[2022.09.25-17.50.20:089][885]Candidate modules for hot reload:
+[2022.09.25-17.50.20:089][885]  Cpp_Project
+[2022.09.25-17.50.20:089][885]Launching UnrealBuildTool... [D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Cpp_Project,9832 Cpp_ProjectEditor Win64 Development -Project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject"  -IgnoreJunk]
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: New page: 컴파일 - 2022. 9. 26. 오전 11:50:33
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Creating makefile for Cpp_ProjectEditor (no existing makefile)
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Parsing headers for Cpp_ProjectEditor
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Cpp_Project.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\Cpp_ProjectEditor\Development\Cpp_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Reflection code generated for Cpp_ProjectEditor in 9.0850428 seconds
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Building Cpp_ProjectEditor...
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Building 6 actions with 8 processes...
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [1/6] C03_Spawner.cpp
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [2/6] Cpp_Project.init.gen.cpp
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [3/6] C03_Spawner.gen.cpp
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [4/6] UE4Editor-Cpp_Project-9832.lib
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-9832.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-9832.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [5/6] UE4Editor-Cpp_Project-9832.dll
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-9832.suppressed.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-9832.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.25-17.50.33:983][885]CompilerResultsLog:   [6/6] Cpp_ProjectEditor.target
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Total time in Parallel executor: 2.70 seconds
+[2022.09.25-17.50.33:983][885]CompilerResultsLog: Total execution time: 13.78 seconds
+[2022.09.25-17.50.33:983][885]LogMainFrame: MainFrame: Module compiling took 13.903 seconds
+[2022.09.25-17.50.34:013][885]LogClass: Could not find existing class C03_Spawner in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.25-17.50.34:016][885]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 6 classes and 3 folders.
+[2022.09.25-17.50.34:017][885]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-17.50.34:046][885]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-17.50.34:050][885]Display: HotReload took 14.5s.
+[2022.09.25-17.50.34:057][885]Warning: HotReload operation took 14.5s.
+[2022.09.25-17.50.34:450][885]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.09.25-17.50.34:476][885]LogHotReload: New module detected: UE4Editor-Cpp_Project-9832.dll
+[2022.09.25-17.50.34:639][886]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-17.50.34:686][886]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 6 classes and 3 folders.
+[2022.09.25-17.50.34:686][886]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-17.50.34:694][886]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-17.50.34:704][886]Display: HotReload took  0.1s.
+[2022.09.25-17.51.58:961][138]LogHotReload: New module detected: UE4Editor-Cpp_Project-0033.dll
+[2022.09.25-17.51.59:814][170]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-17.51.59:857][170]LogClass: Could not find existing class C03_Spawner in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.25-17.51.59:860][170]LogHotReload: Re-instancing C03_Spawner after hot-reload.
+[2022.09.25-17.51.59:864][170]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 6 classes and 3 folders.
+[2022.09.25-17.51.59:865][170]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-17.51.59:887][170]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-17.51.59:897][170]Display: HotReload took  0.1s.
+[2022.09.25-17.52.10:460][951]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.25-17.52.10:460][951]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.25-17.52.18:459][898]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_C03_Spawner.BP_C03_Spawner
+[2022.09.25-17.52.18:720][898]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.09.25-17.52.19:792][898]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2022.09.25-17.52.20:903][994]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.25-17.56.40:658][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.09.25-17.56.40:658][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/01_Actor' took 0.019
+[2022.09.25-17.56.40:660][846]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_C03_Spawner] ([1] browsable assets)...
+[2022.09.25-17.56.40:660][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_C03_Spawner]
+[2022.09.25-17.56.40:665][846]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C03_Spawner_Auto15B4DBB4148FD8BBA3B9A87B7A6D97E56.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Autosaves/Game/BP_C03_Spawner_Auto1.uasset'
+[2022.09.25-17.56.40:666][846]LogFileHelpers: Auto-saving content packages took 0.007
+[2022.09.25-18.00.08:288][714]LogHotReload: New module detected: UE4Editor-Cpp_Project-0034.dll
+[2022.09.25-18.00.08:984][717]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-18.00.09:037][717]LogClass: Could not find existing class C03_Spawner in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.25-18.00.09:044][717]LogHotReload: Re-instancing C03_Spawner after hot-reload.
+[2022.09.25-18.00.09:070][717]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 6 classes and 3 folders.
+[2022.09.25-18.00.09:072][717]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-18.00.09:122][717]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-18.00.09:134][717]Display: HotReload took  0.1s.
+[2022.09.25-18.00.11:864][771]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.25-18.07.32:513][338]LogHotReload: New module detected: UE4Editor-Cpp_Project-0036.dll
+[2022.09.25-18.07.33:880][343]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-18.07.34:069][343]LogClass: Could not find existing class C03_Spawner in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.25-18.07.34:077][343]LogHotReload: Re-instancing C03_Spawner after hot-reload.
+[2022.09.25-18.07.34:112][343]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 6 classes and 3 folders.
+[2022.09.25-18.07.34:115][343]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-18.07.34:185][343]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-18.07.34:197][343]Display: HotReload took  0.3s.
+[2022.09.25-18.09.42:573][726]LogHotReload: New module detected: UE4Editor-Cpp_Project-0037.dll
+[2022.09.25-18.09.43:266][729]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-18.09.43:323][729]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 6 classes and 3 folders.
+[2022.09.25-18.09.43:327][729]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-18.09.43:404][729]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-18.09.43:414][729]Display: HotReload took  0.1s.
+[2022.09.25-18.09.57:569][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_C03_Spawner" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_C03_Spawner.uasset" SILENT=true
+[2022.09.25-18.09.57:577][348]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C03_SpawnerED61CC1B46C1B51A32BBEAA213B830C8.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_C03_Spawner.uasset'
+[2022.09.25-18.09.57:601][348]AssetCheck: New page: 애셋 저장: BP_C03_Spawner
+[2022.09.25-18.09.57:601][348]LogContentValidation: Display: Blueprint /Game/BP_C03_Spawner.BP_C03_Spawner 유효성 검사
+[2022.09.25-18.09.58:721][425]LogSlate: Took 0.440703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2022.09.25-18.09.59:758][531]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.25-18.10.08:959][545]BlueprintLog: New page: BP_C03_Spawner 컴파일
+[2022.09.25-18.10.09:066][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.09.25-18.10.09:090][545]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.25-18.10.09:091][545]LogSlate: Took 0.001267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.09.25-18.10.11:020][751]LogSlate: Window 'BP_C03_Spawner' being destroyed
+[2022.09.25-18.10.11:034][751]LogSlate: Window 'BP_C03_Spawner' being destroyed
+[2022.09.25-18.10.11:040][751]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.10.11:040][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.SKEL_BP_C03_Spawner_C' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner_C' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.SKEL_BP_C03_Spawner_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.SKEL_BP_C03_Spawner_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.SKEL_BP_C03_Spawner_C:ReceiveTick' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:418][802]LogMetaData: Removing '/Game/01_Actor/BP_C03_Spawner.SKEL_BP_C03_Spawner_C:UserConstructionScript' ref from Metadata '/Game/BP_C03_Spawner.PackageMetaData'
+[2022.09.25-18.10.20:457][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C03_Spawner" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C03_Spawner.uasset" SILENT=true
+[2022.09.25-18.10.20:464][802]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C03_SpawnerB06DD8684E77549B2C0976A0383026AD.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C03_Spawner.uasset'
+[2022.09.25-18.10.20:720][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.25-18.10.20:760][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.25-18.10.20:771][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.09.25-18.10.20:792][802]AssetCheck: New page: 애셋 저장: BP_C03_Spawner
+[2022.09.25-18.10.20:792][802]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner 유효성 검사
+[2022.09.25-18.10.21:914][927]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner
+[2022.09.25-18.10.24:818][218]LogSlate: Window 'BP_C03_Spawner' being destroyed
+[2022.09.25-18.10.24:831][218]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.10.24:831][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.10.24:883][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner
+[2022.09.25-18.10.25:192][219]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.25-18.10.50:371][ 96]LogSlate: Window '색 선택 툴' being destroyed
+[2022.09.25-18.11.03:906][969]BlueprintLog: New page: BP_C03_Spawner 컴파일
+[2022.09.25-18.11.03:932][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.09.25-18.11.04:372][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C03_Spawner" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C03_Spawner.uasset" SILENT=true
+[2022.09.25-18.11.04:381][ 13]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C03_Spawner54B729F34E24F075AF3605B60E9AEB01.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C03_Spawner.uasset'
+[2022.09.25-18.11.04:399][ 13]AssetCheck: New page: 애셋 저장: BP_C03_Spawner
+[2022.09.25-18.11.04:399][ 13]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C03_Spawner.BP_C03_Spawner 유효성 검사
+[2022.09.25-18.11.05:165][ 97]LogSlate: Window 'BP_C03_Spawner' being destroyed
+[2022.09.25-18.11.05:169][ 97]LogSlate: Window 'BP_C03_Spawner' being destroyed
+[2022.09.25-18.11.05:176][ 97]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.11.05:176][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.11.52:452][523]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.25-18.11.52:845][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.11.52:845][523]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:11:52)
+[2022.09.25-18.11.52:846][523]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.09.25-18.11.52:847][523]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.25-18.11.52:847][523]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.11.52:849][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002600s)
+[2022.09.25-18.11.52:850][523]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.11.52:850][523]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBAF3A9600), frame # 33523
+[2022.09.25-18.11.52:850][523]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBB5FF8180), frame # 33523
+[2022.09.25-18.11.52:850][523]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2022.09.25-18.11.52:850][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.003501s)
+[2022.09.25-18.11.52:866][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.11.52:871][523]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.11.52:871][523]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.11.52:871][523]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.11.52:895][523]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.11.52:895][523]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.11.52:971][523]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.11.52:971][523]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.11.52:971][523]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.11.52:971][523]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.11.52:972][523]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.11.52:981][523]LogInit: FAudioDevice initialized.
+[2022.09.25-18.11.52:990][523]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.11.52:991][523]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.11.52
+[2022.09.25-18.11.52:991][523]LogWorld: Bringing up level for play took: 0.000539
+[2022.09.25-18.11.52:991][523]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.09.25-18.11.53:075][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2022.09.25-18.11.53:092][523]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.11.53:093][523]PIE: 에디터에서 플레이 총 시작 시간 0.254초입니다.
+[2022.09.25-18.11.53:115][524]LogD3D12RHI: Creating RTPSO with 137 shaders (135 cached, 2 new) took 13.88 ms. Compile time 8.16 ms, link time 5.52 ms.
+[2022.09.25-18.11.58:865][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.11.58:865][172]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.11.58:865][172]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.11.58:865][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.11.58:876][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.11.58:878][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.11.58:911][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.11.58:913][172]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBB5FF8180), frame # 34172
+[2022.09.25-18.11.58:913][172]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBAF3A9600), frame # 34172
+[2022.09.25-18.11.58:935][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.09.25-18.11.58:959][173]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.09.25-18.12.01:570][444]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.12.03:370][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.09.25-18.12.04:465][742]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.12.09:801][376]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.12:886][659]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.16:849][ 85]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.17:611][174]Cmd: TRANSACTION UNDO
+[2022.09.25-18.12.17:611][174]LogEditorTransaction: Undo 액터 회전
+[2022.09.25-18.12.18:961][298]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.19:253][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2022.09.25-18.12.19:929][371]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.12.20:241][398]Cmd: TRANSACTION UNDO
+[2022.09.25-18.12.20:241][398]LogEditorTransaction: Undo 액터 클릭
+[2022.09.25-18.12.20:618][440]Cmd: TRANSACTION UNDO
+[2022.09.25-18.12.20:618][440]LogEditorTransaction: Undo 액터 클릭
+[2022.09.25-18.12.20:944][477]Cmd: TRANSACTION UNDO
+[2022.09.25-18.12.20:944][477]LogEditorTransaction: Undo 액터 이동
+[2022.09.25-18.12.27:739][254]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.33:657][961]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.34:637][ 76]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.25-18.12.34:646][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.12.34:646][ 76]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:12:34)
+[2022.09.25-18.12.34:673][ 76]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.12.34:675][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001985s)
+[2022.09.25-18.12.34:676][ 76]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.12.34:676][ 76]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBAE812200), frame # 38076
+[2022.09.25-18.12.34:676][ 76]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBB5FF9300), frame # 38076
+[2022.09.25-18.12.34:676][ 76]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2022.09.25-18.12.34:676][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.002901s)
+[2022.09.25-18.12.34:706][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.12.34:708][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.12.34:708][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.12.34:709][ 76]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.12.34:709][ 76]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.12.34:733][ 76]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.12.34:733][ 76]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.12.34:808][ 76]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.12.34:809][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.12.34:809][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.12.34:809][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.12.34:809][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.12.34:818][ 76]LogInit: FAudioDevice initialized.
+[2022.09.25-18.12.34:827][ 76]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.12.34:828][ 76]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.12.34
+[2022.09.25-18.12.34:828][ 76]LogWorld: Bringing up level for play took: 0.000470
+[2022.09.25-18.12.34:828][ 76]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.09.25-18.12.34:830][ 76]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.12.34:830][ 76]PIE: 에디터에서 플레이 총 시작 시간 0.186초입니다.
+[2022.09.25-18.12.37:106][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.12.37:106][337]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.12.37:106][337]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.12.37:106][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.12.37:114][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.12.37:116][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.12.37:141][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.12.37:142][337]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBB5FF9300), frame # 38337
+[2022.09.25-18.12.37:142][337]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBAE812200), frame # 38337
+[2022.09.25-18.12.37:143][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.09.25-18.12.37:201][339]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.09.25-18.12.43:115][987]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.12.45:299][246]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.12.46:518][389]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.25-18.12.46:527][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.12.46:528][389]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:12:46)
+[2022.09.25-18.12.46:554][389]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.12.46:556][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001976s)
+[2022.09.25-18.12.46:556][389]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.12.46:556][389]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBEE7A6400), frame # 39389
+[2022.09.25-18.12.46:557][389]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBE6877D80), frame # 39389
+[2022.09.25-18.12.46:557][389]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2022.09.25-18.12.46:557][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.002962s)
+[2022.09.25-18.12.46:569][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.12.46:571][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.12.46:571][389]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.12.46:571][389]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.12.46:596][389]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.12.46:596][389]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.12.46:671][389]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.12.46:671][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.12.46:671][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.12.46:671][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.12.46:671][389]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.12.46:681][389]LogInit: FAudioDevice initialized.
+[2022.09.25-18.12.46:686][389]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.12.46:687][389]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.12.46
+[2022.09.25-18.12.46:687][389]LogWorld: Bringing up level for play took: 0.000511
+[2022.09.25-18.12.46:687][389]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.09.25-18.12.46:689][389]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.12.46:690][389]PIE: 에디터에서 플레이 총 시작 시간 0.165초입니다.
+[2022.09.25-18.12.56:276][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.12.56:276][532]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.12.56:276][532]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.12.56:276][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.12.56:284][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.12.56:286][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.12.56:297][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.12.56:312][532]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBE6877D80), frame # 40532
+[2022.09.25-18.12.56:312][532]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBEE7A6400), frame # 40532
+[2022.09.25-18.12.56:313][532]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.09.25-18.12.56:365][534]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.09.25-18.13.06:183][652]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.13.09:087][995]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.13.12:441][381]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.25-18.13.12:451][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.13.12:451][381]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:13:12)
+[2022.09.25-18.13.12:483][381]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.13.12:485][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002033s)
+[2022.09.25-18.13.12:486][381]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.13.12:486][381]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBCB3BF200), frame # 41381
+[2022.09.25-18.13.12:486][381]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBB729F9C0), frame # 41381
+[2022.09.25-18.13.12:486][381]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2022.09.25-18.13.12:486][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.002901s)
+[2022.09.25-18.13.12:499][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.13.12:501][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.13.12:501][381]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.13.12:501][381]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.13.12:523][381]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.13.12:523][381]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.13.12:601][381]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.13.12:601][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.13.12:601][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.13.12:601][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.13.12:601][381]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.13.12:610][381]LogInit: FAudioDevice initialized.
+[2022.09.25-18.13.12:617][381]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.13.12:618][381]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.13.12
+[2022.09.25-18.13.12:618][381]LogWorld: Bringing up level for play took: 0.000494
+[2022.09.25-18.13.12:618][381]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.09.25-18.13.12:620][381]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.13.12:621][381]PIE: 에디터에서 플레이 총 시작 시간 0.171초입니다.
+[2022.09.25-18.13.15:596][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.13.15:596][730]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.13.15:596][730]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.13.15:596][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.13.15:603][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.13.15:605][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.13.15:616][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.13.15:631][730]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBB729F9C0), frame # 41730
+[2022.09.25-18.13.15:631][730]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBCB3BF200), frame # 41730
+[2022.09.25-18.13.15:632][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.09.25-18.13.15:686][732]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.09.25-18.13.16:553][836]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.13.28:593][160]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.09.25-18.13.30:179][347]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.09.25-18.13.30:188][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.13.30:188][347]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:13:30)
+[2022.09.25-18.13.30:188][347]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.13.30:190][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002201s)
+[2022.09.25-18.13.30:191][347]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.13.30:191][347]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB9BC07600), frame # 43347
+[2022.09.25-18.13.30:191][347]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EBDD064180), frame # 43347
+[2022.09.25-18.13.30:191][347]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2022.09.25-18.13.30:191][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.003023s)
+[2022.09.25-18.13.30:203][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.13.30:206][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.13.30:206][347]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.13.30:206][347]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.13.30:229][347]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.13.30:229][347]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.13.30:304][347]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.13.30:304][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.13.30:304][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.13.30:304][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.13.30:304][347]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.13.30:313][347]LogInit: FAudioDevice initialized.
+[2022.09.25-18.13.30:323][347]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.13.30:324][347]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.13.30
+[2022.09.25-18.13.30:324][347]LogWorld: Bringing up level for play took: 0.000640
+[2022.09.25-18.13.30:324][347]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.09.25-18.13.30:326][347]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.13.30:327][347]PIE: 에디터에서 플레이 총 시작 시간 0.141초입니다.
+[2022.09.25-18.13.33:317][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.13.33:317][698]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.13.33:317][698]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.13.33:317][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.13.33:322][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.13.33:324][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.13.33:335][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.13.33:349][698]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EBDD064180), frame # 43698
+[2022.09.25-18.13.33:349][698]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB9BC07600), frame # 43698
+[2022.09.25-18.13.33:351][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.09.25-18.13.33:409][700]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.09.25-18.13.41:393][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.09.25-18.13.43:213][648]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.25-18.13.43:272][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.09.25-18.13.43:291][648]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor1BCD6D6248EA6193B972FFAAAA36EAEA.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor.umap'
+[2022.09.25-18.13.43:304][648]LogFileHelpers: Saving map '01_Actor' took 0.044
+[2022.09.25-18.13.43:304][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/01_Actor_BuiltData" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset" SILENT=true
+[2022.09.25-18.13.43:317][648]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor_BuiltData07C574904540DB9A4458F3A9EEB2DF5E.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset'
+[2022.09.25-18.13.43:319][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/01_Actor_BuiltData" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset" SILENT=true
+[2022.09.25-18.13.43:329][648]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor_BuiltData131E550D42FCDB8971EC3A9028E0EB73.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset'
+[2022.09.25-18.13.43:729][649]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.09.25-18.13.43:729][649]LogContentValidation: Display: World /Game/Levels/01_Actor.01_Actor 유효성 검사
+[2022.09.25-18.13.43:729][649]LogContentValidation: Display: MapBuildDataRegistry /Game/Levels/01_Actor_BuiltData.01_Actor_BuiltData 유효성 검사
+[2022.09.25-18.14.35:321][966]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property
+[2022.09.25-18.14.41:906][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C01_Property" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset" SILENT=true
+[2022.09.25-18.14.41:916][614]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C01_Property7BF494B343A4FC157BD090A35029E5A1.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset'
+[2022.09.25-18.14.41:963][614]AssetCheck: New page: 애셋 저장: BP_C01_Property
+[2022.09.25-18.14.41:963][614]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property 유효성 검사
+[2022.09.25-18.14.46:675][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C01_Property" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset" SILENT=true
+[2022.09.25-18.14.46:685][168]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C01_Property26BF090F46831B6D9FE19B8B65297890.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset'
+[2022.09.25-18.14.46:702][168]AssetCheck: New page: 애셋 저장: BP_C01_Property
+[2022.09.25-18.14.46:702][168]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property 유효성 검사
+[2022.09.25-18.14.49:538][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C01_Property" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset" SILENT=true
+[2022.09.25-18.14.49:547][500]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C01_Property549109664C21A07CC55B9983CAA8D0E6.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset'
+[2022.09.25-18.14.49:563][500]AssetCheck: New page: 애셋 저장: BP_C01_Property
+[2022.09.25-18.14.49:563][500]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property 유효성 검사
+[2022.09.25-18.14.50:491][610]LogSlate: Window 'BP_C01_Property' being destroyed
+[2022.09.25-18.14.50:506][610]LogSlate: Window 'BP_C01_Property' being destroyed
+[2022.09.25-18.14.50:543][610]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.14.50:543][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.14.56:818][346]LogEditorViewport: Clicking on Actor (LMB): BP_C01_Property_C (BP_C01_Property)
+[2022.09.25-18.14.57:990][477]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property
+[2022.09.25-18.15.03:182][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/01_Actor/BP_C01_Property" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset" SILENT=true
+[2022.09.25-18.15.03:192][955]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_C01_PropertyB7C503FD48F672004D7998A28EB77028.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/01_Actor/BP_C01_Property.uasset'
+[2022.09.25-18.15.03:224][955]AssetCheck: New page: 애셋 저장: BP_C01_Property
+[2022.09.25-18.15.03:225][955]LogContentValidation: Display: Blueprint /Game/01_Actor/BP_C01_Property.BP_C01_Property 유효성 검사
+[2022.09.25-18.15.04:182][ 64]LogSlate: Window 'BP_C01_Property' being destroyed
+[2022.09.25-18.15.04:190][ 64]LogSlate: Window 'BP_C01_Property' being destroyed
+[2022.09.25-18.15.04:214][ 64]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.15.04:214][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.15.06:404][296]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.25-18.15.06:426][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.09.25-18.15.07:774][296]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.25-18.15.07:834][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.09.25-18.15.07:852][296]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor981E8DE846D89A4811DB69AD16B2CD60.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor.umap'
+[2022.09.25-18.15.07:865][296]LogFileHelpers: Saving map '01_Actor' took 0.046
+[2022.09.25-18.15.07:865][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/01_Actor_BuiltData" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset" SILENT=true
+[2022.09.25-18.15.07:875][296]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor_BuiltDataEB7B18344DB7FD0E1EF167985EED033E.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset'
+[2022.09.25-18.15.07:877][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/01_Actor_BuiltData" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset" SILENT=true
+[2022.09.25-18.15.07:886][296]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/01_Actor_BuiltDataDF86397543B0724230817E8EA52441EE.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor_BuiltData.uasset'
+[2022.09.25-18.15.07:925][297]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.09.25-18.15.07:925][297]LogContentValidation: Display: World /Game/Levels/01_Actor.01_Actor 유효성 검사
+[2022.09.25-18.15.07:925][297]LogContentValidation: Display: MapBuildDataRegistry /Game/Levels/01_Actor_BuiltData.01_Actor_BuiltData 유효성 검사
+[2022.09.25-18.15.09:305][457]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.25-18.15.09:327][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.09.25-18.15.21:789][850]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.25-18.15.21:809][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.09.25-18.15.25:933][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.15.25:933][333]PIE: New page: PIE 세션: 01_Actor (2022. 9. 26. 오후 12:15:25)
+[2022.09.25-18.15.25:953][333]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.15.25:955][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002267s)
+[2022.09.25-18.15.25:956][333]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.25-18.15.25:956][333]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBB72D4C00), frame # 50333
+[2022.09.25-18.15.25:956][333]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB4782A980), frame # 50333
+[2022.09.25-18.15.25:956][333]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2022.09.25-18.15.25:956][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/01_Actor.01_Actor to /Game/Levels/UEDPIE_0_01_Actor.01_Actor (0.003194s)
+[2022.09.25-18.15.25:969][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.15.25:970][333]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.15.25:970][333]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.25-18.15.25:970][333]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.25-18.15.25:995][333]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.25-18.15.25:995][333]LogAudioMixer: Display: 1: FrontRight
+[2022.09.25-18.15.26:071][333]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.25-18.15.26:071][333]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.15.26:072][333]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.15.26:072][333]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.15.26:072][333]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.25-18.15.26:081][333]LogInit: FAudioDevice initialized.
+[2022.09.25-18.15.26:092][333]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.15.26:094][333]LogWorld: Bringing World /Game/Levels/UEDPIE_0_01_Actor.01_Actor up for play (max tick rate 0) at 2022.09.26-03.15.26
+[2022.09.25-18.15.26:094][333]LogWorld: Bringing up level for play took: 0.000551
+[2022.09.25-18.15.26:094][333]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.09.25-18.15.26:096][333]PIE: 서버가 로그인했습니다.
+[2022.09.25-18.15.26:096][333]PIE: 에디터에서 플레이 총 시작 시간 0.166초입니다.
+[2022.09.25-18.15.27:555][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.15.27:556][493]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_01_Actor
+[2022.09.25-18.15.27:556][493]LogWorld: UWorld::CleanupWorld for 01_Actor, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.15.27:556][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.15.27:566][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.15.27:568][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.15.27:580][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.15.27:595][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB4782A980), frame # 50493
+[2022.09.25-18.15.27:595][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EBB72D4C00), frame # 50493
+[2022.09.25-18.15.27:596][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.09.25-18.15.27:623][495]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.09.25-18.15.28:289][570]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.25-18.15.29:770][723]Cmd: SELECT NONE
+[2022.09.25-18.17.06:680][313]LogHotReload: New module detected: UE4Editor-Cpp_Project-0038.dll
+[2022.09.25-18.17.07:372][316]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.25-18.17.07:437][316]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 6 classes and 3 folders.
+[2022.09.25-18.17.07:439][316]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.25-18.17.07:487][316]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3433 classes and 824 folders.
+[2022.09.25-18.17.07:498][316]Display: HotReload took  0.1s.
