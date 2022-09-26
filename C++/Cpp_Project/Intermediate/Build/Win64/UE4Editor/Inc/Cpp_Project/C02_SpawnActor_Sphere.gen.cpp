@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor_Sphere() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC02_SpawnActor_Sphere, 1826333135);
+	IMPLEMENT_CLASS(AC02_SpawnActor_Sphere, 4078977147);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC02_SpawnActor_Sphere>()
 	{
 		return AC02_SpawnActor_Sphere::StaticClass();

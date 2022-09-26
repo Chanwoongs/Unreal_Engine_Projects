@@ -19,8 +19,44 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor() {}
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AC02_SpawnActor::execChangeColor)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ChangeColor();
+		P_NATIVE_END;
+	}
 	void AC02_SpawnActor::StaticRegisterNativesAC02_SpawnActor()
 	{
+		UClass* Class = AC02_SpawnActor::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "ChangeColor", &AC02_SpawnActor::execChangeColor },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Delegate?? ???? ???? ?\xc7\xb4? ?\xd4\xbc??? ???? UFUNTION?? ?\xd9\xbe?????\n" },
+		{ "ModuleRelativePath", "01_Actor/C02_SpawnActor.h" },
+		{ "ToolTip", "Delegate?? ???? ???? ?\xc7\xb4? ?\xd4\xbc??? ???? UFUNTION?? ?\xd9\xbe?????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC02_SpawnActor, nullptr, "ChangeColor", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AC02_SpawnActor_ChangeColor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AC02_SpawnActor_ChangeColor_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AC02_SpawnActor_NoRegister()
 	{
@@ -29,6 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor() {}
 	struct Z_Construct_UClass_AC02_SpawnActor_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -43,6 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor() {}
 	UObject* (*const Z_Construct_UClass_AC02_SpawnActor_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_Cpp_Project,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AC02_SpawnActor_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AC02_SpawnActor_ChangeColor, "ChangeColor" }, // 1185330412
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_SpawnActor_Statics::Class_MetaDataParams[] = {
@@ -71,11 +111,11 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AC02_SpawnActor_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AC02_SpawnActor_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -90,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC02_SpawnActor, 591348930);
+	IMPLEMENT_CLASS(AC02_SpawnActor, 3485948780);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC02_SpawnActor>()
 	{
 		return AC02_SpawnActor::StaticClass();

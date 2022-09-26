@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CPP_PROJECT_C02_SpawnActor_generated_h
 
 #define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_SPARSE_DATA
-#define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_RPC_WRAPPERS
-#define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execChangeColor);
+
+
+#define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execChangeColor);
+
+
 #define Cpp_Project_Source_Cpp_Project_01_Actor_C02_SpawnActor_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC02_SpawnActor(); \
