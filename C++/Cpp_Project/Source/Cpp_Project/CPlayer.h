@@ -1,0 +1,34 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Character.h"
+#include "CPlayer.generated.h"
+
+// delegate 나 구조체 이외는 잘 안들어간다 이 사이에
+
+UCLASS()
+class CPP_PROJECT_API ACPlayer : public ACharacter
+{
+	// 이 사이에는 아무런 코드도 들어가면 안된다.
+	GENERATED_BODY()
+
+private:
+	UPROPERTY(VisibleDefaultsOnly)
+		class USpringArmComponent* SpringArm;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCameraComponent* Camera;
+
+public:
+	ACPlayer();
+
+protected:
+	virtual void BeginPlay() override;
+
+public:	
+	virtual void Tick(float DeltaTime) override;
+
+	// 입력을 받아 원하는대로 처리할 수 있도록 해주는 함수
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+};
