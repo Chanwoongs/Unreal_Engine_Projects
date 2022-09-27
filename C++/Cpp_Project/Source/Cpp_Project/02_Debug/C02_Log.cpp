@@ -21,6 +21,11 @@ void AC02_Log::BeginPlay()
 	CLog::Print(GetActorLocation());
 	CLog::Print(GetActorRotation());
 
+	CLog::Log(10);
+	CLog::Log(PI);
+	CLog::Log("Unreal GamePlay!");
+	CLog::Log(GetActorLocation());
+	CLog::Log(GetActorRotation());
 }
 
 void AC02_Log::Tick(float DeltaTime)
