@@ -24,7 +24,21 @@ public:
 
 		*OutObject = obj;
 	}
-private:
 
+	template<typename T>
+	static void CreateComponent(AActor* InActor, T** InComponent, FName InName, USceneComponent* InParent = NULL)
+	{
+		*InComponent = InActor->CreateDefaultSubobject<T>(InName);
+
+		if (!!InParent)
+		{
+			(*InComponent)->SetupAttachment(InParent);
+
+			return;
+		}
+
+		InActor->SetRootComponent(*InComponent);
+	}
+	
 };
 
