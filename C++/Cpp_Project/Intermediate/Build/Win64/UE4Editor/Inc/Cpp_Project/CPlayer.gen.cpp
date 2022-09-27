@@ -51,11 +51,11 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPlayer_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "// delegate ?? ????\xc3\xbc ?\xcc\xbf\xdc\xb4? ?? ?\xc8\xb5??\xee\xb0\xa3?? ?? ???\xcc\xbf?\n" },
+		{ "Comment", "// ?? ???\xcc\xbf? delegate ?? ????\xc3\xbc ?\xcc\xbf\xdc\xb4? ?? ?\xc8\xb5??\xee\xb0\xa3??\n" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "CPlayer.h" },
 		{ "ModuleRelativePath", "CPlayer.h" },
-		{ "ToolTip", "delegate ?? ????\xc3\xbc ?\xcc\xbf\xdc\xb4? ?? ?\xc8\xb5??\xee\xb0\xa3?? ?? ???\xcc\xbf?" },
+		{ "ToolTip", "?? ???\xcc\xbf? delegate ?? ????\xc3\xbc ?\xcc\xbf\xdc\xb4? ?? ?\xc8\xb5??\xee\xb0\xa3??" },
 	};
 #endif
 #if WITH_METADATA
@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPlayer, 904105921);
+	IMPLEMENT_CLASS(ACPlayer, 2396765132);
 	template<> CPP_PROJECT_API UClass* StaticClass<ACPlayer>()
 	{
 		return ACPlayer::StaticClass();

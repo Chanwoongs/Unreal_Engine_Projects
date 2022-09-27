@@ -4,7 +4,7 @@
 #include "GameFramework/Character.h"
 #include "CPlayer.generated.h"
 
-// delegate 나 구조체 이외는 잘 안들어간다 이 사이에
+// 이 사이에 delegate 나 구조체 이외는 잘 안들어간다
 
 UCLASS()
 class CPP_PROJECT_API ACPlayer : public ACharacter
@@ -34,7 +34,11 @@ public:
 private:
 	void OnMoveForward(float Axis);
 	void OnMoveRight(float Axis);
-	
 	void OnHorizontalLook(float Axis);
 	void OnVerticalLook(float Axis);
+
+	// 액션 입력은 parameter가 없다
+	void OnRunning();
+	void OffRunning();
+
 };

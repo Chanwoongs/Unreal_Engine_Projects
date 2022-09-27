@@ -6,7 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 
-ACPlayer::ACPlayer()
+ACPlayer::ACPlayer() // 기본 값은 C++로 할당을 한다. 수정은 블프에서 가능하다.
 {
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -65,6 +65,9 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("HorizontalLook", this, &ACPlayer::OnHorizontalLook);
 	PlayerInputComponent->BindAxis("VerticalLook", this, &ACPlayer::OnVerticalLook);
 
+	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Pressed, this, &ACPlayer::OnRunning);
+	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Released, this, &ACPlayer::OffRunning);
+
 }
 
 // 플레이어 상하좌우 움직임
@@ -94,5 +97,15 @@ void ACPlayer::OnHorizontalLook(float Axis)
 void ACPlayer::OnVerticalLook(float Axis)
 {
 	AddControllerPitchInput(Axis);
+}
+
+// 달리기 액션 입력
+void ACPlayer::OnRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+}
+void ACPlayer::OffRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
 }
 

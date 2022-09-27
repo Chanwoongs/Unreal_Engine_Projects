@@ -718,3 +718,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.27-16.31.08:082][699]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
 [2022.09.27-16.31.08:082][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.09.27-16.31.08:131][699]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-16.37.05:421][608]LogHotReload: New module detected: UE4Editor-Cpp_Project-0001.dll
+[2022.09.27-16.37.06:450][612]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-16.37.06:524][612]LogClass: Could not find existing class CPlayer in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-16.37.06:537][612]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-16.37.06:647][612]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 8 classes and 3 folders.
+[2022.09.27-16.37.06:651][612]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-16.37.06:723][612]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3436 classes and 826 folders.
+[2022.09.27-16.37.06:747][612]Display: HotReload took  0.3s.
+[2022.09.27-16.37.16:206][387]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-16.37.16:294][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
