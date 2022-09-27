@@ -2,6 +2,8 @@
 
 #include "CoreMinimal.h"
 
+#define PrintLine(){ CLog::Log(__FUNCTION__, __LINE__); }
+
 class CPP_PROJECT_API CLog
 {
 public:
