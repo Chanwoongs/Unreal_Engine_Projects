@@ -56,9 +56,12 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACPlayer::OnMoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ACPlayer::OnMoveRight);
+	PlayerInputComponent->BindAxis("HorizontalLook", this, &ACPlayer::OnHorizontalLook);
+	PlayerInputComponent->BindAxis("VerticalLook", this, &ACPlayer::OnVerticalLook);
 
 }
 
+// 플레이어 상하좌우 움직임
 void ACPlayer::OnMoveForward(float Axis)
 {
 	// ps. rotator의 함수가 없다면 quternion으로 변환해보자
@@ -68,12 +71,22 @@ void ACPlayer::OnMoveForward(float Axis)
 	AddMovementInput(direction, Axis);
 
 }
-
 void ACPlayer::OnMoveRight(float Axis)
 {
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetRightVector().GetSafeNormal2D();
 
 	AddMovementInput(direction, Axis);
+}
+
+
+// 마우스 입력으로 카메라 시점 움직임
+void ACPlayer::OnHorizontalLook(float Axis)
+{
+	AddControllerYawInput(Axis);
+}
+void ACPlayer::OnVerticalLook(float Axis)
+{
+	AddControllerPitchInput(Axis);
 }
 

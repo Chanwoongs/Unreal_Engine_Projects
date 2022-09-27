@@ -729,3 +729,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.27-15.51.01:989][604]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
 [2022.09.27-15.51.09:226][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
 [2022.09.27-15.51.10:321][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.09.27-15.52.41:749][465]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.09.27-15.55.19:902][936]LogHotReload: New module detected: UE4Editor-Cpp_Project-0082.dll
+[2022.09.27-15.55.20:598][939]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-15.55.20:653][939]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-15.55.20:656][939]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.55.20:715][939]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3434 classes and 824 folders.
+[2022.09.27-15.55.20:729][939]Display: HotReload took  0.1s.
+[2022.09.27-15.55.24:272][ 48]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-15.55.24:318][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.09.27-15.55.46:797][708]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-15.55.46:827][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.09.27-15.56.04:241][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
