@@ -793,3 +793,117 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.27-14.17.43:599][560]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2022.09.27-14.17.43:600][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.09.27-14.17.47:592][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.27-14.18.19:195][954]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.27-14.18.19:195][954]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.27-14.18.19:261][954]LogSlate: Took 0.033930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.27-14.18.23:294][418]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.27-14.18.30:626][282]Running D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" -game -rocket -progress
+[2022.09.27-14.18.31:238][282]Discovering modules, targets and source code for project...
+[2022.09.27-14.18.33:553][282]Binding IntelliSense data...
+[2022.09.27-14.18.45:548][282]Binding IntelliSense data... 50%
+[2022.09.27-14.18.45:549][282]Binding IntelliSense data... 100%
+[2022.09.27-14.18.45:549][282]Writing project files...
+[2022.09.27-14.19.08:213][282]Writing project files... 33%
+[2022.09.27-14.19.08:213][282]Writing project files... 100%
+[2022.09.27-14.19.08:723][282]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.09.27-14.19.08:723][282]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.09.27-14.19.08:752][282]Candidate modules for hot reload:
+[2022.09.27-14.19.08:752][282]  Cpp_Project
+[2022.09.27-14.19.08:753][282]Launching UnrealBuildTool... [D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Cpp_Project,5586 Cpp_ProjectEditor Win64 Development -Project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject"  -IgnoreJunk]
+[2022.09.27-14.19.40:924][282]CompilerResultsLog: New page: 컴파일 - 2022. 9. 28. 오전 8:19:40
+[2022.09.27-14.19.40:924][282]CompilerResultsLog: Creating makefile for Cpp_ProjectEditor (no existing makefile)
+[2022.09.27-14.19.40:924][282]CompilerResultsLog: Parsing headers for Cpp_ProjectEditor
+[2022.09.27-14.19.40:924][282]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Cpp_Project.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\Cpp_ProjectEditor\Development\Cpp_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Reflection code generated for Cpp_ProjectEditor in 19.6732906 seconds
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Building Cpp_ProjectEditor...
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Building 6 actions with 8 processes...
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [1/6] Cpp_Project.init.gen.cpp
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [2/6] CPlayer.cpp
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [3/6] CPlayer.gen.cpp
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [4/6] UE4Editor-Cpp_Project-5586.lib
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [5/6] UE4Editor-Cpp_Project-5586.dll
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.suppressed.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [6/6] Cpp_ProjectEditor.target
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Total time in Parallel executor: 9.50 seconds
+[2022.09.27-14.19.40:925][282]CompilerResultsLog: Total execution time: 32.04 seconds
+[2022.09.27-14.19.40:925][282]LogMainFrame: MainFrame: Module compiling took 32.201 seconds
+[2022.09.27-14.19.40:946][282]LogClass: Could not find existing class CPlayer in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-14.19.40:949][282]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0007 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.19.40:951][282]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.19.41:091][282]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.19.41:096][282]Display: HotReload took 32.8s.
+[2022.09.27-14.19.41:102][282]Warning: HotReload operation took 32.8s.
+[2022.09.27-14.19.41:419][282]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.09.27-14.19.41:430][282]LogHotReload: New module detected: UE4Editor-Cpp_Project-5586.dll
+[2022.09.27-14.19.41:655][282]LogSlate: Took 0.100029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.09.27-14.19.41:655][282]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2022.09.27-14.19.41:752][282]LogSlate: Took 0.096595 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.27-14.19.41:792][283]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.19.41:831][283]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0015 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.19.41:832][283]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.19.41:840][283]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.19.41:859][283]Display: HotReload took  0.1s.
+[2022.09.27-14.31.54:433][468]LogHotReload: New module detected: UE4Editor-Cpp_Project-0065.dll
+[2022.09.27-14.31.55:461][472]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.31.55:505][472]LogClass: Could not find existing class CPlayer in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-14.31.55:510][472]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-14.31.55:539][472]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.31.55:540][472]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.31.55:571][472]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.31.55:581][472]Display: HotReload took  0.1s.
+[2022.09.27-14.36.10:674][232]LogHotReload: New module detected: UE4Editor-Cpp_Project-0066.dll
+[2022.09.27-14.36.11:361][235]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.36.11:405][235]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.36.11:407][235]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.36.11:436][235]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.36.11:445][235]Display: HotReload took  0.1s.
+[2022.09.27-14.36.15:883][365]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
+[2022.09.27-14.36.16:802][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.09.27-14.36.18:691][634]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-14.36.18:723][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.27-14.36.53:667][188]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.27-14.36.53:667][188]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.27-14.37.02:871][216]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-14.37.03:459][216]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.09.27-14.37.04:443][216]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2022.09.27-14.37.05:313][286]LogSlate: Took 0.006502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.27-14.37.24:931][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
+[2022.09.27-14.37.24:938][378]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayerA5B889DA4643EAFBBD94A99DA88589ED.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
+[2022.09.27-14.37.24:958][378]AssetCheck: New page: 애셋 저장: BP_CPlayer
+[2022.09.27-14.37.24:958][378]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
+[2022.09.27-14.37.25:691][453]BlueprintLog: New page: BP_CPlayer 컴파일
+[2022.09.27-14.37.25:753][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.27-14.37.27:003][548]LogSlate: Window 'BP_CPlayer' being destroyed
+[2022.09.27-14.37.27:010][548]LogSlate: Window 'BP_CPlayer' being destroyed
+[2022.09.27-14.37.27:018][548]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-14.37.27:018][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-14.40.44:718][828]LogHotReload: New module detected: UE4Editor-Cpp_Project-0067.dll
+[2022.09.27-14.40.45:740][832]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.40.45:793][832]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-14.40.45:808][832]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.40.45:810][832]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.40.45:865][832]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.40.45:875][832]Display: HotReload took  0.1s.
+[2022.09.27-14.40.54:820][531]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Cpp_Project.CPlayer
+[2022.09.27-14.40.54:895][531]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CPlayer.h'
+[2022.09.27-14.41.03:856][555]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Cpp_Project.CPlayer
+[2022.09.27-14.41.07:804][999]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-14.41.11:341][122]LogSlate: Window 'BP_CPlayer' being destroyed
+[2022.09.27-14.41.11:369][122]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-14.41.11:369][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-14.41.11:419][122]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-14.41.20:448][969]BlueprintLog: New page: BP_CPlayer 컴파일
+[2022.09.27-14.41.20:531][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.09.27-14.41.21:229][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
+[2022.09.27-14.41.21:244][ 31]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayer726E0AA74A2F424697CAD6AEE46C230B.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
+[2022.09.27-14.41.21:261][ 31]AssetCheck: New page: 애셋 저장: BP_CPlayer
+[2022.09.27-14.41.21:261][ 31]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
+[2022.09.27-14.42.36:747][720]LogHotReload: New module detected: UE4Editor-Cpp_Project-0068.dll
+[2022.09.27-14.42.37:437][723]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.42.37:489][723]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-14.42.37:543][723]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.42.37:546][723]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.42.37:620][723]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.42.37:640][723]Display: HotReload took  0.2s.

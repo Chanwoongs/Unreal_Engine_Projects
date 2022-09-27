@@ -1,6 +1,7 @@
 #include "CPlayer.h"
 #include "Global.h"
 #include "GameFrameWork/SpringArmComponent.h"
+#include "GameFrameWork/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 
@@ -8,11 +9,25 @@ ACPlayer::ACPlayer()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
-	SpringArm->SetupAttachment(GetCapsuleComponent());
+	//SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
+	//SpringArm->SetupAttachment(GetCapsuleComponent())
+	CHelpers::CreateComponent<USpringArmComponent>(this, &SpringArm, "SpringArm", GetCapsuleComponent());
 
-	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
-	Camera->SetupAttachment(SpringArm);
+	//Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+	//Camera->SetupAttachment(SpringArm);
+	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
+
+	// 카메라 기본 세팅
+	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+
+	// 기본 메쉬 적용
+	USkeletalMesh* mesh;
+	CHelpers::GetAsset<USkeletalMesh>(&mesh, "SkeletalMesh'/Game/Character/Mesh/SK_Mannequin.SK_Mannequin'");
+	GetMesh()->SetSkeletalMesh(mesh);
+	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
+	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
 }
 
 void ACPlayer::BeginPlay()

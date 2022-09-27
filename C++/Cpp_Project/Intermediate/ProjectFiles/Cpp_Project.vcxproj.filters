@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D3FB2BC4-EA5D-49EF-9C3F-B2100973CF1C}</UniqueIdentifier>
+      <UniqueIdentifier>{17F0C7C7-1E98-4EB0-937A-E3C7F6CB4A4D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AB103F95-8747-4367-AB89-1D2AF7C7752F}</UniqueIdentifier>
+      <UniqueIdentifier>{76677418-04DB-45D4-813F-81F6EC57D993}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{41BB1EF6-F827-4CF4-88E4-F03AF1734209}</UniqueIdentifier>
+      <UniqueIdentifier>{12BAD9CF-24D0-4010-81A1-1C646F80535B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Cpp_Project\CPlayer.cpp">
+      <Filter>Source\Cpp_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\CPlayer.h">
+      <Filter>Source\Cpp_Project</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Cpp_Project\Cpp_Project.Build.cs">
       <Filter>Source\Cpp_Project</Filter>
     </None>
@@ -45,7 +51,7 @@
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{62747E81-2071-4736-B007-838AC1E97EB4}</UniqueIdentifier>
+      <UniqueIdentifier>{14073F20-8223-481A-83A5-171BB37BBA34}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -78,7 +84,7 @@
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\Utilities">
-      <UniqueIdentifier>{CC9351EE-C5E0-4800-B568-DC90040FC38F}</UniqueIdentifier>
+      <UniqueIdentifier>{78D46E0B-8073-432E-AE26-D4BF36FEB6C6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
