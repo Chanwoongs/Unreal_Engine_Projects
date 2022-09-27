@@ -741,3 +741,111 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.27-15.55.46:797][708]LogTemp: Repeating last play command: 독립형 게임
 [2022.09.27-15.55.46:827][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
 [2022.09.27-15.56.04:241][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.27-15.57.51:595][321]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.27-15.57.51:596][321]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2022.09.27-15.57.56:414][840]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.09.27-15.58.01:648][442]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.27-15.58.05:339][824]Running D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" -game -rocket -progress
+[2022.09.27-15.58.05:849][824]Discovering modules, targets and source code for project...
+[2022.09.27-15.58.07:460][824]Binding IntelliSense data...
+[2022.09.27-15.58.09:485][824]Binding IntelliSense data... 100%
+[2022.09.27-15.58.09:485][824]Writing project files...
+[2022.09.27-15.58.13:817][824]Writing project files... 100%
+[2022.09.27-15.58.14:565][824]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.09.27-15.58.14:565][824]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.09.27-15.58.14:577][824]Candidate modules for hot reload:
+[2022.09.27-15.58.14:577][824]  Cpp_Project
+[2022.09.27-15.58.14:578][824]Launching UnrealBuildTool... [D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Cpp_Project,8235 Cpp_ProjectEditor Win64 Development -Project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject"  -IgnoreJunk]
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: New page: 컴파일 - 2022. 9. 28. 오전 9:58:31
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Creating makefile for Cpp_ProjectEditor (no existing makefile)
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Parsing headers for Cpp_ProjectEditor
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Cpp_Project.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\Cpp_ProjectEditor\Development\Cpp_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Reflection code generated for Cpp_ProjectEditor in 9.3082557 seconds
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Building Cpp_ProjectEditor...
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Building 6 actions with 8 processes...
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [1/6] Cpp_Project.init.gen.cpp
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [2/6] CAnimInstance.gen.cpp
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [3/6] CAnimInstance.cpp
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [4/6] UE4Editor-Cpp_Project-8235.lib
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-8235.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-8235.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [5/6] UE4Editor-Cpp_Project-8235.dll
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-8235.suppressed.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-8235.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.09.27-15.58.31:143][824]CompilerResultsLog:   [6/6] Cpp_ProjectEditor.target
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Total time in Parallel executor: 4.26 seconds
+[2022.09.27-15.58.31:143][824]CompilerResultsLog: Total execution time: 16.43 seconds
+[2022.09.27-15.58.31:143][824]LogMainFrame: MainFrame: Module compiling took 16.578 seconds
+[2022.09.27-15.58.31:177][824]LogClass: Could not find existing class CAnimInstance in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-15.58.31:187][824]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0007 seconds. Added 8 classes and 3 folders.
+[2022.09.27-15.58.31:191][824]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.58.31:273][824]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 3435 classes and 824 folders.
+[2022.09.27-15.58.31:281][824]Display: HotReload took 17.3s.
+[2022.09.27-15.58.31:285][824]Warning: HotReload operation took 17.3s.
+[2022.09.27-15.58.31:432][824]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.09.27-15.58.31:883][824]LogHotReload: New module detected: UE4Editor-Cpp_Project-8235.dll
+[2022.09.27-15.58.31:905][824]LogSlate: Took 0.001450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.09.27-15.58.31:905][824]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2022.09.27-15.58.31:908][824]LogSlate: Took 0.002187 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.09.27-15.58.31:953][825]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-15.58.31:978][825]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 8 classes and 3 folders.
+[2022.09.27-15.58.31:983][825]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.58.31:990][825]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3435 classes and 824 folders.
+[2022.09.27-15.58.32:002][825]Display: HotReload took  0.0s.
+[2022.09.27-16.17.10:820][160]LogHotReload: New module detected: UE4Editor-Cpp_Project-0084.dll
+[2022.09.27-16.17.11:860][164]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-16.17.11:946][164]LogClass: Could not find existing class CAnimInstance in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-16.17.11:960][164]LogHotReload: Re-instancing CAnimInstance after hot-reload.
+[2022.09.27-16.17.11:986][164]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 8 classes and 3 folders.
+[2022.09.27-16.17.11:991][164]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-16.17.12:097][164]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3435 classes and 824 folders.
+[2022.09.27-16.17.12:110][164]Display: HotReload took  0.3s.
+[2022.09.27-16.17.30:537][762]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.09.27-16.17.30:537][762]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.09.27-16.17.31:884][914]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2022.09.27-16.17.55:996][589]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.09.27-16.17.56:034][589]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.09.27-16.17.57:842][589]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2022.09.27-16.18.00:352][589]LogSlate: Window '메시지' being destroyed
+[2022.09.27-16.18.00:382][589]Message dialog closed, result: Ok, title: 메시지, text: 애님 블루프린트의 타깃으로 삼을 유효 스켈레톤을 지정해야 합니다.
+[2022.09.27-16.18.01:910][589]LogSlate: Window '애니메이션 블루프린트 생성' being destroyed
+[2022.09.27-16.18.08:562][354]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ABP_CPlayer.ABP_CPlayer
+[2022.09.27-16.18.08:668][354]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2022.09.27-16.18.08:825][354]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.27-16.18.08:827][354]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2022.09.27-16.18.09:183][354]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.27-16.18.09:791][356]LogD3D12RHI: Creating RTPSO with 137 shaders (135 cached, 2 new) took 15.75 ms. Compile time 9.73 ms, link time 5.83 ms.
+[2022.09.27-16.18.23:068][749]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.27-16.18.25:246][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Unarmed/Unarmed_Idle.Unarmed_Idle
+[2022.09.27-16.18.25:246][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Unarmed/Unarmed_Run.Unarmed_Run
+[2022.09.27-16.18.25:322][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Unarmed/Unarmed_Walk.Unarmed_Walk
+[2022.09.27-16.18.32:974][698]LogSlate: Took 0.033030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2022.09.27-16.19.04:636][562]LogUObjectHash: Compacting FUObjectHashTables data took   7.50ms
+[2022.09.27-16.19.04:638][562]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/01_Actor' took 0.158
+[2022.09.27-16.19.04:639][562]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ABP_CPlayer] ([1] browsable assets)...
+[2022.09.27-16.19.04:671][562]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/ABP_CPlayer.ABP_CPlayer]
+[2022.09.27-16.19.04:671][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABP_CPlayer]
+[2022.09.27-16.19.04:682][562]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/ABP_CPlayer_Auto1CBC1B52546A7B2B0262E07A39588F412.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Autosaves/Game/ABP_CPlayer_Auto1.uasset'
+[2022.09.27-16.19.04:683][562]LogFileHelpers: Auto-saving content packages took 0.045
+[2022.09.27-16.19.11:831][584]LogHotReload: New module detected: UE4Editor-Cpp_Project-0085.dll
+[2022.09.27-16.19.12:860][588]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-16.19.12:908][588]LogClass: Could not find existing class CAnimInstance in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-16.19.12:919][588]LogHotReload: Re-instancing CAnimInstance after hot-reload.
+[2022.09.27-16.19.13:346][588]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0007 seconds. Added 8 classes and 3 folders.
+[2022.09.27-16.19.13:351][588]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-16.19.13:505][588]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3436 classes and 826 folders.
+[2022.09.27-16.19.13:519][588]Display: HotReload took  0.7s.
+[2022.09.27-16.19.46:973][715]BlueprintLog: New page: ABP_CPlayer 컴파일
+[2022.09.27-16.19.47:479][715]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2022.09.27-16.20.03:117][243]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Character/BlendSpaces/BS_Unarmed.BS_Unarmed
+[2022.09.27-16.20.03:204][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.27-16.20.03:233][243]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.09.27-16.20.03:746][243]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.27-16.20.06:565][489]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-16.20.06:565][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-16.20.06:642][489]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-16.20.06:642][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-16.20.25:605][345]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.27-16.20.38:593][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ABP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/ABP_CPlayer.uasset" SILENT=true
+[2022.09.27-16.20.38:606][674]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/ABP_CPlayer05DA588B4B7DB516DA3E939244AAB627.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/ABP_CPlayer.uasset'
+[2022.09.27-16.20.38:631][674]AssetCheck: New page: 애셋 저장: ABP_CPlayer
+[2022.09.27-16.20.38:631][674]LogContentValidation: Display: AnimBlueprint /Game/ABP_CPlayer.ABP_CPlayer 유효성 검사
