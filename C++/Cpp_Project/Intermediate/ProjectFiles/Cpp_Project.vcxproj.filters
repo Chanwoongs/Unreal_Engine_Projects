@@ -41,10 +41,10 @@
     <ClInclude Include="..\..\Source\Cpp_Project\Cpp_Project.h">
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Cpp_Project\Cpp_ProjectGameModeBase.cpp">
+    <ClCompile Include="..\..\Source\Cpp_Project\CGameMode.cpp">
       <Filter>Source\Cpp_Project</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Cpp_Project\Cpp_ProjectGameModeBase.h">
+    <ClInclude Include="..\..\Source\Cpp_Project\CGameMode.h">
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Cpp_Project\Global.h">

@@ -28,6 +28,14 @@ ACPlayer::ACPlayer()
 	GetMesh()->SetSkeletalMesh(mesh);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
 	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
+
+	// SpringArm 기본 세팅
+	SpringArm->SetRelativeLocation(FVector(0, 0, 60));
+	SpringArm->TargetArmLength = 200.0f;
+	SpringArm->bDoCollisionTest = false;
+	SpringArm->bUsePawnControlRotation = true;
+
+
 }
 
 void ACPlayer::BeginPlay()

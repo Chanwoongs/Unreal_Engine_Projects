@@ -907,3 +907,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.27-14.42.37:546][723]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
 [2022.09.27-14.42.37:620][723]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3435 classes and 826 folders.
 [2022.09.27-14.42.37:640][723]Display: HotReload took  0.2s.
+[2022.09.27-14.47.16:193][553]LogHotReload: New module detected: UE4Editor-Cpp_Project-0069.dll
+[2022.09.27-14.47.16:890][556]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-14.47.16:955][556]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-14.47.17:022][556]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2022.09.27-14.47.17:029][556]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-14.47.17:124][556]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3435 classes and 826 folders.
+[2022.09.27-14.47.17:147][556]Display: HotReload took  0.3s.
+[2022.09.27-14.47.45:480][443]BlueprintLog: New page: BP_CPlayer 컴파일
+[2022.09.27-14.47.45:603][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.09.27-14.47.50:646][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
+[2022.09.27-14.47.50:662][937]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayerE7CEC6644BA0012728C593A250A641C9.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
+[2022.09.27-14.47.50:675][937]AssetCheck: New page: 애셋 저장: BP_CPlayer
+[2022.09.27-14.47.50:675][937]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
+[2022.09.27-14.54.15:162][ 87]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.09.27-15.09.24:006][795]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.09.27-15.10.46:567][ 40]LogHotReload: New module detected: UE4Editor-Cpp_Project-0077.dll
+[2022.09.27-15.10.47:591][ 44]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-15.10.47:658][ 44]LogClass: Could not find existing class CGameMode in package /Script/Cpp_Project for HotReload, assuming new class
+[2022.09.27-15.10.47:665][ 44]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0008 seconds. Added 8 classes and 3 folders.
+[2022.09.27-15.10.47:668][ 44]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.10.47:758][ 44]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3436 classes and 826 folders.
+[2022.09.27-15.10.47:772][ 44]Display: HotReload took  0.2s.
+[2022.09.27-15.11.13:838][982]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.11.13:846][982]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.11.24:695][694]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms

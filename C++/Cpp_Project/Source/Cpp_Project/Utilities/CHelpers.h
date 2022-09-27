@@ -26,6 +26,15 @@ public:
 	}
 
 	template<typename T>
+	static void GetClass(TSubclassOf<T>* OutClass, FString InPath)
+	{
+		ConstructorHelpers::FClassFinder<T> asset(*InPath); //문자열을 Text로 바꾸기 위해 *를 붙혀줌
+		verifyf(asset.Succeeded(), L"asset.Succeeded()");
+
+		*OutClass = asset.Class;
+	}
+
+	template<typename T>
 	static void CreateComponent(AActor* InActor, T** InComponent, FName InName, USceneComponent* InParent = NULL)
 	{
 		*InComponent = InActor->CreateDefaultSubobject<T>(InName);
@@ -39,6 +48,9 @@ public:
 
 		InActor->SetRootComponent(*InComponent);
 	}
+
+
+
 	
 };
 
