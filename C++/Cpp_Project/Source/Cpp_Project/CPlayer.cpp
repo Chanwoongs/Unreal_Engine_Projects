@@ -1,5 +1,6 @@
 #include "CPlayer.h"
 #include "Global.h"
+#include "CAnimInstance.h"
 #include "GameFrameWork/SpringArmComponent.h"
 #include "GameFrameWork/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
@@ -28,6 +29,11 @@ ACPlayer::ACPlayer()
 	GetMesh()->SetSkeletalMesh(mesh);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
 	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
+
+	// animation instance class를 가져와 mesh에 할당하기
+	TSubclassOf<UAnimInstance> animInstance;
+	CHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/ABP_CPlayer.ABP_CPlayer_C'");
+	GetMesh()->SetAnimInstanceClass(animInstance);
 
 	// SpringArm 기본 세팅
 	SpringArm->SetRelativeLocation(FVector(0, 0, 60));
