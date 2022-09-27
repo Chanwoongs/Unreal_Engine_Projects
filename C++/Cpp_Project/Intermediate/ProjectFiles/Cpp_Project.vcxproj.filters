@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{38131515-965C-4BDA-9E88-F65AB029D5CD}</UniqueIdentifier>
+      <UniqueIdentifier>{5C5B8130-5856-4E1A-8BD9-9EE025AC4C54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{04B0FCF9-2BDB-45E1-B934-583D58C54379}</UniqueIdentifier>
+      <UniqueIdentifier>{C0F52954-16F9-4F53-A2B5-7292D91FEDF8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{E021FBA9-9BEA-455D-ADD6-804C6A7548D9}</UniqueIdentifier>
+      <UniqueIdentifier>{630F250C-272B-4CBB-AA9A-052B9C90F160}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\CAnimInstance.cpp">
       <Filter>Source\Cpp_Project</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{C739F77E-4A22-4C70-A1BA-8633CCC6F8AF}</UniqueIdentifier>
+      <UniqueIdentifier>{B1614C85-CE1A-47D4-9161-217BA0ECECF5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -92,14 +92,42 @@
     <ClInclude Include="..\..\Source\Cpp_Project\01_Actor\C03_Spawner.h">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
+    <Filter Include="Source\Cpp_Project\02_Debug">
+      <UniqueIdentifier>{566F0A7D-3923-47DA-9E62-D359E08D7F2D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Cpp_Project\02_Debug\C02_DrawDebug.cpp">
+      <Filter>Source\Cpp_Project\02_Debug</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\02_Debug\C02_DrawDebug.h">
+      <Filter>Source\Cpp_Project\02_Debug</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\02_Debug\C02_Log.cpp">
+      <Filter>Source\Cpp_Project\02_Debug</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\02_Debug\C02_Log.h">
+      <Filter>Source\Cpp_Project\02_Debug</Filter>
+    </ClInclude>
+    <Filter Include="Source\Cpp_Project\03_Collision">
+      <UniqueIdentifier>{DFEA7A46-9D3E-459B-B004-783B0433F738}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
     <Filter Include="Source\Cpp_Project\Utilities">
-      <UniqueIdentifier>{66D019AA-EFC2-4F01-AC2D-2A7414264B40}</UniqueIdentifier>
+      <UniqueIdentifier>{4563E17E-A55B-4DAF-A9A1-AFF9E9E095A9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\Cpp_Project\Utilities\CLog.cpp">
+      <Filter>Source\Cpp_Project\Utilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CLog.h">
+      <Filter>Source\Cpp_Project\Utilities</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\Defines.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
     </ClInclude>
