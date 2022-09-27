@@ -1,8 +1,8 @@
-﻿Log file open, 09/27/22 23:13:44
+﻿Log file open, 09/28/22 00:39:37
 LogInit: Display: Running engine for game: Cpp_Project
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.226016
+LogStats: Stats thread started at 0.305204
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,741 +194,538 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.09.27-14.13.48:907][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2022.09.27-14.13.48:907][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.48:908][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.49:038][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:038][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.09.27-14.13.49:038][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.09.27-14.13.49:038][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.09.27-14.13.49:039][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.09.27-14.13.49:040][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.09.27-14.13.49:040][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.09.27-14.13.49:040][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.09.27-14.13.49:040][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.09.27-14.13.49:045][  0]LogInit: Selected Device Profile: [Windows]
-[2022.09.27-14.13.49:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.09.27-14.13.49:061][  0]LogHAL: Display: Platform has ~ 48 GB [51453968384 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.09.27-14.13.49:062][  0]LogInit: Going up to parent DeviceProfile []
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.09.27-14.13.49:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.09.27-14.13.49:063][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.09.27-14.13.49:095][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.09.27-14.13.49:095][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.09.27-14.13.49:095][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2022.09.27-14.13.49:095][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
-[2022.09.27-14.13.49:095][  0]LogInit: Computer: 찬웅
-[2022.09.27-14.13.49:095][  0]LogInit: User: Chanwoongs
-[2022.09.27-14.13.49:095][  0]LogInit: CPU Page size=4096, Cores=8
-[2022.09.27-14.13.49:095][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.09.27-14.13.49:096][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
-[2022.09.27-14.13.49:096][  0]LogMemory: Platform Memory Stats for Windows
-[2022.09.27-14.13.49:096][  0]LogMemory: Process Physical Memory: 119.38 MB used, 119.39 MB peak
-[2022.09.27-14.13.49:096][  0]LogMemory: Process Virtual Memory: 106.49 MB used, 106.49 MB peak
-[2022.09.27-14.13.49:096][  0]LogMemory: Physical Memory: 16525.75 MB used,  32544.57 MB free, 49070.33 MB total
-[2022.09.27-14.13.49:096][  0]LogMemory: Virtual Memory: 5159.27 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2022.09.27-14.13.49:123][  0]LogWindows: WindowsPlatformFeatures enabled
-[2022.09.27-14.13.50:048][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2022.09.27-14.13.50:077][  0]LogInit: Using OS detected language (ko-KR).
-[2022.09.27-14.13.50:077][  0]LogInit: Using OS detected locale (ko-KR).
-[2022.09.27-14.13.50:125][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2022.09.27-14.13.50:480][  0]LogInit: Setting process to per monitor DPI aware
-[2022.09.27-14.13.50:952][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.09.27-14.13.50:952][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.09.27-14.13.58:481][  0]LogD3D12RHI: Aftermath initialized
-[2022.09.27-14.13.58:482][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
-[2022.09.27-14.13.58:526][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.09.27-14.13.58:870][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 (Max supported Feature Level 12_1)
-[2022.09.27-14.13.58:870][  0]LogD3D12RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 2 output[s]
-[2022.09.27-14.13.58:898][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
-[2022.09.27-14.13.58:898][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 0 output[s]
-[2022.09.27-14.13.58:898][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
-[2022.09.27-14.13.58:898][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
-[2022.09.27-14.13.58:905][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
-[2022.09.27-14.13.58:988][  0]LogD3D12RHI: D3D12 ray tracing enabled.
-[2022.09.27-14.13.58:988][  0]LogD3D12RHI: The system supports ID3D12Device1.
-[2022.09.27-14.13.58:988][  0]LogD3D12RHI: The system supports ID3D12Device2.
-[2022.09.27-14.13.59:058][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
-[2022.09.27-14.13.59:065][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
-[2022.09.27-14.13.59:076][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
-[2022.09.27-14.13.59:087][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
-[2022.09.27-14.13.59:087][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
-[2022.09.27-14.13.59:098][  0]LogD3D12RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2022.09.27-14.13.59:098][  0]LogWindows: EnumDisplayDevices:
-[2022.09.27-14.13.59:098][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2022.09.27-14.13.59:099][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
-[2022.09.27-14.13.59:100][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2022.09.27-14.13.59:101][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2022.09.27-14.13.59:102][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2022.09.27-14.13.59:102][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2022.09.27-14.13.59:102][  0]LogD3D12RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
-[2022.09.27-14.13.59:102][  0]LogD3D12RHI:      Driver Date: 7-21-2022
-[2022.09.27-14.13.59:102][  0]LogRHI: Texture pool is 4562 MB (70% of 6517 MB)
-[2022.09.27-14.13.59:102][  0]LogD3D12RHI: Async texture creation enabled
-[2022.09.27-14.13.59:102][  0]LogD3D12RHI: RHI has support for 64 bit atomics
-[2022.09.27-14.14.00:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2022.09.27-14.14.00:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2022.09.27-14.14.00:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2022.09.27-14.14.00:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2022.09.27-14.14.01:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2022.09.27-14.14.01:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2022.09.27-14.14.01:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2022.09.27-14.14.01:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2022.09.27-14.14.01:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2022.09.27-14.14.01:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2022.09.27-14.14.01:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2022.09.27-14.14.01:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2022.09.27-14.14.01:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2022.09.27-14.14.01:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2022.09.27-14.14.01:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2022.09.27-14.14.01:356][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2022.09.27-14.14.01:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2022.09.27-14.14.01:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2022.09.27-14.14.01:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2022.09.27-14.14.01:506][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.09.27-14.14.01:740][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.09.27-14.14.02:628][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Intermediate/Shaders/WorkingDirectory/16880/).
-[2022.09.27-14.14.02:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chanwoongs/AppData/Local/Temp/UnrealShaderWorkingDir/2ED76D02422B2FBEBDE7E8A74FFF310F/'.
-[2022.09.27-14.14.02:638][  0]LogXGEController: Cleaning working directory: C:/Users/Chanwoongs/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2022.09.27-14.14.02:639][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.09.27-14.14.02:639][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.09.27-14.14.02:639][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.09.27-14.14.06:261][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.09.27-14.14.06:551][  0]LogDerivedDataCache: Loaded boot cache 0.29s 106MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.09.27-14.14.06:551][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2022.09.27-14.14.06:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.09.27-14.14.06:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.09.27-14.14.06:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.09.27-14.14.06:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.09.27-14.14.06:687][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.09.27-14.14.06:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.09.27-14.14.06:688][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2022.09.27-14.14.06:696][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chanwoongs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.09.27-14.14.06:696][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.09.27-14.14.06:696][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.09.27-14.14.06:842][  0]LogSlate: Using FreeType 2.10.0
-[2022.09.27-14.14.06:931][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.09.27-14.14.09:042][  0]LogAssetRegistry: FAssetRegistry took 0.0541 seconds to start up
-[2022.09.27-14.14.10:963][  0]LogInit: Selected Device Profile: [Windows]
-[2022.09.27-14.14.12:336][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.09.27-14.14.12:336][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.09.27-14.14.12:336][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.09.27-14.14.12:336][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.09.27-14.14.12:336][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.09.27-14.14.14:626][  0]LogNetVersion: Cpp_Project 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3821394651)
-[2022.09.27-14.14.31:253][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019F27359D40), frame # 0
-[2022.09.27-14.14.31:253][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F27253740), frame # 0
-[2022.09.27-14.14.31:265][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F273CA200), frame # 0
-[2022.09.27-14.14.31:568][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.085286 seconds
-[2022.09.27-14.14.31:619][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2022.09.27-14.14.31:619][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2022.09.27-14.14.31:619][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.09.27-14.14.34:214][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 617.90 ms. Compile time 14.34 ms, link time 603.51 ms.
-[2022.09.27-14.14.34:277][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (1 cached, 2 new) took 62.79 ms. Compile time 34.14 ms, link time 28.63 ms.
-[2022.09.27-14.14.37:308][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.09.27-14.14.37:327][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.09.27-14.14.38:100][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.38:101][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.38:209][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.38:234][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.38:273][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.40:525][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.09.27-14.14.40:638][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.09.27-14.14.40:638][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.09.27-14.14.40:908][  0]LogOcInput: OculusInput pre-init called
-[2022.09.27-14.14.40:978][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2022.09.27-14.14.40:978][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2022.09.27-14.14.41:857][  0]LogEngine: Initializing Engine...
-[2022.09.27-14.14.41:904][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.09.27-14.14.41:904][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2022.09.27-14.14.41:933][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.011 s
-[2022.09.27-14.14.42:581][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.09.27-14.14.42:911][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.09.27-14.14.42:911][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F35BB8800), frame # 0
-[2022.09.27-14.14.42:911][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F35BA2AC0), frame # 0
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2022.09.27-14.14.43:029][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2022.09.27-14.14.43:029][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2022.09.27-14.14.43:030][  0]LogAudio: Display: Using built-in audio occlusion.
-[2022.09.27-14.14.43:030][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2022.09.27-14.14.43:134][  0]LogAudioMixer: Display: 0: FrontLeft
-[2022.09.27-14.14.43:134][  0]LogAudioMixer: Display: 1: FrontRight
-[2022.09.27-14.14.43:250][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
-[2022.09.27-14.14.43:276][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2022.09.27-14.14.43:365][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2022.09.27-14.14.43:365][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2022.09.27-14.14.43:366][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2022.09.27-14.14.43:367][  0]LogInit: FAudioDevice initialized.
-[2022.09.27-14.14.43:367][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.09.27-14.14.43:450][  0]LogDerivedDataCache: Saved boot cache 0.08s 106MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.09.27-14.14.43:452][  0]LogInit: Texture streaming: Enabled
-[2022.09.27-14.14.43:572][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.09.27-14.14.43:572][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2022.09.27-14.14.43:578][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2022.09.27-14.14.43:810][  0]LogInit: Transaction tracking system initialized
-[2022.09.27-14.14.44:159][  0]BlueprintLog: New page: 에디터 로드
-[2022.09.27-14.14.45:195][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2022.09.27-14.14.47:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/' took 0.04s
-[2022.09.27-14.14.47:459][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.09.27-14.14.47:459][  0]LogCook: Display: Mobile HDR setting 1
-[2022.09.27-14.14.50:101][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2022.09.27-14.14.50:121][  0]LogUnrealEdMisc: Loading editor; pre map load, took 85.604
-[2022.09.27-14.14.50:127][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.09.27-14.14.50:171][  0]LightingResults: New page: 라이팅 빌드
-[2022.09.27-14.14.50:264][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.14.50:283][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.14.50:294][  0]MapCheck: New page: 맵 체크
-[2022.09.27-14.14.50:294][  0]LightingResults: New page: 라이팅 빌드
-[2022.09.27-14.14.50:430][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019F35BB8800), frame # 0
-[2022.09.27-14.14.50:430][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019F35BA2AC0), frame # 0
-[2022.09.27-14.14.50:430][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
-[2022.09.27-14.14.51:148][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2022.09.27-14.14.51:148][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F117EE000), frame # 0
-[2022.09.27-14.14.51:148][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019F35149440), frame # 0
-[2022.09.27-14.14.51:358][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.09.27-14.14.51:423][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
-[2022.09.27-14.14.51:423][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.09.27-14.14.51:424][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.453ms.
-[2022.09.27-14.14.51:424][  0]LogFileHelpers: Loading map 'Template_Default' took 1.296
-[2022.09.27-14.14.51:897][  0]LogUnrealEdMisc: Total Editor Startup Time, took 87.381
-[2022.09.27-14.14.52:427][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.09.27-14.14.52:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.09.27-14.14.52:437][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.09.27-14.14.52:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.09.27-14.14.52:577][  0]LogCollectionManager: Loaded 0 collections in 0.001397 seconds
-[2022.09.27-14.14.52:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Collections/' took 0.00s
-[2022.09.27-14.14.52:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Developers/Chanwoongs/Collections/' took 0.00s
-[2022.09.27-14.14.52:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Collections/' took 0.00s
-[2022.09.27-14.14.52:699][  0]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 3433 classes and 824 folders.
-[2022.09.27-14.14.52:766][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2022.09.27-14.14.53:457][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.09.27-14.14.53:507][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
-[2022.09.27-14.14.53:915][  0]LogSlate: Took 0.041608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.09.27-14.14.54:010][  0]LogSlate: Took 0.079146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2022.09.27-14.14.54:083][  0]LogSlate: Took 0.071354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2022.09.27-14.14.54:104][  0]LogSlate: Took 0.021397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.09.27-14.14.54:120][  0]LogSlate: Took 0.014886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.09.27-14.14.54:160][  0]LogSlate: Took 0.038729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2022.09.27-14.14.54:253][  0]LogSlate: Took 0.069908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
-[2022.09.27-14.14.54:709][  0]LogRenderer: Reallocating scene render targets to support 2040x808 Format 10 NumSamples 1 (Frame:1).
-[2022.09.27-14.14.54:997][  0]LogD3D12RHI: Creating RTPSO with 133 shaders (0 cached, 133 new) took 207.12 ms. Compile time 202.50 ms, link time 4.44 ms.
-[2022.09.27-14.14.55:119][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (3 cached, 0 new) took 80.91 ms. Compile time 0.02 ms, link time 80.88 ms.
-[2022.09.27-14.14.55:268][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 100.43 ms. Compile time 4.18 ms, link time 96.23 ms.
-[2022.09.27-14.14.55:557][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.09.27-14.14.55:557][  0]LogLoad: (Engine Initialization) Total time: 91.04 seconds
-[2022.09.27-14.14.55:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.09.27-14.14.55:668][  0]LogAssetRegistry: Asset discovery search completed in 46.6450 seconds
-[2022.09.27-14.14.55:672][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2022.09.27-14.14.55:745][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.09.27-14.15.07:391][643]LogSlate: Took 0.010497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.09.27-14.15.07:450][643]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/01_Actor.01_Actor
-[2022.09.27-14.15.07:477][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
-[2022.09.27-14.15.07:478][643]Cmd: MAP LOAD FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.09.27-14.15.07:478][643]LightingResults: New page: 라이팅 빌드
-[2022.09.27-14.15.07:478][643]LoadErrors: New page: 맵 로드중: 01_Actor.umap
-[2022.09.27-14.15.07:540][643]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.15.07:540][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.15.07:540][643]MapCheck: New page: 맵 체크
-[2022.09.27-14.15.07:540][643]LightingResults: New page: 라이팅 빌드
-[2022.09.27-14.15.07:551][643]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019F117EE000), frame # 643
-[2022.09.27-14.15.07:551][643]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019F35149440), frame # 643
-[2022.09.27-14.15.07:551][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
-[2022.09.27-14.15.07:561][643]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.09.27-14.15.07:561][643]LogAIModule: Creating AISystem for world 01_Actor
-[2022.09.27-14.15.07:561][643]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019F117ED000), frame # 643
-[2022.09.27-14.15.07:561][643]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019FA7EBCB80), frame # 643
-[2022.09.27-14.15.07:585][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
-[2022.09.27-14.15.07:597][643]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.09.27-14.15.07:597][643]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.193ms.
-[2022.09.27-14.15.07:597][643]LogFileHelpers: Loading map '01_Actor' took 0.120
-[2022.09.27-14.15.07:654][644]LogD3D12RHI: Creating RTPSO with 135 shaders (134 cached, 1 new) took 11.27 ms. Compile time 5.58 ms, link time 5.51 ms.
-[2022.09.27-14.16.59:484][722]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Common/BackStep.BackStep
-[2022.09.27-14.16.59:531][722]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Character/Animations/Common/BackStep.BackStep
-[2022.09.27-14.16.59:716][722]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2022.09.27-14.16.59:798][722]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2022.09.27-14.16.59:839][722]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 137
-[2022.09.27-14.16.59:839][722]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 127
-[2022.09.27-14.16.59:839][722]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 117
-[2022.09.27-14.16.59:839][722]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 107
-[2022.09.27-14.16.59:839][722]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
-[2022.09.27-14.16.59:878][722]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2022.09.27-14.17.00:372][722]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.09.27-14.17.01:559][722]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
-[2022.09.27-14.17.01:559][722]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
-[2022.09.27-14.17.01:559][722]LogUObjectGlobals: Warning: 'Object /Game/Character/Weapons/GreatSword/SK_GreatSword.SK_GreatSword' 오브젝트를 찾는 데 실패했습니다.
-[2022.09.27-14.17.01:604][722]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2022.09.27-14.17.01:610][722]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2022.09.27-14.17.02:031][722]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2022.09.27-14.17.02:878][722]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2022.09.27-14.17.02:936][723]LogD3D12RHI: Creating RTPSO with 136 shaders (135 cached, 1 new) took 59.49 ms. Compile time 50.94 ms, link time 8.32 ms.
-[2022.09.27-14.17.03:290][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 234
-[2022.09.27-14.17.03:522][766]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 224
-[2022.09.27-14.17.04:331][815]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 214
-[2022.09.27-14.17.04:483][829]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 204
-[2022.09.27-14.17.07:321][118]LogSlate: Window 'BackStep' being destroyed
-[2022.09.27-14.17.07:334][118]LogSlate: Window 'BackStep' being destroyed
-[2022.09.27-14.17.07:335][118]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.17.07:335][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.17.07:388][118]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.17.07:388][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.17.07:462][118]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.17.07:462][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.17.07:468][118]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 194
-[2022.09.27-14.17.07:493][119]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 184
-[2022.09.27-14.17.07:653][128]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 174
-[2022.09.27-14.17.09:369][318]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 164
-[2022.09.27-14.17.10:250][421]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 154
-[2022.09.27-14.17.10:333][430]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 144
-[2022.09.27-14.17.10:924][500]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 134
-[2022.09.27-14.17.13:171][748]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 124
-[2022.09.27-14.17.13:416][776]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 114
-[2022.09.27-14.17.13:747][813]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 104
-[2022.09.27-14.17.14:445][892]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 94
-[2022.09.27-14.17.14:793][915]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_Walk_Forward.Fist_Walk_Forward
-[2022.09.27-14.17.14:793][915]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_LongStep_Right.Fist_LongStep_Right
-[2022.09.27-14.17.14:795][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
-[2022.09.27-14.17.15:771][915]LogSlate: Window 'Delete Assets' being destroyed
-[2022.09.27-14.17.15:912][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
-[2022.09.27-14.17.15:928][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
-[2022.09.27-14.17.15:937][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
-[2022.09.27-14.17.15:951][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
-[2022.09.27-14.17.15:953][915]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 84
-[2022.09.27-14.17.15:978][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2022.09.27-14.17.15:991][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
-[2022.09.27-14.17.16:008][916]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Walk_F.Wizard_Walk_F
-[2022.09.27-14.17.16:008][916]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Idle.Wizard_Idle
-[2022.09.27-14.17.16:068][918]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Walk_L.Wizard_Walk_L
-[2022.09.27-14.17.16:117][920]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Walk_R.Wizard_Walk_R
-[2022.09.27-14.17.16:202][922]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Run_B.Wizard_Run_B
-[2022.09.27-14.17.16:247][924]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Run_F.Wizard_Run_F
-[2022.09.27-14.17.16:247][924]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Run_L.Wizard_Run_L
-[2022.09.27-14.17.16:267][926]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Run_R.Wizard_Run_R
-[2022.09.27-14.17.16:321][927]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Wizard/Wizard_Walk_B.Wizard_Walk_B
-[2022.09.27-14.17.16:338][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Run_R.Sword_Run_R
-[2022.09.27-14.17.16:392][932]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Walk_B.Sword_Walk_B
-[2022.09.27-14.17.16:398][933]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Walk_F.Sword_Walk_F
-[2022.09.27-14.17.16:467][935]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Walk_L.Sword_Walk_L
-[2022.09.27-14.17.16:506][936]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Walk_R.Sword_Walk_R
-[2022.09.27-14.17.16:575][938]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Idle.Sword_Idle
-[2022.09.27-14.17.16:579][939]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Run_B.Sword_Run_B
-[2022.09.27-14.17.16:666][945]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Run_F.Sword_Run_F
-[2022.09.27-14.17.16:684][946]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Sword/Sword_Run_L.Sword_Run_L
-[2022.09.27-14.17.16:717][947]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Idle.Great_Sword_Idle
-[2022.09.27-14.17.16:717][947]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Run_F.Great_Sword_Run_F
-[2022.09.27-14.17.16:801][952]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Run_B.Great_Sword_Run_B
-[2022.09.27-14.17.16:805][953]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Run_L.Great_Sword_Run_L
-[2022.09.27-14.17.16:839][955]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/GreatSword/Great_Sword_Run_R.Great_Sword_Run_R
-[2022.09.27-14.17.16:878][958]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_LongStep_Backward.Fist_LongStep_Backward
-[2022.09.27-14.17.16:882][959]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_Idle.Fist_Idle
-[2022.09.27-14.17.16:919][961]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_Walk_Backward.Fist_Walk_Backward
-[2022.09.27-14.17.16:964][965]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_LongStep_Forward.Fist_LongStep_Forward
-[2022.09.27-14.17.17:002][966]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Animations/Fist/Fist_LongStep_Left.Fist_LongStep_Left
-[2022.09.27-14.17.17:264][992]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 74
-[2022.09.27-14.17.17:680][ 39]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 64
-[2022.09.27-14.17.18:356][116]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 54
-[2022.09.27-14.17.19:583][253]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
-[2022.09.27-14.17.20:162][319]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
-[2022.09.27-14.17.20:810][394]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
-[2022.09.27-14.17.21:213][440]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
-[2022.09.27-14.17.22:547][591]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
-[2022.09.27-14.17.22:769][614]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
-[2022.09.27-14.17.22:846][623]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
-[2022.09.27-14.17.23:833][726]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
-[2022.09.27-14.17.23:887][730]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
-[2022.09.27-14.17.23:913][732]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
-[2022.09.27-14.17.24:696][808]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Character/Mesh/Skel_Mannequin.Skel_Mannequin
-[2022.09.27-14.17.24:703][808]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2022.09.27-14.17.24:753][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2022.09.27-14.17.25:025][809]LogD3D12RHI: Creating RTPSO with 137 shaders (136 cached, 1 new) took 53.79 ms. Compile time 48.41 ms, link time 5.20 ms.
-[2022.09.27-14.17.25:171][810]LogD3D12RHI: Creating RTPSO with 138 shaders (137 cached, 1 new) took 72.02 ms. Compile time 66.99 ms, link time 4.86 ms.
-[2022.09.27-14.17.42:605][465]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Skel_Mannequin37BE44AD41647F4D17DFF0A488D6583F.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Character/Mesh/Skel_Mannequin.uasset'
-[2022.09.27-14.17.42:629][465]AssetCheck: New page: 애셋 저장: Skel_Mannequin
-[2022.09.27-14.17.42:629][465]LogContentValidation: Display: Skeleton /Game/Character/Mesh/Skel_Mannequin.Skel_Mannequin 유효성 검사
-[2022.09.27-14.17.43:593][560]LogSlate: Window 'Skel_Mannequin' being destroyed
-[2022.09.27-14.17.43:599][560]LogSlate: Window 'Skel_Mannequin' being destroyed
-[2022.09.27-14.17.43:599][560]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.17.43:600][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.17.47:592][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
-[2022.09.27-14.18.19:195][954]LogSlate: WidgetSwitcher ('None') active index changed to -1
-[2022.09.27-14.18.19:195][954]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2022.09.27-14.18.19:261][954]LogSlate: Took 0.033930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.09.27-14.18.23:294][418]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2022.09.27-14.18.30:626][282]Running D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" -game -rocket -progress
-[2022.09.27-14.18.31:238][282]Discovering modules, targets and source code for project...
-[2022.09.27-14.18.33:553][282]Binding IntelliSense data...
-[2022.09.27-14.18.45:548][282]Binding IntelliSense data... 50%
-[2022.09.27-14.18.45:549][282]Binding IntelliSense data... 100%
-[2022.09.27-14.18.45:549][282]Writing project files...
-[2022.09.27-14.19.08:213][282]Writing project files... 33%
-[2022.09.27-14.19.08:213][282]Writing project files... 100%
-[2022.09.27-14.19.08:723][282]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2022.09.27-14.19.08:723][282]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2022.09.27-14.19.08:752][282]Candidate modules for hot reload:
-[2022.09.27-14.19.08:752][282]  Cpp_Project
-[2022.09.27-14.19.08:753][282]Launching UnrealBuildTool... [D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Cpp_Project,5586 Cpp_ProjectEditor Win64 Development -Project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject" "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Cpp_Project.uproject"  -IgnoreJunk]
-[2022.09.27-14.19.40:924][282]CompilerResultsLog: New page: 컴파일 - 2022. 9. 28. 오전 8:19:40
-[2022.09.27-14.19.40:924][282]CompilerResultsLog: Creating makefile for Cpp_ProjectEditor (no existing makefile)
-[2022.09.27-14.19.40:924][282]CompilerResultsLog: Parsing headers for Cpp_ProjectEditor
-[2022.09.27-14.19.40:924][282]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Cpp_Project.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\Cpp_ProjectEditor\Development\Cpp_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Reflection code generated for Cpp_ProjectEditor in 19.6732906 seconds
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Building Cpp_ProjectEditor...
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Building 6 actions with 8 processes...
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [1/6] Cpp_Project.init.gen.cpp
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [2/6] CPlayer.cpp
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [3/6] CPlayer.gen.cpp
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [4/6] UE4Editor-Cpp_Project-5586.lib
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [5/6] UE4Editor-Cpp_Project-5586.dll
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.suppressed.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-5586.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
-[2022.09.27-14.19.40:925][282]CompilerResultsLog:   [6/6] Cpp_ProjectEditor.target
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Total time in Parallel executor: 9.50 seconds
-[2022.09.27-14.19.40:925][282]CompilerResultsLog: Total execution time: 32.04 seconds
-[2022.09.27-14.19.40:925][282]LogMainFrame: MainFrame: Module compiling took 32.201 seconds
-[2022.09.27-14.19.40:946][282]LogClass: Could not find existing class CPlayer in package /Script/Cpp_Project for HotReload, assuming new class
-[2022.09.27-14.19.40:949][282]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0007 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.19.40:951][282]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.19.41:091][282]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.19.41:096][282]Display: HotReload took 32.8s.
-[2022.09.27-14.19.41:102][282]Warning: HotReload operation took 32.8s.
-[2022.09.27-14.19.41:419][282]LogSlate: Window 'C++ 클래스 추가' being destroyed
-[2022.09.27-14.19.41:430][282]LogHotReload: New module detected: UE4Editor-Cpp_Project-5586.dll
-[2022.09.27-14.19.41:655][282]LogSlate: Took 0.100029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2022.09.27-14.19.41:655][282]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
-[2022.09.27-14.19.41:752][282]LogSlate: Took 0.096595 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
-[2022.09.27-14.19.41:792][283]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.19.41:831][283]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0015 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.19.41:832][283]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.19.41:840][283]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.19.41:859][283]Display: HotReload took  0.1s.
-[2022.09.27-14.31.54:433][468]LogHotReload: New module detected: UE4Editor-Cpp_Project-0065.dll
-[2022.09.27-14.31.55:461][472]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.31.55:505][472]LogClass: Could not find existing class CPlayer in package /Script/Cpp_Project for HotReload, assuming new class
-[2022.09.27-14.31.55:510][472]LogHotReload: Re-instancing CPlayer after hot-reload.
-[2022.09.27-14.31.55:539][472]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.31.55:540][472]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.31.55:571][472]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.31.55:581][472]Display: HotReload took  0.1s.
-[2022.09.27-14.36.10:674][232]LogHotReload: New module detected: UE4Editor-Cpp_Project-0066.dll
-[2022.09.27-14.36.11:361][235]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.36.11:405][235]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.36.11:407][235]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.36.11:436][235]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.36.11:445][235]Display: HotReload took  0.1s.
-[2022.09.27-14.36.15:883][365]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube5)
-[2022.09.27-14.36.16:802][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.09.27-14.36.18:691][634]LogTemp: Repeating last play command: 독립형 게임
-[2022.09.27-14.36.18:723][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
-[2022.09.27-14.36.53:667][188]LogSlate: WidgetSwitcher ('None') active index changed to -1
-[2022.09.27-14.36.53:667][188]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2022.09.27-14.37.02:871][216]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
-[2022.09.27-14.37.03:459][216]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
-[2022.09.27-14.37.04:443][216]LogSlate: Window '블루프린트 클래스 추가' being destroyed
-[2022.09.27-14.37.05:313][286]LogSlate: Took 0.006502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.09.27-14.37.24:931][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
-[2022.09.27-14.37.24:938][378]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayerA5B889DA4643EAFBBD94A99DA88589ED.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
-[2022.09.27-14.37.24:958][378]AssetCheck: New page: 애셋 저장: BP_CPlayer
-[2022.09.27-14.37.24:958][378]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
-[2022.09.27-14.37.25:691][453]BlueprintLog: New page: BP_CPlayer 컴파일
-[2022.09.27-14.37.25:753][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2022.09.27-14.37.27:003][548]LogSlate: Window 'BP_CPlayer' being destroyed
-[2022.09.27-14.37.27:010][548]LogSlate: Window 'BP_CPlayer' being destroyed
-[2022.09.27-14.37.27:018][548]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.37.27:018][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.40.44:718][828]LogHotReload: New module detected: UE4Editor-Cpp_Project-0067.dll
-[2022.09.27-14.40.45:740][832]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.40.45:793][832]LogHotReload: Re-instancing CPlayer after hot-reload.
-[2022.09.27-14.40.45:808][832]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.40.45:810][832]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.40.45:865][832]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.40.45:875][832]Display: HotReload took  0.1s.
-[2022.09.27-14.40.54:820][531]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Cpp_Project.CPlayer
-[2022.09.27-14.40.54:895][531]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CPlayer.h'
-[2022.09.27-14.41.03:856][555]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/Cpp_Project.CPlayer
-[2022.09.27-14.41.07:804][999]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
-[2022.09.27-14.41.11:341][122]LogSlate: Window 'BP_CPlayer' being destroyed
-[2022.09.27-14.41.11:369][122]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2022.09.27-14.41.11:369][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.09.27-14.41.11:419][122]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
-[2022.09.27-14.41.20:448][969]BlueprintLog: New page: BP_CPlayer 컴파일
-[2022.09.27-14.41.20:531][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
-[2022.09.27-14.41.21:229][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
-[2022.09.27-14.41.21:244][ 31]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayer726E0AA74A2F424697CAD6AEE46C230B.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
-[2022.09.27-14.41.21:261][ 31]AssetCheck: New page: 애셋 저장: BP_CPlayer
-[2022.09.27-14.41.21:261][ 31]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
-[2022.09.27-14.42.36:747][720]LogHotReload: New module detected: UE4Editor-Cpp_Project-0068.dll
-[2022.09.27-14.42.37:437][723]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.42.37:489][723]LogHotReload: Re-instancing CPlayer after hot-reload.
-[2022.09.27-14.42.37:543][723]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.42.37:546][723]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.42.37:620][723]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.42.37:640][723]Display: HotReload took  0.2s.
-[2022.09.27-14.47.16:193][553]LogHotReload: New module detected: UE4Editor-Cpp_Project-0069.dll
-[2022.09.27-14.47.16:890][556]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-14.47.16:955][556]LogHotReload: Re-instancing CPlayer after hot-reload.
-[2022.09.27-14.47.17:022][556]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0006 seconds. Added 7 classes and 3 folders.
-[2022.09.27-14.47.17:029][556]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-14.47.17:124][556]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3435 classes and 826 folders.
-[2022.09.27-14.47.17:147][556]Display: HotReload took  0.3s.
-[2022.09.27-14.47.45:480][443]BlueprintLog: New page: BP_CPlayer 컴파일
-[2022.09.27-14.47.45:603][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
-[2022.09.27-14.47.50:646][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
-[2022.09.27-14.47.50:662][937]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayerE7CEC6644BA0012728C593A250A641C9.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
-[2022.09.27-14.47.50:675][937]AssetCheck: New page: 애셋 저장: BP_CPlayer
-[2022.09.27-14.47.50:675][937]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
-[2022.09.27-14.54.15:162][ 87]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2022.09.27-15.09.24:006][795]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2022.09.27-15.10.46:567][ 40]LogHotReload: New module detected: UE4Editor-Cpp_Project-0077.dll
-[2022.09.27-15.10.47:591][ 44]LogHotReload: Starting Hot-Reload from IDE
-[2022.09.27-15.10.47:658][ 44]LogClass: Could not find existing class CGameMode in package /Script/Cpp_Project for HotReload, assuming new class
-[2022.09.27-15.10.47:665][ 44]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0008 seconds. Added 8 classes and 3 folders.
-[2022.09.27-15.10.47:668][ 44]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2022.09.27-15.10.47:758][ 44]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3436 classes and 826 folders.
-[2022.09.27-15.10.47:772][ 44]Display: HotReload took  0.2s.
-[2022.09.27-15.11.13:838][982]LogSlate: Window '프로젝트 세팅' being destroyed
-[2022.09.27-15.11.13:846][982]LogSlate: Window '프로젝트 세팅' being destroyed
-[2022.09.27-15.11.24:695][694]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:281][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.09.27-15.39.38:281][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.09.27-15.39.38:282][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:282][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.27-15.39.38:288][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.09.27-15.39.38:289][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.27-15.39.38:289][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.09.27-15.39.38:289][  0]LogHAL: Display: Platform has ~ 48 GB [51453968384 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.09.27-15.39.38:289][  0]LogInit: Going up to parent DeviceProfile []
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.27-15.39.38:289][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Scalability.ini]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.09.27-15.39.38:290][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.09.27-15.39.38:291][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Config/Windows/Engine.ini]
+[2022.09.27-15.39.38:291][  0]LogInit: Computer: 찬웅
+[2022.09.27-15.39.38:291][  0]LogInit: User: Chanwoongs
+[2022.09.27-15.39.38:291][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.09.27-15.39.38:291][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.09.27-15.39.38:291][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2022.09.27-15.39.38:291][  0]LogMemory: Platform Memory Stats for Windows
+[2022.09.27-15.39.38:291][  0]LogMemory: Process Physical Memory: 119.51 MB used, 119.52 MB peak
+[2022.09.27-15.39.38:291][  0]LogMemory: Process Virtual Memory: 97.49 MB used, 97.49 MB peak
+[2022.09.27-15.39.38:291][  0]LogMemory: Physical Memory: 21868.76 MB used,  27201.57 MB free, 49070.33 MB total
+[2022.09.27-15.39.38:291][  0]LogMemory: Virtual Memory: 5150.08 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2022.09.27-15.39.38:304][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.09.27-15.39.38:449][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.09.27-15.39.38:450][  0]LogInit: Using OS detected language (ko-KR).
+[2022.09.27-15.39.38:450][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.09.27-15.39.38:452][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.09.27-15.39.38:542][  0]LogInit: Setting process to per monitor DPI aware
+[2022.09.27-15.39.38:610][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.09.27-15.39.38:610][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.09.27-15.39.38:893][  0]LogD3D12RHI: Aftermath initialized
+[2022.09.27-15.39.38:893][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.09.27-15.39.38:903][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.09.27-15.39.39:148][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 (Max supported Feature Level 12_1)
+[2022.09.27-15.39.39:148][  0]LogD3D12RHI: Adapter has 8010MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 2 output[s]
+[2022.09.27-15.39.39:163][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2022.09.27-15.39.39:163][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 0 output[s]
+[2022.09.27-15.39.39:163][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2022.09.27-15.39.39:163][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.09.27-15.39.39:175][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.09.27-15.39.39:259][  0]LogD3D12RHI: D3D12 ray tracing enabled.
+[2022.09.27-15.39.39:259][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2022.09.27-15.39.39:259][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2022.09.27-15.39.39:299][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.09.27-15.39.39:309][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.09.27-15.39.39:319][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.09.27-15.39.39:325][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.09.27-15.39.39:325][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.09.27-15.39.39:326][  0]LogD3D12RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2022.09.27-15.39.39:326][  0]LogWindows: EnumDisplayDevices:
+[2022.09.27-15.39.39:327][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2022.09.27-15.39.39:328][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2022.09.27-15.39.39:328][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.09.27-15.39.39:329][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.09.27-15.39.39:330][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.09.27-15.39.39:330][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2022.09.27-15.39.39:330][  0]LogD3D12RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2022.09.27-15.39.39:330][  0]LogD3D12RHI:      Driver Date: 7-21-2022
+[2022.09.27-15.39.39:330][  0]LogRHI: Texture pool is 4562 MB (70% of 6517 MB)
+[2022.09.27-15.39.39:330][  0]LogD3D12RHI: Async texture creation enabled
+[2022.09.27-15.39.39:330][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.09.27-15.39.40:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.09.27-15.39.40:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.09.27-15.39.40:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.09.27-15.39.40:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.09.27-15.39.40:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.09.27-15.39.40:172][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.09.27-15.39.40:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.09.27-15.39.40:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.09.27-15.39.40:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.09.27-15.39.40:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.09.27-15.39.40:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.09.27-15.39.40:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.09.27-15.39.40:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.09.27-15.39.40:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.09.27-15.39.40:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.09.27-15.39.40:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.09.27-15.39.40:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.09.27-15.39.40:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.09.27-15.39.40:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.09.27-15.39.40:344][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.09.27-15.39.40:358][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.09.27-15.39.40:462][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Intermediate/Shaders/WorkingDirectory/18384/).
+[2022.09.27-15.39.40:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chanwoongs/AppData/Local/Temp/UnrealShaderWorkingDir/C58FCE7347DD7286AD6EB9BF9B333723/'.
+[2022.09.27-15.39.40:464][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.09.27-15.39.40:464][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.09.27-15.39.40:464][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.09.27-15.39.41:270][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: Loaded boot cache 0.06s 106MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.27-15.39.41:332][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.09.27-15.39.41:343][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.09.27-15.39.41:343][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.27-15.39.41:343][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.09.27-15.39.41:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chanwoongs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.09.27-15.39.41:345][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.09.27-15.39.41:345][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.09.27-15.39.41:402][  0]LogSlate: Using FreeType 2.10.0
+[2022.09.27-15.39.41:403][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.09.27-15.39.41:441][  0]LogAssetRegistry: FAssetRegistry took 0.0085 seconds to start up
+[2022.09.27-15.39.41:659][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.27-15.39.41:798][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.09.27-15.39.41:798][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.09.27-15.39.41:798][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.09.27-15.39.41:798][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.09.27-15.39.41:798][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.09.27-15.39.41:907][  0]LogNetVersion: Cpp_Project 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3821394651)
+[2022.09.27-15.39.42:397][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017F44A424C0), frame # 0
+[2022.09.27-15.39.42:397][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F449BB9C0), frame # 0
+[2022.09.27-15.39.42:398][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F44A44A00), frame # 0
+[2022.09.27-15.39.42:474][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.067157 seconds
+[2022.09.27-15.39.42:478][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.09.27-15.39.42:478][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.09.27-15.39.42:478][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.09.27-15.39.42:748][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 54.56 ms. Compile time 13.40 ms, link time 41.12 ms.
+[2022.09.27-15.39.42:780][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (1 cached, 2 new) took 32.03 ms. Compile time 3.18 ms, link time 28.84 ms.
+[2022.09.27-15.39.43:120][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.09.27-15.39.43:126][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.09.27-15.39.43:202][  0]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2022.09.27-15.39.43:202][  0]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2022.09.27-15.39.43:203][  0]LogAnimation: Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2022.09.27-15.39.43:339][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.43:339][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.43:344][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.43:350][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.43:367][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.43:827][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.09.27-15.39.43:861][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.27-15.39.43:861][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.27-15.39.43:932][  0]LogOcInput: OculusInput pre-init called
+[2022.09.27-15.39.43:953][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.09.27-15.39.43:953][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.09.27-15.39.44:029][  0]LogEngine: Initializing Engine...
+[2022.09.27-15.39.44:030][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.09.27-15.39.44:030][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.09.27-15.39.44:031][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.09.27-15.39.44:152][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.09.27-15.39.44:161][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.09.27-15.39.44:161][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F538C7C00), frame # 0
+[2022.09.27-15.39.44:161][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F538CFB00), frame # 0
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.27-15.39.44:172][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.27-15.39.44:172][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.27-15.39.44:173][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.09.27-15.39.44:173][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.27-15.39.44:212][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.27-15.39.44:212][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.09.27-15.39.44:328][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.27-15.39.44:330][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.27-15.39.44:333][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.27-15.39.44:333][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.27-15.39.44:335][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.27-15.39.44:336][  0]LogInit: FAudioDevice initialized.
+[2022.09.27-15.39.44:336][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.09.27-15.39.44:420][  0]LogDerivedDataCache: Saved boot cache 0.08s 109MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.09.27-15.39.44:423][  0]LogInit: Texture streaming: Enabled
+[2022.09.27-15.39.44:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.09.27-15.39.44:454][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.09.27-15.39.44:459][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.09.27-15.39.44:504][  0]LogInit: Transaction tracking system initialized
+[2022.09.27-15.39.44:541][  0]BlueprintLog: New page: 에디터 로드
+[2022.09.27-15.39.44:666][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.09.27-15.39.44:878][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.09.27-15.39.44:878][  0]LogCook: Display: Mobile HDR setting 1
+[2022.09.27-15.39.45:109][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/' took 0.00s
+[2022.09.27-15.39.45:396][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.09.27-15.39.45:396][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.672
+[2022.09.27-15.39.45:396][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.27-15.39.45:397][  0]LightingResults: New page: 라이팅 빌드
+[2022.09.27-15.39.45:399][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-15.39.45:399][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-15.39.45:400][  0]MapCheck: New page: 맵 체크
+[2022.09.27-15.39.45:400][  0]LightingResults: New page: 라이팅 빌드
+[2022.09.27-15.39.45:408][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017F538C7C00), frame # 0
+[2022.09.27-15.39.45:408][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017F538CFB00), frame # 0
+[2022.09.27-15.39.45:409][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.09.27-15.39.45:475][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.09.27-15.39.45:475][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F533F6200), frame # 0
+[2022.09.27-15.39.45:475][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017F44F76200), frame # 0
+[2022.09.27-15.39.45:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.27-15.39.45:492][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.09.27-15.39.45:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.27-15.39.45:493][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.412ms.
+[2022.09.27-15.39.45:493][  0]LogFileHelpers: Loading map 'Template_Default' took 0.096
+[2022.09.27-15.39.45:496][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.771
+[2022.09.27-15.39.45:609][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.27-15.39.45:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.27-15.39.45:621][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.27-15.39.45:627][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.27-15.39.45:644][  0]LogCollectionManager: Loaded 0 collections in 0.001242 seconds
+[2022.09.27-15.39.45:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/Collections/' took 0.00s
+[2022.09.27-15.39.45:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Developers/Chanwoongs/Collections/' took 0.00s
+[2022.09.27-15.39.45:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Collections/' took 0.00s
+[2022.09.27-15.39.45:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3434 classes and 824 folders.
+[2022.09.27-15.39.45:661][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.09.27-15.39.45:780][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.09.27-15.39.45:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2022.09.27-15.39.45:854][  0]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.27-15.39.45:857][  0]LogSlate: Took 0.001845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.09.27-15.39.45:859][  0]LogSlate: Took 0.001661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.09.27-15.39.45:860][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.27-15.39.45:861][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.27-15.39.45:862][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.27-15.39.45:888][  0]LogSlate: Took 0.001474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.09.27-15.39.45:957][  0]LogRenderer: Reallocating scene render targets to support 2040x808 Format 10 NumSamples 1 (Frame:1).
+[2022.09.27-15.39.46:261][  0]LogD3D12RHI: Creating RTPSO with 133 shaders (0 cached, 133 new) took 283.65 ms. Compile time 278.08 ms, link time 5.38 ms.
+[2022.09.27-15.39.46:377][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (3 cached, 0 new) took 86.64 ms. Compile time 0.02 ms, link time 86.61 ms.
+[2022.09.27-15.39.46:531][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 105.20 ms. Compile time 5.08 ms, link time 100.10 ms.
+[2022.09.27-15.39.46:737][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2022.09.27-15.39.46:737][  0]LogLoad: (Engine Initialization) Total time: 13.01 seconds
+[2022.09.27-15.39.46:737][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.09.27-15.39.46:790][  0]LogD3D12RHI: Creating RTPSO with 134 shaders (133 cached, 1 new) took 12.01 ms. Compile time 2.83 ms, link time 8.94 ms.
+[2022.09.27-15.39.46:790][  0]LogAssetRegistry: Asset discovery search completed in 5.3546 seconds
+[2022.09.27-15.39.46:794][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.09.27-15.39.46:795][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.09.27-15.39.48:113][  4]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.27-15.39.55:341][298]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/01_Actor.01_Actor
+[2022.09.27-15.39.55:350][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.09.27-15.39.55:352][298]Cmd: MAP LOAD FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/Levels/01_Actor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.27-15.39.55:352][298]LightingResults: New page: 라이팅 빌드
+[2022.09.27-15.39.55:352][298]LoadErrors: New page: 맵 로드중: 01_Actor.umap
+[2022.09.27-15.39.55:384][298]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-15.39.55:384][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-15.39.55:384][298]MapCheck: New page: 맵 체크
+[2022.09.27-15.39.55:384][298]LightingResults: New page: 라이팅 빌드
+[2022.09.27-15.39.55:395][298]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017F533F6200), frame # 298
+[2022.09.27-15.39.55:396][298]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017F44F76200), frame # 298
+[2022.09.27-15.39.55:396][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.27-15.39.55:405][298]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.27-15.39.55:405][298]LogAIModule: Creating AISystem for world 01_Actor
+[2022.09.27-15.39.55:405][298]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017F53952400), frame # 298
+[2022.09.27-15.39.55:405][298]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017FB8418540), frame # 298
+[2022.09.27-15.39.55:415][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.27-15.39.55:427][298]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.27-15.39.55:428][298]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.197ms.
+[2022.09.27-15.39.55:428][298]LogFileHelpers: Loading map '01_Actor' took 0.076
+[2022.09.27-15.39.55:485][300]LogD3D12RHI: Creating RTPSO with 135 shaders (134 cached, 1 new) took 16.51 ms. Compile time 10.64 ms, link time 4.95 ms.
+[2022.09.27-15.41.05:095][363]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.41.05:102][363]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.41.08:542][760]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-15.41.08:558][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.09.27-15.42.30:054][380]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.42.30:059][380]LogSlate: Window '프로젝트 세팅' being destroyed
+[2022.09.27-15.42.31:802][583]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2022.09.27-15.42.32:957][716]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-15.42.32:976][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.27-15.49.37:704][872]LogHotReload: New module detected: UE4Editor-Cpp_Project-0079.dll
+[2022.09.27-15.49.38:745][876]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-15.49.38:804][876]LogHotReload: Re-instancing CPlayer after hot-reload.
+[2022.09.27-15.49.38:817][876]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2022.09.27-15.49.38:818][876]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.49.38:857][876]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3434 classes and 824 folders.
+[2022.09.27-15.49.38:870][876]Display: HotReload took  0.1s.
+[2022.09.27-15.49.54:768][923]LogHotReload: New module detected: UE4Editor-Cpp_Project-0080.dll
+[2022.09.27-15.49.55:812][927]LogHotReload: Starting Hot-Reload from IDE
+[2022.09.27-15.49.55:869][927]LogContentBrowser: Native class hierarchy updated for 'Cpp_Project' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2022.09.27-15.49.55:871][927]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.09.27-15.49.55:904][927]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3434 classes and 824 folders.
+[2022.09.27-15.49.55:915][927]Display: HotReload took  0.1s.
+[2022.09.27-15.49.57:813][ 43]LogTemp: Repeating last play command: 독립형 게임
+[2022.09.27-15.49.57:830][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.09.27-15.50.15:438][988]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-15.50.15:642][988]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.09.27-15.50.20:542][377]LogSlate: Window 'BP_CPlayer' being destroyed
+[2022.09.27-15.50.20:559][377]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.27-15.50.20:560][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.27-15.50.20:622][377]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CPlayer.BP_CPlayer
+[2022.09.27-15.50.20:942][377]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.27-15.50.21:531][431]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.27-15.51.00:440][456]BlueprintLog: New page: BP_CPlayer 컴파일
+[2022.09.27-15.51.00:484][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.27-15.51.01:953][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_CPlayer" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset" SILENT=true
+[2022.09.27-15.51.01:968][604]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Saved/BP_CPlayerEF2300D548C3F9240994D5B2D0CAFEB0.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Content/BP_CPlayer.uasset'
+[2022.09.27-15.51.01:989][604]AssetCheck: New page: 애셋 저장: BP_CPlayer
+[2022.09.27-15.51.01:989][604]LogContentValidation: Display: Blueprint /Game/BP_CPlayer.BP_CPlayer 유효성 검사
+[2022.09.27-15.51.09:226][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.09.27-15.51.10:321][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms

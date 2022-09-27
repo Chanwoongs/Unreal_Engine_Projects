@@ -31,4 +31,7 @@ public:
 	// 입력을 받아 원하는대로 처리할 수 있도록 해주는 함수
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	void OnMoveForward(float Axis);
+	void OnMoveRight(float Axis);
 };

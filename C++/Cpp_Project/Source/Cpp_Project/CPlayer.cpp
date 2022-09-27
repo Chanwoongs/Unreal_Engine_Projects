@@ -54,5 +54,26 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveForward", this, &ACPlayer::OnMoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &ACPlayer::OnMoveRight);
+
+}
+
+void ACPlayer::OnMoveForward(float Axis)
+{
+	// ps. rotator의 함수가 없다면 quternion으로 변환해보자
+	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
+	FVector direction = FQuat(rotator).GetForwardVector().GetSafeNormal2D();
+
+	AddMovementInput(direction, Axis);
+
+}
+
+void ACPlayer::OnMoveRight(float Axis)
+{
+	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
+	FVector direction = FQuat(rotator).GetRightVector().GetSafeNormal2D();
+
+	AddMovementInput(direction, Axis);
 }
 
