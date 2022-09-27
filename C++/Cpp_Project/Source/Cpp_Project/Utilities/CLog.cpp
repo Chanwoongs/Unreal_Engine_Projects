@@ -53,3 +53,26 @@ void CLog::Log(const FRotator& InValue)
 {
 	UE_LOG(GameProject, Display, L"%s", *InValue.ToString());
 }
+
+void Log(const UObject* InObject) 
+{
+	FString str;
+	if (!!InObject)
+	{
+		str.Append(InObject->GetName());
+	}
+
+	str.Append(!!InObject ? "Not NULL" : "NULL");
+
+	UE_LOG(GameProject, Display, L"%s", *str);
+}
+
+void CLog::Log(const FString& InFuncName, int32 InLineNumber)
+{
+	FString str;
+
+	str.Append(InFuncName).Append(", ").Append(FString::FromInt(InLineNumber));
+
+	UE_LOG(GameProject, Display, L"%s", *str);
+
+}
