@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5C5B8130-5856-4E1A-8BD9-9EE025AC4C54}</UniqueIdentifier>
+      <UniqueIdentifier>{1AABF498-EAB2-4A4C-AFF4-C1F13F1E2E33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C0F52954-16F9-4F53-A2B5-7292D91FEDF8}</UniqueIdentifier>
+      <UniqueIdentifier>{538EB98C-0564-45D7-A5A9-70F40AA47EB9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{630F250C-272B-4CBB-AA9A-052B9C90F160}</UniqueIdentifier>
+      <UniqueIdentifier>{749B390B-F2D7-4ADB-9EC9-8DB4F34151BA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\CAnimInstance.cpp">
       <Filter>Source\Cpp_Project</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{B1614C85-CE1A-47D4-9161-217BA0ECECF5}</UniqueIdentifier>
+      <UniqueIdentifier>{9163F950-3362-47F4-B0C4-B92D5BA5CAFA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -93,7 +93,7 @@
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\02_Debug">
-      <UniqueIdentifier>{566F0A7D-3923-47DA-9E62-D359E08D7F2D}</UniqueIdentifier>
+      <UniqueIdentifier>{E5E17DDD-E4F3-46B4-80C0-9D1A83563FAF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\02_Debug\C02_DrawDebug.cpp">
       <Filter>Source\Cpp_Project\02_Debug</Filter>
@@ -108,7 +108,7 @@
       <Filter>Source\Cpp_Project\02_Debug</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\03_Collision">
-      <UniqueIdentifier>{DFEA7A46-9D3E-459B-B004-783B0433F738}</UniqueIdentifier>
+      <UniqueIdentifier>{35EF971D-70E7-43BB-BD85-D722BD5A3F63}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.cpp">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
@@ -116,8 +116,26 @@
     <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.h">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_ComponentBeginOverlap.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_ComponentBeginOverlap.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Light.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_Light.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Trigger.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_Trigger.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
     <Filter Include="Source\Cpp_Project\Utilities">
-      <UniqueIdentifier>{4563E17E-A55B-4DAF-A9A1-AFF9E9E095A9}</UniqueIdentifier>
+      <UniqueIdentifier>{29F06EBE-3944-48E2-9508-FD4B129A6B2F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
