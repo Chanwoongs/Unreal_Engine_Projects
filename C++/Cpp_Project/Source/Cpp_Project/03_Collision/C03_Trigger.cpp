@@ -37,6 +37,19 @@ void AC03_Trigger::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor
 	{
 		OnBoxLightBeginOverlap.Execute(); // 싱글캐스트에서 연결되어 있는 함수를 실행
 	}
+
+	if (OnBoxLightRandomBeginOverlap.IsBound())
+	{
+		FLinearColor color;
+		color.R = UKismetMathLibrary::RandomFloatInRange(0, 1);
+		color.G = UKismetMathLibrary::RandomFloatInRange(0, 1);
+		color.B = UKismetMathLibrary::RandomFloatInRange(0, 1);
+		color.A = 1.0f;
+
+		FString string = OnBoxLightRandomBeginOverlap.Execute(color);
+	
+		CLog::Log(string);
+	}
 }
 
 void AC03_Trigger::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)

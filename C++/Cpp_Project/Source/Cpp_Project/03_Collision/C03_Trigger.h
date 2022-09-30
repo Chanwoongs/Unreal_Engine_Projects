@@ -7,6 +7,7 @@
 // Delegate 정의 매크로
 DECLARE_DELEGATE(FBoxLightBeginOverlap); // return void __(void) -> return type 없고 파라미터도 없다
 DECLARE_DELEGATE(FBoxLightEndOverlap);
+DECLARE_DELEGATE_RetVal_OneParam(FString, FBoxLightRandomBeginOverlap, FLinearColor); // return type, name, parameter
 
 UCLASS()
 class CPP_PROJECT_API AC03_Trigger : public AActor
@@ -43,4 +44,5 @@ public:
 	// 변수지만 외부에서 편하게 연결하기 위해 Public, 함수를 연결하는 변수로 취급
 	FBoxLightBeginOverlap OnBoxLightBeginOverlap;
 	FBoxLightEndOverlap OnBoxLightEndOverlap;
+	FBoxLightRandomBeginOverlap OnBoxLightRandomBeginOverlap;
 };

@@ -19,6 +19,8 @@ private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UPointLightComponent* PointLight;
 
+	UPROPERTY(VisibleDefaultsOnly)
+		class UPointLightComponent* PointLight2;
 public:	
 	AC03_Light();
 
@@ -30,4 +32,6 @@ private:
 		void OnLight();
 	UFUNCTION()
 		void OffLight();
+	UFUNCTION()
+		FString OnRandomLight(FLinearColor InColor);
 };

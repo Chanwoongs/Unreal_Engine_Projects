@@ -10,6 +10,7 @@ AC03_Light::AC03_Light()
 	CHelpers::CreateComponent<USceneComponent>(this, &Scene, "Scene");
 	CHelpers::CreateComponent<UTextRenderComponent>(this, &Text, "Text", Scene);
 	CHelpers::CreateComponent<UPointLightComponent>(this, &PointLight, "PointLight", Scene);
+	CHelpers::CreateComponent<UPointLightComponent>(this, &PointLight2, "PointLight2", Scene);
 
 	Text->SetRelativeLocation(FVector(0, 0, 100));
 	Text->SetRelativeRotation(FRotator(0, 180, 0));
@@ -21,6 +22,11 @@ AC03_Light::AC03_Light()
 	PointLight->Intensity = 1e+4f; //10^4, 1e-6f == 0.000001
 	PointLight->AttenuationRadius = 200; // 빛 반경
 	PointLight->LightColor = FColor(255, 128, 50);
+
+	PointLight2->SetRelativeLocation(FVector(0, 200, 0));
+	PointLight2->Intensity = 1e+4f; //10^4, 1e-6f == 0.000001
+	PointLight2->AttenuationRadius = 200; // 빛 반경
+	PointLight2->LightColor = FColor(255, 128, 50);
 }
 
 void AC03_Light::BeginPlay()
@@ -28,6 +34,7 @@ void AC03_Light::BeginPlay()
 	Super::BeginPlay();
 
 	PointLight->SetVisibility(false);
+	PointLight2->SetVisibility(false);
 
 	// UGameplayStatics -> Gameplay 하는데에 도움되는 것의 모음
 	TArray<AActor*> actors; // TArray : 가변형 배열, vector container와 유사한 기능을 가진다.
@@ -37,6 +44,8 @@ void AC03_Light::BeginPlay()
 	AC03_Trigger* trigger = Cast<AC03_Trigger>(actors[0]);
 	trigger->OnBoxLightBeginOverlap.BindUFunction(this, "OnLight"); // UFunction을 연결
 	trigger->OnBoxLightEndOverlap.BindUFunction(this, "OffLight"); 
+	trigger->OnBoxLightRandomBeginOverlap.BindUFunction(this, "OnRandomLight"); 
+
 }
 
 void AC03_Light::OnLight()
@@ -47,4 +56,13 @@ void AC03_Light::OnLight()
 void AC03_Light::OffLight()
 {
 	PointLight->SetVisibility(false);
+	PointLight2->SetVisibility(false);
+}
+
+FString AC03_Light::OnRandomLight(FLinearColor InColor)
+{
+	PointLight2->SetVisibility(true);
+	PointLight2->SetLightColor(InColor);
+
+	return InColor.ToString();
 }
