@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLinearColor;
 #ifdef CPP_PROJECT_C03_Light_generated_h
 #error "C03_Light.generated.h already included, missing '#pragma once' in C03_Light.h"
 #endif
@@ -16,12 +17,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Light_h_10_SPARSE_DATA
 #define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Light_h_10_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRandomLight); \
 	DECLARE_FUNCTION(execOffLight); \
 	DECLARE_FUNCTION(execOnLight);
 
 
 #define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Light_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnRandomLight); \
 	DECLARE_FUNCTION(execOffLight); \
 	DECLARE_FUNCTION(execOnLight);
 
@@ -71,7 +74,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Light); \
 #define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Light_h_10_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Scene() { return STRUCT_OFFSET(AC03_Light, Scene); } \
 	FORCEINLINE static uint32 __PPO__Text() { return STRUCT_OFFSET(AC03_Light, Text); } \
-	FORCEINLINE static uint32 __PPO__PointLight() { return STRUCT_OFFSET(AC03_Light, PointLight); }
+	FORCEINLINE static uint32 __PPO__PointLight() { return STRUCT_OFFSET(AC03_Light, PointLight); } \
+	FORCEINLINE static uint32 __PPO__PointLight2() { return STRUCT_OFFSET(AC03_Light, PointLight2); }
 
 
 #define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Light_h_7_PROLOG

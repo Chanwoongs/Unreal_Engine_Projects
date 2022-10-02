@@ -14,20 +14,20 @@ class AActor;
 #endif
 #define CPP_PROJECT_C03_Trigger_generated_h
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_SPARSE_DATA
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_RPC_WRAPPERS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_SPARSE_DATA
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execActorEndOverlap); \
 	DECLARE_FUNCTION(execActorBeginOverlap);
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execActorEndOverlap); \
 	DECLARE_FUNCTION(execActorBeginOverlap);
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_INCLASS_NO_PURE_DECLS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAC03_Trigger(); \
 	friend struct Z_Construct_UClass_AC03_Trigger_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AC03_Trigger)
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_INCLASS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAC03_Trigger(); \
 	friend struct Z_Construct_UClass_AC03_Trigger_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(AC03_Trigger)
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_STANDARD_CONSTRUCTORS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AC03_Trigger(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC03_Trigger) \
@@ -58,7 +58,7 @@ private: \
 public:
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_ENHANCED_CONSTRUCTORS \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC03_Trigger(AC03_Trigger&&); \
@@ -69,33 +69,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Trigger); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC03_Trigger)
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_PRIVATE_PROPERTY_OFFSET \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Scene() { return STRUCT_OFFSET(AC03_Trigger, Scene); } \
 	FORCEINLINE static uint32 __PPO__Box() { return STRUCT_OFFSET(AC03_Trigger, Box); } \
 	FORCEINLINE static uint32 __PPO__Text() { return STRUCT_OFFSET(AC03_Trigger, Text); }
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_11_PROLOG
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_GENERATED_BODY_LEGACY \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_12_PROLOG
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_PRIVATE_PROPERTY_OFFSET \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_SPARSE_DATA \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_RPC_WRAPPERS \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_INCLASS \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_STANDARD_CONSTRUCTORS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_PRIVATE_PROPERTY_OFFSET \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_SPARSE_DATA \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_RPC_WRAPPERS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_INCLASS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_GENERATED_BODY \
+#define Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_PRIVATE_PROPERTY_OFFSET \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_SPARSE_DATA \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_INCLASS_NO_PURE_DECLS \
-	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_14_ENHANCED_CONSTRUCTORS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_PRIVATE_PROPERTY_OFFSET \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_SPARSE_DATA \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_INCLASS_NO_PURE_DECLS \
+	Cpp_Project_Source_Cpp_Project_03_Collision_C03_Trigger_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

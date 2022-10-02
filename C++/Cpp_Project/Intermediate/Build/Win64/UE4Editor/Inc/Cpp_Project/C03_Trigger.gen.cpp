@@ -162,8 +162,10 @@ void EmptyLinkFunctionForGeneratedCodeC03_Trigger() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Trigger_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "// return type, name, parameter\n" },
 		{ "IncludePath", "03_Collision/C03_Trigger.h" },
 		{ "ModuleRelativePath", "03_Collision/C03_Trigger.h" },
+		{ "ToolTip", "return type, name, parameter" },
 	};
 #endif
 #if WITH_METADATA
@@ -224,7 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Trigger() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_Trigger, 645334425);
+	IMPLEMENT_CLASS(AC03_Trigger, 3841840348);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_Trigger>()
 	{
 		return AC03_Trigger::StaticClass();

@@ -17,10 +17,19 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 	CPP_PROJECT_API UClass* Z_Construct_UClass_AC03_Light();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 	ENGINE_API UClass* Z_Construct_UClass_UPointLightComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AC03_Light::execOnRandomLight)
+	{
+		P_GET_STRUCT(FLinearColor,Z_Param_InColor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->OnRandomLight(Z_Param_InColor);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AC03_Light::execOffLight)
 	{
 		P_FINISH;
@@ -41,6 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OffLight", &AC03_Light::execOffLight },
 			{ "OnLight", &AC03_Light::execOnLight },
+			{ "OnRandomLight", &AC03_Light::execOnRandomLight },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -88,6 +98,42 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics
+	{
+		struct C03_Light_eventOnRandomLight_Parms
+		{
+			FLinearColor InColor;
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InColor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_Light_eventOnRandomLight_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::NewProp_InColor = { "InColor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_Light_eventOnRandomLight_Parms, InColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::NewProp_InColor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "03_Collision/C03_Light.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AC03_Light, nullptr, "OnRandomLight", nullptr, nullptr, sizeof(C03_Light_eventOnRandomLight_Parms), Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00840401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AC03_Light_OnRandomLight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AC03_Light_OnRandomLight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AC03_Light_NoRegister()
 	{
 		return AC03_Light::StaticClass();
@@ -99,6 +145,10 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PointLight2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PointLight2;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PointLight_MetaData[];
 #endif
@@ -122,6 +172,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AC03_Light_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AC03_Light_OffLight, "OffLight" }, // 2287152356
 		{ &Z_Construct_UFunction_AC03_Light_OnLight, "OnLight" }, // 1211388611
+		{ &Z_Construct_UFunction_AC03_Light_OnRandomLight, "OnRandomLight" }, // 1491472564
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Light_Statics::Class_MetaDataParams[] = {
@@ -129,6 +180,14 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 		{ "ModuleRelativePath", "03_Collision/C03_Light.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight2_MetaData[] = {
+		{ "Category", "C03_Light" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "03_Collision/C03_Light.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight2 = { "PointLight2", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_Light, PointLight2), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight2_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight_MetaData[] = {
 		{ "Category", "C03_Light" },
@@ -156,6 +215,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Light_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_Light, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Light_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Light_Statics::NewProp_Scene_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC03_Light_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Light_Statics::NewProp_PointLight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Light_Statics::NewProp_Text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Light_Statics::NewProp_Scene,
@@ -187,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Light() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_Light, 1782253094);
+	IMPLEMENT_CLASS(AC03_Light, 1832169990);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_Light>()
 	{
 		return AC03_Light::StaticClass();
