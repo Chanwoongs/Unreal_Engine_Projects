@@ -5,6 +5,9 @@
 #include "GameFrameWork/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Materials/MaterialInstanceConstant.h"
+#include "Materials/MaterialInstanceDynamic.h"
+
 
 ACPlayer::ACPlayer() // 기본 값은 C++로 할당을 한다. 수정은 블프에서 가능하다.
 {
@@ -47,6 +50,20 @@ ACPlayer::ACPlayer() // 기본 값은 C++로 할당을 한다. 수정은 블프에서 가능하다.
 void ACPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+
+	UMaterialInstanceConstant* bodyMaterial;
+	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&bodyMaterial, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_Body_Inst.M_UE4Man_Body_Inst'");
+
+	UMaterialInstanceConstant* logoMaterial;
+	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&logoMaterial, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_ChestLogo_Inst.M_UE4Man_ChestLogo_Inst'");
+
+
+	//다이내믹 매터리얼 생성
+	BodyMaterial = UMaterialInstanceDynamic::Create(bodyMaterial, this);
+	LogoMaterial = UMaterialInstanceDynamic::Create(logoMaterial, this);
+
+	GetMesh()->SetMaterial(0, bodyMaterial);
+	GetMesh()->SetMaterial(1, logoMaterial);
 	
 }
 
@@ -107,5 +124,11 @@ void ACPlayer::OnRunning()
 void ACPlayer::OffRunning()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+}
+
+void ACPlayer::ChangeColor(FLinearColor InColor)
+{
+	BodyMaterial->SetVectorParameterValue("BodyColor", InColor);
+	LogoMaterial->SetVectorParameterValue("BodyColor", InColor);
 }
 
