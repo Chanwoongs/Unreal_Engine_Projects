@@ -49,7 +49,20 @@ public:
 		InActor->SetRootComponent(*InComponent);
 	}
 
+	template<typename T>
+	static void FindActors(class UWorld* InWorld, TArray<T*>& OutActors)
+	{
+		OutActors.Empty();
 
+		// UGameplayStatics -> Gameplay 하는데에 도움되는 것의 모음
+		TArray<AActor*> actors; // TArray : 가변형 배열, vector container와 유사한 기능을 가진다.
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), T::StaticClass(), actors); // StaticClass -> 자기 자신의 대한 UClass 포인터 리턴
+
+		for (AACtor* actor : actors)
+		{
+			OutActors.Add(Cast<T>(actor));
+		}
+	}
 
 	
 };
