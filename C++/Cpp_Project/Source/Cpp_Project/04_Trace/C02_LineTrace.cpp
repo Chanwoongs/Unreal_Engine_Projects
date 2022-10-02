@@ -1,6 +1,7 @@
 #include "C02_LineTrace.h"
 #include "Global.h"
 #include "C01_Cylinder.h"
+#include "CPlayer.h"
 #include "Components/TextRenderComponent.h"
 
 AC02_LineTrace::AC02_LineTrace()
@@ -25,6 +26,8 @@ void AC02_LineTrace::BeginPlay()
 	Super::BeginPlay();
 
 	CHelpers::FindActors<AC01_Cylinder>(GetWorld(), Cylinders);
+
+	OnTraceResult.AddDynamic(this, &AC02_LineTrace::StartJump);
 }
 
 void AC02_LineTrace::Tick(float DeltaTime)
@@ -55,7 +58,29 @@ void AC02_LineTrace::Tick(float DeltaTime)
 		FHitResult hitResult;
 		if (UKismetSystemLibrary::LineTraceSingleByProfile(GetWorld(), start, end, "Pawn", false, ignoreActors, EDrawDebugTrace::ForOneFrame, hitResult, true, FLinearColor::Green, FLinearColor::Red))
 		{
-			CLog::Log(hitResult.GetActor()->GetName());
+			if (OnTraceResult.IsBound())
+			{
+				FLinearColor color;
+				color.R = UKismetMathLibrary::RandomFloatInRange(0, 1);
+				color.G = UKismetMathLibrary::RandomFloatInRange(0, 1);
+				color.B = UKismetMathLibrary::RandomFloatInRange(0, 1);
+				color.A = 1.0f;
+
+				OnTraceResult.Broadcast(hitResult.GetActor(), color);
+			}
 		}
 	}
+}
+
+void AC02_LineTrace::StartJump(AActor* InActor, FLinearColor InColor)
+{
+	ACPlayer* player = Cast<ACPlayer>(InActor);
+	CheckNull(player);
+
+	player->Jump();
+}
+
+void AC02_LineTrace::RestoreColor(class ACPlayer* InPlayer)
+{
+	InPlayer->ChangeColor(FLinearColor(1, 1, 1));
 }
