@@ -42,6 +42,13 @@ void AC03_SpotLight::BeginPlay()
 	CHelpers::FindActors< AC03_MulticastTrigger>(GetWorld(), triggers);
 
 	triggers[0]->OnMultiLightBeginOverlap.AddUFunction(this, "OnLightColor"); // AddUFunction 으로 함수 추가
+
+	// Delegate는 다른 클래스에서 실행 가능 하지만 Event는 해당 클래스 내부에서만 연결과 호출이 가능하다. 관리 측면의 장단점이있다.
+	// C 내부적으로 할때만 Delegate나 Event를 사용하고, 블프와 통신할때는 Dynamic Delegation
+	if (triggers[0]->OnMultiLightBeginOverlap.IsBound())
+	{
+		triggers[0]->OnMultiLightBeginOverlap.Broadcast(0, FLinearColor(0, 0, 1));
+	}
 }
 
 void AC03_SpotLight::OnLightColor(int32 InIndex, FLinearColor InColor)
