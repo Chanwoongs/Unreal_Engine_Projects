@@ -33,6 +33,6 @@ private:
 	UFUNCTION()
 		void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor); // 파라미터는 복사해오자
 
-private:
+public:
 	FEventTrigger OnEventTrigger;
 };
