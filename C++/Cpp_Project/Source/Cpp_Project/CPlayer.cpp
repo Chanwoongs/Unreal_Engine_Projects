@@ -68,6 +68,7 @@ void ACPlayer::BeginPlay()
 
 	// √— Spawn Ω√≈∞±‚
 	Rifle = ACRifle::Spawn(GetWorld(), this);
+	OnRifle();
 	
 }
 
