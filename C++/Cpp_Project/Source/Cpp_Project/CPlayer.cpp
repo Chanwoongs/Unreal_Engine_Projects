@@ -1,5 +1,6 @@
 #include "CPlayer.h"
 #include "Global.h"
+#include "CRifle.h"
 #include "CAnimInstance.h"
 #include "GameFrameWork/SpringArmComponent.h"
 #include "GameFrameWork/CharacterMovementComponent.h"
@@ -64,6 +65,9 @@ void ACPlayer::BeginPlay()
 
 	GetMesh()->SetMaterial(0, BodyMaterial);
 	GetMesh()->SetMaterial(1, LogoMaterial);
+
+	// √— Spawn Ω√≈∞±‚
+	Rifle = ACRifle::Spawn(GetWorld(), this);
 	
 }
 

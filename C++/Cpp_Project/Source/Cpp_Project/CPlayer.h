@@ -50,4 +50,7 @@ private:
 	class UMaterialInstanceDynamic* BodyMaterial;
 	class UMaterialInstanceDynamic* LogoMaterial;
 
+private:
+	class ACRifle* Rifle;
+
 };
