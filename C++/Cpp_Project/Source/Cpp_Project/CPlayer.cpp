@@ -44,6 +44,7 @@ ACPlayer::ACPlayer() // 기본 값은 C++로 할당을 한다. 수정은 블프에서 가능하다.
 	SpringArm->TargetArmLength = 200.0f;
 	SpringArm->bDoCollisionTest = false;
 	SpringArm->bUsePawnControlRotation = true;
+	SpringArm->SocketOffset = FVector(0, 60, 0);
 
 
 }
@@ -90,7 +91,10 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Pressed, this, &ACPlayer::OnRunning);
 	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Released, this, &ACPlayer::OffRunning);
 
-	PlayerInputComponent->BindAction("Rifle", EInputEvent::IE_Released, this, &ACPlayer::OnRifle);
+	PlayerInputComponent->BindAction("Rifle", EInputEvent::IE_Pressed, this, &ACPlayer::OnRifle);
+
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer::OnAim);
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer::OffAim);
 
 }
 
@@ -143,6 +147,35 @@ void ACPlayer::OnRifle()
 	}
 
 	Rifle->Equip();
+}
+
+void ACPlayer::OnAim()
+{
+	CheckFalse(Rifle->GetEquipped());
+	CheckTrue(Rifle->GetEquipping());
+
+	bUseControllerRotationYaw = true;
+	GetCharacterMovement()->bOrientRotationToMovement = false;
+
+	SpringArm->TargetArmLength = 100;
+	SpringArm->SocketOffset = FVector(0, 30, 10);
+
+	Camera->FieldOfView = 40;
+}
+
+void ACPlayer::OffAim()
+{
+	CheckFalse(Rifle->GetEquipped());
+	CheckTrue(Rifle->GetEquipping());
+
+	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	SpringArm->TargetArmLength = 200;
+	SpringArm->SocketOffset = FVector(0, 60, 0);
+
+	Camera->FieldOfView = 90;
+
 }
 
 void ACPlayer::ChangeColor(FLinearColor InColor)

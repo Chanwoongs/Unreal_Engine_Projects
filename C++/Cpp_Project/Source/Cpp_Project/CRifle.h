@@ -32,6 +32,7 @@ public:
 public:
 	// 어떤 플랫폼에 상관없이 무조건 인라인 함수로 사용되도록 강제하는 매크로
 	FORCEINLINE bool GetEquipped() { return bEquipped; }
+	FORCEINLINE bool GetEquipping() { return bEquipping; }
 
 public:	
 	ACRifle();

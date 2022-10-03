@@ -48,6 +48,10 @@ private:
 	// ÃÑ Action
 	void OnRifle();
 
+	// Aim mode
+	void OnAim();
+	void OffAim();
+
 public:
 	// BlueprintCallable : BP¿¡¼­ call °¡´É
 	UFUNCTION(BlueprintCallable)
