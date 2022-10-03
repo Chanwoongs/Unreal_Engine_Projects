@@ -17,6 +17,9 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation") // BlueprintReadOnly는 상속 받기 때문에 protected를 사용해야함
 		float Direction;
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation") // BlueprintReadOnly는 상속 받기 때문에 protected를 사용해야함
+		float Pitch;
+
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation")
 		bool bEquipped;
 

@@ -25,6 +25,10 @@ void UCAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 	// 방향 할당
 	Direction = CalculateDirection(OwnerCharacter->GetVelocity(), OwnerCharacter->GetControlRotation());
 
+	// 위아래 조준 할당
+	Pitch = OwnerCharacter->GetBaseAimRotation().Pitch;
+	
+
 	// 인터페이스로 부터 상속을 받은 클래스 인지 체크
 	IIRifle* rifle = Cast<IIRifle>(OwnerCharacter);
 	if (!!rifle)
