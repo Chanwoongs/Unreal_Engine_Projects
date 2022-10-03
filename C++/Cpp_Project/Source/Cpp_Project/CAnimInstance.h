@@ -14,8 +14,14 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation") // BlueprintReadOnly는 상속 받기 때문에 protected를 사용해야함
 		float Speed;
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation") // BlueprintReadOnly는 상속 받기 때문에 protected를 사용해야함
+		float Direction;
+
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation")
 		bool bEquipped;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Animation")
+		bool bAiming;
 public:
 	virtual void NativeBeginPlay() override;
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;

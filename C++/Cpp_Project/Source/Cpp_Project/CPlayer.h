@@ -17,9 +17,18 @@ private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USpringArmComponent* SpringArm;
 
-	UPROPERTY(VisibleDefaultsOnly)
+protected:
+	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly)
 		class UCameraComponent* Camera;
 
+protected:
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnZoomIn();
+	
+
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnZoomOut();
+		
 public:
 	FORCEINLINE class ACRifle* GetRifle() override { return Rifle; }
 

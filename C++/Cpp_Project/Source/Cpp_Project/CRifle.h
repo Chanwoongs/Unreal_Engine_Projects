@@ -33,6 +33,7 @@ public:
 	// 어떤 플랫폼에 상관없이 무조건 인라인 함수로 사용되도록 강제하는 매크로
 	FORCEINLINE bool GetEquipped() { return bEquipped; }
 	FORCEINLINE bool GetEquipping() { return bEquipping; }
+	FORCEINLINE bool GetAiming() { return bAiming; }
 
 public:	
 	ACRifle();
@@ -44,6 +45,9 @@ public:
 	void Unequip();
 	void Begin_Unequip();
 	void End_Unequip();
+
+	void Begin_Aiming();
+	void End_Aiming();
 
 
 protected:
@@ -57,5 +61,6 @@ private:
 
 	bool bEquipped;
 	bool bEquipping;
+	bool bAiming;
 
 };
