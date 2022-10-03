@@ -49,6 +49,10 @@ public:
 	void Begin_Aiming();
 	void End_Aiming();
 
+	// Fire
+	void Begin_Fire();
+	void Firing();
+	void End_Fire();
 
 protected:
 	virtual void BeginPlay() override;
@@ -62,5 +66,6 @@ private:
 	bool bEquipped;
 	bool bEquipping;
 	bool bAiming;
+	bool bFiring;
 
 };

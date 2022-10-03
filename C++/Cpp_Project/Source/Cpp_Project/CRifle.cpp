@@ -139,3 +139,57 @@ void ACRifle::Tick(float DeltaTime)
 
 }
 
+void ACRifle::Begin_Fire()
+{
+	CheckFalse(bEquipped);
+	CheckTrue(bEquipping);
+	CheckFalse(bAiming);
+	CheckTrue(bFiring);
+	
+	//bFiring = true;
+
+	Firing();
+}
+
+void ACRifle::Firing()
+{
+	IIRifle* rifle = Cast<IIRifle>(OwnerCharacter);
+	CheckNull(rifle);
+
+	FVector start, end, direction;
+	rifle->GetLocationAndDirection(start, end, direction);
+
+	FCollisionQueryParams params;
+	params.AddIgnoredActor(this);
+	params.AddIgnoredActor(OwnerCharacter);
+
+	FHitResult hitResult;
+	//LineTraceSingleByChannel : 시작 위치에서 끝 위치 까지 해당 Channel로 된 가장 가까운 액터 찾기
+	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_WorldDynamic, params))
+	{
+		AStaticMeshActor* staticMeshActor = Cast<AStaticMeshActor>(hitResult.GetActor());
+		if (!!staticMeshActor)
+		{
+			UStaticMeshComponent* meshComponent = Cast<UStaticMeshComponent>(staticMeshActor->GetRootComponent());
+			if (!!meshComponent)
+			{
+				if (meshComponent->BodyInstance.bSimulatePhysics)
+				{
+					direction = staticMeshActor->GetActorLocation() - OwnerCharacter->GetActorLocation();
+					direction.Normalize();
+
+					meshComponent->AddImpulseAtLocation(direction * meshComponent->GetMass() * 100, OwnerCharacter->GetActorLocation());
+
+					return;
+				}
+			}
+		}
+	}
+
+
+}
+
+void ACRifle::End_Fire()
+{
+	//bFiring = false;
+}

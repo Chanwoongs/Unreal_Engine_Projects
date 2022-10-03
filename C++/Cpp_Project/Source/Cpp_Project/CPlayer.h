@@ -70,6 +70,11 @@ private:
 	void OnAim();
 	void OffAim();
 
+	// Fire
+	void OnFire();
+	void OffFire();
+
+
 public:
 	// BlueprintCallable : BP에서 call 가능
 	UFUNCTION(BlueprintCallable)
