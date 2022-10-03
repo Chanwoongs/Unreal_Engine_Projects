@@ -1,7 +1,9 @@
 #include "CRifle.h"
 #include "Global.h"
+#include "IRifle.h"
 #include "Animation/AnimMontage.h"
 #include "GameFramework/Character.h"
+#include "Engine/StaticMeshActor.h"
 #include "Components/SkeletalMeshComponent.h"
 
 
@@ -98,6 +100,42 @@ void ACRifle::BeginPlay()
 void ACRifle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	CheckFalse(bAiming);
+
+	// IRifle을 상속 받은 것만 처리를 할 수 있도록
+	IIRifle* rifle = Cast<IIRifle>(OwnerCharacter);
+	CheckNull(rifle);
+
+	FVector start, end, direction;
+	rifle->GetLocationAndDirection(start, end, direction);
+
+	//DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 3.0f);
+
+	FCollisionQueryParams params;
+	params.AddIgnoredActor(this);
+	params.AddIgnoredActor(OwnerCharacter);
+
+	FHitResult hitResult;
+	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_WorldDynamic, params))
+	{
+		AStaticMeshActor* staticMeshActor = Cast<AStaticMeshActor>(hitResult.GetActor());
+		if (!!staticMeshActor)
+		{
+			UStaticMeshComponent* meshComponent = Cast<UStaticMeshComponent>(staticMeshActor->GetRootComponent());
+			if (!!meshComponent)
+			{
+				if (meshComponent->BodyInstance.bSimulatePhysics)
+				{
+					rifle->OnFocus();
+
+					return;
+				}
+			}
+		}
+	}
+
+	rifle->OffFocus();
 
 }
 

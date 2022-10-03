@@ -14,6 +14,10 @@ class CPP_PROJECT_API ACPlayer : public ACharacter, public IIRifle
 	GENERATED_BODY()
 
 private:
+	UPROPERTY(EditDefaultsOnly, Category = "Widgets")
+		TSubclassOf<class UCUserWidget_Crosshair> CrosshairClass;
+
+private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USpringArmComponent* SpringArm;
 
@@ -35,6 +39,9 @@ public:
 public:
 	ACPlayer();
 
+public:
+	void GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVector& OutDirection) override;
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -42,7 +49,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// 입력을 받아 원하는대로 처리할 수 있도록 해주는 함수
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void OnFocus() override;
+	void OffFocus() override;
 
 private:
 	void OnMoveForward(float Axis);
@@ -72,5 +81,5 @@ private:
 
 private:
 	class ACRifle* Rifle;
-
+	class UCUserWidget_Crosshair* Crosshair;
 };
