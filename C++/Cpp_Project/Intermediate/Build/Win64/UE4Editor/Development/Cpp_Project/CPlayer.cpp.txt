@@ -50,3 +50,5 @@ D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInstanceConstant.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInstanceConstant.generated.h

@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLinearColor;
 #ifdef CPP_PROJECT_CPlayer_generated_h
 #error "CPlayer.generated.h already included, missing '#pragma once' in CPlayer.h"
 #endif
 #define CPP_PROJECT_CPlayer_generated_h
 
 #define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_SPARSE_DATA
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execChangeColor);
+
+
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execChangeColor);
+
+
 #define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACPlayer(); \

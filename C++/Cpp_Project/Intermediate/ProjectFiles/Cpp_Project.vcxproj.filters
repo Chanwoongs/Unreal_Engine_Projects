@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0CC73DCD-979A-4C50-B5DA-7FAC62CD1E06}</UniqueIdentifier>
+      <UniqueIdentifier>{C5AD4058-442F-4204-9022-956A33B91BA1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2268D1A9-1867-4D53-88CF-A52968A1690C}</UniqueIdentifier>
+      <UniqueIdentifier>{BB3BA68F-53AF-4155-97E7-96C21D509988}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{2A4908CD-ABBE-4F77-B561-4B84892C860B}</UniqueIdentifier>
+      <UniqueIdentifier>{A76FBD5D-D84C-40B8-9609-76C70CF90CFF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\CAnimInstance.cpp">
       <Filter>Source\Cpp_Project</Filter>
@@ -56,11 +56,17 @@
     <ClInclude Include="..\..\Source\Cpp_Project\Cpp_Project.h">
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\CRifle.cpp">
+      <Filter>Source\Cpp_Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\CRifle.h">
+      <Filter>Source\Cpp_Project</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Cpp_Project\Global.h">
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{722AB14C-BD39-4230-BB5D-6A09ED756BEF}</UniqueIdentifier>
+      <UniqueIdentifier>{9A1F557D-75C2-4B74-83AE-E1D7FF75D77B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -93,7 +99,7 @@
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\02_Debug">
-      <UniqueIdentifier>{D7992055-F9AD-4D2A-853A-945A87AE1242}</UniqueIdentifier>
+      <UniqueIdentifier>{48A6620E-F714-4AC0-89B5-62C85B8C541A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\02_Debug\C02_DrawDebug.cpp">
       <Filter>Source\Cpp_Project\02_Debug</Filter>
@@ -108,7 +114,7 @@
       <Filter>Source\Cpp_Project\02_Debug</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\03_Collision">
-      <UniqueIdentifier>{9F0F687D-BD20-4947-A356-30621E8C75B0}</UniqueIdentifier>
+      <UniqueIdentifier>{2D191E8B-6DC3-4FFD-A96B-CC4A8D71B7DD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.cpp">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
@@ -128,6 +134,12 @@
     <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_ComponentBeginOverlap.h">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_EventTrigger.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_EventTrigger.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Light.cpp">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClCompile>
@@ -140,14 +152,65 @@
     <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_MulticastTrigger.h">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Override.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_Override.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Particles.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_Particles.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_SpotLight.cpp">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_SpotLight.h">
+      <Filter>Source\Cpp_Project\03_Collision</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_Trigger.cpp">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Cpp_Project\03_Collision\C03_Trigger.h">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClInclude>
+    <Filter Include="Source\Cpp_Project\04_Trace">
+      <UniqueIdentifier>{95912BE0-FC41-44E9-B771-489005DCF583}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C01_Cylinder.cpp">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\04_Trace\C01_Cylinder.h">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C02_LineTrace.cpp">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\04_Trace\C02_LineTrace.h">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C03_Cube.cpp">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\04_Trace\C03_Cube.h">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C04_Explosion.cpp">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\04_Trace\C04_Explosion.h">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C05_SweepTrigger.cpp">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cpp_Project\04_Trace\C05_SweepTrigger.h">
+      <Filter>Source\Cpp_Project\04_Trace</Filter>
+    </ClInclude>
     <Filter Include="Source\Cpp_Project\Utilities">
-      <UniqueIdentifier>{903FF01E-D898-4700-A170-0370DF05C0FD}</UniqueIdentifier>
+      <UniqueIdentifier>{78FA31BE-74B4-469C-B58B-68BA012022A8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
