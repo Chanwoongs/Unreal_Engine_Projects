@@ -89,6 +89,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Pressed, this, &ACPlayer::OnRunning);
 	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Released, this, &ACPlayer::OffRunning);
 
+	PlayerInputComponent->BindAction("Rifle", EInputEvent::IE_Released, this, &ACPlayer::OnRifle);
+
 }
 
 // 플레이어 상하좌우 움직임
@@ -128,6 +130,18 @@ void ACPlayer::OnRunning()
 void ACPlayer::OffRunning()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+}
+
+void ACPlayer::OnRifle()
+{
+	if (Rifle->GetEquipped())
+	{
+		Rifle->Unequip();
+		
+		return;
+	}
+
+	Rifle->Equip();
 }
 
 void ACPlayer::ChangeColor(FLinearColor InColor)

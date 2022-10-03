@@ -1,13 +1,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "IRifle.h"
 #include "GameFramework/Character.h"
 #include "CPlayer.generated.h"
 
 // 이 사이에 delegate 나 구조체 이외는 잘 안들어간다
 
 UCLASS()
-class CPP_PROJECT_API ACPlayer : public ACharacter
+class CPP_PROJECT_API ACPlayer : public ACharacter, public IIRifle
 {
 	// 이 사이에는 아무런 코드도 들어가면 안된다.
 	GENERATED_BODY()
@@ -18,6 +19,9 @@ private:
 
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCameraComponent* Camera;
+
+public:
+	FORCEINLINE class ACRifle* GetRifle() override { return Rifle; }
 
 public:
 	ACPlayer();
@@ -40,6 +44,9 @@ private:
 	// 액션 입력은 parameter가 없다
 	void OnRunning();
 	void OffRunning();
+
+	// 총 Action
+	void OnRifle();
 
 public:
 	// BlueprintCallable : BP에서 call 가능

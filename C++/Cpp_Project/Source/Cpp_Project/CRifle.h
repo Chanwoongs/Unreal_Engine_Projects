@@ -19,12 +19,31 @@ private:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
 		FName HolsterSocket = "Holster_Rifle";
 
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		UAnimMontage* GrabMontage;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		UAnimMontage* UnGrabMontage;
+
 public:
 	// World, Character를 아직 모른다.
 	static ACRifle* Spawn(class UWorld* InWorld, class ACharacter* InOwner); 
 
+public:
+	// 어떤 플랫폼에 상관없이 무조건 인라인 함수로 사용되도록 강제하는 매크로
+	FORCEINLINE bool GetEquipped() { return bEquipped; }
+
 public:	
 	ACRifle();
+
+	void Equip();
+	void Begin_Equip();
+	void End_Equip();
+
+	void Unequip();
+	void Begin_Unequip();
+	void End_Unequip();
+
 
 protected:
 	virtual void BeginPlay() override;
@@ -34,5 +53,8 @@ public:
 
 private:
 	class ACharacter* OwnerCharacter;
+
+	bool bEquipped;
+	bool bEquipping;
 
 };
