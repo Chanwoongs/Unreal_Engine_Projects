@@ -2,6 +2,7 @@
 #include "Global.h"
 #include "IRifle.h"
 #include "CPlayer.h"
+#include "CBullet.h"
 #include "Animation/AnimMontage.h"
 #include "GameFramework/Character.h"
 #include "Engine/StaticMeshActor.h"
@@ -39,9 +40,12 @@ ACRifle::ACRifle()
 	CHelpers::GetAsset<UParticleSystem>(&FlashParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Muzzleflash.VFX_Muzzleflash'");
 	// 탄피 파티클
 	CHelpers::GetAsset<UParticleSystem>(&EjectParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Eject_bullet.VFX_Eject_bullet'");
+	// 탄흔
+	CHelpers::GetAsset<UParticleSystem>(&ImpactParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Impact_Default.VFX_Impact_Default'");
 	// 총 사운드
 	CHelpers::GetAsset<USoundCue>(&FireSoundCue, "SoundCue'/Game/Sound/S_RifleShoot/S_RifleShoot_Cue.S_RifleShoot_Cue'");
-
+	// 총의 경로
+	CHelpers::GetClass<ACBullet>(&BulletClass, "Blueprint'/Game/BP_CBullet.BP_CBullet_C'");
 	
 }
 
@@ -184,11 +188,24 @@ void ACRifle::Firing()
 	FVector muzzleLocation = Mesh->GetSocketLocation("MuzzleFlash");
 	UGameplayStatics::PlaySoundAtLocation(GetWorld(), FireSoundCue,muzzleLocation, 0.3f);
 
+	// 총 경로 
+	if (!!BulletClass)
+	{
+		GetWorld()->SpawnActor<ACBullet>(BulletClass, muzzleLocation, direction.Rotation());
+	}
+
 	FCollisionQueryParams params;
 	params.AddIgnoredActor(this);
 	params.AddIgnoredActor(OwnerCharacter);
 
 	FHitResult hitResult;
+	// 화면에 보이는것 모두 검출
+	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_Visibility, params))
+	{
+		FRotator rotator = hitResult.ImpactNormal.Rotation(); // 비스듬하게 맞았을 때 비스듬하게 처리를 하기 위해 맞은 면의 수직인 Normal을 가져옴
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticle, hitResult.Location, rotator, FVector(2));
+	}
+
 	//LineTraceSingleByChannel : 시작 위치에서 끝 위치 까지 해당 Channel로 된 가장 가까운 액터 찾기
 	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_WorldDynamic, params))
 	{
