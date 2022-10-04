@@ -9,6 +9,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Particles/ParticleSystem.h"
 #include "Sound/SoundCue.h"
+#include "Materials/MaterialInstanceConstant.h"
 
 
 // 팩토리 : 해당 클래스 내부에 정의해서 해당 클래스 내부에서 해당 객체를 생성해서 리턴하는 방식
@@ -40,13 +41,15 @@ ACRifle::ACRifle()
 	CHelpers::GetAsset<UParticleSystem>(&FlashParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Muzzleflash.VFX_Muzzleflash'");
 	// 탄피 파티클
 	CHelpers::GetAsset<UParticleSystem>(&EjectParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Eject_bullet.VFX_Eject_bullet'");
-	// 탄흔
+	// 총알 충돌 시 효과
 	CHelpers::GetAsset<UParticleSystem>(&ImpactParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Impact_Default.VFX_Impact_Default'");
 	// 총 사운드
 	CHelpers::GetAsset<USoundCue>(&FireSoundCue, "SoundCue'/Game/Sound/S_RifleShoot/S_RifleShoot_Cue.S_RifleShoot_Cue'");
 	// 총의 경로
 	CHelpers::GetClass<ACBullet>(&BulletClass, "Blueprint'/Game/BP_CBullet.BP_CBullet_C'");
-	
+	// 탄흔
+	CHelpers::GetAsset<UMaterialInstanceConstant>(&DecalMaterial, "MaterialInstanceConstant'/Game/Materials/M_Decal_Inst.M_Decal_Inst'");
+
 }
 
 void ACRifle::Equip()
@@ -199,11 +202,12 @@ void ACRifle::Firing()
 	params.AddIgnoredActor(OwnerCharacter);
 
 	FHitResult hitResult;
-	// 화면에 보이는것 모두 검출
+	// 총알이 맞은 위치 처리, 탄흔, 화면에 보이는것 모두 검출
 	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_Visibility, params))
 	{
 		FRotator rotator = hitResult.ImpactNormal.Rotation(); // 비스듬하게 맞았을 때 비스듬하게 처리를 하기 위해 맞은 면의 수직인 Normal을 가져옴
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticle, hitResult.Location, rotator, FVector(2));
+		UGameplayStatics::SpawnDecalAtLocation(GetWorld(), DecalMaterial, FVector(5), hitResult.Location, rotator, 10.0f);
 	}
 
 	//LineTraceSingleByChannel : 시작 위치에서 끝 위치 까지 해당 Channel로 된 가장 가까운 액터 찾기

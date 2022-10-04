@@ -43,6 +43,9 @@ private:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
 		TSubclassOf<class ACBullet> BulletClass;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		class UMaterialInstanceConstant* DecalMaterial;
+
 
 public:
 	// World, Character를 아직 모른다.
