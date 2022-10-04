@@ -20,3 +20,7 @@ D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.in
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Source\Cpp_Project\Utilities/CHelpers.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Source\Cpp_Project\Utilities/CLog.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Source\Cpp_Project\Utilities/Defines.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h

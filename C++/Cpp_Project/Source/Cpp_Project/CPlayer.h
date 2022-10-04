@@ -17,6 +17,9 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Widgets")
 		TSubclassOf<class UCUserWidget_Crosshair> CrosshairClass;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Camera")
+		TSubclassOf<class UCameraShake> CameraShakeClass;
+
 private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USpringArmComponent* SpringArm;
@@ -52,6 +55,8 @@ public:
 	void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	void OnFocus() override;
 	void OffFocus() override;
+
+	void PlayCameraShake();
 
 private:
 	void OnMoveForward(float Axis);

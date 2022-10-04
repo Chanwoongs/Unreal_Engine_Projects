@@ -1,10 +1,12 @@
 #include "CRifle.h"
 #include "Global.h"
 #include "IRifle.h"
+#include "CPlayer.h"
 #include "Animation/AnimMontage.h"
 #include "GameFramework/Character.h"
 #include "Engine/StaticMeshActor.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Particles/ParticleSystem.h"
 
 
 // 팩토리 : 해당 클래스 내부에 정의해서 해당 클래스 내부에서 해당 객체를 생성해서 리턴하는 방식
@@ -30,8 +32,10 @@ ACRifle::ACRifle()
 	// Montage 설정
 	CHelpers::GetAsset<UAnimMontage>(&GrabMontage, "AnimMontage'/Game/Character/Montages/Rifle_Grab_Montage.Rifle_Grab_Montage'");
 	CHelpers::GetAsset<UAnimMontage>(&UnGrabMontage, "AnimMontage'/Game/Character/Montages/Rifle_UnGrab_Montage.Rifle_UnGrab_Montage'");
-
+	CHelpers::GetAsset<UAnimMontage>(&FireMontage, "AnimMontage'/Game/Character/Montages/Rifle_Fire_Montage.Rifle_Fire_Montage'");
 	
+	// 총구 파티클
+	//CHelpers::GetAsset<UParticleSystem>(&FlashParticle, "ParticleSystem'/Game/127_Particles_Rifle/Particles/VFX_Muzzleflash.VFX_Muzzleflash'");
 
 }
 
@@ -158,6 +162,17 @@ void ACRifle::Firing()
 
 	FVector start, end, direction;
 	rifle->GetLocationAndDirection(start, end, direction);
+
+	OwnerCharacter->PlayAnimMontage(FireMontage);
+
+	// Camera Shake
+	ACPlayer* player = Cast<ACPlayer>(OwnerCharacter);
+	if (!!player)
+	{
+		player->PlayCameraShake();
+	}
+
+	UGameplayStatics::SpawnEmitterAttached(FlashParticle, Mesh, "MuzzleFlash", FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::KeepRelativeOffset); // 어딘가에 Attach하여 플레이
 
 	FCollisionQueryParams params;
 	params.AddIgnoredActor(this);

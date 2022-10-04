@@ -20,10 +20,16 @@ private:
 		FName HolsterSocket = "Holster_Rifle";
 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
-		UAnimMontage* GrabMontage;
+		class UAnimMontage* GrabMontage;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
-		UAnimMontage* UnGrabMontage;
+		class UAnimMontage* UnGrabMontage;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		class UAnimMontage* FireMontage;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		class UParticleSystem* FlashParticle;
 
 public:
 	// World, Character를 아직 모른다.

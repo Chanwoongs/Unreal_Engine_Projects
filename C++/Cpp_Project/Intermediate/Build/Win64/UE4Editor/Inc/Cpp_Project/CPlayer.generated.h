@@ -14,36 +14,40 @@ struct FLinearColor;
 #endif
 #define CPP_PROJECT_CPlayer_generated_h
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_SPARSE_DATA
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_SPARSE_DATA
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execChangeColor);
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execChangeColor);
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_INCLASS_NO_PURE_DECLS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_EVENT_PARMS
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_CALLBACK_WRAPPERS
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACPlayer(); \
 	friend struct Z_Construct_UClass_ACPlayer_Statics; \
 public: \
 	DECLARE_CLASS(ACPlayer, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Cpp_Project"), NO_API) \
-	DECLARE_SERIALIZER(ACPlayer)
+	DECLARE_SERIALIZER(ACPlayer) \
+	virtual UObject* _getUObject() const override { return const_cast<ACPlayer*>(this); }
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_INCLASS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesACPlayer(); \
 	friend struct Z_Construct_UClass_ACPlayer_Statics; \
 public: \
 	DECLARE_CLASS(ACPlayer, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Cpp_Project"), NO_API) \
-	DECLARE_SERIALIZER(ACPlayer)
+	DECLARE_SERIALIZER(ACPlayer) \
+	virtual UObject* _getUObject() const override { return const_cast<ACPlayer*>(this); }
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_STANDARD_CONSTRUCTORS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACPlayer) \
@@ -56,7 +60,7 @@ private: \
 public:
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_ENHANCED_CONSTRUCTORS \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACPlayer(ACPlayer&&); \
@@ -67,32 +71,39 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACPlayer)
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CrosshairClass() { return STRUCT_OFFSET(ACPlayer, CrosshairClass); } \
+	FORCEINLINE static uint32 __PPO__CameraShakeClass() { return STRUCT_OFFSET(ACPlayer, CameraShakeClass); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACPlayer, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACPlayer, Camera); }
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_9_PROLOG
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_GENERATED_BODY_LEGACY \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_10_PROLOG \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_EVENT_PARMS
+
+
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_SPARSE_DATA \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_INCLASS \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_STANDARD_CONSTRUCTORS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_PRIVATE_PROPERTY_OFFSET \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_SPARSE_DATA \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_RPC_WRAPPERS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_CALLBACK_WRAPPERS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_INCLASS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Cpp_Project_Source_Cpp_Project_CPlayer_h_13_GENERATED_BODY \
+#define Cpp_Project_Source_Cpp_Project_CPlayer_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_SPARSE_DATA \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_INCLASS_NO_PURE_DECLS \
-	Cpp_Project_Source_Cpp_Project_CPlayer_h_13_ENHANCED_CONSTRUCTORS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_PRIVATE_PROPERTY_OFFSET \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_SPARSE_DATA \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_CALLBACK_WRAPPERS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_INCLASS_NO_PURE_DECLS \
+	Cpp_Project_Source_Cpp_Project_CPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

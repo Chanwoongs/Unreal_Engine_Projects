@@ -48,6 +48,7 @@ ACPlayer::ACPlayer() // 기본 값은 C++로 할당을 한다. 수정은 블프에서 가능하다.
 	SpringArm->SocketOffset = FVector(0, 60, 0);
 
 	CHelpers::GetClass<UCUserWidget_Crosshair>(&CrosshairClass, "WidgetBlueprint'/Game/Widgets/WB_Crosshair.WB_Crosshair_C'");
+	CHelpers::GetClass<UCameraShake>(&CameraShakeClass, "Blueprint'/Game/BP_CameraShake.BP_CameraShake_C'");
 
 
 }
@@ -132,6 +133,11 @@ void ACPlayer::OnFocus()
 void ACPlayer::OffFocus()
 {
 	Crosshair->OffFocus();
+}
+
+void ACPlayer::PlayCameraShake()
+{
+	GetController<APlayerController>()->PlayerCameraManager->PlayCameraShake(CameraShakeClass);
 }
 
 // 플레이어 상하좌우 움직임
