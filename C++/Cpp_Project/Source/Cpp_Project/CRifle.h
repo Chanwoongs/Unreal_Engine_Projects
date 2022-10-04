@@ -31,6 +31,13 @@ private:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
 		class UParticleSystem* FlashParticle;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		class UParticleSystem* EjectParticle;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Rifle")
+		class USoundCue* FireSoundCue;
+
+
 public:
 	// World, Character를 아직 모른다.
 	static ACRifle* Spawn(class UWorld* InWorld, class ACharacter* InOwner); 

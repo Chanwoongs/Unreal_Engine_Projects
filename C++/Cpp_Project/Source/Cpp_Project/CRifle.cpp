@@ -7,6 +7,7 @@
 #include "Engine/StaticMeshActor.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Particles/ParticleSystem.h"
+#include "Sound/SoundCue.h"
 
 
 // 팩토리 : 해당 클래스 내부에 정의해서 해당 클래스 내부에서 해당 객체를 생성해서 리턴하는 방식
@@ -35,8 +36,13 @@ ACRifle::ACRifle()
 	CHelpers::GetAsset<UAnimMontage>(&FireMontage, "AnimMontage'/Game/Character/Montages/Rifle_Fire_Montage.Rifle_Fire_Montage'");
 	
 	// 총구 파티클
-	//CHelpers::GetAsset<UParticleSystem>(&FlashParticle, "ParticleSystem'/Game/127_Particles_Rifle/Particles/VFX_Muzzleflash.VFX_Muzzleflash'");
+	CHelpers::GetAsset<UParticleSystem>(&FlashParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Muzzleflash.VFX_Muzzleflash'");
+	// 탄피 파티클
+	CHelpers::GetAsset<UParticleSystem>(&EjectParticle, "ParticleSystem'/Game/Particles_Rifle/Particles/VFX_Eject_bullet.VFX_Eject_bullet'");
+	// 총 사운드
+	CHelpers::GetAsset<USoundCue>(&FireSoundCue, "SoundCue'/Game/Sound/S_RifleShoot/S_RifleShoot_Cue.S_RifleShoot_Cue'");
 
+	
 }
 
 void ACRifle::Equip()
@@ -163,7 +169,7 @@ void ACRifle::Firing()
 	FVector start, end, direction;
 	rifle->GetLocationAndDirection(start, end, direction);
 
-	OwnerCharacter->PlayAnimMontage(FireMontage);
+	// OwnerCharacter->PlayAnimMontage(FireMontage);
 
 	// Camera Shake
 	ACPlayer* player = Cast<ACPlayer>(OwnerCharacter);
@@ -173,6 +179,10 @@ void ACRifle::Firing()
 	}
 
 	UGameplayStatics::SpawnEmitterAttached(FlashParticle, Mesh, "MuzzleFlash", FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::KeepRelativeOffset); // 어딘가에 Attach하여 플레이
+	UGameplayStatics::SpawnEmitterAttached(EjectParticle, Mesh, "EjectBullet", FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::KeepRelativeOffset); // 어딘가에 Attach하여 플레이
+
+	FVector muzzleLocation = Mesh->GetSocketLocation("MuzzleFlash");
+	UGameplayStatics::PlaySoundAtLocation(GetWorld(), FireSoundCue,muzzleLocation, 0.3f);
 
 	FCollisionQueryParams params;
 	params.AddIgnoredActor(this);
