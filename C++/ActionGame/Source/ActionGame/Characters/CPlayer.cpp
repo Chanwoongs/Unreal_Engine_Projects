@@ -1,11 +1,14 @@
 #include "CPlayer.h"
 #include "Global.h"
+
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Animation/AnimInstance.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
-#include "Animation/AnimInstance.h"
+
+#include "Components/COptionComponent.h"
 
 ACPlayer::ACPlayer()
 {
@@ -13,6 +16,8 @@ ACPlayer::ACPlayer()
 
 	CHelpers::CreateComponent<USpringArmComponent>(this, &SpringArm, "SpringArm", GetMesh());
 	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
+
+	CHelpers::CreateActorComponent<UCOptionComponent>(this, &Option, "Option");
 
 	bUseControllerRotationYaw = false;
 
@@ -66,29 +71,33 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 }
 
 // 앞뒤 움직임
-void ACPlayer::OnMoveForward(float Axis)
+void ACPlayer::OnMoveForward(float InAxis)
 {
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetForwardVector();
 
-	AddMovementInput(direction, Axis);
+	AddMovementInput(direction, InAxis);
 }
 
 // 양옆 움직임
-void ACPlayer::OnMoveRight(float Axis)
+void ACPlayer::OnMoveRight(float InAxis)
 {
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetRightVector();
 
-	AddMovementInput(direction, Axis);
+	AddMovementInput(direction, InAxis);
 
 }
 
-void ACPlayer::OnHorizontalLook(float Axis)
+void ACPlayer::OnHorizontalLook(float InAxis)
 {
+	float rate = Option->GetHorizontalLookRate();
+	AddControllerYawInput(InAxis * rate * GetWorld()->GetDeltaSeconds());
 }
 
-void ACPlayer::OnVerticalLook(float Axis)
+void ACPlayer::OnVerticalLook(float InAxis)
 {
+	float rate = Option->GetVerticalLookRate();
+	AddControllerPitchInput(InAxis * rate * GetWorld()->GetDeltaSeconds());
 }
 

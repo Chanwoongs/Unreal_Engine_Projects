@@ -9,12 +9,18 @@ class ACTIONGAME_API ACPlayer : public ACharacter
 {
 	GENERATED_BODY()
 
+// Scene Components
 private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCameraComponent* Camera;
+
+// Actor Components
+private:
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCOptionComponent* Option;
 
 public:
 	ACPlayer();
@@ -29,9 +35,9 @@ public:
 
 
 private:
-	void OnMoveForward(float Axis);
-	void OnMoveRight(float Axis);
-	void OnHorizontalLook(float Axis);
-	void OnVerticalLook(float Axis);
+	void OnMoveForward(float InAxis);
+	void OnMoveRight(float InAxis);
+	void OnHorizontalLook(float InAxis);
+	void OnVerticalLook(float InAxis);
 
 };
