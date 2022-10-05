@@ -9,6 +9,13 @@ class ACTIONGAME_API ACPlayer : public ACharacter
 {
 	GENERATED_BODY()
 
+private:
+	UPROPERTY(VisibleDefaultsOnly)
+		class USpringArmComponent* SpringArm;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCameraComponent* Camera;
+
 public:
 	ACPlayer();
 
