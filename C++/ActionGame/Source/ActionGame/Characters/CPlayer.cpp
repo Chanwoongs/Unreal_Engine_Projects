@@ -9,6 +9,7 @@
 #include "Components/InputComponent.h"
 
 #include "Components/COptionComponent.h"
+#include "Components/CStatusComponent.h"
 
 ACPlayer::ACPlayer()
 {
@@ -18,6 +19,7 @@ ACPlayer::ACPlayer()
 	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
 
 	CHelpers::CreateActorComponent<UCOptionComponent>(this, &Option, "Option");
+	CHelpers::CreateActorComponent<UCStatusComponent>(this, &Status, "Status");
 
 	bUseControllerRotationYaw = false;
 
@@ -73,6 +75,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 // 앞뒤 움직임
 void ACPlayer::OnMoveForward(float InAxis)
 {
+	CheckFalse(Status->CanMove());
+
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetForwardVector();
 
@@ -82,6 +86,8 @@ void ACPlayer::OnMoveForward(float InAxis)
 // 양옆 움직임
 void ACPlayer::OnMoveRight(float InAxis)
 {
+	CheckFalse(Status->CanMove());
+
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetRightVector();
 

@@ -22,6 +22,11 @@ private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCOptionComponent* Option;
 
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCStatusComponent* Status;
+
+
+
 public:
 	ACPlayer();
 
