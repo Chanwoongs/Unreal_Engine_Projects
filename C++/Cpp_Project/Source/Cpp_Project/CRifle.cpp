@@ -21,7 +21,7 @@ ACRifle* ACRifle::Spawn(UWorld* InWorld, ACharacter* InOwner)
 	return InWorld->SpawnActor<ACRifle>(params);
 }
 
-ACRifle::ACRifle()
+ACRifle::ACRifle() : FireInterval(0.15f)
 {
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -133,6 +133,15 @@ void ACRifle::Tick(float DeltaTime)
 	params.AddIgnoredActor(this);
 	params.AddIgnoredActor(OwnerCharacter);
 
+	CheckInterval(DeltaTime);
+
+	if (CurrentFireInterval <= 0.0f)
+	{
+		Firing();
+		CurrentFireInterval = FireInterval;
+	}
+
+
 	FHitResult hitResult;
 	if (GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_WorldDynamic, params))
 	{
@@ -154,6 +163,7 @@ void ACRifle::Tick(float DeltaTime)
 
 	rifle->OffFocus();
 
+
 }
 
 void ACRifle::Begin_Fire()
@@ -162,14 +172,14 @@ void ACRifle::Begin_Fire()
 	CheckTrue(bEquipping);
 	CheckFalse(bAiming);
 	CheckTrue(bFiring);
-	
-	//bFiring = true;
 
-	Firing();
+	bFiring = true;
 }
 
 void ACRifle::Firing()
 {
+	CheckFalse(bFiring);
+
 	IIRifle* rifle = Cast<IIRifle>(OwnerCharacter);
 	CheckNull(rifle);
 
@@ -189,7 +199,7 @@ void ACRifle::Firing()
 	UGameplayStatics::SpawnEmitterAttached(EjectParticle, Mesh, "EjectBullet", FVector::ZeroVector, FRotator::ZeroRotator, EAttachLocation::KeepRelativeOffset); // 어딘가에 Attach하여 플레이
 
 	FVector muzzleLocation = Mesh->GetSocketLocation("MuzzleFlash");
-	UGameplayStatics::PlaySoundAtLocation(GetWorld(), FireSoundCue,muzzleLocation, 0.3f);
+	UGameplayStatics::PlaySoundAtLocation(GetWorld(), FireSoundCue, muzzleLocation, 0.3f);
 
 	// 총 경로 
 	if (!!BulletClass)
@@ -231,11 +241,15 @@ void ACRifle::Firing()
 			}
 		}
 	}
+}
 
-
+void ACRifle::CheckInterval(float DeltaTime)
+{
+	if (CurrentFireInterval > 0)
+		CurrentFireInterval -= DeltaTime;
 }
 
 void ACRifle::End_Fire()
 {
-	//bFiring = false;
+	bFiring = false;
 }

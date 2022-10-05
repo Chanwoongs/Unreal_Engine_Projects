@@ -74,6 +74,7 @@ public:
 	// Fire
 	void Begin_Fire();
 	void Firing();
+	void CheckInterval(float DeltaTime);
 	void End_Fire();
 
 protected:
@@ -89,5 +90,8 @@ private:
 	bool bEquipping;
 	bool bAiming;
 	bool bFiring;
+
+	float FireInterval;
+	float CurrentFireInterval;
 
 };

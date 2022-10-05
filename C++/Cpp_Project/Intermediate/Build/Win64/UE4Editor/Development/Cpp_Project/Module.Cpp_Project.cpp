@@ -22,6 +22,7 @@
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/04_Trace/C04_Explosion.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/04_Trace/C05_SweepTrigger.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CAnimInstance.cpp"
+#include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CBullet.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CGameMode.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/CPlayer.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Cpp_Project/Source/Cpp_Project/Cpp_Project.cpp"

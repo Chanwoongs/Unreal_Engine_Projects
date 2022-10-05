@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Cpp_Project-4509.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\Cpp_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\Module.Cpp_Project.cpp.obj"
+"C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\Module.Cpp_Project.gen.cpp.obj"
+"C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\Default.rc2.res"
+/OUT:"C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\Cpp_Project\Intermediate\Build\Win64\UE4Editor\Development\Cpp_Project\UE4Editor-Cpp_Project-4509.lib"
+/INCLUDE:IMPLEMENT_MODULE_Cpp_Project

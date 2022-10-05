@@ -65,7 +65,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACRifle); \
 	FORCEINLINE static uint32 __PPO__GrabMontage() { return STRUCT_OFFSET(ACRifle, GrabMontage); } \
 	FORCEINLINE static uint32 __PPO__UnGrabMontage() { return STRUCT_OFFSET(ACRifle, UnGrabMontage); } \
 	FORCEINLINE static uint32 __PPO__FireMontage() { return STRUCT_OFFSET(ACRifle, FireMontage); } \
-	FORCEINLINE static uint32 __PPO__FlashParticle() { return STRUCT_OFFSET(ACRifle, FlashParticle); }
+	FORCEINLINE static uint32 __PPO__FlashParticle() { return STRUCT_OFFSET(ACRifle, FlashParticle); } \
+	FORCEINLINE static uint32 __PPO__EjectParticle() { return STRUCT_OFFSET(ACRifle, EjectParticle); } \
+	FORCEINLINE static uint32 __PPO__ImpactParticle() { return STRUCT_OFFSET(ACRifle, ImpactParticle); } \
+	FORCEINLINE static uint32 __PPO__FireSoundCue() { return STRUCT_OFFSET(ACRifle, FireSoundCue); } \
+	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(ACRifle, BulletClass); } \
+	FORCEINLINE static uint32 __PPO__DecalMaterial() { return STRUCT_OFFSET(ACRifle, DecalMaterial); }
 
 
 #define Cpp_Project_Source_Cpp_Project_CRifle_h_7_PROLOG
