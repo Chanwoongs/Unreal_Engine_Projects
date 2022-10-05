@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ActionGame",
+			"Path": "C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\ActionGame\\Source\\ActionGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ActionGameEditor",
+			"Path": "C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\ActionGame\\Source\\ActionGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
