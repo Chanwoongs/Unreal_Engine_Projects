@@ -8,6 +8,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
 
+#include "Components/CMontagesComponent.h"
 #include "Components/COptionComponent.h"
 #include "Components/CStatusComponent.h"
 
@@ -18,8 +19,10 @@ ACPlayer::ACPlayer()
 	CHelpers::CreateComponent<USpringArmComponent>(this, &SpringArm, "SpringArm", GetMesh());
 	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
 
+	CHelpers::CreateActorComponent<UCMontagesComponent>(this, &Montages, "Montages");
 	CHelpers::CreateActorComponent<UCOptionComponent>(this, &Option, "Option");
 	CHelpers::CreateActorComponent<UCStatusComponent>(this, &Status, "Status");
+	CHelpers::CreateActorComponent<UCStateComponent>(this, &State, "State");
 
 	bUseControllerRotationYaw = false;
 
@@ -52,6 +55,7 @@ void ACPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	State->OnStateTypeChanged.AddDynamic(this, &ACPlayer::OnStateTypeChanged);
 }
 
 void ACPlayer::Tick(float DeltaTime)
@@ -67,9 +71,11 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// 플레이어 기본 이동
 	PlayerInputComponent->BindAxis("MoveForward", this, &ACPlayer::OnMoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ACPlayer::OnMoveRight);
-
+	// 카메라 이동
 	PlayerInputComponent->BindAxis("HorizontalLook", this, &ACPlayer::OnHorizontalLook);
 	PlayerInputComponent->BindAxis("VerticalLook", this, &ACPlayer::OnVerticalLook);
+	// 회피
+	PlayerInputComponent->BindAction("Avoid", EInputEvent::IE_Pressed, this, &ACPlayer::OnAvoid);
 }
 
 // 앞뒤 움직임
@@ -105,5 +111,47 @@ void ACPlayer::OnVerticalLook(float InAxis)
 {
 	float rate = Option->GetVerticalLookRate();
 	AddControllerPitchInput(InAxis * rate * GetWorld()->GetDeltaSeconds());
+}
+
+void ACPlayer::OnAvoid()
+{
+	CheckFalse(Status->CanMove());
+	CheckFalse(State->IsIdleMode());
+
+	if (InputComponent->GetAxisValue("MoveForward") < 0.0f)
+	{
+		State->SetBackstepMode();
+	}
+
+	State->SetRollMode();
+}
+
+void ACPlayer::OnStateTypeChanged(EStateType InPreviousType, EStateType InNewType)
+{
+	switch (InNewType)
+	{
+	case EStateType::Roll:  Begin_Roll();
+		break;
+	case EStateType::Backstep: Begin_Backstep();
+		break;
+	default:
+		break;
+	}
+}
+
+void ACPlayer::Begin_Roll()
+{
+}
+
+void ACPlayer::End_Roll()
+{
+}
+
+void ACPlayer::Begin_Backstep()
+{
+}
+
+void ACPlayer::End_Backstep()
+{
 }
 
