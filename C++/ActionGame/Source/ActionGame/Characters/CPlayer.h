@@ -21,6 +21,9 @@ private:
 // Actor Components
 private:
 	UPROPERTY(VisibleDefaultsOnly)
+		class UCActionComponent* Action;
+
+	UPROPERTY(VisibleDefaultsOnly)
 		class UCMontagesComponent* Montages;
 
 	UPROPERTY(VisibleDefaultsOnly)

@@ -7,7 +7,7 @@
 UENUM(BlueprintType)
 enum class EActionType : uint8
 {
-	Unarmed, OneHand, TwoHand
+	Unarmed, OneHand, TwoHand, Max
 };
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FActionTypeChanged, EActionType, InPreviousType, EActionType, InNewType);
 
@@ -16,6 +16,10 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ACTIONGAME_API UCActionComponent : public UActorComponent
 {
 	GENERATED_BODY()
+
+private:
+	UPROPERTY(EditDefaultsOnly, Category = "Weapons")
+		class UCActionData* Datas[(int32)EActionType::Max];
 
 public:
 	UFUNCTION(BlueprintPure)
