@@ -61,8 +61,9 @@ private:
 
 private:
 	void Begin_Roll();
-	void End_Roll();
-
 	void Begin_Backstep();
+
+public:
+	void End_Roll();
 	void End_Backstep();
 };

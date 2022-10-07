@@ -39,7 +39,7 @@ ACPlayer::ACPlayer()
 
 	SpringArm->SetRelativeLocation(FVector(0, 0, 140));
 	SpringArm->SetRelativeRotation(FRotator(0, 90, 0));
-	SpringArm->TargetArmLength = 200.0f;
+	SpringArm->TargetArmLength = 250.0f;
 	SpringArm->bDoCollisionTest = false;
 	SpringArm->bUsePawnControlRotation = true;
 	SpringArm->bEnableCameraLag = true;
@@ -155,6 +155,7 @@ void ACPlayer::Begin_Roll()
 
 void ACPlayer::End_Roll()
 {
+	State->SetIdleMode();
 }
 
 void ACPlayer::Begin_Backstep()
@@ -168,5 +169,9 @@ void ACPlayer::Begin_Backstep()
 
 void ACPlayer::End_Backstep()
 {
+	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	State->SetIdleMode();
 }
 
