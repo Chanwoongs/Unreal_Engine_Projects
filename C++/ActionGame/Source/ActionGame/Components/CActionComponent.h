@@ -55,7 +55,7 @@ private:
 	void SetMode(EActionType InType);
 	void ChangeType(EActionType InNewType);
 
-private:
+public:
 	UPROPERTY(BlueprintAssignable)
 		FActionTypeChanged OnActionTypeChanged;
 
