@@ -17,11 +17,23 @@ void ACEquipment::BeginPlay()
 
 	// Super::BeginPlay() 함수에 BP에 있는 BeginPlay()를 호출하는 함수도 있기 때문에 필요한 변수들을 먼저 세팅한 후 부모 함수를 호출
 	Super::BeginPlay();
-	
+
 
 }
 
 void ACEquipment::Equip_Implementation()
 {
 	State->SetEquipMode();
+}
+
+void ACEquipment::Begin_Equip_Implementation()
+{
+}
+
+void ACEquipment::End_Equip_Implementation()
+{
+}
+
+void ACEquipment::Unequip_Implementation()
+{
 }

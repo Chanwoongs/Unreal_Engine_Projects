@@ -2,14 +2,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Actions/CActionData.h"
 #include "CEquipment.generated.h"
 
 UCLASS()
 class ACTIONGAME_API ACEquipment : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
+	FORCEINLINE void SetData(FEquipmentData InData) { Data = InData; }
+
+public:
 	ACEquipment();
 
 public:
@@ -46,4 +50,7 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 		class UCStatusComponent* Status;
+
+private:
+	FEquipmentData Data;
 };
