@@ -1,4 +1,4 @@
-#pragma once
+	#pragma once
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
@@ -27,6 +27,9 @@ UCLASS()
 class ACTIONGAME_API UCActionData : public UDataAsset
 {
 	GENERATED_BODY()
+
+public:
+	FORCEINLINE class ACEquipment* GetEquipment() { return Equipment; }
 
 public:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)

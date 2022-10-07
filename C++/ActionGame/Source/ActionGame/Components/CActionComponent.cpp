@@ -1,6 +1,7 @@
 #include "CActionComponent.h"
 #include "Global.h"
 #include "Actions/CActionData.h"
+#include "Actions/CEquipment.h"
 #include "GameFramework/Character.h"
 
 UCActionComponent::UCActionComponent()
@@ -33,11 +34,19 @@ void UCActionComponent::SetMode(EActionType InType)
 	}
 	else if (IsUnarmedMode() == false)
 	{
+		ACEquipment* equipment = Datas[(int32)Type]->GetEquipment();
+		CheckNull(equipment);
 
+		equipment->Unequip();
 	}
 
-
 	// ¹«±â ÀåÂø
+	ACEquipment* equipment = Datas[(int32)InType]->GetEquipment();
+	CheckNull(equipment);
+
+	equipment->Equip();
+
+	ChangeType(InType);
 }
 
 
@@ -54,7 +63,17 @@ void UCActionComponent::ChangeType(EActionType InNewType)
 
 void UCActionComponent::SetUnarmedMode()
 {
-	SetMode(EActionType::Unarmed);
+	if (!!Datas[(int32)Type])
+	{
+		ACEquipment* equipment = Datas[(int32)Type]->GetEquipment();
+		if (!!equipment)
+		{
+			equipment->Unequip();
+		}
+	
+	}
+
+	ChangeType(EActionType::Unarmed);
 }
 
 void UCActionComponent::SetOneHandMode()

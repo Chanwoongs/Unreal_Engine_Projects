@@ -17,6 +17,7 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 		Equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
 		Equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
 		Equipment->SetData(EquipmentData);
+
 		UGameplayStatics::FinishSpawningActor(Equipment, transform); // 등장 확정
 	}
 }

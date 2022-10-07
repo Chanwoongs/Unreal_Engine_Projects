@@ -63,7 +63,6 @@ void ACPlayer::BeginPlay()
 void ACPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -78,6 +77,10 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("VerticalLook", this, &ACPlayer::OnVerticalLook);
 	// 회피
 	PlayerInputComponent->BindAction("Avoid", EInputEvent::IE_Pressed, this, &ACPlayer::OnAvoid);
+
+	// OneHand 무기
+	PlayerInputComponent->BindAction("OneHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnOneHand);
+
 }
 
 // 앞뒤 움직임
@@ -122,7 +125,9 @@ void ACPlayer::OnAvoid()
 
 	if (InputComponent->GetAxisValue("MoveForward") < 0.0f)
 	{
-		State->SetBackstepMode();
+			State->SetBackstepMode();
+
+			return;
 	}
 
 	State->SetRollMode();
@@ -132,7 +137,7 @@ void ACPlayer::OnStateTypeChanged(EStateType InPreviousType, EStateType InNewTyp
 {
 	switch (InNewType)
 	{
-	case EStateType::Roll:  Begin_Roll();
+	case EStateType::Roll: Begin_Roll();
 		break;
 	case EStateType::Backstep: Begin_Backstep();
 		break;
@@ -157,6 +162,11 @@ void ACPlayer::Begin_Roll()
 
 void ACPlayer::End_Roll()
 {
+	if (Action->IsUnarmedMode() == false)
+	{
+		bUseControllerRotationYaw = true;
+		GetCharacterMovement()->bOrientRotationToMovement = false;
+	}
 	State->SetIdleMode();
 }
 
@@ -171,9 +181,20 @@ void ACPlayer::Begin_Backstep()
 
 void ACPlayer::End_Backstep()
 {
-	bUseControllerRotationYaw = false;
-	GetCharacterMovement()->bOrientRotationToMovement = true;
+	if (Action->IsUnarmedMode())
+	{
+
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+	}
 
 	State->SetIdleMode();
+}
+
+void ACPlayer::OnOneHand()
+{
+	CheckFalse(State->IsIdleMode());
+
+	Action->SetOneHandMode();
 }
 
