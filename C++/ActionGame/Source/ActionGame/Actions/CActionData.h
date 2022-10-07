@@ -33,8 +33,10 @@ public:
 
 public:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
-		TSubclassOf<class ACEquipment> EquipmentClass;
+		TSubclassOf<class ACAttachment> AttachmentClass;
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		TSubclassOf<class ACEquipment> EquipmentClass;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		FEquipmentData EquipmentData;
@@ -44,4 +46,5 @@ public:
 
 private:
 	class ACEquipment* Equipment;
+	class ACAttachment* Attachment;
 };

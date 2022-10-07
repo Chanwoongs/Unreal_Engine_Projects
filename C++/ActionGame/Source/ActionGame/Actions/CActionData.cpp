@@ -1,12 +1,21 @@
 #include "CActionData.h"
 #include "Global.h"
 #include "CEquipment.h"
+#include "CAttachment.h"
 #include "GameFramework/Character.h"
 #include "Components/SkeletalMeshComponent.h"
 
 void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 {
 	FTransform transform;
+
+	// Attachment
+	{
+		Attachment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACAttachment>(AttachmentClass, transform, InOwnerCharacter);
+		Attachment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Attachment"); // 출력되는 이름 변경
+
+		UGameplayStatics::FinishSpawningActor(Attachment, transform); // 등장 확정
+	}
 
 	// Equipment
 	// 기존 SpawnActor 사용시에는 등장과 동시에 BeginPlay가 호출된다
@@ -16,8 +25,12 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 		// 객체 생성만 완료된 것이고, 등장하진 않았다
 		Equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
 		Equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		Attachment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Equipment"); // 출력되는 이름 변경
 		Equipment->SetData(EquipmentData);
 
 		UGameplayStatics::FinishSpawningActor(Equipment, transform); // 등장 확정
+
+		Equipment->OnEquipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnEquip);
+		Equipment->OnUnequipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnUnequip);
 	}
 }

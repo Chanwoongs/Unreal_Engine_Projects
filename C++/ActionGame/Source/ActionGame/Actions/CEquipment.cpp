@@ -42,6 +42,10 @@ void ACEquipment::Equip_Implementation()
 
 void ACEquipment::Begin_Equip_Implementation()
 {
+	if (OnEquipmentDelegate.IsBound())
+	{
+		OnEquipmentDelegate.Broadcast();
+	}
 }
 
 void ACEquipment::End_Equip_Implementation()
@@ -51,6 +55,11 @@ void ACEquipment::End_Equip_Implementation()
 
 void ACEquipment::Unequip_Implementation()
 {
+	if (OnUnequipmentDelegate.IsBound())
+	{
+		OnUnequipmentDelegate.Broadcast();
+	}
+
 	OwnerCharacter->bUseControllerRotationYaw = false;
 	OwnerCharacter->GetCharacterMovement()->bOrientRotationToMovement = true;
 }
