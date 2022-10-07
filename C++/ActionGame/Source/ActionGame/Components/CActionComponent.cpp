@@ -1,0 +1,60 @@
+#include "CActionComponent.h"
+#include "Global.h"
+
+UCActionComponent::UCActionComponent()
+{
+}
+
+
+void UCActionComponent::BeginPlay()
+{
+	Super::BeginPlay();
+
+	
+}
+
+void UCActionComponent::SetMode(EActionType InType)
+{
+	// 무기가 같을 때 무기를 넣어줄 수 있도록, 같은 무기 해제
+	if (Type == InType)
+	{
+		SetUnarmedMode();
+
+		return;
+	}
+	else if (IsUnarmedMode() == false)
+	{
+
+	}
+
+
+	// 무기 장착
+}
+
+
+void UCActionComponent::ChangeType(EActionType InNewType)
+{
+	EActionType prevType = InNewType;
+	Type = InNewType;
+
+	if (OnActionTypeChanged.IsBound())
+	{
+		OnActionTypeChanged.Broadcast(prevType, InNewType);
+	}
+}
+
+void UCActionComponent::SetUnarmedMode()
+{
+	SetMode(EActionType::Unarmed);
+}
+
+void UCActionComponent::SetOneHandMode()
+{
+	SetMode(EActionType::OneHand);
+}
+
+void UCActionComponent::SetTwoHandMode()
+{
+	SetMode(EActionType::TwoHand);
+}
+

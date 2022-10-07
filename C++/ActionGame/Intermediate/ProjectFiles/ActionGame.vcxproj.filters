@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ActionGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{91807559-DCFD-45AC-882B-44125A4894E9}</UniqueIdentifier>
+      <UniqueIdentifier>{336370CA-82DA-43F1-9384-496F5C02C70E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CBD288E7-3B0C-4BBF-BF00-212F9970EF21}</UniqueIdentifier>
+      <UniqueIdentifier>{19D67607-865E-4C2E-BFA9-71874F45CE2A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ActionGame">
-      <UniqueIdentifier>{299D4A71-6453-44B7-8BF0-8E851350BBEE}</UniqueIdentifier>
+      <UniqueIdentifier>{2FBFA3B0-24A5-4C21-BB39-B6D49E17D3B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame\ActionGame.Build.cs">
       <Filter>Source\ActionGame</Filter>
@@ -35,11 +38,107 @@
     <ClInclude Include="..\..\Source\ActionGame\ActionGame.h">
       <Filter>Source\ActionGame</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ActionGame\ActionGameGameModeBase.cpp">
+    <ClCompile Include="..\..\Source\ActionGame\CGameMode.cpp">
       <Filter>Source\ActionGame</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ActionGame\ActionGameGameModeBase.h">
+    <ClInclude Include="..\..\Source\ActionGame\CGameMode.h">
       <Filter>Source\ActionGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ActionGame\Global.h">
+      <Filter>Source\ActionGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Actions">
+      <UniqueIdentifier>{55787D17-E53D-4B39-B148-47D7334179AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CActionData.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CActionData.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CEquipment.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CEquipment.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Characters">
+      <UniqueIdentifier>{1C58BC7B-2DDF-4972-BAD4-F14E69F7F3A3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Characters\CAnimInstance.cpp">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Characters\CAnimInstance.h">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Characters\CPlayer.cpp">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Characters\CPlayer.h">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Components">
+      <UniqueIdentifier>{37D68A97-5035-4A03-A31B-2BE0B7502281}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Components\CActionComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\CActionComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Components\CMontagesComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\CMontagesComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Components\COptionComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\COptionComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Components\CStateComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\CStateComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Components\CStatusComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\CStatusComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Notifies">
+      <UniqueIdentifier>{FC900FA7-7840-4AD3-A306-216A4C825323}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndBackstep.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndBackstep.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndRoll.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndRoll.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Utilities">
+      <UniqueIdentifier>{68D45848-3C1C-49B2-A7B4-1B1C0EFFEEF0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ActionGame\Utilities\CHelpers.h">
+      <Filter>Source\ActionGame\Utilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Utilities\CLog.cpp">
+      <Filter>Source\ActionGame\Utilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Utilities\CLog.h">
+      <Filter>Source\ActionGame\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ActionGame\Utilities\Defines.h">
+      <Filter>Source\ActionGame\Utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

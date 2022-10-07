@@ -7,7 +7,7 @@
 UENUM(BlueprintType)
 enum class EStateType : uint8 // 8byte unsigned int 자료형 사용
 {
-	Idle, Roll, Backstep, Max // Max 같은 변수를 해주는 갯수를 알 수 있다.
+	Idle, Roll, Backstep, Equip, Unequip, Max // Max 같은 변수를 해주는 갯수를 알 수 있다.
 };
 // 상태가 바뀔 때 상태가 바뀐 것을 전파해줄 Dynamic Delegate
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FStateTypeChanged, EStateType, InPreviousType, EStateType, InNewType);
@@ -29,11 +29,19 @@ public:
 	UFUNCTION(BlueprintPure)
 		FORCEINLINE bool IsBackstepMode() { return Type == EStateType::Backstep; }
 
+	UFUNCTION(BlueprintPure)
+		FORCEINLINE bool IsEquipMode() { return Type == EStateType::Equip; }
+
+	UFUNCTION(BlueprintPure)
+		FORCEINLINE bool IsUnequipMode() { return Type == EStateType::Unequip; }
+
 
 public:
 	void SetIdleMode();
 	void SetRollMode();
 	void SetBackstepMode();
+	void SetEquipMode();
+	void SetUnequipMode();
 
 private:
 	void ChangeType(EStateType InType);

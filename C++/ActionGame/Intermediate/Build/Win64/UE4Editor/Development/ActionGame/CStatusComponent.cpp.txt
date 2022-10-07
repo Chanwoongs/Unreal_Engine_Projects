@@ -1,0 +1,3 @@
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\Definitions.ActionGame.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Components\CStatusComponent.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CStatusComponent.generated.h
