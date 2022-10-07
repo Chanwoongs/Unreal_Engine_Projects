@@ -57,6 +57,12 @@ public:
 	}
 
 	template<typename T>
+	static T* GetComponent(AActor* InActor)
+	{
+		return Cast<T>(InActor->GetComponentByClass(T::StaticClass()));
+	}
+
+	template<typename T>
 	static void FindActors(class UWorld* InWorld, TArray<T*>& OutActors)
 	{
 		OutActors.Empty();
@@ -70,6 +76,7 @@ public:
 			OutActors.Add(Cast<T>(actor));
 		}
 	}
+
 
 	
 };
