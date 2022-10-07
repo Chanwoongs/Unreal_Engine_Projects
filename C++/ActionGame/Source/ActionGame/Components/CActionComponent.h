@@ -31,7 +31,7 @@ public:
 
 	UFUNCTION(BlueprintPure)
 		FORCEINLINE bool IsOneHandMode() { return Type == EActionType::OneHand; }
-
+	
 	UFUNCTION(BlueprintPure)
 		FORCEINLINE bool IsTwoHandMode() { return Type == EActionType::TwoHand; }
 
@@ -44,6 +44,9 @@ public:
 	void SetUnarmedMode();
 	void SetOneHandMode();
 	void SetTwoHandMode();
+
+public:
+	void DoAction();
 
 protected:
 	virtual void BeginPlay() override;

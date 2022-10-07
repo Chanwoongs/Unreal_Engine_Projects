@@ -81,6 +81,9 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// OneHand 무기
 	PlayerInputComponent->BindAction("OneHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnOneHand);
 
+	// Do Action
+	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
+
 }
 
 // 앞뒤 움직임
@@ -196,5 +199,10 @@ void ACPlayer::OnOneHand()
 	CheckFalse(State->IsIdleMode());
 
 	Action->SetOneHandMode();
+}
+
+void ACPlayer::OnDoAction()
+{
+	Action->DoAction();
 }
 
