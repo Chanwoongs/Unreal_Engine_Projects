@@ -141,6 +141,16 @@ void ACPlayer::OnStateTypeChanged(EStateType InPreviousType, EStateType InNewTyp
 
 void ACPlayer::Begin_Roll()
 {
+	// 해당 방향으로 구르기 위해
+	bUseControllerRotationYaw = false; 
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	FVector start = GetActorLocation();
+	FVector from = start + GetVelocity().GetSafeNormal2D();
+
+	SetActorRotation(UKismetMathLibrary::FindLookAtRotation(start, from));
+
+	Montages->PlayRoll();
 }
 
 void ACPlayer::End_Roll()
@@ -149,6 +159,11 @@ void ACPlayer::End_Roll()
 
 void ACPlayer::Begin_Backstep()
 {
+	// 정면을 바라본 상태에서 뒤로 뛴다
+	bUseControllerRotationYaw = true;
+	GetCharacterMovement()->bOrientRotationToMovement = false;
+
+	Montages->PlayBackstep();
 }
 
 void ACPlayer::End_Backstep()

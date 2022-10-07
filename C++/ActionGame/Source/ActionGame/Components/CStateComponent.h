@@ -7,7 +7,7 @@
 UENUM(BlueprintType)
 enum class EStateType : uint8 // 8byte unsigned int 자료형 사용
 {
-	Idle, Roll, Backstep
+	Idle, Roll, Backstep, Max // Max 같은 변수를 해주는 갯수를 알 수 있다.
 };
 // 상태가 바뀔 때 상태가 바뀐 것을 전파해줄 Dynamic Delegate
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FStateTypeChanged, EStateType, InPreviousType, EStateType, InNewType);
