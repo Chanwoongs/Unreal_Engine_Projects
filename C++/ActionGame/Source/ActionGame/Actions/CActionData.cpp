@@ -2,6 +2,7 @@
 #include "Global.h"
 #include "CEquipment.h"
 #include "CAttachment.h"
+#include "CDoAction.h"
 #include "GameFramework/Character.h"
 #include "Components/SkeletalMeshComponent.h"
 
@@ -25,12 +26,22 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 		// 객체 생성만 완료된 것이고, 등장하진 않았다
 		Equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
 		Equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-		Attachment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Equipment"); // 출력되는 이름 변경
+		Equipment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Equipment"); 
 		Equipment->SetData(EquipmentData);
 
 		UGameplayStatics::FinishSpawningActor(Equipment, transform); // 등장 확정
 
 		Equipment->OnEquipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnEquip);
 		Equipment->OnUnequipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnUnequip);
+	}
+
+	// DoAction
+	{
+		DoAction = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACDoAction>(DoActionClass, transform, InOwnerCharacter);
+		DoAction->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		DoAction->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_DoAction"); 
+		DoAction->SetDatas(DoActionDatas);
+
+		UGameplayStatics::FinishSpawningActor(DoAction, transform); // 등장 확정
 	}
 }

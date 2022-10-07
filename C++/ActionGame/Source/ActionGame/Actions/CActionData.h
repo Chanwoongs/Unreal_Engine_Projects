@@ -23,6 +23,28 @@ public:
 		bool bCanMove = true;
 };
 
+USTRUCT(BlueprintType)
+struct FDoActionData : public FEquipmentData
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere)
+		float Power = 5.0f;
+
+	UPROPERTY(EditAnywhere)
+		float HitStop; // 타격 시 경직
+
+	UPROPERTY(EditAnywhere)
+		class UParticleSystem* Effect; // 타격 이펙트
+
+	UPROPERTY(EditAnywhere)
+		FTransform EffectTransform;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class UCameraShake> ShakeClass;
+};
+
 UCLASS()
 class ACTIONGAME_API UCActionData : public UDataAsset
 {
@@ -40,11 +62,18 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		FEquipmentData EquipmentData;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		TSubclassOf<class ACDoAction> DoActionClass;
 	
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		TArray<FDoActionData> DoActionDatas;
+
 public:
 	void BeginPlay(class ACharacter* InOwnerCharacter);
 
 private:
 	class ACEquipment* Equipment;
 	class ACAttachment* Attachment;
+	class ACDoAction* DoAction;
 };
