@@ -1,5 +1,6 @@
 #include "CEquipment.h"
 #include "Global.h"
+#include "Characters/ICharacter.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Components/CStateComponent.h"
@@ -31,13 +32,18 @@ void ACEquipment::Equip_Implementation()
 		OwnerCharacter->PlayAnimMontage(Data.AnimMontage, Data.PlayRatio, Data.StartSection);
 	}
 	else
+	{
 		End_Equip();
+	}
 
 	// Sword 사용시 정면을 볼 수 있게
 	OwnerCharacter->bUseControllerRotationYaw = true;
 	OwnerCharacter->GetCharacterMovement()->bOrientRotationToMovement = false;
 
+	IICharacter* character = Cast<IICharacter>(OwnerCharacter);
+	CheckNull(character);
 
+	character->ChangeColor(Color);
 }
 
 void ACEquipment::Begin_Equip_Implementation()

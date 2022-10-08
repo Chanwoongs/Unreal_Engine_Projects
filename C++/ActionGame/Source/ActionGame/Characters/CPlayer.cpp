@@ -7,6 +7,8 @@
 #include "Animation/AnimInstance.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/InputComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+#include "Materials/MaterialInstanceConstant.h"
 
 #include "Components/CActionComponent.h"
 #include "Components/CMontagesComponent.h"
@@ -58,6 +60,21 @@ void ACPlayer::BeginPlay()
 	Super::BeginPlay();
 	
 	State->OnStateTypeChanged.AddDynamic(this, &ACPlayer::OnStateTypeChanged);
+
+	UMaterialInstanceConstant* body;
+	UMaterialInstanceConstant* logo;
+
+	// BeginPlay 에선 GetAssetDynamic 사용
+	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&body, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_Body_Inst.M_UE4Man_Body_Inst'");
+	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&logo, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_ChestLogo_Inst.M_UE4Man_ChestLogo_Inst'");
+
+	BodyMaterial = UMaterialInstanceDynamic::Create(body, this);
+	LogoMaterial = UMaterialInstanceDynamic::Create(logo, this);
+
+	GetMesh()->SetMaterial(0, BodyMaterial);
+	GetMesh()->SetMaterial(1, LogoMaterial);
+
+	Action->SetUnarmedMode();
 }
 
 void ACPlayer::Tick(float DeltaTime)
@@ -204,5 +221,11 @@ void ACPlayer::OnOneHand()
 void ACPlayer::OnDoAction()
 {
 	Action->DoAction();
+}
+
+void ACPlayer::ChangeColor(FLinearColor InColor)
+{
+	BodyMaterial->SetVectorParameterValue("BodyColor", InColor);
+	LogoMaterial->SetVectorParameterValue("BodyColor", InColor);
 }
 

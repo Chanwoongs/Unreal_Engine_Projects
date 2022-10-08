@@ -15,6 +15,7 @@ class ACTIONGAME_API ACEquipment : public AActor
 
 public:
 	FORCEINLINE void SetData(FEquipmentData InData) { Data = InData; }
+	FORCEINLINE void SetColor(FLinearColor InColor) { Color = InColor; }
 
 public:
 	ACEquipment();
@@ -63,4 +64,5 @@ protected:
 
 private:
 	FEquipmentData Data;
+	FLinearColor Color;
 };

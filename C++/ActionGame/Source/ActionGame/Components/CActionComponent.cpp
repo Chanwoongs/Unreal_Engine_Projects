@@ -67,12 +67,15 @@ void UCActionComponent::SetUnarmedMode()
 	if (!!Datas[(int32)Type])
 	{
 		ACEquipment* equipment = Datas[(int32)Type]->GetEquipment();
-		if (!!equipment)
-		{
-			equipment->Unequip();
-		}
-	
+		CheckNull(equipment);
+
+		equipment->Unequip();
 	}
+
+	ACEquipment* equipment = Datas[(int32)EActionType::Unarmed]->GetEquipment();
+	CheckNull(equipment);
+
+	equipment->Equip();
 
 	ChangeType(EActionType::Unarmed);
 }

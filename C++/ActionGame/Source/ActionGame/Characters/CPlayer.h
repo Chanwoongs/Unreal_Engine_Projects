@@ -2,11 +2,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Characters/ICharacter.h"
 #include "Components/CStateComponent.h" // Delegate를 위한 전방선언 (Enum)
 #include "CPlayer.generated.h"
 
 UCLASS()
-class ACTIONGAME_API ACPlayer : public ACharacter
+class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter
 {
 	GENERATED_BODY()
 
@@ -74,4 +75,11 @@ private:
 	void OnOneHand();
 
 	void OnDoAction();
+
+public:
+	virtual void ChangeColor(FLinearColor InColor) override;
+
+private:
+	class UMaterialInstanceDynamic* BodyMaterial;
+	class UMaterialInstanceDynamic* LogoMaterial;
 };
