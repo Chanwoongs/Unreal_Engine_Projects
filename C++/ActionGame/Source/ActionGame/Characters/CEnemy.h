@@ -49,6 +49,9 @@ public:
 public:
 	virtual void ChangeColor(FLinearColor InColor) override;
 
+private:
+	UFUNCTION()
+		void OnStateTypeChanged(EStateType InPrevType, EStateType InNewType);
 
 private:
 	class UMaterialInstanceDynamic* BodyMaterial;
