@@ -27,10 +27,3 @@ void ACDoAction::Tick(float DeltaTime)
 
 }
 
-void ACDoAction::OnAttachmentBeginOverlap(ACharacter* InAttacker, AActor* InAttackCauser, ACharacter* InOtherCharacter)
-{
-}
-
-void ACDoAction::OnAttachmentEndOverlap(ACharacter* InAttacker, AActor* InAttackCauser, ACharacter* InOtherCharacter)
-{
-}

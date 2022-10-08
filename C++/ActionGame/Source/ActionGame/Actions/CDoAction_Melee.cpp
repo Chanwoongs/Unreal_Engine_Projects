@@ -59,3 +59,13 @@ void ACDoAction_Melee::End_Action()
 
 	Index = 0;
 }
+
+void ACDoAction_Melee::OnAttachmentBeginOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter)
+{
+	CLog::Log(InOtherCharacter->GetName());
+}
+
+void ACDoAction_Melee::OnAttachmentEndOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter)
+{
+
+}

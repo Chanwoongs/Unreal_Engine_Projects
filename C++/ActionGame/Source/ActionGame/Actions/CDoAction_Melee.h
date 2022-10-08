@@ -18,6 +18,12 @@ public:
 	virtual void Begin_Action() override;
 	virtual void End_Action() override;
 
+public:
+	// 부모에서 UFUNCTION을 붙혔기 때문에 안붙힌다.	
+	virtual void OnAttachmentBeginOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter) override;
+	virtual void OnAttachmentEndOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter) override;
+
+
 private:
 	bool bExist; // 다음 콤보가 존재하느냐
 	bool bEnable; // 다음 콤보가 허용이 됐느냐 
