@@ -57,15 +57,6 @@ ACEnemy::ACEnemy()
 	HealthWidget->SetWidgetSpace(EWidgetSpace::Screen); 
 }
 
-float ACEnemy::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
-{
-	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
-
-	CLog::Log(Damage);
-
-	return 0.0f;
-}
-
 void ACEnemy::BeginPlay()
 {
 
@@ -111,7 +102,56 @@ void ACEnemy::ChangeColor(FLinearColor InColor)
 
 void ACEnemy::OnStateTypeChanged(EStateType InPrevType, EStateType InNewType)
 {
+	switch (InNewType)
+	{
+	case EStateType::Idle:
+		break;
+	case EStateType::Roll:
+		break;
+	case EStateType::Backstep:
+		break;
+	case EStateType::Equip:
+		break;
+	case EStateType::Action:
+		break;
+	case EStateType::Hitted: Hitted();
+		break;
+	case EStateType::Max:
+		break;
+	default:
+		break;
+	}
 }
+
+float ACEnemy::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	DamageInstigator = EventInstigator;
+	DamageValue = Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+
+	State->SetHittedMode();
+
+	return Status->GetHealth();
+}
+
+void ACEnemy::Hitted()
+{
+	// hp 갱신
+	Status->SubHealth(DamageValue);
+	Cast<UCUserWidget_Health>(HealthWidget->GetUserWidgetObject())->Update(Status->GetHealth(), Status->GetMaxHealth());
+	DamageValue = 0.0f;
+
+	// 공격자를 보고 뒤로 밀리는 효과
+	FVector start = GetActorLocation();
+	FVector target = DamageInstigator->GetPawn()->GetActorLocation();
+	SetActorRotation(UKismetMathLibrary::FindLookAtRotation(start, target));
+	DamageInstigator = NULL;
+
+	FVector direction = target - start;
+	direction.Normalize();
+	LaunchCharacter(-direction * LaunchAmount, true, false);
+
+}
+
 
 
 

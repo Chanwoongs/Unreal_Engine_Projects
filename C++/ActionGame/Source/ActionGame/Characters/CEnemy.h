@@ -11,8 +11,12 @@ class ACTIONGAME_API ACEnemy : public ACharacter, public IICharacter
 {
 	GENERATED_BODY()
 
-// Scene Components
 private:
+	UPROPERTY(EditAnywhere, Category = "Hitted")
+		float LaunchAmount = 100.0f;
+
+// Scene Components
+protected:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UWidgetComponent* NameWidget;
 
@@ -45,8 +49,6 @@ protected:
 
 public:	
 	virtual void Tick(float DeltaTime) override;
-
-public:
 	virtual void ChangeColor(FLinearColor InColor) override;
 
 private:
@@ -54,7 +56,14 @@ private:
 		void OnStateTypeChanged(EStateType InPrevType, EStateType InNewType);
 
 private:
+	void Hitted();
+
+private:
 	class UMaterialInstanceDynamic* BodyMaterial;
 	class UMaterialInstanceDynamic* LogoMaterial;
+
+private:
+	class AController* DamageInstigator;
+	float DamageValue;
 
 };
