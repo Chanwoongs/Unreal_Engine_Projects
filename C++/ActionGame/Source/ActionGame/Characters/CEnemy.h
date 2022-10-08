@@ -55,6 +55,9 @@ private:
 	UFUNCTION()
 		void OnStateTypeChanged(EStateType InPrevType, EStateType InNewType);
 
+	UFUNCTION()
+		void RestoreColor();
+
 private:
 	void Hitted();
 

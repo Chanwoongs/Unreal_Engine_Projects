@@ -40,6 +40,7 @@ public:
 
 	void PlayRoll();
 	void PlayBackstep();
+	void PlayHitted();
 	
 
 protected:

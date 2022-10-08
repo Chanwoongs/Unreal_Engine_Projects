@@ -15,7 +15,7 @@
 #include "Components/CStatusComponent.h"
 #include "Widgets/CUserWidget_Name.h"
 #include "Widgets/CUserWidget_Health.h"
-
+#include "Actions/CActionData.h"
 
 ACEnemy::ACEnemy()
 {
@@ -140,6 +140,10 @@ void ACEnemy::Hitted()
 	Cast<UCUserWidget_Health>(HealthWidget->GetUserWidgetObject())->Update(Status->GetHealth(), Status->GetMaxHealth());
 	DamageValue = 0.0f;
 
+	// Montage 재생
+	Status->SetStop();
+	Montages->PlayHitted();
+
 	// 공격자를 보고 뒤로 밀리는 효과
 	FVector start = GetActorLocation();
 	FVector target = DamageInstigator->GetPawn()->GetActorLocation();
@@ -150,8 +154,17 @@ void ACEnemy::Hitted()
 	direction.Normalize();
 	LaunchCharacter(-direction * LaunchAmount, true, false);
 
+	ChangeColor(FLinearColor(1, 0, 0, 1));
+	// 타이머 호출
+	UKismetSystemLibrary::K2_SetTimer(this, "RestoreColor", 0.1f, false);
 }
 
+void ACEnemy::RestoreColor()
+{
+	FLinearColor color = Action->GetCurrent()->GetEquipmentColor();
+
+	ChangeColor(color);
+}
 
 
 
