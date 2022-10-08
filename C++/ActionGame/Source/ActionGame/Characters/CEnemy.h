@@ -13,6 +13,9 @@ class ACTIONGAME_API ACEnemy : public ACharacter, public IICharacter
 public:
 	ACEnemy();
 
+	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
+
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -21,6 +24,7 @@ public:
 
 public:
 	virtual void ChangeColor(FLinearColor InColor) override;
+
 
 private:
 	class UMaterialInstanceDynamic* BodyMaterial;

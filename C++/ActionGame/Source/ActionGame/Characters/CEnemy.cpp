@@ -27,6 +27,15 @@ ACEnemy::ACEnemy()
 	GetCharacterMovement()->RotationRate = FRotator(0, 720, 0);
 }
 
+float ACEnemy::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+
+	CLog::Log(Damage);
+
+	return 0.0f;
+}
+
 void ACEnemy::BeginPlay()
 {
 	Super::BeginPlay();
