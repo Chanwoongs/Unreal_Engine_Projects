@@ -36,9 +36,12 @@ void ACEquipment::Equip_Implementation()
 		End_Equip();
 	}
 
-	// Sword 사용시 정면을 볼 수 있게
-	OwnerCharacter->bUseControllerRotationYaw = true;
-	OwnerCharacter->GetCharacterMovement()->bOrientRotationToMovement = false;
+	if (Data.bPawnControl == true)
+	{
+		// Sword 사용시 정면을 볼 수 있게
+		OwnerCharacter->bUseControllerRotationYaw = true;
+		OwnerCharacter->GetCharacterMovement()->bOrientRotationToMovement = false;
+	}
 
 	IICharacter* character = Cast<IICharacter>(OwnerCharacter);
 	CheckNull(character);
