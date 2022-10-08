@@ -20,3 +20,13 @@ D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.in
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Utilities/CHelpers.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Utilities/CLog.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Utilities/Defines.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Actions\CEquipment.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CEquipment.generated.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Actions\CAttachment.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CAttachment.generated.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Actions\CDoAction.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CDoAction.generated.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h

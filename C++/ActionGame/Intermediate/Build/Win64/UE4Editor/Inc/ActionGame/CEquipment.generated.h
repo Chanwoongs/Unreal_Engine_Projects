@@ -13,8 +13,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ACTIONGAME_CEquipment_generated_h
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_RPC_WRAPPERS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_9_DELEGATE \
+static inline void FUnequipmentDelegate_DelegateWrapper(const FMulticastScriptDelegate& UnequipmentDelegate) \
+{ \
+	UnequipmentDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_8_DELEGATE \
+static inline void FEquipmentDelegate_DelegateWrapper(const FMulticastScriptDelegate& EquipmentDelegate) \
+{ \
+	EquipmentDelegate.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_SPARSE_DATA
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_RPC_WRAPPERS \
 	virtual void Unequip_Implementation(); \
 	virtual void End_Equip_Implementation(); \
 	virtual void Begin_Equip_Implementation(); \
@@ -26,7 +40,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execEquip);
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execUnequip); \
 	DECLARE_FUNCTION(execEnd_Equip); \
@@ -34,9 +48,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execEquip);
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_EVENT_PARMS
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_CALLBACK_WRAPPERS
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_EVENT_PARMS
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_CALLBACK_WRAPPERS
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACEquipment(); \
 	friend struct Z_Construct_UClass_ACEquipment_Statics; \
@@ -45,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(ACEquipment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_INCLASS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesACEquipment(); \
 	friend struct Z_Construct_UClass_ACEquipment_Statics; \
@@ -54,7 +68,7 @@ public: \
 	DECLARE_SERIALIZER(ACEquipment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACEquipment(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACEquipment) \
@@ -67,7 +81,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_ENHANCED_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACEquipment(ACEquipment&&); \
@@ -78,38 +92,38 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEquipment); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACEquipment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_PRIVATE_PROPERTY_OFFSET \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__OwnerCharacter() { return STRUCT_OFFSET(ACEquipment, OwnerCharacter); } \
 	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(ACEquipment, State); } \
 	FORCEINLINE static uint32 __PPO__Status() { return STRUCT_OFFSET(ACEquipment, Status); }
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_7_PROLOG \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_EVENT_PARMS
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_11_PROLOG \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_EVENT_PARMS
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_CALLBACK_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_INCLASS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_CALLBACK_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_INCLASS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_Actions_CEquipment_h_10_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_Actions_CEquipment_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_CALLBACK_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CEquipment_h_10_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_CALLBACK_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CEquipment_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

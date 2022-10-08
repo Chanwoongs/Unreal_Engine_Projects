@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ActionGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{336370CA-82DA-43F1-9384-496F5C02C70E}</UniqueIdentifier>
+      <UniqueIdentifier>{836BB920-CECF-4595-AD54-B05E4BA1CC76}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{19D67607-865E-4C2E-BFA9-71874F45CE2A}</UniqueIdentifier>
+      <UniqueIdentifier>{A45790FA-8232-42E8-805E-0CF1BD405B42}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ActionGame">
-      <UniqueIdentifier>{2FBFA3B0-24A5-4C21-BB39-B6D49E17D3B1}</UniqueIdentifier>
+      <UniqueIdentifier>{67C219B3-26EF-4A17-BB16-A23CAC16172D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame\ActionGame.Build.cs">
       <Filter>Source\ActionGame</Filter>
@@ -48,12 +48,30 @@
       <Filter>Source\ActionGame</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Actions">
-      <UniqueIdentifier>{55787D17-E53D-4B39-B148-47D7334179AF}</UniqueIdentifier>
+      <UniqueIdentifier>{8CD32EBB-DF6A-4835-B42E-72DD2D60EA54}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Actions\CActionData.cpp">
       <Filter>Source\ActionGame\Actions</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ActionGame\Actions\CActionData.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CAttachment.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CAttachment.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CDoAction.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CDoAction.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CDoAction_Melee.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CDoAction_Melee.h">
       <Filter>Source\ActionGame\Actions</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ActionGame\Actions\CEquipment.cpp">
@@ -63,12 +81,24 @@
       <Filter>Source\ActionGame\Actions</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Characters">
-      <UniqueIdentifier>{1C58BC7B-2DDF-4972-BAD4-F14E69F7F3A3}</UniqueIdentifier>
+      <UniqueIdentifier>{E1CCA5AA-D6BB-4427-AE36-DDD018313C29}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Characters\CAnimInstance.cpp">
       <Filter>Source\ActionGame\Characters</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ActionGame\Characters\CAnimInstance.h">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Characters\CEnemy.cpp">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Characters\CEnemy.h">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Characters\CEnemy_Dummy.cpp">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Characters\CEnemy_Dummy.h">
       <Filter>Source\ActionGame\Characters</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ActionGame\Characters\CPlayer.cpp">
@@ -77,8 +107,14 @@
     <ClInclude Include="..\..\Source\ActionGame\Characters\CPlayer.h">
       <Filter>Source\ActionGame\Characters</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Characters\ICharacter.cpp">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Characters\ICharacter.h">
+      <Filter>Source\ActionGame\Characters</Filter>
+    </ClInclude>
     <Filter Include="Source\ActionGame\Components">
-      <UniqueIdentifier>{37D68A97-5035-4A03-A31B-2BE0B7502281}</UniqueIdentifier>
+      <UniqueIdentifier>{9DA4A206-9CE5-4F89-BB68-B792EDA7255A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Components\CActionComponent.cpp">
       <Filter>Source\ActionGame\Components</Filter>
@@ -111,8 +147,38 @@
       <Filter>Source\ActionGame\Components</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Notifies">
-      <UniqueIdentifier>{FC900FA7-7840-4AD3-A306-216A4C825323}</UniqueIdentifier>
+      <UniqueIdentifier>{195B2198-C6D5-445E-8331-D9BE601E1204}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Collision.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Collision.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_EnableCombo.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_EnableCombo.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Equip.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Equip.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_BeginAction.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_BeginAction.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndAction.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndAction.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndBackstep.cpp">
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClCompile>
@@ -126,7 +192,7 @@
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Utilities">
-      <UniqueIdentifier>{68D45848-3C1C-49B2-A7B4-1B1C0EFFEEF0}</UniqueIdentifier>
+      <UniqueIdentifier>{32DE98AB-6256-471B-9644-7273660255C1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ActionGame\Utilities\CHelpers.h">
       <Filter>Source\ActionGame\Utilities</Filter>
@@ -139,6 +205,21 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\ActionGame\Utilities\Defines.h">
       <Filter>Source\ActionGame\Utilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionGame\Widgets">
+      <UniqueIdentifier>{3FF4B5D6-EFB5-4810-A8CC-D34AC56340F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionGame\Widgets\CUserWidget_Health.cpp">
+      <Filter>Source\ActionGame\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Widgets\CUserWidget_Health.h">
+      <Filter>Source\ActionGame\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Widgets\CUserWidget_Name.cpp">
+      <Filter>Source\ActionGame\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Widgets\CUserWidget_Name.h">
+      <Filter>Source\ActionGame\Widgets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

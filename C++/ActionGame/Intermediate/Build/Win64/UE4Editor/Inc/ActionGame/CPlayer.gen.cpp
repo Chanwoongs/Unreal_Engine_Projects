@@ -22,8 +22,10 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCOptionComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCMontagesComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UICharacter_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ACPlayer::execOnStateTypeChanged)
 	{
@@ -112,6 +114,10 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montages;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Action_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Action;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
@@ -120,6 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -170,6 +177,14 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPlayer_Statics::NewProp_Montages = { "Montages", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPlayer, Montages), Z_Construct_UClass_UCMontagesComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPlayer_Statics::NewProp_Montages_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPlayer_Statics::NewProp_Montages_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPlayer_Statics::NewProp_Action_MetaData[] = {
+		{ "Category", "CPlayer" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/CPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPlayer_Statics::NewProp_Action = { "Action", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPlayer, Action), Z_Construct_UClass_UCActionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPlayer_Statics::NewProp_Action_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPlayer_Statics::NewProp_Action_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPlayer_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "CPlayer" },
 		{ "EditInline", "true" },
@@ -190,9 +205,13 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_Status,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_Option,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_Montages,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_Action,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPlayer_Statics::NewProp_SpringArm,
 	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ACPlayer_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UICharacter_NoRegister, (int32)VTABLE_OFFSET(ACPlayer, IICharacter), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACPlayer_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACPlayer>::IsAbstract,
 	};
@@ -203,11 +222,11 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_ACPlayer_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACPlayer_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ACPlayer_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACPlayer_Statics::Class_MetaDataParams))
 	};
@@ -220,7 +239,7 @@ void EmptyLinkFunctionForGeneratedCodeCPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPlayer, 1305605795);
+	IMPLEMENT_CLASS(ACPlayer, 2374261893);
 	template<> ACTIONGAME_API UClass* StaticClass<ACPlayer>()
 	{
 		return ACPlayer::StaticClass();

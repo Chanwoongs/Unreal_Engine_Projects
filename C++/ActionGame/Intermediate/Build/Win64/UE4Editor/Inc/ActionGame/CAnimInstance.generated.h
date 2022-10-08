@@ -8,15 +8,24 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class EActionType : uint8;
 #ifdef ACTIONGAME_CAnimInstance_generated_h
 #error "CAnimInstance.generated.h already included, missing '#pragma once' in CAnimInstance.h"
 #endif
 #define ACTIONGAME_CAnimInstance_generated_h
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_RPC_WRAPPERS_NO_PURE_DECLS
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_SPARSE_DATA
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnActionTypeChanged);
+
+
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnActionTypeChanged);
+
+
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCAnimInstance(); \
 	friend struct Z_Construct_UClass_UCAnimInstance_Statics; \
@@ -25,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UCAnimInstance)
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_INCLASS \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUCAnimInstance(); \
 	friend struct Z_Construct_UClass_UCAnimInstance_Statics; \
@@ -34,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(UCAnimInstance)
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimInstance) \
@@ -47,7 +56,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_ENHANCED_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,32 +69,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimInstance)
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_PRIVATE_PROPERTY_OFFSET \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UCAnimInstance, Speed); } \
-	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(UCAnimInstance, Direction); }
+	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(UCAnimInstance, Direction); } \
+	FORCEINLINE static uint32 __PPO__ActionType() { return STRUCT_OFFSET(UCAnimInstance, ActionType); }
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_7_PROLOG
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_8_PROLOG
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_INCLASS \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_INCLASS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_10_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Characters_CAnimInstance_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

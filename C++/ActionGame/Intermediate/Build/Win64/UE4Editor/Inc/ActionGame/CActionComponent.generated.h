@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 enum class EActionType : uint8;
+class UCActionData;
 #ifdef ACTIONGAME_CActionComponent_generated_h
 #error "CActionComponent.generated.h already included, missing '#pragma once' in CActionComponent.h"
 #endif
@@ -34,14 +35,16 @@ static inline void FActionTypeChanged_DelegateWrapper(const FMulticastScriptDele
  \
 	DECLARE_FUNCTION(execIsTwoHandMode); \
 	DECLARE_FUNCTION(execIsOneHandMode); \
-	DECLARE_FUNCTION(execIsUnarmedMode);
+	DECLARE_FUNCTION(execIsUnarmedMode); \
+	DECLARE_FUNCTION(execGetCurrent);
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsTwoHandMode); \
 	DECLARE_FUNCTION(execIsOneHandMode); \
-	DECLARE_FUNCTION(execIsUnarmedMode);
+	DECLARE_FUNCTION(execIsUnarmedMode); \
+	DECLARE_FUNCTION(execGetCurrent);
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_INCLASS_NO_PURE_DECLS \
@@ -87,7 +90,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionComponent); \
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__OnActionTypeChanged() { return STRUCT_OFFSET(UCActionComponent, OnActionTypeChanged); }
+	FORCEINLINE static uint32 __PPO__Datas() { return STRUCT_OFFSET(UCActionComponent, Datas); }
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_15_PROLOG
@@ -124,7 +127,8 @@ template<> ACTIONGAME_API UClass* StaticClass<class UCActionComponent>();
 #define FOREACH_ENUM_EACTIONTYPE(op) \
 	op(EActionType::Unarmed) \
 	op(EActionType::OneHand) \
-	op(EActionType::TwoHand) 
+	op(EActionType::TwoHand) \
+	op(EActionType::Max) 
 
 enum class EActionType : uint8;
 template<> ACTIONGAME_API UEnum* StaticEnum<EActionType>();

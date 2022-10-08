@@ -1,35 +1,31 @@
-﻿  Creating makefile for ActionGameEditor (no existing makefile)
-  Parsing headers for ActionGameEditor
+﻿  Parsing headers for ActionGameEditor
     Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\ActionGame.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\ActionGameEditor\Development\ActionGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ActionGameEditor in 9.3196423 seconds
+  Reflection code generated for ActionGameEditor in 7.8296655 seconds
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Binaries\Win64\UE4Editor-ActionGame-0021.dll
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0001.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0005.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0006.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0007.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0008.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0009.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0010.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0011.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0013.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0014.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0016.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0019.lib
+  Deleted hot-reload file: C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0021.lib
   Building ActionGameEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 21 actions with 8 processes...
-    [1/21] CStateComponent.gen.cpp
-    [2/21] CStateComponent.cpp
-    [3/21] COptionComponent.cpp
-    [4/21] CAnimInstance.cpp
-    [5/21] CActionData.cpp
-    [6/21] CEquipment.cpp
-    [7/21] CMontagesComponent.cpp
-    [8/21] ActionGame.init.gen.cpp
-    [9/21] CPlayer.cpp
-    [10/21] CActionComponent.gen.cpp
-    [11/21] CActionData.gen.cpp
-    [12/21] CEquipment.gen.cpp
-    [13/21] CGameMode.cpp
-    [14/21] CAnimNotify_EndRoll.cpp
-    [15/21] CAnimNotify_EndBackstep.cpp
-    [16/21] CPlayer.gen.cpp
-    [17/21] CMontagesComponent.gen.cpp
-    [18/21] CActionComponent.cpp
-    [19/21] UE4Editor-ActionGame-0050.lib
-       Creating library C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0050.lib and object C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0050.exp
-    [20/21] UE4Editor-ActionGame-0050.dll
-       Creating library C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0050.suppressed.lib and object C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0050.suppressed.exp
-CEquipment.gen.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ACEquipment::Equip_Implementation(void)" (?Equip_Implementation@ACEquipment@@QEAAXXZ) referenced in function "public: static void __cdecl ACEquipment::execEquip(class UObject *,struct FFrame &,void * const)" (?execEquip@ACEquipment@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
-CEquipment.gen.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ACEquipment::Begin_Equip_Implementation(void)" (?Begin_Equip_Implementation@ACEquipment@@QEAAXXZ) referenced in function "public: static void __cdecl ACEquipment::execBegin_Equip(class UObject *,struct FFrame &,void * const)" (?execBegin_Equip@ACEquipment@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
-CEquipment.gen.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ACEquipment::End_Equip_Implementation(void)" (?End_Equip_Implementation@ACEquipment@@QEAAXXZ) referenced in function "public: static void __cdecl ACEquipment::execEnd_Equip(class UObject *,struct FFrame &,void * const)" (?execEnd_Equip@ACEquipment@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
-CEquipment.gen.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ACEquipment::Unequip_Implementation(void)" (?Unequip_Implementation@ACEquipment@@QEAAXXZ) referenced in function "public: static void __cdecl ACEquipment::execUnequip(class UObject *,struct FFrame &,void * const)" (?execUnequip@ACEquipment@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z)
-C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Binaries\Win64\UE4Editor-ActionGame-0050.dll : fatal error LNK1120: 4 unresolved externals
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "D:\Game\UE_4.25\Engine\Build\BatchFiles\Build.bat ActionGameEditor Win64 Development -Project="C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\ActionGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Building 7 actions with 8 processes...
+    [1/7] CEnemy.gen.cpp
+    [2/7] CEnemy_Dummy.cpp
+    [3/7] CEnemy_Dummy.gen.cpp
+    [4/7] CEnemy.cpp
+    [5/7] UE4Editor-ActionGame.lib
+       Creating library C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame.lib and object C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame.exp
+    [6/7] UE4Editor-ActionGame.dll
+       Creating library C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame.suppressed.lib and object C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame.suppressed.exp
+    [7/7] ActionGameEditor.target
+  Total time in Parallel executor: 3.92 seconds
+  Total execution time: 12.37 seconds

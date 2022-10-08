@@ -11,24 +11,32 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
-	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentBeginOverlap__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ActionGame()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentBeginOverlap__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ActionGame",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x0B1E69D1,
-				0xCF1F7728,
+				0xD03110F5,
+				0x1EF1EAF6,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

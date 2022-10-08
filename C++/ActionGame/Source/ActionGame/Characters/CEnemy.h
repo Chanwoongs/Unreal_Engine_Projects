@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/CStateComponent.h"
 #include "Characters/ICharacter.h"
 #include "CEnemy.generated.h"
 
@@ -9,6 +10,29 @@ UCLASS()
 class ACTIONGAME_API ACEnemy : public ACharacter, public IICharacter
 {
 	GENERATED_BODY()
+
+// Scene Components
+private:
+	UPROPERTY(VisibleDefaultsOnly)
+		class UWidgetComponent* NameWidget;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UWidgetComponent* HealthWidget;
+
+// Actor Components
+private:
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCActionComponent* Action;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCMontagesComponent* Montages;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCStatusComponent* Status;
+
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCStateComponent* State;
+
 
 public:
 	ACEnemy();

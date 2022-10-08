@@ -59,6 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCStatusComponent); \
 
 
 #define ActionGame_Source_ActionGame_Components_CStatusComponent_h_11_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(UCStatusComponent, MaxHealth); } \
 	FORCEINLINE static uint32 __PPO__WalkSpeed() { return STRUCT_OFFSET(UCStatusComponent, WalkSpeed); } \
 	FORCEINLINE static uint32 __PPO__RunSpeed() { return STRUCT_OFFSET(UCStatusComponent, RunSpeed); } \
 	FORCEINLINE static uint32 __PPO__SprintSpeed() { return STRUCT_OFFSET(UCStatusComponent, SprintSpeed); }

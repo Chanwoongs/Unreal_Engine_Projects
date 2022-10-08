@@ -1,5 +1,7 @@
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\Definitions.ActionGame.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Characters\CAnimInstance.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Components/CActionComponent.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CActionComponent.generated.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CAnimInstance.generated.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Global.h
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

@@ -4,6 +4,8 @@ D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Characters/ICharacter.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\ICharacter.generated.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Components/CStateComponent.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CStateComponent.generated.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CPlayer.generated.h
@@ -46,6 +48,10 @@ D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPred
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInstanceConstant.h
+D:\Game\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInstanceConstant.generated.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Components/CActionComponent.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CActionComponent.generated.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame\Components/CMontagesComponent.h
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
 D:\Game\UE_4.25\Engine\Source\Runtime\Engine\Public\DataTableUtils.h

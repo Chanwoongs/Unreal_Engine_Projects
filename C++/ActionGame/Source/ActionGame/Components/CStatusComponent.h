@@ -11,6 +11,9 @@ class ACTIONGAME_API UCStatusComponent : public UActorComponent
 	GENERATED_BODY()
 
 private:
+	UPROPERTY(EditDefaultsOnly, Category = "Health")
+		float MaxHealth = 100.0f;
+
 	UPROPERTY(EditDefaultsOnly, Category = "Speed")
 		float WalkSpeed = 200.0f;
 
@@ -21,9 +24,13 @@ private:
 		float SprintSpeed = 600.0f;
 
 public:
+	FORCEINLINE float GetMaxHealth() { return MaxHealth; }
+	FORCEINLINE float GetHealth() { return Health; }
+
 	FORCEINLINE float GetWalkSpeed() { return WalkSpeed; }
 	FORCEINLINE float GetRunSpeed() { return RunSpeed; }
 	FORCEINLINE float GetSprintSpeed() { return SprintSpeed; }
+
 	FORCEINLINE bool CanMove() { return bCanMove; }
 
 public:	
@@ -36,6 +43,8 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
+	float Health;
+
 	bool bCanMove = true;
 
 		

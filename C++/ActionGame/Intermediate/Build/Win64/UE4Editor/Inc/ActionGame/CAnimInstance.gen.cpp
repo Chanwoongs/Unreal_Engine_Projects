@@ -18,9 +18,66 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCAnimInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
+	ACTIONGAME_API UEnum* Z_Construct_UEnum_ActionGame_EActionType();
 // End Cross Module References
+	DEFINE_FUNCTION(UCAnimInstance::execOnActionTypeChanged)
+	{
+		P_GET_ENUM(EActionType,Z_Param_InPreviousType);
+		P_GET_ENUM(EActionType,Z_Param_InNewType);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnActionTypeChanged(EActionType(Z_Param_InPreviousType),EActionType(Z_Param_InNewType));
+		P_NATIVE_END;
+	}
 	void UCAnimInstance::StaticRegisterNativesUCAnimInstance()
 	{
+		UClass* Class = UCAnimInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnActionTypeChanged", &UCAnimInstance::execOnActionTypeChanged },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics
+	{
+		struct CAnimInstance_eventOnActionTypeChanged_Parms
+		{
+			EActionType InPreviousType;
+			EActionType InNewType;
+		};
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InNewType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InNewType_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InPreviousType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InPreviousType_Underlying;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InNewType = { "InNewType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CAnimInstance_eventOnActionTypeChanged_Parms, InNewType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InNewType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InPreviousType = { "InPreviousType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CAnimInstance_eventOnActionTypeChanged_Parms, InPreviousType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InPreviousType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InNewType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InNewType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InPreviousType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::NewProp_InPreviousType_Underlying,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Characters/CAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCAnimInstance, nullptr, "OnActionTypeChanged", nullptr, nullptr, sizeof(CAnimInstance_eventOnActionTypeChanged_Parms), Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UCAnimInstance_NoRegister()
 	{
@@ -29,9 +86,15 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 	struct Z_Construct_UClass_UCAnimInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActionType_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_ActionType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ActionType_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Direction_MetaData[];
 #endif
@@ -48,6 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 		(UObject* (*)())Z_Construct_UClass_UAnimInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UCAnimInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UCAnimInstance_OnActionTypeChanged, "OnActionTypeChanged" }, // 2791879706
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCAnimInstance_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "AnimInstance" },
@@ -55,6 +121,14 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 		{ "ModuleRelativePath", "Characters/CAnimInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType_MetaData[] = {
+		{ "Category", "CAnimInstance" },
+		{ "ModuleRelativePath", "Characters/CAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType = { "ActionType", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCAnimInstance, ActionType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Direction_MetaData[] = {
 		{ "Category", "CAnimInstance" },
@@ -70,6 +144,8 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCAnimInstance, Speed), METADATA_PARAMS(Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Speed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCAnimInstance_Statics::NewProp_ActionType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Direction,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCAnimInstance_Statics::NewProp_Speed,
 	};
@@ -81,11 +157,11 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UCAnimInstance_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UCAnimInstance_Statics::PropPointers),
 		0,
 		0x009000A8u,
@@ -100,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimInstance, 3786369770);
+	IMPLEMENT_CLASS(UCAnimInstance, 1933054236);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimInstance>()
 	{
 		return UCAnimInstance::StaticClass();
