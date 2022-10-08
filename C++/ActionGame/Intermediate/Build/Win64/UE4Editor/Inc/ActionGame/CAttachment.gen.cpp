@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 // Cross Module References
-	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentBeginOverlap__DelegateSignature();
@@ -27,6 +28,28 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Actions/CAttachment.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ActionGame, nullptr, "AttachmentCollision__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature_Statics
 	{
 		struct _Script_ActionGame_eventAttachmentEndOverlap_Parms
@@ -388,6 +411,14 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffAttachmentCollision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OffAttachmentCollision;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnAttachmentCollision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAttachmentCollision;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnAttachmentEndOverlap_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAttachmentEndOverlap;
@@ -433,6 +464,18 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::NewProp_OffAttachmentCollision_MetaData[] = {
+		{ "ModuleRelativePath", "Actions/CAttachment.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACAttachment_Statics::NewProp_OffAttachmentCollision = { "OffAttachmentCollision", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAttachment, OffAttachmentCollision), Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACAttachment_Statics::NewProp_OffAttachmentCollision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAttachment_Statics::NewProp_OffAttachmentCollision_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentCollision_MetaData[] = {
+		{ "ModuleRelativePath", "Actions/CAttachment.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentCollision = { "OnAttachmentCollision", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAttachment, OnAttachmentCollision), Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentCollision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentCollision_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentEndOverlap_MetaData[] = {
 		{ "ModuleRelativePath", "Actions/CAttachment.h" },
 	};
@@ -476,6 +519,8 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACAttachment_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAttachment, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACAttachment_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAttachment_Statics::NewProp_Scene_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACAttachment_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_OffAttachmentCollision,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentCollision,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentEndOverlap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_OnAttachmentBeginOverlap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_Status,
@@ -510,7 +555,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACAttachment, 3119958224);
+	IMPLEMENT_CLASS(ACAttachment, 2081448014);
 	template<> ACTIONGAME_API UClass* StaticClass<ACAttachment>()
 	{
 		return ACAttachment::StaticClass();

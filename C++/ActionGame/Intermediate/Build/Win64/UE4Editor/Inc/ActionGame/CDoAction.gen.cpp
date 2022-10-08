@@ -22,6 +22,20 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ACDoAction::execOffAttachmentCollision)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OffAttachmentCollision();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ACDoAction::execOnAttachmentCollision)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnAttachmentCollision();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ACDoAction::execOnAttachmentEndOverlap)
 	{
 		P_GET_OBJECT(ACharacter,Z_Param_InAttacker);
@@ -46,10 +60,34 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction() {}
 	{
 		UClass* Class = ACDoAction::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "OffAttachmentCollision", &ACDoAction::execOffAttachmentCollision },
 			{ "OnAttachmentBeginOverlap", &ACDoAction::execOnAttachmentBeginOverlap },
+			{ "OnAttachmentCollision", &ACDoAction::execOnAttachmentCollision },
 			{ "OnAttachmentEndOverlap", &ACDoAction::execOnAttachmentEndOverlap },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Actions/CDoAction.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACDoAction, nullptr, "OffAttachmentCollision", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACDoAction_OffAttachmentCollision()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACDoAction_OffAttachmentCollision_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ACDoAction_OnAttachmentBeginOverlap_Statics
 	{
@@ -88,6 +126,28 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACDoAction_OnAttachmentBeginOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Actions/CDoAction.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACDoAction, nullptr, "OnAttachmentCollision", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACDoAction_OnAttachmentCollision()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACDoAction_OnAttachmentCollision_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -163,7 +223,9 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACDoAction_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACDoAction_OffAttachmentCollision, "OffAttachmentCollision" }, // 1891412431
 		{ &Z_Construct_UFunction_ACDoAction_OnAttachmentBeginOverlap, "OnAttachmentBeginOverlap" }, // 902932146
+		{ &Z_Construct_UFunction_ACDoAction_OnAttachmentCollision, "OnAttachmentCollision" }, // 2301259516
 		{ &Z_Construct_UFunction_ACDoAction_OnAttachmentEndOverlap, "OnAttachmentEndOverlap" }, // 646307952
 	};
 #if WITH_METADATA
@@ -227,7 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACDoAction, 4147956108);
+	IMPLEMENT_CLASS(ACDoAction, 3427556779);
 	template<> ACTIONGAME_API UClass* StaticClass<ACDoAction>()
 	{
 		return ACDoAction::StaticClass();

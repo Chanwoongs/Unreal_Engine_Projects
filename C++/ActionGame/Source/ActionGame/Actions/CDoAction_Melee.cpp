@@ -65,6 +65,16 @@ void ACDoAction_Melee::OnAttachmentBeginOverlap(class ACharacter* InAttacker, cl
 	Super::OnAttachmentBeginOverlap(InAttacker, InAttackCauser, InOtherCharacter);
 	CheckNull(InOtherCharacter);
 
+	// 피격 중복 방지 처리
+	for (const ACharacter* other : HittedCharacters)
+	{
+		if (InOtherCharacter == other)
+		{
+			return;
+		}
+	}
+	HittedCharacters.Add(InOtherCharacter);
+
 	// 타격
 	FDamageEvent e;
 	InOtherCharacter->TakeDamage(Datas[Index].Power, e, OwnerCharacter->GetController(), this);
@@ -74,4 +84,14 @@ void ACDoAction_Melee::OnAttachmentEndOverlap(class ACharacter* InAttacker, clas
 {
 	Super::OnAttachmentEndOverlap(InAttacker, InAttackCauser, InOtherCharacter);
 
+}
+
+void ACDoAction_Melee::OnAttachmentCollision()
+{
+
+}
+
+void ACDoAction_Melee::OffAttachmentCollision()
+{
+	HittedCharacters.Empty();
 }

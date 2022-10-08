@@ -64,6 +64,11 @@ void ACAttachment::OnCollision()
 	{
 		component->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	}
+
+	if (OnAttachmentCollision.IsBound())
+	{
+		OnAttachmentCollision.Broadcast();
+	}
 }
 
 void ACAttachment::OffCollision()
@@ -71,5 +76,10 @@ void ACAttachment::OffCollision()
 	for (UShapeComponent* component : ShapeComponents)
 	{
 		component->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	}
+
+	if (OffAttachmentCollision.IsBound())
+	{
+		OffAttachmentCollision.Broadcast();
 	}
 }

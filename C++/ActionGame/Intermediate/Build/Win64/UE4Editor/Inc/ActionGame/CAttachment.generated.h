@@ -17,6 +17,13 @@ struct FHitResult;
 #endif
 #define ACTIONGAME_CAttachment_generated_h
 
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_10_DELEGATE \
+static inline void FAttachmentCollision_DelegateWrapper(const FMulticastScriptDelegate& AttachmentCollision) \
+{ \
+	AttachmentCollision.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define ActionGame_Source_ActionGame_Actions_CAttachment_h_8_DELEGATE \
 struct _Script_ActionGame_eventAttachmentEndOverlap_Parms \
 { \
@@ -51,24 +58,24 @@ static inline void FAttachmentBeginOverlap_DelegateWrapper(const FMulticastScrip
 }
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_RPC_WRAPPERS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_SPARSE_DATA
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
 	DECLARE_FUNCTION(execAttachTo);
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
 	DECLARE_FUNCTION(execAttachTo);
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_EVENT_PARMS
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_CALLBACK_WRAPPERS
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_EVENT_PARMS
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_CALLBACK_WRAPPERS
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACAttachment(); \
 	friend struct Z_Construct_UClass_ACAttachment_Statics; \
@@ -77,7 +84,7 @@ public: \
 	DECLARE_SERIALIZER(ACAttachment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_INCLASS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesACAttachment(); \
 	friend struct Z_Construct_UClass_ACAttachment_Statics; \
@@ -86,7 +93,7 @@ public: \
 	DECLARE_SERIALIZER(ACAttachment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACAttachment(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACAttachment) \
@@ -99,7 +106,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_ENHANCED_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACAttachment(ACAttachment&&); \
@@ -110,39 +117,39 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACAttachment)
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_PRIVATE_PROPERTY_OFFSET \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Scene() { return STRUCT_OFFSET(ACAttachment, Scene); } \
 	FORCEINLINE static uint32 __PPO__OwnerCharacter() { return STRUCT_OFFSET(ACAttachment, OwnerCharacter); } \
 	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(ACAttachment, State); } \
 	FORCEINLINE static uint32 __PPO__Status() { return STRUCT_OFFSET(ACAttachment, Status); }
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_10_PROLOG \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_EVENT_PARMS
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_12_PROLOG \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_EVENT_PARMS
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_CALLBACK_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_INCLASS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_CALLBACK_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_INCLASS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_Actions_CAttachment_h_13_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_CALLBACK_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CAttachment_h_13_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_CALLBACK_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CAttachment_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
