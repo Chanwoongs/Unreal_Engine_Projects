@@ -95,6 +95,12 @@ void UCActionComponent::SetTwoHandMode()
 	SetMode(EActionType::TwoHand);
 }
 
+void UCActionComponent::SetWarpMode()
+{
+	SetMode(EActionType::Warp);
+}
+
+
 void UCActionComponent::DoAction()
 {
 	CheckTrue(IsUnarmedMode());

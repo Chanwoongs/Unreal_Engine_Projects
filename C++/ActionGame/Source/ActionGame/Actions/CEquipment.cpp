@@ -59,11 +59,17 @@ void ACEquipment::Begin_Equip_Implementation()
 
 void ACEquipment::End_Equip_Implementation()
 {
+	// 장비가 완료 되었다.
+	bEquipped = true;
+
 	State->SetIdleMode();
 }
 
 void ACEquipment::Unequip_Implementation()
 {
+	// 장비가 해제 되었다.
+	bEquipped = false;
+
 	if (OnUnequipmentDelegate.IsBound())
 	{
 		OnUnequipmentDelegate.Broadcast();

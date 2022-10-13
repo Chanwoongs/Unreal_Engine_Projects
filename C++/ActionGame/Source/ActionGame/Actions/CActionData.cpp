@@ -54,6 +54,11 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 
 		UGameplayStatics::FinishSpawningActor(DoAction, transform); // 등장 확정
 
+		if (!!Equipment)
+		{
+			DoAction->SetEquipped(Equipment->GetEquipped());
+		}
+
 		if (!!Attachment)
 		{
 			Attachment->OnAttachmentBeginOverlap.AddDynamic(DoAction, &ACDoAction::OnAttachmentBeginOverlap);

@@ -101,6 +101,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("TwoHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnTwoHand);
 	// Fist
 	PlayerInputComponent->BindAction("Fist", EInputEvent::IE_Pressed, this, &ACPlayer::OnFist);
+	// Warp
+	PlayerInputComponent->BindAction("Warp", EInputEvent::IE_Pressed, this, &ACPlayer::OnWarp);
 
 	// Do Action
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
@@ -234,6 +236,13 @@ void ACPlayer::OnTwoHand()
 	CheckFalse(State->IsIdleMode());
 
 	Action->SetTwoHandMode();
+}
+
+void ACPlayer::OnWarp()
+{
+	CheckFalse(State->IsIdleMode());
+
+	Action->SetWarpMode();
 }
 
 void ACPlayer::OnDoAction()

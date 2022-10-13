@@ -12,6 +12,7 @@ class ACTIONGAME_API ACDoAction : public AActor
 
 public:
 	FORCEINLINE void SetDatas(TArray<FDoActionData> InDatas) { Datas = InDatas; }
+	FORCEINLINE void SetEquipped(const bool* InEquipped) { bEquipped = InEquipped; }
 	
 public:	
 	ACDoAction();
@@ -52,6 +53,7 @@ protected:
 		class UCStatusComponent* Status;
 
 protected:
+	const bool* bEquipped;
 	TArray<FDoActionData> Datas;
 
 };
