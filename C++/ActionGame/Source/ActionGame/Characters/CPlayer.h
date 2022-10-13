@@ -73,6 +73,7 @@ public:
 
 private:
 	void OnOneHand();
+	void OnTwoHand();
 
 	void OnDoAction();
 
