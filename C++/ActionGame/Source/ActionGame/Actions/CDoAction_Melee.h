@@ -26,6 +26,10 @@ public:
 	virtual void OffAttachmentCollision() override;
 
 private:
+	UFUNCTION()
+		void RestoreDilation();
+
+private:
 	bool bExist; // 다음 콤보가 존재하느냐
 	bool bEnable; // 다음 콤보가 허용이 됐느냐 
 	bool bLast; // 콤보의 마지막이냐

@@ -75,6 +75,32 @@ void ACDoAction_Melee::OnAttachmentBeginOverlap(class ACharacter* InAttacker, cl
 	}
 	HittedCharacters.Add(InOtherCharacter);
 
+	// 효과 플레이
+	UParticleSystem* hitEffect = Datas[Index].Effect;
+	if (!!hitEffect)
+	{
+		FTransform transform = Datas[Index].EffectTransform;
+		transform.AddToTranslation(InOtherCharacter->GetActorLocation());
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), hitEffect, transform);
+	}
+
+	// HitStop 경직
+	// SetGlobalTimeDilation : 지정한 배속으로 게임의 속도를 조정
+	// UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 0.1f);
+	float hitStop = Datas[Index].HitStop;
+	if (FMath::IsNearlyZero(hitStop) == false) // 속도 0이하로 떨어지는 경우가 거의 없으므로 0과 가까운지 판단
+	{
+		UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1e-3f);
+		UKismetSystemLibrary::K2_SetTimer(this, "RestoreDilation", hitStop * 1e-3f, false); // 게임시간이 느려지면 Delay도 느려지기 때문에 hitStop을 곱해줌
+	}
+
+	// Camera Shake Play
+	TSubclassOf<UCameraShake> shake = Datas[Index].ShakeClass;
+	if (shake != NULL)
+	{
+		UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->PlayCameraShake(shake);
+	}
+
 	// 타격
 	FDamageEvent e;
 	InOtherCharacter->TakeDamage(Datas[Index].Power, e, OwnerCharacter->GetController(), this);
@@ -94,4 +120,9 @@ void ACDoAction_Melee::OnAttachmentCollision()
 void ACDoAction_Melee::OffAttachmentCollision()
 {
 	HittedCharacters.Empty();
+}
+
+void ACDoAction_Melee::RestoreDilation()
+{
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1.0f);
 }
