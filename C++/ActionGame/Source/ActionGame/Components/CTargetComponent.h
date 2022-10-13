@@ -16,6 +16,9 @@ private:
 		float TraceRadius = 1000.0f;
 
 	UPROPERTY(EditAnywhere)
+		float InterpolateSpeed = 5.0f; // º¸°£
+
+	UPROPERTY(EditAnywhere)
 		TEnumAsByte<EDrawDebugTrace::Type> Debug;
 
 	UPROPERTY(EditAnywhere)

@@ -23,6 +23,17 @@ void UCTargetComponent::BeginPlay()
 void UCTargetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	CheckNull(Target);
+
+	FVector start = OwnerCharacter->GetActorLocation();
+	FVector target = Target->GetActorLocation();
+
+	FRotator rotator = UKismetMathLibrary::FindLookAtRotation(start, target);
+	FRotator current = OwnerCharacter->GetControlRotation();
+	// 부드럽게 이동하는 기능
+	rotator = UKismetMathLibrary::RInterpTo(current, rotator, DeltaTime, InterpolateSpeed);
+
+	OwnerCharacter->GetController()->SetControlRotation(rotator);
 }
 
 void UCTargetComponent::ToggleTarget()
