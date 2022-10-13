@@ -15,13 +15,15 @@ class ACTIONGAME_API ACAttachment : public AActor
 	GENERATED_BODY()
 
 protected:
+	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly)
+		class USceneComponent* Scene; // root¿ë Component
+
+protected:
 	UFUNCTION(BlueprintCallable)
 		void AttachTo(FName InSocketName);
 
-private:
-	UPROPERTY(VisibleDefaultsOnly)
-		class USceneComponent* Scene; // root¿ë Component
-
+	UFUNCTION(BlueprintCallable)
+		void AttachToCollision(class UShapeComponent* InComponent, FName InSocketName);
 	
 public:	
 	ACAttachment();

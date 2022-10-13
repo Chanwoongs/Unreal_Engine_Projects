@@ -99,7 +99,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("OneHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnOneHand);
 	// TwoHand ¹«±â
 	PlayerInputComponent->BindAction("TwoHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnTwoHand);
-
+	// Fist
+	PlayerInputComponent->BindAction("Fist", EInputEvent::IE_Pressed, this, &ACPlayer::OnFist);
 
 	// Do Action
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
@@ -212,6 +213,13 @@ void ACPlayer::End_Backstep()
 	}
 
 	State->SetIdleMode();
+}
+
+void ACPlayer::OnFist()
+{
+	CheckFalse(State->IsIdleMode());
+
+	Action->SetFistMode();
 }
 
 void ACPlayer::OnOneHand()
