@@ -79,6 +79,9 @@ public:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		TArray<FDoActionData> DoActionDatas;
 
+private:
+	FString GetLabelName(class ACharacter* InOwnerCharacter, FString InName);
+
 public:
 	void BeginPlay(class ACharacter* InOwnerCharacter);
 

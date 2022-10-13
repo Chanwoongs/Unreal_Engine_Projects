@@ -14,7 +14,7 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 	if (!!AttachmentClass)
 	{
 		Attachment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACAttachment>(AttachmentClass, transform, InOwnerCharacter);
-		Attachment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Attachment"); // 출력되는 이름 변경
+		Attachment->SetActorLabel(GetLabelName(InOwnerCharacter, "Attachment")); // 출력되는 이름 변경
 
 		UGameplayStatics::FinishSpawningActor(Attachment, transform); // 등장 확정
 	}
@@ -30,7 +30,7 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 	{
 		Equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
 		Equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-		Equipment->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_Equipment");
+		Equipment->SetActorLabel(GetLabelName(InOwnerCharacter, "Equipment"));
 		Equipment->SetData(EquipmentData);
 		Equipment->SetColor(EquipmentColor);
 
@@ -49,7 +49,7 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 	{
 		DoAction = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACDoAction>(DoActionClass, transform, InOwnerCharacter);
 		DoAction->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-		DoAction->SetActorLabel(InOwnerCharacter->GetActorLabel() + "_DoAction");
+		DoAction->SetActorLabel(GetLabelName(InOwnerCharacter, "DoAction"));
 		DoAction->SetDatas(DoActionDatas);
 
 		UGameplayStatics::FinishSpawningActor(DoAction, transform); // 등장 확정
@@ -68,5 +68,13 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 			Attachment->OffAttachmentCollision.AddDynamic(DoAction, &ACDoAction::OffAttachmentCollision);
 		}
 	}
-	
+}
+
+// 어느 무기의 equipment인지 보기위해
+FString UCActionData::GetLabelName(class ACharacter* InOwnerCharacter, FString InName)
+{
+	FString str;
+	str.Append(InOwnerCharacter->GetActorLabel()).Append("_").Append(InName).Append("_").Append(GetName().Replace(L"Da_", L""));
+
+	return str;
 }
