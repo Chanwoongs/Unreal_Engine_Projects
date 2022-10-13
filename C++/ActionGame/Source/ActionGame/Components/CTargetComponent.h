@@ -18,6 +18,9 @@ private:
 	UPROPERTY(EditAnywhere)
 		TEnumAsByte<EDrawDebugTrace::Type> Debug;
 
+	UPROPERTY(EditAnywhere)
+		class UParticleSystem* Particle;
+
 public:	
 	UCTargetComponent();
 
@@ -34,12 +37,15 @@ private:
 	void SetTraceTargets();
 	void SetTarget();
 
+	void ChangeCursor(class ACharacter* InTarget);
+
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
 	class ACharacter* OwnerCharacter;
 	class ACharacter* Target;		
+	class UParticleSystemComponent* Attached;
 
 	TArray<class ACharacter*> TraceTargets;
 };

@@ -1,12 +1,14 @@
 #include "CTargetComponent.h"
 #include "Global.h"
 #include "GameFramework/Character.h"
+#include "Particles/ParticleSystem.h"
+#include "Particles/ParticleSystemComponent.h"
 
 UCTargetComponent::UCTargetComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 
-
+	CHelpers::GetAsset<UParticleSystem>(&Particle, "ParticleSystem'/Game/Effects/P_Enrage_Base.P_Enrage_Base'");
 }
 
 
@@ -43,6 +45,13 @@ void UCTargetComponent::StartTargeting()
 
 void UCTargetComponent::EndTargeting()
 {
+	Target = NULL;
+	TraceTargets.Empty();
+
+	if (!!Attached)
+	{
+		Attached->DestroyComponent();
+	}
 }
 
 // 반경 안에 있는 타겟을 검출
@@ -93,5 +102,26 @@ void UCTargetComponent::SetTarget()
 		target = character; // 가장 작은 angle을 가진 target만 남는다.
 	}
 
-	CLog::Log(target->GetActorLabel());
+	ChangeCursor(target);
+}
+
+void UCTargetComponent::ChangeCursor(ACharacter* InTarget)
+{
+	if (!!InTarget)
+	{
+		// UGameplayStatics의 Spawn으로 시작되는 함수들을 실행하는 액터나 어태치되는 액터에 자동으로 컴포넌트를 생성해서
+		// 플레이하고 플레이 종료가 일어나면 자동으로 삭제합니다.
+		// 하지만 무한루프일 경우 필요할 때 프로그래머가 제거할 수 있도록 자동으로 생성된 컴포넌트를 리턴합니다.
+		// 따라서 원하는 때에 삭제 해주어야 한다.
+		if (!!Attached)
+		{
+			Attached->DestroyComponent();
+		}
+		Attached = UGameplayStatics::SpawnEmitterAttached(Particle, InTarget->GetMesh(), "Spine_Target");
+		Target = InTarget;
+
+		return;
+	}
+
+	EndTargeting();
 }
