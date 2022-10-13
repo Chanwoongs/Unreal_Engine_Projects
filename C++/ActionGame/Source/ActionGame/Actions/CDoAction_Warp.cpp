@@ -3,6 +3,8 @@
 #include "CAttachment.h"
 #include "GameFramework/Character.h"
 #include "Components/DecalComponent.h"
+#include "Components/CStateComponent.h"
+#include "Components/CStatusComponent.h"
 
 void ACDoAction_Warp::BeginPlay()
 {
@@ -64,14 +66,40 @@ bool ACDoAction_Warp::GetCursorLocationAndRotation(FVector& OutLocation, FRotato
 
 void ACDoAction_Warp::DoAction()
 {
+	CheckFalse(*bEquipped);
+
+	FRotator rotator;
+	CheckFalse(GetCursorLocationAndRotation(Location, rotator));
+
+	CheckFalse(State->IsIdleMode());
+	State->SetActionMode();
+
+	Decal->SetWorldLocation(Location);
+	Decal->SetWorldRotation(rotator);
+
+	OwnerCharacter->PlayAnimMontage(Datas[0].AnimMontage, Datas[0].PlayRatio, Datas[0].StartSection);
+
+	Datas[0].bCanMove ? Status->SetMove() : Status->SetStop();
+
 }
 
 void ACDoAction_Warp::Begin_Action()
 {
+	FTransform transform = Datas[0].EffectTransform;
+	//transform.AddToTranslation(OwnerCharacter->GetActorLocation());
+
+	// UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Datas[0].Effect, transform);
+	// Location이 아닌 Attach를 이용해 Mesh에 붙혀서 플레이되도록 처리해주면 같이 이동하게 된다.
+	UGameplayStatics::SpawnEmitterAttached(Datas[0].Effect, OwnerCharacter->GetMesh(), "", transform.GetLocation(), FRotator(transform.GetRotation()), transform.GetScale3D());
 }
 
 void ACDoAction_Warp::End_Action()
 {
+	OwnerCharacter->SetActorLocation(Location);
+	Location = FVector::ZeroVector;
+
+	State->SetIdleMode();
+	Status->SetMove();
 }
 
 

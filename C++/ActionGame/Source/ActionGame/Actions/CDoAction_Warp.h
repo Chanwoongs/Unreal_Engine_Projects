@@ -25,4 +25,5 @@ private:
 
 private:
 	class UDecalComponent* Decal;
+	FVector Location;
 };
