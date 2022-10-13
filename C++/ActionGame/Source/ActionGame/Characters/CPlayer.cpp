@@ -14,6 +14,7 @@
 #include "Components/CMontagesComponent.h"
 #include "Components/COptionComponent.h"
 #include "Components/CStatusComponent.h"
+#include "Components/CTargetComponent.h"
 
 ACPlayer::ACPlayer()
 {
@@ -23,6 +24,7 @@ ACPlayer::ACPlayer()
 	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
 
 	CHelpers::CreateActorComponent<UCActionComponent>(this, &Action, "Action");
+	CHelpers::CreateActorComponent<UCTargetComponent>(this, &Target, "Target");
 	CHelpers::CreateActorComponent<UCMontagesComponent>(this, &Montages, "Montages");
 	CHelpers::CreateActorComponent<UCOptionComponent>(this, &Option, "Option");
 	CHelpers::CreateActorComponent<UCStatusComponent>(this, &Status, "Status");
@@ -106,6 +108,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	// Do Action
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
+	// Target
+	PlayerInputComponent->BindAction("Target", EInputEvent::IE_Pressed, this, &ACPlayer::OnTarget);
 
 }
 
@@ -248,6 +252,11 @@ void ACPlayer::OnWarp()
 void ACPlayer::OnDoAction()
 {
 	Action->DoAction();
+}
+
+void ACPlayer::OnTarget()
+{
+	Target->ToggleTarget();
 }
 
 void ACPlayer::ChangeColor(FLinearColor InColor)
