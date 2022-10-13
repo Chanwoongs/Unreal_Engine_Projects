@@ -125,3 +125,66 @@ void UCTargetComponent::ChangeCursor(ACharacter* InTarget)
 
 	EndTargeting();
 }
+
+void UCTargetComponent::ChangeTargetLeft()
+{
+	ChangeTarget(false);
+}
+
+void UCTargetComponent::ChangeTargetRight()
+{
+	ChangeTarget(true);
+}
+
+void UCTargetComponent::ChangeTarget(bool InRight)
+{
+	CheckNull(Target);
+
+	TMap<float, ACharacter*> map;
+	for (ACharacter* character : TraceTargets)
+	{
+		if (Target == character) // ÇöÀç Å¸°Ù
+			continue;
+
+		FVector targetLocation = character->GetActorLocation();
+		FVector ownerLocation = OwnerCharacter->GetActorLocation();
+		FVector ownerToTarget = targetLocation - ownerLocation;
+
+		FQuat quat = FQuat(OwnerCharacter->GetControlRotation());
+		FVector forward = quat.GetForwardVector();
+		FVector up = quat.GetUpVector();
+
+		FVector cross = forward ^ ownerToTarget; // ^ cross product
+		float dot = cross | up; // Z °ª¸¸ »©¿Â´Ù.
+		
+		map.Add(dot, character);
+	}
+
+	float minimum = FLT_MAX;
+	ACharacter* target = NULL;
+
+	TArray<float> keys;
+	map.GetKeys(keys);
+	for (float key : keys)
+	{
+		if (InRight == true) 
+		{
+			if (key < 0.0f) // ¿ÞÂÊ key °ªµé
+				continue;
+		}
+		else
+		{
+			if (key > 0.0f)
+				continue;
+		}
+
+		if (FMath::Abs(key) > minimum)
+			continue;
+
+		minimum = FMath::Abs(key);
+
+		target = *map.Find(key);
+	}
+
+	ChangeCursor(target);
+}

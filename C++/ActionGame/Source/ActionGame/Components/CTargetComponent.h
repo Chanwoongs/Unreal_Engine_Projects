@@ -29,6 +29,8 @@ protected:
 
 public:
 	void ToggleTarget();
+	void ChangeTargetLeft();
+	void ChangeTargetRight();
 
 private:
 	void StartTargeting();
@@ -37,6 +39,7 @@ private:
 	void SetTraceTargets();
 	void SetTarget();
 
+	void ChangeTarget(bool InRight);
 	void ChangeCursor(class ACharacter* InTarget);
 
 public:	
