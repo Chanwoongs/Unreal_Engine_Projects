@@ -60,6 +60,11 @@ private:
 
 private:
 	void Hitted();
+	void Dead();
+
+public:
+	virtual void BeginDead() override;
+	virtual void EndDead() override;
 
 private:
 	class UMaterialInstanceDynamic* BodyMaterial;

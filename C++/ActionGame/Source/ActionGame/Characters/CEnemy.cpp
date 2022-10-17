@@ -4,6 +4,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Animation/AnimInstance.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "Components/WidgetComponent.h"
 
 #include "Materials/MaterialInstanceDynamic.h"
@@ -116,6 +117,8 @@ void ACEnemy::OnStateTypeChanged(EStateType InPrevType, EStateType InNewType)
 		break;
 	case EStateType::Hitted: Hitted();
 		break;
+	case EStateType::Dead: Dead();
+		break;
 	case EStateType::Max:
 		break;
 	default:
@@ -142,6 +145,12 @@ void ACEnemy::Hitted()
 
 	// Montage 재생
 	Status->SetStop();
+	if (Status->GetHealth() <= 0.0f)
+	{
+		State->SetDeadMode();
+
+		return;
+	}
 	Montages->PlayHitted();
 
 	// 공격자를 보고 뒤로 밀리는 효과
@@ -157,6 +166,26 @@ void ACEnemy::Hitted()
 	ChangeColor(FLinearColor(1, 0, 0, 1));
 	// 타이머 호출
 	UKismetSystemLibrary::K2_SetTimer(this, "RestoreColor", 0.1f, false);
+}
+
+void ACEnemy::Dead()
+{
+	CheckFalse(State->IsDeadMode());
+
+	Montages->PlayDead();
+}
+
+void ACEnemy::BeginDead()
+{
+	// 충돌 전부 끄기 (캐릭터, 무기 등등)
+	Action->OffAllCollision();
+	
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+}
+
+void ACEnemy::EndDead()
+{
+
 }
 
 void ACEnemy::RestoreColor()
