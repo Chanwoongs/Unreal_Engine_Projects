@@ -1,6 +1,7 @@
 #include "CActionComponent.h"
 #include "Global.h"
 #include "Actions/CActionData.h"
+#include "Actions/CAttachment.h"
 #include "Actions/CEquipment.h"
 #include "Actions/CDoAction.h"
 #include "GameFramework/Character.h"
@@ -98,6 +99,20 @@ void UCActionComponent::SetTwoHandMode()
 void UCActionComponent::SetWarpMode()
 {
 	SetMode(EActionType::Warp);
+}
+
+void UCActionComponent::OffAllCollision()
+{
+	for (UCActionData* data : Datas)
+	{
+		if (!!data == false) // NULLÀÌ¶ó¸é 
+			continue;
+
+		if (!!data->GetAttachment() == false)
+			continue;
+
+		data->GetAttachment()->OffCollision();
+	}
 }
 
 
