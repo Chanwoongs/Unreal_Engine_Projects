@@ -1,27 +1,51 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "CThrow.h"
+#include "Global.h"
+#include "Components/SphereComponent.h"
+#include "Particles/ParticleSystemComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
-// Sets default values
 ACThrow::ACThrow()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	CHelpers::CreateComponent<USphereComponent>(this, &Sphere, "Sphere");
+	CHelpers::CreateComponent<UParticleSystemComponent>(this, &Particle, "Particle");
+	CHelpers::CreateActorComponent<UProjectileMovementComponent>(this, &Projectile, "Projectile");
+
+	InitialLifeSpan = 3.0f;
+
+	Projectile->InitialSpeed = 4000.0f;
+	Projectile->MaxSpeed = 8000.0f;
+	Projectile->ProjectileGravityScale = 0.0f;
 
 }
 
-// Called when the game starts or when spawned
 void ACThrow::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	TArray<USphereComponent*> components;
+	GetComponents<USphereComponent>(components);
+
+	for (USphereComponent* sphere : components)
+	{
+		sphere->OnComponentBeginOverlap.AddDynamic(this, &ACThrow::OnComponentBeginOverlap);
+	}
 }
 
-// Called every frame
-void ACThrow::Tick(float DeltaTime)
+void ACThrow::OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	Super::Tick(DeltaTime);
+	if (!!Explosion)
+	{
+		FTransform transform = ExplosionTransform;
+		transform.AddToTranslation(SweepResult.Location); // 충돌한 애 위치
+		transform.SetRotation(FQuat(SweepResult.ImpactNormal.Rotation())); // 충돌 받은 면의 수직 벡터로 회전을 처리
 
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Explosion, transform);
+	}
+
+	if (OnThrowBeginOverlap.IsBound())
+		OnThrowBeginOverlap.Broadcast(SweepResult);
+		
+	Destroy();
 }
+
 
