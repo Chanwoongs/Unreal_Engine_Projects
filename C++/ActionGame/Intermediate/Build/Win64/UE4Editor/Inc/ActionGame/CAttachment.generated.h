@@ -12,6 +12,7 @@ class ACharacter;
 class AActor;
 class UPrimitiveComponent;
 struct FHitResult;
+class UShapeComponent;
 #ifdef ACTIONGAME_CAttachment_generated_h
 #error "CAttachment.generated.h already included, missing '#pragma once' in CAttachment.h"
 #endif
@@ -63,6 +64,7 @@ static inline void FAttachmentBeginOverlap_DelegateWrapper(const FMulticastScrip
  \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
+	DECLARE_FUNCTION(execAttachToCollision); \
 	DECLARE_FUNCTION(execAttachTo);
 
 
@@ -70,6 +72,7 @@ static inline void FAttachmentBeginOverlap_DelegateWrapper(const FMulticastScrip
  \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
+	DECLARE_FUNCTION(execAttachToCollision); \
 	DECLARE_FUNCTION(execAttachTo);
 
 

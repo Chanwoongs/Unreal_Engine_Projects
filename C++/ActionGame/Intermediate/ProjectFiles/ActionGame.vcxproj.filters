@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ActionGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{836BB920-CECF-4595-AD54-B05E4BA1CC76}</UniqueIdentifier>
+      <UniqueIdentifier>{896BE3E9-5E41-4AFB-B6E2-42DD52098F09}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A45790FA-8232-42E8-805E-0CF1BD405B42}</UniqueIdentifier>
+      <UniqueIdentifier>{27EFB7F9-A2D7-4D25-8B93-30CBE07013D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ActionGame">
-      <UniqueIdentifier>{67C219B3-26EF-4A17-BB16-A23CAC16172D}</UniqueIdentifier>
+      <UniqueIdentifier>{C3B0D81D-D144-450C-9B31-3C7360127E88}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame\ActionGame.Build.cs">
       <Filter>Source\ActionGame</Filter>
@@ -48,7 +48,7 @@
       <Filter>Source\ActionGame</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Actions">
-      <UniqueIdentifier>{8CD32EBB-DF6A-4835-B42E-72DD2D60EA54}</UniqueIdentifier>
+      <UniqueIdentifier>{26B8ABF2-B4A2-4629-AE84-4A4498362A07}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Actions\CActionData.cpp">
       <Filter>Source\ActionGame\Actions</Filter>
@@ -74,6 +74,12 @@
     <ClInclude Include="..\..\Source\ActionGame\Actions\CDoAction_Melee.h">
       <Filter>Source\ActionGame\Actions</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Actions\CDoAction_Warp.cpp">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Actions\CDoAction_Warp.h">
+      <Filter>Source\ActionGame\Actions</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ActionGame\Actions\CEquipment.cpp">
       <Filter>Source\ActionGame\Actions</Filter>
     </ClCompile>
@@ -81,7 +87,7 @@
       <Filter>Source\ActionGame\Actions</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Characters">
-      <UniqueIdentifier>{E1CCA5AA-D6BB-4427-AE36-DDD018313C29}</UniqueIdentifier>
+      <UniqueIdentifier>{E04E8825-1081-434E-92FF-6FFB00496062}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Characters\CAnimInstance.cpp">
       <Filter>Source\ActionGame\Characters</Filter>
@@ -114,7 +120,7 @@
       <Filter>Source\ActionGame\Characters</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Components">
-      <UniqueIdentifier>{9DA4A206-9CE5-4F89-BB68-B792EDA7255A}</UniqueIdentifier>
+      <UniqueIdentifier>{26DC00E2-595A-4F54-91B1-F7448F2AE90D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Components\CActionComponent.cpp">
       <Filter>Source\ActionGame\Components</Filter>
@@ -146,13 +152,25 @@
     <ClInclude Include="..\..\Source\ActionGame\Components\CStatusComponent.h">
       <Filter>Source\ActionGame\Components</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Components\CTargetComponent.cpp">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Components\CTargetComponent.h">
+      <Filter>Source\ActionGame\Components</Filter>
+    </ClInclude>
     <Filter Include="Source\ActionGame\Notifies">
-      <UniqueIdentifier>{195B2198-C6D5-445E-8331-D9BE601E1204}</UniqueIdentifier>
+      <UniqueIdentifier>{B817FC13-F09A-44D9-B9CC-330A0B0D936F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Collision.cpp">
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Collision.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Dead.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Dead.h">
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_EnableCombo.cpp">
@@ -191,8 +209,14 @@
     <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_EndRoll.h">
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotify_Hitted.cpp">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionGame\Notifies\CAnimNotify_Hitted.h">
+      <Filter>Source\ActionGame\Notifies</Filter>
+    </ClInclude>
     <Filter Include="Source\ActionGame\Utilities">
-      <UniqueIdentifier>{32DE98AB-6256-471B-9644-7273660255C1}</UniqueIdentifier>
+      <UniqueIdentifier>{9413B717-E9DF-4783-89A0-5FC26FFC535E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ActionGame\Utilities\CHelpers.h">
       <Filter>Source\ActionGame\Utilities</Filter>
@@ -207,7 +231,7 @@
       <Filter>Source\ActionGame\Utilities</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Widgets">
-      <UniqueIdentifier>{3FF4B5D6-EFB5-4810-A8CC-D34AC56340F4}</UniqueIdentifier>
+      <UniqueIdentifier>{D651AE6C-5E28-46E9-8244-8587667115A1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Widgets\CUserWidget_Health.cpp">
       <Filter>Source\ActionGame\Widgets</Filter>

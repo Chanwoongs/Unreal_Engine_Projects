@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class EStateType : uint8;
 #ifdef ACTIONGAME_CEnemy_generated_h
 #error "CEnemy.generated.h already included, missing '#pragma once' in CEnemy.h"
 #endif
 #define ACTIONGAME_CEnemy_generated_h
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRestoreColor); \
+	DECLARE_FUNCTION(execOnStateTypeChanged);
+
+
+#define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRestoreColor); \
+	DECLARE_FUNCTION(execOnStateTypeChanged);
+
+
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACEnemy(); \
@@ -61,6 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy); \
 
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LaunchAmount() { return STRUCT_OFFSET(ACEnemy, LaunchAmount); } \
 	FORCEINLINE static uint32 __PPO__NameWidget() { return STRUCT_OFFSET(ACEnemy, NameWidget); } \
 	FORCEINLINE static uint32 __PPO__HealthWidget() { return STRUCT_OFFSET(ACEnemy, HealthWidget); } \
 	FORCEINLINE static uint32 __PPO__Action() { return STRUCT_OFFSET(ACEnemy, Action); } \

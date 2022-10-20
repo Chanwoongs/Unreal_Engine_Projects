@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentBeginOverlap__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature();
@@ -25,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentBeginOverlap__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentEndOverlap__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature,
@@ -35,8 +37,8 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xD03110F5,
-				0x1EF1EAF6,
+				0x6138BC2B,
+				0xA6F1956E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

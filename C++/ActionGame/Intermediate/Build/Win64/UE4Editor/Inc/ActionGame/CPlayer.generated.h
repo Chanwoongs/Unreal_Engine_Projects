@@ -73,6 +73,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACPlayer, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACPlayer, Camera); } \
 	FORCEINLINE static uint32 __PPO__Action() { return STRUCT_OFFSET(ACPlayer, Action); } \
+	FORCEINLINE static uint32 __PPO__Target() { return STRUCT_OFFSET(ACPlayer, Target); } \
 	FORCEINLINE static uint32 __PPO__Montages() { return STRUCT_OFFSET(ACPlayer, Montages); } \
 	FORCEINLINE static uint32 __PPO__Option() { return STRUCT_OFFSET(ACPlayer, Option); } \
 	FORCEINLINE static uint32 __PPO__Status() { return STRUCT_OFFSET(ACPlayer, Status); } \

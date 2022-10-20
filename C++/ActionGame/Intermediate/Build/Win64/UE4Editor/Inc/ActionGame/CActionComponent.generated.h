@@ -33,16 +33,20 @@ static inline void FActionTypeChanged_DelegateWrapper(const FMulticastScriptDele
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIsWarpMode); \
 	DECLARE_FUNCTION(execIsTwoHandMode); \
 	DECLARE_FUNCTION(execIsOneHandMode); \
+	DECLARE_FUNCTION(execIsFistMode); \
 	DECLARE_FUNCTION(execIsUnarmedMode); \
 	DECLARE_FUNCTION(execGetCurrent);
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execIsWarpMode); \
 	DECLARE_FUNCTION(execIsTwoHandMode); \
 	DECLARE_FUNCTION(execIsOneHandMode); \
+	DECLARE_FUNCTION(execIsFistMode); \
 	DECLARE_FUNCTION(execIsUnarmedMode); \
 	DECLARE_FUNCTION(execGetCurrent);
 
@@ -126,8 +130,10 @@ template<> ACTIONGAME_API UClass* StaticClass<class UCActionComponent>();
 
 #define FOREACH_ENUM_EACTIONTYPE(op) \
 	op(EActionType::Unarmed) \
+	op(EActionType::Fist) \
 	op(EActionType::OneHand) \
 	op(EActionType::TwoHand) \
+	op(EActionType::Warp) \
 	op(EActionType::Max) 
 
 enum class EActionType : uint8;

@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 		return EStateType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EStateType(EStateType_StaticEnum, TEXT("/Script/ActionGame"), TEXT("EStateType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_EStateType_Hash() { return 4219227020U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_EStateType_Hash() { return 3522789058U; }
 	UEnum* Z_Construct_UEnum_ActionGame_EStateType()
 	{
 #if WITH_HOT_RELOAD
@@ -95,6 +95,8 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 				{ "EStateType::Backstep", (int64)EStateType::Backstep },
 				{ "EStateType::Equip", (int64)EStateType::Equip },
 				{ "EStateType::Action", (int64)EStateType::Action },
+				{ "EStateType::Hitted", (int64)EStateType::Hitted },
+				{ "EStateType::Dead", (int64)EStateType::Dead },
 				{ "EStateType::Max", (int64)EStateType::Max },
 			};
 #if WITH_METADATA
@@ -103,7 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 				{ "Backstep.Name", "EStateType::Backstep" },
 				{ "BlueprintType", "true" },
 				{ "Comment", "// 8byte unsigned int ?\xda\xb7??? ????\n" },
+				{ "Dead.Name", "EStateType::Dead" },
 				{ "Equip.Name", "EStateType::Equip" },
+				{ "Hitted.Name", "EStateType::Hitted" },
 				{ "Idle.Name", "EStateType::Idle" },
 				{ "Max.Name", "EStateType::Max" },
 				{ "ModuleRelativePath", "Components/CStateComponent.h" },
@@ -126,6 +130,20 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
 		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(UCStateComponent::execIsDeadMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsDeadMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UCStateComponent::execIsHittedMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsHittedMode();
+		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCStateComponent::execIsActionMode)
 	{
@@ -168,7 +186,9 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "IsActionMode", &UCStateComponent::execIsActionMode },
 			{ "IsBackstepMode", &UCStateComponent::execIsBackstepMode },
+			{ "IsDeadMode", &UCStateComponent::execIsDeadMode },
 			{ "IsEquipMode", &UCStateComponent::execIsEquipMode },
+			{ "IsHittedMode", &UCStateComponent::execIsHittedMode },
 			{ "IsIdleMode", &UCStateComponent::execIsIdleMode },
 			{ "IsRollMode", &UCStateComponent::execIsRollMode },
 		};
@@ -248,6 +268,43 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics
+	{
+		struct CStateComponent_eventIsDeadMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CStateComponent_eventIsDeadMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CStateComponent_eventIsDeadMode_Parms), &Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CStateComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCStateComponent, nullptr, "IsDeadMode", nullptr, nullptr, sizeof(CStateComponent_eventIsDeadMode_Parms), Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCStateComponent_IsDeadMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCStateComponent_IsDeadMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UCStateComponent_IsEquipMode_Statics
 	{
 		struct CStateComponent_eventIsEquipMode_Parms
@@ -282,6 +339,43 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCStateComponent_IsEquipMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics
+	{
+		struct CStateComponent_eventIsHittedMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CStateComponent_eventIsHittedMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CStateComponent_eventIsHittedMode_Parms), &Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CStateComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCStateComponent, nullptr, "IsHittedMode", nullptr, nullptr, sizeof(CStateComponent_eventIsHittedMode_Parms), Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCStateComponent_IsHittedMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCStateComponent_IsHittedMode_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -385,7 +479,9 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCStateComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UCStateComponent_IsActionMode, "IsActionMode" }, // 59252800
 		{ &Z_Construct_UFunction_UCStateComponent_IsBackstepMode, "IsBackstepMode" }, // 1794936434
+		{ &Z_Construct_UFunction_UCStateComponent_IsDeadMode, "IsDeadMode" }, // 4217119200
 		{ &Z_Construct_UFunction_UCStateComponent_IsEquipMode, "IsEquipMode" }, // 3398613677
+		{ &Z_Construct_UFunction_UCStateComponent_IsHittedMode, "IsHittedMode" }, // 2720154781
 		{ &Z_Construct_UFunction_UCStateComponent_IsIdleMode, "IsIdleMode" }, // 194709872
 		{ &Z_Construct_UFunction_UCStateComponent_IsRollMode, "IsRollMode" }, // 3443837502
 	};
@@ -435,7 +531,7 @@ void EmptyLinkFunctionForGeneratedCodeCStateComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCStateComponent, 2187738367);
+	IMPLEMENT_CLASS(UCStateComponent, 827110058);
 	template<> ACTIONGAME_API UClass* StaticClass<UCStateComponent>()
 	{
 		return UCStateComponent::StaticClass();

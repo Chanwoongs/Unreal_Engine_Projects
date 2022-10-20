@@ -4,6 +4,8 @@
 #include "Particles/ParticleSystem.h"
 #include "Particles/ParticleSystemComponent.h"
 
+#include "Components/CStateComponent.h"
+
 UCTargetComponent::UCTargetComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
@@ -17,13 +19,20 @@ void UCTargetComponent::BeginPlay()
 	Super::BeginPlay();
 
 	OwnerCharacter = Cast<ACharacter>(GetOwner());
-	
 }
 
 void UCTargetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	CheckNull(Target);
+
+	// 타겟 해제 조건
+	UCStateComponent* state = CHelpers::GetComponent<UCStateComponent>(Target);
+	if (state->IsDeadMode() || Target->GetDistanceTo(OwnerCharacter) >= TraceRadius)
+	{
+		EndTargeting();
+		return;
+	}
 
 	FVector start = OwnerCharacter->GetActorLocation();
 	FVector target = Target->GetActorLocation();

@@ -185,7 +185,7 @@ void ACEnemy::BeginDead()
 
 void ACEnemy::EndDead()
 {
-
+	Destroy();
 }
 
 void ACEnemy::RestoreColor()

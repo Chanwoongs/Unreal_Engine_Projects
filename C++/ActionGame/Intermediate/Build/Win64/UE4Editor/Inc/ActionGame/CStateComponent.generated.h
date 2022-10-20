@@ -32,6 +32,8 @@ static inline void FStateTypeChanged_DelegateWrapper(const FMulticastScriptDeleg
 #define ActionGame_Source_ActionGame_Components_CStateComponent_h_19_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Components_CStateComponent_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIsDeadMode); \
+	DECLARE_FUNCTION(execIsHittedMode); \
 	DECLARE_FUNCTION(execIsActionMode); \
 	DECLARE_FUNCTION(execIsEquipMode); \
 	DECLARE_FUNCTION(execIsBackstepMode); \
@@ -41,6 +43,8 @@ static inline void FStateTypeChanged_DelegateWrapper(const FMulticastScriptDeleg
 
 #define ActionGame_Source_ActionGame_Components_CStateComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execIsDeadMode); \
+	DECLARE_FUNCTION(execIsHittedMode); \
 	DECLARE_FUNCTION(execIsActionMode); \
 	DECLARE_FUNCTION(execIsEquipMode); \
 	DECLARE_FUNCTION(execIsBackstepMode); \
@@ -128,6 +132,8 @@ template<> ACTIONGAME_API UClass* StaticClass<class UCStateComponent>();
 	op(EStateType::Backstep) \
 	op(EStateType::Equip) \
 	op(EStateType::Action) \
+	op(EStateType::Hitted) \
+	op(EStateType::Dead) \
 	op(EStateType::Max) 
 
 enum class EStateType : uint8;

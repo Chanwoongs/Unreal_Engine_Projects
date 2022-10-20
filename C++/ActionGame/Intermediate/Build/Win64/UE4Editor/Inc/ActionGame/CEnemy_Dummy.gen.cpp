@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_Dummy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy_Dummy, 1914747880);
+	IMPLEMENT_CLASS(ACEnemy_Dummy, 147895737);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy_Dummy>()
 	{
 		return ACEnemy_Dummy::StaticClass();

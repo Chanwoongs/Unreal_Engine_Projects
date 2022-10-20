@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ACTIONGAME_CDoAction_Melee_generated_h
 
 #define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRestoreDilation);
+
+
+#define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRestoreDilation);
+
+
 #define ActionGame_Source_ActionGame_Actions_CDoAction_Melee_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACDoAction_Melee(); \
