@@ -8,7 +8,7 @@
 UCAim::UCAim()
 {
 	// UCAim의 클래스의 객체가 다른 클래스의 BeginPlay에서 생성된다면 GetAssetDynamic 사용
-	CHelpers::GetAssetDynamic<UCurveFloat>(&Curve, "CurveFloat'/Game/CAim.CAim'");
+	CHelpers::GetAssetDynamic<UCurveFloat>(&Curve, "CurveFloat'/Game/Actions/CAim.CAim'");
 }
 
 void UCAim::BeginPlay(ACharacter* InCharacter)
