@@ -37,12 +37,12 @@ void ACDoAction_Throw::End_Action()
 
 void ACDoAction_Throw::OnAim()
 {
-	Aim->OnAim();
+	Aim->OnZoom();
 }
 
 void ACDoAction_Throw::OffAim()
 {
-	Aim->OffAim();
+	Aim->OffZoom();
 }
 
 void ACDoAction_Throw::Tick(float DeltaTime)

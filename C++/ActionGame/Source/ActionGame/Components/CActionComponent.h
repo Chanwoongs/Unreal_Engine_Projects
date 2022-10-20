@@ -67,6 +67,12 @@ public:
 public:
 	void DoAction();
 
+	void DoAim();
+	void UndoAim();
+
+private:
+	void SetAimMode(bool InAim);
+
 protected:
 	virtual void BeginPlay() override;
 

@@ -87,6 +87,9 @@ private:
 	void OnTargetLeft();
 	void OnTargetRight();
 
+	void OnAim();
+	void OffAim();
+
 public:
 	virtual void ChangeColor(FLinearColor InColor) override;
 

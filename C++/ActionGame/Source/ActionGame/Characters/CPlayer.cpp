@@ -118,6 +118,10 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("TargetLeft", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetLeft);
 	PlayerInputComponent->BindAction("TargetRight", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetRight);
 
+	// Aim
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer::OnAim);
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer::OffAim);
+
 }
 
 // 앞뒤 움직임
@@ -289,6 +293,17 @@ void ACPlayer::OnTargetRight()
 {
 	Target->ChangeTargetRight();
 }
+
+void ACPlayer::OnAim()
+{
+	Action->DoAim();
+}
+
+void ACPlayer::OffAim()
+{
+	Action->UndoAim();
+}
+
 
 void ACPlayer::ChangeColor(FLinearColor InColor)
 {
