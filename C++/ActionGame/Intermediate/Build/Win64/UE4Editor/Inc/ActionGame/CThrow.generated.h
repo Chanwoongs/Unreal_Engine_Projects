@@ -8,14 +8,38 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FHitResult;
+class UPrimitiveComponent;
+class AActor;
 #ifdef ACTIONGAME_CThrow_generated_h
 #error "CThrow.generated.h already included, missing '#pragma once' in CThrow.h"
 #endif
 #define ACTIONGAME_CThrow_generated_h
 
+#define ActionGame_Source_ActionGame_Actions_CThrow_h_7_DELEGATE \
+struct _Script_ActionGame_eventThrowBeginOverlap_Parms \
+{ \
+	FHitResult InHitResult; \
+}; \
+static inline void FThrowBeginOverlap_DelegateWrapper(const FMulticastScriptDelegate& ThrowBeginOverlap, FHitResult InHitResult) \
+{ \
+	_Script_ActionGame_eventThrowBeginOverlap_Parms Parms; \
+	Parms.InHitResult=InHitResult; \
+	ThrowBeginOverlap.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
 #define ActionGame_Source_ActionGame_Actions_CThrow_h_12_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnComponentBeginOverlap);
+
+
+#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnComponentBeginOverlap);
+
+
 #define ActionGame_Source_ActionGame_Actions_CThrow_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACThrow(); \
@@ -58,7 +82,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACThrow); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACThrow)
 
 
-#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_PRIVATE_PROPERTY_OFFSET
+#define ActionGame_Source_ActionGame_Actions_CThrow_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Explosion() { return STRUCT_OFFSET(ACThrow, Explosion); } \
+	FORCEINLINE static uint32 __PPO__ExplosionTransform() { return STRUCT_OFFSET(ACThrow, ExplosionTransform); } \
+	FORCEINLINE static uint32 __PPO__Sphere() { return STRUCT_OFFSET(ACThrow, Sphere); } \
+	FORCEINLINE static uint32 __PPO__Particle() { return STRUCT_OFFSET(ACThrow, Particle); }
+
+
 #define ActionGame_Source_ActionGame_Actions_CThrow_h_9_PROLOG
 #define ActionGame_Source_ActionGame_Actions_CThrow_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

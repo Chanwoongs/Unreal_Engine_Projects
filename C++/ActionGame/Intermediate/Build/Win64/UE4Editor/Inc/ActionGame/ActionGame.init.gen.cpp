@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ActionGame()
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature,
 			};
@@ -37,8 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x6138BC2B,
-				0xA6F1956E,
+				0x4BAD08F5,
+				0x8A424A6E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

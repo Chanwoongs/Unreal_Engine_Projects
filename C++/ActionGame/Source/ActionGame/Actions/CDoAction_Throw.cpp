@@ -4,6 +4,7 @@
 #include "GameFramework/Character.h"
 #include "Components/CStateComponent.h"
 #include "Components/CStatusComponent.h"
+#include "Actions/CThrow.h"
 
 void ACDoAction_Throw::BeginPlay()
 {
@@ -18,15 +19,32 @@ void ACDoAction_Throw::BeginPlay()
 
 void ACDoAction_Throw::DoAction()
 {
+	if (Aim->IsAvailable())
+		CheckFalse(Aim->IsZoom());
+
 	CheckFalse(*bEquipped);
 
 	CheckFalse(State->IsIdleMode());
 	State->SetActionMode();
 
+	OwnerCharacter->PlayAnimMontage(Datas[0].AnimMontage, Datas[0].PlayRatio, Datas[0].StartSection);
+	Datas[0].bCanMove ? Status->SetMove() : Status->SetStop();
 }
 
 void ACDoAction_Throw::Begin_Action()
 {
+	FVector location = OwnerCharacter->GetMesh()->GetSocketLocation("Hand_Throw_Projectile");
+	FRotator rotator = OwnerCharacter->GetController()->GetControlRotation();
+
+	FTransform transform = Datas[0].EffectTransform;
+	transform.AddToTranslation(location);
+	transform.SetRotation(FQuat(rotator));
+
+	FActorSpawnParameters params;
+	params.Owner = this;
+
+	ACThrow* throwObject = OwnerCharacter->GetWorld()->SpawnActor<ACThrow>(Datas[0].ThrowClass, transform, params);
+	throwObject->OnThrowBeginOverlap.AddDynamic(this, &ACDoAction_Throw::OnThrowBeginOverlap);
 }
 
 void ACDoAction_Throw::End_Action()
@@ -50,4 +68,10 @@ void ACDoAction_Throw::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Aim->Tick(DeltaTime);
+}
+
+void ACDoAction_Throw::OnThrowBeginOverlap(FHitResult InHitResult)
+{
+	FDamageEvent e;
+	InHitResult.GetActor()->TakeDamage(Datas[0].Power, e, OwnerCharacter->GetController(), this);
 }

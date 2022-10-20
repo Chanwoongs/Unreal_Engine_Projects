@@ -28,10 +28,10 @@ template<> ACTIONGAME_API UScriptStruct* StaticStruct<struct FDoActionData>();
 
 template<> ACTIONGAME_API UScriptStruct* StaticStruct<struct FEquipmentData>();
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_RPC_WRAPPERS_NO_PURE_DECLS
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_SPARSE_DATA
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_RPC_WRAPPERS
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCActionData(); \
 	friend struct Z_Construct_UClass_UCActionData_Statics; \
@@ -40,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(UCActionData)
 
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_INCLASS \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_INCLASS \
 private: \
 	static void StaticRegisterNativesUCActionData(); \
 	friend struct Z_Construct_UClass_UCActionData_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(UCActionData)
 
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCActionData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCActionData) \
@@ -62,7 +62,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_ENHANCED_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCActionData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -75,28 +75,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionData); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCActionData)
 
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_PRIVATE_PROPERTY_OFFSET
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_51_PROLOG
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_PRIVATE_PROPERTY_OFFSET
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_PROLOG
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_INCLASS \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_INCLASS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_Actions_CActionData_h_54_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_Actions_CActionData_h_57_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Actions_CActionData_h_54_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Actions_CActionData_h_57_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

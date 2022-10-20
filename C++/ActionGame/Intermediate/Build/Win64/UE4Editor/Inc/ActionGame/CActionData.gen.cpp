@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionData() {}
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
 	ACTIONGAME_API UScriptStruct* Z_Construct_UScriptStruct_FEquipmentData();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ACTIONGAME_API UClass* Z_Construct_UClass_ACThrow_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraShake_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
@@ -58,6 +59,10 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFDoActionData
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ThrowClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ThrowClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShakeClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ShakeClass;
@@ -90,6 +95,13 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFDoActionData
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FDoActionData>();
 	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ThrowClass_MetaData[] = {
+		{ "Category", "DoActionData" },
+		{ "ModuleRelativePath", "Actions/CActionData.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ThrowClass = { "ThrowClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FDoActionData, ThrowClass), Z_Construct_UClass_ACThrow_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ThrowClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ThrowClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ShakeClass_MetaData[] = {
 		{ "Category", "DoActionData" },
@@ -130,6 +142,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFDoActionData
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_Power = { "Power", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FDoActionData, Power), METADATA_PARAMS(Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_Power_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_Power_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDoActionData_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ThrowClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_ShakeClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_EffectTransform,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoActionData_Statics::NewProp_Effect,
@@ -164,7 +177,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFDoActionData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FDoActionData_Hash() { return 2670277284U; }
+	uint32 Get_Z_Construct_UScriptStruct_FDoActionData_Hash() { return 3594706230U; }
 class UScriptStruct* FEquipmentData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;

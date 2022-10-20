@@ -6,8 +6,9 @@
 
 ACThrow::ACThrow()
 {
+	// 충돌체가 먼저 나와야 충돌이 된다.
 	CHelpers::CreateComponent<USphereComponent>(this, &Sphere, "Sphere");
-	CHelpers::CreateComponent<UParticleSystemComponent>(this, &Particle, "Particle");
+	CHelpers::CreateComponent<UParticleSystemComponent>(this, &Particle, "Particle", Sphere);
 	CHelpers::CreateActorComponent<UProjectileMovementComponent>(this, &Projectile, "Projectile");
 
 	InitialLifeSpan = 3.0f;

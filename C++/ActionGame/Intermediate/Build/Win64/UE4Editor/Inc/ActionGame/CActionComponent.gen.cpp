@@ -77,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		return EActionType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EActionType(EActionType_StaticEnum, TEXT("/Script/ActionGame"), TEXT("EActionType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 3558101570U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 4048849074U; }
 	UEnum* Z_Construct_UEnum_ActionGame_EActionType()
 	{
 #if WITH_HOT_RELOAD
@@ -94,12 +94,16 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				{ "EActionType::OneHand", (int64)EActionType::OneHand },
 				{ "EActionType::TwoHand", (int64)EActionType::TwoHand },
 				{ "EActionType::Warp", (int64)EActionType::Warp },
+				{ "EActionType::FireStorm", (int64)EActionType::FireStorm },
+				{ "EActionType::IceBall", (int64)EActionType::IceBall },
 				{ "EActionType::Max", (int64)EActionType::Max },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "FireStorm.Name", "EActionType::FireStorm" },
 				{ "Fist.Name", "EActionType::Fist" },
+				{ "IceBall.Name", "EActionType::IceBall" },
 				{ "Max.Name", "EActionType::Max" },
 				{ "ModuleRelativePath", "Components/CActionComponent.h" },
 				{ "OneHand.Name", "EActionType::OneHand" },
@@ -123,6 +127,20 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
 		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execIsIceBallMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsIceBallMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execIsFireStormMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsFireStormMode();
+		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCActionComponent::execIsWarpMode)
 	{
@@ -171,7 +189,9 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		UClass* Class = UCActionComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetCurrent", &UCActionComponent::execGetCurrent },
+			{ "IsFireStormMode", &UCActionComponent::execIsFireStormMode },
 			{ "IsFistMode", &UCActionComponent::execIsFistMode },
+			{ "IsIceBallMode", &UCActionComponent::execIsIceBallMode },
 			{ "IsOneHandMode", &UCActionComponent::execIsOneHandMode },
 			{ "IsTwoHandMode", &UCActionComponent::execIsTwoHandMode },
 			{ "IsUnarmedMode", &UCActionComponent::execIsUnarmedMode },
@@ -211,6 +231,43 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics
+	{
+		struct CActionComponent_eventIsFireStormMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CActionComponent_eventIsFireStormMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CActionComponent_eventIsFireStormMode_Parms), &Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "IsFireStormMode", nullptr, nullptr, sizeof(CActionComponent_eventIsFireStormMode_Parms), Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_IsFireStormMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsFireStormMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UCActionComponent_IsFistMode_Statics
 	{
 		struct CActionComponent_eventIsFistMode_Parms
@@ -245,6 +302,43 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsFistMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics
+	{
+		struct CActionComponent_eventIsIceBallMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CActionComponent_eventIsIceBallMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CActionComponent_eventIsIceBallMode_Parms), &Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "IsIceBallMode", nullptr, nullptr, sizeof(CActionComponent_eventIsIceBallMode_Parms), Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_IsIceBallMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -425,7 +519,9 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCActionComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UCActionComponent_GetCurrent, "GetCurrent" }, // 1796094475
+		{ &Z_Construct_UFunction_UCActionComponent_IsFireStormMode, "IsFireStormMode" }, // 352964673
 		{ &Z_Construct_UFunction_UCActionComponent_IsFistMode, "IsFistMode" }, // 1251719032
+		{ &Z_Construct_UFunction_UCActionComponent_IsIceBallMode, "IsIceBallMode" }, // 2349821299
 		{ &Z_Construct_UFunction_UCActionComponent_IsOneHandMode, "IsOneHandMode" }, // 672399581
 		{ &Z_Construct_UFunction_UCActionComponent_IsTwoHandMode, "IsTwoHandMode" }, // 1373337640
 		{ &Z_Construct_UFunction_UCActionComponent_IsUnarmedMode, "IsUnarmedMode" }, // 2821889002
@@ -484,7 +580,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 3953568192);
+	IMPLEMENT_CLASS(UCActionComponent, 4281538674);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();
