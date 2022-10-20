@@ -105,6 +105,8 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Fist", EInputEvent::IE_Pressed, this, &ACPlayer::OnFist);
 	// Warp
 	PlayerInputComponent->BindAction("Warp", EInputEvent::IE_Pressed, this, &ACPlayer::OnWarp);
+	// FireStorm
+	PlayerInputComponent->BindAction("FireStorm", EInputEvent::IE_Pressed, this, &ACPlayer::OnFireStorm);
 
 	// Do Action
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
@@ -250,6 +252,13 @@ void ACPlayer::OnWarp()
 	CheckFalse(State->IsIdleMode());
 
 	Action->SetWarpMode();
+}
+
+void ACPlayer::OnFireStorm()
+{
+	CheckFalse(State->IsIdleMode());
+
+	Action->SetFireStormMode();
 }
 
 void ACPlayer::OnDoAction()
