@@ -7,7 +7,8 @@
 
 UCAim::UCAim()
 {
-
+	// UCAim의 클래스의 객체가 다른 클래스의 BeginPlay에서 생성된다면 GetAssetDynamic 사용
+	CHelpers::GetAssetDynamic<UCurveFloat>(&Curve, "CurveFloat'/Game/CAim.CAim'");
 }
 
 void UCAim::BeginPlay(ACharacter* InCharacter)
@@ -18,8 +19,10 @@ void UCAim::BeginPlay(ACharacter* InCharacter)
 	Camera = CHelpers::GetComponent<UCameraComponent>(OwnerCharacter);
 	State = CHelpers::GetComponent<UCStateComponent>(OwnerCharacter);
 	
-	
 
+	TimelineFloat.BindUFunction(this, "Zooming");
+	// AddInterFloat : 타임라인이 실행될 동안 호출될 델리게이션 함수를 연결하는 함수
+	Timeline.AddInterpFloat(Curve, TimelineFloat); // Static 붙은건 일반, 안붙은건 Dynamic Delegate
 }
 
 void UCAim::OnZoom()
@@ -34,6 +37,8 @@ void UCAim::OnZoom()
 	SpringArm->bEnableCameraLag = false; // 카메라가 부드럽게 이동하는 처리 꺼놓기
 
 	Camera->FieldOfView = 45.0f;
+
+	Timeline.PlayFromStart(); // 무조건 시작부터 실행
 }
 
 void UCAim::OffZoom()
@@ -51,4 +56,10 @@ void UCAim::OffZoom()
 
 void UCAim::Tick(float DeltaTime)
 {
+	Timeline.TickTimeline(DeltaTime);
+}
+
+void UCAim::Zooming(float Output)
+{
+	CLog::Print(Output, 0);
 }

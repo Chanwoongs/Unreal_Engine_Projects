@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Components/TimelineComponent.h"
 #include "CAim.generated.h"
 UCLASS()
 class ACTIONGAME_API UCAim : public UObject
@@ -25,10 +26,19 @@ public:
 	void Tick(float DeltaTime);
 
 private:
+	UFUNCTION()
+		void Zooming(float Output);
+
+private:
+	class UCurveFloat* Curve;
+
 	class ACharacter* OwnerCharacter;
 	class UCStateComponent* State;
 	class USpringArmComponent* SpringArm;
 	class UCameraComponent* Camera;
 
 	bool bInZoom;
+	
+	FTimeline Timeline;
+	FOnTimelineFloat TimelineFloat;
 };
