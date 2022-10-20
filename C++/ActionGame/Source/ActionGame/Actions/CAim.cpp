@@ -23,6 +23,7 @@ void UCAim::BeginPlay(ACharacter* InCharacter)
 	TimelineFloat.BindUFunction(this, "Zooming");
 	// AddInterFloat : 타임라인이 실행될 동안 호출될 델리게이션 함수를 연결하는 함수
 	Timeline.AddInterpFloat(Curve, TimelineFloat); // Static 붙은건 일반, 안붙은건 Dynamic Delegate
+	Timeline.SetPlayRate(200); // 10초 동안 갈 걸 0.005초동안감
 }
 
 void UCAim::OnZoom()
@@ -36,7 +37,7 @@ void UCAim::OnZoom()
 	SpringArm->SocketOffset = FVector(0, 30, 10);
 	SpringArm->bEnableCameraLag = false; // 카메라가 부드럽게 이동하는 처리 꺼놓기
 
-	Camera->FieldOfView = 45.0f;
+	//Camera->FieldOfView = 45.0f;
 
 	Timeline.PlayFromStart(); // 무조건 시작부터 실행
 }
@@ -51,7 +52,9 @@ void UCAim::OffZoom()
 	SpringArm->SocketOffset = FVector(0, 0, 0);
 	SpringArm->bEnableCameraLag = true; // 카메라가 부드럽게 이동하는 처리 꺼놓기
 
-	Camera->FieldOfView = 90.0f;
+	//Camera->FieldOfView = 90.0f;
+
+	Timeline.ReverseFromEnd(); // 뒤에서 부터 실행
 }
 
 void UCAim::Tick(float DeltaTime)
@@ -61,5 +64,5 @@ void UCAim::Tick(float DeltaTime)
 
 void UCAim::Zooming(float Output)
 {
-	CLog::Print(Output, 0);
+	Camera->FieldOfView = Output;
 }
