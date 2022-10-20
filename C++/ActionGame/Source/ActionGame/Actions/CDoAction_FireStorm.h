@@ -18,7 +18,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		float Speed = 100.0f; // 불기둥의 속도 
-	
+
+	UPROPERTY(EditAnywhere)
+		float HitTime = 0.25f;
+
 	// BeginPlay에서 Decal을 가져온다. Decal의 위치는 Action의 Tick에서 움직인다.
 	virtual void BeginPlay() override;
 
@@ -30,6 +33,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	virtual void OnAttachmentBeginOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter) override;
+	virtual void OnAttachmentEndOverlap(class ACharacter* InAttacker, class AActor* InAttackCauser, class ACharacter* InOtherCharacter) override;
+
+private:
 	class UBoxComponent* Box;
 	class UParticleSystemComponent* Attached;
 
@@ -37,6 +44,10 @@ private:
 	UFUNCTION()
 		void Finish();
 
+	UFUNCTION()
+		void Hitted();
+
 	float Angle;
 
+	TArray<class ACharacter*> HittedCharacter;
 };

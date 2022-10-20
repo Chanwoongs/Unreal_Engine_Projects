@@ -37,12 +37,16 @@ void ACDoAction_FireStorm::DoAction()
 
 void ACDoAction_FireStorm::Begin_Action()
 {
+	Angle = UKismetMathLibrary::RandomFloatInRange(0.0f, 360.0f);
+
 	Attached = UGameplayStatics::SpawnEmitterAttached(Datas[0].Effect, Box, "");
 	Attached->SetRelativeLocation(Datas[0].EffectTransform.GetLocation());
 	Attached->SetRelativeScale3D(Datas[0].EffectTransform.GetScale3D());
 
-	//ACAttachment* attachment = Cast<ACAttachment>(Box->GetOwner()); // Box의 owner는 attachment
-	//attachment->OnCollision();
+	ACAttachment* attachment = Cast<ACAttachment>(Box->GetOwner()); // Box의 owner는 attachment
+	attachment->OnCollision();
+
+	UKismetSystemLibrary::K2_SetTimer(this, "Hitted", HitTime, true);
 }
 
 void ACDoAction_FireStorm::End_Action()
@@ -60,6 +64,23 @@ void ACDoAction_FireStorm::Finish()
 	// Action 모드를 유지하다가 Particle이 끝나면 Idle모드로
 	State->SetIdleMode();
 	Attached->DestroyComponent();
+
+	// 충돌체 끄기
+	ACAttachment* attachment = Cast<ACAttachment>(Box->GetOwner()); // Box의 owner는 attachment
+	attachment->OffCollision();
+
+	// Damage 처리 : 충돌이 유지되는 이벤트가 없으므로, 충돌 시작시 배열에 넣고 데미지를 주고
+	// 충돌이 끝나면 배열에서 제거한다.
+	UKismetSystemLibrary::K2_ClearTimer(this, "Hitted");
+}
+
+void ACDoAction_FireStorm::Hitted()
+{
+	FDamageEvent e;
+	for (ACharacter* character : HittedCharacter)
+	{
+		character->TakeDamage(Datas[0].Power, e, OwnerCharacter->GetController(), this);
+	}
 }
 
 void ACDoAction_FireStorm::Tick(float DeltaTime)
@@ -81,4 +102,14 @@ void ACDoAction_FireStorm::Tick(float DeltaTime)
 	location += value;
 
 	Box->SetWorldLocation(location);
+}
+
+void ACDoAction_FireStorm::OnAttachmentBeginOverlap(ACharacter* InAttacker, AActor* InAttackCauser, ACharacter* InOtherCharacter)
+{
+	HittedCharacter.AddUnique(InOtherCharacter);
+}
+
+void ACDoAction_FireStorm::OnAttachmentEndOverlap(ACharacter* InAttacker, AActor* InAttackCauser, ACharacter* InOtherCharacter)
+{
+	HittedCharacter.Remove(InOtherCharacter);
 }
