@@ -24,6 +24,9 @@ public:
 	// 몽타주에 의해 종료 
 	virtual void End_Action() {}
 
+	virtual void OnAim() {}
+	virtual void OffAim() {}
+
 protected:
 	virtual void BeginPlay() override;
 

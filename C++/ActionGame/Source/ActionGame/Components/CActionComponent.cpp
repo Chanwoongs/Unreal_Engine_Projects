@@ -106,6 +106,12 @@ void UCActionComponent::SetFireStormMode()
 	SetMode(EActionType::FireStorm);
 }
 
+void UCActionComponent::SetIceBallMode()
+{
+	SetMode(EActionType::IceBall);
+}
+
+
 void UCActionComponent::OffAllCollision()
 {
 	for (UCActionData* data : Datas)

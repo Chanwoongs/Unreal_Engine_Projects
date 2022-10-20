@@ -80,6 +80,7 @@ private:
 	void OnTwoHand();
 	void OnWarp();
 	void OnFireStorm();
+	void OnIceBall();
 
 	void OnDoAction();
 	void OnTarget();

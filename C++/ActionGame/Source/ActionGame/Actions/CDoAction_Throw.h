@@ -17,6 +17,9 @@ public:
 	virtual void Begin_Action() override;
 	virtual void End_Action() override;
 
+	virtual void OnAim() override;
+	virtual void OffAim() override;
+
 	virtual void Tick(float DeltaTime) override;
 
 
