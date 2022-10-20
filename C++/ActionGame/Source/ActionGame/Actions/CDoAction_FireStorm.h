@@ -22,7 +22,7 @@ private:
 	UPROPERTY(EditAnywhere)
 		float HitTime = 0.25f;
 
-	// BeginPlay에서 Decal을 가져온다. Decal의 위치는 Action의 Tick에서 움직인다.
+protected:
 	virtual void BeginPlay() override;
 
 public:
