@@ -1,5 +1,6 @@
 #include "CAim.h"
 #include "Global.h"
+#include "CHUD.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -18,6 +19,7 @@ void UCAim::BeginPlay(ACharacter* InCharacter)
 	SpringArm = CHelpers::GetComponent<USpringArmComponent>(OwnerCharacter);
 	Camera = CHelpers::GetComponent<UCameraComponent>(OwnerCharacter);
 	State = CHelpers::GetComponent<UCStateComponent>(OwnerCharacter);
+	HUD = OwnerCharacter->GetWorld()->GetFirstPlayerController()->GetHUD<ACHUD>();
 	
 
 	TimelineFloat.BindUFunction(this, "Zooming");
@@ -40,6 +42,8 @@ void UCAim::OnZoom()
 	//Camera->FieldOfView = 45.0f;
 
 	Timeline.PlayFromStart(); // 무조건 시작부터 실행
+
+	HUD->SetDrawMode();
 }
 
 void UCAim::OffZoom()
@@ -53,6 +57,7 @@ void UCAim::OffZoom()
 	SpringArm->bEnableCameraLag = true; // 카메라가 부드럽게 이동하는 처리 꺼놓기
 
 	//Camera->FieldOfView = 90.0f;
+	HUD->SetUndrawMode();
 
 	Timeline.ReverseFromEnd(); // 뒤에서 부터 실행
 }
