@@ -40,11 +40,13 @@ void ACDoAction_Throw::Begin_Action()
 	transform.AddToTranslation(location);
 	transform.SetRotation(FQuat(rotator));
 
-	FActorSpawnParameters params;
-	params.Owner = this;
+	FActorSpawnParameters params; 
+	params.Owner = OwnerCharacter;
 
-	ACThrow* throwObject = OwnerCharacter->GetWorld()->SpawnActor<ACThrow>(Datas[0].ThrowClass, transform, params);
+	// ACThrow* throwObject = OwnerCharacter->GetWorld()->SpawnActor<ACThrow>(Datas[0].ThrowClass, transform, params); 생성하려는 곳에 다른 Actor가 있다면 생성이 안될 수도 있다.
+	ACThrow* throwObject = OwnerCharacter->GetWorld()->SpawnActorDeferred<ACThrow>(Datas[0].ThrowClass, transform, OwnerCharacter, NULL, ESpawnActorCollisionHandlingMethod::AlwaysSpawn); // ESpawnActorCollisionHandlingMethod으로 결정
 	throwObject->OnThrowBeginOverlap.AddDynamic(this, &ACDoAction_Throw::OnThrowBeginOverlap);
+	UGameplayStatics::FinishSpawningActor(throwObject, transform); // 등장 확정 시키기
 }
 
 void ACDoAction_Throw::End_Action()

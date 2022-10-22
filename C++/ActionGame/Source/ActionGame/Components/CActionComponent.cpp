@@ -42,11 +42,14 @@ void UCActionComponent::SetMode(EActionType InType)
 		equipment->Unequip();
 	}
 
-	// ¹«±â ÀåÂø
-	ACEquipment* equipment = Datas[(int32)InType]->GetEquipment();
-	CheckNull(equipment);
+	if (!!Datas[(int32)InType])
+	{
+		// ¹«±â ÀåÂø
+		ACEquipment* equipment = Datas[(int32)InType]->GetEquipment();
+		CheckNull(equipment);
 
-	equipment->Equip();
+		equipment->Equip();
+	}
 
 	ChangeType(InType);
 }
@@ -72,11 +75,6 @@ void UCActionComponent::SetUnarmedMode()
 
 		equipment->Unequip();
 	}
-
-	ACEquipment* equipment = Datas[(int32)EActionType::Unarmed]->GetEquipment();
-	CheckNull(equipment);
-
-	equipment->Equip();
 
 	ChangeType(EActionType::Unarmed);
 }
