@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeCFeetComponent() {}
 // Cross Module References
 	ACTIONGAME_API UScriptStruct* Z_Construct_UScriptStruct_FFeetData();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCFeetComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCFeetComponent();
@@ -50,6 +51,18 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RightRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_RightRotation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LeftRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_LeftRotation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PelvisDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_PelvisDistance;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RightDistance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_RightDistance;
@@ -71,22 +84,52 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FFeetData>();
 	}
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightRotation_MetaData[] = {
+		{ "Category", "FeetData" },
+		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightRotation = { "RightRotation", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFeetData, RightRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightRotation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftRotation_MetaData[] = {
+		{ "Category", "FeetData" },
+		{ "Comment", "// ?\xe3\xb8\xae ????, Z?\xe0\xb8\xb8 ????\n// Root?? Pelvis?? ???? ???? ???? \xc8\xb8?? ?????? ?????\xd8\xbe???\n// Root?? ?????\xcc\xb1? ???? ???? ???\xcc\xb8? Pelvis?? ???? ?????\xcc\xb4?.\n// ???? ???? ?????? ?\xd7\xbb? ???? ?????\xcc\xb4?.\n" },
+		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
+		{ "ToolTip", "?\xe3\xb8\xae ????, Z?\xe0\xb8\xb8 ????\nRoot?? Pelvis?? ???? ???? ???? \xc8\xb8?? ?????? ?????\xd8\xbe???\nRoot?? ?????\xcc\xb1? ???? ???? ???\xcc\xb8? Pelvis?? ???? ?????\xcc\xb4?.\n???? ???? ?????? ?\xd7\xbb? ???? ?????\xcc\xb4?." },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftRotation = { "LeftRotation", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFeetData, LeftRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftRotation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_PelvisDistance_MetaData[] = {
+		{ "Category", "FeetData" },
+		{ "Comment", "// ???????? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????, X?\xe0\xb8\xb8 ???? \n" },
+		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
+		{ "ToolTip", "???????? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????, X?\xe0\xb8\xb8 ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_PelvisDistance = { "PelvisDistance", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFeetData, PelvisDistance), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_PelvisDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_PelvisDistance_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightDistance_MetaData[] = {
 		{ "Category", "FeetData" },
-		{ "Comment", "// ?\xde\xb9??? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????\n" },
+		{ "Comment", "// ?\xde\xb9??? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????, X?\xe0\xb8\xb8 ????\n" },
 		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
-		{ "ToolTip", "?\xde\xb9??? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????" },
+		{ "ToolTip", "?\xde\xb9??? ?????? ???? ?? ?\xd9\xbe??? ?? ?????? ????, X?\xe0\xb8\xb8 ????" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightDistance = { "RightDistance", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFeetData, RightDistance), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftDistance_MetaData[] = {
 		{ "Category", "FeetData" },
+		{ "Comment", "// Foot_L ???? ?\xce\xb8\xf0\xbf\xa1\xbc????? ?????\xc7\xbe??? \xc8\xb8???????? ???\xcc\xb0? X???? ?\xc8\xb4?.\n" },
 		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
+		{ "ToolTip", "Foot_L ???? ?\xce\xb8\xf0\xbf\xa1\xbc????? ?????\xc7\xbe??? \xc8\xb8???????? ???\xcc\xb0? X???? ?\xc8\xb4?." },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftDistance = { "LeftDistance", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FFeetData, LeftDistance), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftDistance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFeetData_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightRotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftRotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_PelvisDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_RightDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFeetData_Statics::NewProp_LeftDistance,
 	};
@@ -118,7 +161,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FFeetData_Hash() { return 73421294U; }
+	uint32 Get_Z_Construct_UScriptStruct_FFeetData_Hash() { return 414121348U; }
 	void UCFeetComponent::StaticRegisterNativesUCFeetComponent()
 	{
 	}
@@ -132,6 +175,10 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffsetDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_OffsetDistance;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InterpSpeed_MetaData[];
 #endif
@@ -169,6 +216,14 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCFeetComponent_Statics::NewProp_OffsetDistance_MetaData[] = {
+		{ "Category", "InverseKinemetics" },
+		{ "Comment", "// ?????? \n" },
+		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCFeetComponent_Statics::NewProp_OffsetDistance = { "OffsetDistance", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCFeetComponent, OffsetDistance), METADATA_PARAMS(Z_Construct_UClass_UCFeetComponent_Statics::NewProp_OffsetDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCFeetComponent_Statics::NewProp_OffsetDistance_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCFeetComponent_Statics::NewProp_InterpSpeed_MetaData[] = {
 		{ "Category", "InverseKinemetics" },
 		{ "Comment", "// ?????? ????\n" },
@@ -205,6 +260,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UCFeetComponent_Statics::NewProp_DrawDebugType = { "DrawDebugType", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCFeetComponent, DrawDebugType), Z_Construct_UEnum_Engine_EDrawDebugTrace, METADATA_PARAMS(Z_Construct_UClass_UCFeetComponent_Statics::NewProp_DrawDebugType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCFeetComponent_Statics::NewProp_DrawDebugType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCFeetComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCFeetComponent_Statics::NewProp_OffsetDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCFeetComponent_Statics::NewProp_InterpSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCFeetComponent_Statics::NewProp_TraceDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCFeetComponent_Statics::NewProp_RightSocket,
@@ -238,7 +294,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCFeetComponent, 2829137093);
+	IMPLEMENT_CLASS(UCFeetComponent, 3098892733);
 	template<> ACTIONGAME_API UClass* StaticClass<UCFeetComponent>()
 	{
 		return UCFeetComponent::StaticClass();

@@ -20,10 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> ACTIONGAME_API UScriptStruct* StaticStruct<struct FFeetData>();
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_SPARSE_DATA
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_SPARSE_DATA
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_RPC_WRAPPERS
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCFeetComponent(); \
 	friend struct Z_Construct_UClass_UCFeetComponent_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(UCFeetComponent)
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_INCLASS \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_INCLASS \
 private: \
 	static void StaticRegisterNativesUCFeetComponent(); \
 	friend struct Z_Construct_UClass_UCFeetComponent_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UCFeetComponent)
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCFeetComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCFeetComponent) \
@@ -54,7 +54,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_ENHANCED_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCFeetComponent(UCFeetComponent&&); \
@@ -65,35 +65,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCFeetComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCFeetComponent)
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_PRIVATE_PROPERTY_OFFSET \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__DrawDebugType() { return STRUCT_OFFSET(UCFeetComponent, DrawDebugType); } \
 	FORCEINLINE static uint32 __PPO__LeftSocket() { return STRUCT_OFFSET(UCFeetComponent, LeftSocket); } \
 	FORCEINLINE static uint32 __PPO__RightSocket() { return STRUCT_OFFSET(UCFeetComponent, RightSocket); } \
 	FORCEINLINE static uint32 __PPO__TraceDistance() { return STRUCT_OFFSET(UCFeetComponent, TraceDistance); } \
-	FORCEINLINE static uint32 __PPO__InterpSpeed() { return STRUCT_OFFSET(UCFeetComponent, InterpSpeed); }
+	FORCEINLINE static uint32 __PPO__InterpSpeed() { return STRUCT_OFFSET(UCFeetComponent, InterpSpeed); } \
+	FORCEINLINE static uint32 __PPO__OffsetDistance() { return STRUCT_OFFSET(UCFeetComponent, OffsetDistance); }
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_22_PROLOG
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_35_PROLOG
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_INCLASS \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_INCLASS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_SPARSE_DATA \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_Components_CFeetComponent_h_25_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_SPARSE_DATA \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_Components_CFeetComponent_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

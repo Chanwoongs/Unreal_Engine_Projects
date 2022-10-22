@@ -23,7 +23,12 @@ public:
 	// Root와 Pelvis는 월드 공간 상의 회전 방향을 사용해야함
 	// Root는 움직이기 위한 가상 본이며 Pelvis는 본의 시작이다.
 	// 본의 시작 공간은 항상 월드 공간이다.
+	
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		FRotator LeftRotation;
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		FRotator RightRotation;
 };
 
 
@@ -64,7 +69,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	void Trace(FName InSocket, float& OutDistance); // 본이나 소켓 둘 다 사용가능
+	void Trace(FName InSocket, float& OutDistance, FRotator& OutRotation); // 본이나 소켓 둘 다 사용가능
 
 private:
 	class ACharacter* OwnerCharacter;
