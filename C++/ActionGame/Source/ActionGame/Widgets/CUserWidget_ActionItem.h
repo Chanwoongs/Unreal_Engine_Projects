@@ -18,4 +18,7 @@ protected:
 			
 	UFUNCTION(BlueprintCallable)
 		void Unhover();
+
+private:
+	class UCUserWidget_ActionList* GetActionList();
 };
