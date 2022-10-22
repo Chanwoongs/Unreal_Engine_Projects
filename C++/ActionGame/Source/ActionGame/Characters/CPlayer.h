@@ -11,6 +11,11 @@ class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter
 {
 	GENERATED_BODY()
 
+// Widget
+private:
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<class UCUserWidget_ActionList> ActionListClass;
+
 // Scene Components
 private:
 	UPROPERTY(VisibleDefaultsOnly)
@@ -90,10 +95,17 @@ private:
 	void OnAim();
 	void OffAim();
 
+	void OnViewActionList();
+	void OffViewActionList();
+
+
 public:
 	virtual void ChangeColor(FLinearColor InColor) override;
 
 private:
 	class UMaterialInstanceDynamic* BodyMaterial;
 	class UMaterialInstanceDynamic* LogoMaterial;
+
+protected:
+	class UCUserWidget_ActionList* ActionList;
 };

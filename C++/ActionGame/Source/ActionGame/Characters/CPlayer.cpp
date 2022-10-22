@@ -16,6 +16,8 @@
 #include "Components/CStatusComponent.h"
 #include "Components/CTargetComponent.h"
 
+#include "Widgets/CUserWidget_ActionList.h"
+
 ACPlayer::ACPlayer()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -54,7 +56,8 @@ ACPlayer::ACPlayer()
 	GetCharacterMovement()->RotationRate = FRotator(0, 720, 0);
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
-
+	CHelpers::GetClass<UCUserWidget_ActionList>(&ActionListClass, "WidgetBlueprint'/Game/Widgets/WB_ActionList.WB_ActionList_C'");
+	
 }
 
 void ACPlayer::BeginPlay()
@@ -77,6 +80,10 @@ void ACPlayer::BeginPlay()
 	GetMesh()->SetMaterial(1, LogoMaterial);
 
 	Action->SetUnarmedMode();
+	
+	ActionList = CreateWidget<UCUserWidget_ActionList, APlayerController>(GetController<APlayerController>(), ActionListClass);
+	ActionList->AddToViewport();
+	ActionList->SetVisibility(ESlateVisibility::Hidden);
 }
 
 void ACPlayer::Tick(float DeltaTime)
@@ -121,6 +128,10 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// Aim
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer::OnAim);
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer::OffAim);
+
+	// ActionList
+	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Pressed, this, &ACPlayer::OnViewActionList);
+	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Released, this, &ACPlayer::OffViewActionList);
 
 }
 
@@ -302,6 +313,27 @@ void ACPlayer::OnAim()
 void ACPlayer::OffAim()
 {
 	Action->UndoAim();
+}
+
+void ACPlayer::OnViewActionList()
+{
+	ActionList->SetVisibility(ESlateVisibility::Visible);
+
+	GetController<APlayerController>()->bShowMouseCursor = true;
+	GetController<APlayerController>()->SetInputMode(FInputModeGameAndUI()); // 게임 모드인지 UI 모드인지 정함
+
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 0.1f); // 게임 속도를 늦춰줌
+}
+
+void ACPlayer::OffViewActionList()
+{
+	ActionList->SetVisibility(ESlateVisibility::Hidden);
+
+	GetController<APlayerController>()->bShowMouseCursor = false;
+	GetController<APlayerController>()->SetInputMode(FInputModeGameOnly()); // 게임 모드인지 UI 모드인지 정함
+
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1.0f); // 게임 속도를 늦춰줌
+
 }
 
 
