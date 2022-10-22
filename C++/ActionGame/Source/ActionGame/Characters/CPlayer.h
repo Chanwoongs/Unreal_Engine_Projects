@@ -44,6 +44,9 @@ private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCStateComponent* State;
 
+	UPROPERTY(VisibleDefaultsOnly)
+		class UCFeetComponent* Feet;
+
 public:
 	FORCEINLINE class UCUserWidget_ActionList* GetActionList() { return ActionList; }
 

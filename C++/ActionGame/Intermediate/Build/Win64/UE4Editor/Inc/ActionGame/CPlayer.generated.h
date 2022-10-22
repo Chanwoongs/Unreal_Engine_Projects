@@ -17,11 +17,25 @@ enum class EStateType : uint8;
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_12_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnDoAction); \
+	DECLARE_FUNCTION(execOnIceBall); \
+	DECLARE_FUNCTION(execOnFireStorm); \
+	DECLARE_FUNCTION(execOnWarp); \
+	DECLARE_FUNCTION(execOnTwoHand); \
+	DECLARE_FUNCTION(execOnOneHand); \
+	DECLARE_FUNCTION(execOnFist); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnDoAction); \
+	DECLARE_FUNCTION(execOnIceBall); \
+	DECLARE_FUNCTION(execOnFireStorm); \
+	DECLARE_FUNCTION(execOnWarp); \
+	DECLARE_FUNCTION(execOnTwoHand); \
+	DECLARE_FUNCTION(execOnOneHand); \
+	DECLARE_FUNCTION(execOnFist); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
@@ -70,6 +84,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 
 
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ActionListClass() { return STRUCT_OFFSET(ACPlayer, ActionListClass); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACPlayer, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACPlayer, Camera); } \
 	FORCEINLINE static uint32 __PPO__Action() { return STRUCT_OFFSET(ACPlayer, Action); } \
@@ -77,7 +92,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 	FORCEINLINE static uint32 __PPO__Montages() { return STRUCT_OFFSET(ACPlayer, Montages); } \
 	FORCEINLINE static uint32 __PPO__Option() { return STRUCT_OFFSET(ACPlayer, Option); } \
 	FORCEINLINE static uint32 __PPO__Status() { return STRUCT_OFFSET(ACPlayer, Status); } \
-	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(ACPlayer, State); }
+	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(ACPlayer, State); } \
+	FORCEINLINE static uint32 __PPO__Feet() { return STRUCT_OFFSET(ACPlayer, Feet); }
 
 
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_9_PROLOG

@@ -15,6 +15,7 @@
 #include "Components/COptionComponent.h"
 #include "Components/CStatusComponent.h"
 #include "Components/CTargetComponent.h"
+#include "Components/CFeetComponent.h"
 
 #include "Widgets/CUserWidget_ActionList.h"
 
@@ -31,6 +32,7 @@ ACPlayer::ACPlayer()
 	CHelpers::CreateActorComponent<UCOptionComponent>(this, &Option, "Option");
 	CHelpers::CreateActorComponent<UCStatusComponent>(this, &Status, "Status");
 	CHelpers::CreateActorComponent<UCStateComponent>(this, &State, "State");
+	CHelpers::CreateActorComponent<UCFeetComponent>(this, &Feet, "Feet");
 
 	bUseControllerRotationYaw = false;
 

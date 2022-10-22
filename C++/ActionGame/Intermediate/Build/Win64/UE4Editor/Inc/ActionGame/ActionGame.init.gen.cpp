@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UserWidget_ActionItem_Clicked__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ActionGame()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -33,14 +34,15 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UserWidget_ActionItem_Clicked__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ActionGame",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x4BAD08F5,
-				0x8A424A6E,
+				0xDDF60C2E,
+				0xB0B59E86,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

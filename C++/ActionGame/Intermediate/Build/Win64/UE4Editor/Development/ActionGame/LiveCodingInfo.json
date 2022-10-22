@@ -21,6 +21,7 @@
 			"ICharacter.cpp.obj",
 			"CHUD.cpp.obj",
 			"CActionComponent.cpp.obj",
+			"CFeetComponent.cpp.obj",
 			"CMontagesComponent.cpp.obj",
 			"COptionComponent.cpp.obj",
 			"CStateComponent.cpp.obj",
@@ -36,6 +37,8 @@
 			"CAnimNotifyState_EnableCombo.cpp.obj",
 			"CAnimNotifyState_Equip.cpp.obj",
 			"CLog.cpp.obj",
+			"CUserWidget_ActionItem.cpp.obj",
+			"CUserWidget_ActionList.cpp.obj",
 			"CUserWidget_Health.cpp.obj",
 			"CUserWidget_Name.cpp.obj"
 		],
@@ -63,6 +66,7 @@
 			"CEnemy.gen.cpp.obj",
 			"CEnemy_Dummy.gen.cpp.obj",
 			"CEquipment.gen.cpp.obj",
+			"CFeetComponent.gen.cpp.obj",
 			"CGameMode.gen.cpp.obj",
 			"CHUD.gen.cpp.obj",
 			"CMontagesComponent.gen.cpp.obj",
@@ -72,6 +76,8 @@
 			"CStatusComponent.gen.cpp.obj",
 			"CTargetComponent.gen.cpp.obj",
 			"CThrow.gen.cpp.obj",
+			"CUserWidget_ActionItem.gen.cpp.obj",
+			"CUserWidget_ActionList.gen.cpp.obj",
 			"CUserWidget_Health.gen.cpp.obj",
 			"CUserWidget_Name.gen.cpp.obj",
 			"ICharacter.gen.cpp.obj"
