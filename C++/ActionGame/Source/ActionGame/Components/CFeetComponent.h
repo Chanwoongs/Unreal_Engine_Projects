@@ -17,6 +17,13 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		FVector RightDistance; // 오른발이 떨어져 있을 때 붙어야 할 곳과의 간격, X축만 사용 
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		FVector PelvisDistance; // 허리 높이, Z축만 사용
+	// Root와 Pelvis는 월드 공간 상의 회전 방향을 사용해야함
+	// Root는 움직이기 위한 가상 본이며 Pelvis는 본의 시작이다.
+	// 본의 시작 공간은 항상 월드 공간이다.
+
 };
 
 

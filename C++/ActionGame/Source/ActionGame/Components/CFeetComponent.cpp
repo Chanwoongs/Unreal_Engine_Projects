@@ -24,12 +24,17 @@ void UCFeetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 	float leftDistance;
 	Trace(LeftSocket, leftDistance);
-	// FInterpTo : 이동 보간
-	Data.LeftDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, leftDistance, DeltaTime, InterpSpeed);
-
 	float rightDistance;
-	Trace(RightSocket, rightDistance); // 왼쪽 오른쪽은 대칭이다
-	Data.RightDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, -rightDistance, DeltaTime, InterpSpeed);
+	Trace(RightSocket, rightDistance); 
+	
+	// Pelvis 에 대한 높이는 왼쪽 오른쪽 중 더 작은 값을 고른다.
+	float offset = FMath::Min(leftDistance, rightDistance);
+	Data.PelvisDistance.Z = UKismetMathLibrary::FInterpTo(Data.PelvisDistance.Z, offset, DeltaTime, InterpSpeed);
+
+	// FInterpTo : 이동 보간 / Pelvis 만큼 빼준다 양쪽 발
+	Data.LeftDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, (leftDistance - offset), DeltaTime, InterpSpeed);
+	// 왼쪽 오른쪽은 대칭이다. - 값사용
+	Data.RightDistance.X = UKismetMathLibrary::FInterpTo(Data.RightDistance.X, -(rightDistance - offset), DeltaTime, InterpSpeed);
 
 }
 
