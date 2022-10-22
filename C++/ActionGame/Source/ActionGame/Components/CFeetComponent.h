@@ -11,11 +11,12 @@ struct FFeetData
 	GENERATED_BODY()
 
 public:
+	// Foot_L 까지 부모에서부터 누적되어온 회전공간의 높이가 X축이 된다.
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
-		FVector LeftDistance; // 왼발이 떨어져 있을 때 붙어야 할 곳과의 간격
+		FVector LeftDistance; // 왼발이 떨어져 있을 때 붙어야 할 곳과의 간격, X축만 사용
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
-		FVector RightDistance; // 오른발이 떨어져 있을 때 붙어야 할 곳과의 간격
+		FVector RightDistance; // 오른발이 떨어져 있을 때 붙어야 할 곳과의 간격, X축만 사용 
 };
 
 
@@ -38,7 +39,10 @@ protected:
 		float TraceDistance = 55.0f; // 적당히 조정
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "InverseKinemetics")
-		float InterpSpeed = 17.0f; // 적당히 조정
+		float InterpSpeed = 17.0f; // 적당히 
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "InverseKinemetics")
+		float OffsetDistance = 5.0f; // 발과 땅사이의 고정 간격 모델이 떠있기 때문에 보정
 
 public:
 	FORCEINLINE const FFeetData& GetData() { return Data; }

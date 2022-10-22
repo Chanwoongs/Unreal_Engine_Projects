@@ -24,12 +24,13 @@ void UCFeetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 	float leftDistance;
 	Trace(LeftSocket, leftDistance);
-
 	// FInterpTo : 이동 보간
 	Data.LeftDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, leftDistance, DeltaTime, InterpSpeed);
 
 	float rightDistance;
-	Trace(RightSocket, rightDistance);
+	Trace(RightSocket, rightDistance); // 왼쪽 오른쪽은 대칭이다
+	Data.RightDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, -rightDistance, DeltaTime, InterpSpeed);
+
 }
 
 void UCFeetComponent::Trace(FName InSocket, float& OutDistance)
@@ -51,6 +52,10 @@ void UCFeetComponent::Trace(FName InSocket, float& OutDistance)
 		true, ignoreActors, DrawDebugType, hitResult, true, FLinearColor::Green, FLinearColor::Red);
 	// bTraceComplex true 로하면 더욱 정밀하게 삼각형 단위로 추적
 	
+	CheckFalse(hitResult.IsValidBlockingHit()); // 추적된게 없다면
 
+	float length = (hitResult.ImpactPoint - hitResult.TraceEnd).Size();
+
+	OutDistance = OffsetDistance + length - TraceDistance; // 발이 움직일 간격
 }
 
