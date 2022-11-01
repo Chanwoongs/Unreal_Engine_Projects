@@ -81,7 +81,7 @@ void UCBehaviorComponent::ChangeType(EBehaviorType Intype)
 
 	if (OnBehaviorTypeChanged.IsBound())
 	{
-		OnBehaviorTypeChanged.BroadCast(type, Intype);
+		OnBehaviorTypeChanged.Broadcast(type, Intype);
 	}
 }
 

@@ -49,12 +49,12 @@ public:
 	UCBehaviorComponent();
 
 public:
-	bool SetWaitMode();
-	bool SetApproachMode();
-	bool SetActionMode();
-	bool SetPatrolMode();
-	bool SetHittedMode();
-	bool SetAvoidMode();
+	void SetWaitMode();
+	void SetApproachMode();
+	void SetActionMode();
+	void SetPatrolMode();
+	void SetHittedMode();
+	void SetAvoidMode();
 
 	class ACPlayer* GetTargetPlayer(); // Character Type이 되어도됌
 
