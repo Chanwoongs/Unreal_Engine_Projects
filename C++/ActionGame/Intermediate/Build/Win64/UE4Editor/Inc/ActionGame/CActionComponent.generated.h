@@ -33,6 +33,8 @@ static inline void FActionTypeChanged_DelegateWrapper(const FMulticastScriptDele
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetTwoHandMode); \
+	DECLARE_FUNCTION(execSetUnarmedMode); \
 	DECLARE_FUNCTION(execIsIceBallMode); \
 	DECLARE_FUNCTION(execIsFireStormMode); \
 	DECLARE_FUNCTION(execIsWarpMode); \
@@ -45,6 +47,8 @@ static inline void FActionTypeChanged_DelegateWrapper(const FMulticastScriptDele
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSetTwoHandMode); \
+	DECLARE_FUNCTION(execSetUnarmedMode); \
 	DECLARE_FUNCTION(execIsIceBallMode); \
 	DECLARE_FUNCTION(execIsFireStormMode); \
 	DECLARE_FUNCTION(execIsWarpMode); \

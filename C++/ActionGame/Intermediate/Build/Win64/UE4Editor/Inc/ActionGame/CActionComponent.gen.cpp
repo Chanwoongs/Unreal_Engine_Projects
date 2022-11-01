@@ -128,6 +128,20 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(UCActionComponent::execSetTwoHandMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetTwoHandMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execSetUnarmedMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetUnarmedMode();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UCActionComponent::execIsIceBallMode)
 	{
 		P_FINISH;
@@ -196,6 +210,8 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			{ "IsTwoHandMode", &UCActionComponent::execIsTwoHandMode },
 			{ "IsUnarmedMode", &UCActionComponent::execIsUnarmedMode },
 			{ "IsWarpMode", &UCActionComponent::execIsWarpMode },
+			{ "SetTwoHandMode", &UCActionComponent::execSetTwoHandMode },
+			{ "SetUnarmedMode", &UCActionComponent::execSetUnarmedMode },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -490,6 +506,50 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "SetTwoHandMode", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_SetTwoHandMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "SetUnarmedMode", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_SetUnarmedMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_SetUnarmedMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UCActionComponent_NoRegister()
 	{
 		return UCActionComponent::StaticClass();
@@ -526,6 +586,8 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		{ &Z_Construct_UFunction_UCActionComponent_IsTwoHandMode, "IsTwoHandMode" }, // 1373337640
 		{ &Z_Construct_UFunction_UCActionComponent_IsUnarmedMode, "IsUnarmedMode" }, // 2821889002
 		{ &Z_Construct_UFunction_UCActionComponent_IsWarpMode, "IsWarpMode" }, // 716935244
+		{ &Z_Construct_UFunction_UCActionComponent_SetTwoHandMode, "SetTwoHandMode" }, // 2880942245
+		{ &Z_Construct_UFunction_UCActionComponent_SetUnarmedMode, "SetUnarmedMode" }, // 3018326069
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCActionComponent_Statics::Class_MetaDataParams[] = {
@@ -580,7 +642,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 4281538674);
+	IMPLEMENT_CLASS(UCActionComponent, 936080556);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();
