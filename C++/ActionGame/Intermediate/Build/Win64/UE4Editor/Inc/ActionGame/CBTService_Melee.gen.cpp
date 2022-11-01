@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ActionGame/BehaviorTree/CBTService_Melee.h"
+#include "ActionGame/BehaviorTrees/CBTService_Melee.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -40,8 +40,9 @@ void EmptyLinkFunctionForGeneratedCodeCBTService_Melee() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCBTService_Melee_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "BehaviorTree/CBTService_Melee.h" },
-		{ "ModuleRelativePath", "BehaviorTree/CBTService_Melee.h" },
+		{ "Comment", "/**\n * \n */" },
+		{ "IncludePath", "BehaviorTrees/CBTService_Melee.h" },
+		{ "ModuleRelativePath", "BehaviorTrees/CBTService_Melee.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCBTService_Melee_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTService_Melee() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBTService_Melee, 2567272720);
+	IMPLEMENT_CLASS(UCBTService_Melee, 3901688199);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBTService_Melee>()
 	{
 		return UCBTService_Melee::StaticClass();

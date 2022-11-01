@@ -210,7 +210,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCFeetComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
-		{ "ClassGroupNames", "Custom" },
+		{ "ClassGroupNames", "GameProject" },
 		{ "IncludePath", "Components/CFeetComponent.h" },
 		{ "ModuleRelativePath", "Components/CFeetComponent.h" },
 	};
@@ -294,7 +294,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFFeetData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCFeetComponent, 3098892733);
+	IMPLEMENT_CLASS(UCFeetComponent, 14421296);
 	template<> ACTIONGAME_API UClass* StaticClass<UCFeetComponent>()
 	{
 		return UCFeetComponent::StaticClass();

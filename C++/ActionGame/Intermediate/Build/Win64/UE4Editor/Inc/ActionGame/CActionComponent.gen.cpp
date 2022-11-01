@@ -592,7 +592,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCActionComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
-		{ "ClassGroupNames", "Custom" },
+		{ "ClassGroupNames", "GameProject" },
 		{ "IncludePath", "Components/CActionComponent.h" },
 		{ "ModuleRelativePath", "Components/CActionComponent.h" },
 	};
@@ -642,7 +642,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 936080556);
+	IMPLEMENT_CLASS(UCActionComponent, 1996742664);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();

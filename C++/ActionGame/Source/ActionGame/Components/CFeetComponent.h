@@ -32,7 +32,7 @@ public:
 };
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(GameProject), meta=(BlueprintSpawnableComponent) )
 class ACTIONGAME_API UCFeetComponent : public UActorComponent
 {
 	GENERATED_BODY()
