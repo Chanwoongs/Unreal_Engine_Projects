@@ -17,8 +17,8 @@ private:
 		uint8 TeamID = 1;
 
 public:
-	FORCEINLINE class UBehaviorTree* GetBehaviroTree() { return BehaviorTree; }
-	FORCEINLINE class uint8 GetTeamID() { return TeamID; }
+	FORCEINLINE class UBehaviorTree* GetBehaviorTree() { return BehaviorTree; }
+	FORCEINLINE uint8 GetTeamID() { return TeamID; }
 
 public:
 	ACEnemy_AI();
