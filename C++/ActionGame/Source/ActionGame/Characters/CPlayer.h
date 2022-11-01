@@ -4,10 +4,11 @@
 #include "GameFramework/Character.h"
 #include "Characters/ICharacter.h"
 #include "Components/CStateComponent.h" // Delegate를 위한 전방선언 (Enum)
+#include "GenericTeamAgentInterface.h"
 #include "CPlayer.generated.h"
 
 UCLASS()
-class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter
+class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter, public IGenericTeamAgentInterface
 {
 	GENERATED_BODY()
 
@@ -15,6 +16,9 @@ class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter
 private:
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<class UCUserWidget_ActionList> ActionListClass;
+
+	UPROPERTY(EditDefaultsOnly)
+		uint8 TeamID = 0;
 
 // Scene Components
 private:
@@ -61,6 +65,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual FGenericTeamId GetGenericTeamId() const override; // Team ID
 
 
 private:

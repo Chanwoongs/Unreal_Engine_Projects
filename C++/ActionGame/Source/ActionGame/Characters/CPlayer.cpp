@@ -147,6 +147,11 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
+FGenericTeamId ACPlayer::GetGenericTeamId() const
+{
+	return FGenericTeamId(TeamID);
+}
+
 // 앞뒤 움직임
 void ACPlayer::OnMoveForward(float InAxis)
 {
