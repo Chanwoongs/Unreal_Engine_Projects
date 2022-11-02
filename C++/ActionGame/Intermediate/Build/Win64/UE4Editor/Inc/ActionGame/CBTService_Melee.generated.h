@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ACTIONGAME_CBTService_Melee_generated_h
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_SPARSE_DATA
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_RPC_WRAPPERS
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_INCLASS_NO_PURE_DECLS \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_SPARSE_DATA
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_RPC_WRAPPERS
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCBTService_Melee(); \
 	friend struct Z_Construct_UClass_UCBTService_Melee_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UCBTService_Melee)
 
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_INCLASS \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_INCLASS \
 private: \
 	static void StaticRegisterNativesUCBTService_Melee(); \
 	friend struct Z_Construct_UClass_UCBTService_Melee_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(UCBTService_Melee)
 
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_STANDARD_CONSTRUCTORS \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UCBTService_Melee(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UCBTService_Melee(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCBTService_Melee) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTService_Melee); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UCBTService_Melee(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCBTService_Melee(UCBTService_Melee&&); \
@@ -57,31 +55,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTService_Melee); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCBTService_Melee)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCBTService_Melee)
 
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_PRIVATE_PROPERTY_OFFSET
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_12_PROLOG
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_GENERATED_BODY_LEGACY \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_PRIVATE_PROPERTY_OFFSET
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_7_PROLOG
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_SPARSE_DATA \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_RPC_WRAPPERS \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_INCLASS \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_STANDARD_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_SPARSE_DATA \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_RPC_WRAPPERS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_INCLASS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_GENERATED_BODY \
+#define ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_PRIVATE_PROPERTY_OFFSET \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_SPARSE_DATA \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_INCLASS_NO_PURE_DECLS \
-	ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h_15_ENHANCED_CONSTRUCTORS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_PRIVATE_PROPERTY_OFFSET \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_SPARSE_DATA \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_INCLASS_NO_PURE_DECLS \
+	ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ACTIONGAME_API UClass* StaticClass<class UCBTService_Melee>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID ActionGame_Source_ActionGame_BehaviorTrees_CBTService_Melee_h
+#define CURRENT_FILE_ID ActionGame_Source_ActionGame_BehaviorTree_CBTService_Melee_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

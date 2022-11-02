@@ -9,7 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 enum class EActionType : uint8;
-class UCActionData;
+class UCAction;
 #ifdef ACTIONGAME_CActionComponent_generated_h
 #error "CActionComponent.generated.h already included, missing '#pragma once' in CActionComponent.h"
 #endif
@@ -102,7 +102,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionComponent); \
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Datas() { return STRUCT_OFFSET(UCActionComponent, Datas); }
+	FORCEINLINE static uint32 __PPO__DataAssets() { return STRUCT_OFFSET(UCActionComponent, DataAssets); }
 
 
 #define ActionGame_Source_ActionGame_Components_CActionComponent_h_15_PROLOG

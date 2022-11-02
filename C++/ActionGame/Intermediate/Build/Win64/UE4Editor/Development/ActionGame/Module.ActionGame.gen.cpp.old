@@ -16,6 +16,8 @@
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CAnimNotifyState_Equip.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CAttachment.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CBehaviorComponent.gen.cpp"
+#include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CBTService_Melee.gen.cpp"
+#include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CBTTaskNode_SetSpeed.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CDoAction.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CDoAction_FireStorm.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CDoAction_Melee.gen.cpp"
