@@ -18,12 +18,14 @@ class ACTIONGAME_API UCActionComponent : public UActorComponent
 	GENERATED_BODY()
 
 private:
+	// 원본 DataAsset을 불러온 후 사본 DataAsset을 
+	// 만들어 서로 간에 메모리 공유가 일어나지 않도록 처리
 	UPROPERTY(EditDefaultsOnly, Category = "Weapons")
-		class UCActionData* Datas[(int32)EActionType::Max];
+		class UCActionData* DataAssets[(int32)EActionType::Max];
 
 public:
 	UFUNCTION(BlueprintPure)
-		FORCEINLINE class UCActionData* GetCurrent() { return Datas[(int32)Type]; }
+		FORCEINLINE class UCAction* GetCurrent() { return Datas[(int32)Type]; }
 
 public:
 	UFUNCTION(BlueprintPure)
@@ -92,4 +94,5 @@ public:
 
 private:
 	EActionType Type;
+	class UCAction* Datas[(int32)EActionType::Max];
 };

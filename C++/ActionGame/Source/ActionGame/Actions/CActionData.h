@@ -86,10 +86,12 @@ private:
 	FString GetLabelName(class ACharacter* InOwnerCharacter, FString InName);
 
 public:
-	void BeginPlay(class ACharacter* InOwnerCharacter);
+	void BeginPlay(class ACharacter* InOwnerCharacter, class UCAction** OutAction);
+	// 객체를 생성해서 값을 설정한 후 리턴해주기 위해 이중 포인터 사용
 
 private:
 	class ACEquipment* Equipment;
 	class ACAttachment* Attachment;
 	class ACDoAction* DoAction;
+
 };

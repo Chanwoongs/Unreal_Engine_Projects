@@ -1,24 +1,28 @@
 #include "CActionData.h"
 #include "Global.h"
+#include "CAction.h"
 #include "CEquipment.h"
 #include "CAttachment.h"
 #include "CDoAction.h"
 #include "GameFramework/Character.h"
 #include "Components/SkeletalMeshComponent.h"
 
-void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
+void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter, UCAction** OutAction)
 {
 	FTransform transform;
+
+	ACAttachment* attachment = NULL;
 
 	// Attachment
 	if (!!AttachmentClass)
 	{
-		Attachment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACAttachment>(AttachmentClass, transform, InOwnerCharacter);
-		Attachment->SetActorLabel(GetLabelName(InOwnerCharacter, "Attachment")); // 출력되는 이름 변경
+		attachment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACAttachment>(AttachmentClass, transform, InOwnerCharacter);
+		attachment->SetActorLabel(GetLabelName(InOwnerCharacter, "Attachment")); // 출력되는 이름 변경
 
-		UGameplayStatics::FinishSpawningActor(Attachment, transform); // 등장 확정
+		UGameplayStatics::FinishSpawningActor(attachment, transform); // 등장 확정
 	}
 	
+	ACEquipment* equipment = NULL;;
 
 	// Equipment
 	// 기존 SpawnActor 사용시에는 등장과 동시에 BeginPlay가 호출된다
@@ -28,46 +32,53 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter)
 	// 객체 생성만 완료된 것이고, 등장하진 않았다
 	if (!!EquipmentClass)
 	{
-		Equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
-		Equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-		Equipment->SetActorLabel(GetLabelName(InOwnerCharacter, "Equipment"));
-		Equipment->SetData(EquipmentData);
-		Equipment->SetColor(EquipmentColor);
+		equipment = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACEquipment>(EquipmentClass, transform, InOwnerCharacter);
+		equipment->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		equipment->SetActorLabel(GetLabelName(InOwnerCharacter, "Equipment"));
+		equipment->SetData(EquipmentData);
+		equipment->SetColor(EquipmentColor);
 
-		UGameplayStatics::FinishSpawningActor(Equipment, transform); // 등장 확정
+		UGameplayStatics::FinishSpawningActor(equipment, transform); // 등장 확정
 
-		if (!!Attachment)
+		if (!!attachment)
 		{
-			Equipment->OnEquipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnEquip);
-			Equipment->OnUnequipmentDelegate.AddDynamic(Attachment, &ACAttachment::OnUnequip);
+			equipment->OnEquipmentDelegate.AddDynamic(attachment, &ACAttachment::OnEquip);
+			equipment->OnUnequipmentDelegate.AddDynamic(attachment, &ACAttachment::OnUnequip);
 		}
 	}
 	
+	ACDoAction* doAction = NULL;;
 
 	// DoAction
 	if (!!DoActionClass)
 	{
-		DoAction = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACDoAction>(DoActionClass, transform, InOwnerCharacter);
-		DoAction->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
-		DoAction->SetActorLabel(GetLabelName(InOwnerCharacter, "DoAction"));
-		DoAction->SetDatas(DoActionDatas);
+		doAction = InOwnerCharacter->GetWorld()->SpawnActorDeferred<ACDoAction>(DoActionClass, transform, InOwnerCharacter);
+		doAction->AttachToComponent(InOwnerCharacter->GetMesh(), FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		doAction->SetActorLabel(GetLabelName(InOwnerCharacter, "DoAction"));
+		doAction->SetDatas(DoActionDatas);
 
-		UGameplayStatics::FinishSpawningActor(DoAction, transform); // 등장 확정
+		UGameplayStatics::FinishSpawningActor(doAction, transform); // 등장 확정
 
-		if (!!Equipment)
+		if (!!equipment)
 		{
-			DoAction->SetEquipped(Equipment->GetEquipped());
+			doAction->SetEquipped(equipment->GetEquipped());
 		}
 
-		if (!!Attachment)
+		if (!!attachment)
 		{
-			Attachment->OnAttachmentBeginOverlap.AddDynamic(DoAction, &ACDoAction::OnAttachmentBeginOverlap);
-			Attachment->OnAttachmentEndOverlap.AddDynamic(DoAction, &ACDoAction::OnAttachmentEndOverlap);
-
-			Attachment->OnAttachmentCollision.AddDynamic(DoAction, &ACDoAction::OnAttachmentCollision);
-			Attachment->OffAttachmentCollision.AddDynamic(DoAction, &ACDoAction::OffAttachmentCollision);
+			attachment->OnAttachmentBeginOverlap.AddDynamic(doAction, &ACDoAction::OnAttachmentBeginOverlap);
+			attachment->OnAttachmentEndOverlap.AddDynamic(doAction, &ACDoAction::OnAttachmentEndOverlap);
+			
+			attachment->OnAttachmentCollision.AddDynamic(doAction, &ACDoAction::OnAttachmentCollision);
+			attachment->OffAttachmentCollision.AddDynamic(doAction, &ACDoAction::OffAttachmentCollision);
 		}
 	}
+
+	*OutAction = NewObject<UCAction>();
+	(*OutAction)->Attachment = attachment;
+	(*OutAction)->Equipment = equipment;
+	(*OutAction)->DoAction = doAction;
+	(*OutAction)->EquipmentColor = EquipmentColor;
 }
 
 // 어느 무기의 equipment인지 보기위해

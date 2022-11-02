@@ -1,5 +1,6 @@
 #include "CActionComponent.h"
 #include "Global.h"
+#include "Actions/CAction.h"
 #include "Actions/CActionData.h"
 #include "Actions/CAttachment.h"
 #include "Actions/CEquipment.h"
@@ -18,9 +19,9 @@ void UCActionComponent::BeginPlay()
 	ACharacter* character = Cast<ACharacter>(GetOwner());
 	for (int32 i = 0; i < (int32)EActionType::Max; i++)
 	{
-		if (!!Datas[i])
+		if (!!DataAssets[i])
 		{
-			Datas[i]->BeginPlay(character);
+			DataAssets[i]->BeginPlay(character, &Datas[i]);
 		}
 	}
 }
@@ -112,7 +113,7 @@ void UCActionComponent::SetIceBallMode()
 
 void UCActionComponent::OffAllCollision()
 {
-	for (UCActionData* data : Datas)
+	for (UCAction* data : Datas)
 	{
 		if (!!data == false) // NULL¿Ã∂Û∏È 
 			continue;
