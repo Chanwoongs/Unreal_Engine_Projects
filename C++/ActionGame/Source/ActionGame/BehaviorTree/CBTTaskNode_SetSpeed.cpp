@@ -21,5 +21,5 @@ EBTNodeResult::Type UCBTTaskNode_SetSpeed::ExecuteTask(UBehaviorTreeComponent& O
 
 	status->SetSpeed(SpeedType);
 
-	return EBTNodeResult::Succeeded(); // success, failed, inprogress
+	return EBTNodeResult::Succeeded; // success, failed, inprogress
 }

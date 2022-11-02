@@ -19,7 +19,7 @@ class ACTIONGAME_API UCBehaviorComponent : public UActorComponent
 
 private:
 	UPROPERTY(EditAnywhere)
-		FName BehaviorKey = "Bahavior"; // Blackboard Key
+		FName BehaviorKey = "Behavior"; // Blackboard Key
 
 	UPROPERTY(EditAnywhere)
 		FName PlayerKey = "Player";
@@ -57,13 +57,13 @@ public:
 	void SetAvoidMode();
 
 	class ACPlayer* GetTargetPlayer(); // Character Type이 되어도됌
+	EBehaviorType GetType();
 
 protected:
 	virtual void BeginPlay() override;
 
 private:
 	void ChangeType(EBehaviorType Intype);
-	EBehaviorType GetType();
 
 public:
 	UPROPERTY(BlueprintAssignable)

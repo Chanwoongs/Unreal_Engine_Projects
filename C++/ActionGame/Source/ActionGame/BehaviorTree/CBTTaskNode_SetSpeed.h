@@ -1,8 +1,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "BehaviorTree/BTTaskNode.h"
 #include "Components/CStatusComponent.h"
+#include "BehaviorTree/BTTaskNode.h"
 #include "CBTTaskNode_SetSpeed.generated.h"
 
 UCLASS()
