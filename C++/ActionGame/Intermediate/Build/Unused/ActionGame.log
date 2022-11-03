@@ -1,15 +1,11 @@
-﻿  Parsing headers for ActionGameEditor
-    Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\ActionGame.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\ActionGameEditor\Development\ActionGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ActionGameEditor in 6.6497174 seconds
-  Building ActionGameEditor...
+﻿  Building ActionGameEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] Module.ActionGame.gen.cpp
-    [2/5] Module.ActionGame.cpp
-    [3/5] UE4Editor-ActionGame-0034.lib
-       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0034.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0034.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [4/5] UE4Editor-ActionGame-0034.dll
-       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0034.suppressed.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0034.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [5/5] ActionGameEditor.target
-  Total time in Parallel executor: 11.85 seconds
-  Total execution time: 19.15 seconds
+  Building 4 actions with 8 processes...
+    [1/4] Module.ActionGame.cpp
+    [2/4] UE4Editor-ActionGame-0046.lib
+       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0046.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0046.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-ActionGame-0046.dll
+       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0046.suppressed.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0046.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [4/4] ActionGameEditor.target
+  Total time in Parallel executor: 12.21 seconds
+  Total execution time: 12.76 seconds
