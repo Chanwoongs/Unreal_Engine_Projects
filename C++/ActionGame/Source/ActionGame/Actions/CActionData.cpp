@@ -37,7 +37,7 @@ void UCActionData::BeginPlay(class ACharacter* InOwnerCharacter, UCAction** OutA
 		equipment->SetActorLabel(GetLabelName(InOwnerCharacter, "Equipment"));
 		equipment->SetData(EquipmentData);
 		equipment->SetColor(EquipmentColor);
-
+		
 		UGameplayStatics::FinishSpawningActor(equipment, transform); // 등장 확정
 
 		if (!!attachment)

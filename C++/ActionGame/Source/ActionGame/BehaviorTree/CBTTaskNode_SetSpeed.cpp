@@ -2,7 +2,6 @@
 #include "Global.h"
 #include "Characters/CAIController.h"
 #include "Characters/CEnemy_AI.h"
-#include "Components/CBehaviorComponent.h"
 
 UCBTTaskNode_SetSpeed::UCBTTaskNode_SetSpeed()
 {
@@ -14,7 +13,6 @@ EBTNodeResult::Type UCBTTaskNode_SetSpeed::ExecuteTask(UBehaviorTreeComponent& O
 	Super::ExecuteTask(OwnerComp, NodeMemory);
 
 	ACAIController* controller =  Cast<ACAIController>(OwnerComp.GetOwner());
-	UCBehaviorComponent* behavior = CHelpers::GetComponent<UCBehaviorComponent>(controller);
 
 	ACEnemy_AI* ai = Cast<ACEnemy_AI>(controller->GetPawn());
 	UCStatusComponent* status = CHelpers::GetComponent<UCStatusComponent>(ai);
