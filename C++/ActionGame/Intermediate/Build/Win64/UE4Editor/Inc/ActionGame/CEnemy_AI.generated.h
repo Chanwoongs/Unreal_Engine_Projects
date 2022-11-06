@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_AI); \
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_AI_h_10_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BehaviorTree() { return STRUCT_OFFSET(ACEnemy_AI, BehaviorTree); } \
-	FORCEINLINE static uint32 __PPO__TeamID() { return STRUCT_OFFSET(ACEnemy_AI, TeamID); }
+	FORCEINLINE static uint32 __PPO__TeamID() { return STRUCT_OFFSET(ACEnemy_AI, TeamID); } \
+	FORCEINLINE static uint32 __PPO__Patrol() { return STRUCT_OFFSET(ACEnemy_AI, Patrol); }
 
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_AI_h_7_PROLOG

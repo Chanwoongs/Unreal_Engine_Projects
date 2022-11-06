@@ -68,7 +68,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAIController); \
 
 
 #define ActionGame_Source_ActionGame_Characters_CAIController_h_10_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MeleeActionRange() { return STRUCT_OFFSET(ACAIController, MeleeActionRange); } \
+	FORCEINLINE static uint32 __PPO__BehaviorRange() { return STRUCT_OFFSET(ACAIController, BehaviorRange); } \
 	FORCEINLINE static uint32 __PPO__bDrawDebug() { return STRUCT_OFFSET(ACAIController, bDrawDebug); } \
 	FORCEINLINE static uint32 __PPO__AdjustCircleHeight() { return STRUCT_OFFSET(ACAIController, AdjustCircleHeight); } \
 	FORCEINLINE static uint32 __PPO__Perception() { return STRUCT_OFFSET(ACAIController, Perception); } \

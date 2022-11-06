@@ -416,6 +416,10 @@ void EmptyLinkFunctionForGeneratedCodeCBehaviorComponent() {}
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnBehaviorTypeChanged;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WarpKey_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_WarpKey;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerKey_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FNamePropertyParams NewProp_PlayerKey;
@@ -454,6 +458,13 @@ void EmptyLinkFunctionForGeneratedCodeCBehaviorComponent() {}
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_OnBehaviorTypeChanged = { "OnBehaviorTypeChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCBehaviorComponent, OnBehaviorTypeChanged), Z_Construct_UDelegateFunction_ActionGame_BehaviorTypeChanged__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_OnBehaviorTypeChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_OnBehaviorTypeChanged_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_WarpKey_MetaData[] = {
+		{ "Category", "CBehaviorComponent" },
+		{ "ModuleRelativePath", "Components/CBehaviorComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_WarpKey = { "WarpKey", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCBehaviorComponent, WarpKey), METADATA_PARAMS(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_WarpKey_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_WarpKey_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_PlayerKey_MetaData[] = {
 		{ "Category", "CBehaviorComponent" },
 		{ "Comment", "// Blackboard Key\n" },
@@ -471,6 +482,7 @@ void EmptyLinkFunctionForGeneratedCodeCBehaviorComponent() {}
 	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_BehaviorKey = { "BehaviorKey", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCBehaviorComponent, BehaviorKey), METADATA_PARAMS(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_BehaviorKey_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_BehaviorKey_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCBehaviorComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_OnBehaviorTypeChanged,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_WarpKey,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_PlayerKey,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBehaviorComponent_Statics::NewProp_BehaviorKey,
 	};
@@ -501,7 +513,7 @@ void EmptyLinkFunctionForGeneratedCodeCBehaviorComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBehaviorComponent, 789062997);
+	IMPLEMENT_CLASS(UCBehaviorComponent, 4241467376);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBehaviorComponent>()
 	{
 		return UCBehaviorComponent::StaticClass();

@@ -30,6 +30,8 @@ EBTNodeResult::Type UCBTTaskNode_Patrol::ExecuteTask(UBehaviorTreeComponent& Own
 
 void UCBTTaskNode_Patrol::TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
 {
+	Super::TickTask(OwnerComp, NodeMemory, DeltaSeconds);
+
 	ACAIController* controller = Cast<ACAIController>(OwnerComp.GetOwner());
 	ACEnemy_AI* ai = Cast<ACEnemy_AI>(controller->GetPawn());
 	UCPatrolComponent* patrol = CHelpers::GetComponent<UCPatrolComponent>(ai);

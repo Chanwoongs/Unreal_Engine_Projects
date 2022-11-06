@@ -94,7 +94,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBehaviorComponent); \
 
 #define ActionGame_Source_ActionGame_Components_CBehaviorComponent_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BehaviorKey() { return STRUCT_OFFSET(UCBehaviorComponent, BehaviorKey); } \
-	FORCEINLINE static uint32 __PPO__PlayerKey() { return STRUCT_OFFSET(UCBehaviorComponent, PlayerKey); }
+	FORCEINLINE static uint32 __PPO__PlayerKey() { return STRUCT_OFFSET(UCBehaviorComponent, PlayerKey); } \
+	FORCEINLINE static uint32 __PPO__WarpKey() { return STRUCT_OFFSET(UCBehaviorComponent, WarpKey); }
 
 
 #define ActionGame_Source_ActionGame_Components_CBehaviorComponent_h_15_PROLOG

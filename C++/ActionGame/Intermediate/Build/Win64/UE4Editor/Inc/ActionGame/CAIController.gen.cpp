@@ -109,9 +109,9 @@ void EmptyLinkFunctionForGeneratedCodeCAIController() {}
 		static void NewProp_bDrawDebug_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bDrawDebug;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeleeActionRange_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviorRange_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MeleeActionRange;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BehaviorRange;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -169,18 +169,18 @@ void EmptyLinkFunctionForGeneratedCodeCAIController() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACAIController_Statics::NewProp_bDrawDebug = { "bDrawDebug", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACAIController), &Z_Construct_UClass_ACAIController_Statics::NewProp_bDrawDebug_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACAIController_Statics::NewProp_bDrawDebug_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAIController_Statics::NewProp_bDrawDebug_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAIController_Statics::NewProp_MeleeActionRange_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAIController_Statics::NewProp_BehaviorRange_MetaData[] = {
 		{ "Category", "CAIController" },
 		{ "ModuleRelativePath", "Characters/CAIController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACAIController_Statics::NewProp_MeleeActionRange = { "MeleeActionRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAIController, MeleeActionRange), METADATA_PARAMS(Z_Construct_UClass_ACAIController_Statics::NewProp_MeleeActionRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAIController_Statics::NewProp_MeleeActionRange_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACAIController_Statics::NewProp_BehaviorRange = { "BehaviorRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAIController, BehaviorRange), METADATA_PARAMS(Z_Construct_UClass_ACAIController_Statics::NewProp_BehaviorRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAIController_Statics::NewProp_BehaviorRange_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACAIController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_Behavior,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_Perception,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_AdjustCircleHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_bDrawDebug,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_MeleeActionRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAIController_Statics::NewProp_BehaviorRange,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACAIController>::IsAbstract,
@@ -209,7 +209,7 @@ void EmptyLinkFunctionForGeneratedCodeCAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACAIController, 1148174688);
+	IMPLEMENT_CLASS(ACAIController, 2642738190);
 	template<> ACTIONGAME_API UClass* StaticClass<ACAIController>()
 	{
 		return ACAIController::StaticClass();

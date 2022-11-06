@@ -36,7 +36,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 protected:
-	virtual void BeginPlay() override;
+	virtual void BeginPlay() override; 
 
 	virtual void OnPossess(APawn* InPawn) override; // 빙의될 때 호출되는 함수
 	virtual void OnUnPossess() override; // 빙의가 해제될 때 호출되는 함수
