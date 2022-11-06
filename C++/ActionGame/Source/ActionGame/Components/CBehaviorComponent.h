@@ -24,6 +24,9 @@ private:
 	UPROPERTY(EditAnywhere)
 		FName PlayerKey = "Player";
 
+	UPROPERTY(EditAnywhere)
+		FName WarpKey = "Warp";
+
 public:
 	UFUNCTION(BlueprintPure)
 		bool IsWaitMode();
@@ -57,13 +60,14 @@ public:
 	void SetAvoidMode();
 
 	class ACPlayer* GetTargetPlayer(); // Character Type이 되어도됌
-	EBehaviorType GetType();
+	FVector GetWarpLocation();
 
 protected:
 	virtual void BeginPlay() override;
 
 private:
 	void ChangeType(EBehaviorType Intype);
+	EBehaviorType GetType();
 
 public:
 	UPROPERTY(BlueprintAssignable)

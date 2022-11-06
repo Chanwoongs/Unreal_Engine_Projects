@@ -77,7 +77,7 @@ void ACAIController::Tick(float DeltaTime)
 	center.Z -= AdjustCircleHeight;
 	DrawDebugCircle(GetWorld(), center, Sight->SightRadius, 300, FColor::Green, false, -1, 0, 0, 
 		FVector::RightVector, FVector::ForwardVector); // 원을 그릴 회전 방향, 앞에서 오른쪽 시계 방향으로 그린다.
-	DrawDebugCircle(GetWorld(), center, MeleeActionRange, 300, FColor::Red, false, -1, 0, 0,
+	DrawDebugCircle(GetWorld(), center, BehaviorRange, 300, FColor::Red, false, -1, 0, 0,
 		FVector::RightVector, FVector::ForwardVector);
 }
 

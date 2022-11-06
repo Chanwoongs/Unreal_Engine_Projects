@@ -1,18 +1,17 @@
-#include "CBTService_Melee.h"
+#include "CBTService_Wizard.h"
 #include "Global.h"
 #include "Characters/CPlayer.h"
 #include "Characters/CAIController.h"
 #include "Characters/CEnemy_AI.h"
 #include "Components/CBehaviorComponent.h"
 #include "Components/CStateComponent.h"
-#include "Components/CPatrolComponent.h"
 
-UCBTService_Melee::UCBTService_Melee()
+UCBTService_Wizard::UCBTService_Wizard()
 {
-	NodeName = "Melee"; // 노드 이름 세팅
+	NodeName = "Wizard"; // 노드 이름 세팅
 }
 
-void UCBTService_Melee::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
+void UCBTService_Wizard::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
 {
 	Super::TickNode(OwnerComp, NodeMemory, DeltaSeconds);
 
@@ -21,7 +20,6 @@ void UCBTService_Melee::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 
 	ACEnemy_AI* ai = Cast<ACEnemy_AI>(controller->GetPawn());
 	UCStateComponent* state = CHelpers::GetComponent<UCStateComponent>(ai);
-	UCPatrolComponent* patrol = CHelpers::GetComponent<UCPatrolComponent>(ai);
 
 	if (state->IsHittedMode())
 	{
@@ -33,17 +31,10 @@ void UCBTService_Melee::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 	ACPlayer* target = behavior->GetTargetPlayer();
 	if (target == NULL)
 	{
-		// Patrol Mode
-		if (patrol != NULL && patrol->IsValid())
-		{
-			behavior->SetPatrolMode();
-
-			return;
-		}
-
-
 		// Wait Mode
 		behavior->SetWaitMode();
+		controller->ClearFocus(EAIFocusPriority::Default);
+
 		return;
 	}
 	else
@@ -57,17 +48,21 @@ void UCBTService_Melee::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeM
 		}
 	}
 
+	controller->SetFocus(target); // 적 발견시 바라봄
+
+	float action = controller->GetSightRadius();
 	float distance = ai->GetDistanceTo(target);
+
 	if (distance < controller->GetBehaviorRange())
 	{
-		behavior->SetActionMode();
+		behavior->SetAvoidMode();
 
 		return;
 	}
 
-	if (distance < controller->GetSightRadius())
+	if (distance < action)
 	{
-		behavior->SetApproachMode();
+		behavior->SetActionMode();
 
 		return;
 	}

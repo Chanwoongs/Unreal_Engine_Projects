@@ -62,11 +62,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void SetTwoHandMode();
 
+	UFUNCTION(BlueprintCallable)
+		void SetIceBallMode();
+
+	UFUNCTION(BlueprintCallable)
+		void SetWarpMode();
+
 	void SetFistMode();
 	void SetOneHandMode();
-	void SetWarpMode();
 	void SetFireStormMode();
-	void SetIceBallMode();
 
 
 

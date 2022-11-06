@@ -11,7 +11,7 @@ class ACTIONGAME_API ACAIController : public AAIController
 	
 private:
 	UPROPERTY(EditAnywhere)
-		float MeleeActionRange = 150; // AI의 근거리 공격 범위
+		float BehaviorRange = 150; // AI의 근거리 공격 범위
 
 	UPROPERTY(EditAnywhere)
 		bool bDrawDebug = true;
@@ -27,7 +27,7 @@ private:
 		class UCBehaviorComponent* Behavior;
 
 public:
-	FORCEINLINE float GetMeleeActionRange() { return MeleeActionRange; }
+	FORCEINLINE float GetBehaviorRange() { return BehaviorRange; }
 
 public:
 	ACAIController();

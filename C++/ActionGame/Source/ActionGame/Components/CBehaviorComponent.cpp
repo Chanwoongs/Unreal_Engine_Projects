@@ -90,6 +90,11 @@ ACPlayer* UCBehaviorComponent::GetTargetPlayer()
 	return Cast<ACPlayer>(Blackboard->GetValueAsObject(PlayerKey));
 }
 
+FVector UCBehaviorComponent::GetWarpLocation()
+{
+	return Blackboard->GetValueAsVector(WarpKey);
+}
+
 EBehaviorType UCBehaviorComponent::GetType()
 {
 	return (EBehaviorType)Blackboard->GetValueAsEnum(BehaviorKey);
