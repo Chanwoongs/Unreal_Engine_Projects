@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_ACEnemy_AI();
 	ACTIONGAME_API UClass* Z_Construct_UClass_ACEnemy();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCPatrolComponent_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
 	void ACEnemy_AI::StaticRegisterNativesACEnemy_AI()
@@ -33,10 +32,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Patrol_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Patrol;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TeamID_MetaData[];
 #endif
@@ -61,14 +56,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_Patrol_MetaData[] = {
-		{ "Category", "CEnemy_AI" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/CEnemy_AI.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_Patrol = { "Patrol", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy_AI, Patrol), Z_Construct_UClass_UCPatrolComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_Patrol_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_Patrol_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_TeamID_MetaData[] = {
 		{ "Category", "AI" },
 		{ "ModuleRelativePath", "Characters/CEnemy_AI.h" },
@@ -83,7 +70,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_BehaviorTree = { "BehaviorTree", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy_AI, BehaviorTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_BehaviorTree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_BehaviorTree_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACEnemy_AI_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_Patrol,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_TeamID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_AI_Statics::NewProp_BehaviorTree,
 	};
@@ -114,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy_AI, 1963519590);
+	IMPLEMENT_CLASS(ACEnemy_AI, 2114479203);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy_AI>()
 	{
 		return ACEnemy_AI::StaticClass();
