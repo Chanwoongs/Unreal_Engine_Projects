@@ -125,6 +125,24 @@ void UCActionComponent::OffAllCollision()
 	}
 }
 
+void UCActionComponent::DestroyAllActions()
+{
+	for (UCAction* data : Datas)
+	{
+		if (!!data == false) // NULLÀÌ¶ó¸é 
+			continue;
+
+		if (!!data->GetAttachment())
+			data->GetAttachment()->Destroy();
+
+		if (!!data->GetEquipment())
+			data->GetEquipment()->Destroy();
+
+		if (!!data->GetDoAction())
+			data->GetDoAction()->Destroy();
+	}
+}
+
 
 void UCActionComponent::DoAction()
 {

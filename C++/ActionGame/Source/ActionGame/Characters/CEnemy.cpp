@@ -178,13 +178,14 @@ void ACEnemy::Dead()
 void ACEnemy::BeginDead()
 {
 	// 충돌 전부 끄기 (캐릭터, 무기 등등)
-	Action->OffAllCollision();
+	Action->OffAllCollision();	
 	
 	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
 void ACEnemy::EndDead()
 {
+	Action->DestroyAllActions();
 	Destroy();
 }
 

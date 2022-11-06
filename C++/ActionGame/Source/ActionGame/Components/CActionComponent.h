@@ -75,6 +75,7 @@ public:
 
 
 	void OffAllCollision();
+	void DestroyAllActions();
 
 public:
 	void DoAction();
