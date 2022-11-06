@@ -68,6 +68,7 @@ public:
 
 	virtual FGenericTeamId GetGenericTeamId() const override; // Team ID
 
+	virtual float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 
 private:
 	void OnMoveForward(float InAxis);
@@ -117,6 +118,14 @@ private:
 	void OnViewActionList();
 	void OffViewActionList();
 
+private:
+		void Hitted();
+		void Dead();
+
+public:
+	virtual void BeginDead() override;
+	virtual void EndDead() override;
+
 
 public:
 	virtual void ChangeColor(FLinearColor InColor) override;
@@ -127,4 +136,8 @@ private:
 
 protected:
 	class UCUserWidget_ActionList* ActionList;
+
+private:
+	class AController* DamageInstigator;
+	float DamageValue;
 };

@@ -216,6 +216,10 @@ void ACPlayer::OnStateTypeChanged(EStateType InPreviousType, EStateType InNewTyp
 		break;
 	case EStateType::Backstep: Begin_Backstep();
 		break;
+	case EStateType::Hitted: Hitted();
+		break;
+	case EStateType::Dead: Dead();
+		break;
 	default:
 		break;
 	}
@@ -360,10 +364,54 @@ void ACPlayer::OffViewActionList()
 
 }
 
-
 void ACPlayer::ChangeColor(FLinearColor InColor)
 {
 	BodyMaterial->SetVectorParameterValue("BodyColor", InColor);
 	LogoMaterial->SetVectorParameterValue("BodyColor", InColor);
+}
+
+
+float ACPlayer::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	DamageInstigator = EventInstigator;
+	DamageValue = Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+
+	State->SetHittedMode();
+
+	return Status->GetHealth();
+}
+
+void ACPlayer::Hitted()
+{
+	Status->SubHealth(DamageValue);
+	DamageValue = 0.0f;
+
+	// Montage 재생
+	if (Status->GetHealth() <= 0.0f)
+	{
+		State->SetDeadMode();
+
+		return;
+	}
+	Montages->PlayHitted();
+}
+
+void ACPlayer::Dead()
+{
+	CheckFalse(State->IsDeadMode());
+
+	Montages->PlayDead();
+}
+
+void ACPlayer::BeginDead()
+{
+	// 충돌 전부 끄기 (캐릭터, 무기 등등)
+	Action->OffAllCollision();
+}
+
+void ACPlayer::EndDead()
+{
+	Action->DestroyAllActions();
+	UKismetSystemLibrary::QuitGame(GetWorld(), GetController<APlayerController>(), EQuitPreference::Quit, false);
 }
 
