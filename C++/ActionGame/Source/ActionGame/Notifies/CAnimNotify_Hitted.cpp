@@ -2,6 +2,9 @@
 #include "Global.h"
 #include "GameFramework/Character.h"
 #include "Components/CStateComponent.h"
+#include "Components/CActionComponent.h"
+#include "Actions/CAction.h"
+#include "Actions/CDoAction_Melee.h"
 
 FString UCAnimNotify_Hitted::GetNotifyName_Implementation()const
 {
@@ -22,6 +25,15 @@ void UCAnimNotify_Hitted::Notify(USkeletalMeshComponent* MeshComp, UAnimSequence
 	CheckNull(state);
 
 	state->SetIdleMode();
+
+	UCActionComponent* action = CHelpers::GetComponent<UCActionComponent>(character);
+	CheckNull(action);
+	ACDoAction* doAction = action->GetCurrent()->GetDoAction();
+	CheckNull(doAction);
+	doAction->End_Action();
+
+
+
 }
 
 
