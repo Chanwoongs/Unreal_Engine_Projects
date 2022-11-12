@@ -387,12 +387,13 @@ void ACPlayer::Hitted()
 	DamageValue = 0.0f;
 
 	// Montage Àç»ý
-	if (Status->GetHealth() <= 0.0f)
-	{
-		State->SetDeadMode();
+	//if (Status->GetHealth() <= 0.0f)
+	//{
+	//	State->SetDeadMode();
 
-		return;
-	}
+	//	return;
+	//}
+	Status->SetMove();
 	Montages->PlayHitted();
 }
 
