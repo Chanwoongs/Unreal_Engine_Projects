@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		return EActionType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EActionType(EActionType_StaticEnum, TEXT("/Script/ActionGame"), TEXT("EActionType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 4048849074U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 2476493088U; }
 	UEnum* Z_Construct_UEnum_ActionGame_EActionType()
 	{
 #if WITH_HOT_RELOAD
@@ -97,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				{ "EActionType::Warp", (int64)EActionType::Warp },
 				{ "EActionType::FireStorm", (int64)EActionType::FireStorm },
 				{ "EActionType::IceBall", (int64)EActionType::IceBall },
+				{ "EActionType::Mutant", (int64)EActionType::Mutant },
 				{ "EActionType::Max", (int64)EActionType::Max },
 			};
 #if WITH_METADATA
@@ -107,6 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				{ "IceBall.Name", "EActionType::IceBall" },
 				{ "Max.Name", "EActionType::Max" },
 				{ "ModuleRelativePath", "Components/CActionComponent.h" },
+				{ "Mutant.Name", "EActionType::Mutant" },
 				{ "OneHand.Name", "EActionType::OneHand" },
 				{ "TwoHand.Name", "EActionType::TwoHand" },
 				{ "Unarmed.Name", "EActionType::Unarmed" },
@@ -128,6 +130,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
 		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execSetMutantMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetMutantMode();
+		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCActionComponent::execSetWarpMode)
 	{
@@ -155,6 +164,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->SetUnarmedMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execIsMutantMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsMutantMode();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCActionComponent::execIsIceBallMode)
@@ -221,11 +237,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			{ "IsFireStormMode", &UCActionComponent::execIsFireStormMode },
 			{ "IsFistMode", &UCActionComponent::execIsFistMode },
 			{ "IsIceBallMode", &UCActionComponent::execIsIceBallMode },
+			{ "IsMutantMode", &UCActionComponent::execIsMutantMode },
 			{ "IsOneHandMode", &UCActionComponent::execIsOneHandMode },
 			{ "IsTwoHandMode", &UCActionComponent::execIsTwoHandMode },
 			{ "IsUnarmedMode", &UCActionComponent::execIsUnarmedMode },
 			{ "IsWarpMode", &UCActionComponent::execIsWarpMode },
 			{ "SetIceBallMode", &UCActionComponent::execSetIceBallMode },
+			{ "SetMutantMode", &UCActionComponent::execSetMutantMode },
 			{ "SetTwoHandMode", &UCActionComponent::execSetTwoHandMode },
 			{ "SetUnarmedMode", &UCActionComponent::execSetUnarmedMode },
 			{ "SetWarpMode", &UCActionComponent::execSetWarpMode },
@@ -372,6 +390,43 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsIceBallMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics
+	{
+		struct CActionComponent_eventIsMutantMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CActionComponent_eventIsMutantMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CActionComponent_eventIsMutantMode_Parms), &Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "IsMutantMode", nullptr, nullptr, sizeof(CActionComponent_eventIsMutantMode_Parms), Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_IsMutantMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsMutantMode_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -545,6 +600,28 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "SetMutantMode", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_SetMutantMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_SetMutantMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics
 	{
 #if WITH_METADATA
@@ -643,11 +720,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		{ &Z_Construct_UFunction_UCActionComponent_IsFireStormMode, "IsFireStormMode" }, // 352964673
 		{ &Z_Construct_UFunction_UCActionComponent_IsFistMode, "IsFistMode" }, // 1251719032
 		{ &Z_Construct_UFunction_UCActionComponent_IsIceBallMode, "IsIceBallMode" }, // 2349821299
+		{ &Z_Construct_UFunction_UCActionComponent_IsMutantMode, "IsMutantMode" }, // 4030639049
 		{ &Z_Construct_UFunction_UCActionComponent_IsOneHandMode, "IsOneHandMode" }, // 672399581
 		{ &Z_Construct_UFunction_UCActionComponent_IsTwoHandMode, "IsTwoHandMode" }, // 1373337640
 		{ &Z_Construct_UFunction_UCActionComponent_IsUnarmedMode, "IsUnarmedMode" }, // 2821889002
 		{ &Z_Construct_UFunction_UCActionComponent_IsWarpMode, "IsWarpMode" }, // 716935244
 		{ &Z_Construct_UFunction_UCActionComponent_SetIceBallMode, "SetIceBallMode" }, // 1705234623
+		{ &Z_Construct_UFunction_UCActionComponent_SetMutantMode, "SetMutantMode" }, // 2498025370
 		{ &Z_Construct_UFunction_UCActionComponent_SetTwoHandMode, "SetTwoHandMode" }, // 2880942245
 		{ &Z_Construct_UFunction_UCActionComponent_SetUnarmedMode, "SetUnarmedMode" }, // 3018326069
 		{ &Z_Construct_UFunction_UCActionComponent_SetWarpMode, "SetWarpMode" }, // 1003519650
@@ -707,7 +786,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 3094051428);
+	IMPLEMENT_CLASS(UCActionComponent, 3628445394);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();

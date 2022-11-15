@@ -1,0 +1,1563 @@
+﻿Log file open, 11/13/22 03:14:03
+LogInit: Display: Running engine for game: ActionGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.225549
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Game/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:652][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2022.11.12-18.14.03:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:653][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.11.12-18.14.03:653][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:653][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.12-18.14.03:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.12-18.14.03:660][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.12-18.14.03:660][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.12-18.14.03:660][  0]LogHAL: Display: Platform has ~ 48 GB [51453968384 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.12-18.14.03:660][  0]LogInit: Going up to parent DeviceProfile []
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.12-18.14.03:660][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Scalability.ini]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.11.12-18.14.03:661][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Config/Windows/Engine.ini]
+[2022.11.12-18.14.03:661][  0]LogInit: Computer: 찬웅
+[2022.11.12-18.14.03:661][  0]LogInit: User: Chanwoongs
+[2022.11.12-18.14.03:661][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.11.12-18.14.03:661][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.12-18.14.03:661][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2022.11.12-18.14.03:661][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.12-18.14.03:661][  0]LogMemory: Process Physical Memory: 119.21 MB used, 119.21 MB peak
+[2022.11.12-18.14.03:661][  0]LogMemory: Process Virtual Memory: 97.17 MB used, 97.17 MB peak
+[2022.11.12-18.14.03:661][  0]LogMemory: Physical Memory: 17276.61 MB used,  31793.71 MB free, 49070.33 MB total
+[2022.11.12-18.14.03:662][  0]LogMemory: Virtual Memory: 5150.09 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2022.11.12-18.14.03:674][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.12-18.14.03:809][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.11.12-18.14.03:810][  0]LogInit: Using OS detected language (ko-KR).
+[2022.11.12-18.14.03:810][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.11.12-18.14.03:813][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.11.12-18.14.03:892][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.12-18.14.03:959][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.12-18.14.03:959][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.12-18.14.04:218][  0]LogD3D12RHI: Aftermath initialized
+[2022.11.12-18.14.04:218][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.11.12-18.14.04:226][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.12-18.14.04:464][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2080 (Max supported Feature Level 12_1)
+[2022.11.12-18.14.04:465][  0]LogD3D12RHI: Adapter has 8001MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 2 output[s]
+[2022.11.12-18.14.04:480][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2022.11.12-18.14.04:480][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 24535MB of shared system memory, 0 output[s]
+[2022.11.12-18.14.04:480][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2022.11.12-18.14.04:480][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.11.12-18.14.04:488][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.11.12-18.14.04:565][  0]LogD3D12RHI: D3D12 ray tracing enabled.
+[2022.11.12-18.14.04:565][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2022.11.12-18.14.04:565][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2022.11.12-18.14.04:593][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.11.12-18.14.04:598][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.11.12-18.14.04:607][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.11.12-18.14.04:612][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.11.12-18.14.04:612][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.11.12-18.14.04:614][  0]LogD3D12RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.12-18.14.04:614][  0]LogWindows: EnumDisplayDevices:
+[2022.11.12-18.14.04:614][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2022.11.12-18.14.04:615][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2022.11.12-18.14.04:616][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.11.12-18.14.04:617][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2022.11.12-18.14.04:618][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.11.12-18.14.04:618][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2022.11.12-18.14.04:618][  0]LogD3D12RHI:   Driver Version: 526.86 (internal:31.0.15.2686, unified:526.86)
+[2022.11.12-18.14.04:618][  0]LogD3D12RHI:      Driver Date: 11-8-2022
+[2022.11.12-18.14.04:618][  0]LogRHI: Texture pool is 4556 MB (70% of 6509 MB)
+[2022.11.12-18.14.04:618][  0]LogD3D12RHI: Async texture creation enabled
+[2022.11.12-18.14.04:618][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.11.12-18.14.05:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.12-18.14.05:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.12-18.14.05:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.12-18.14.05:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.12-18.14.05:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.12-18.14.05:059][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.12-18.14.05:088][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.12-18.14.05:088][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.12-18.14.05:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.12-18.14.05:113][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.11.12-18.14.05:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.12-18.14.05:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.12-18.14.05:147][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.11.12-18.14.05:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.11.12-18.14.05:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.11.12-18.14.05:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.11.12-18.14.05:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.11.12-18.14.05:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.12-18.14.05:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.12-18.14.05:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.11.12-18.14.05:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.12-18.14.05:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.12-18.14.05:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.12-18.14.05:263][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.12-18.14.05:275][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.12-18.14.05:371][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Shaders/WorkingDirectory/30440/).
+[2022.11.12-18.14.05:372][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chanwoongs/AppData/Local/Temp/UnrealShaderWorkingDir/9995152B4798B977C9BCA5A33941CD72/'.
+[2022.11.12-18.14.05:372][  0]LogXGEController: Cleaning working directory: C:/Users/Chanwoongs/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.11.12-18.14.05:373][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.12-18.14.05:373][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.11.12-18.14.05:373][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.12-18.14.06:074][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: Loaded boot cache 0.06s 119MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.12-18.14.06:137][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.12-18.14.06:146][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.12-18.14.06:146][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.12-18.14.06:146][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.11.12-18.14.06:147][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chanwoongs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.12-18.14.06:147][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.12-18.14.06:147][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.11.12-18.14.06:197][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.12-18.14.06:198][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.12-18.14.06:225][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2022.11.12-18.14.06:419][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.12-18.14.06:542][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.12-18.14.06:542][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.12-18.14.06:542][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.12-18.14.06:542][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.12-18.14.06:542][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.12-18.14.06:732][  0]LogNetVersion: ActionGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4144894281)
+[2022.11.12-18.14.07:116][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021337AB3280), frame # 0
+[2022.11.12-18.14.07:116][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021337A5D940), frame # 0
+[2022.11.12-18.14.07:117][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021337A9EC00), frame # 0
+[2022.11.12-18.14.07:174][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.051933 seconds
+[2022.11.12-18.14.07:179][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.11.12-18.14.07:179][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.11.12-18.14.07:179][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.12-18.14.07:408][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 47.37 ms. Compile time 7.79 ms, link time 39.54 ms.
+[2022.11.12-18.14.07:446][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (1 cached, 2 new) took 37.59 ms. Compile time 5.04 ms, link time 32.54 ms.
+[2022.11.12-18.14.07:736][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.12-18.14.07:742][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.12-18.14.08:008][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Wizard/Wizard_Attack_1.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:009][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Wizard/Wizard_Attack_1.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:009][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Wizard/Wizard_Attack_1.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:009][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Wizard/Wizard_Attack_1.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:010][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/IceBall/IceBall_Montage.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:010][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/IceBall/IceBall_Montage.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:010][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/IceBall/IceBall_Montage.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:010][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/IceBall/IceBall_Montage.uasset' 로드 도중 '/Game/Notifies/Wizard/AN_WizardThrow' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:025][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:025][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:026][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:026][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:026][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:027][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:027][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:027][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Sword/Sword_Draw_2.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:028][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:028][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:028][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:028][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_Equipped' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:029][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:029][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:029][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:030][  0]LogLinker: Warning: 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/OneHand/Sword_Draw_Montage.uasset' 로드 도중 '/Game/Notifies/Sword/AN_GrabSword' 로드에 실패했습니다: 애셋에 대한 파일을 찾을 수 없습니다.
+[2022.11.12-18.14.08:140][  0]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2022.11.12-18.14.08:140][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2022.11.12-18.14.08:287][  0]LogPackageName: SearchForPackageOnDisk took   0.146s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2022.11.12-18.14.08:287][  0]LogPackageName: Warning: Asset path "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2022.11.12-18.14.08:432][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.08:432][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.08:437][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.08:442][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.08:458][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.08:825][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.12-18.14.08:859][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.12-18.14.08:859][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.12-18.14.08:922][  0]LogOcInput: OculusInput pre-init called
+[2022.11.12-18.14.08:937][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.11.12-18.14.08:937][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.11.12-18.14.09:034][  0]LogEngine: Initializing Engine...
+[2022.11.12-18.14.09:035][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.12-18.14.09:035][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.11.12-18.14.09:036][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.11.12-18.14.09:144][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.12-18.14.09:153][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.12-18.14.09:153][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021354107C00), frame # 0
+[2022.11.12-18.14.09:153][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000213541A5E40), frame # 0
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.12-18.14.09:159][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.12-18.14.09:159][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.12-18.14.09:160][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.11.12-18.14.09:160][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.12-18.14.09:195][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.12-18.14.09:195][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.11.12-18.14.09:303][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.11.12-18.14.09:305][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.12-18.14.09:307][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.12-18.14.09:307][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.12-18.14.09:308][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.12-18.14.09:309][  0]LogInit: FAudioDevice initialized.
+[2022.11.12-18.14.09:309][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.12-18.14.09:395][  0]LogDerivedDataCache: Saved boot cache 0.09s 119MB C:/Users/Chanwoongs/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.12-18.14.09:398][  0]LogInit: Texture streaming: Enabled
+[2022.11.12-18.14.09:425][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.12-18.14.09:426][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.11.12-18.14.09:431][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.11.12-18.14.09:474][  0]LogInit: Transaction tracking system initialized
+[2022.11.12-18.14.09:507][  0]BlueprintLog: New page: 에디터 로드
+[2022.11.12-18.14.09:617][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.11.12-18.14.09:805][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.12-18.14.09:805][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.12-18.14.09:997][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/' took 0.02s
+[2022.11.12-18.14.10:211][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2022.11.12-18.14.10:211][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.740
+[2022.11.12-18.14.10:211][  0]Cmd: MAP LOAD FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Maps/RPG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.12-18.14.10:212][  0]LightingResults: New page: 라이팅 빌드
+[2022.11.12-18.14.10:213][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.14.10:213][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.14.10:213][  0]MapCheck: New page: 맵 체크
+[2022.11.12-18.14.10:213][  0]LightingResults: New page: 라이팅 빌드
+[2022.11.12-18.14.10:220][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021354107C00), frame # 0
+[2022.11.12-18.14.10:220][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000213541A5E40), frame # 0
+[2022.11.12-18.14.10:221][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.12-18.14.10:417][  0]LogAIModule: Creating AISystem for world RPG
+[2022.11.12-18.14.10:417][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002132CA9B000), frame # 0
+[2022.11.12-18.14.10:417][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002132CAD1F80), frame # 0
+[2022.11.12-18.14.10:429][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Level_Lights) is flushing async loading
+[2022.11.12-18.14.10:429][  0]LogStreaming: Display: Flushing async loaders.
+[2022.11.12-18.14.10:449][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Level_Assets) is flushing async loading
+[2022.11.12-18.14.10:634][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.12-18.14.10:647][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.11.12-18.14.10:648][  0]MapCheck: /Game/Maps/Level_Assets 레벨의 20 개 컴포넌트에 대해 페인트된 버텍스 컬러를 고치는 데 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2022.11.12-18.14.10:648][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 페인트된 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2022.11.12-18.14.10:648][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.12-18.14.10:648][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 0.653ms.
+[2022.11.12-18.14.10:748][  0]LogFileHelpers: Loading map 'RPG' took 0.537
+[2022.11.12-18.14.10:758][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.287
+[2022.11.12-18.14.10:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-18.14.10:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-18.14.10:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-18.14.10:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.12-18.14.10:900][  0]LogCollectionManager: Loaded 0 collections in 0.001132 seconds
+[2022.11.12-18.14.10:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Collections/' took 0.00s
+[2022.11.12-18.14.10:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Developers/Chanwoongs/Collections/' took 0.00s
+[2022.11.12-18.14.10:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Collections/' took 0.00s
+[2022.11.12-18.14.10:913][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3484 classes and 832 folders.
+[2022.11.12-18.14.10:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.12-18.14.11:034][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.12-18.14.11:044][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2022.11.12-18.14.11:138][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.12-18.14.11:140][  0]LogSlate: Took 0.001359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.11.12-18.14.11:143][  0]LogSlate: Took 0.001285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.11.12-18.14.11:143][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.12-18.14.11:145][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.12-18.14.11:145][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.12-18.14.11:169][  0]LogSlate: Took 0.001211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.11.12-18.14.11:250][  0]LogRenderer: Reallocating scene render targets to support 2040x808 Format 10 NumSamples 1 (Frame:1).
+[2022.11.12-18.14.11:636][  0]LogD3D12RHI: Creating RTPSO with 158 shaders (0 cached, 158 new) took 355.34 ms. Compile time 348.30 ms, link time 6.79 ms.
+[2022.11.12-18.14.11:766][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (3 cached, 0 new) took 43.91 ms. Compile time 0.02 ms, link time 43.88 ms.
+[2022.11.12-18.14.11:893][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 107.97 ms. Compile time 7.84 ms, link time 100.11 ms.
+[2022.11.12-18.14.12:044][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.12-18.14.12:044][  0]LogLoad: (Engine Initialization) Total time: 13.57 seconds
+[2022.11.12-18.14.12:044][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.12-18.14.12:090][  0]LogAssetRegistry: Asset discovery search completed in 5.8651 seconds
+[2022.11.12-18.14.12:093][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.11.12-18.14.12:093][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.12-18.14.12:421][  2]LogD3D12RHI: Creating RTPSO with 159 shaders (158 cached, 1 new) took 12.77 ms. Compile time 4.08 ms, link time 8.43 ms.
+[2022.11.12-18.16.04:872][667]LogSlate: Took 0.137698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.12-18.16.04:920][667]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.11.12-18.16.04:920][667]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.11.12-18.16.04:989][667]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.12-18.16.14:235][697]Running D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/ActionGame.uproject" -game -rocket -progress
+[2022.11.12-18.16.14:745][697]Discovering modules, targets and source code for project...
+[2022.11.12-18.16.16:557][697]Binding IntelliSense data...
+[2022.11.12-18.16.18:477][697]Binding IntelliSense data... 100%
+[2022.11.12-18.16.18:477][697]Writing project files...
+[2022.11.12-18.16.22:610][697]Writing project files... 100%
+[2022.11.12-18.16.22:741][697]Candidate modules for hot reload:
+[2022.11.12-18.16.22:741][697]  ActionGame
+[2022.11.12-18.16.22:741][697]Launching UnrealBuildTool... [D:/Game/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ActionGame,1466 ActionGameEditor Win64 Development -Project="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/ActionGame.uproject" "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/ActionGame.uproject"  -IgnoreJunk]
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: New page: 컴파일 - 2022. 11. 13. 오후 12:16:46
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Creating makefile for ActionGameEditor (no existing makefile)
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Parsing headers for ActionGameEditor
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\ActionGame.uproject" "C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\ActionGameEditor\Development\ActionGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Chanwoongs\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Reflection code generated for ActionGameEditor in 7.9614177 seconds
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Building ActionGameEditor...
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.12-18.16.46:889][697]CompilerResultsLog: Building 5 actions with 8 processes...
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:   [1/5] Module.ActionGame.gen.cpp
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:   [2/5] Module.ActionGame.cpp
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:   [3/5] UE4Editor-ActionGame-1466.lib
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-1466.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-1466.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:   [4/5] UE4Editor-ActionGame-1466.dll
+[2022.11.12-18.16.46:889][697]CompilerResultsLog:      C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-1466.suppressed.lib ???̺귯?? ?? C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-1466.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.11.12-18.16.46:890][697]CompilerResultsLog:   [5/5] ActionGameEditor.target
+[2022.11.12-18.16.46:890][697]CompilerResultsLog: Total time in Parallel executor: 14.19 seconds
+[2022.11.12-18.16.46:890][697]CompilerResultsLog: Total execution time: 24.03 seconds
+[2022.11.12-18.16.46:890][697]LogMainFrame: MainFrame: Module compiling took 24.155 seconds
+[2022.11.12-18.16.46:919][697]LogClass: Could not find existing class CEnemy_Warrok in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.16.46:924][697]LogClass: EActionType HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: EStateType HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: EBehaviorType HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: ECharacterSpeed HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: DoActionData HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: EquipmentData HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: FeetData HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: MontageData HotReload.
+[2022.11.12-18.16.46:924][697]LogClass: UserWidget_ActionData HotReload.
+[2022.11.12-18.16.46:935][697]LogHotReload: Re-instancing CPatrolPath after hot-reload.
+[2022.11.12-18.16.46:950][697]LogContentBrowser: Native class hierarchy updated for 'ActionGame' in 0.0005 seconds. Added 51 classes and 9 folders.
+[2022.11.12-18.16.46:951][697]Display: HotReload successful (58 functions remapped  5 scriptstructs remapped)
+[2022.11.12-18.16.46:992][697]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3485 classes and 832 folders.
+[2022.11.12-18.16.46:992][697]Display: HotReload took 24.3s.
+[2022.11.12-18.16.46:995][697]Warning: HotReload operation took 24.3s.
+[2022.11.12-18.16.47:537][697]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Characters/CEnemy_Warrok.cpp'
+[2022.11.12-18.16.47:539][697]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.11.12-18.16.47:550][697]LogHotReload: New module detected: UE4Editor-ActionGame-1466.dll
+[2022.11.12-18.16.47:576][697]LogSlate: Took 0.001294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.12-18.16.47:576][697]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ϰ (U+03f0)'
+[2022.11.12-18.16.47:579][697]LogSlate: Took 0.001641 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.11.12-18.16.47:624][698]LogHotReload: Starting Hot-Reload from IDE
+[2022.11.12-18.16.47:647][698]LogContentBrowser: Native class hierarchy updated for 'ActionGame' in 0.0005 seconds. Added 51 classes and 9 folders.
+[2022.11.12-18.16.47:648][698]Display: HotReload successful (0 functions remapped  5 scriptstructs remapped)
+[2022.11.12-18.16.47:659][698]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3485 classes and 832 folders.
+[2022.11.12-18.16.47:694][698]Display: HotReload took  0.1s.
+[2022.11.12-18.18.37:291][228]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/ActionGame.CEnemy_Warrok
+[2022.11.12-18.18.38:569][228]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Characters/CEnemy_Warrok.cpp'
+[2022.11.12-18.23.47:125][235]LogHotReload: New module detected: UE4Editor-ActionGame-0010.dll
+[2022.11.12-18.23.48:147][239]LogHotReload: Starting Hot-Reload from IDE
+[2022.11.12-18.23.48:209][239]LogClass: Could not find existing class CEnemy_Warrok in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.23.48:218][239]LogClass: EActionType HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: EStateType HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: EBehaviorType HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: ECharacterSpeed HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: DoActionData HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: EquipmentData HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: FeetData HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: MontageData HotReload.
+[2022.11.12-18.23.48:218][239]LogClass: UserWidget_ActionData HotReload.
+[2022.11.12-18.23.48:231][239]LogHotReload: Re-instancing CEnemy_Warrok after hot-reload.
+[2022.11.12-18.23.48:242][239]LogContentBrowser: Native class hierarchy updated for 'ActionGame' in 0.0006 seconds. Added 51 classes and 9 folders.
+[2022.11.12-18.23.48:244][239]Display: HotReload successful (58 functions remapped  5 scriptstructs remapped)
+[2022.11.12-18.23.48:287][239]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3485 classes and 832 folders.
+[2022.11.12-18.23.48:294][239]Display: HotReload took  0.1s.
+[2022.11.12-18.24.17:647][327]LogD3D12RHI: Creating RTPSO with 161 shaders (159 cached, 2 new) took 18.39 ms. Compile time 10.60 ms, link time 7.55 ms.
+[2022.11.12-18.24.25:548][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.11.12-18.24.25:694][281]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Warrok_Test.Warrok_Test
+[2022.11.12-18.24.25:704][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.11.12-18.24.27:895][281]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.11.12-18.24.27:926][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.12-18.24.27:950][281]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_Test45868F3941FAF121F721A39D6A757911.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Level/Warrok_Test.umap'
+[2022.11.12-18.24.27:955][281]LogFileHelpers: Saving map 'Warrok_Test' took 0.041
+[2022.11.12-18.24.27:956][281]Cmd: MAP LOAD FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Level/Warrok_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.12-18.24.27:956][281]LightingResults: New page: 라이팅 빌드
+[2022.11.12-18.24.27:956][281]LoadErrors: New page: 맵 로드중: Warrok_Test.umap
+[2022.11.12-18.24.27:992][281]LogWorld: UWorld::CleanupWorld for RPG, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.24.27:993][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.24.27:993][281]LogWorld: UWorld::CleanupWorld for Level_Lights, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.24.27:993][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.24.27:993][281]LogWorld: UWorld::CleanupWorld for Level_Assets, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.24.27:993][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.24.27:993][281]MapCheck: New page: 맵 체크
+[2022.11.12-18.24.27:993][281]LightingResults: New page: 라이팅 빌드
+[2022.11.12-18.24.28:007][281]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002132CA9B000), frame # 6281
+[2022.11.12-18.24.28:007][281]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002132CAD1F80), frame # 6281
+[2022.11.12-18.24.28:008][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.11.12-18.24.28:019][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.11.12-18.24.28:029][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.11.12-18.24.28:096][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.12-18.24.28:096][281]LogAIModule: Creating AISystem for world Warrok_Test
+[2022.11.12-18.24.28:096][281]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002132E8FBC00), frame # 6281
+[2022.11.12-18.24.28:096][281]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021367E0F600), frame # 6281
+[2022.11.12-18.24.28:108][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.11.12-18.24.28:141][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.12-18.24.28:142][281]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.195ms.
+[2022.11.12-18.24.28:142][281]LogFileHelpers: Loading map 'Warrok_Test' took 0.187
+[2022.11.12-18.24.28:174][281]AssetCheck: New page: 애셋 저장: Warrok_Test
+[2022.11.12-18.24.28:174][281]LogContentValidation: Display: World /Game/Level/Warrok_Test.Warrok_Test 유효성 검사
+[2022.11.12-18.24.28:185][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.11.12-18.24.28:251][285]LogD3D12RHI: Creating RTPSO with 162 shaders (160 cached, 2 new) took 20.91 ms. Compile time 14.55 ms, link time 6.13 ms.
+[2022.11.12-18.24.29:632][445]LogEditorViewport: Clicking on Actor (LMB): BP_CEnemy_AI_Melee_C (BPCEnemy_AI_Melee)
+[2022.11.12-18.24.31:411][650]Cmd: DELETE
+[2022.11.12-18.24.31:411][650]Cmd: ACTOR DELETE
+[2022.11.12-18.24.31:616][650]LogEditorActor: Deleted Actor: BP_CEnemy_AI_Melee_C
+[2022.11.12-18.24.31:624][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.12-18.24.31:624][650]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.11.12-18.25.09:458][451]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx)
+[2022.11.12-18.25.09:524][451]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx
+[2022.11.12-18.25.09:563][451]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.25.10:995][451]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.25.19:878][213]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx)
+[2022.11.12-18.25.19:891][213]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx
+[2022.11.12-18.25.19:927][213]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.25.27:929][213]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Character/Warrok/Warrok_Skeleton.Warrok_Skeleton
+[2022.11.12-18.25.27:971][213]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2022.11.12-18.25.28:537][213]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.12-18.25.28:538][213]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2022.11.12-18.25.28:629][213]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.11.12-18.25.48:338][213]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.25.48:480][215]LogD3D12RHI: Creating RTPSO with 163 shaders (162 cached, 1 new) took 15.74 ms. Compile time 8.32 ms, link time 7.17 ms.
+[2022.11.12-18.25.49:778][319]LogSlate: Window 'Warrok_Skeleton' being destroyed
+[2022.11.12-18.25.49:782][319]LogSlate: Window 'Warrok_Skeleton' being destroyed
+[2022.11.12-18.25.49:783][319]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.25.49:783][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.25.56:288][825]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx)
+[2022.11.12-18.25.56:300][825]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx
+[2022.11.12-18.25.56:339][825]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.25.57:624][825]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.25.57:660][825]LogFbx: Warning: Not valid bind pose for Pose (Warrok) - Node Warrok : The relative matrices do not match
+[2022.11.12-18.25.57:660][825]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.11.12-18.25.57:661][825]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2022.11.12-18.25.57:661][825]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.11.12-18.25.57:842][825]LogMaterial: Display: Material /Game/Character/Weapons/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.12-18.25.57:843][825]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.25.57:896][825]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2022.11.12-18.25.57:896][825]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2022.11.12-18.25.57:896][825]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2022.11.12-18.25.57:896][825]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2022.11.12-18.25.57:896][825]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_diffuse.png
+[2022.11.12-18.25.57:897][825]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_specular.png
+[2022.11.12-18.25.57:897][825]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_normal.png
+[2022.11.12-18.25.57:899][825]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.25.57:954][825]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2022.11.12-18.25.58:280][825]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.25.58:281][825]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.25.58:471][825]LogSkeletalMesh: Building Skeletal Mesh Warrok_W_Kurniawan...
+[2022.11.12-18.25.58:787][825]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.25.58:788][825]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.25.58:807][825]LogSkeletalMesh: Built Skeletal Mesh [0.34s] /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+[2022.11.12-18.25.58:825][825]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.25.58:825][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(0) root
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(1) Pelvis
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(2) spine_01
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(3) spine_02
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(4) spine_03
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(5) neck_01
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(6) head
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(7) End
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(8) LeftEye
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(9) RightEye
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(10) Jaw
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(11) clavicle_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(12) upperarm_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(13) lowerarm_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(14) hand_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(15) thumb_01_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(16) thumb_02_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(17) thumb_03_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(18) index_01_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(19) index_02_l
+[2022.11.12-18.25.58:829][825]LogFbx: SortedLinks :(20) index_03_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(21) middle_01_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(22) middle_02_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(23) middle_03_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(24) ring_01_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(25) ring_02_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(26) ring_03_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(27) pinky_01_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(28) pinky_02_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(29) pinky_03_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(30) clavicle_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(31) upperarm_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(32) lowerarm_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(33) hand_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(34) thumb_01_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(35) thumb_02_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(36) thumb_03_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(37) index_01_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(38) index_02_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(39) index_03_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(40) middle_01_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(41) middle_02_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(42) middle_03_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(43) ring_01_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(44) ring_02_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(45) ring_03_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(46) pinky_01_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(47) pinky_02_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(48) pinky_03_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(49) RightArmour1
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(50) RightArmour2
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(51) RightArmour4
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(52) thigh_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(53) calf_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(54) foot_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(55) ball_l
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(56) thigh_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(57) calf_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(58) foot_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(59) ball_r
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(60) FrontCloth1
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(61) FrontCloth2
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(62) FrontCloth3
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(63) BackCloth1
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(64) BackCloth2
+[2022.11.12-18.25.58:830][825]LogFbx: SortedLinks :(65) BackCloth3
+[2022.11.12-18.25.58:831][825]LogFbx: Parsing AnimStack root|Armature|mixamo.com|Layer0
+[2022.11.12-18.25.58:942][825]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Weapons/Warrok_W_Kurniawan_Anim.Warrok_W_Kurniawan_Anim
+[2022.11.12-18.26.01:488][ 38]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+[2022.11.12-18.26.01:638][ 53]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2022.11.12-18.26.01:759][ 62]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2022.11.12-18.26.02:300][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2022.11.12-18.26.05:147][397]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2022.11.12-18.26.05:147][397]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2022.11.12-18.26.05:443][427]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2022.11.12-18.26.05:559][437]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.11.12-18.26.06:156][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.11.12-18.26.06:503][492]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.11.12-18.26.06:624][492]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.11.12-18.26.06:659][492]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.11.12-18.26.07:021][492]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.26.07:532][492]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Character/Weapons/warrok_MAT.warrok_MAT
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_Anim.Warrok_W_Kurniawan_Anim
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_PhysicsAsset.Warrok_W_Kurniawan_PhysicsAsset
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_Skeleton.Warrok_W_Kurniawan_Skeleton
+[2022.11.12-18.26.08:585][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.11.12-18.26.18:445][429]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx)
+[2022.11.12-18.26.18:458][429]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx
+[2022.11.12-18.26.18:496][429]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.26.39:227][429]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.26.39:265][429]LogFbx: Warning: Not valid bind pose for Pose (Warrok) - Node Warrok : The relative matrices do not match
+[2022.11.12-18.26.39:265][429]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.11.12-18.26.39:266][429]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2022.11.12-18.26.39:266][429]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.11.12-18.26.39:272][429]LogMaterial: Display: Material /Game/Character/Weapons/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.12-18.26.39:273][429]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.39:298][429]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2022.11.12-18.26.39:298][429]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2022.11.12-18.26.39:298][429]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2022.11.12-18.26.39:298][429]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2022.11.12-18.26.39:299][429]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_diffuse.png
+[2022.11.12-18.26.39:300][429]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_specular.png
+[2022.11.12-18.26.39:301][429]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_normal.png
+[2022.11.12-18.26.39:302][429]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.39:340][429]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2022.11.12-18.26.39:675][429]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.26.39:676][429]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.26.39:679][429]LogSkeletalMesh: Building Skeletal Mesh Warrok_W_Kurniawan...
+[2022.11.12-18.26.39:978][429]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.26.39:979][429]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.26.39:998][429]LogSkeletalMesh: Built Skeletal Mesh [0.32s] /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+[2022.11.12-18.26.40:012][429]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.26.40:012][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.26.40:912][497]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Character/Weapons/warrok_MAT.warrok_MAT
+[2022.11.12-18.26.41:289][497]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.41:560][497]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.41:578][497]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.41:601][497]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.11.12-18.26.41:789][498]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.12-18.26.41:907][502]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 105
+[2022.11.12-18.26.42:087][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 104
+[2022.11.12-18.26.42:266][530]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 103
+[2022.11.12-18.26.42:317][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 102
+[2022.11.12-18.26.42:326][537]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 101
+[2022.11.12-18.26.42:411][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 100
+[2022.11.12-18.26.42:488][556]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 99
+[2022.11.12-18.26.42:653][576]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 98
+[2022.11.12-18.26.42:708][582]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 97
+[2022.11.12-18.26.42:761][587]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 96
+[2022.11.12-18.26.42:870][600]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 95
+[2022.11.12-18.26.43:019][617]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 94
+[2022.11.12-18.26.43:108][627]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 93
+[2022.11.12-18.26.43:283][645]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 92
+[2022.11.12-18.26.43:346][652]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 91
+[2022.11.12-18.26.43:376][655]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 90
+[2022.11.12-18.26.43:614][681]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 89
+[2022.11.12-18.26.43:641][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 88
+[2022.11.12-18.26.43:792][699]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 87
+[2022.11.12-18.26.43:824][702]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 86
+[2022.11.12-18.26.43:899][710]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 85
+[2022.11.12-18.26.43:960][715]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 84
+[2022.11.12-18.26.44:018][721]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 83
+[2022.11.12-18.26.44:347][753]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 82
+[2022.11.12-18.26.44:379][756]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 81
+[2022.11.12-18.26.44:400][758]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 80
+[2022.11.12-18.26.44:511][769]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 79
+[2022.11.12-18.26.44:599][777]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 78
+[2022.11.12-18.26.44:717][784]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 77
+[2022.11.12-18.26.44:795][792]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 76
+[2022.11.12-18.26.44:804][793]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 75
+[2022.11.12-18.26.45:029][818]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 74
+[2022.11.12-18.26.45:074][823]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 73
+[2022.11.12-18.26.45:076][823]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 72
+[2022.11.12-18.26.45:123][828]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 71
+[2022.11.12-18.26.45:524][871]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 70
+[2022.11.12-18.26.45:595][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 69
+[2022.11.12-18.26.45:595][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 68
+[2022.11.12-18.26.45:628][883]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 67
+[2022.11.12-18.26.45:843][906]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 66
+[2022.11.12-18.26.45:977][920]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 65
+[2022.11.12-18.26.46:211][946]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2022.11.12-18.26.46:266][952]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 63
+[2022.11.12-18.26.46:575][986]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 62
+[2022.11.12-18.26.46:601][989]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 61
+[2022.11.12-18.26.46:610][990]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 60
+[2022.11.12-18.26.46:634][991]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.11.12-18.26.46:634][991]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.11.12-18.26.46:634][991]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2022.11.12-18.26.46:634][991]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2022.11.12-18.26.46:634][991]MaterialEditorStats: Texture samplers: 2/16
+[2022.11.12-18.26.46:675][996]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 59
+[2022.11.12-18.26.46:991][ 28]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2022.11.12-18.26.47:036][ 33]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2022.11.12-18.26.47:172][ 47]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2022.11.12-18.26.50:050][349]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2022.11.12-18.26.50:209][368]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2022.11.12-18.26.50:383][388]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2022.11.12-18.26.50:393][389]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.11.12-18.26.51:377][497]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.11.12-18.26.51:618][525]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2022.11.12-18.26.51:783][542]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.11.12-18.26.51:799][544]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.11.12-18.26.55:211][931]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.55:230][931]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.55:262][932]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2022.11.12-18.26.55:262][932]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 41
+[2022.11.12-18.26.55:262][932]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2022.11.12-18.26.55:262][932]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2022.11.12-18.26.55:560][961]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2022.11.12-18.26.55:679][974]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2022.11.12-18.26.55:711][977]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2022.11.12-18.26.55:711][977]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2022.11.12-18.26.55:949][  1]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2022.11.12-18.26.56:032][ 11]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2022.11.12-18.26.56:094][ 18]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2022.11.12-18.26.56:103][ 19]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2022.11.12-18.26.56:166][ 26]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2022.11.12-18.26.56:309][ 40]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2022.11.12-18.26.56:442][ 55]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2022.11.12-18.26.56:442][ 55]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2022.11.12-18.26.56:543][ 67]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2022.11.12-18.26.56:646][ 79]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2022.11.12-18.26.56:676][ 80]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2022.11.12-18.26.56:780][ 85]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2022.11.12-18.26.56:844][ 91]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2022.11.12-18.26.56:869][ 94]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2022.11.12-18.26.56:876][ 95]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2022.11.12-18.26.57:183][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2022.11.12-18.26.57:183][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2022.11.12-18.26.57:193][131]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2022.11.12-18.26.57:225][135]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2022.11.12-18.26.57:423][157]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2022.11.12-18.26.57:448][160]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.11.12-18.26.57:582][175]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2022.11.12-18.26.57:582][175]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.11.12-18.26.57:775][197]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2022.11.12-18.26.57:782][198]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2022.11.12-18.26.57:782][198]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2022.11.12-18.26.57:807][201]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2022.11.12-18.26.57:818][201]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.57:836][201]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.26.58:240][237]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2022.11.12-18.26.58:259][239]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2022.11.12-18.26.58:309][245]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2022.11.12-18.26.58:315][245]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2022.11.12-18.26.58:591][273]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2022.11.12-18.26.58:608][275]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2022.11.12-18.26.58:693][285]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2022.11.12-18.26.58:719][288]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2022.11.12-18.26.58:844][301]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2022.11.12-18.26.58:989][317]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2022.11.12-18.26.59:081][327]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2022.11.12-18.26.59:090][328]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2022.11.12-18.26.59:105][330]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2022.11.12-18.26.59:296][351]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2022.11.12-18.26.59:368][359]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2022.11.12-18.26.59:385][361]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2022.11.12-18.26.59:472][371]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2022.11.12-18.26.59:603][385]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2022.11.12-18.26.59:696][396]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2022.11.12-18.26.59:763][403]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2022.11.12-18.26.59:828][409]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2022.11.12-18.26.59:846][411]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2022.11.12-18.26.59:846][411]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2022.11.12-18.27.00:147][445]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2022.11.12-18.27.00:164][447]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2022.11.12-18.27.00:179][449]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2022.11.12-18.27.00:229][455]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2022.11.12-18.27.00:369][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2022.11.12-18.27.00:476][482]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.11.12-18.27.00:544][490]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2022.11.12-18.27.00:570][493]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.11.12-18.27.00:710][506]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2022.11.12-18.27.00:733][506]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.11.12-18.27.00:769][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2022.11.12-18.27.00:794][513]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.11.12-18.27.01:149][554]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2022.11.12-18.27.01:175][557]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2022.11.12-18.27.01:185][558]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.11.12-18.27.01:217][562]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.11.12-18.27.01:491][593]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.11.12-18.27.01:575][603]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.11.12-18.27.01:695][617]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.11.12-18.27.04:097][895]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.27.04:116][895]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.27.04:153][896]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2022.11.12-18.27.04:153][896]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 41
+[2022.11.12-18.27.04:153][896]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2022.11.12-18.27.04:153][896]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2022.11.12-18.27.04:490][931]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2022.11.12-18.27.04:555][938]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2022.11.12-18.27.04:580][941]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2022.11.12-18.27.04:591][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2022.11.12-18.27.04:839][969]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2022.11.12-18.27.04:962][978]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2022.11.12-18.27.05:003][982]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2022.11.12-18.27.05:013][983]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2022.11.12-18.27.05:091][990]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2022.11.12-18.27.05:232][  3]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2022.11.12-18.27.05:359][ 17]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2022.11.12-18.27.05:400][ 21]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2022.11.12-18.27.05:509][ 34]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2022.11.12-18.27.05:631][ 48]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2022.11.12-18.27.05:673][ 53]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2022.11.12-18.27.05:817][ 69]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2022.11.12-18.27.05:866][ 73]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2022.11.12-18.27.05:901][ 76]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2022.11.12-18.27.05:943][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2022.11.12-18.27.06:288][120]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2022.11.12-18.27.06:305][122]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2022.11.12-18.27.06:330][125]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2022.11.12-18.27.06:423][134]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2022.11.12-18.27.06:549][149]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2022.11.12-18.27.06:657][160]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2022.11.12-18.27.06:754][170]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2022.11.12-18.27.06:755][170]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2022.11.12-18.27.06:921][189]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.11.12-18.27.06:961][194]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2022.11.12-18.27.06:972][195]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2022.11.12-18.27.07:004][198]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.11.12-18.27.07:374][241]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2022.11.12-18.27.07:383][242]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2022.11.12-18.27.07:399][244]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.11.12-18.27.07:442][249]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.11.12-18.27.07:683][277]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.11.12-18.27.07:757][286]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.11.12-18.27.07:867][299]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.11.12-18.27.08:262][344]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.11.12-18.27.08:262][344]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.11.12-18.27.08:262][344]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2022.11.12-18.27.08:262][344]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2022.11.12-18.27.08:262][344]MaterialEditorStats: Texture samplers: 2/16
+[2022.11.12-18.27.28:498][409]LogSlate: Window '메시지' being destroyed
+[2022.11.12-18.27.28:508][409]Message dialog closed, result: No, title: 메시지, text: 이 머티리얼의 변경내용을 원본 머티리얼에 적용할까요?
+/Game/Character/Weapons/warrok_MAT.warrok_MAT
+(아니오는 변경내용을 잃습니다!)
+[2022.11.12-18.27.28:509][409]LogSlate: Window 'warrok_MAT' being destroyed
+[2022.11.12-18.27.28:513][409]LogSlate: Window 'warrok_MAT' being destroyed
+[2022.11.12-18.27.28:564][409]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.27.28:564][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.27.33:268][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.11.12-18.27.34:989][871]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.27.35:472][871]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Character/Weapons/warrok_MAT.warrok_MAT
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_PhysicsAsset.Warrok_W_Kurniawan_PhysicsAsset
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_Skeleton.Warrok_W_Kurniawan_Skeleton
+[2022.11.12-18.27.35:861][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.12-18.27.37:959][904]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx)
+[2022.11.12-18.27.37:973][904]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/Mixamo_Result/Warrok W Kurniawan.fbx
+[2022.11.12-18.27.38:010][904]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.27.46:412][904]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.27.46:452][904]LogFbx: Warning: Not valid bind pose for Pose (Warrok) - Node Warrok : The relative matrices do not match
+[2022.11.12-18.27.46:452][904]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.11.12-18.27.46:453][904]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Warrok
+[2022.11.12-18.27.46:453][904]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.11.12-18.27.46:457][904]LogMaterial: Display: Material /Game/Character/Weapons/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.12-18.27.46:457][904]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.27.46:481][904]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_diffuse.png
+[2022.11.12-18.27.46:481][904]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_specular.png
+[2022.11.12-18.27.46:482][904]LogFbxMaterialImport: Display: Unable to find Texture file C:\home\app\mixamo-mini\tmp\skins_99fd1c42-666c-473f-8c7f-1b71f65c9c6b.fbm\bear_normal.png
+[2022.11.12-18.27.46:484][904]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.27.46:519][904]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2022.11.12-18.27.46:519][904]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2022.11.12-18.27.46:519][904]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2022.11.12-18.27.46:519][904]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2022.11.12-18.27.46:519][904]LogFbx: Warning: Bones digested - 66  Depth of hierarchy - 12
+[2022.11.12-18.27.46:845][904]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.27.46:845][904]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.27.46:848][904]LogSkeletalMesh: Building Skeletal Mesh Warrok_W_Kurniawan...
+[2022.11.12-18.27.47:148][904]LogSkeletalMesh: Section 0: 7873 vertices, 64 active bones
+[2022.11.12-18.27.47:149][904]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.27.47:166][904]LogSkeletalMesh: Built Skeletal Mesh [0.32s] /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+[2022.11.12-18.27.47:179][904]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.27.47:179][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.27.49:677][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.11.12-18.27.49:721][117]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2022.11.12-18.27.49:840][117]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2022.11.12-18.27.49:908][117]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.11.12-18.27.50:117][117]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2022.11.12-18.27.50:503][117]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.27.51:029][117]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.11.12-18.27.51:029][117]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.11.12-18.27.51:029][117]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.11.12-18.27.51:029][117]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/Character/Weapons/warrok_MAT.warrok_MAT
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_PhysicsAsset.Warrok_W_Kurniawan_PhysicsAsset
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_Skeleton.Warrok_W_Kurniawan_Skeleton
+[2022.11.12-18.27.51:111][117]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.11.12-18.27.51:431][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.11.12-18.28.12:340][931]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chanwoongs/Desktop/Warrok W Kurniawan.fbx)
+[2022.11.12-18.28.12:373][931]LogFbx: Loading FBX Scene from C:/Users/Chanwoongs/Desktop/Warrok W Kurniawan.fbx
+[2022.11.12-18.28.12:415][931]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.12-18.28.15:787][931]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2022.11.12-18.28.15:827][931]LogFbx: Valid bind pose for Pose (skinCluster2) - Warrok
+[2022.11.12-18.28.15:831][931]LogMaterial: Display: Material /Game/Character/Weapons/warrok_MAT.warrok_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2022.11.12-18.28.15:832][931]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.28.15:968][931]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2022.11.12-18.28.15:968][931]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2022.11.12-18.28.15:969][931]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 39
+[2022.11.12-18.28.15:969][931]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2022.11.12-18.28.15:969][931]LogTexture: Display: 텍스처 빌드: bear_diffuse (AutoDXT, 2048X2048)
+[2022.11.12-18.28.16:663][931]LogTexture: Display: 텍스처 빌드: bear_specular (AutoDXT, 2048X2048)
+[2022.11.12-18.28.17:203][931]LogTexture: Display: 텍스처 빌드: bear_normal (BC5, 2048X2048)
+[2022.11.12-18.28.17:356][931]LogMaterial: Display: Missing cached shader map for material warrok_MAT, compiling. 
+[2022.11.12-18.28.17:394][931]LogFbx: Warning: Bones digested - 81  Depth of hierarchy - 12
+[2022.11.12-18.28.17:722][931]LogSkeletalMesh: Section 0: 7873 vertices, 68 active bones
+[2022.11.12-18.28.17:723][931]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.28.17:747][931]LogSkeletalMesh: Building Skeletal Mesh Warrok_W_Kurniawan...
+[2022.11.12-18.28.18:052][931]LogSkeletalMesh: Section 0: 7873 vertices, 68 active bones
+[2022.11.12-18.28.18:052][931]LogSkeletalMesh: Section 0: Material=0, 12626 triangles
+[2022.11.12-18.28.18:071][931]LogSkeletalMesh: Built Skeletal Mesh [0.32s] /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+[2022.11.12-18.28.18:084][931]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.28.18:084][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.28.18:106][931]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2022.11.12-18.28.19:663][ 38]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+[2022.11.12-18.28.19:663][ 38]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2022.11.12-18.28.20:040][ 82]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2022.11.12-18.28.20:135][ 92]LogSlate: Window '메시지 로그' being destroyed
+[2022.11.12-18.28.20:145][ 92]LogSlate: Window '메시지 로그' being destroyed
+[2022.11.12-18.28.20:307][110]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2022.11.12-18.28.22:994][388]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2022.11.12-18.28.23:068][396]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2022.11.12-18.28.23:670][458]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2022.11.12-18.28.23:795][472]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.11.12-18.28.24:787][578]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.11.12-18.28.25:036][605]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2022.11.12-18.28.25:169][620]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.11.12-18.28.25:193][622]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.11.12-18.28.26:139][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.11.12-18.28.26:994][720]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.28.27:475][720]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan.Warrok_W_Kurniawan
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_PhysicsAsset.Warrok_W_Kurniawan_PhysicsAsset
+	Asset Name: /Game/Character/Weapons/Warrok_W_Kurniawan_Skeleton.Warrok_W_Kurniawan_Skeleton
+[2022.11.12-18.28.27:797][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.11.12-18.28.45:323][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/bear_diffuse" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/bear_diffuse.uasset" SILENT=true
+[2022.11.12-18.28.45:509][591]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_diffuse652CE4A34E025FBA252467906CAAD0D8.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/bear_diffuse.uasset'
+[2022.11.12-18.28.45:516][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/bear_normal" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/bear_normal.uasset" SILENT=true
+[2022.11.12-18.28.45:694][591]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_normal2183582E4D46B6E35CC119BCA9B8CE02.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/bear_normal.uasset'
+[2022.11.12-18.28.45:873][591]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_specular057FBF9F48BF11A8941DA9B54E0A25B7.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/bear_specular.uasset'
+[2022.11.12-18.28.46:033][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.12-18.28.46:043][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.11.12-18.28.46:052][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.11.12-18.28.46:067][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.11.12-18.28.46:075][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.11.12-18.28.46:545][591]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.11.12-18.28.46:545][591]LogContentValidation: Display: Texture2D /Game/Character/Warrok/bear_diffuse.bear_diffuse 유효성 검사
+[2022.11.12-18.28.46:545][591]LogContentValidation: Display: Texture2D /Game/Character/Warrok/bear_normal.bear_normal 유효성 검사
+[2022.11.12-18.28.46:545][591]LogContentValidation: Display: Texture2D /Game/Character/Warrok/bear_specular.bear_specular 유효성 검사
+[2022.11.12-18.28.48:852][853]LogSlate: Window '실패한 이름변경' being destroyed
+[2022.11.12-18.28.50:826][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.11.12-18.28.50:933][ 74]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.12-18.29.00:688][ 74]LogSlate: Window '레퍼런스를 대체할까요?' being destroyed
+[2022.11.12-18.29.00:698][ 74]Message dialog closed, result: Cancel, title: 레퍼런스를 대체할까요?, text: 삭제 보류중인 애셋으로의 레퍼런스를 warrok_MAT 로 대체한 다음 삭제합니다.
+
+계속할까요?
+[2022.11.12-18.29.01:665][ 74]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.29.05:751][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.11.12-18.29.09:480][502]LogSlate: Window '레퍼런스를 대체할까요?' being destroyed
+[2022.11.12-18.29.09:486][502]Message dialog closed, result: Ok, title: 레퍼런스를 대체할까요?, text: 삭제 보류중인 애셋으로의 레퍼런스를 warrok_MAT 로 대체한 다음 삭제합니다.
+
+계속할까요?
+[2022.11.12-18.29.09:486][502]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.12-18.29.09:703][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.11.12-18.29.10:704][502]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.11.12-18.29.10:740][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/Warrok" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Warrok.uasset" SILENT=true
+[2022.11.12-18.29.10:979][502]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/WarrokC7D3FBC9473301FF87AD37BE85512D44.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Warrok.uasset'
+[2022.11.12-18.29.10:981][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/warrok_MAT" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset" SILENT=true
+[2022.11.12-18.29.11:014][502]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/warrok_MATC6B8E0D64E552B09AB5FDFBB3E5445FC.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset'
+[2022.11.12-18.29.11:030][502]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.11.12-18.29.11:031][502]LogContentValidation: Display: SkeletalMesh /Game/Character/Warrok/Warrok.Warrok 유효성 검사
+[2022.11.12-18.29.11:031][502]LogContentValidation: Display: ObjectRedirector /Game/Character/Warrok/warrok_MAT.warrok_MAT 유효성 검사
+[2022.11.12-18.29.15:268][953]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.11.12-18.29.19:124][953]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.856 s
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: === Handled ensure: ===
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: 
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: Ensure condition failed: Found [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 201]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: Cannot remove redirection from /Game/Character/Warrok/warrok_MAT.warrok_MAT, it was not registered
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: Stack: 
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc5043bfc8 UE4Editor-CoreUObject.dll!DispatchCheckVerify<bool,<lambda_b3c1bd94a7f9fe16a2871c333c228820> >() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc500506b1 UE4Editor-CoreUObject.dll!FRedirectCollector::RemoveAssetPathRedirection() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp:201]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc5588d25e UE4Editor-AssetRegistry.dll!UAssetRegistryImpl::AssetDeleted() [D:\Build\++UE4\Sync\Engine\Source\Runtime\AssetRegistry\Private\AssetRegistry.cpp:1624]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4e87a441 UE4Editor-UnrealEd.dll!ObjectTools::RenameSingleObject() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp:3450]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc01578b8e UE4Editor-AssetTools.dll!FAssetRenameManager::PerformAssetRename() [D:\Build\++UE4\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:1324]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc01524816 UE4Editor-AssetTools.dll!FAssetRenameManager::FixReferencesAndRename() [D:\Build\++UE4\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:451]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc01591592 UE4Editor-AssetTools.dll!FAssetRenameManager::RenameAssetsWithDialog() [D:\Build\++UE4\Sync\Engine\Source\Developer\AssetTools\Private\AssetRenameManager.cpp:269]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4386b012 UE4Editor-ContentBrowser.dll!ContentBrowserUtils::MoveAssets() [D:\Build\++UE4\Sync\Engine\Source\Editor\ContentBrowser\Private\ContentBrowserUtils.cpp:559]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc43a01f5e UE4Editor-ContentBrowser.dll!SPathView::ExecuteTreeDropMove() [D:\Build\++UE4\Sync\Engine\Source\Editor\ContentBrowser\Private\SPathView.cpp:1520]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc439fcf0f UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SPathView,0,TTypeWrapper<void> __cdecl(TArray<FAssetData,TSizedDefaultAllocator<32> >,TArray<FString,TSizedDefaultAllocator<32> >,FString)>::Execute() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:298]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc43a009af UE4Editor-ContentBrowser.dll!TBaseSPMethodDelegateInstance<0,SPathView,0,void __cdecl(TArray<FAssetData,TSizedDefaultAllocator<32> >,TArray<FString,TSizedDefaultAllocator<32> >,FString)>::ExecuteIfSafe() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:374]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4382cdf0 UE4Editor-ContentBrowser.dll!TBaseDelegate<void,TArray<FAssetData,TSizedDefaultAllocator<32> >,TArray<FString,TSizedDefaultAllocator<32> >,FString>::ExecuteIfBound() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:673]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4382cfee UE4Editor-ContentBrowser.dll!TBaseFunctorDelegateInstance<void __cdecl(void),<lambda_31fb9a24801440aa53d4edcc43293e98> >::ExecuteIfSafe() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:1007]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fbaab85 UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\SMenuEntryBlock.cpp:1068]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fbb1320 UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\SMenuEntryBlock.cpp:1019]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fb8a937 UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateInstancesImpl.h:298]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fc2207e UE4Editor-Slate.dll!SButton::ExecuteOnClick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Input\SButton.cpp:385]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fc3b27e UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Widgets\Input\SButton.cpp:304]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fbb2a95 UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\SMenuEntryBlock.cpp:386]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fa82dc8 UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_cc5aea9e7377b04ce85c30c65ec3889b> >() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:372]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fb069cf UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:4675]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4faef4b2 UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:5198]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc4fae2392 UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp:5166]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc56b27f88 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [D:\Build\++UE4\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:2140]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc56b15c87 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [D:\Build\++UE4\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:2592]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc56b2a619 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [D:\Build\++UE4\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:1816]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc56b117d0 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [D:\Build\++UE4\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsApplication.cpp:852]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc9602e858 USER32.dll!UnknownFunction []
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc9602e299 USER32.dll!UnknownFunction []
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc56b2bb34 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [D:\Build\++UE4\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsPlatformApplicationMisc.cpp:130]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ff67fd068c4 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4762]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ff67fd1ba7c UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:169]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ff67fd1bb5a UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ff67fd2e31d UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:268]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ff67fd3145a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc94c574b4 KERNEL32.DLL!UnknownFunction []
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: [Callstack] 0x00007ffc962c26a1 ntdll.dll!UnknownFunction []
+[2022.11.12-18.29.19:124][953]LogOutputDevice: Error: 
+[2022.11.12-18.29.19:130][953]LogStats:                SubmitErrorReport -  0.000 s
+[2022.11.12-18.29.21:996][953]LogStats:                    SendNewReport -  2.866 s
+[2022.11.12-18.29.21:996][953]LogStats:             FDebug::EnsureFailed -  6.728 s
+[2022.11.12-18.29.22:060][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/warrok_MAT" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset" SILENT=true
+[2022.11.12-18.29.22:097][953]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/warrok_MAT8C814771483F7ED934A05BB65D976719.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset'
+[2022.11.12-18.29.22:176][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.11.12-18.29.22:189][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.11.12-18.29.22:198][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.11.12-18.29.22:222][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/Warrok" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Warrok.uasset" SILENT=true
+[2022.11.12-18.29.22:456][953]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok1E9C6E9845437C148C8B7889EE79BF04.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Warrok.uasset'
+[2022.11.12-18.29.22:458][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/warrok_MAT" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset" SILENT=true
+[2022.11.12-18.29.22:493][953]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/warrok_MAT416D0FAA41B0F8B60DCE1797E5C63C5C.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/warrok_MAT.uasset'
+[2022.11.12-18.29.22:533][953]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.11.12-18.29.22:533][953]LogContentValidation: Display: Material /Game/Character/Warrok/warrok_MAT.warrok_MAT 유효성 검사
+[2022.11.12-18.29.22:533][953]LogContentValidation: Display: SkeletalMesh /Game/Character/Warrok/Warrok.Warrok 유효성 검사
+[2022.11.12-18.29.44:763][523]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Character/Warrok/Warrok.Warrok
+[2022.11.12-18.29.44:771][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.12-18.29.45:222][523]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.11.12-18.29.45:493][525]LogD3D12RHI: Creating RTPSO with 163 shaders (162 cached, 1 new) took 48.88 ms. Compile time 41.69 ms, link time 6.94 ms.
+[2022.11.12-18.29.46:918][642]LogSlate: Window 'Warrok' being destroyed
+[2022.11.12-18.29.46:929][642]LogSlate: Window 'Warrok' being destroyed
+[2022.11.12-18.29.46:929][642]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.29.46:929][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok_C' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok:AnimGraph.AnimGraphNode_StateMachine_1.Unarmed.AnimStateNode_3.BS_Warrok.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.SKEL_ABP_Warrok_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.SKEL_ABP_Warrok_C:AnimGraph' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.SKEL_ABP_Warrok_C' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:847][192]LogMetaData: Removing '/Game/Character/Warrok/ABP_Warrok.ABP_Warrok_C:AnimGraph' ref from Metadata '/Game/Enemies/ABP_Warrok.PackageMetaData'
+[2022.11.12-18.30.59:878][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/ABP_Warrok" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/ABP_Warrok.uasset" SILENT=true
+[2022.11.12-18.30.59:910][192]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/ABP_Warrok7D92C2BB43DE71145A0E718A35DF1B18.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/ABP_Warrok.uasset'
+[2022.11.12-18.30.59:992][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.11.12-18.31.00:008][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.11.12-18.31.00:017][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.11.12-18.31.00:049][192]AssetCheck: New page: 애셋 저장: ABP_Warrok
+[2022.11.12-18.31.00:049][192]LogContentValidation: Display: AnimBlueprint /Game/Character/Warrok/ABP_Warrok.ABP_Warrok 유효성 검사
+[2022.11.12-18.31.11:969][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_diffuse0523F8C3447D44501D3C0482614CC696.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/bear_diffuse.uasset'
+[2022.11.12-18.31.12:004][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_normalF7588D614785811A2417C7AD1FB2C04A.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/bear_normal.uasset'
+[2022.11.12-18.31.12:033][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/bear_specular5F83943D415A108901753AB4D315FF3B.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/bear_specular.uasset'
+[2022.11.12-18.31.12:043][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/Model/Warrok" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/Warrok.uasset" SILENT=true
+[2022.11.12-18.31.12:242][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok8A6F0ED7479A6C4E22BCAFABECECBC63.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/Warrok.uasset'
+[2022.11.12-18.31.12:258][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/warrok_MATD7FA63994C9E43A1250C259CFD71E5A9.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/warrok_MAT.uasset'
+[2022.11.12-18.31.12:273][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/warrok_MAT_InstF695556C434E119EFC5F39BE713D22CC.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/warrok_MAT_Inst.uasset'
+[2022.11.12-18.31.12:305][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_PhysicsAsset630B9BB6447D89924F6AED84585EFB79.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/Warrok_PhysicsAsset.uasset'
+[2022.11.12-18.31.12:312][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_SkeletonE3C992074155F1D2E1FD3C8D70F6ACE7.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/Model/Warrok_Skeleton.uasset'
+[2022.11.12-18.31.12:627][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.12-18.31.12:637][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.11.12-18.31.12:644][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.11.12-18.31.12:654][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.11.12-18.31.12:663][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.11.12-18.31.12:672][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.11.12-18.31.12:681][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.11.12-18.31.12:689][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.11.12-18.31.12:704][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.11.12-18.31.12:713][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.11.12-18.31.12:778][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_AttackBEC0A39740F11B58561D06BB954EFB40.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Warrok/Warrok_Attack.uasset'
+[2022.11.12-18.31.12:829][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_DeadFallE174F3F0488266B114924BA4DE8B59FA.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Warrok/Warrok_DeadFall.uasset'
+[2022.11.12-18.31.12:882][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_IdleA6DAA072414DB8DF7DC8A4B7891FDC4D.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Warrok/Warrok_Idle.uasset'
+[2022.11.12-18.31.12:929][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_Run2DECC6D74D4B7EFE3B63C89D20A4A3E6.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Warrok/Warrok_Run.uasset'
+[2022.11.12-18.31.12:978][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_WalkF3E43A8F4A83843CAC1DFF98749733E6.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Animations/Warrok/Warrok_Walk.uasset'
+[2022.11.12-18.31.13:032][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/BS_WarrokC18FC45744D45C3A7CC947A6C3C8004F.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/BlendSpaces/BS_Warrok.uasset'
+[2022.11.12-18.31.13:082][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_Attack_Montage4E6A619F46423FC19FC185AFD9D81E90.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/Warrok/Warrok_Attack_Montage.uasset'
+[2022.11.12-18.31.13:134][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_DeadFall_Montage93F2844A4A73DE65FC6A4BB78FAB6AC4.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Montages/Warrok/Warrok_DeadFall_Montage.uasset'
+[2022.11.12-18.31.13:144][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Warrok/ABP_Warrok" FILE="C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/ABP_Warrok.uasset" SILENT=true
+[2022.11.12-18.31.13:204][412]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/ABP_Warrok50249996447037C74F6F079D3FED8FA4.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Content/Character/Warrok/ABP_Warrok.uasset'
+[2022.11.12-18.31.13:280][412]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: Texture2D /Game/Character/Warrok/Model/bear_diffuse.bear_diffuse 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: Texture2D /Game/Character/Warrok/Model/bear_normal.bear_normal 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: Texture2D /Game/Character/Warrok/Model/bear_specular.bear_specular 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: SkeletalMesh /Game/Character/Warrok/Model/Warrok.Warrok 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: Material /Game/Character/Warrok/Model/warrok_MAT.warrok_MAT 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: MaterialInstanceConstant /Game/Character/Warrok/Model/warrok_MAT_Inst.warrok_MAT_Inst 유효성 검사
+[2022.11.12-18.31.13:280][412]LogContentValidation: Display: PhysicsAsset /Game/Character/Warrok/Model/Warrok_PhysicsAsset.Warrok_PhysicsAsset 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: Skeleton /Game/Character/Warrok/Model/Warrok_Skeleton.Warrok_Skeleton 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimSequence /Game/Character/Animations/Warrok/Warrok_Attack.Warrok_Attack 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimSequence /Game/Character/Animations/Warrok/Warrok_DeadFall.Warrok_DeadFall 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimSequence /Game/Character/Animations/Warrok/Warrok_Idle.Warrok_Idle 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimSequence /Game/Character/Animations/Warrok/Warrok_Run.Warrok_Run 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimSequence /Game/Character/Animations/Warrok/Warrok_Walk.Warrok_Walk 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: BlendSpace1D /Game/Character/BlendSpaces/BS_Warrok.BS_Warrok 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimMontage /Game/Character/Montages/Warrok/Warrok_Attack_Montage.Warrok_Attack_Montage 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimMontage /Game/Character/Montages/Warrok/Warrok_DeadFall_Montage.Warrok_DeadFall_Montage 유효성 검사
+[2022.11.12-18.31.13:281][412]LogContentValidation: Display: AnimBlueprint /Game/Character/Warrok/ABP_Warrok.ABP_Warrok 유효성 검사
+[2022.11.12-18.31.45:274][992]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Character/Warrok/Model/Warrok.Warrok
+[2022.11.12-18.31.45:282][992]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.12-18.31.45:341][992]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.11.12-18.31.48:308][232]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Character/Warrok/Model/Warrok_Skeleton.Warrok_Skeleton
+[2022.11.12-18.31.48:315][232]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.12-18.31.48:786][232]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.11.12-18.31.49:708][294]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Character/Warrok/ABP_Warrok.ABP_Warrok
+[2022.11.12-18.31.49:719][294]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.12-18.31.49:858][294]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.11.12-18.31.50:495][294]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2022.11.12-18.31.51:466][350]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Character/Warrok/Model/warrok_MAT_Inst.warrok_MAT_Inst
+[2022.11.12-18.32.10:345][176]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_UE4Man_Body_Inst.M_UE4Man_Body_Inst
+[2022.11.12-18.32.11:734][284]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_UE4Man_ChestLogo_Inst.M_UE4Man_ChestLogo_Inst
+[2022.11.12-18.32.16:372][722]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.32.16:372][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.32.17:571][855]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.32.17:571][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.34.26:489][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.11.12-18.34.26:569][ 66]LogSavePackage: Moving 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Warrok_Test_Auto1EAC3EF8741FD0065C247EAA8DA229522.tmp' to 'C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Saved/Autosaves/Game/Level/Warrok_Test_Auto1.umap'
+[2022.11.12-18.34.26:571][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Warrok_Test' took 0.106
+[2022.11.12-18.34.26:571][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2022.11.12-18.37.08:030][550]LogHotReload: New module detected: UE4Editor-ActionGame-0013.dll
+[2022.11.12-18.37.08:722][553]LogHotReload: Starting Hot-Reload from IDE
+[2022.11.12-18.37.08:802][553]LogClass: Could not find existing class CEnemy in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.37.08:802][553]LogClass: Function OnStateTypeChanged is new.
+[2022.11.12-18.37.08:802][553]LogClass: Function RestoreColor is new.
+[2022.11.12-18.37.08:802][553]LogClass: Could not find existing class CEnemy_AI in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.37.08:803][553]LogClass: Could not find existing class CEnemy_Dummy in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.37.08:803][553]LogClass: Could not find existing class CEnemy_Warrok in package /Script/ActionGame for HotReload, assuming new class
+[2022.11.12-18.37.08:822][553]LogClass: EActionType HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: EStateType HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: EBehaviorType HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: ECharacterSpeed HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: DoActionData HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: EquipmentData HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: FeetData HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: MontageData HotReload.
+[2022.11.12-18.37.08:822][553]LogClass: UserWidget_ActionData HotReload.
+[2022.11.12-18.37.08:831][553]LogHotReload: Re-instancing CEnemy after hot-reload.
+[2022.11.12-18.37.08:849][553]LogHotReload: Re-instancing CEnemy_AI after hot-reload.
+[2022.11.12-18.37.08:879][553]LogHotReload: Re-instancing CEnemy_Dummy after hot-reload.
+[2022.11.12-18.37.08:897][553]LogHotReload: Re-instancing CEnemy_Warrok after hot-reload.
+[2022.11.12-18.37.08:919][553]LogContentBrowser: Native class hierarchy updated for 'ActionGame' in 0.0005 seconds. Added 51 classes and 9 folders.
+[2022.11.12-18.37.08:922][553]Display: HotReload successful (56 functions remapped  5 scriptstructs remapped)
+[2022.11.12-18.37.08:985][553]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3486 classes and 834 folders.
+[2022.11.12-18.37.08:993][553]Display: HotReload took  0.3s.
+[2022.11.12-18.37.18:609][789]LogSlate: Window 'warrok_MAT_Inst' being destroyed
+[2022.11.12-18.37.18:620][789]LogSlate: Window 'warrok_MAT_Inst' being destroyed
+[2022.11.12-18.37.18:620][789]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:620][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.18:686][789]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:686][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.18:783][789]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:783][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.18:787][789]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:787][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.18:859][789]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:859][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.18:892][789]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.18:892][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.37.29:415][952]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2022.11.12-18.37.29:415][952]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2022.11.12-18.37.47:671][985]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Warrok/BP_CEnemy_Warrok.BP_CEnemy_Warrok
+[2022.11.12-18.37.48:032][985]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2022.11.12-18.37.59:078][ 62]LogSlate: Window 'BP_CEnemy_Warrok' being destroyed
+[2022.11.12-18.37.59:085][ 62]LogSlate: Window 'BP_CEnemy_Warrok' being destroyed
+[2022.11.12-18.37.59:097][ 62]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.11.12-18.37.59:097][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.12-18.38.09:111][ 48]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2022.11.12-18.38.09:112][ 48]LogPlayLevel: [PlayLevel] Compiling ABP_Warrok before play...
+[2022.11.12-18.38.09:189][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.11.12-18.38.09:192][ 48]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2022.11.12-18.38.09:193][ 48]PIE: New page: PIE 세션: Warrok_Test (2022. 11. 13. 오후 12:38:09)
+[2022.11.12-18.38.09:193][ 48]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.11.12-18.38.09:195][ 48]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.12-18.38.09:195][ 48]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Warrok_Test
+[2022.11.12-18.38.09:201][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006390s)
+[2022.11.12-18.38.09:202][ 48]LogAIModule: Creating AISystem for world Warrok_Test
+[2022.11.12-18.38.09:202][ 48]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000213D0ACA000), frame # 44048
+[2022.11.12-18.38.09:202][ 48]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002150EFA6200), frame # 44048
+[2022.11.12-18.38.09:202][ 48]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2022.11.12-18.38.09:202][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Warrok_Test.Warrok_Test to /Game/Level/UEDPIE_0_Warrok_Test.Warrok_Test (0.007424s)
+[2022.11.12-18.38.09:238][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.12-18.38.09:239][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.12-18.38.09:239][ 48]LogAudio: Display: Using built-in audio occlusion.
+[2022.11.12-18.38.09:239][ 48]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.12-18.38.09:265][ 48]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.12-18.38.09:265][ 48]LogAudioMixer: Display: 1: FrontRight
+[2022.11.12-18.38.09:343][ 48]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.11.12-18.38.09:343][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.12-18.38.09:343][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.12-18.38.09:343][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.12-18.38.09:343][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.12-18.38.09:356][ 48]LogInit: FAudioDevice initialized.
+[2022.11.12-18.38.09:377][ 48]LogLoad: Game class is 'CGameMode'
+[2022.11.12-18.38.09:379][ 48]LogWorld: Bringing World /Game/Level/UEDPIE_0_Warrok_Test.Warrok_Test up for play (max tick rate 0) at 2022.11.13-03.38.09
+[2022.11.12-18.38.09:379][ 48]LogWorld: Bringing up level for play took: 0.001170
+[2022.11.12-18.38.09:379][ 48]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.11.12-18.38.09:420][ 48]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.11.12-18.38.09:424][ 48]PIE: 서버가 로그인했습니다.
+[2022.11.12-18.38.09:426][ 48]PIE: 에디터에서 플레이 총 시작 시간 0.319초입니다.
+[2022.11.12-18.38.09:715][ 50]LogD3D12RHI: Creating RTPSO with 165 shaders (163 cached, 2 new) took 18.98 ms. Compile time 10.91 ms, link time 7.83 ms.

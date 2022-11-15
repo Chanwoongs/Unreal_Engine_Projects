@@ -17,13 +17,11 @@ enum class EStateType : uint8;
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execRestoreColor); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execRestoreColor); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
