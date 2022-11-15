@@ -80,6 +80,11 @@ void UCActionComponent::SetUnarmedMode()
 	ChangeType(EActionType::Unarmed);
 }
 
+void UCActionComponent::SetMutantMode()
+{
+	SetMode(EActionType::Mutant);
+}
+
 void UCActionComponent::SetFistMode()
 {
 	SetMode(EActionType::Fist);
@@ -152,10 +157,9 @@ void UCActionComponent::DoAction()
 	{
 		ACDoAction* action = Datas[(int32)Type]->GetDoAction();
 
-		if (!!action)
-		{
-			action->DoAction();
-		}
+		CheckNull(action);
+		
+		action->DoAction();
 	}
 }
 

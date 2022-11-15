@@ -16,7 +16,7 @@ class ACTIONGAME_API IICharacter
 
 public:
 	// Mesh 색 변경하는 함수
-	virtual void ChangeColor(FLinearColor InColor) = 0;
+	virtual void ChangeColor(FLinearColor InColor) {}
 
 	// 죽음 처리
 	virtual void BeginDead() {}
