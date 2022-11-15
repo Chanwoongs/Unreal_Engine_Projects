@@ -15,7 +15,7 @@ void ACDoAction_Melee::DoAction()
 	{
 		bExist = true;
 		bEnable = false;
-
+		
 		return;
 	}
 
