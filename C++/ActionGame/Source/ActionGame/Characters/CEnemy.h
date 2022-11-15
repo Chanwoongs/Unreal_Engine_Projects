@@ -28,7 +28,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly)
 		class UCActionComponent* Action;
 
-private:
+protected:
 
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCMontagesComponent* Montages;
@@ -48,29 +48,22 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+	virtual void ChangeColor(FLinearColor InColor) {}
+	virtual void Hitted();
 
 public:	
 	virtual void Tick(float DeltaTime) override;
-	virtual void ChangeColor(FLinearColor InColor) override;
 
 private:
 	UFUNCTION()
 		void OnStateTypeChanged(EStateType InPrevType, EStateType InNewType);
 
-	UFUNCTION()
-		void RestoreColor();
-
 private:
-	void Hitted();
 	void Dead();
 
 public:
 	virtual void BeginDead() override;
 	virtual void EndDead() override;
-
-private:
-	class UMaterialInstanceDynamic* BodyMaterial;
-	class UMaterialInstanceDynamic* LogoMaterial;
 
 private:
 	class AController* DamageInstigator;

@@ -7,3 +7,13 @@ ACEnemy_AI::ACEnemy_AI()
 {
 	CHelpers::CreateActorComponent<UCPatrolComponent>(this, &Patrol, "Patrol");
 }
+
+void ACEnemy_AI::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void ACEnemy_AI::Hitted()
+{
+	Super::Hitted();
+}

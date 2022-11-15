@@ -16,6 +16,10 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "AI")
 		uint8 TeamID = 1;
 
+protected:
+	virtual void BeginPlay() override;
+	virtual void Hitted();
+
 private:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCPatrolComponent* Patrol;
