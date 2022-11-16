@@ -36,13 +36,14 @@ ACEnemy::ACEnemy()
 
 void ACEnemy::BeginPlay()
 {
+	State->OnStateTypeChanged.AddDynamic(this, &ACEnemy::OnStateTypeChanged);
+
 	Super::BeginPlay();
 }
 
 void ACEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 
