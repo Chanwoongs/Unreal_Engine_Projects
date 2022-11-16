@@ -77,7 +77,11 @@ public:
 		}
 	}
 
-
+	template<typename T>
+	static T* GetCustomGameMode(UWorld* worldContext)
+	{
+		return Cast<T>(worldContext->GetAuthGameMode());
+	}
 	
 };
 
