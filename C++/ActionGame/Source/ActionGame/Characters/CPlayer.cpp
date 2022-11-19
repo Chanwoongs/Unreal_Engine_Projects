@@ -387,7 +387,7 @@ void ACPlayer::Hitted()
 {
 	Status->SubHealth(DamageValue);
 	ACGameMode* gameMode = CHelpers::GetCustomGameMode<ACGameMode>(GetWorld());
-	gameMode->GetInGameUI()->Update(GetStatus()->GetHealth(), GetStatus()->GetMaxHealth());
+	gameMode->GetInGameUI()->UpdateHealth(GetStatus()->GetHealth(), GetStatus()->GetMaxHealth());
 
 
 	DamageValue = 0.0f;

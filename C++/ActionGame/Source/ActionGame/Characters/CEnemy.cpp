@@ -1,5 +1,6 @@
 #include "CEnemy.h"
 #include "Global.h"
+#include "CGameMode.h"
 
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Animation/AnimInstance.h"
@@ -16,6 +17,7 @@
 #include "Components/CStatusComponent.h"
 #include "Widgets/CUserWidget_Name.h"
 #include "Widgets/CUserWidget_Health.h"
+#include "Widgets/CUserWidget_InGameUI.h"
 #include "Actions/CActionData.h"
 
 ACEnemy::ACEnemy()
@@ -127,7 +129,11 @@ void ACEnemy::BeginDead()
 
 void ACEnemy::EndDead()
 {
+	ACGameMode* gameMode = CHelpers::GetCustomGameMode<ACGameMode>(GetWorld());
+	gameMode->GetInGameUI()->UpdateRemainEnemy((gameMode->GetRemainingEnemies()) - 1);
+
 	Action->DestroyAllActions();
+
 	Destroy();
 }
 
