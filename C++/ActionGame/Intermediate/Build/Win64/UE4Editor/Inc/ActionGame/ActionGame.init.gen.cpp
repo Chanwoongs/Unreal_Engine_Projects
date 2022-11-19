@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xA40E3457,
+				0xB6EE84EF,
 				0xC6B75E89,
 				METADATA_PARAMS(nullptr, 0)
 			};

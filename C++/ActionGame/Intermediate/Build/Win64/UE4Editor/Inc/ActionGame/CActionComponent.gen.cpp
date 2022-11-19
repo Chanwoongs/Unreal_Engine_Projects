@@ -19,7 +19,6 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCAction_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionData_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics
@@ -226,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(UCAction**)Z_Param__Result=P_THIS->GetCurrent();
+		*(UCActionData**)Z_Param__Result=P_THIS->GetCurrent();
 		P_NATIVE_END;
 	}
 	void UCActionComponent::StaticRegisterNativesUCActionComponent()
@@ -254,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	{
 		struct CActionComponent_eventGetCurrent_Parms
 		{
-			UCAction* ReturnValue;
+			UCActionData* ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -263,7 +262,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UCActionComponent_GetCurrent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CActionComponent_eventGetCurrent_Parms, ReturnValue), Z_Construct_UClass_UCAction_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UCActionComponent_GetCurrent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CActionComponent_eventGetCurrent_Parms, ReturnValue), Z_Construct_UClass_UCActionData_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCActionComponent_GetCurrent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCActionComponent_GetCurrent_Statics::NewProp_ReturnValue,
 	};
@@ -716,7 +715,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCActionComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCActionComponent_GetCurrent, "GetCurrent" }, // 1831648945
+		{ &Z_Construct_UFunction_UCActionComponent_GetCurrent, "GetCurrent" }, // 1796094475
 		{ &Z_Construct_UFunction_UCActionComponent_IsFireStormMode, "IsFireStormMode" }, // 352964673
 		{ &Z_Construct_UFunction_UCActionComponent_IsFistMode, "IsFistMode" }, // 1251719032
 		{ &Z_Construct_UFunction_UCActionComponent_IsIceBallMode, "IsIceBallMode" }, // 2349821299
@@ -786,7 +785,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 3628445394);
+	IMPLEMENT_CLASS(UCActionComponent, 3822452920);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();
