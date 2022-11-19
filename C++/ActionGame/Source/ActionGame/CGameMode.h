@@ -11,4 +11,23 @@ class ACTIONGAME_API ACGameMode : public AGameModeBase
 	
 public:
 	ACGameMode();
+
+	virtual void BeginPlay() override;
+
+public:
+	FORCEINLINE class UCUserWidget_InGameUI* GetInGameUI() { return InGameUI; }
+
+protected:
+
+private:
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<class UCUserWidget_InGameUI> InGameUIClass;
+
+private:
+	ACPlayer* Player;
+
+protected:
+	class UCUserWidget_InGameUI* InGameUI;
+
+
 };

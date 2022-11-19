@@ -54,6 +54,7 @@ private:
 public:
 	FORCEINLINE class UCUserWidget_ActionList* GetActionList() { return ActionList; }
 
+	FORCEINLINE class UCStatusComponent* GetStatus() { return Status; }
 
 public:
 	ACPlayer();

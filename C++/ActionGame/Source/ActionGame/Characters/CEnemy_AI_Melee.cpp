@@ -16,6 +16,7 @@
 #include "Widgets/CUserWidget_Health.h"
 
 #include "Components/CActionComponent.h"
+#include "Actions/CAction.h"
 
 ACEnemy_AI_Melee::ACEnemy_AI_Melee()
 {

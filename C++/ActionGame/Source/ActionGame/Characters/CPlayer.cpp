@@ -1,5 +1,6 @@
 #include "CPlayer.h"
 #include "Global.h"
+#include "CGameMode.h"
 
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -18,6 +19,7 @@
 #include "Components/CFeetComponent.h"
 
 #include "Widgets/CUserWidget_ActionList.h"
+#include "Widgets/CUserWidget_InGameUI.h"
 
 ACPlayer::ACPlayer()
 {
@@ -384,15 +386,19 @@ float ACPlayer::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AContr
 void ACPlayer::Hitted()
 {
 	Status->SubHealth(DamageValue);
+	ACGameMode* gameMode = CHelpers::GetCustomGameMode<ACGameMode>(GetWorld());
+	gameMode->GetInGameUI()->Update(GetStatus()->GetHealth(), GetStatus()->GetMaxHealth());
+
+
 	DamageValue = 0.0f;
 
 	// Montage Àç»ý
-	//if (Status->GetHealth() <= 0.0f)
-	//{
-	//	State->SetDeadMode();
+	if (Status->GetHealth() <= 0.0f)
+	{
+		State->SetDeadMode();
 
-	//	return;
-	//}
+		return;
+	}
 	Status->SetMove();
 	Montages->PlayHitted();
 }
