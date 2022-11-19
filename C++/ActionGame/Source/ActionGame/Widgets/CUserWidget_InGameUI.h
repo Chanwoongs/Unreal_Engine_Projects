@@ -11,6 +11,8 @@ class ACTIONGAME_API UCUserWidget_InGameUI : public UUserWidget
 	
 public:
 	UFUNCTION(BlueprintImplementableEvent)
-		void Update(float Health, float MaxHealth);
+		void UpdateHealth(float Health, float MaxHealth);
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void UpdateRemainEnemy(int32 RemainEnemy);
 };
