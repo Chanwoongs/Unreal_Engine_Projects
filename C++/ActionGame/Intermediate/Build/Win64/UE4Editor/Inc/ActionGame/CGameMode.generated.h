@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACGameMode)
 
 
-#define ActionGame_Source_ActionGame_CGameMode_h_10_PRIVATE_PROPERTY_OFFSET
+#define ActionGame_Source_ActionGame_CGameMode_h_10_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__InGameUIClass() { return STRUCT_OFFSET(ACGameMode, InGameUIClass); }
+
+
 #define ActionGame_Source_ActionGame_CGameMode_h_7_PROLOG
 #define ActionGame_Source_ActionGame_CGameMode_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

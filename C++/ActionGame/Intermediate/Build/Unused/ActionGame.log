@@ -2,10 +2,10 @@
   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
     [1/4] Module.ActionGame.cpp
-    [2/4] UE4Editor-ActionGame-0031.lib
-       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0031.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0031.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [3/4] UE4Editor-ActionGame-0031.dll
-       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0031.suppressed.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0031.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/4] UE4Editor-ActionGame-0022.lib
+       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0022.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0022.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [3/4] UE4Editor-ActionGame-0022.dll
+       C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0022.suppressed.lib ���̺귯�� �� C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Development\ActionGame\UE4Editor-ActionGame-0022.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [4/4] ActionGameEditor.target
-  Total time in Parallel executor: 12.61 seconds
-  Total execution time: 13.32 seconds
+  Total time in Parallel executor: 14.39 seconds
+  Total execution time: 15.41 seconds

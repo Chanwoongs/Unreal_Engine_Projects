@@ -51,5 +51,6 @@
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_ActionItem.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_ActionList.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_Health.gen.cpp"
+#include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_InGameUI.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_Name.gen.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/ICharacter.gen.cpp"

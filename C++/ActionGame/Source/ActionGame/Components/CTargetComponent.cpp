@@ -137,7 +137,7 @@ void UCTargetComponent::ChangeCursor(ACharacter* InTarget)
 		{
 			Attached->DestroyComponent();
 		}
-		Attached = UGameplayStatics::SpawnEmitterAttached(Particle, InTarget->GetMesh(), "Spine_Target");
+		Attached = UGameplayStatics::SpawnEmitterAttached(Particle, InTarget->GetMesh(), "Target");
 		Target = InTarget;
 
 		return;

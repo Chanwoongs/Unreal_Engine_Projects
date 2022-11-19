@@ -1,6 +1,7 @@
 #include "CAnimNotifyState_Equip.h"
 #include "Global.h"
 #include "Actions/CEquipment.h"
+#include "Actions/CAction.h"
 #include "Components/CActionComponent.h"
 
 FString UCAnimNotifyState_Equip::GetNotifyName_Implementation()const

@@ -1,5 +1,6 @@
 #include "CAnimNotifyState_Collision.h"
 #include "Global.h"
+#include "Actions/CAction.h"
 #include "Actions/CActionData.h"
 #include "Actions/CAttachment.h"
 #include "Components/CActionComponent.h"

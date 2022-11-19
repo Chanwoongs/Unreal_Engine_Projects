@@ -1,6 +1,7 @@
 #include "CAnimNotifyState_EnableCombo.h"
 #include "Global.h"
 #include "Actions/CEquipment.h"
+#include "Actions/CAction.h"
 #include "Actions/CDoAction_Melee.h"
 #include "Components/CActionComponent.h"
 

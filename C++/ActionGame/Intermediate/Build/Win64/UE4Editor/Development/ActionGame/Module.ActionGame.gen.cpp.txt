@@ -364,6 +364,9 @@ C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Interm
 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_Health.gen.cpp
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame/Widgets/CUserWidget_Health.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CUserWidget_Health.generated.h
+C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_InGameUI.gen.cpp
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame/Widgets/CUserWidget_InGameUI.h
+C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CUserWidget_InGameUI.generated.h
 C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Intermediate/Build/Win64/UE4Editor/Inc/ActionGame/CUserWidget_Name.gen.cpp
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Source\ActionGame/Widgets/CUserWidget_Name.h
 C:\Users\Chanwoongs\Desktop\Project\Unreal_Engine_Tutorial\C++\ActionGame\Intermediate\Build\Win64\UE4Editor\Inc\ActionGame\CUserWidget_Name.generated.h

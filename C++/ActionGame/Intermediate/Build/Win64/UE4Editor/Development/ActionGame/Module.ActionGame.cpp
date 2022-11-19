@@ -53,4 +53,5 @@
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Widgets/CUserWidget_ActionItem.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Widgets/CUserWidget_ActionList.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Widgets/CUserWidget_Health.cpp"
+#include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Widgets/CUserWidget_InGameUI.cpp"
 #include "C:/Users/Chanwoongs/Desktop/Project/Unreal_Engine_Tutorial/C++/ActionGame/Source/ActionGame/Widgets/CUserWidget_Name.cpp"

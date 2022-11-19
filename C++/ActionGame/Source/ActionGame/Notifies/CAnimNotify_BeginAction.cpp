@@ -1,6 +1,7 @@
 #include "CAnimNotify_BeginAction.h"
 #include "Global.h"
 #include "Characters/CPlayer.h"
+#include "Actions/CAction.h"
 #include "Actions/CActionData.h"
 #include "Actions/CDoAction.h"
 #include "Components/CActionComponent.h"

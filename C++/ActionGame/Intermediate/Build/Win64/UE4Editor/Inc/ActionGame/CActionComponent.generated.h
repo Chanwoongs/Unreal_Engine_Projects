@@ -9,7 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 enum class EActionType : uint8;
-class UCActionData;
+class UCAction;
 #ifdef ACTIONGAME_CActionComponent_generated_h
 #error "CActionComponent.generated.h already included, missing '#pragma once' in CActionComponent.h"
 #endif

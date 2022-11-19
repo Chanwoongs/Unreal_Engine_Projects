@@ -56,6 +56,7 @@
 			"CUserWidget_ActionItem.cpp.obj",
 			"CUserWidget_ActionList.cpp.obj",
 			"CUserWidget_Health.cpp.obj",
+			"CUserWidget_InGameUI.cpp.obj",
 			"CUserWidget_Name.cpp.obj"
 		],
 		"Module.ActionGame.gen.cpp.obj": [
@@ -111,6 +112,7 @@
 			"CUserWidget_ActionItem.gen.cpp.obj",
 			"CUserWidget_ActionList.gen.cpp.obj",
 			"CUserWidget_Health.gen.cpp.obj",
+			"CUserWidget_InGameUI.gen.cpp.obj",
 			"CUserWidget_Name.gen.cpp.obj",
 			"ICharacter.gen.cpp.obj"
 		]
