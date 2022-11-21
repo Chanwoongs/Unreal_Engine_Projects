@@ -18,13 +18,15 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<class UCUserWidget_InGameUI> InGameUIClass;
 
-protected:
-	class UCUserWidget_InGameUI* InGameUI;
-
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<APawn> ActionRPGPawnClass;
 
 public:
 	FORCEINLINE class UCUserWidget_InGameUI* GetInGameUI() { return InGameUI; }
 	FORCEINLINE int32 GetRemainingEnemies() { return NumberOfEnemies; }
+	
+protected:
+	class UCUserWidget_InGameUI* InGameUI;
 
 private:
 	ACPlayer* Player;

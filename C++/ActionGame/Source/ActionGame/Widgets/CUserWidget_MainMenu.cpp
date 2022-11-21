@@ -77,6 +77,7 @@ void UCUserWidget_MainMenu::StartActionGame()
 
 void UCUserWidget_MainMenu::StartShootingGame()
 {
+	UGameplayStatics::OpenLevel(this, FName("ShootingLevel"));
 }
 
 void UCUserWidget_MainMenu::Settings()
