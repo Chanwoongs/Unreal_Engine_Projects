@@ -13,15 +13,15 @@ class ACTIONGAME_API ACPlayer : public ACharacter, public IICharacter, public IG
 	GENERATED_BODY()
 
 // Widget
-private:
-	UPROPERTY(EditDefaultsOnly)
-		TSubclassOf<class UCUserWidget_ActionList> ActionListClass;
+protected:
+	//UPROPERTY(EditDefaultsOnly)
+	//	TSubclassOf<class UCUserWidget_ActionList> ActionListClass;
 
 	UPROPERTY(EditDefaultsOnly)
 		uint8 TeamID = 0;
 
 // Scene Components
-private:
+protected:
 	UPROPERTY(VisibleDefaultsOnly)
 		class USpringArmComponent* SpringArm;
 
@@ -29,7 +29,7 @@ private:
 		class UCameraComponent* Camera;
 
 // Actor Components
-private:
+protected:
 	UPROPERTY(VisibleDefaultsOnly)
 		class UCActionComponent* Action;
 
@@ -52,7 +52,7 @@ private:
 		class UCFeetComponent* Feet;
 
 public:
-	FORCEINLINE class UCUserWidget_ActionList* GetActionList() { return ActionList; }
+	//FORCEINLINE class UCUserWidget_ActionList* GetActionList() { return ActionList; }
 
 	FORCEINLINE class UCStatusComponent* GetStatus() { return Status; }
 
@@ -94,19 +94,18 @@ public:
 	void End_Backstep();
 
 private:
-	UFUNCTION()
-		void OnFist();
-	UFUNCTION()
-		void OnOneHand();
-	UFUNCTION()
-		void OnTwoHand();
-	UFUNCTION()
-		void OnWarp();
-	UFUNCTION()
-		void OnFireStorm();
-	UFUNCTION()
-		void OnIceBall();
-	UFUNCTION()
+	//UFUNCTION()
+	//	void OnFist();
+	//UFUNCTION()
+	//	void OnOneHand();
+	//UFUNCTION()
+	//	void OnTwoHand();
+	//UFUNCTION()
+	//	void OnWarp();
+	//UFUNCTION()
+	//	void OnFireStorm();
+	//UFUNCTION()
+	//	void OnIceBall();
 
 	void OnDoAction();
 	void OnTarget();
@@ -116,27 +115,27 @@ private:
 	void OnAim();
 	void OffAim();
 
-	void OnViewActionList();
-	void OffViewActionList();
+	//void OnViewActionList();
+	//void OffViewActionList();
 
 private:
-		void Hitted();
-		void Dead();
+	void Hitted();
+	void Dead();
 
 public:
 	virtual void BeginDead() override;
 	virtual void EndDead() override;
 
 
-public:
-	virtual void ChangeColor(FLinearColor InColor) override;
-
-private:
-	class UMaterialInstanceDynamic* BodyMaterial;
-	class UMaterialInstanceDynamic* LogoMaterial;
-
-protected:
-	class UCUserWidget_ActionList* ActionList;
+//public:
+//	virtual void ChangeColor(FLinearColor InColor) override;
+//
+//private:
+//	class UMaterialInstanceDynamic* BodyMaterial;
+//	class UMaterialInstanceDynamic* LogoMaterial;
+//
+//protected:
+//	class UCUserWidget_ActionList* ActionList;
 
 private:
 	class AController* DamageInstigator;

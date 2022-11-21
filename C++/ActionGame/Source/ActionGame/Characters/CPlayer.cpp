@@ -38,30 +38,12 @@ ACPlayer::ACPlayer()
 
 	bUseControllerRotationYaw = false;
 
-	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
-	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
-
-	USkeletalMesh* mesh;
-	CHelpers::GetAsset<USkeletalMesh>(&mesh, "SkeletalMesh'/Game/Character/Mesh/SK_Mannequin.SK_Mannequin'");
-	GetMesh()->SetSkeletalMesh(mesh);
-
-	TSubclassOf<UAnimInstance> animInstance;
-	CHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/Player/ABP_CPlayer.ABP_CPlayer_C'");
-	GetMesh()->SetAnimInstanceClass(animInstance);
-
 	SpringArm->SetRelativeLocation(FVector(0, 0, 140));
 	SpringArm->SetRelativeRotation(FRotator(0, 90, 0));
 	SpringArm->TargetArmLength = 250.0f;
 	SpringArm->bDoCollisionTest = false;
 	SpringArm->bUsePawnControlRotation = true;
-	SpringArm->bEnableCameraLag = true;
-
-	// GetCharacterMovement()->MaxWalkSpeed = 
-	GetCharacterMovement()->RotationRate = FRotator(0, 720, 0);
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-
-	CHelpers::GetClass<UCUserWidget_ActionList>(&ActionListClass, "WidgetBlueprint'/Game/Widgets/WB_ActionList.WB_ActionList_C'");
-	
+	SpringArm->bEnableCameraLag = true;	
 }
 
 void ACPlayer::BeginPlay()
@@ -69,32 +51,6 @@ void ACPlayer::BeginPlay()
 	Super::BeginPlay();
 	
 	State->OnStateTypeChanged.AddDynamic(this, &ACPlayer::OnStateTypeChanged);
-
-	UMaterialInstanceConstant* body;
-	UMaterialInstanceConstant* logo;
-
-	// BeginPlay 에선 GetAssetDynamic 사용
-	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&body, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_Body_Inst.M_UE4Man_Body_Inst'");
-	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&logo, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_ChestLogo_Inst.M_UE4Man_ChestLogo_Inst'");
-
-	BodyMaterial = UMaterialInstanceDynamic::Create(body, this);
-	LogoMaterial = UMaterialInstanceDynamic::Create(logo, this);
-
-	GetMesh()->SetMaterial(0, BodyMaterial);
-	GetMesh()->SetMaterial(1, LogoMaterial);
-
-	Action->SetUnarmedMode();
-	
-	ActionList = CreateWidget<UCUserWidget_ActionList, APlayerController>(GetController<APlayerController>(), ActionListClass);
-	ActionList->AddToViewport();
-	ActionList->SetVisibility(ESlateVisibility::Hidden);
-
-	ActionList->GetData(0).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnFist);
-	ActionList->GetData(1).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnOneHand);
-	ActionList->GetData(2).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnTwoHand);
-	ActionList->GetData(3).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnWarp);
-	ActionList->GetData(4).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnFireStorm);
-	ActionList->GetData(5).OnUserWidget_ActionItem_Clicked.AddDynamic(this, &ACPlayer::OnIceBall);
 }
 
 void ACPlayer::Tick(float DeltaTime)
@@ -117,20 +73,6 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// Zoom In/Out
 	PlayerInputComponent->BindAxis("Zoom", this, &ACPlayer::OnZoom);
 
-
-	// OneHand 무기
-	PlayerInputComponent->BindAction("OneHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnOneHand);
-	// TwoHand 무기
-	PlayerInputComponent->BindAction("TwoHand", EInputEvent::IE_Pressed, this, &ACPlayer::OnTwoHand);
-	// Fist
-	PlayerInputComponent->BindAction("Fist", EInputEvent::IE_Pressed, this, &ACPlayer::OnFist);
-	// Warp
-	PlayerInputComponent->BindAction("Warp", EInputEvent::IE_Pressed, this, &ACPlayer::OnWarp);
-	// FireStorm
-	PlayerInputComponent->BindAction("FireStorm", EInputEvent::IE_Pressed, this, &ACPlayer::OnFireStorm);
-	// IceBall
-	PlayerInputComponent->BindAction("IceBall", EInputEvent::IE_Pressed, this, &ACPlayer::OnIceBall);
-
 	// Do Action
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Pressed, this, &ACPlayer::OnDoAction);
 	// Target
@@ -142,11 +84,6 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// Aim
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer::OnAim);
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer::OffAim);
-
-	// ActionList
-	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Pressed, this, &ACPlayer::OnViewActionList);
-	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Released, this, &ACPlayer::OffViewActionList);
-
 }
 
 FGenericTeamId ACPlayer::GetGenericTeamId() const
@@ -272,48 +209,6 @@ void ACPlayer::End_Backstep()
 	State->SetIdleMode();
 }
 
-void ACPlayer::OnFist()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetFistMode();
-}
-
-void ACPlayer::OnOneHand()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetOneHandMode();
-}
-
-void ACPlayer::OnTwoHand()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetTwoHandMode();
-}
-
-void ACPlayer::OnWarp()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetWarpMode();
-}
-
-void ACPlayer::OnFireStorm()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetFireStormMode();
-}
-
-void ACPlayer::OnIceBall()
-{
-	CheckFalse(State->IsIdleMode());
-
-	Action->SetIceBallMode();
-}
-
 void ACPlayer::OnDoAction()
 {
 	Action->DoAction();
@@ -343,35 +238,6 @@ void ACPlayer::OffAim()
 {
 	Action->UndoAim();
 }
-
-void ACPlayer::OnViewActionList()
-{
-	CheckFalse(State->IsIdleMode());
-	ActionList->SetVisibility(ESlateVisibility::Visible);
-
-	GetController<APlayerController>()->bShowMouseCursor = true;
-	GetController<APlayerController>()->SetInputMode(FInputModeGameAndUI()); // 게임 모드인지 UI 모드인지 정함
-
-	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 0.1f); // 게임 속도를 늦춰줌
-}
-
-void ACPlayer::OffViewActionList()
-{
-	ActionList->SetVisibility(ESlateVisibility::Hidden);
-
-	GetController<APlayerController>()->bShowMouseCursor = false;
-	GetController<APlayerController>()->SetInputMode(FInputModeGameOnly()); // 게임 모드인지 UI 모드인지 정함
-
-	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1.0f); // 게임 속도를 늦춰줌
-
-}
-
-void ACPlayer::ChangeColor(FLinearColor InColor)
-{
-	BodyMaterial->SetVectorParameterValue("BodyColor", InColor);
-	LogoMaterial->SetVectorParameterValue("BodyColor", InColor);
-}
-
 
 float ACPlayer::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
