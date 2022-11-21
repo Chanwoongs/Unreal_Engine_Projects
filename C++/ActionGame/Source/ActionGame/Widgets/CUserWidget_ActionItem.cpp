@@ -2,6 +2,7 @@
 #include "Global.h"
 #include "CUserWidget_ActionList.h"
 #include "Characters/CPlayer.h"
+#include "Characters/CPlayer_Warrior.h"
 
 void UCUserWidget_ActionItem::Click()
 {
@@ -20,7 +21,7 @@ void UCUserWidget_ActionItem::Unhover()
 
 UCUserWidget_ActionList* UCUserWidget_ActionItem::GetActionList()
 {
-	ACPlayer* player = Cast<ACPlayer>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	ACPlayer_Warrior* player = Cast<ACPlayer_Warrior>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 
 	return player->GetActionList();	
 }
