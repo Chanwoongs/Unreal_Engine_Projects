@@ -10,12 +10,13 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Materials/MaterialInstanceConstant.h"
 
+#include "Actions/CAction.h"
+#include "Components/CActionComponent.h"
 #include "Components/COptionComponent.h"
 #include "Components/CStatusComponent.h"
 #include "Widgets/CUserWidget_Name.h"
 #include "Widgets/CUserWidget_Health.h"
 
-#include "Components/CActionComponent.h"
 
 ACEnemy_AI_Wizard::ACEnemy_AI_Wizard()
 {

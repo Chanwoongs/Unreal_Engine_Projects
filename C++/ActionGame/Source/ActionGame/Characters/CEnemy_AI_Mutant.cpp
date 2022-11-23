@@ -10,12 +10,13 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Materials/MaterialInstanceConstant.h"
 
+#include "Actions/CAction.h"
+#include "Components/CActionComponent.h"
 #include "Components/COptionComponent.h"
 #include "Components/CStatusComponent.h"
 #include "Widgets/CUserWidget_Name.h"
 #include "Widgets/CUserWidget_Health.h"
 
-#include "Components/CActionComponent.h"
 
 ACEnemy_AI_Mutant::ACEnemy_AI_Mutant()
 {
@@ -81,7 +82,11 @@ void ACEnemy_AI_Mutant::Hitted()
 
 void ACEnemy_AI_Mutant::RestoreColor()
 {
-	FLinearColor color = Action->GetCurrent()->GetEquipmentColor();
+	UCAction* action = Action->GetCurrent();
+	if (!!action)
+	{
+		FLinearColor color = action->GetEquipmentColor();
 
-	ChangeColor(color);
+		ChangeColor(color);
+	}
 }

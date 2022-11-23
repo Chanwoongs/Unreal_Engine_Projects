@@ -26,9 +26,11 @@ void UCAnimNotify_Hitted::Notify(USkeletalMeshComponent* MeshComp, UAnimSequence
 
 	state->SetIdleMode();
 
-	UCActionComponent* action = CHelpers::GetComponent<UCActionComponent>(character);
+	UCActionComponent* actionComp = CHelpers::GetComponent<UCActionComponent>(character);
+	CheckNull(actionComp);
+	UCAction* action = actionComp->GetCurrent();
 	CheckNull(action);
-	ACDoAction* doAction = action->GetCurrent()->GetDoAction();
+	ACDoAction* doAction = action->GetDoAction();
 	CheckNull(doAction);
 	doAction->End_Action();
 
