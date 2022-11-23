@@ -1,0 +1,5 @@
+,Type,AnimMontage,PlayRatio,StartSection
+1,Roll,AnimMontage'/Game/Character/Swat/Unarmed/Roll_Montage.Roll_Montage',1.75,
+2,Backstep,AnimMontage'/Game/Character/Swat/Unarmed/BackStep_Montage.BackStep_Montage',1.5,
+3,Hitted,AnimMontage'/Game/Character/Swat/Unarmed/HitReaction_Montage.HitReaction_Montage',2.5,
+4,Dead,AnimMontage'/Game/Character/Swat/Unarmed/Player_DeadFall_Montage.Player_DeadFall_Montage',1,
