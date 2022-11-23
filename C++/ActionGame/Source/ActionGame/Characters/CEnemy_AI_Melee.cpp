@@ -29,20 +29,6 @@ ACEnemy_AI_Melee::ACEnemy_AI_Melee()
 	GetMesh()->SetAnimInstanceClass(animInstance);
 
 	GetCharacterMovement()->RotationRate = FRotator(0, 720, 0);
-
-	TSubclassOf<UCUserWidget_Name> nameClass;
-	CHelpers::GetClass<UCUserWidget_Name>(&nameClass, "WidgetBlueprint'/Game/Widgets/WB_Name.WB_Name_C'");
-	NameWidget->SetWidgetClass(nameClass);
-	NameWidget->SetRelativeLocation(FVector(0, 0, 240));
-	NameWidget->SetDrawSize(FVector2D(230, 30));
-	NameWidget->SetWidgetSpace(EWidgetSpace::Screen); // 항상 정면 보도록
-
-	TSubclassOf<UCUserWidget_Health> healthClass;
-	CHelpers::GetClass<UCUserWidget_Health>(&healthClass, "WidgetBlueprint'/Game/Widgets/WB_Health.WB_Health_C'");
-	HealthWidget->SetWidgetClass(healthClass);
-	HealthWidget->SetRelativeLocation(FVector(0, 0, 190));
-	HealthWidget->SetDrawSize(FVector2D(120, 20));
-	HealthWidget->SetWidgetSpace(EWidgetSpace::Screen);
 }
 
 void ACEnemy_AI_Melee::BeginPlay()
@@ -61,10 +47,6 @@ void ACEnemy_AI_Melee::BeginPlay()
 	GetMesh()->SetMaterial(1, LogoMaterial);
 
 	Super::BeginPlay();
-
-	NameWidget->InitWidget();
-	//GetUserWidgetObject : UserWidgetClass로 세팅된 자료형에 대해서 자동으로 만들어진 객체 리턴
-	Cast<UCUserWidget_Name>(NameWidget->GetUserWidgetObject())->SetNameText(GetActorLabel());
 
 	HealthWidget->InitWidget();
 	Cast<UCUserWidget_Health>(HealthWidget->GetUserWidgetObject())->Update(Status->GetHealth(), Status->GetMaxHealth());

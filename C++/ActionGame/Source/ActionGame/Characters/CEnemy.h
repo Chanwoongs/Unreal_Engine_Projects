@@ -18,9 +18,6 @@ private:
 // Scene Components
 protected:
 	UPROPERTY(VisibleDefaultsOnly)
-		class UWidgetComponent* NameWidget;
-
-	UPROPERTY(VisibleDefaultsOnly)
 		class UWidgetComponent* HealthWidget;
 
 // Actor Components
@@ -60,6 +57,7 @@ private:
 
 private:
 	void Dead();
+	void UpdateVisibilityHealbar();
 
 public:
 	virtual void BeginDead() override;

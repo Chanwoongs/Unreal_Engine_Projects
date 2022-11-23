@@ -11,6 +11,7 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Materials/MaterialInstanceConstant.h"
 
+#include "Characters/CPlayer.h"
 #include "Components/CActionComponent.h"
 #include "Components/CMontagesComponent.h"
 #include "Components/COptionComponent.h"
@@ -24,7 +25,6 @@ ACEnemy::ACEnemy()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	CHelpers::CreateComponent<UWidgetComponent>(this, &NameWidget, "NameWidget", GetMesh());
 	CHelpers::CreateComponent<UWidgetComponent>(this, &HealthWidget, "HealthWidget", GetMesh());
 
 	CHelpers::CreateActorComponent<UCActionComponent>(this, &Action, "Action");
@@ -34,6 +34,13 @@ ACEnemy::ACEnemy()
 
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
 	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
+
+	TSubclassOf<UCUserWidget_Health> healthClass;
+	CHelpers::GetClass<UCUserWidget_Health>(&healthClass, "WidgetBlueprint'/Game/Widgets/WB_Health.WB_Health_C'");
+	HealthWidget->SetWidgetClass(healthClass);
+	HealthWidget->SetRelativeLocation(FVector(0, 0, 190));
+	HealthWidget->SetDrawSize(FVector2D(120, 20));
+	HealthWidget->SetWidgetSpace(EWidgetSpace::Screen);
 }
 
 void ACEnemy::BeginPlay()
@@ -46,6 +53,8 @@ void ACEnemy::BeginPlay()
 void ACEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	UpdateVisibilityHealbar();
 }
 
 
@@ -138,5 +147,26 @@ void ACEnemy::EndDead()
 	Destroy();
 }
 
+void ACEnemy::UpdateVisibilityHealbar()
+{
+	FCollisionQueryParams params;
+	params.AddIgnoredActor(this);
 
+	FVector playerLocation = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0)->GetActorLocation();
+	FVector location = GetActorLocation();
 
+	DrawDebugLine(GetWorld(), location, playerLocation, FColor::Red);
+	FHitResult hitResult;
+	if (GetWorld()->LineTraceSingleByChannel(hitResult, location, playerLocation, ECollisionChannel::ECC_WorldStatic, params))
+	{
+		ACPlayer* player = Cast<ACPlayer>(hitResult.GetActor());
+		if (!!player)
+		{
+			HealthWidget->SetVisibility(true);
+		}
+		else
+		{
+			HealthWidget->SetVisibility(false);
+		}
+	}
+}
