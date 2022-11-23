@@ -7,7 +7,7 @@
 UENUM(BlueprintType)
 enum class EActionType : uint8
 {
-	Unarmed, Fist, OneHand, TwoHand, Warp, FireStorm, IceBall, Mutant, Max
+	Unarmed, Fist, OneHand, TwoHand, Warp, FireStorm, IceBall, Rifle, Mutant, Max
 };
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FActionTypeChanged, EActionType, InPreviousType, EActionType, InNewType);
 
@@ -50,11 +50,10 @@ public:
 		FORCEINLINE bool IsIceBallMode() { return Type == EActionType::IceBall; }
 
 	UFUNCTION(BlueprintPure)
+		FORCEINLINE bool IsRifleMode() { return Type == EActionType::Rifle; }
+
+	UFUNCTION(BlueprintPure)
 		FORCEINLINE bool IsMutantMode() { return Type == EActionType::Mutant; }
-
-
-private:
-
 
 public:	
 	UCActionComponent();
@@ -74,16 +73,19 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void SetMutantMode();
 
+	UFUNCTION(BlueprintCallable)
+		void SetRifleMode();
+
 	void SetFistMode();
 	void SetOneHandMode();
 	void SetFireStormMode();
-
-
 
 	void OffAllCollision();
 	void DestroyAllActions();
 
 public:
+	FORCEINLINE bool *IsAiming() { return &bAiming; }
+
 	void DoAction();
 
 	void DoAim();
@@ -106,4 +108,5 @@ public:
 private:
 	EActionType Type;
 	class UCAction* Datas[(int32)EActionType::Max];
+	bool bAiming;
 };

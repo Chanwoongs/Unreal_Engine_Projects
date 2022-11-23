@@ -115,6 +115,11 @@ void UCActionComponent::SetIceBallMode()
 	SetMode(EActionType::IceBall);
 }
 
+void UCActionComponent::SetRifleMode()
+{
+	SetMode(EActionType::Rifle);
+}
+
 
 void UCActionComponent::OffAllCollision()
 {
@@ -166,11 +171,13 @@ void UCActionComponent::DoAction()
 void UCActionComponent::DoAim()
 {
 	SetAimMode(true);
+	bAiming = true;
 }
 
 void UCActionComponent::UndoAim()
 {
 	SetAimMode(false);
+	bAiming = false;
 }
 
 void UCActionComponent::SetAimMode(bool InAim)
