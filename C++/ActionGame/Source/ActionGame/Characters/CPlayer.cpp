@@ -36,14 +36,6 @@ ACPlayer::ACPlayer()
 	CHelpers::CreateActorComponent<UCStateComponent>(this, &State, "State");
 	CHelpers::CreateActorComponent<UCFeetComponent>(this, &Feet, "Feet");
 
-	bUseControllerRotationYaw = false;
-
-	SpringArm->SetRelativeLocation(FVector(0, 0, 140));
-	SpringArm->SetRelativeRotation(FRotator(0, 90, 0));
-	SpringArm->TargetArmLength = 250.0f;
-	SpringArm->bDoCollisionTest = false;
-	SpringArm->bUsePawnControlRotation = true;
-	SpringArm->bEnableCameraLag = true;	
 }
 
 void ACPlayer::BeginPlay()
@@ -81,9 +73,6 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("TargetLeft", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetLeft);
 	PlayerInputComponent->BindAction("TargetRight", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetRight);
 
-	// Aim
-	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer::OnAim);
-	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer::OffAim);
 }
 
 FGenericTeamId ACPlayer::GetGenericTeamId() const
@@ -227,16 +216,6 @@ void ACPlayer::OnTargetLeft()
 void ACPlayer::OnTargetRight()
 {
 	Target->ChangeTargetRight();
-}
-
-void ACPlayer::OnAim()
-{
-	Action->DoAim();
-}
-
-void ACPlayer::OffAim()
-{
-	Action->UndoAim();
 }
 
 float ACPlayer::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)

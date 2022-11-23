@@ -41,6 +41,9 @@ private:
 	UFUNCTION()
 		void OnIceBall();
 
+	void OnAim();
+	void OffAim();
+
 	void OnViewActionList();
 	void OffViewActionList();
 

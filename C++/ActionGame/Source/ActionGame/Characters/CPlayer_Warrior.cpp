@@ -41,6 +41,16 @@ ACPlayer_Warrior::ACPlayer_Warrior()
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	CHelpers::GetClass<UCUserWidget_ActionList>(&ActionListClass, "WidgetBlueprint'/Game/Widgets/WB_ActionList.WB_ActionList_C'");
+
+	bUseControllerRotationYaw = false;
+
+	SpringArm->SetRelativeLocation(FVector(0, 0, 140));
+	SpringArm->SetRelativeRotation(FRotator(0, 90, 0));
+	SpringArm->TargetArmLength = 250.0f;
+	SpringArm->bDoCollisionTest = false;
+	SpringArm->bUsePawnControlRotation = true;
+	SpringArm->bEnableCameraLag = true;
+
 }
 
 void ACPlayer_Warrior::BeginPlay()
@@ -95,6 +105,10 @@ void ACPlayer_Warrior::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// ActionList
 	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Pressed, this, &ACPlayer_Warrior::OnViewActionList);
 	PlayerInputComponent->BindAction("ViewActionList", EInputEvent::IE_Released, this, &ACPlayer_Warrior::OffViewActionList);
+
+	// Aim
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer_Warrior::OnAim);
+	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer_Warrior::OffAim);
 
 }
 
@@ -167,4 +181,13 @@ void ACPlayer_Warrior::ChangeColor(FLinearColor InColor)
 	BodyMaterial->SetVectorParameterValue("BodyColor", InColor);
 }
 
+void ACPlayer_Warrior::OnAim()
+{
+	Action->DoAim();
+}
+
+void ACPlayer_Warrior::OffAim()
+{
+	Action->UndoAim();
+}
 

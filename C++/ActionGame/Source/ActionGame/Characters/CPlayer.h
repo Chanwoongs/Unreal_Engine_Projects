@@ -94,30 +94,10 @@ public:
 	void End_Backstep();
 
 private:
-	//UFUNCTION()
-	//	void OnFist();
-	//UFUNCTION()
-	//	void OnOneHand();
-	//UFUNCTION()
-	//	void OnTwoHand();
-	//UFUNCTION()
-	//	void OnWarp();
-	//UFUNCTION()
-	//	void OnFireStorm();
-	//UFUNCTION()
-	//	void OnIceBall();
-
 	void OnDoAction();
 	void OnTarget();
 	void OnTargetLeft();
 	void OnTargetRight();
-
-	void OnAim();
-	void OffAim();
-
-	//void OnViewActionList();
-	//void OffViewActionList();
-
 private:
 	void Hitted();
 	void Dead();
@@ -125,17 +105,6 @@ private:
 public:
 	virtual void BeginDead() override;
 	virtual void EndDead() override;
-
-
-//public:
-//	virtual void ChangeColor(FLinearColor InColor) override;
-//
-//private:
-//	class UMaterialInstanceDynamic* BodyMaterial;
-//	class UMaterialInstanceDynamic* LogoMaterial;
-//
-//protected:
-//	class UCUserWidget_ActionList* ActionList;
 
 private:
 	class AController* DamageInstigator;
