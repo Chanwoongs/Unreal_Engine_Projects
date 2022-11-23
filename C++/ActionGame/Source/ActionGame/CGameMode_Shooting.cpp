@@ -12,7 +12,7 @@
 #include "Levels/CLevelScriptActor_MainMenu.h"
 ACGameMode_Shooting::ACGameMode_Shooting()
 {
-	CHelpers::GetClass<APawn>(&ShootingPawnClass, "Blueprint'/Game/Player/BP_CPlayer.BP_CPlayer_C'");
+	CHelpers::GetClass<APawn>(&ShootingPawnClass, "Blueprint'/Game/Character/Swat/BP_CPlayer_Swat.BP_CPlayer_Swat_C'");
 	CHelpers::GetClass<AHUD>(&HUDClass, "Blueprint'/Game/BP_CHUD.BP_CHUD_C'");
 
 	DefaultPawnClass = ShootingPawnClass;

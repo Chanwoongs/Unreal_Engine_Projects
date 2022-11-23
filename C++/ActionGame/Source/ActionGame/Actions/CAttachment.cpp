@@ -9,6 +9,7 @@
 ACAttachment::ACAttachment()
 {
 	CHelpers::CreateComponent<USceneComponent>(this, &Scene, "Scene");
+	CHelpers::CreateComponent<USkeletalMeshComponent>(this, &Skeletal, "Skeletal", Scene);
 }
 
 void ACAttachment::BeginPlay()
@@ -25,6 +26,7 @@ void ACAttachment::BeginPlay()
 		component->OnComponentBeginOverlap.AddDynamic(this, &ACAttachment::OnComponentBeginOverlap);
 		component->OnComponentEndOverlap.AddDynamic(this, &ACAttachment::OnComponentEndOverlap);
 	}
+
 
 	OffCollision();
 

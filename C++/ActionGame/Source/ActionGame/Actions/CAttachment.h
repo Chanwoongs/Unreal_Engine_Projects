@@ -16,7 +16,10 @@ class ACTIONGAME_API ACAttachment : public AActor
 
 protected:
 	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly)
-		class USceneComponent* Scene; // root¿ë Component
+		class USceneComponent* Scene; // root¿ë Component;
+
+	UPROPERTY(BlueprintReadOnly, VisibleDefaultsOnly)
+		class USkeletalMeshComponent* Skeletal;
 
 protected:
 	UFUNCTION(BlueprintCallable)
@@ -31,6 +34,9 @@ public:
 	void OnCollision();
 	void OffCollision();
 
+public:
+	FORCEINLINE USkeletalMeshComponent* GetSkeletal() { return Skeletal; }
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -43,11 +49,13 @@ private:
 		void OnComponentEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 public:
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintNativeEvent)
 		void OnEquip();
+	virtual void OnEquip_Implementation() {}
 
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintNativeEvent)
 		void OnUnequip();
+	virtual void OnUnequip_Implementation() {}
 
 protected:
 	UPROPERTY(BlueprintReadOnly)
