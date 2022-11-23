@@ -47,10 +47,6 @@ public:
 	void OffFocus() override;
 
 private:
-	// 액션 입력은 parameter가 없다
-	void OnRunning();
-	void OffRunning();
-
 	// Aim mode
 	void OnAim();
 	void OffAim();

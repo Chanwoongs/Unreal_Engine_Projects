@@ -78,6 +78,11 @@ private:
 	void OnVerticalLook(float InAxis);
 	void OnZoom(float InAxis);
 
+	// 액션 입력은 parameter가 없다
+	void OnRunning();
+	void OffRunning();
+
+
 private:
 	void OnAvoid();
 

@@ -104,25 +104,12 @@ void ACPlayer_Swat::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Pressed, this, &ACPlayer_Swat::OnRunning);
-	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Released, this, &ACPlayer_Swat::OffRunning);
-
 	PlayerInputComponent->BindAction("Rifle", EInputEvent::IE_Pressed, this, &ACPlayer_Swat::OnRifle);
 
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Pressed, this, &ACPlayer_Swat::OnAim);
 	PlayerInputComponent->BindAction("Aim", EInputEvent::IE_Released, this, &ACPlayer_Swat::OffAim);
 
 	PlayerInputComponent->BindAction("Action", EInputEvent::IE_Released, this, &ACPlayer_Swat::OffFire);
-}
-
-// 달리기 액션 입력
-void ACPlayer_Swat::OnRunning()
-{
-	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
-}
-void ACPlayer_Swat::OffRunning()
-{
-	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
 }
 
 void ACPlayer_Swat::OnRifle()

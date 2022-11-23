@@ -73,6 +73,11 @@ void ACPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("TargetLeft", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetLeft);
 	PlayerInputComponent->BindAction("TargetRight", EInputEvent::IE_Pressed, this, &ACPlayer::OnTargetRight);
 
+	// Running
+	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Pressed, this, &ACPlayer::OnRunning);
+	PlayerInputComponent->BindAction("Running", EInputEvent::IE_Released, this, &ACPlayer::OffRunning);
+
+
 }
 
 FGenericTeamId ACPlayer::GetGenericTeamId() const
@@ -231,8 +236,12 @@ float ACPlayer::TakeDamage(float Damage, FDamageEvent const& DamageEvent, AContr
 void ACPlayer::Hitted()
 {
 	Status->SubHealth(DamageValue);
+
 	ACGameMode* gameMode = CHelpers::GetCustomGameMode<ACGameMode>(GetWorld());
-	gameMode->GetInGameUI()->UpdateHealth(GetStatus()->GetHealth(), GetStatus()->GetMaxHealth());
+	if (!!gameMode)
+	{
+		gameMode->GetInGameUI()->UpdateHealth(GetStatus()->GetHealth(), GetStatus()->GetMaxHealth());
+	}
 
 
 	DamageValue = 0.0f;
@@ -265,5 +274,15 @@ void ACPlayer::EndDead()
 {
 	Action->DestroyAllActions();
 	UKismetSystemLibrary::QuitGame(GetWorld(), GetController<APlayerController>(), EQuitPreference::Quit, false);
+}
+
+// 달리기 액션 입력
+void ACPlayer::OnRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+}
+void ACPlayer::OffRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
 }
 
