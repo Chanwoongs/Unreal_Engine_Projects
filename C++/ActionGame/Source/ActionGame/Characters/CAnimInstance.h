@@ -24,6 +24,16 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		FFeetData FeetData;
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		float Pitch;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		bool bEquipped;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+		bool bAim;
+
+
 public:
 	virtual void NativeBeginPlay() override; // 게임이 시작되고 애니메이션이 플레이될 때 호출
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;// 게임뿐만이 아니라 에디터 상황에서도 애니메이션이 플레이될 때 호출
