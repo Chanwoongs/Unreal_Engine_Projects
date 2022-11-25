@@ -71,7 +71,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy); \
 
 #define ActionGame_Source_ActionGame_Characters_CEnemy_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LaunchAmount() { return STRUCT_OFFSET(ACEnemy, LaunchAmount); } \
-	FORCEINLINE static uint32 __PPO__NameWidget() { return STRUCT_OFFSET(ACEnemy, NameWidget); } \
 	FORCEINLINE static uint32 __PPO__HealthWidget() { return STRUCT_OFFSET(ACEnemy, HealthWidget); } \
 	FORCEINLINE static uint32 __PPO__Action() { return STRUCT_OFFSET(ACEnemy, Action); } \
 	FORCEINLINE static uint32 __PPO__Montages() { return STRUCT_OFFSET(ACEnemy, Montages); } \

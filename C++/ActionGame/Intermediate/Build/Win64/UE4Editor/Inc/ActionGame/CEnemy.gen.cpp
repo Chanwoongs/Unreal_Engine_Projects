@@ -116,10 +116,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthWidget;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NameWidget_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NameWidget;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchAmount_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchAmount;
@@ -183,14 +179,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget = { "HealthWidget", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, HealthWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_NameWidget_MetaData[] = {
-		{ "Category", "CEnemy" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/CEnemy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_NameWidget = { "NameWidget", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, NameWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_NameWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_NameWidget_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData[] = {
 		{ "Category", "Hitted" },
 		{ "ModuleRelativePath", "Characters/CEnemy.h" },
@@ -203,7 +191,6 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Action,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_NameWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ACEnemy_Statics::InterfaceParams[] = {
@@ -236,7 +223,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy, 2033728958);
+	IMPLEMENT_CLASS(ACEnemy, 669272137);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy>()
 	{
 		return ACEnemy::StaticClass();

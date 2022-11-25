@@ -17,7 +17,7 @@ ACGameMode::ACGameMode()
 	CHelpers::GetClass<UCUserWidget_InGameUI>(&InGameUIClass, "WidgetBlueprint'/Game/Widgets/WB_InGameUI.WB_InGameUI_C'");
 
 	DefaultPawnClass = ActionRPGPawnClass;
-	NumberOfEnemies = 10;
+	NumberOfEnemies = 3;
 }
 
 void ACGameMode::BeginPlay()

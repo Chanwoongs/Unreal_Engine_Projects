@@ -31,7 +31,6 @@ protected:
 protected:
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnZoomIn();
-	
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnZoomOut();
@@ -81,7 +80,7 @@ private:
 
 
 public:
-	// BlueprintCallable : BP에서 call 가능
+	// BlueprintCallable : BP에서 call 가.능
 	UFUNCTION(BlueprintCallable)
 		void ChangeColor(FLinearColor InColor);
 

@@ -110,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI_Mutant() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy_AI_Mutant, 3717061455);
+	IMPLEMENT_CLASS(ACEnemy_AI_Mutant, 1483019627);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy_AI_Mutant>()
 	{
 		return ACEnemy_AI_Mutant::StaticClass();

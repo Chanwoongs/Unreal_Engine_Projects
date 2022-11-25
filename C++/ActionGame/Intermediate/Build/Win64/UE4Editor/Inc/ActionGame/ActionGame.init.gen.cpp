@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_BehaviorTypeChanged__DelegateSignature();
 	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UserWidget_ActionItem_Clicked__DelegateSignature();
+	ACTIONGAME_API UFunction* Z_Construct_UDelegateFunction_ActionGame_UserWidget_MainMenu_Button_Clicked__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_ActionGame()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -37,14 +38,15 @@ void EmptyLinkFunctionForGeneratedCodeActionGame_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_StateTypeChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_BehaviorTypeChanged__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UserWidget_ActionItem_Clicked__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_ActionGame_UserWidget_MainMenu_Button_Clicked__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ActionGame",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x58794FFB,
-				0x2014CE12,
+				0x16BEE39F,
+				0x93B6FE75,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -2,6 +2,8 @@
 #include "Global.h"
 #include "Characters/CAIController.h"
 #include "Characters/CEnemy_AI.h"
+#include "Actions/CDoAction.h"
+#include "Actions/CAction.h"
 #include "Components/CActionComponent.h"
 #include "Components/CStateComponent.h"
 
@@ -18,11 +20,14 @@ EBTNodeResult::Type UCBTTaskNode_Action::ExecuteTask(UBehaviorTreeComponent& Own
 
 	ACAIController* controller = Cast<ACAIController>(OwnerComp.GetOwner());
 	ACEnemy_AI* ai = Cast<ACEnemy_AI>(controller->GetPawn());
-	UCActionComponent* action = CHelpers::GetComponent<UCActionComponent>(ai);
-
+	UCActionComponent* actionComp = CHelpers::GetComponent<UCActionComponent>(ai);
+	UCAction* action = actionComp->GetCurrent();
+	ACDoAction* doAction = action->GetDoAction();
+	if (!!doAction)
+	{
+		doAction->DoAction();
+	}
 	TotalTime = 0.0f;
-
-	action->DoAction();
 
 	return EBTNodeResult::InProgress;
 	// InProgress 상태는 현재 태스크가 종료되지 않은 상태로

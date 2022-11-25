@@ -17,25 +17,11 @@ enum class EStateType : uint8;
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_13_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnDoAction); \
-	DECLARE_FUNCTION(execOnIceBall); \
-	DECLARE_FUNCTION(execOnFireStorm); \
-	DECLARE_FUNCTION(execOnWarp); \
-	DECLARE_FUNCTION(execOnTwoHand); \
-	DECLARE_FUNCTION(execOnOneHand); \
-	DECLARE_FUNCTION(execOnFist); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnDoAction); \
-	DECLARE_FUNCTION(execOnIceBall); \
-	DECLARE_FUNCTION(execOnFireStorm); \
-	DECLARE_FUNCTION(execOnWarp); \
-	DECLARE_FUNCTION(execOnTwoHand); \
-	DECLARE_FUNCTION(execOnOneHand); \
-	DECLARE_FUNCTION(execOnFist); \
 	DECLARE_FUNCTION(execOnStateTypeChanged);
 
 
@@ -84,7 +70,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 
 
 #define ActionGame_Source_ActionGame_Characters_CPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ActionListClass() { return STRUCT_OFFSET(ACPlayer, ActionListClass); } \
 	FORCEINLINE static uint32 __PPO__TeamID() { return STRUCT_OFFSET(ACPlayer, TeamID); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACPlayer, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ACPlayer, Camera); } \

@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		return EActionType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EActionType(EActionType_StaticEnum, TEXT("/Script/ActionGame"), TEXT("EActionType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 2476493088U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 4230431524U; }
 	UEnum* Z_Construct_UEnum_ActionGame_EActionType()
 	{
 #if WITH_HOT_RELOAD
@@ -97,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				{ "EActionType::Warp", (int64)EActionType::Warp },
 				{ "EActionType::FireStorm", (int64)EActionType::FireStorm },
 				{ "EActionType::IceBall", (int64)EActionType::IceBall },
+				{ "EActionType::Rifle", (int64)EActionType::Rifle },
 				{ "EActionType::Mutant", (int64)EActionType::Mutant },
 				{ "EActionType::Max", (int64)EActionType::Max },
 			};
@@ -110,6 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				{ "ModuleRelativePath", "Components/CActionComponent.h" },
 				{ "Mutant.Name", "EActionType::Mutant" },
 				{ "OneHand.Name", "EActionType::OneHand" },
+				{ "Rifle.Name", "EActionType::Rifle" },
 				{ "TwoHand.Name", "EActionType::TwoHand" },
 				{ "Unarmed.Name", "EActionType::Unarmed" },
 				{ "Warp.Name", "EActionType::Warp" },
@@ -130,6 +132,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
 		}
 		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execSetRifleMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetRifleMode();
+		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCActionComponent::execSetMutantMode)
 	{
@@ -171,6 +180,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		*(bool*)Z_Param__Result=P_THIS->IsMutantMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UCActionComponent::execIsRifleMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsRifleMode();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCActionComponent::execIsIceBallMode)
@@ -239,11 +255,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			{ "IsIceBallMode", &UCActionComponent::execIsIceBallMode },
 			{ "IsMutantMode", &UCActionComponent::execIsMutantMode },
 			{ "IsOneHandMode", &UCActionComponent::execIsOneHandMode },
+			{ "IsRifleMode", &UCActionComponent::execIsRifleMode },
 			{ "IsTwoHandMode", &UCActionComponent::execIsTwoHandMode },
 			{ "IsUnarmedMode", &UCActionComponent::execIsUnarmedMode },
 			{ "IsWarpMode", &UCActionComponent::execIsWarpMode },
 			{ "SetIceBallMode", &UCActionComponent::execSetIceBallMode },
 			{ "SetMutantMode", &UCActionComponent::execSetMutantMode },
+			{ "SetRifleMode", &UCActionComponent::execSetRifleMode },
 			{ "SetTwoHandMode", &UCActionComponent::execSetTwoHandMode },
 			{ "SetUnarmedMode", &UCActionComponent::execSetUnarmedMode },
 			{ "SetWarpMode", &UCActionComponent::execSetWarpMode },
@@ -467,6 +485,43 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics
+	{
+		struct CActionComponent_eventIsRifleMode_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((CActionComponent_eventIsRifleMode_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CActionComponent_eventIsRifleMode_Parms), &Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "IsRifleMode", nullptr, nullptr, sizeof(CActionComponent_eventIsRifleMode_Parms), Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_IsRifleMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_IsRifleMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UCActionComponent_IsTwoHandMode_Statics
 	{
 		struct CActionComponent_eventIsTwoHandMode_Parms
@@ -622,6 +677,28 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCActionComponent, nullptr, "SetRifleMode", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCActionComponent_SetRifleMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCActionComponent_SetRifleMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UCActionComponent_SetTwoHandMode_Statics
 	{
 #if WITH_METADATA
@@ -722,11 +799,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		{ &Z_Construct_UFunction_UCActionComponent_IsIceBallMode, "IsIceBallMode" }, // 2349821299
 		{ &Z_Construct_UFunction_UCActionComponent_IsMutantMode, "IsMutantMode" }, // 4030639049
 		{ &Z_Construct_UFunction_UCActionComponent_IsOneHandMode, "IsOneHandMode" }, // 672399581
+		{ &Z_Construct_UFunction_UCActionComponent_IsRifleMode, "IsRifleMode" }, // 444906782
 		{ &Z_Construct_UFunction_UCActionComponent_IsTwoHandMode, "IsTwoHandMode" }, // 1373337640
 		{ &Z_Construct_UFunction_UCActionComponent_IsUnarmedMode, "IsUnarmedMode" }, // 2821889002
 		{ &Z_Construct_UFunction_UCActionComponent_IsWarpMode, "IsWarpMode" }, // 716935244
 		{ &Z_Construct_UFunction_UCActionComponent_SetIceBallMode, "SetIceBallMode" }, // 1705234623
 		{ &Z_Construct_UFunction_UCActionComponent_SetMutantMode, "SetMutantMode" }, // 2498025370
+		{ &Z_Construct_UFunction_UCActionComponent_SetRifleMode, "SetRifleMode" }, // 1062429490
 		{ &Z_Construct_UFunction_UCActionComponent_SetTwoHandMode, "SetTwoHandMode" }, // 2880942245
 		{ &Z_Construct_UFunction_UCActionComponent_SetUnarmedMode, "SetUnarmedMode" }, // 3018326069
 		{ &Z_Construct_UFunction_UCActionComponent_SetWarpMode, "SetWarpMode" }, // 1003519650
@@ -786,7 +865,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 3628445394);
+	IMPLEMENT_CLASS(UCActionComponent, 717088573);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();

@@ -61,7 +61,11 @@ static inline void FAttachmentBeginOverlap_DelegateWrapper(const FMulticastScrip
 
 #define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_SPARSE_DATA
 #define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS \
+	virtual void OnUnequip_Implementation(); \
+	virtual void OnEquip_Implementation(); \
  \
+	DECLARE_FUNCTION(execOnUnequip); \
+	DECLARE_FUNCTION(execOnEquip); \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
 	DECLARE_FUNCTION(execAttachToCollision); \
@@ -70,6 +74,8 @@ static inline void FAttachmentBeginOverlap_DelegateWrapper(const FMulticastScrip
 
 #define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnUnequip); \
+	DECLARE_FUNCTION(execOnEquip); \
 	DECLARE_FUNCTION(execOnComponentEndOverlap); \
 	DECLARE_FUNCTION(execOnComponentBeginOverlap); \
 	DECLARE_FUNCTION(execAttachToCollision); \
@@ -122,6 +128,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
 
 #define ActionGame_Source_ActionGame_Actions_CAttachment_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Scene() { return STRUCT_OFFSET(ACAttachment, Scene); } \
+	FORCEINLINE static uint32 __PPO__Skeletal() { return STRUCT_OFFSET(ACAttachment, Skeletal); } \
 	FORCEINLINE static uint32 __PPO__OwnerCharacter() { return STRUCT_OFFSET(ACAttachment, OwnerCharacter); } \
 	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(ACAttachment, State); } \
 	FORCEINLINE static uint32 __PPO__Status() { return STRUCT_OFFSET(ACAttachment, Status); }

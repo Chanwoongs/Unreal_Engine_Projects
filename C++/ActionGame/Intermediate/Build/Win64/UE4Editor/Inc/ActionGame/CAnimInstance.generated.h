@@ -73,7 +73,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UCAnimInstance, Speed); } \
 	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(UCAnimInstance, Direction); } \
 	FORCEINLINE static uint32 __PPO__ActionType() { return STRUCT_OFFSET(UCAnimInstance, ActionType); } \
-	FORCEINLINE static uint32 __PPO__FeetData() { return STRUCT_OFFSET(UCAnimInstance, FeetData); }
+	FORCEINLINE static uint32 __PPO__FeetData() { return STRUCT_OFFSET(UCAnimInstance, FeetData); } \
+	FORCEINLINE static uint32 __PPO__Pitch() { return STRUCT_OFFSET(UCAnimInstance, Pitch); } \
+	FORCEINLINE static uint32 __PPO__bEquipped() { return STRUCT_OFFSET(UCAnimInstance, bEquipped); } \
+	FORCEINLINE static uint32 __PPO__bAim() { return STRUCT_OFFSET(UCAnimInstance, bAim); }
 
 
 #define ActionGame_Source_ActionGame_Characters_CAnimInstance_h_9_PROLOG

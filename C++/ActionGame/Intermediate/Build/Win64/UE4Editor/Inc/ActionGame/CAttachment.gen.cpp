@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_ActionGame_AttachmentCollision__DelegateSignature_Statics
@@ -131,6 +132,20 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		}
 		return ReturnFunction;
 	}
+	DEFINE_FUNCTION(ACAttachment::execOnUnequip)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnUnequip_Implementation();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ACAttachment::execOnEquip)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnEquip_Implementation();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ACAttachment::execOnComponentEndOverlap)
 	{
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent);
@@ -190,6 +205,8 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 			{ "AttachToCollision", &ACAttachment::execAttachToCollision },
 			{ "OnComponentBeginOverlap", &ACAttachment::execOnComponentBeginOverlap },
 			{ "OnComponentEndOverlap", &ACAttachment::execOnComponentEndOverlap },
+			{ "OnEquip", &ACAttachment::execOnEquip },
+			{ "OnUnequip", &ACAttachment::execOnUnequip },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -422,7 +439,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		{ "ModuleRelativePath", "Actions/CAttachment.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACAttachment_OnEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACAttachment, nullptr, "OnEquip", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACAttachment_OnEquip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACAttachment_OnEquip_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACAttachment_OnEquip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACAttachment, nullptr, "OnEquip", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACAttachment_OnEquip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACAttachment_OnEquip_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ACAttachment_OnEquip()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -444,7 +461,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		{ "ModuleRelativePath", "Actions/CAttachment.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACAttachment, nullptr, "OnUnequip", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACAttachment, nullptr, "OnUnequip", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACAttachment_OnUnequip_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ACAttachment_OnUnequip()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -494,6 +511,10 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwnerCharacter;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Skeletal_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Skeletal;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
@@ -510,8 +531,8 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		{ &Z_Construct_UFunction_ACAttachment_AttachToCollision, "AttachToCollision" }, // 4294689946
 		{ &Z_Construct_UFunction_ACAttachment_OnComponentBeginOverlap, "OnComponentBeginOverlap" }, // 3348272705
 		{ &Z_Construct_UFunction_ACAttachment_OnComponentEndOverlap, "OnComponentEndOverlap" }, // 3533370043
-		{ &Z_Construct_UFunction_ACAttachment_OnEquip, "OnEquip" }, // 1130013448
-		{ &Z_Construct_UFunction_ACAttachment_OnUnequip, "OnUnequip" }, // 2311577543
+		{ &Z_Construct_UFunction_ACAttachment_OnEquip, "OnEquip" }, // 1412156553
+		{ &Z_Construct_UFunction_ACAttachment_OnUnequip, "OnUnequip" }, // 17676531
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::Class_MetaDataParams[] = {
@@ -567,6 +588,16 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACAttachment_Statics::NewProp_OwnerCharacter = { "OwnerCharacter", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAttachment, OwnerCharacter), Z_Construct_UClass_ACharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACAttachment_Statics::NewProp_OwnerCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAttachment_Statics::NewProp_OwnerCharacter_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::NewProp_Skeletal_MetaData[] = {
+		{ "Category", "CAttachment" },
+		{ "Comment", "// root?? Component;\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Actions/CAttachment.h" },
+		{ "ToolTip", "root?? Component;" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACAttachment_Statics::NewProp_Skeletal = { "Skeletal", nullptr, (EPropertyFlags)0x00200800000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACAttachment, Skeletal), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACAttachment_Statics::NewProp_Skeletal_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACAttachment_Statics::NewProp_Skeletal_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACAttachment_Statics::NewProp_Scene_MetaData[] = {
 		{ "Category", "CAttachment" },
 		{ "EditInline", "true" },
@@ -582,6 +613,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_Status,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_State,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_OwnerCharacter,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_Skeletal,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACAttachment_Statics::NewProp_Scene,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACAttachment_Statics::StaticCppClassTypeInfo = {
@@ -611,7 +643,7 @@ void EmptyLinkFunctionForGeneratedCodeCAttachment() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACAttachment, 2816058434);
+	IMPLEMENT_CLASS(ACAttachment, 2280231023);
 	template<> ACTIONGAME_API UClass* StaticClass<ACAttachment>()
 	{
 		return ACAttachment::StaticClass();

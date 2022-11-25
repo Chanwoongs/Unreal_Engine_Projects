@@ -11,6 +11,7 @@
 #include "Materials/MaterialInstanceDynamic.h"
 #include "Materials/MaterialInstanceConstant.h"
 
+#include "Actions/CAction.h"
 #include "Components/CActionComponent.h"
 #include "Components/CMontagesComponent.h"
 #include "Components/COptionComponent.h"
@@ -205,7 +206,10 @@ void ACPlayer::End_Backstep()
 
 void ACPlayer::OnDoAction()
 {
-	Action->DoAction();
+	if (!!Action)
+	{
+		Action->DoAction();
+	}
 }
 
 void ACPlayer::OnTarget()

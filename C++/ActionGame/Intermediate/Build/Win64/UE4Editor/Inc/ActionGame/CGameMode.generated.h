@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
 
 
 #define ActionGame_Source_ActionGame_CGameMode_h_10_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__InGameUIClass() { return STRUCT_OFFSET(ACGameMode, InGameUIClass); }
+	FORCEINLINE static uint32 __PPO__InGameUIClass() { return STRUCT_OFFSET(ACGameMode, InGameUIClass); } \
+	FORCEINLINE static uint32 __PPO__ActionRPGPawnClass() { return STRUCT_OFFSET(ACGameMode, ActionRPGPawnClass); }
 
 
 #define ActionGame_Source_ActionGame_CGameMode_h_7_PROLOG
