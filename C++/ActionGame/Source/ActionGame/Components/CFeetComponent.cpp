@@ -66,7 +66,7 @@ void UCFeetComponent::Trace(FName InSocket, float& OutDistance, FRotator& OutRot
 	FHitResult hitResult;
 	//ECC_Visibility 화면에 등장한 모든 걸 추적하라
 	UKismetSystemLibrary::LineTraceSingle(GetWorld(), start, end, UEngineTypes::ConvertToTraceType(ECC_Visibility),
-		true, ignoreActors, DrawDebugType, hitResult, true, FLinearColor::Green, FLinearColor::Red);
+		true, ignoreActors, DrawDebugType, hitResult, true, FLinearColor(0, 0, 0, 0), FLinearColor(0, 0, 0, 0));
 	// bTraceComplex true 로하면 더욱 정밀하게 삼각형 단위로 추적
 	
 	CheckFalse(hitResult.IsValidBlockingHit()); // 추적된게 없다면

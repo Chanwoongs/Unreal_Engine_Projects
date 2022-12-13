@@ -42,10 +42,10 @@ protected:
 		TEnumAsByte<EDrawDebugTrace::Type> DrawDebugType = EDrawDebugTrace::None;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "InverseKinemetics")
-		FName LeftSocket = "Foot_L";
+		FName LeftSocket = "foot_l";
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "InverseKinemetics")
-		FName RightSocket = "Foot_R";
+		FName RightSocket = "foot_r";
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "InverseKinemetics")
 		float TraceDistance = 55.0f; // 적당히 조정

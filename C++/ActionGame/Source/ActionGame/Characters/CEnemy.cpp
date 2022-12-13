@@ -156,7 +156,7 @@ void ACEnemy::UpdateVisibilityHealbar()
 	FVector playerLocation = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0)->GetActorLocation();
 	FVector location = GetActorLocation();
 
-	DrawDebugLine(GetWorld(), location, playerLocation, FColor::Red);
+	//DrawDebugLine(GetWorld(), location, playerLocation, FColor::Red);
 	FHitResult hitResult;
 	if (GetWorld()->LineTraceSingleByChannel(hitResult, location, playerLocation, ECollisionChannel::ECC_WorldStatic, params))
 	{

@@ -75,10 +75,10 @@ void ACAIController::Tick(float DeltaTime)
 
 	FVector center = OwnerEnemy->GetActorLocation();
 	center.Z -= AdjustCircleHeight;
-	DrawDebugCircle(GetWorld(), center, Sight->SightRadius, 300, FColor::Green, false, -1, 0, 0, 
-		FVector::RightVector, FVector::ForwardVector); // 원을 그릴 회전 방향, 앞에서 오른쪽 시계 방향으로 그린다.
-	DrawDebugCircle(GetWorld(), center, BehaviorRange, 300, FColor::Red, false, -1, 0, 0,
-		FVector::RightVector, FVector::ForwardVector);
+	//DrawDebugCircle(GetWorld(), center, Sight->SightRadius, 300, FColor::Green, false, -1, 0, 0, 
+	//	FVector::RightVector, FVector::ForwardVector); // 원을 그릴 회전 방향, 앞에서 오른쪽 시계 방향으로 그린다.
+	//DrawDebugCircle(GetWorld(), center, BehaviorRange, 300, FColor::Red, false, -1, 0, 0,
+	//	FVector::RightVector, FVector::ForwardVector);
 }
 
 void ACAIController::OnPerceptionUpdated(const TArray<AActor*>& UpdateActors)
