@@ -28,7 +28,7 @@ void UCFeetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	float rightDistance;
 	FRotator rightRotation;
 	Trace(RightSocket, rightDistance, rightRotation);
-	
+
 	// Pelvis 에 대한 높이는 왼쪽 오른쪽 중 더 작은 값을 고른다.
 	// 두 발중 낮은 값을 기준으로 하여 계산
 	// 낮은 발 높이로 허리를 이동시킴
@@ -36,9 +36,14 @@ void UCFeetComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	Data.PelvisDistance.Z = UKismetMathLibrary::FInterpTo(Data.PelvisDistance.Z, offset, DeltaTime, InterpSpeed);
 
 	// FInterpTo : 이동 보간 / Pelvis 만큼 빼준다 양쪽 발
-	Data.LeftDistance.X = UKismetMathLibrary::FInterpTo(Data.LeftDistance.X, (leftDistance - offset), DeltaTime, InterpSpeed);
+	Data.LeftDistance.Y = UKismetMathLibrary::FInterpTo(Data.LeftDistance.Y, (leftDistance - offset) / 2, DeltaTime, InterpSpeed);
 	// 왼쪽 오른쪽은 대칭이다. - 값사용
-	Data.RightDistance.X = UKismetMathLibrary::FInterpTo(Data.RightDistance.X, -(rightDistance - offset), DeltaTime, InterpSpeed);
+	Data.RightDistance.Y = UKismetMathLibrary::FInterpTo(Data.RightDistance.Y, (rightDistance - offset / 2), DeltaTime, InterpSpeed);
+
+	// FInterpTo : 이동 보간 / Pelvis 만큼 빼준다 양쪽 발
+	Data.LeftDistance.Z = UKismetMathLibrary::FInterpTo(Data.LeftDistance.Z, (leftDistance - offset / 2), DeltaTime, InterpSpeed);
+	// 왼쪽 오른쪽은 대칭이다. - 값사용
+	Data.RightDistance.Z = UKismetMathLibrary::FInterpTo(Data.RightDistance.Z, (rightDistance - offset / 2), DeltaTime, InterpSpeed);
 
 	// Atan를 이용해 발의 Roll Pitch 회전 값을 계산
 	Data.LeftRotation = UKismetMathLibrary::RInterpTo(Data.LeftRotation, leftRotation, DeltaTime, InterpSpeed);
