@@ -10,7 +10,7 @@ UCTargetComponent::UCTargetComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 
-	CHelpers::GetAsset<UParticleSystem>(&Particle, "ParticleSystem'/Game/Effects/P_Enrage_Base.P_Enrage_Base'");
+	CHelpers::GetAsset<UParticleSystem>(&Particle, "ParticleSystem'/Game/rpgeffects/Particles/P_Status_Quest.P_Status_Quest'");
 }
 
 

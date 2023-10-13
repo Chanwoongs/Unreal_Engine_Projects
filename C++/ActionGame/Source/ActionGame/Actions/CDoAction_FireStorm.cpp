@@ -79,6 +79,7 @@ void ACDoAction_FireStorm::Hitted()
 	FDamageEvent e;
 	for (ACharacter* character : HittedCharacter)
 	{
+		if(!character) return;
 		character->TakeDamage(Datas[0].Power, e, OwnerCharacter->GetController(), this);
 	}
 }

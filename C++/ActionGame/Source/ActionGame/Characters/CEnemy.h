@@ -62,9 +62,11 @@ private:
 public:
 	virtual void BeginDead() override;
 	virtual void EndDead() override;
+	bool IsAlreadyDead() { return IsDead; }
 
 private:
 	class AController* DamageInstigator;
 	float DamageValue;
+	bool IsDead;
 
 };

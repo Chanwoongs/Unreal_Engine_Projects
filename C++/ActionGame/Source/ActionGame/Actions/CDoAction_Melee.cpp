@@ -95,11 +95,11 @@ void ACDoAction_Melee::OnAttachmentBeginOverlap(class ACharacter* InAttacker, cl
 	}
 
 	// Camera Shake Play
-	TSubclassOf<UCameraShake> shake = Datas[Index].ShakeClass;
-	if (shake != NULL)
-	{
-		UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->PlayCameraShake(shake);
-	}
+	//TSubclassOf<UCameraShake> shake = Datas[Index].ShakeClass;
+	//if (shake != NULL)
+	//{
+	//	UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->PlayWorldCameraShake(shake);
+	//}
 
 	// Å¸°Ý
 	FDamageEvent e;

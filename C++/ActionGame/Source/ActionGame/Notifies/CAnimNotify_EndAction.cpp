@@ -21,7 +21,11 @@ void UCAnimNotify_EndAction::Notify(USkeletalMeshComponent* MeshComp, UAnimSeque
 	UCActionComponent* action = CHelpers::GetComponent<UCActionComponent>(MeshComp->GetOwner());
 	CheckNull(action);
 
-	action->GetCurrent()->GetDoAction()->End_Action();
+	UCAction* actionComponent = action->GetCurrent();
+	CheckNull(actionComponent);
+	ACDoAction* doAction = actionComponent->GetDoAction();
+	CheckNull(doAction);
+	doAction->End_Action();
 }
 
 

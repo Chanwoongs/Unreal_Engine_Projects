@@ -208,6 +208,7 @@ void ACPlayer::OnDoAction()
 {
 	if (!!Action)
 	{
+		CheckNull(Action);
 		Action->DoAction();
 	}
 }

@@ -138,13 +138,14 @@ void ACEnemy::BeginDead()
 
 void ACEnemy::EndDead()
 {
+	Action->DestroyAllActions();
 	ACGameMode* gameMode = CHelpers::GetCustomGameMode<ACGameMode>(GetWorld());
 	if (!!gameMode)
 	{
-		gameMode->SetRemainingEnemies((gameMode->GetRemainingEnemies()) - 1);
+ 		gameMode->DecreaseRemainingEnemies();
 		gameMode->GetInGameUI()->UpdateRemainEnemy((gameMode->GetRemainingEnemies()));
 	}
-	Action->DestroyAllActions();
+	IsDead = true;
 	Destroy();
 }
 

@@ -159,12 +159,12 @@ void ACDoAction_Rifle::Firing()
 	FVector start, end, direction;
 	rifle->GetLocationAndDirection(start, end, direction);
 
-	// Camera Shake Play
-	TSubclassOf<UCameraShake> shake = Datas[0].ShakeClass;
-	if (shake != NULL)
-	{
-		UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->PlayCameraShake(shake);
-	}
+	//// Camera Shake Play
+	//TSubclassOf<UCameraShake> shake = Datas[0].ShakeClass;
+	//if (shake != NULL)
+	//{
+	//	//UGameplayStatics::GetPlayerController(GetWorld(), 0)->PlayerCameraManager->PlayCameraShake(shake);
+	//}
 
 	UCActionComponent* action = CHelpers::GetComponent<UCActionComponent>(OwnerCharacter);
 	ACAttachment_Rifle* attachmentRifle = Cast<ACAttachment_Rifle>(action->GetCurrent()->GetAttachment());

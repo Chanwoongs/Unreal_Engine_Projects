@@ -24,7 +24,7 @@ private:
 public:
 	FORCEINLINE class UCUserWidget_InGameUI* GetInGameUI() { return InGameUI; }
 	FORCEINLINE int32 GetRemainingEnemies() { return NumberOfEnemies; }
-	FORCEINLINE void SetRemainingEnemies(int32 InNumber) { NumberOfEnemies = InNumber; }
+	FORCEINLINE void DecreaseRemainingEnemies() { this->NumberOfEnemies -= 1; }
 	
 protected:
 	class UCUserWidget_InGameUI* InGameUI;
