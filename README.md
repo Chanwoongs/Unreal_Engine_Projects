@@ -3,6 +3,9 @@
 #### 두 데모 게임은 한 프로젝트이며 다른 GameMode를 사용합니다.
 #### 간단한 Widget, 초기화를 제외한 모든 기능은 C++로 구현하였습니다.
 
+## 개발 기간 (1인 개발)
+> ### 2022.10 ~ 2022.12
+
 ## MMORPG Game Demo
 <div aling="center">
   <img src="https://github.com/Chanwoongs/Unreal_Engine_Projects/assets/26241243/16deceb2-699d-43ec-b070-023f839ef957" width="854" height="480"/>    
