@@ -8,7 +8,7 @@
   <img src="https://github.com/Chanwoongs/Unreal_Engine_Projects/assets/26241243/16deceb2-699d-43ec-b070-023f839ef957" width="854" height="480"/>    
 </div>
 
-### [Youtube 영상](https://www.youtube.com/watch?v=o6TL89M1M4o)
+### [YouTube 영상](https://www.youtube.com/watch?v=o6TL89M1M4o)
 
 ### 개요
 > #### 플레이어는 검, 주먹, 발차기, 마법 등으로 원거리, 근거리 적과 전투
@@ -28,7 +28,7 @@
   <img src="https://github.com/Chanwoongs/Unreal_Engine_Projects/assets/26241243/7a272fb4-7179-49d2-b028-2c2524486f26" width="854" height="480"/>    
 </div>
 
-### [Youtube 영상](https://www.youtube.com/watch?v=PWedCRgR-O0&t=1s)
+### [YouTube 영상](https://www.youtube.com/watch?v=PWedCRgR-O0&t=1s)
 
 ### 개요
 > #### 플레이어는 총기를 소지하며, 자유롭게 총을 발사하고 적과 전투할 수 있습니다.
