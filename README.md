@@ -47,6 +47,13 @@
 > #### Animation Retargeting
 > 서로 다른 Skeletal에 같은 애니메이션 적용
 
+### 프로젝트를 통해 얻은 점
+> #### Unreal Engine에 대한 이해
+> 매크로를 통한 BP와 C++ 통신, 액터와 컴포넌트 등 전반적인 개발 프로세스
+> #### 옵저버 패턴을 사용하여 주체와 옵저버를 명확하게 분리하면서 일대다의 다양한 동작 가능.
+> #### Behavior Tree
+> Composites, Decorator, Task, Service, Blackboard
+
 ### 아쉬운 점
 > #### 빌드 에러
 > 프로젝트 배포를 위해 모든 구현을 하고 패키징을 해보았지만, Unknown Error가 발생한다.
