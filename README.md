@@ -49,7 +49,7 @@
 
 ### 프로젝트를 통해 얻은 점
 > #### Unreal Engine에 대한 이해
-> 매크로를 통한 BP와 C++ 통신, 액터와 컴포넌트 등 전반적인 개발 프로세스
+> 매크로를 통한 BP와 C++ 통신, 액터와 컴포넌트 등 엔진에 익숙해짐
 > #### 옵저버 패턴을 사용하여 주체와 옵저버를 명확하게 분리하면서 일대다의 다양한 동작 가능.
 > #### Behavior Tree
 > Composites, Decorator, Task, Service, Blackboard
