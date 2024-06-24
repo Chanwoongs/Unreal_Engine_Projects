@@ -21,10 +21,10 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature_Statics
 	{
@@ -91,21 +91,21 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 			FHitResult SweepResult;
 		};
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SweepResult;
-		static void NewProp_bFromSweep_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_OtherBodyIndex;
+		static void NewProp_bFromSweep_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bFromSweep;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OverlappedComponent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SweepResult_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedComponent;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SweepResult;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -113,37 +113,37 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData[] = {
-		{ "NativeConst", "" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData[] = {
+		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData)) };
-	void Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep_SetBit(void* Obj)
-	{
-		((CThrow_eventOnComponentBeginOverlap_Parms*)Obj)->bFromSweep = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CThrow_eventOnComponentBeginOverlap_Parms), &Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OtherBodyIndex), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherBodyIndex = { "OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OtherBodyIndex), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep_SetBit(void* Obj)
+	{
+		((CThrow_eventOnComponentBeginOverlap_Parms*)Obj)->bFromSweep = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CThrow_eventOnComponentBeginOverlap_Parms), &Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData[] = {
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData[] = {
+		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent = { "OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, OverlappedComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CThrow_eventOnComponentBeginOverlap_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherBodyIndex,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OverlappedComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_OtherBodyIndex,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_bFromSweep,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::NewProp_SweepResult,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap_Statics::Function_MetaDataParams[] = {
@@ -172,25 +172,25 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnThrowBeginOverlap_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Explosion_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnThrowBeginOverlap;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Sphere_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Sphere;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Explosion;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ExplosionTransform_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ExplosionTransform;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Explosion_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Sphere_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Explosion;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Sphere;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnThrowBeginOverlap_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnThrowBeginOverlap;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -200,7 +200,7 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACThrow_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap, "OnComponentBeginOverlap" }, // 2317832885
+		{ &Z_Construct_UFunction_ACThrow_OnComponentBeginOverlap, "OnComponentBeginOverlap" }, // 35313258
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::Class_MetaDataParams[] = {
@@ -211,19 +211,19 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData[] = {
-		{ "ModuleRelativePath", "Actions/CThrow.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap = { "OnThrowBeginOverlap", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, OnThrowBeginOverlap), Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData[] = {
 		{ "Category", "CThrow" },
-		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Actions/CThrow.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_Particle = { "Particle", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, Particle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion = { "Explosion", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, Explosion), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData[] = {
+		{ "Category", "CThrow" },
+		{ "ModuleRelativePath", "Actions/CThrow.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform = { "ExplosionTransform", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, ExplosionTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere_MetaData[] = {
 		{ "Category", "CThrow" },
@@ -233,25 +233,25 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere = { "Sphere", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, Sphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData[] = {
 		{ "Category", "CThrow" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Actions/CThrow.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform = { "ExplosionTransform", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, ExplosionTransform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_Particle = { "Particle", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, Particle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_Particle_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData[] = {
-		{ "Category", "CThrow" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData[] = {
 		{ "ModuleRelativePath", "Actions/CThrow.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion = { "Explosion", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, Explosion), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap = { "OnThrowBeginOverlap", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACThrow, OnThrowBeginOverlap), Z_Construct_UDelegateFunction_ActionGame_ThrowBeginOverlap__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACThrow_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_Particle,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_Explosion,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_ExplosionTransform,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_Sphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_Particle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACThrow_Statics::NewProp_OnThrowBeginOverlap,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACThrow_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACThrow>::IsAbstract,
@@ -280,7 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeCThrow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACThrow, 4096754550);
+	IMPLEMENT_CLASS(ACThrow, 4138671492);
 	template<> ACTIONGAME_API UClass* StaticClass<ACThrow>()
 	{
 		return ACThrow::StaticClass();

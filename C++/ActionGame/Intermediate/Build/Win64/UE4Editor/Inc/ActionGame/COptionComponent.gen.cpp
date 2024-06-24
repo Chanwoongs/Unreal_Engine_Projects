@@ -32,13 +32,13 @@ void EmptyLinkFunctionForGeneratedCodeCOptionComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VerticalLookRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VerticalLookRate;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HorizontalLookRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HorizontalLookRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VerticalLookRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VerticalLookRate;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -56,22 +56,22 @@ void EmptyLinkFunctionForGeneratedCodeCOptionComponent() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData[] = {
-		{ "Category", "COptionComponent" },
-		{ "ModuleRelativePath", "Components/COptionComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate = { "VerticalLookRate", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCOptionComponent, VerticalLookRate), METADATA_PARAMS(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCOptionComponent_Statics::NewProp_HorizontalLookRate_MetaData[] = {
 		{ "Category", "COptionComponent" },
 		{ "ModuleRelativePath", "Components/COptionComponent.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCOptionComponent_Statics::NewProp_HorizontalLookRate = { "HorizontalLookRate", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCOptionComponent, HorizontalLookRate), METADATA_PARAMS(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_HorizontalLookRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_HorizontalLookRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData[] = {
+		{ "Category", "COptionComponent" },
+		{ "ModuleRelativePath", "Components/COptionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate = { "VerticalLookRate", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCOptionComponent, VerticalLookRate), METADATA_PARAMS(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCOptionComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCOptionComponent_Statics::NewProp_HorizontalLookRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCOptionComponent_Statics::NewProp_VerticalLookRate,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCOptionComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCOptionComponent>::IsAbstract,
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeCOptionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCOptionComponent, 1454127918);
+	IMPLEMENT_CLASS(UCOptionComponent, 1931922796);
 	template<> ACTIONGAME_API UClass* StaticClass<UCOptionComponent>()
 	{
 		return UCOptionComponent::StaticClass();

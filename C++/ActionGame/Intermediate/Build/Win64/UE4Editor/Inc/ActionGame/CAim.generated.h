@@ -47,7 +47,7 @@ public: \
 	NO_API UCAim(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAim) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAim); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAim); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAim); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCAim(UCAim&&); \
@@ -62,7 +62,7 @@ private: \
 	NO_API UCAim(const UCAim&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAim); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAim); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAim); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCAim)
 
 

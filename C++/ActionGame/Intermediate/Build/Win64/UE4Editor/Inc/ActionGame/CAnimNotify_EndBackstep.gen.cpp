@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotify_EndBackstep() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotify_EndBackstep, 193157213);
+	IMPLEMENT_CLASS(UCAnimNotify_EndBackstep, 803743067);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotify_EndBackstep>()
 	{
 		return UCAnimNotify_EndBackstep::StaticClass();

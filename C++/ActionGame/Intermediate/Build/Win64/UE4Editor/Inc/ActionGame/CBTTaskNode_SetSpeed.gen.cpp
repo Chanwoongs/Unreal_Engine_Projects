@@ -32,11 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeCBTTaskNode_SetSpeed() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_SpeedType_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpeedType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_SpeedType;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_SpeedType_Underlying;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,6 +51,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTTaskNode_SetSpeed() {}
 		{ "ModuleRelativePath", "BehaviorTree/CBTTaskNode_SetSpeed.h" },
 	};
 #endif
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_MetaData[] = {
 		{ "Category", "CBTTaskNode_SetSpeed" },
@@ -58,10 +59,9 @@ void EmptyLinkFunctionForGeneratedCodeCBTTaskNode_SetSpeed() {}
 	};
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType = { "SpeedType", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCBTTaskNode_SetSpeed, SpeedType), Z_Construct_UEnum_ActionGame_ECharacterSpeed, METADATA_PARAMS(Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::NewProp_SpeedType,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCBTTaskNode_SetSpeed_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCBTTaskNode_SetSpeed>::IsAbstract,
@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTTaskNode_SetSpeed() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBTTaskNode_SetSpeed, 2179381370);
+	IMPLEMENT_CLASS(UCBTTaskNode_SetSpeed, 1979196786);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBTTaskNode_SetSpeed>()
 	{
 		return UCBTTaskNode_SetSpeed::StaticClass();

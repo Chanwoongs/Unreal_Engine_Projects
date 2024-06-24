@@ -17,8 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeCTargetComponent() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCTargetComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
-	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_EDrawDebugTrace();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 // End Cross Module References
 	void UCTargetComponent::StaticRegisterNativesUCTargetComponent()
 	{
@@ -34,21 +34,21 @@ void EmptyLinkFunctionForGeneratedCodeCTargetComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TraceRadius_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Debug_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Debug;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TraceRadius;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InterpolateSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_InterpolateSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TraceRadius_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Debug_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TraceRadius;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Debug;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -66,12 +66,19 @@ void EmptyLinkFunctionForGeneratedCodeCTargetComponent() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData[] = {
 		{ "Category", "CTargetComponent" },
 		{ "ModuleRelativePath", "Components/CTargetComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle = { "Particle", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, Particle), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius = { "TraceRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, TraceRadius), METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData[] = {
+		{ "Category", "CTargetComponent" },
+		{ "ModuleRelativePath", "Components/CTargetComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed = { "InterpolateSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, InterpolateSpeed), METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug_MetaData[] = {
 		{ "Category", "CTargetComponent" },
@@ -81,24 +88,17 @@ void EmptyLinkFunctionForGeneratedCodeCTargetComponent() {}
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug = { "Debug", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, Debug), Z_Construct_UEnum_Engine_EDrawDebugTrace, METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData[] = {
 		{ "Category", "CTargetComponent" },
 		{ "ModuleRelativePath", "Components/CTargetComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed = { "InterpolateSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, InterpolateSpeed), METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData[] = {
-		{ "Category", "CTargetComponent" },
-		{ "ModuleRelativePath", "Components/CTargetComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius = { "TraceRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, TraceRadius), METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle = { "Particle", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCTargetComponent, Particle), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCTargetComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_TraceRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_InterpolateSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Debug,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCTargetComponent_Statics::NewProp_Particle,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCTargetComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCTargetComponent>::IsAbstract,
@@ -127,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeCTargetComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCTargetComponent, 554473969);
+	IMPLEMENT_CLASS(UCTargetComponent, 3454054870);
 	template<> ACTIONGAME_API UClass* StaticClass<UCTargetComponent>()
 	{
 		return UCTargetComponent::StaticClass();

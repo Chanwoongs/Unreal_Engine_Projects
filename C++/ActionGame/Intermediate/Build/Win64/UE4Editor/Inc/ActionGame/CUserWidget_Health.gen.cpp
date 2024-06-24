@@ -31,19 +31,19 @@ void EmptyLinkFunctionForGeneratedCodeCUserWidget_Health() {}
 	}
 	struct Z_Construct_UFunction_UCUserWidget_Health_Update_Statics
 	{
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CUserWidget_Health_eventUpdate_Parms, MaxHealth), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CUserWidget_Health_eventUpdate_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CUserWidget_Health_eventUpdate_Parms, MaxHealth), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_MaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_Health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::NewProp_MaxHealth,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCUserWidget_Health_Update_Statics::Function_MetaDataParams[] = {
@@ -79,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeCUserWidget_Health() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCUserWidget_Health_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCUserWidget_Health_Update, "Update" }, // 2094683922
+		{ &Z_Construct_UFunction_UCUserWidget_Health_Update, "Update" }, // 809232997
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCUserWidget_Health_Statics::Class_MetaDataParams[] = {
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeCUserWidget_Health() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCUserWidget_Health, 1080166975);
+	IMPLEMENT_CLASS(UCUserWidget_Health, 658363499);
 	template<> ACTIONGAME_API UClass* StaticClass<UCUserWidget_Health>()
 	{
 		return UCUserWidget_Health::StaticClass();

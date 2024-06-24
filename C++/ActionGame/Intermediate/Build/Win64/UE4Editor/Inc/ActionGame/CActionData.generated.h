@@ -54,7 +54,7 @@ public: \
 	NO_API UCActionData(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCActionData) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCActionData); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionData); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionData); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCActionData(UCActionData&&); \
@@ -71,7 +71,7 @@ private: \
 	NO_API UCActionData(const UCActionData&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCActionData); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionData); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCActionData); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCActionData)
 
 

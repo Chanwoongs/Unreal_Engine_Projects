@@ -61,7 +61,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFUserWidget_ActionDa
 {
 	FScriptStruct_ActionGame_StaticRegisterNativesFUserWidget_ActionData()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("UserWidget_ActionData")),new UScriptStruct::TCppStructOps<FUserWidget_ActionData>);
+		UScriptStruct::DeferCppStructOps<FUserWidget_ActionData>(FName(TEXT("UserWidget_ActionData")));
 	}
 } ScriptStruct_ActionGame_StaticRegisterNativesFUserWidget_ActionData;
 	struct Z_Construct_UScriptStruct_FUserWidget_ActionData_Statics
@@ -164,7 +164,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFUserWidget_ActionDa
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCUserWidget_ActionList, 3650404732);
+	IMPLEMENT_CLASS(UCUserWidget_ActionList, 3142230368);
 	template<> ACTIONGAME_API UClass* StaticClass<UCUserWidget_ActionList>()
 	{
 		return UCUserWidget_ActionList::StaticClass();

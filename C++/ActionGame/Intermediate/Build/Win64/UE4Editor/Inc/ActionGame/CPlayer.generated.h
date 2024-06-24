@@ -50,7 +50,7 @@ public: \
 	NO_API ACPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACPlayer) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACPlayer); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACPlayer(ACPlayer&&); \
@@ -65,7 +65,7 @@ private: \
 	NO_API ACPlayer(const ACPlayer&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACPlayer); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACPlayer)
 
 

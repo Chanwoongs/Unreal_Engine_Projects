@@ -39,7 +39,7 @@ public: \
 	NO_API ACDoAction_Warp(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACDoAction_Warp) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_Warp); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Warp); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Warp); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACDoAction_Warp(ACDoAction_Warp&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API ACDoAction_Warp(const ACDoAction_Warp&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_Warp); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Warp); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Warp); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACDoAction_Warp)
 
 

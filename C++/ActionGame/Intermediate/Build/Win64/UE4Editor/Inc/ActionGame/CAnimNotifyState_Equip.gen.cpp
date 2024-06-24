@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_Equip() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_Equip, 2813632985);
+	IMPLEMENT_CLASS(UCAnimNotifyState_Equip, 2479470969);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotifyState_Equip>()
 	{
 		return UCAnimNotifyState_Equip::StaticClass();

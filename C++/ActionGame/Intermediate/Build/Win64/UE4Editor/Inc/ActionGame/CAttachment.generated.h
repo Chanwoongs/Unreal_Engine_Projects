@@ -107,7 +107,7 @@ public: \
 	NO_API ACAttachment(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACAttachment) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACAttachment); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACAttachment(ACAttachment&&); \
@@ -122,7 +122,7 @@ private: \
 	NO_API ACAttachment(const ACAttachment&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACAttachment); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAttachment); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACAttachment)
 
 

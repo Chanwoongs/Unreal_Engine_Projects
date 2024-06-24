@@ -33,22 +33,22 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AcceptanceRadius_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AcceptanceRadius;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Path;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Index;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bReverse_MetaData[];
 #endif
 		static void NewProp_bReverse_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bReverse;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AcceptanceRadius_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Index;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Path;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AcceptanceRadius;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -66,12 +66,19 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolComponent() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData[] = {
 		{ "Category", "CPatrolComponent" },
 		{ "ModuleRelativePath", "Components/CPatrolComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius = { "AcceptanceRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, AcceptanceRadius), METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, Path), Z_Construct_UClass_ACPatrolPath_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData[] = {
+		{ "Category", "CPatrolComponent" },
+		{ "ModuleRelativePath", "Components/CPatrolComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, Index), METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse_MetaData[] = {
 		{ "Category", "CPatrolComponent" },
@@ -84,24 +91,17 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolComponent() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse = { "bReverse", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UCPatrolComponent), &Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse_SetBit, METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData[] = {
 		{ "Category", "CPatrolComponent" },
 		{ "ModuleRelativePath", "Components/CPatrolComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, Index), METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData[] = {
-		{ "Category", "CPatrolComponent" },
-		{ "ModuleRelativePath", "Components/CPatrolComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, Path), Z_Construct_UClass_ACPatrolPath_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius = { "AcceptanceRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCPatrolComponent, AcceptanceRadius), METADATA_PARAMS(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCPatrolComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Path,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_Index,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_bReverse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCPatrolComponent_Statics::NewProp_AcceptanceRadius,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCPatrolComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCPatrolComponent>::IsAbstract,
@@ -130,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCPatrolComponent, 712000744);
+	IMPLEMENT_CLASS(UCPatrolComponent, 1487607420);
 	template<> ACTIONGAME_API UClass* StaticClass<UCPatrolComponent>()
 	{
 		return UCPatrolComponent::StaticClass();

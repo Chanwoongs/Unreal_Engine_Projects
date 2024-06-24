@@ -33,7 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 		return ECharacterSpeed_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ECharacterSpeed(ECharacterSpeed_StaticEnum, TEXT("/Script/ActionGame"), TEXT("ECharacterSpeed"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_ECharacterSpeed_Hash() { return 2406094416U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_ECharacterSpeed_Hash() { return 61025095U; }
 	UEnum* Z_Construct_UEnum_ActionGame_ECharacterSpeed()
 	{
 #if WITH_HOT_RELOAD
@@ -68,6 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -90,13 +91,13 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -116,6 +117,13 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "Components/CStatusComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCStatusComponent, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed_MetaData[] = {
 		{ "ArraySizeEnum", "/Script/ActionGame.ECharacterSpeed" },
 		{ "Category", "Speed" },
@@ -123,16 +131,9 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed = { "Speed", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(Speed, UCStatusComponent), STRUCT_OFFSET(UCStatusComponent, Speed), METADATA_PARAMS(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData[] = {
-		{ "Category", "Health" },
-		{ "ModuleRelativePath", "Components/CStatusComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCStatusComponent, MaxHealth), METADATA_PARAMS(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCStatusComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCStatusComponent_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCStatusComponent_Statics::NewProp_Speed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCStatusComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCStatusComponent>::IsAbstract,
@@ -161,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeCStatusComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCStatusComponent, 3453786770);
+	IMPLEMENT_CLASS(UCStatusComponent, 243562800);
 	template<> ACTIONGAME_API UClass* StaticClass<UCStatusComponent>()
 	{
 		return UCStatusComponent::StaticClass();

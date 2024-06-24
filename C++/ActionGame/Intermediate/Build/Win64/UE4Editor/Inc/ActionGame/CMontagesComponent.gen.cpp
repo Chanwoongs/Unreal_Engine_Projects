@@ -16,13 +16,16 @@ void EmptyLinkFunctionForGeneratedCodeCMontagesComponent() {}
 	ACTIONGAME_API UScriptStruct* Z_Construct_UScriptStruct_FMontageData();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTableRowBase();
-	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ACTIONGAME_API UEnum* Z_Construct_UEnum_ActionGame_EStateType();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCMontagesComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCMontagesComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UDataTable_NoRegister();
 // End Cross Module References
+
+static_assert(std::is_polymorphic<FMontageData>() == std::is_polymorphic<FTableRowBase>(), "USTRUCT FMontageData cannot be polymorphic unless super FTableRowBase is polymorphic");
+
 class UScriptStruct* FMontageData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -42,7 +45,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 {
 	FScriptStruct_ActionGame_StaticRegisterNativesFMontageData()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("MontageData")),new UScriptStruct::TCppStructOps<FMontageData>);
+		UScriptStruct::DeferCppStructOps<FMontageData>(FName(TEXT("MontageData")));
 	}
 } ScriptStruct_ActionGame_StaticRegisterNativesFMontageData;
 	struct Z_Construct_UScriptStruct_FMontageData_Statics
@@ -51,23 +54,23 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
 		static void* NewStructOps();
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Type_Underlying;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartSection_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Type_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FNamePropertyParams NewProp_StartSection;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayRatio_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayRatio;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Type;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimMontage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimMontage;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Type_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayRatio_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Type;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Type_Underlying;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayRatio;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartSection_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_StartSection;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -83,20 +86,14 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FMontageData>();
 	}
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData[] = {
 		{ "Category", "MontageData" },
 		{ "ModuleRelativePath", "Components/CMontagesComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection = { "StartSection", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, StartSection), METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData[] = {
-		{ "Category", "MontageData" },
-		{ "ModuleRelativePath", "Components/CMontagesComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio = { "PlayRatio", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, PlayRatio), METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData)) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, Type), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage_MetaData[] = {
 		{ "Category", "MontageData" },
@@ -105,19 +102,25 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage = { "AnimMontage", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, AnimMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData[] = {
 		{ "Category", "MontageData" },
 		{ "ModuleRelativePath", "Components/CMontagesComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, Type), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio = { "PlayRatio", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, PlayRatio), METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData[] = {
+		{ "Category", "MontageData" },
+		{ "ModuleRelativePath", "Components/CMontagesComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection = { "StartSection", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FMontageData, StartSection), METADATA_PARAMS(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMontageData_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_Type,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_AnimMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_PlayRatio,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMontageData_Statics::NewProp_StartSection,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FMontageData_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
@@ -147,7 +150,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FMontageData_Hash() { return 1191197941U; }
+	uint32 Get_Z_Construct_UScriptStruct_FMontageData_Hash() { return 3572621297U; }
 	void UCMontagesComponent::StaticRegisterNativesUCMontagesComponent()
 	{
 	}
@@ -218,7 +221,7 @@ static struct FScriptStruct_ActionGame_StaticRegisterNativesFMontageData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCMontagesComponent, 2328033674);
+	IMPLEMENT_CLASS(UCMontagesComponent, 3532751139);
 	template<> ACTIONGAME_API UClass* StaticClass<UCMontagesComponent>()
 	{
 		return UCMontagesComponent::StaticClass();

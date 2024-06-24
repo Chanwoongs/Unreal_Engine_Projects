@@ -63,7 +63,7 @@ public: \
 	NO_API ACThrow(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACThrow) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACThrow); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACThrow); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACThrow); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACThrow(ACThrow&&); \
@@ -78,7 +78,7 @@ private: \
 	NO_API ACThrow(const ACThrow&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACThrow); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACThrow); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACThrow); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACThrow)
 
 

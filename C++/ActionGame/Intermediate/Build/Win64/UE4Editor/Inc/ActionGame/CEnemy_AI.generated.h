@@ -39,7 +39,7 @@ public: \
 	NO_API ACEnemy_AI(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACEnemy_AI) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEnemy_AI); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_AI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_AI); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACEnemy_AI(ACEnemy_AI&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ACEnemy_AI(const ACEnemy_AI&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEnemy_AI); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_AI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_AI); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACEnemy_AI)
 
 

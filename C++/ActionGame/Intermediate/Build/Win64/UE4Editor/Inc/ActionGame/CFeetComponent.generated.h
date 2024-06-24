@@ -46,7 +46,7 @@ public: \
 	NO_API UCFeetComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCFeetComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCFeetComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCFeetComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCFeetComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCFeetComponent(UCFeetComponent&&); \
@@ -61,7 +61,7 @@ private: \
 	NO_API UCFeetComponent(const UCFeetComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCFeetComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCFeetComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCFeetComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCFeetComponent)
 
 

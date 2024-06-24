@@ -39,7 +39,7 @@ public: \
 	NO_API UCBTService_Melee(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCBTService_Melee) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTService_Melee); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCBTService_Melee(UCBTService_Melee&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCBTService_Melee(const UCBTService_Melee&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTService_Melee); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTService_Melee); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCBTService_Melee)
 
 

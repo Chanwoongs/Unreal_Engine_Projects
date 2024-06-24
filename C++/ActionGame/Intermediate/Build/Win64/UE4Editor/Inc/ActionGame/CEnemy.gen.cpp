@@ -18,11 +18,11 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
 	ACTIONGAME_API UEnum* Z_Construct_UEnum_ActionGame_EStateType();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCMontagesComponent_NoRegister();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCActionComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCMontagesComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UICharacter_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ACEnemy::execOnStateTypeChanged)
@@ -49,25 +49,25 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 			EStateType InPrevType;
 			EStateType InNewType;
 		};
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InNewType;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InNewType_Underlying;
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InPrevType;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InPrevType_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InPrevType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InNewType_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InNewType;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType = { "InNewType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CEnemy_eventOnStateTypeChanged_Parms, InNewType), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType = { "InPrevType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CEnemy_eventOnStateTypeChanged_Parms, InPrevType), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType = { "InPrevType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CEnemy_eventOnStateTypeChanged_Parms, InPrevType), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType = { "InNewType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CEnemy_eventOnStateTypeChanged_Parms, InNewType), Z_Construct_UEnum_ActionGame_EStateType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType_Underlying,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InPrevType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::NewProp_InNewType,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACEnemy_OnStateTypeChanged_Statics::Function_MetaDataParams[] = {
@@ -96,29 +96,29 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_State_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchAmount_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_State;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Status_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Status;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Montages_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montages;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Action_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Action;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchAmount;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthWidget;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchAmount_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Action_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_LaunchAmount;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Action;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Montages_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montages;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Status_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Status;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_State_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_State;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -129,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACEnemy_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACEnemy_OnStateTypeChanged, "OnStateTypeChanged" }, // 4261930984
+		{ &Z_Construct_UFunction_ACEnemy_OnStateTypeChanged, "OnStateTypeChanged" }, // 1241534043
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::Class_MetaDataParams[] = {
@@ -139,37 +139,12 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData[] = {
-		{ "Category", "CEnemy" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData[] = {
+		{ "Category", "Hitted" },
 		{ "ModuleRelativePath", "Characters/CEnemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_State = { "State", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, State), Z_Construct_UClass_UCStateComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData[] = {
-		{ "Category", "CEnemy" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/CEnemy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Status = { "Status", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Status), Z_Construct_UClass_UCStatusComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData[] = {
-		{ "Category", "CEnemy" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/CEnemy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages = { "Montages", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Montages), Z_Construct_UClass_UCMontagesComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData[] = {
-		{ "Category", "CEnemy" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/CEnemy.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Action = { "Action", nullptr, (EPropertyFlags)0x00200800000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Action), Z_Construct_UClass_UCActionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount = { "LaunchAmount", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, LaunchAmount), METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget_MetaData[] = {
 		{ "Category", "CEnemy" },
@@ -179,19 +154,44 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget = { "HealthWidget", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, HealthWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData[] = {
-		{ "Category", "Hitted" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData[] = {
+		{ "Category", "CEnemy" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Characters/CEnemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount = { "LaunchAmount", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, LaunchAmount), METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Action = { "Action", nullptr, (EPropertyFlags)0x00200800000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Action), Z_Construct_UClass_UCActionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Action_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData[] = {
+		{ "Category", "CEnemy" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/CEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages = { "Montages", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Montages), Z_Construct_UClass_UCMontagesComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData[] = {
+		{ "Category", "CEnemy" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/CEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_Status = { "Status", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, Status), Z_Construct_UClass_UCStatusComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_Status_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData[] = {
+		{ "Category", "CEnemy" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/CEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEnemy_Statics::NewProp_State = { "State", nullptr, (EPropertyFlags)0x00200800000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEnemy, State), Z_Construct_UClass_UCStateComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEnemy_Statics::NewProp_State_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACEnemy_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_State,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Status,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Action,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_LaunchAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_HealthWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Action,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Montages,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_Status,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEnemy_Statics::NewProp_State,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ACEnemy_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UICharacter_NoRegister, (int32)VTABLE_OFFSET(ACEnemy, IICharacter), false },
@@ -223,7 +223,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy, 669272137);
+	IMPLEMENT_CLASS(ACEnemy, 1580848882);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy>()
 	{
 		return ACEnemy::StaticClass();

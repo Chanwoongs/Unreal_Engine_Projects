@@ -39,7 +39,7 @@ public: \
 	NO_API ACPatrolPath(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACPatrolPath) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACPatrolPath); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPatrolPath); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPatrolPath); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACPatrolPath(ACPatrolPath&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ACPatrolPath(const ACPatrolPath&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACPatrolPath); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPatrolPath); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACPatrolPath); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACPatrolPath)
 
 

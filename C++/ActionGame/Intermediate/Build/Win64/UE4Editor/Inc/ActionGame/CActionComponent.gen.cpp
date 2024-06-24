@@ -29,25 +29,25 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 			EActionType InPreviousType;
 			EActionType InNewType;
 		};
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InNewType;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InNewType_Underlying;
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InPreviousType;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InPreviousType_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InPreviousType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_InNewType_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_InNewType;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType = { "InNewType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ActionGame_eventActionTypeChanged_Parms, InNewType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType = { "InPreviousType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ActionGame_eventActionTypeChanged_Parms, InPreviousType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType = { "InPreviousType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ActionGame_eventActionTypeChanged_Parms, InPreviousType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType = { "InNewType", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ActionGame_eventActionTypeChanged_Parms, InNewType), Z_Construct_UEnum_ActionGame_EActionType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType_Underlying,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InPreviousType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::NewProp_InNewType,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature_Statics::Function_MetaDataParams[] = {
@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		return EActionType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EActionType(EActionType_StaticEnum, TEXT("/Script/ActionGame"), TEXT("EActionType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 4230431524U; }
+	uint32 Get_Z_Construct_UEnum_ActionGame_EActionType_Hash() { return 3041359179U; }
 	UEnum* Z_Construct_UEnum_ActionGame_EActionType()
 	{
 #if WITH_HOT_RELOAD
@@ -125,6 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -777,13 +778,13 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActionTypeChanged_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActionTypeChanged;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DataAssets_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DataAssets;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActionTypeChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActionTypeChanged;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -819,12 +820,6 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData[] = {
-		{ "ModuleRelativePath", "Components/CActionComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged = { "OnActionTypeChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCActionComponent, OnActionTypeChanged), Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCActionComponent_Statics::NewProp_DataAssets_MetaData[] = {
 		{ "ArraySizeEnum", "/Script/ActionGame.EActionType" },
 		{ "Category", "Weapons" },
@@ -834,9 +829,15 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCActionComponent_Statics::NewProp_DataAssets = { "DataAssets", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(DataAssets, UCActionComponent), STRUCT_OFFSET(UCActionComponent, DataAssets), Z_Construct_UClass_UCActionData_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCActionComponent_Statics::NewProp_DataAssets_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCActionComponent_Statics::NewProp_DataAssets_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData[] = {
+		{ "ModuleRelativePath", "Components/CActionComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged = { "OnActionTypeChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCActionComponent, OnActionTypeChanged), Z_Construct_UDelegateFunction_ActionGame_ActionTypeChanged__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCActionComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCActionComponent_Statics::NewProp_DataAssets,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCActionComponent_Statics::NewProp_OnActionTypeChanged,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCActionComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCActionComponent>::IsAbstract,
@@ -865,7 +866,7 @@ void EmptyLinkFunctionForGeneratedCodeCActionComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCActionComponent, 717088573);
+	IMPLEMENT_CLASS(UCActionComponent, 3422737167);
 	template<> ACTIONGAME_API UClass* StaticClass<UCActionComponent>()
 	{
 		return UCActionComponent::StaticClass();

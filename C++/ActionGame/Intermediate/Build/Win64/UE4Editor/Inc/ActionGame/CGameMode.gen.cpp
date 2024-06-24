@@ -18,8 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeCGameMode() {}
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_UCUserWidget_InGameUI_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 // End Cross Module References
 	void ACGameMode::StaticRegisterNativesACGameMode()
 	{
@@ -35,13 +35,13 @@ void EmptyLinkFunctionForGeneratedCodeCGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActionRPGPawnClass_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ActionRPGPawnClass;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InGameUIClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_InGameUIClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActionRPGPawnClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ActionRPGPawnClass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,22 +59,22 @@ void EmptyLinkFunctionForGeneratedCodeCGameMode() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData[] = {
-		{ "Category", "CGameMode" },
-		{ "ModuleRelativePath", "CGameMode.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass = { "ActionRPGPawnClass", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGameMode, ActionRPGPawnClass), Z_Construct_UClass_APawn_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGameMode_Statics::NewProp_InGameUIClass_MetaData[] = {
 		{ "Category", "CGameMode" },
 		{ "ModuleRelativePath", "CGameMode.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACGameMode_Statics::NewProp_InGameUIClass = { "InGameUIClass", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGameMode, InGameUIClass), Z_Construct_UClass_UCUserWidget_InGameUI_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACGameMode_Statics::NewProp_InGameUIClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGameMode_Statics::NewProp_InGameUIClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData[] = {
+		{ "Category", "CGameMode" },
+		{ "ModuleRelativePath", "CGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass = { "ActionRPGPawnClass", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGameMode, ActionRPGPawnClass), Z_Construct_UClass_APawn_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACGameMode_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGameMode_Statics::NewProp_InGameUIClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGameMode_Statics::NewProp_ActionRPGPawnClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACGameMode>::IsAbstract,
@@ -103,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeCGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACGameMode, 971393530);
+	IMPLEMENT_CLASS(ACGameMode, 4169102201);
 	template<> ACTIONGAME_API UClass* StaticClass<ACGameMode>()
 	{
 		return ACGameMode::StaticClass();

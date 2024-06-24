@@ -48,7 +48,7 @@ public: \
 	NO_API UCAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimInstance) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAnimInstance); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCAnimInstance(UCAnimInstance&&); \
@@ -65,7 +65,7 @@ private: \
 	NO_API UCAnimInstance(const UCAnimInstance&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAnimInstance); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimInstance)
 
 

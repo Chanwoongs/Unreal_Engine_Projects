@@ -110,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeCEnemy_AI_Melee() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEnemy_AI_Melee, 4051284868);
+	IMPLEMENT_CLASS(ACEnemy_AI_Melee, 1585158007);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEnemy_AI_Melee>()
 	{
 		return ACEnemy_AI_Melee::StaticClass();

@@ -39,7 +39,7 @@ public: \
 	NO_API UCBTTaskNode_SetSpeed(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCBTTaskNode_SetSpeed) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTTaskNode_SetSpeed); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_SetSpeed); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_SetSpeed); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCBTTaskNode_SetSpeed(UCBTTaskNode_SetSpeed&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCBTTaskNode_SetSpeed(const UCBTTaskNode_SetSpeed&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTTaskNode_SetSpeed); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_SetSpeed); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_SetSpeed); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCBTTaskNode_SetSpeed)
 
 

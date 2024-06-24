@@ -48,7 +48,7 @@ public: \
 	NO_API ACAIController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACAIController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACAIController); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAIController); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAIController); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACAIController(ACAIController&&); \
@@ -63,7 +63,7 @@ private: \
 	NO_API ACAIController(const ACAIController&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACAIController); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAIController); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACAIController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACAIController)
 
 

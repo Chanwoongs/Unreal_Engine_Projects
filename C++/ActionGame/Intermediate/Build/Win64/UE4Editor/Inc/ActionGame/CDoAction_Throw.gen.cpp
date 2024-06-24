@@ -121,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction_Throw() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACDoAction_Throw, 894857502);
+	IMPLEMENT_CLASS(ACDoAction_Throw, 2246533030);
 	template<> ACTIONGAME_API UClass* StaticClass<ACDoAction_Throw>()
 	{
 		return ACDoAction_Throw::StaticClass();

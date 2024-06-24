@@ -171,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeCUserWidget_ActionItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCUserWidget_ActionItem, 1566124874);
+	IMPLEMENT_CLASS(UCUserWidget_ActionItem, 1488217540);
 	template<> ACTIONGAME_API UClass* StaticClass<UCUserWidget_ActionItem>()
 	{
 		return UCUserWidget_ActionItem::StaticClass();

@@ -14,7 +14,7 @@ ACGameMode::ACGameMode()
 {
 	CHelpers::GetClass<APawn>(&ActionRPGPawnClass, "Blueprint'/Game/Character/Warrior/BP_CPlayer_Warrior.BP_CPlayer_Warrior_C'");
 	CHelpers::GetClass<AHUD>(&HUDClass, "Blueprint'/Game/BP_CHUD.BP_CHUD_C'");
-	CHelpers::GetClass<UCUserWidget_InGameUI>(&InGameUIClass, "/Script/UMGEditor.WidgetBlueprint'/Game/Widget/asd.asd_C'");
+	CHelpers::GetClass<UCUserWidget_InGameUI>(&InGameUIClass, "WidgetBlueprint'/Game/Widgets/WB_InGameUI.WB_InGameUI_C'");
 
 	DefaultPawnClass = ActionRPGPawnClass;
 	NumberOfEnemies = 2;
@@ -29,5 +29,5 @@ void ACGameMode::BeginPlay()
 	Player = Cast<ACPlayer>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 	InGameUI->UpdateHealth(Player->GetStatus()->GetMaxHealth(), Player->GetStatus()->GetMaxHealth());
 	InGameUI->UpdateRemainEnemy(GetRemainingEnemies());
-}
+}dddd
 

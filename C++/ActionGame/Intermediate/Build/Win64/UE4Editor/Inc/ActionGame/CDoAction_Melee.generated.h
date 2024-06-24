@@ -47,7 +47,7 @@ public: \
 	NO_API ACDoAction_Melee(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACDoAction_Melee) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_Melee); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Melee); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Melee); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACDoAction_Melee(ACDoAction_Melee&&); \
@@ -64,7 +64,7 @@ private: \
 	NO_API ACDoAction_Melee(const ACDoAction_Melee&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_Melee); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Melee); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_Melee); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACDoAction_Melee)
 
 

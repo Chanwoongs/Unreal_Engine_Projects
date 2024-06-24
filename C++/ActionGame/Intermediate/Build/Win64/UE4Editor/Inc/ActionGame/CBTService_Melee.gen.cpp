@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTService_Melee() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBTService_Melee, 2567272720);
+	IMPLEMENT_CLASS(UCBTService_Melee, 38147751);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBTService_Melee>()
 	{
 		return UCBTService_Melee::StaticClass();

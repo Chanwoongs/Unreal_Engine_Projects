@@ -47,7 +47,7 @@ public: \
 	NO_API UCMontagesComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCMontagesComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCMontagesComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCMontagesComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCMontagesComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCMontagesComponent(UCMontagesComponent&&); \
@@ -62,7 +62,7 @@ private: \
 	NO_API UCMontagesComponent(const UCMontagesComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCMontagesComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCMontagesComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCMontagesComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCMontagesComponent)
 
 

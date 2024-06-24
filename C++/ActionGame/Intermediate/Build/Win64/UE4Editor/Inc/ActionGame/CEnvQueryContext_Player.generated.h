@@ -39,7 +39,7 @@ public: \
 	NO_API UCEnvQueryContext_Player(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCEnvQueryContext_Player) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCEnvQueryContext_Player); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCEnvQueryContext_Player); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCEnvQueryContext_Player); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCEnvQueryContext_Player(UCEnvQueryContext_Player&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API UCEnvQueryContext_Player(const UCEnvQueryContext_Player&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCEnvQueryContext_Player); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCEnvQueryContext_Player); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCEnvQueryContext_Player); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCEnvQueryContext_Player)
 
 

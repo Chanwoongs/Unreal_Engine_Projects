@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_Collision() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_Collision, 947360546);
+	IMPLEMENT_CLASS(UCAnimNotifyState_Collision, 3994389670);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotifyState_Collision>()
 	{
 		return UCAnimNotifyState_Collision::StaticClass();

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\ActionGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{87114CBB-4C6D-4017-BDF0-4DB9FF07C173}</UniqueIdentifier>
+      <UniqueIdentifier>{20F0973A-7B46-49F8-B197-A3E5F4725C76}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{822EAFCB-E2FA-4AFD-8349-77B507DADD52}</UniqueIdentifier>
+      <UniqueIdentifier>{B370BFA7-74F1-4B14-B8F9-E35AE3F668ED}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ActionGame">
-      <UniqueIdentifier>{837CB548-3E57-45AB-BC53-05E970B390D8}</UniqueIdentifier>
+      <UniqueIdentifier>{D1FB9DEA-7A57-4477-8FB9-AEFF080C5D8E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionGame\ActionGame.Build.cs">
       <Filter>Source\ActionGame</Filter>
@@ -61,7 +61,7 @@
       <Filter>Source\ActionGame</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Actions">
-      <UniqueIdentifier>{4A2C8721-5B19-4D40-B745-BC41A6C47275}</UniqueIdentifier>
+      <UniqueIdentifier>{18B5608B-BAD5-4C64-ABC3-895B64FEB128}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Actions\CAction.cpp">
       <Filter>Source\ActionGame\Actions</Filter>
@@ -154,7 +154,7 @@
       <Filter>Source\ActionGame\Actions</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Actors">
-      <UniqueIdentifier>{E2AF6375-2652-4C93-9682-2D0937DEA745}</UniqueIdentifier>
+      <UniqueIdentifier>{D3E6D539-6940-4D2B-A0BB-460C775207B0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Actors\CPatrolPath.cpp">
       <Filter>Source\ActionGame\Actors</Filter>
@@ -163,7 +163,7 @@
       <Filter>Source\ActionGame\Actors</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\BehaviorTree">
-      <UniqueIdentifier>{9F84DEDE-7B77-48C0-ADA8-BD07131BF34B}</UniqueIdentifier>
+      <UniqueIdentifier>{B366D37A-E023-4C83-A9D1-AEEEA24555E3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\BehaviorTree\CBTService_Melee.cpp">
       <Filter>Source\ActionGame\BehaviorTree</Filter>
@@ -208,7 +208,7 @@
       <Filter>Source\ActionGame\BehaviorTree</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Characters">
-      <UniqueIdentifier>{D6B3A7BB-B2E0-47DB-8944-788773E17AC9}</UniqueIdentifier>
+      <UniqueIdentifier>{B2ED3A64-BE0D-4013-8E12-85B225BE89AE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Characters\CAIController.cpp">
       <Filter>Source\ActionGame\Characters</Filter>
@@ -283,7 +283,7 @@
       <Filter>Source\ActionGame\Characters</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Components">
-      <UniqueIdentifier>{46BDBDD9-0D65-435A-8878-369DC39EBD85}</UniqueIdentifier>
+      <UniqueIdentifier>{3C680C9D-7DFE-4F0B-92D7-DBF12C5F04BE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Components\CActionComponent.cpp">
       <Filter>Source\ActionGame\Components</Filter>
@@ -340,7 +340,7 @@
       <Filter>Source\ActionGame\Components</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Levels">
-      <UniqueIdentifier>{68907386-6F3C-45DC-8334-61E6230C7AE1}</UniqueIdentifier>
+      <UniqueIdentifier>{76F90BB5-CB19-403B-940A-A948C72FBF55}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Levels\CLevelScriptActor_ActionRPG.cpp">
       <Filter>Source\ActionGame\Levels</Filter>
@@ -355,7 +355,7 @@
       <Filter>Source\ActionGame\Levels</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Notifies">
-      <UniqueIdentifier>{8689A577-1CDF-42BE-B335-907E677A2A9F}</UniqueIdentifier>
+      <UniqueIdentifier>{9FD0AA3B-21D5-41ED-B489-A66B4777113B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Notifies\CAnimNotifyState_Collision.cpp">
       <Filter>Source\ActionGame\Notifies</Filter>
@@ -412,7 +412,7 @@
       <Filter>Source\ActionGame\Notifies</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Utilities">
-      <UniqueIdentifier>{621974E2-EB6F-4118-BC1B-06C9C7CE5D1B}</UniqueIdentifier>
+      <UniqueIdentifier>{9617CF6A-B0EA-4A48-B505-65257464345E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ActionGame\Utilities\CHelpers.h">
       <Filter>Source\ActionGame\Utilities</Filter>
@@ -427,7 +427,7 @@
       <Filter>Source\ActionGame\Utilities</Filter>
     </ClInclude>
     <Filter Include="Source\ActionGame\Widgets">
-      <UniqueIdentifier>{9772D8F1-D568-4471-8CF7-0A20B91D5B40}</UniqueIdentifier>
+      <UniqueIdentifier>{1C21B5AD-06C1-4862-AA0E-29DD37838ACF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionGame\Widgets\CUserWidget_ActionItem.cpp">
       <Filter>Source\ActionGame\Widgets</Filter>

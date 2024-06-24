@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotify_EndAction() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotify_EndAction, 3076333620);
+	IMPLEMENT_CLASS(UCAnimNotify_EndAction, 2405447640);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotify_EndAction>()
 	{
 		return UCAnimNotify_EndAction::StaticClass();

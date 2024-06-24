@@ -19,9 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ActionGame_Source_ActionGame_Characters_ICharacter_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	ACTIONGAME_API UICharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UICharacter) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UICharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(ACTIONGAME_API, UICharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UICharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UICharacter); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ACTIONGAME_API UICharacter(UICharacter&&); \
@@ -38,8 +38,8 @@ private: \
 	ACTIONGAME_API UICharacter(const UICharacter&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(ACTIONGAME_API, UICharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UICharacter); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UICharacter)
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UICharacter); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UICharacter)
 
 
 #define ActionGame_Source_ActionGame_Characters_ICharacter_h_10_GENERATED_UINTERFACE_BODY() \

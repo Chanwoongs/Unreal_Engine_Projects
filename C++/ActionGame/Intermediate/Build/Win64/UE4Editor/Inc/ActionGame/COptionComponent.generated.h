@@ -39,7 +39,7 @@ public: \
 	NO_API UCOptionComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCOptionComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCOptionComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCOptionComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCOptionComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCOptionComponent(UCOptionComponent&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCOptionComponent(const UCOptionComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCOptionComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCOptionComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCOptionComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCOptionComponent)
 
 

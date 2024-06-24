@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeCHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACHUD, 1201149249);
+	IMPLEMENT_CLASS(ACHUD, 4288601235);
 	template<> ACTIONGAME_API UClass* StaticClass<ACHUD>()
 	{
 		return ACHUD::StaticClass();

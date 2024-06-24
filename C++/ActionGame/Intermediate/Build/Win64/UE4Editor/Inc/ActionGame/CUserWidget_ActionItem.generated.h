@@ -51,7 +51,7 @@ public: \
 	NO_API UCUserWidget_ActionItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCUserWidget_ActionItem) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCUserWidget_ActionItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_ActionItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_ActionItem); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCUserWidget_ActionItem(UCUserWidget_ActionItem&&); \
@@ -68,7 +68,7 @@ private: \
 	NO_API UCUserWidget_ActionItem(const UCUserWidget_ActionItem&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCUserWidget_ActionItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_ActionItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_ActionItem); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCUserWidget_ActionItem)
 
 

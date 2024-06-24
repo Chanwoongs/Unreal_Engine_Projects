@@ -39,7 +39,7 @@ public: \
 	NO_API UCBTTaskNode_Action(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCBTTaskNode_Action) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTTaskNode_Action); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_Action); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_Action); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCBTTaskNode_Action(UCBTTaskNode_Action&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCBTTaskNode_Action(const UCBTTaskNode_Action&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCBTTaskNode_Action); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_Action); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCBTTaskNode_Action); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCBTTaskNode_Action)
 
 

@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolPath() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_ACPatrolPath();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ActionGame();
-	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USplineComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 // End Cross Module References
 	void ACPatrolPath::StaticRegisterNativesACPatrolPath()
 	{
@@ -35,22 +35,22 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolPath() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bLoop_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Spline_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Spline;
+		static void NewProp_bLoop_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bLoop;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bLoop_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Spline_MetaData[];
 #endif
-		static void NewProp_bLoop_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bLoop;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Spline;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -66,30 +66,6 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolPath() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData[] = {
-		{ "Category", "CPatrolPath" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData[] = {
-		{ "Category", "CPatrolPath" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline = { "Spline", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Spline), Z_Construct_UClass_USplineComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData[] = {
-		{ "Category", "CPatrolPath" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop_MetaData[] = {
 		{ "Category", "Loop" },
 		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
@@ -100,11 +76,35 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolPath() {}
 		((ACPatrolPath*)Obj)->bLoop = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop = { "bLoop", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACPatrolPath), &Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData[] = {
+		{ "Category", "CPatrolPath" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData[] = {
+		{ "Category", "CPatrolPath" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline = { "Spline", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Spline), Z_Construct_UClass_USplineComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData[] = {
+		{ "Category", "CPatrolPath" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Actors/CPatrolPath.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACPatrolPath, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACPatrolPath_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_bLoop,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Scene,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Spline,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPatrolPath_Statics::NewProp_Text,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACPatrolPath_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACPatrolPath>::IsAbstract,
@@ -133,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeCPatrolPath() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACPatrolPath, 142487560);
+	IMPLEMENT_CLASS(ACPatrolPath, 2290043223);
 	template<> ACTIONGAME_API UClass* StaticClass<ACPatrolPath>()
 	{
 		return ACPatrolPath::StaticClass();

@@ -48,7 +48,7 @@ public: \
 	NO_API UCUserWidget_Health(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCUserWidget_Health) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCUserWidget_Health); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_Health); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_Health); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCUserWidget_Health(UCUserWidget_Health&&); \
@@ -65,7 +65,7 @@ private: \
 	NO_API UCUserWidget_Health(const UCUserWidget_Health&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCUserWidget_Health); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_Health); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCUserWidget_Health); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCUserWidget_Health)
 
 

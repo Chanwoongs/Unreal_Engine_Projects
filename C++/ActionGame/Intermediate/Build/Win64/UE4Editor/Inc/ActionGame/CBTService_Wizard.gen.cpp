@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTService_Wizard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBTService_Wizard, 2606736743);
+	IMPLEMENT_CLASS(UCBTService_Wizard, 2678665734);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBTService_Wizard>()
 	{
 		return UCBTService_Wizard::StaticClass();

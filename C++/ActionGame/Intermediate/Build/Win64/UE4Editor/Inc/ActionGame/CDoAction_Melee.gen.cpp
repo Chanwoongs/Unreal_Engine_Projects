@@ -109,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeCDoAction_Melee() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACDoAction_Melee, 402324275);
+	IMPLEMENT_CLASS(ACDoAction_Melee, 2840433516);
 	template<> ACTIONGAME_API UClass* StaticClass<ACDoAction_Melee>()
 	{
 		return ACDoAction_Melee::StaticClass();

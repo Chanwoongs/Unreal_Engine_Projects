@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotify_BeginAction() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotify_BeginAction, 816880243);
+	IMPLEMENT_CLASS(UCAnimNotify_BeginAction, 4175491365);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotify_BeginAction>()
 	{
 		return UCAnimNotify_BeginAction::StaticClass();

@@ -39,7 +39,7 @@ public: \
 	NO_API UCPatrolComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCPatrolComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCPatrolComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCPatrolComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCPatrolComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCPatrolComponent(UCPatrolComponent&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCPatrolComponent(const UCPatrolComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCPatrolComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCPatrolComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCPatrolComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCPatrolComponent)
 
 

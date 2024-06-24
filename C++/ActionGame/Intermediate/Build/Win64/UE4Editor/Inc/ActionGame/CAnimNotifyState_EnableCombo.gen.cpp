@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_EnableCombo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_EnableCombo, 959321290);
+	IMPLEMENT_CLASS(UCAnimNotifyState_EnableCombo, 426032641);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotifyState_EnableCombo>()
 	{
 		return UCAnimNotifyState_EnableCombo::StaticClass();

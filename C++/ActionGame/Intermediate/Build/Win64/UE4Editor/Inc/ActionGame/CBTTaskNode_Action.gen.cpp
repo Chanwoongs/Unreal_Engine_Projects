@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeCBTTaskNode_Action() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCBTTaskNode_Action, 592146185);
+	IMPLEMENT_CLASS(UCBTTaskNode_Action, 3504791593);
 	template<> ACTIONGAME_API UClass* StaticClass<UCBTTaskNode_Action>()
 	{
 		return UCBTTaskNode_Action::StaticClass();

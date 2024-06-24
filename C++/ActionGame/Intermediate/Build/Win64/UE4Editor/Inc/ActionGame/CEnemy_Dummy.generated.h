@@ -39,7 +39,7 @@ public: \
 	NO_API ACEnemy_Dummy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACEnemy_Dummy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEnemy_Dummy); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_Dummy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_Dummy); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACEnemy_Dummy(ACEnemy_Dummy&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API ACEnemy_Dummy(const ACEnemy_Dummy&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEnemy_Dummy); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_Dummy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEnemy_Dummy); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACEnemy_Dummy)
 
 

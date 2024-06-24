@@ -49,7 +49,7 @@ public: \
 	NO_API ACDoAction_FireStorm(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACDoAction_FireStorm) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_FireStorm); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_FireStorm); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_FireStorm); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACDoAction_FireStorm(ACDoAction_FireStorm&&); \
@@ -66,7 +66,7 @@ private: \
 	NO_API ACDoAction_FireStorm(const ACDoAction_FireStorm&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACDoAction_FireStorm); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_FireStorm); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACDoAction_FireStorm); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACDoAction_FireStorm)
 
 

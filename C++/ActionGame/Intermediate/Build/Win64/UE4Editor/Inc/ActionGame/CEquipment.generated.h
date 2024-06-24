@@ -73,7 +73,7 @@ public: \
 	NO_API ACEquipment(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACEquipment) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEquipment); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEquipment); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEquipment); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACEquipment(ACEquipment&&); \
@@ -88,7 +88,7 @@ private: \
 	NO_API ACEquipment(const ACEquipment&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACEquipment); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEquipment); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACEquipment); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACEquipment)
 
 

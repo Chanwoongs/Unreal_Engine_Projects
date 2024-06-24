@@ -39,7 +39,7 @@ public: \
 	NO_API UCStatusComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCStatusComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCStatusComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCStatusComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCStatusComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCStatusComponent(UCStatusComponent&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UCStatusComponent(const UCStatusComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCStatusComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCStatusComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCStatusComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCStatusComponent)
 
 

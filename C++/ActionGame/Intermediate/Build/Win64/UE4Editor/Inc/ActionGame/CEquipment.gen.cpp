@@ -19,9 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeCEquipment() {}
 	ACTIONGAME_API UClass* Z_Construct_UClass_ACEquipment_NoRegister();
 	ACTIONGAME_API UClass* Z_Construct_UClass_ACEquipment();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
-	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCStateComponent_NoRegister();
+	ACTIONGAME_API UClass* Z_Construct_UClass_UCStatusComponent_NoRegister();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature_Statics
 	{
@@ -231,25 +231,25 @@ void EmptyLinkFunctionForGeneratedCodeCEquipment() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Status_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEquipmentDelegate_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Status;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_State_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_State;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwnerCharacter_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwnerCharacter;
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEquipmentDelegate;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUnequipmentDelegate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUnequipmentDelegate;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEquipmentDelegate_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwnerCharacter_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEquipmentDelegate;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwnerCharacter;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_State_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_State;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Status_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Status;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -271,13 +271,24 @@ void EmptyLinkFunctionForGeneratedCodeCEquipment() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData[] = {
-		{ "Category", "CEquipment" },
-		{ "EditInline", "true" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData[] = {
 		{ "ModuleRelativePath", "Actions/CEquipment.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_Status = { "Status", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, Status), Z_Construct_UClass_UCStatusComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate = { "OnEquipmentDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OnEquipmentDelegate), Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData[] = {
+		{ "ModuleRelativePath", "Actions/CEquipment.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate = { "OnUnequipmentDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OnUnequipmentDelegate), Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData[] = {
+		{ "Category", "CEquipment" },
+		{ "ModuleRelativePath", "Actions/CEquipment.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter = { "OwnerCharacter", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OwnerCharacter), Z_Construct_UClass_ACharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_State_MetaData[] = {
 		{ "Category", "CEquipment" },
@@ -287,30 +298,19 @@ void EmptyLinkFunctionForGeneratedCodeCEquipment() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_State = { "State", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, State), Z_Construct_UClass_UCStateComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_State_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_State_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData[] = {
 		{ "Category", "CEquipment" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Actions/CEquipment.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter = { "OwnerCharacter", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OwnerCharacter), Z_Construct_UClass_ACharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData[] = {
-		{ "ModuleRelativePath", "Actions/CEquipment.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate = { "OnUnequipmentDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OnUnequipmentDelegate), Z_Construct_UDelegateFunction_ActionGame_UnequipmentDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData[] = {
-		{ "ModuleRelativePath", "Actions/CEquipment.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate = { "OnEquipmentDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, OnEquipmentDelegate), Z_Construct_UDelegateFunction_ActionGame_EquipmentDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACEquipment_Statics::NewProp_Status = { "Status", nullptr, (EPropertyFlags)0x002008000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACEquipment, Status), Z_Construct_UClass_UCStatusComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACEquipment_Statics::NewProp_Status_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACEquipment_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_Status,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_State,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_OnEquipmentDelegate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_OnUnequipmentDelegate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_OwnerCharacter,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_State,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACEquipment_Statics::NewProp_Status,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACEquipment_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACEquipment>::IsAbstract,
@@ -339,7 +339,7 @@ void EmptyLinkFunctionForGeneratedCodeCEquipment() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACEquipment, 3994525842);
+	IMPLEMENT_CLASS(ACEquipment, 2597918970);
 	template<> ACTIONGAME_API UClass* StaticClass<ACEquipment>()
 	{
 		return ACEquipment::StaticClass();

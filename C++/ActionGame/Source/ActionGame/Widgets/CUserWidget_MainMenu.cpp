@@ -61,10 +61,7 @@ void UCUserWidget_MainMenu::Unhovered(FString InName)
 	{
 		UBorder* border = Cast<UBorder>(data.Button->GetWidgetFromName("BG_Border"));
 
-		if (data.Button->GetName() == 
-			
-			
-			Name)
+		if (data.Button->GetName() == InName)
 		{
 			border->SetBrushColor(FLinearColor::White);
 

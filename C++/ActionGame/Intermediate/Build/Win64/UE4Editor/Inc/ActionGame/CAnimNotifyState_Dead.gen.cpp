@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_Dead() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_Dead, 1319142085);
+	IMPLEMENT_CLASS(UCAnimNotifyState_Dead, 3426965278);
 	template<> ACTIONGAME_API UClass* StaticClass<UCAnimNotifyState_Dead>()
 	{
 		return UCAnimNotifyState_Dead::StaticClass();
