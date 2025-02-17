@@ -1,4 +1,4 @@
-#include "CPlayer.h"
+ï»¿#include "CPlayer.h"
 #include "Global.h"
 #include "CRifle.h"
 #include "CAnimInstance.h"
@@ -11,7 +11,7 @@
 #include "Widgets/CUserWidget_Crosshair.h"
 
 
-ACPlayer::ACPlayer() // ±âº» °ªÀº C++·Î ÇÒ´çÀ» ÇÑ´Ù. ¼öÁ¤Àº ºíÇÁ¿¡¼­ °¡´ÉÇÏ´Ù.
+ACPlayer::ACPlayer() // ê¸°ë³¸ ê°’ì€ C++ë¡œ í• ë‹¹ì„ í•œë‹¤. ìˆ˜ì •ì€ ë¸”í”„ì—ì„œ ê°€ëŠ¥í•˜ë‹¤.
 {
 	PrimaryActorTick.bCanEverTick = true;
 
@@ -23,24 +23,24 @@ ACPlayer::ACPlayer() // ±âº» °ªÀº C++·Î ÇÒ´çÀ» ÇÑ´Ù. ¼öÁ¤Àº ºíÇÁ¿¡¼­ °¡´ÉÇÏ´Ù.
 	//Camera->SetupAttachment(SpringArm);
 	CHelpers::CreateComponent<UCameraComponent>(this, &Camera, "Camera", SpringArm);
 
-	// Ä«¸Ş¶ó ±âº» ¼¼ÆÃ
+	// ì¹´ë©”ë¼ ê¸°ë³¸ ì„¸íŒ…
 	bUseControllerRotationYaw = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->MaxWalkSpeed = 400.0f;
 
-	// ±âº» ¸Ş½¬ Àû¿ë
+	// ê¸°ë³¸ ë©”ì‰¬ ì ìš©
 	USkeletalMesh* mesh;
 	CHelpers::GetAsset<USkeletalMesh>(&mesh, "SkeletalMesh'/Game/Character/Mesh/SK_Mannequin.SK_Mannequin'");
 	GetMesh()->SetSkeletalMesh(mesh);
 	GetMesh()->SetRelativeLocation(FVector(0, 0, -90));
 	GetMesh()->SetRelativeRotation(FRotator(0, -90, 0));
 
-	// animation instance class¸¦ °¡Á®¿Í mesh¿¡ ÇÒ´çÇÏ±â
+	// animation instance classë¥¼ ê°€ì ¸ì™€ meshì— í• ë‹¹í•˜ê¸°
 	TSubclassOf<UAnimInstance> animInstance;
 	CHelpers::GetClass<UAnimInstance>(&animInstance, "AnimBlueprint'/Game/ABP_CPlayer.ABP_CPlayer_C'");
 	GetMesh()->SetAnimInstanceClass(animInstance);
 
-	// SpringArm ±âº» ¼¼ÆÃ
+	// SpringArm ê¸°ë³¸ ì„¸íŒ…
 	SpringArm->SetRelativeLocation(FVector(0, 0, 60));
 	SpringArm->TargetArmLength = 200.0f;
 	SpringArm->bDoCollisionTest = false;
@@ -48,7 +48,7 @@ ACPlayer::ACPlayer() // ±âº» °ªÀº C++·Î ÇÒ´çÀ» ÇÑ´Ù. ¼öÁ¤Àº ºíÇÁ¿¡¼­ °¡´ÉÇÏ´Ù.
 	SpringArm->SocketOffset = FVector(0, 60, 0);
 
 	CHelpers::GetClass<UCUserWidget_Crosshair>(&CrosshairClass, "WidgetBlueprint'/Game/Widgets/WB_Crosshair.WB_Crosshair_C'");
-	CHelpers::GetClass<UCameraShake>(&CameraShakeClass, "Blueprint'/Game/BP_CameraShake.BP_CameraShake_C'");
+	CHelpers::GetClass<UCameraShakeBase>(&CameraShakeClass, "Blueprint'/Game/BP_CameraShake.BP_CameraShake_C'");
 
 
 }
@@ -57,13 +57,13 @@ void ACPlayer::GetLocationAndDirection(FVector& OutStart, FVector& OutEnd, FVect
 {
 	OutDirection = Camera->GetForwardVector();
 
-	FTransform transform = Camera->GetComponentToWorld(); // World À§Ä¡ Return
+	FTransform transform = Camera->GetComponentToWorld(); // World ìœ„ì¹˜ Return
 	FVector cameraLocation = transform.GetLocation();
 	OutStart = cameraLocation + OutDirection;
 
-	// ÅºÂø±º Çü¼º
+	// íƒ„ì°©êµ° í˜•ì„±
 	FVector conDirection = UKismetMathLibrary::RandomUnitVectorInEllipticalConeInDegrees(OutDirection, 0.2f, 0.3f);
-	conDirection *= 3000.0f; // »ç°Å¸®
+	conDirection *= 3000.0f; // ì‚¬ê±°ë¦¬
 
 	OutEnd = cameraLocation + conDirection;
 }
@@ -79,7 +79,7 @@ void ACPlayer::BeginPlay()
 	CHelpers::GetAssetDynamic<UMaterialInstanceConstant>(&logoMaterial, "MaterialInstanceConstant'/Game/Materials/M_UE4Man_ChestLogo_Inst.M_UE4Man_ChestLogo_Inst'");
 
 
-	//´ÙÀÌ³»¹Í ¸ÅÅÍ¸®¾ó »ı¼º
+	//ë‹¤ì´ë‚´ë¯¹ ë§¤í„°ë¦¬ì–¼ ìƒì„±
 	BodyMaterial = UMaterialInstanceDynamic::Create(bodyMaterial, this);
 	LogoMaterial = UMaterialInstanceDynamic::Create(logoMaterial, this);
 
@@ -91,7 +91,7 @@ void ACPlayer::BeginPlay()
 	Crosshair->AddToViewport();
 	Crosshair->SetVisibility(ESlateVisibility::Hidden);
 
-	// ÃÑ Spawn ½ÃÅ°±â
+	// ì´ Spawn ì‹œí‚¤ê¸°
 	Rifle = ACRifle::Spawn(GetWorld(), this);
 	OnRifle();
 	
@@ -137,13 +137,13 @@ void ACPlayer::OffFocus()
 
 void ACPlayer::PlayCameraShake()
 {
-	GetController<APlayerController>()->PlayerCameraManager->PlayCameraShake(CameraShakeClass);
+	GetController<APlayerController>()->PlayerCameraManager->StartCameraShake(CameraShakeClass);
 }
 
-// ÇÃ·¹ÀÌ¾î »óÇÏÁÂ¿ì ¿òÁ÷ÀÓ
+// í”Œë ˆì´ì–´ ìƒí•˜ì¢Œìš° ì›€ì§ì„
 void ACPlayer::OnMoveForward(float Axis)
 {
-	// ps. rotatorÀÇ ÇÔ¼ö°¡ ¾ø´Ù¸é quternionÀ¸·Î º¯È¯ÇØº¸ÀÚ
+	// ps. rotatorì˜ í•¨ìˆ˜ê°€ ì—†ë‹¤ë©´ quternionìœ¼ë¡œ ë³€í™˜í•´ë³´ì
 	FRotator rotator = FRotator(0, GetControlRotation().Yaw, 0);
 	FVector direction = FQuat(rotator).GetForwardVector().GetSafeNormal2D();
 
@@ -159,7 +159,7 @@ void ACPlayer::OnMoveRight(float Axis)
 }
 
 
-// ¸¶¿ì½º ÀÔ·ÂÀ¸·Î Ä«¸Ş¶ó ½ÃÁ¡ ¿òÁ÷ÀÓ
+// ë§ˆìš°ìŠ¤ ì…ë ¥ìœ¼ë¡œ ì¹´ë©”ë¼ ì‹œì  ì›€ì§ì„
 void ACPlayer::OnHorizontalLook(float Axis)
 {
 	AddControllerYawInput(Axis);
@@ -169,7 +169,7 @@ void ACPlayer::OnVerticalLook(float Axis)
 	AddControllerPitchInput(Axis);
 }
 
-// ´Ş¸®±â ¾×¼Ç ÀÔ·Â
+// ë‹¬ë¦¬ê¸° ì•¡ì…˜ ì…ë ¥
 void ACPlayer::OnRunning()
 {
 	GetCharacterMovement()->MaxWalkSpeed = 600.0f;

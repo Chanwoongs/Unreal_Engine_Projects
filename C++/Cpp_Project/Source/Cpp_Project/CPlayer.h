@@ -1,16 +1,16 @@
-#pragma once
+ï»¿#pragma once
 
 #include "CoreMinimal.h"
 #include "IRifle.h"
 #include "GameFramework/Character.h"
 #include "CPlayer.generated.h"
 
-// ÀÌ »çÀÌ¿¡ delegate ³ª ±¸Á¶Ã¼ ÀÌ¿Ü´Â Àß ¾Èµé¾î°£´Ù
+// ì´ ì‚¬ì´ì— delegate ë‚˜ êµ¬ì¡°ì²´ ì´ì™¸ëŠ” ì˜ ì•ˆë“¤ì–´ê°„ë‹¤
 
 UCLASS()
 class CPP_PROJECT_API ACPlayer : public ACharacter, public IIRifle
 {
-	// ÀÌ »çÀÌ¿¡´Â ¾Æ¹«·± ÄÚµåµµ µé¾î°¡¸é ¾ÈµÈ´Ù.
+	// ì´ ì‚¬ì´ì—ëŠ” ì•„ë¬´ëŸ° ì½”ë“œë„ ë“¤ì–´ê°€ë©´ ì•ˆëœë‹¤.
 	GENERATED_BODY()
 
 private:
@@ -18,7 +18,7 @@ private:
 		TSubclassOf<class UCUserWidget_Crosshair> CrosshairClass;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Camera")
-		TSubclassOf<class UCameraShake> CameraShakeClass;
+		TSubclassOf<class UCameraShakeBase> CameraShakeClass;
 
 private:
 	UPROPERTY(VisibleDefaultsOnly)
@@ -50,7 +50,7 @@ protected:
 public:	
 	virtual void Tick(float DeltaTime) override;
 
-	// ÀÔ·ÂÀ» ¹Ş¾Æ ¿øÇÏ´Â´ë·Î Ã³¸®ÇÒ ¼ö ÀÖµµ·Ï ÇØÁÖ´Â ÇÔ¼ö
+	// ì…ë ¥ì„ ë°›ì•„ ì›í•˜ëŠ”ëŒ€ë¡œ ì²˜ë¦¬í•  ìˆ˜ ìˆë„ë¡ í•´ì£¼ëŠ” í•¨ìˆ˜
 	void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	void OnFocus() override;
 	void OffFocus() override;
@@ -63,11 +63,11 @@ private:
 	void OnHorizontalLook(float Axis);
 	void OnVerticalLook(float Axis);
 
-	// ¾×¼Ç ÀÔ·ÂÀº parameter°¡ ¾ø´Ù
+	// ì•¡ì…˜ ì…ë ¥ì€ parameterê°€ ì—†ë‹¤
 	void OnRunning();
 	void OffRunning();
 
-	// ÃÑ Action
+	// ì´ Action
 	void OnRifle();
 
 	// Aim mode
@@ -80,7 +80,7 @@ private:
 
 
 public:
-	// BlueprintCallable : BP¿¡¼­ call °¡.´É
+	// BlueprintCallable : BPì—ì„œ call ê°€.ëŠ¥
 	UFUNCTION(BlueprintCallable)
 		void ChangeColor(FLinearColor InColor);
 

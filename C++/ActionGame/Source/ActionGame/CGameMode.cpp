@@ -1,4 +1,4 @@
-#include "CGameMode.h"
+﻿#include "CGameMode.h"
 #include "Global.h"
 
 #include "Characters/CPlayer.h"
@@ -29,5 +29,5 @@ void ACGameMode::BeginPlay()
 	Player = Cast<ACPlayer>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 	InGameUI->UpdateHealth(Player->GetStatus()->GetMaxHealth(), Player->GetStatus()->GetMaxHealth());
 	InGameUI->UpdateRemainEnemy(GetRemainingEnemies());
-}dddd
+}
 
