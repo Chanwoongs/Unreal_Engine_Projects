@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeC02_DrawDebug() {}
 	CPP_PROJECT_API UClass* Z_Construct_UClass_AC02_DrawDebug();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FBox();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FBox();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 // End Cross Module References
 	void AC02_DrawDebug::StaticRegisterNativesAC02_DrawDebug()
 	{
@@ -35,17 +35,17 @@ void EmptyLinkFunctionForGeneratedCodeC02_DrawDebug() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Transform_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InitLocation_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Transform;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InitLocation;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Box_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Box;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InitLocation_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Transform_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InitLocation;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Transform;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -61,12 +61,12 @@ void EmptyLinkFunctionForGeneratedCodeC02_DrawDebug() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData[] = {
 		{ "Category", "DrawDebug" },
 		{ "ModuleRelativePath", "02_Debug/C02_DrawDebug.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform = { "Transform", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC02_DrawDebug, Transform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation = { "InitLocation", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(InitLocation, AC02_DrawDebug), STRUCT_OFFSET(AC02_DrawDebug, InitLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box_MetaData[] = {
 		{ "Category", "DrawDebug" },
@@ -75,16 +75,16 @@ void EmptyLinkFunctionForGeneratedCodeC02_DrawDebug() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box = { "Box", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC02_DrawDebug, Box), Z_Construct_UScriptStruct_FBox, METADATA_PARAMS(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData[] = {
 		{ "Category", "DrawDebug" },
 		{ "ModuleRelativePath", "02_Debug/C02_DrawDebug.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation = { "InitLocation", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(InitLocation, AC02_DrawDebug), STRUCT_OFFSET(AC02_DrawDebug, InitLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform = { "Transform", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC02_DrawDebug, Transform), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC02_DrawDebug_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_InitLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Box,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC02_DrawDebug_Statics::NewProp_Transform,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC02_DrawDebug_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC02_DrawDebug>::IsAbstract,
@@ -113,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_DrawDebug() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC02_DrawDebug, 3988810415);
+	IMPLEMENT_CLASS(AC02_DrawDebug, 2147359301);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC02_DrawDebug>()
 	{
 		return AC02_DrawDebug::StaticClass();

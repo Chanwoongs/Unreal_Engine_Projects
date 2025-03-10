@@ -52,7 +52,7 @@ public: \
 	NO_API AC03_Light(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC03_Light) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_Light); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Light); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Light); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC03_Light(AC03_Light&&); \
@@ -67,7 +67,7 @@ private: \
 	NO_API AC03_Light(const AC03_Light&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_Light); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Light); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Light); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC03_Light)
 
 

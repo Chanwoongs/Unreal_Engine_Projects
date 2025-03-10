@@ -47,7 +47,7 @@ public: \
 	NO_API AC02_SpawnActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC02_SpawnActor) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_SpawnActor); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_SpawnActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_SpawnActor); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC02_SpawnActor(AC02_SpawnActor&&); \
@@ -62,7 +62,7 @@ private: \
 	NO_API AC02_SpawnActor(const AC02_SpawnActor&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_SpawnActor); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_SpawnActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_SpawnActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC02_SpawnActor)
 
 

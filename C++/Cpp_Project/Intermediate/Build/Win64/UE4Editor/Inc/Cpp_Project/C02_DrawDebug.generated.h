@@ -39,7 +39,7 @@ public: \
 	NO_API AC02_DrawDebug(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC02_DrawDebug) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_DrawDebug); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_DrawDebug); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_DrawDebug); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC02_DrawDebug(AC02_DrawDebug&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AC02_DrawDebug(const AC02_DrawDebug&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_DrawDebug); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_DrawDebug); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_DrawDebug); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC02_DrawDebug)
 
 

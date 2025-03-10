@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeC03_Particles() {}
 	CPP_PROJECT_API UClass* Z_Construct_UClass_AC03_Particles();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
-	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AC03_Particles::execPlayParticle)
 	{
@@ -81,17 +81,17 @@ void EmptyLinkFunctionForGeneratedCodeC03_Particles() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particles_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particles;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particles_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particles;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -110,12 +110,13 @@ void EmptyLinkFunctionForGeneratedCodeC03_Particles() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData[] = {
 		{ "Category", "C03_Particles" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_Particles.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles = { "Particles", nullptr, (EPropertyFlags)0x0040000000030001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(Particles, AC03_Particles), STRUCT_OFFSET(AC03_Particles, Particles), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_Particles, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text_MetaData[] = {
 		{ "Category", "C03_Particles" },
@@ -127,17 +128,16 @@ void EmptyLinkFunctionForGeneratedCodeC03_Particles() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_Particles, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData[] = {
 		{ "Category", "C03_Particles" },
-		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_Particles.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_Particles, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles = { "Particles", nullptr, (EPropertyFlags)0x0040000000030001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(Particles, AC03_Particles), STRUCT_OFFSET(AC03_Particles, Particles), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC03_Particles_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Particles_Statics::NewProp_Scene,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Particles_Statics::NewProp_Text,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_Particles_Statics::NewProp_Particles,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC03_Particles_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC03_Particles>::IsAbstract,
@@ -166,7 +166,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Particles() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_Particles, 3199361791);
+	IMPLEMENT_CLASS(AC03_Particles, 3345643972);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_Particles>()
 	{
 		return AC03_Particles::StaticClass();

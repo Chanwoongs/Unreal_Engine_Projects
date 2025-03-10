@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Cube() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_Cube, 1601176548);
+	IMPLEMENT_CLASS(AC03_Cube, 31873742);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_Cube>()
 	{
 		return AC03_Cube::StaticClass();

@@ -18,9 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AC03_EventTrigger::execActorBeginOverlap)
 	{
@@ -46,19 +46,19 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 			AActor* OverlappedActor;
 			AActor* OtherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_EventTrigger_eventActorBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_EventTrigger_eventActorBeginOverlap_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_EventTrigger_eventActorBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OtherActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::NewProp_OtherActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap_Statics::Function_MetaDataParams[] = {
@@ -89,17 +89,17 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Box_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Box;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -109,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Cpp_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AC03_EventTrigger_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap, "ActorBeginOverlap" }, // 3719144961
+		{ &Z_Construct_UFunction_AC03_EventTrigger_ActorBeginOverlap, "ActorBeginOverlap" }, // 76435052
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::Class_MetaDataParams[] = {
@@ -118,13 +118,13 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData[] = {
 		{ "Category", "C03_EventTrigger" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_EventTrigger.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_EventTrigger, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_EventTrigger, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box_MetaData[] = {
 		{ "Category", "C03_EventTrigger" },
@@ -136,17 +136,17 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box = { "Box", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_EventTrigger, Box), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData[] = {
 		{ "Category", "C03_EventTrigger" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_EventTrigger.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_EventTrigger, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_EventTrigger, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC03_EventTrigger_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Scene,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Box,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_EventTrigger_Statics::NewProp_Text,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC03_EventTrigger_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC03_EventTrigger>::IsAbstract,
@@ -175,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_EventTrigger() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_EventTrigger, 3301515933);
+	IMPLEMENT_CLASS(AC03_EventTrigger, 772612682);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_EventTrigger>()
 	{
 		return AC03_EventTrigger::StaticClass();

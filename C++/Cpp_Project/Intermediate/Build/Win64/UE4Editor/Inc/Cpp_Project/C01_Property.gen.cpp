@@ -32,21 +32,21 @@ void EmptyLinkFunctionForGeneratedCodeC01_Property() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Test_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_A_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Test;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_C_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_C;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_A;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_B_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_B;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_A_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_C_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_A;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_C;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Test_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Test;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -62,19 +62,12 @@ void EmptyLinkFunctionForGeneratedCodeC01_Property() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData[] = {
 		{ "Category", "C01_Property" },
 		{ "ModuleRelativePath", "01_Actor/C01_Property.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_Test = { "Test", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, Test), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData[] = {
-		{ "Category", "C01_Property" },
-		{ "ModuleRelativePath", "01_Actor/C01_Property.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_C = { "C", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, C), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, A), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_B_MetaData[] = {
 		{ "Category", "C01_Property" },
@@ -83,17 +76,24 @@ void EmptyLinkFunctionForGeneratedCodeC01_Property() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0040000000000801, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, B), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_B_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_B_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData[] = {
 		{ "Category", "C01_Property" },
 		{ "ModuleRelativePath", "01_Actor/C01_Property.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, A), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_A_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_C = { "C", nullptr, (EPropertyFlags)0x0040000000010001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, C), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_C_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData[] = {
+		{ "Category", "C01_Property" },
+		{ "ModuleRelativePath", "01_Actor/C01_Property.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AC01_Property_Statics::NewProp_Test = { "Test", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC01_Property, Test), METADATA_PARAMS(Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC01_Property_Statics::NewProp_Test_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC01_Property_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_Test,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_C,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_B,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_A,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_B,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_C,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC01_Property_Statics::NewProp_Test,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC01_Property_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC01_Property>::IsAbstract,
@@ -122,7 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeC01_Property() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC01_Property, 2739466323);
+	IMPLEMENT_CLASS(AC01_Property, 3149758383);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC01_Property>()
 	{
 		return AC01_Property::StaticClass();

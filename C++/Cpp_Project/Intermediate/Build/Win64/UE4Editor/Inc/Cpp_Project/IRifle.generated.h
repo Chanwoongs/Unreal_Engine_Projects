@@ -19,9 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Cpp_Project_Source_Cpp_Project_IRifle_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	CPP_PROJECT_API UIRifle(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIRifle) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIRifle) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(CPP_PROJECT_API, UIRifle); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIRifle); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIRifle); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	CPP_PROJECT_API UIRifle(UIRifle&&); \
@@ -38,8 +38,8 @@ private: \
 	CPP_PROJECT_API UIRifle(const UIRifle&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(CPP_PROJECT_API, UIRifle); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIRifle); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIRifle)
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIRifle); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIRifle)
 
 
 #define Cpp_Project_Source_Cpp_Project_IRifle_h_10_GENERATED_UINTERFACE_BODY() \

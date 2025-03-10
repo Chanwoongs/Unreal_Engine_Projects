@@ -39,7 +39,7 @@ public: \
 	NO_API AC03_Cube(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC03_Cube) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_Cube); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Cube); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Cube); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC03_Cube(AC03_Cube&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AC03_Cube(const AC03_Cube&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_Cube); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Cube); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_Cube); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC03_Cube)
 
 

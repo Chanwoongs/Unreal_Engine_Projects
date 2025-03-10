@@ -18,9 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Cpp_Project();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
-	ENGINE_API UClass* Z_Construct_UClass_USpotLightComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTextRenderComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpotLightComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AC03_SpotLight::execOnLightColor)
 	{
@@ -46,19 +46,19 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 			int32 InIndex;
 			FLinearColor InColor;
 		};
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InColor;
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_InIndex;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_InColor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InColor = { "InColor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_SpotLight_eventOnLightColor_Parms, InColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InIndex = { "InIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_SpotLight_eventOnLightColor_Parms, InIndex), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InColor = { "InColor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C03_SpotLight_eventOnLightColor_Parms, InColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InIndex,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::NewProp_InColor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC03_SpotLight_OnLightColor_Statics::Function_MetaDataParams[] = {
@@ -87,17 +87,17 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpotLights_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpotLights;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Text_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Text;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Scene_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpotLights_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Scene;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpotLights;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -107,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Cpp_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AC03_SpotLight_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AC03_SpotLight_OnLightColor, "OnLightColor" }, // 1457911280
+		{ &Z_Construct_UFunction_AC03_SpotLight_OnLightColor, "OnLightColor" }, // 2291724040
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::Class_MetaDataParams[] = {
@@ -116,13 +116,13 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData[] = {
 		{ "Category", "C03_SpotLight" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_SpotLight.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights = { "SpotLights", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(SpotLights, AC03_SpotLight), STRUCT_OFFSET(AC03_SpotLight, SpotLights), Z_Construct_UClass_USpotLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_SpotLight, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text_MetaData[] = {
 		{ "Category", "C03_SpotLight" },
@@ -134,17 +134,17 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text = { "Text", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_SpotLight, Text), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData[] = {
 		{ "Category", "C03_SpotLight" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "03_Collision/C03_SpotLight.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene = { "Scene", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC03_SpotLight, Scene), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights = { "SpotLights", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(SpotLights, AC03_SpotLight), STRUCT_OFFSET(AC03_SpotLight, SpotLights), Z_Construct_UClass_USpotLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC03_SpotLight_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Scene,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_Text,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC03_SpotLight_Statics::NewProp_SpotLights,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC03_SpotLight_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC03_SpotLight>::IsAbstract,
@@ -173,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_SpotLight() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_SpotLight, 408041499);
+	IMPLEMENT_CLASS(AC03_SpotLight, 639346530);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_SpotLight>()
 	{
 		return AC03_SpotLight::StaticClass();

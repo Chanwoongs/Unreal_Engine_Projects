@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeC03_Spawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC03_Spawner, 1492256458);
+	IMPLEMENT_CLASS(AC03_Spawner, 2403802791);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC03_Spawner>()
 	{
 		return AC03_Spawner::StaticClass();

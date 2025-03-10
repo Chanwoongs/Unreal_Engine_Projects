@@ -51,7 +51,7 @@ public: \
 	NO_API ACBullet(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACBullet) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACBullet); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACBullet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACBullet); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACBullet(ACBullet&&); \
@@ -66,7 +66,7 @@ private: \
 	NO_API ACBullet(const ACBullet&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACBullet); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACBullet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACBullet); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACBullet)
 
 

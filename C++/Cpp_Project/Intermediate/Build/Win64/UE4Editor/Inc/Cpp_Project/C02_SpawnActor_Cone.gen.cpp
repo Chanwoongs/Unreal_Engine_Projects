@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_SpawnActor_Cone() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC02_SpawnActor_Cone, 2377281194);
+	IMPLEMENT_CLASS(AC02_SpawnActor_Cone, 863661513);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC02_SpawnActor_Cone>()
 	{
 		return AC02_SpawnActor_Cone::StaticClass();

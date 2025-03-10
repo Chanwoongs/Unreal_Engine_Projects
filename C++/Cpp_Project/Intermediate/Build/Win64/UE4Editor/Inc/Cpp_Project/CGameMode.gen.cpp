@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACGameMode, 1610625548);
+	IMPLEMENT_CLASS(ACGameMode, 1821704507);
 	template<> CPP_PROJECT_API UClass* StaticClass<ACGameMode>()
 	{
 		return ACGameMode::StaticClass();

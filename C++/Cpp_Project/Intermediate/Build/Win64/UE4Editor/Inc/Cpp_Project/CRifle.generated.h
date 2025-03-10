@@ -39,7 +39,7 @@ public: \
 	NO_API ACRifle(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACRifle) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACRifle); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACRifle); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACRifle); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACRifle(ACRifle&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ACRifle(const ACRifle&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACRifle); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACRifle); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACRifle); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACRifle)
 
 

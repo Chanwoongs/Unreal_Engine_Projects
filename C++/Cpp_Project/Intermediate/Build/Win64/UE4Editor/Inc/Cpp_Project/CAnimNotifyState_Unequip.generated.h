@@ -39,7 +39,7 @@ public: \
 	NO_API UCAnimNotifyState_Unequip(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimNotifyState_Unequip) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAnimNotifyState_Unequip); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimNotifyState_Unequip); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimNotifyState_Unequip); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCAnimNotifyState_Unequip(UCAnimNotifyState_Unequip&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API UCAnimNotifyState_Unequip(const UCAnimNotifyState_Unequip&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCAnimNotifyState_Unequip); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimNotifyState_Unequip); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCAnimNotifyState_Unequip); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCAnimNotifyState_Unequip)
 
 

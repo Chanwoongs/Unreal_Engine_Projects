@@ -48,7 +48,7 @@ public: \
 	NO_API AC04_Explosion(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC04_Explosion) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC04_Explosion); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC04_Explosion); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC04_Explosion); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC04_Explosion(AC04_Explosion&&); \
@@ -63,7 +63,7 @@ private: \
 	NO_API AC04_Explosion(const AC04_Explosion&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC04_Explosion); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC04_Explosion); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC04_Explosion); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC04_Explosion)
 
 

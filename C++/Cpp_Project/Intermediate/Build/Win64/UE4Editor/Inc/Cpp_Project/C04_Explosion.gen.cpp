@@ -44,19 +44,19 @@ void EmptyLinkFunctionForGeneratedCodeC04_Explosion() {}
 			AActor* OverlappedActor;
 			AActor* OtherActor;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OverlappedActor;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C04_Explosion_eventActorBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OverlappedActor = { "OverlappedActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C04_Explosion_eventActorBeginOverlap_Parms, OverlappedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(C04_Explosion_eventActorBeginOverlap_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OtherActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OverlappedActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::NewProp_OtherActor,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap_Statics::Function_MetaDataParams[] = {
@@ -97,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeC04_Explosion() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Cpp_Project,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AC04_Explosion_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap, "ActorBeginOverlap" }, // 2799448270
+		{ &Z_Construct_UFunction_AC04_Explosion_ActorBeginOverlap, "ActorBeginOverlap" }, // 1580765779
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC04_Explosion_Statics::Class_MetaDataParams[] = {
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeC04_Explosion() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC04_Explosion, 2613347965);
+	IMPLEMENT_CLASS(AC04_Explosion, 1797017435);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC04_Explosion>()
 	{
 		return AC04_Explosion::StaticClass();

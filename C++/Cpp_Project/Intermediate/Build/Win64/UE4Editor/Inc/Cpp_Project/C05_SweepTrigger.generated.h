@@ -39,7 +39,7 @@ public: \
 	NO_API AC05_SweepTrigger(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC05_SweepTrigger) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC05_SweepTrigger); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC05_SweepTrigger); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC05_SweepTrigger); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC05_SweepTrigger(AC05_SweepTrigger&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AC05_SweepTrigger(const AC05_SweepTrigger&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC05_SweepTrigger); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC05_SweepTrigger); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC05_SweepTrigger); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC05_SweepTrigger)
 
 

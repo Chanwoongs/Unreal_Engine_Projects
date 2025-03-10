@@ -52,7 +52,7 @@ public: \
 	NO_API AC03_ComponentBeginOverlap(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC03_ComponentBeginOverlap) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_ComponentBeginOverlap); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_ComponentBeginOverlap); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_ComponentBeginOverlap); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC03_ComponentBeginOverlap(AC03_ComponentBeginOverlap&&); \
@@ -67,7 +67,7 @@ private: \
 	NO_API AC03_ComponentBeginOverlap(const AC03_ComponentBeginOverlap&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_ComponentBeginOverlap); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_ComponentBeginOverlap); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_ComponentBeginOverlap); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC03_ComponentBeginOverlap)
 
 

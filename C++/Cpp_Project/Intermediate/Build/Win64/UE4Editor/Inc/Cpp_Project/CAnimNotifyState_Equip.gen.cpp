@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_Equip() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_Equip, 1476138907);
+	IMPLEMENT_CLASS(UCAnimNotifyState_Equip, 1668052161);
 	template<> CPP_PROJECT_API UClass* StaticClass<UCAnimNotifyState_Equip>()
 	{
 		return UCAnimNotifyState_Equip::StaticClass();

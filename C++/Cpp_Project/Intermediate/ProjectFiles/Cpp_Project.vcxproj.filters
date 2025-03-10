@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\Cpp_Project.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DA8460DD-82C7-435F-926D-ED39039273B1}</UniqueIdentifier>
+      <UniqueIdentifier>{2EA2542D-CC1F-491F-9CE4-2F8CB8256259}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cpp_Project.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\Cpp_ProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A7335088-A004-4D7D-8437-F3CF7743F1F5}</UniqueIdentifier>
+      <UniqueIdentifier>{E712D899-4982-42FA-A0FA-8E5F8B297FF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,15 +28,12 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cpp_Project">
-      <UniqueIdentifier>{853F2498-DF68-4201-AB94-52B267DEDE2A}</UniqueIdentifier>
+      <UniqueIdentifier>{6EAF2C29-71AC-4AE5-9711-EBE4964EDB7E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\CAnimInstance.cpp">
       <Filter>Source\Cpp_Project</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Cpp_Project\CAnimInstance.h">
-      <Filter>Source\Cpp_Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Cpp_Project\CAnimNotifyState_Equip.h">
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Cpp_Project\CBullet.cpp">
@@ -81,7 +79,7 @@
       <Filter>Source\Cpp_Project</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\01_Actor">
-      <UniqueIdentifier>{B75A89A7-DD29-46A6-A7B9-61D49180E5BA}</UniqueIdentifier>
+      <UniqueIdentifier>{010B6D21-73CD-4AFD-926C-F84975C5F453}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\01_Actor\C01_Property.cpp">
       <Filter>Source\Cpp_Project\01_Actor</Filter>
@@ -114,7 +112,7 @@
       <Filter>Source\Cpp_Project\01_Actor</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\02_Debug">
-      <UniqueIdentifier>{6BD65D8B-FAC7-48FB-88B4-6CF9F0EB9DD1}</UniqueIdentifier>
+      <UniqueIdentifier>{47EC12F3-5802-4C02-B710-1C57C22E58A9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\02_Debug\C02_DrawDebug.cpp">
       <Filter>Source\Cpp_Project\02_Debug</Filter>
@@ -129,7 +127,7 @@
       <Filter>Source\Cpp_Project\02_Debug</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\03_Collision">
-      <UniqueIdentifier>{9D69D9A6-A964-4130-B32A-85B1422E99BF}</UniqueIdentifier>
+      <UniqueIdentifier>{3FC50CD8-A0B2-4D71-8F60-A2088903E7BF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\03_Collision\C03_ActorBeginOverlap.cpp">
       <Filter>Source\Cpp_Project\03_Collision</Filter>
@@ -192,7 +190,7 @@
       <Filter>Source\Cpp_Project\03_Collision</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\04_Trace">
-      <UniqueIdentifier>{23122A0E-6D03-4FE4-85A0-1EA1071F3323}</UniqueIdentifier>
+      <UniqueIdentifier>{7C3C0C6C-30C6-4EC0-AC81-579D3FE70DEE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\04_Trace\C01_Cylinder.cpp">
       <Filter>Source\Cpp_Project\04_Trace</Filter>
@@ -225,7 +223,7 @@
       <Filter>Source\Cpp_Project\04_Trace</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\Notifies">
-      <UniqueIdentifier>{DD1522CE-29F8-4370-AE7F-4BABF180D9FC}</UniqueIdentifier>
+      <UniqueIdentifier>{034BAEA7-0FA0-4277-A2E9-F25E86F8E8A4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\Notifies\CAnimNotifyState_Equip.cpp">
       <Filter>Source\Cpp_Project\Notifies</Filter>
@@ -240,7 +238,7 @@
       <Filter>Source\Cpp_Project\Notifies</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\Utilities">
-      <UniqueIdentifier>{89A7E595-D331-41EC-AB47-513217C06FC5}</UniqueIdentifier>
+      <UniqueIdentifier>{6FDA3483-AD61-4737-914B-26324E9BBFD2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Cpp_Project\Utilities\CHelpers.h">
       <Filter>Source\Cpp_Project\Utilities</Filter>
@@ -255,7 +253,7 @@
       <Filter>Source\Cpp_Project\Utilities</Filter>
     </ClInclude>
     <Filter Include="Source\Cpp_Project\Widgets">
-      <UniqueIdentifier>{0ABE11B6-4CC5-4CB7-BF59-65E87EF583A8}</UniqueIdentifier>
+      <UniqueIdentifier>{1C15D3D6-7B4D-4C05-A6E5-58715818765C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cpp_Project\Widgets\CUserWidget_Crosshair.cpp">
       <Filter>Source\Cpp_Project\Widgets</Filter>

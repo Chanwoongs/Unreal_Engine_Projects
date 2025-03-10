@@ -67,7 +67,7 @@ public: \
 	NO_API AC02_LineTrace(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC02_LineTrace) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_LineTrace); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_LineTrace); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_LineTrace); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC02_LineTrace(AC02_LineTrace&&); \
@@ -82,7 +82,7 @@ private: \
 	NO_API AC02_LineTrace(const AC02_LineTrace&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC02_LineTrace); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_LineTrace); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC02_LineTrace); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC02_LineTrace)
 
 

@@ -48,7 +48,7 @@ public: \
 	NO_API AC03_SpotLight(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AC03_SpotLight) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_SpotLight); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_SpotLight); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_SpotLight); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AC03_SpotLight(AC03_SpotLight&&); \
@@ -63,7 +63,7 @@ private: \
 	NO_API AC03_SpotLight(const AC03_SpotLight&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AC03_SpotLight); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_SpotLight); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC03_SpotLight); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AC03_SpotLight)
 
 

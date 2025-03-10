@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeC02_Log() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC02_Log, 3529520967);
+	IMPLEMENT_CLASS(AC02_Log, 3309064944);
 	template<> CPP_PROJECT_API UClass* StaticClass<AC02_Log>()
 	{
 		return AC02_Log::StaticClass();

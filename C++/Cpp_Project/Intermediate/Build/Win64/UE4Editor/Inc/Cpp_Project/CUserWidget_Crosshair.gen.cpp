@@ -130,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeCUserWidget_Crosshair() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCUserWidget_Crosshair, 1813128410);
+	IMPLEMENT_CLASS(UCUserWidget_Crosshair, 3915178452);
 	template<> CPP_PROJECT_API UClass* StaticClass<UCUserWidget_Crosshair>()
 	{
 		return UCUserWidget_Crosshair::StaticClass();

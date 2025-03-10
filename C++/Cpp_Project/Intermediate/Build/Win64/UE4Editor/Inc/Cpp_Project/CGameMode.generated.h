@@ -39,7 +39,7 @@ public: \
 	NO_API ACGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACGameMode(ACGameMode&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ACGameMode(const ACGameMode&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACGameMode)
 
 

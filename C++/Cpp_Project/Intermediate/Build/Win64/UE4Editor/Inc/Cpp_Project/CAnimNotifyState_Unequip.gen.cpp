@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCAnimNotifyState_Unequip() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCAnimNotifyState_Unequip, 1584852829);
+	IMPLEMENT_CLASS(UCAnimNotifyState_Unequip, 376782619);
 	template<> CPP_PROJECT_API UClass* StaticClass<UCAnimNotifyState_Unequip>()
 	{
 		return UCAnimNotifyState_Unequip::StaticClass();

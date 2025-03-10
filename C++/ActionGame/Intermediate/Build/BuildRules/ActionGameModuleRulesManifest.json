@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\ActionGame\\Source\\ActionGame\\ActionGame.Build.cs",
-		"C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\ActionGame\\Source\\ActionGame.Target.cs",
-		"C:\\Users\\Chanwoongs\\Desktop\\Project\\Unreal_Engine_Tutorial\\C++\\ActionGame\\Source\\ActionGameEditor.Target.cs"
+		"C:\\Users\\user\\Desktop\\Unreal_Engine_Projects\\C++\\ActionGame\\Source\\ActionGame\\ActionGame.Build.cs",
+		"C:\\Users\\user\\Desktop\\Unreal_Engine_Projects\\C++\\ActionGame\\Source\\ActionGame.Target.cs",
+		"C:\\Users\\user\\Desktop\\Unreal_Engine_Projects\\C++\\ActionGame\\Source\\ActionGameEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
